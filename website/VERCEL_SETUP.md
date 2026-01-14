@@ -43,7 +43,7 @@ vercel --prod
 
 ## Verifikation
 Nach dem Deployment sollte:
-- ✅ https://adalbert.vercel.app/ die Homepage zeigen
+- ✅ https://adalbertanki.vercel.app/ die Homepage zeigen
 - ✅ Keine 404-Fehler
 - ✅ Bilder laden (adalbert.png)
 - ✅ Alle Links funktionieren

@@ -10,7 +10,7 @@ Die Root Directory **MUSS** im Vercel Dashboard gesetzt werden, nicht in `vercel
 ### Schritt-für-Schritt:
 
 1. **Gehe zu**: https://vercel.com/dashboard
-2. **Klicke auf dein Projekt**: `adalbert`
+2. **Klicke auf dein Projekt**: `adalbertanki`
 3. **Klicke auf**: **Settings** (oben rechts)
 4. **Im linken Menü**: Klicke auf **General**
 5. **Scrolle nach unten** zu: **Root Directory**

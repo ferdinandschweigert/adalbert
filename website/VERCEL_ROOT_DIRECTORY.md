@@ -3,7 +3,7 @@
 ## Methode 1: Über Settings (Neue Vercel UI)
 
 1. Gehe zu: https://vercel.com/dashboard
-2. Klicke auf dein Projekt **adalbert**
+2. Klicke auf dein Projekt **adalbertanki**
 3. Klicke oben auf den Tab **Settings**
 4. Scrolle nach unten zu **Build & Development Settings**
 5. Dort findest du **Root Directory**
@@ -34,7 +34,7 @@
 ## Methode 4: Falls du es nicht findest - Projekt neu importieren
 
 1. Gehe zu: https://vercel.com/dashboard
-2. Klicke auf dein Projekt **adalbert**
+2. Klicke auf dein Projekt **adalbertanki**
 3. Settings → **General** → ganz unten: **Delete Project**
 4. Lösche das Projekt
 5. Klicke **Add New Project**
@@ -58,7 +58,7 @@ vercel
 # - Set up and deploy? Yes
 # - Which scope? Dein Account
 # - Link to existing project? Yes
-# - What's the name? adalbert
+# - What's the name? adalbertanki
 # - In which directory is your code located? ./
 # - Want to override settings? Yes
 # - Root Directory? website
