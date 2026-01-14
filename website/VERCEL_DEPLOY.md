@@ -12,10 +12,10 @@
    - Vercel will auto-detect Next.js
 
 4. **Configure Project**:
-   - **Root Directory**: Set to `website`
+   - **Root Directory**: Set to `website` (IMPORTANT!)
    - **Framework Preset**: Next.js (auto-detected)
-   - **Build Command**: `npm run build` (runs in website directory)
-   - **Output Directory**: `.next` (default)
+   - **Build Command**: `npm run build` (auto-detected)
+   - **Output Directory**: `.next` (auto-detected)
 
 5. **Environment Variables** (if needed):
    - Add `GEMINI_API_KEY` if you want to use enrichment features
