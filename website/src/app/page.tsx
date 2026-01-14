@@ -192,7 +192,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-12 border-t border-zinc-200 bg-white">
         <div className="container mx-auto px-6">
-          <div className="flex flex-col items-center justify-center gap-4 text-center">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <Image
                 src="/adalbert.png"
@@ -203,7 +203,7 @@ export default function Home() {
               />
               <span className="font-semibold text-zinc-900">Adalbert</span>
             </div>
-            <p className="text-sm text-zinc-500">
+            <p className="text-sm text-zinc-500 text-center">
               Anki MCP Server mit KI-Anreicherung
               <br />
               <span className="text-xs text-zinc-400">
