@@ -110,7 +110,7 @@ export default function Home() {
                 <CardTitle>3. Synchronisieren</CardTitle>
               </CardHeader>
               <CardContent className="text-center text-zinc-600 dark:text-zinc-400">
-                Synct die angereicherten Karten direkt zu Anki Desktop - kein Import/Export nötig!
+                Synchronisiert die angereicherten Karten direkt zu Anki Desktop - kein Import/Export nötig!
               </CardContent>
             </Card>
           </div>
