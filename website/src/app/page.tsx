@@ -46,16 +46,16 @@ export default function Home() {
             <div className="flex flex-col gap-4 sm:flex-row">
               <Button 
                 size="lg" 
-                className="bg-blue-600 hover:bg-blue-700 text-white"
+                className="bg-blue-600 hover:bg-blue-700 text-white whitespace-nowrap"
                 asChild
               >
-                <a href="https://github.com/ferdinandschweigert/adalbert/blob/main/README.md" target="_blank" rel="noopener noreferrer">
-                  <BookOpen className="mr-2 h-5 w-5" />
-                  Dokumentation
+                <a href="https://github.com/ferdinandschweigert/adalbert/blob/main/README.md" target="_blank" rel="noopener noreferrer" className="flex items-center">
+                  <BookOpen className="mr-2 h-5 w-5 flex-shrink-0" />
+                  <span className="whitespace-nowrap">Dokumentation</span>
                 </a>
               </Button>
-              <Button size="lg" variant="outline" asChild>
-                <a href="https://github.com/ferdinandschweigert/adalbert" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" variant="outline" className="whitespace-nowrap" asChild>
+                <a href="https://github.com/ferdinandschweigert/adalbert" target="_blank" rel="noopener noreferrer" className="whitespace-nowrap">
                   GitHub
                 </a>
               </Button>
@@ -211,13 +211,13 @@ export default function Home() {
               </span>
             </p>
             <div className="flex gap-4">
-              <Button variant="ghost" size="sm" asChild>
-                <a href="https://github.com/ferdinandschweigert/adalbert" target="_blank" rel="noopener noreferrer">
+              <Button variant="ghost" size="sm" className="whitespace-nowrap" asChild>
+                <a href="https://github.com/ferdinandschweigert/adalbert" target="_blank" rel="noopener noreferrer" className="whitespace-nowrap">
                   GitHub
                 </a>
               </Button>
-              <Button variant="ghost" size="sm" asChild>
-                <a href="https://github.com/ferdinandschweigert/adalbert/blob/main/README.md" target="_blank" rel="noopener noreferrer">
+              <Button variant="ghost" size="sm" className="whitespace-nowrap" asChild>
+                <a href="https://github.com/ferdinandschweigert/adalbert/blob/main/README.md" target="_blank" rel="noopener noreferrer" className="whitespace-nowrap">
                   Dokumentation
                 </a>
               </Button>
