@@ -1,0 +1,10 @@
+# Ignore root package.json dependencies for Vercel
+# Vercel should only use website/package.json
+package.json
+package-lock.json
+node_modules/
+dist/
+src/
+*.apkg
+.env
+tests/

@@ -16,6 +16,9 @@
    - **Framework Preset**: Next.js (auto-detected)
    - **Build Command**: `npm run build` (auto-detected)
    - **Output Directory**: `.next` (auto-detected)
+   - **Install Command**: `npm install --ignore-scripts` (to skip native modules)
+
+**Important**: Make sure "Root Directory" is set to `website` so Vercel only uses `website/package.json` and doesn't try to install `better-sqlite3` from the root.
 
 5. **Environment Variables** (if needed):
    - Add `GEMINI_API_KEY` if you want to use enrichment features
