@@ -4,6 +4,8 @@
 
 An MCP (Model Context Protocol) server that enriches Anki exam decks with AI-generated German explanations using Gemini API.
 
+🌐 **Live Website**: [https://autoanki.vercel.app](https://autoanki.vercel.app)
+
 > **Note**: "Adalbert" is used as a personal project name. This is an open-source educational tool with no commercial affiliation or copyright claims to the name.
 
 ## How It Works
