@@ -1,5 +1,5 @@
 {
-  "name": "anki-mcp-server",
+  "name": "adalbert",
   "version": "1.0.0",
   "description": "MCP server for enriching Anki cards with AI-generated German explanations",
   "type": "module",
