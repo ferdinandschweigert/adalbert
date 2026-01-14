@@ -188,7 +188,7 @@ export default function Dashboard() {
               {cards.slice(0, 10).map((card, index) => (
                 <div
                   key={index}
-                  className="p-4 border border-zinc-200 rounded-lg bg-zinc-50"
+                  className="p-4 border-2 border-blue-200 rounded-lg bg-white"
                 >
                   <div className="flex items-start justify-between mb-2">
                     <Badge variant="secondary" className="text-xs">
