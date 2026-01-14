@@ -1,17 +1,100 @@
-# Anki Organisations-Features für Adalbert
+# Adalbert Feature-Roadmap 🚀
 
-Eine Übersicht über mögliche Organisations-Features, die Adalbert für dein Anki-Setup bieten könnte.
+Eine strukturierte Übersicht über alle Features und die Entwicklungs-Roadmap von Adalbert – deiner KI-gestützten Lernplattform für Medizinstudenten mit Fokus auf Anki-Anreicherung und Altfragen-Training.
 
-## 🗂️ Deck-Organisation
+---
 
-### Deck-Hierarchie
-- **Decks umbenennen** - Deck-Namen standardisieren und konsistent machen
-- **Decks zusammenführen** - Mehrere ähnliche Decks zu einem kombinieren
-- **Deck-Hierarchien erstellen** - Strukturierte Organisation (z.B. `TUD Klinik::Semester 9::Altfragen::Orthopädie`)
-- **Leere Decks finden** - Automatisch leere oder ungenutzte Decks identifizieren
-- **Deck-Namen standardisieren** - Konsistente Namenskonventionen durchsetzen
+## 📋 Inhaltsverzeichnis
 
-### Beispiel-Struktur
+- [Vision](#-vision)
+- [v1.0.0 – Fundament](#v100--fundament-aktuell)
+- [v1.1.0 – Anki-Anreicherung Plus](#v110--anki-anreicherung-plus)
+- [v1.2.0 – Deck-Organisation](#v120--deck-organisation)
+- [v1.3.0 – Intelligente Tags](#v130--intelligente-tags)
+- [v2.0.0 – Lernplattform Altfragen](#v200--lernplattform-altfragen)
+- [v2.1.0 – Prüfungssimulation](#v210--prüfungssimulation)
+- [v2.2.0 – Lernstatistiken & Analytics](#v220--lernstatistiken--analytics)
+- [v3.0.0 – Community & Zusammenarbeit](#v300--community--zusammenarbeit)
+- [Langfristige Vision](#-langfristige-vision-v40)
+
+---
+
+## 🎯 Vision
+
+**Adalbert** entwickelt sich von einem Anki-Anreicherungs-Tool zu einer vollständigen Lernplattform für Medizinstudenten:
+
+1. **Anki-Anreicherung** – KI-generierte Erklärungen für Prüfungskarten
+2. **Altfragen-Training** – Strukturiertes Lernen mit echten Prüfungsfragen
+3. **Lernplattform** – Umfassende Tools für effektives Medizinstudium
+
+---
+
+## v1.0.0 – Fundament (Aktuell) ✅
+
+> **Status:** Implementiert | **Release:** Initial
+
+### 🔧 Kern-Features
+
+| Feature | Status | Beschreibung |
+|---------|--------|--------------|
+| MCP Server | ✅ | Hintergrund-Server für Cursor-Integration |
+| AnkiConnect Integration | ✅ | Direkte Verbindung zu Anki Desktop |
+| Gemini API Integration | ✅ | KI-gestützte Erklärungsgenerierung |
+| APKG Import | ✅ | Lesen von Anki-Prüfungsdecks |
+| Live Website | ✅ | [adalbertanki.vercel.app](https://adalbertanki.vercel.app) |
+
+### 📝 Karten-Anreicherung
+
+- ✅ **LÖSUNG** – Korrekte Antwort(en) klar dargestellt
+- ✅ **ERKLÄRUNG** – Detaillierte deutsche Erklärung
+- ✅ **ESELSBRÜCKE** – Merksprüche und Gedächtnisstützen
+- ✅ **REFERENZ** – Lehrbuch-/Leitlinien-Verweise
+
+### 📚 Unterstützte Fragetypen
+
+- ✅ **KPRIM** – Multiple-Choice mit mehreren richtigen Antworten
+- ✅ **MC** – Standard Multiple-Choice
+- ✅ **SC** – Single-Choice
+
+---
+
+## v1.1.0 – Anki-Anreicherung Plus
+
+> **Status:** Geplant | **Priorität:** Hoch
+
+### 🆕 Neue Anreicherungs-Features
+
+| Feature | Status | Beschreibung |
+|---------|--------|--------------|
+| Batch-Anreicherung | 🔲 | Alle Karten eines Decks automatisch anreichern |
+| Anreicherungs-Vorlagen | 🔲 | Verschiedene Erklärungs-Stile (kurz/lang/detailliert) |
+| Fachspezifische Prompts | 🔲 | Angepasste Prompts für verschiedene Fächer |
+| Erklärungs-Qualitätsprüfung | 🔲 | Automatische Validierung der Erklärungen |
+| Multi-API Support | 🔲 | GPT-4, Claude, Gemini wählbar |
+
+### 📊 Anreicherungs-Statistiken
+
+- 🔲 **Fortschritts-Tracking** – Wie viele Karten bereits angereichert
+- 🔲 **Qualitäts-Score** – Bewertung der Erklärungsqualität
+- 🔲 **Kosten-Tracking** – API-Kosten pro Anreicherung
+
+---
+
+## v1.2.0 – Deck-Organisation
+
+> **Status:** Geplant | **Priorität:** Hoch
+
+### 🗂️ Deck-Hierarchie
+
+| Feature | Status | Beschreibung |
+|---------|--------|--------------|
+| Decks umbenennen | 🔲 | Standardisierte Namenskonventionen |
+| Decks zusammenführen | 🔲 | Ähnliche Decks kombinieren |
+| Hierarchien erstellen | 🔲 | z.B. `TUD Klinik::Semester 9::Orthopädie` |
+| Leere Decks finden | 🔲 | Ungenutzte Decks identifizieren |
+
+### 📁 Beispiel-Struktur
+
 ```
 TUD Klinik/
   ├── Semester 9/
@@ -20,157 +103,240 @@ TUD Klinik/
   │   │   ├── Innere Medizin
   │   │   └── Chirurgie
   │   └── Lernkarten/
-  │       └── Orthopädie Wichtig (Subset, ~50 Karten)
+  │       └── Orthopädie Wichtig (~50 Karten)
   └── Semester 10/
       └── ...
 ```
 
-## 🏷️ Tag-Management
+### 🔍 Duplikate & Qualität
 
-### Automatische Tags
-- **Tags basierend auf Deck-Namen** - Automatisch Tags aus Deck-Hierarchie erstellen
-  - `#Orthopädie` - Alle Orthopädie-Karten
-  - `#Altfragen` - Alle Altfragen
-  - `#Semester9` - Semester-Zuordnung
-- **Tags basierend auf Fragetyp** - Automatisch Fragetyp-Tags vergeben
-  - `#KPRIM` - Multiple-Choice mit mehreren richtigen Antworten
-  - `#MC` - Standard Multiple-Choice
-  - `#SC` - Single-Choice
-- **Themen-Tags extrahieren** - Automatisch aus Frageninhalt extrahieren
-  - `#Hüfte`, `#Wirbelsäule`, `#Fuß`, `#Knie`, etc.
-- **Wichtigkeits-Tags** - Für Subset-Karten
-  - `#Wichtig` - Für Ankiphil-Style Lernkarten
+- 🔲 **Exakte Duplikate finden** – Identische Fragen erkennen
+- 🔲 **Ähnliche Fragen finden** – Fragen mit ähnlichem Wortlaut
+- 🔲 **Duplikat-Report** – Übersicht & Zusammenführen
+- 🔲 **Karten ohne Erklärung** – Automatisch identifizieren
+- 🔲 **Leere/Ungültige Karten** – Qualitätsprobleme erkennen
 
-### Tag-Organisation
-- **Tags standardisieren** - Inkonsistente Tags zusammenführen (z.B. "ortho" → "Orthopädie")
-- **Tags zusammenführen** - Ähnliche Tags vereinheitlichen
-- **Ungenutzte Tags entfernen** - Tags die nicht mehr verwendet werden löschen
-- **Tag-Hierarchien** - Verschachtelte Tags erstellen (z.B. `#Medizin::Orthopädie::Hüfte`)
+---
 
-## 📚 Karten-Organisation
+## v1.3.0 – Intelligente Tags
 
-### Karten-Gruppierung
-- **Karten nach Themen gruppieren** - Automatische Gruppierung nach Inhalt
-  - Hüfte (45 Karten)
-  - Wirbelsäule (38 Karten)
-  - Knie (32 Karten)
-  - Fuß/Sprunggelenk (28 Karten)
-- **Karten nach Fragetyp sortieren** - Gruppierung nach KPRIM, MC, SC
-- **Karten nach Schwierigkeit** - Basierend auf Häufigkeit oder Komplexität
+> **Status:** Geplant | **Priorität:** Mittel
 
-### Wichtige Karten-Subset
-- **Ankiphil-Style Lernkarten erstellen** - Wichtigste Karten extrahieren
-  - ~50 wichtigste Karten aus 343
-  - Basierend auf:
-    - Häufigkeit in Prüfungen
-    - Grundlagenwissen
-    - Häufige Fehlerquellen
-- **Sub-Deck automatisch erstellen** - `Orthopädie Wichtig` als Subset
+### 🏷️ Automatisches Tagging
 
-### Karten-Bewegung
-- **Karten zwischen Decks verschieben** - Reorganisation von Karten
-- **Karten kopieren** - Für Subset-Erstellung ohne Original zu löschen
-- **Karten filtern** - Nach Tags, Fragetyp, oder Inhalt
+| Feature | Status | Beschreibung |
+|---------|--------|--------------|
+| Deck-basierte Tags | 🔲 | `#Orthopädie`, `#Altfragen`, `#Semester9` |
+| Fragetyp-Tags | 🔲 | `#KPRIM`, `#MC`, `#SC` |
+| Themen-Tags | 🔲 | `#Hüfte`, `#Wirbelsäule`, `#Knie` |
+| Wichtigkeits-Tags | 🔲 | `#Wichtig`, `#Prüfungsrelevant` |
 
-## 🔍 Duplikate & Qualität
+### 🧠 Intelligente Kategorisierung
 
-### Duplikat-Erkennung
-- **Exakte Duplikate finden** - Identische Fragen in verschiedenen Decks
-- **Ähnliche Fragen finden** - Fragen mit leicht unterschiedlichem Wortlaut
-- **Zusammenführen** - Duplikate automatisch zusammenführen oder markieren
-- **Duplikat-Report** - Übersicht über alle gefundenen Duplikate
+- 🔲 **Themen automatisch erkennen** – Aus Frageninhalt extrahieren
+- 🔲 **Schwierigkeit einschätzen** – Basierend auf Komplexität
+- 🔲 **Wichtigkeit bewerten** – Für Subset-Erstellung
+- 🔲 **Tag-Hierarchien** – `#Medizin::Orthopädie::Hüfte`
 
-### Qualitätskontrolle
-- **Karten ohne Erklärung finden** - Automatisch identifizieren und anreichern
-- **Karten mit leeren Optionen** - Ungültige oder unvollständige Karten finden
-- **Karten mit ungültigen Binärcodes** - Fehlerhafte Antwort-Codes identifizieren
-- **Leere Karten** - Karten mit fehlendem Front/Back finden
+### 📚 Wichtig-Subset Feature
 
-## 📊 Statistiken & Übersicht
+- 🔲 **Ankiphil-Style Subsets** – ~50 wichtigste Karten aus großen Decks
+- 🔲 **Basierend auf:** Prüfungshäufigkeit, Grundlagenwissen, Fehlerquellen
+- 🔲 **Automatische Sub-Deck-Erstellung** – `Orthopädie Wichtig`
 
-### Deck-Statistiken
-- **Karten-Anzahl** - Total und nach Fragetyp
-- **Tag-Verteilung** - Welche Tags werden wie oft verwendet
-- **Themen-Verteilung** - Automatische Themen-Analyse
-- **Erklärungs-Status** - Wie viele Karten haben bereits Erklärungen
-- **Qualitäts-Metriken** - Vollständigkeit, Duplikate, etc.
+---
 
-### Beispiel-Report
+## v2.0.0 – Lernplattform Altfragen 🎓
+
+> **Status:** Geplant | **Priorität:** Hoch | **Major Release**
+
+### 🏥 Altfragen-Datenbank
+
+| Feature | Status | Beschreibung |
+|---------|--------|--------------|
+| Altfragen-Import | 🔲 | Sammlung aller verfügbaren Altfragen |
+| Fach-Kategorisierung | 🔲 | Strukturierung nach Fächern/Semestern |
+| Universität-Filter | 🔲 | Altfragen nach Uni sortieren |
+| Jahr-Filter | 🔲 | Altfragen nach Prüfungsjahr |
+| Schwierigkeitsgrad | 🔲 | Einfach/Mittel/Schwer Klassifizierung |
+
+### 📖 Fächer-Übersicht
+
 ```
-Orthopädie Deck:
-- 343 Karten total
-- 120 KPRIM, 150 MC, 73 SC
-- 0 Tags (sollte organisiert werden)
-- 0 Karten mit Erklärungen (können angereichert werden)
-- Themen: Hüfte (45), Wirbelsäule (38), Knie (32), Fuß (28)
+📚 Klinische Fächer
+├── Innere Medizin
+│   ├── Kardiologie (245 Fragen)
+│   ├── Pneumologie (189 Fragen)
+│   └── Gastroenterologie (156 Fragen)
+├── Chirurgie
+│   ├── Allgemeinchirurgie (312 Fragen)
+│   ├── Unfallchirurgie (198 Fragen)
+│   └── Viszeralchirurgie (167 Fragen)
+├── Orthopädie (343 Fragen)
+├── Neurologie (278 Fragen)
+└── ...
+
+📚 Vorklinische Fächer
+├── Anatomie (520 Fragen)
+├── Physiologie (445 Fragen)
+├── Biochemie (389 Fragen)
+└── ...
 ```
 
-## 🤖 Intelligente Features
+### 🎯 Lern-Modi
 
-### Automatische Kategorisierung
-- **Themen automatisch erkennen** - Aus Frageninhalt Themen extrahieren
-- **Schwierigkeit einschätzen** - Basierend auf Komplexität der Frage
-- **Wichtigkeit bewerten** - Für Subset-Erstellung
+- 🔲 **Klassisch** – Frage anzeigen, Antwort aufdecken
+- 🔲 **Quiz-Modus** – Interaktive Abfrage mit Feedback
+- 🔲 **Spaced Repetition** – Anki-Style Wiederholungen
+- 🔲 **Random-Modus** – Zufällige Fragen aus gewählten Fächern
 
-### Vorschläge
-- **Deck-Struktur-Vorschläge** - Basierend auf aktuellen Tags und Inhalten
-- **Tag-Vorschläge** - Für neue Karten basierend auf Inhalt
-- **Organisations-Vorschläge** - Wie Decks besser organisiert werden könnten
+---
 
-## 🔄 Wartung & Backup
+## v2.1.0 – Prüfungssimulation
 
-### Wartung
-- **Backup vor Änderungen** - Automatisches Backup vor größeren Operationen
-- **Änderungsprotokoll** - Was wurde geändert, wann, warum
-- **Validierung** - Deck-Struktur und Karten-Integrität prüfen
+> **Status:** Geplant | **Priorität:** Mittel
 
-### Batch-Operationen
-- **Massen-Tagging** - Viele Karten gleichzeitig taggen
-- **Massen-Verschiebung** - Karten in Batches verschieben
-- **Massen-Anreicherung** - Alle Karten ohne Erklärung anreichern
+### 📝 Prüfungs-Modi
 
-## 💡 Praktische Workflows
+| Feature | Status | Beschreibung |
+|---------|--------|--------------|
+| Mock-Exams | 🔲 | Realistische Prüfungssimulation |
+| Zeitlimit | 🔲 | Prüfungszeit konfigurierbar |
+| Fach-Mix | 🔲 | Kombinierte Fragen aus mehreren Fächern |
+| Semester-Prüfung | 🔲 | Simulation einer Semester-Endprüfung |
 
-### Workflow 1: Deck initial organisieren
-1. "Organisiere mein Orthopädie-Deck"
-   - Tags vergeben (#Orthopädie, #Altfragen, #Semester9)
-   - Themen-Tags extrahieren (#Hüfte, #Wirbelsäule, ...)
-   - Statistiken zeigen
+### 🏆 Prüfungsergebnisse
 
-### Workflow 2: Wichtig-Subset erstellen
-1. "Erstelle ein Wichtig-Subset mit 50 Karten"
-   - Wichtigste Karten identifizieren
-   - Neues Sub-Deck erstellen
-   - Karten dorthin kopieren
+- 🔲 **Sofort-Auswertung** – Ergebnis nach Prüfungsende
+- 🔲 **Detaillierte Analyse** – Schwächen & Stärken identifizieren
+- 🔲 **Vergleich** – Performance vs. Durchschnitt
+- 🔲 **Empfehlungen** – Welche Themen wiederholen
 
-### Workflow 3: Duplikate finden
-1. "Finde Duplikate in meinen Decks"
-   - Ähnliche Fragen finden
-   - Vorschläge zum Zusammenführen
+### 📅 Prüfungs-Kalender
 
-### Workflow 4: Qualität verbessern
-1. "Finde alle Karten ohne Erklärung"
-   - Liste generieren
-   - Automatisch anreichern
+- 🔲 **Prüfungstermine eintragen** – Countdown & Planung
+- 🔲 **Lernplan-Generator** – Automatischer Lernplan basierend auf Zeit
+- 🔲 **Tägliche Ziele** – Empfohlene Lerneinheiten
 
-## 🎯 Priorisierung
+---
 
-### Phase 1: Grundlagen (Höchste Priorität)
-- ✅ Tags automatisch vergeben (Deck-basiert, Fragetyp)
-- ✅ Statistiken & Übersicht
-- ✅ Karten ohne Erklärung finden
+## v2.2.0 – Lernstatistiken & Analytics
 
-### Phase 2: Organisation (Hohe Priorität)
-- ✅ Wichtig-Subset erstellen
-- ✅ Duplikate finden
-- ✅ Deck-Hierarchie standardisieren
+> **Status:** Geplant | **Priorität:** Mittel
 
-### Phase 3: Erweiterte Features (Mittlere Priorität)
-- ✅ Themen-Tags automatisch extrahieren
-- ✅ Karten nach Themen gruppieren
-- ✅ Intelligente Vorschläge
+### 📊 Persönliche Statistiken
 
-### Phase 4: Wartung (Niedrige Priorität)
-- ✅ Backup-System
-- ✅ Änderungsprotokoll
-- ✅ Batch-Operationen
+| Feature | Status | Beschreibung |
+|---------|--------|--------------|
+| Lernzeit-Tracking | 🔲 | Gesamte Lernzeit pro Tag/Woche/Monat |
+| Karten-Statistiken | 🔲 | Gelernte/Neue/Fällige Karten |
+| Erfolgsquote | 🔲 | Richtig/Falsch pro Fach |
+| Streak-Tracking | 🔲 | Tägliche Lernsträhne |
+
+### 📈 Fortschritts-Dashboard
+
+```
+📊 Dein Lernfortschritt diese Woche
+═══════════════════════════════════
+✅ Gelernte Karten:     847
+⏱️ Lernzeit:           12h 34min
+📈 Erfolgsquote:       78%
+🔥 Streak:             14 Tage
+
+📚 Top Fächer diese Woche:
+1. Orthopädie        ████████████ 89%
+2. Innere Medizin    ████████░░░░ 72%
+3. Chirurgie         ███████░░░░░ 65%
+
+⚠️ Wiederholungsbedarf:
+- Pharmakologie (43 Karten fällig)
+- Neurologie (28 Karten fällig)
+```
+
+### 🎯 Schwächen-Analyse
+
+- 🔲 **Themen mit niedrigster Erfolgsquote** – Fokus-Empfehlungen
+- 🔲 **Häufig falsche Fragen** – Markierte Problemkarten
+- 🔲 **Vergessens-Kurve** – Wann Wiederholung nötig
+- 🔲 **Verbesserungs-Trend** – Fortschritt über Zeit
+
+---
+
+## v3.0.0 – Community & Zusammenarbeit
+
+> **Status:** Langfristig | **Priorität:** Niedrig | **Major Release**
+
+### 👥 Community-Features
+
+| Feature | Status | Beschreibung |
+|---------|--------|--------------|
+| Deck-Sharing | 🔲 | Angereicherte Decks teilen |
+| Erklärungs-Bewertung | 🔲 | Community bewertet Erklärungen |
+| Diskussionen | 🔲 | Fragen zu schwierigen Karten stellen |
+| Lerngruppen | 🔲 | Gemeinsam lernen & Fortschritt teilen |
+
+### 🏆 Gamification
+
+- 🔲 **Achievements** – Meilensteine & Abzeichen
+- 🔲 **Leaderboard** – Rangliste (optional, anonymisiert)
+- 🔲 **Challenges** – Wöchentliche Lern-Challenges
+- 🔲 **XP-System** – Punkte für Lernfortschritt
+
+### 📤 Deck-Marketplace
+
+- 🔲 **Hochwertige Decks teilen** – Von der Community kuratiert
+- 🔲 **Deck-Bewertungen** – Sterne & Reviews
+- 🔲 **Fach-Kategorien** – Decks nach Fächern durchsuchen
+- 🔲 **Universität-spezifische Decks** – Nach Uni filtern
+
+---
+
+## 🔮 Langfristige Vision (v4.0+)
+
+### 🤖 KI-Tutor
+
+- 🔲 **Personalisierter Lernassistent** – KI kennt deine Schwächen
+- 🔲 **Adaptive Fragen** – Schwierigkeit passt sich an
+- 🔲 **Erklärungen on-demand** – Bei jeder Frage nachfragen
+- 🔲 **Lernstil-Anpassung** – Visuell/Auditiv/Praktisch
+
+### 📱 Mobile App
+
+- 🔲 **iOS & Android App** – Unterwegs lernen
+- 🔲 **Offline-Modus** – Ohne Internet verfügbar
+- 🔲 **Push-Notifications** – Lern-Erinnerungen
+- 🔲 **Widget** – Tägliche Karte auf dem Homescreen
+
+### 🔗 Integrationen
+
+- 🔲 **Amboss-Integration** – Verknüpfung mit Amboss-Artikeln
+- 🔲 **Meditricks-Links** – Merkbilder verlinken
+- 🔲 **Lehrbuch-Integration** – Direkte Kapitel-Verweise
+- 🔲 **Kalender-Sync** – Prüfungstermine synchronisieren
+
+---
+
+## 📊 Status-Legende
+
+| Symbol | Bedeutung |
+|--------|-----------|
+| ✅ | Implementiert |
+| 🔲 | Geplant |
+| 🚧 | In Entwicklung |
+| ⏸️ | Pausiert |
+
+---
+
+## 💡 Feature-Vorschläge
+
+Hast du Ideen für neue Features? Erstelle ein GitHub Issue oder kontaktiere uns!
+
+**Fokus-Bereiche für Vorschläge:**
+- 📚 Anki-Anreicherung verbessern
+- 🎓 Altfragen-Training optimieren
+- 📊 Lernstatistiken erweitern
+- 👥 Community-Features
+
+---
+
+*Zuletzt aktualisiert: Januar 2026*
