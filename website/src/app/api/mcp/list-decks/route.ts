@@ -1,8 +1,24 @@
 import { NextResponse } from 'next/server';
 
-const ANKICONNECT_URL = 'http://localhost:8765';
+// Only allow AnkiConnect on localhost for security
+const ANKICONNECT_URL = process.env.ANKICONNECT_URL || 'http://localhost:8765';
+
+// Security: Only allow localhost connections
+function isLocalhost(url: string): boolean {
+  try {
+    const urlObj = new URL(url);
+    return urlObj.hostname === 'localhost' || urlObj.hostname === '127.0.0.1';
+  } catch {
+    return false;
+  }
+}
 
 async function ankiRequest(request: any): Promise<any> {
+  // Security: Block non-localhost connections
+  if (!isLocalhost(ANKICONNECT_URL)) {
+    throw new Error('AnkiConnect is only available on localhost for security reasons');
+  }
+  
   const response = await fetch(ANKICONNECT_URL, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },

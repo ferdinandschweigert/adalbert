@@ -1,8 +1,30 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-const ANKICONNECT_URL = 'http://localhost:8765';
+// Only allow AnkiConnect on localhost for security
+const ANKICONNECT_URL = process.env.ANKICONNECT_URL || 'http://localhost:8765';
+
+// Security: Only allow localhost connections
+function isLocalhost(url: string): boolean {
+  try {
+    const urlObj = new URL(url);
+    return urlObj.hostname === 'localhost' || urlObj.hostname === '127.0.0.1';
+  } catch {
+    return false;
+  }
+}
+
+// Security: Sanitize deck name to prevent injection
+function sanitizeDeckName(deckName: string): string {
+  // Remove potentially dangerous characters
+  return deckName.replace(/[<>"']/g, '').trim();
+}
 
 async function ankiRequest(request: any): Promise<any> {
+  // Security: Block non-localhost connections
+  if (!isLocalhost(ANKICONNECT_URL)) {
+    throw new Error('AnkiConnect is only available on localhost for security reasons');
+  }
+  
   const response = await fetch(ANKICONNECT_URL, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -35,7 +57,7 @@ async function getCardsFromDeck(deckName: string): Promise<any> {
       );
     }
     
-    // Get note IDs from the deck
+    // Get note IDs from the deck (deckName is already sanitized)
     const noteIds = await ankiRequest({
       action: 'findNotes',
       version: 6,
@@ -98,7 +120,16 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const result = await getCardsFromDeck(deckName);
+    // Security: Sanitize input
+    const sanitizedDeckName = sanitizeDeckName(deckName);
+    if (!sanitizedDeckName) {
+      return NextResponse.json(
+        { error: 'Invalid deck name' },
+        { status: 400 }
+      );
+    }
+
+    const result = await getCardsFromDeck(sanitizedDeckName);
     return NextResponse.json({ success: true, ...result });
   } catch (error: any) {
     console.error('Get cards error:', error);
