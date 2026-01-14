@@ -44,21 +44,23 @@ export default function Home() {
               KI-generierten deutschen Erklärungen anreichert und organisiert.
             </p>
             <div className="flex flex-col gap-4 sm:flex-row">
-              <Button 
-                size="lg" 
-                className="bg-blue-600 hover:bg-blue-700 text-white whitespace-nowrap"
-                asChild
+              <a 
+                href="https://github.com/ferdinandschweigert/adalbert/blob/main/README.md" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-500 h-10 px-8 bg-blue-600 text-white shadow hover:bg-blue-700"
               >
-                <a href="https://github.com/ferdinandschweigert/adalbert/blob/main/README.md" target="_blank" rel="noopener noreferrer" className="flex items-center">
-                  <BookOpen className="mr-2 h-5 w-5 flex-shrink-0" />
-                  <span className="whitespace-nowrap">Dokumentation</span>
-                </a>
-              </Button>
-              <Button size="lg" variant="outline" className="whitespace-nowrap" asChild>
-                <a href="https://github.com/ferdinandschweigert/adalbert" target="_blank" rel="noopener noreferrer" className="whitespace-nowrap">
-                  GitHub
-                </a>
-              </Button>
+                <BookOpen className="mr-2 h-5 w-5 flex-shrink-0" />
+                Dokumentation
+              </a>
+              <a 
+                href="https://github.com/ferdinandschweigert/adalbert" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-500 h-10 px-8 border border-blue-200 bg-white text-blue-700 shadow-sm hover:bg-blue-50 hover:text-blue-800"
+              >
+                GitHub
+              </a>
             </div>
           </div>
         </div>
