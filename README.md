@@ -1,4 +1,4 @@
-![Adalbert](assets/adalbert.png)
+<img src="assets/adalbert.png" alt="Adalbert" width="25%"/>
 
 # Adalbert - Anki MCP Server
 
