@@ -42,17 +42,35 @@ npm run build
 
 Once configured, just ask me (Adalbert):
 - "List my Anki decks"
-- "Read the exam deck at ~/Downloads/klausur.apkg"
+- "Get cards from my 'Orthopädie' deck"
 - "Enrich these cards with German explanations"
 - "Sync the enriched cards to my 'Prüfungsvorbereitung' deck"
 
+### Direct Anki Integration
+
+The server can read cards directly from your Anki Desktop decks (no export needed!):
+- Reads all fields including question, options (Q_1 to Q_5), and answer codes
+- Preserves original answers in a separate field
+- Adds enriched explanations without losing existing data
+
 ## Card Enrichment
 
-Each card gets:
-- **Original question** (front)
-- **Original answer** (back)
-- **📚 ERKLÄRUNG** - Detailed German explanation
-- **💡 ESELSBRÜCKE** - Memory aids when applicable
+Each card gets enriched with:
+- **✅ LÖSUNG** - The correct answer(s) clearly stated at the top
+- **📚 ERKLÄRUNG** - Detailed German explanation:
+  - General introduction to the concept
+  - Why the correct options are correct
+  - Why the incorrect options are wrong
+- **💡 ESELSBRÜCKE** - Memory aids (mnemonics) when applicable
+- **📖 REFERENZ** - References to textbooks/guidelines (e.g., "Duale Reihe Orthopädie")
+
+### Supported Question Types
+
+- **KPRIM** (Multiple correct answers) - e.g., "1 1 0 1"
+- **MC** (Multiple Choice) - Single correct answer
+- **SC** (Single Choice) - One correct answer
+
+The system automatically reads options from Anki cards and generates explanations for each option.
 
 ## How It Connects
 
