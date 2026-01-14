@@ -10,8 +10,7 @@ import {
   CheckCircle, 
   AlertCircle,
   RefreshCw,
-  FileText,
-  Sparkles
+  FileText
 } from 'lucide-react';
 
 interface Deck {
@@ -35,8 +34,10 @@ export default function Dashboard() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [status, setStatus] = useState<string>('');
+  const [isHosted, setIsHosted] = useState<boolean | null>(null);
 
   const loadDecks = async () => {
+    if (isHosted) return;
     setLoading(true);
     setError(null);
     setStatus('Lade Decks...');
@@ -58,7 +59,7 @@ export default function Dashboard() {
   };
 
   const loadCards = async (deckName: string) => {
-    if (!deckName) return;
+    if (!deckName || isHosted) return;
     setLoading(true);
     setError(null);
     setStatus(`Lade Karten aus "${deckName}"...`);
@@ -84,14 +85,30 @@ export default function Dashboard() {
   };
 
   useEffect(() => {
-    loadDecks();
+    const host = window.location.hostname;
+    const isLocal =
+      host === 'localhost' ||
+      host === '127.0.0.1' ||
+      host === '::1';
+    setIsHosted(!isLocal);
   }, []);
 
   useEffect(() => {
-    if (selectedDeck) {
-      loadCards(selectedDeck);
+    if (isHosted === null) return;
+    if (isHosted) {
+      setError(null);
+      setStatus('AnkiConnect nur lokal verfügbar');
+      return;
     }
-  }, [selectedDeck]);
+    loadDecks();
+  }, [isHosted]);
+
+  useEffect(() => {
+    if (isHosted || !selectedDeck) {
+      return;
+    }
+    loadCards(selectedDeck);
+  }, [isHosted, selectedDeck]);
 
   return (
     <div className="space-y-6">
@@ -111,7 +128,7 @@ export default function Dashboard() {
               onClick={loadDecks} 
               variant="outline" 
               size="sm"
-              disabled={loading}
+              disabled={loading || isHosted === true}
             >
               <RefreshCw className={`h-4 w-4 mr-2 ${loading ? 'animate-spin' : ''}`} />
               Aktualisieren
@@ -123,6 +140,15 @@ export default function Dashboard() {
             <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-lg flex items-center gap-2 text-red-700">
               <AlertCircle className="h-4 w-4" />
               <span className="text-sm">{error}</span>
+            </div>
+          )}
+
+          {isHosted && (
+            <div className="mb-4 p-3 bg-amber-50 border border-amber-200 rounded-lg flex items-center gap-2 text-amber-800">
+              <AlertCircle className="h-4 w-4" />
+              <span className="text-sm">
+                AnkiConnect funktioniert nur lokal mit Anki Desktop. Diese Funktionen sind auf Vercel deaktiviert.
+              </span>
             </div>
           )}
           
@@ -142,7 +168,7 @@ export default function Dashboard() {
                 value={selectedDeck}
                 onChange={(e) => setSelectedDeck(e.target.value)}
                 className="w-full px-3 py-2 border border-zinc-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                disabled={loading || decks.length === 0}
+                disabled={loading || decks.length === 0 || isHosted === true}
               >
                 <option value="">-- Deck auswählen --</option>
                 {decks.map((deck) => (
@@ -153,7 +179,7 @@ export default function Dashboard() {
               </select>
             </div>
 
-            {decks.length === 0 && !loading && (
+            {decks.length === 0 && !loading && !isHosted && (
               <div className="text-center py-8 text-zinc-500">
                 <p>Keine Decks gefunden.</p>
                 <p className="text-sm mt-2">
