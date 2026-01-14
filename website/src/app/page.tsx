@@ -19,8 +19,8 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-white">
       {/* Hero Section */}
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(37,99,235,0.15),transparent)]" />
-        <div className="container mx-auto px-6 py-24 md:py-32">
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(37,99,235,0.15),transparent)]" />
+        <div className="relative z-10 container mx-auto px-6 py-24 md:py-32">
           <div className="flex flex-col items-center text-center">
             <div className="mb-8">
               <Image
