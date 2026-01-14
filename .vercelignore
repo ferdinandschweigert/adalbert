@@ -1,7 +1,5 @@
-# Ignore root package.json dependencies for Vercel
-# Vercel should only use website/package.json
-package.json
-package-lock.json
+# Note: Root package.json is needed for Vercel to detect the project structure
+# Only ignore build artifacts, not package.json
 node_modules/
 dist/
 src/
