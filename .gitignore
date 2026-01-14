@@ -22,3 +22,7 @@ read-all-*.js
 *.swp
 *.swo
 *~
+
+# Website build artifacts
+website/.next/
+website/node_modules/
