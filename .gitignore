@@ -6,6 +6,7 @@ dist/
 .DS_Store
 
 # Test scripts and temporary files
+tests/
 test-*.js
 inspect-*.js
 list-models.js
