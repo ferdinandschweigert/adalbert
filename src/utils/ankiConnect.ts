@@ -212,7 +212,8 @@ export async function addNote(
   lösung?: string,
   erklärung?: string,
   eselsbrücke?: string,
-  tags?: string[]
+  tagsOrReferenz?: string[] | string,
+  referenz?: string
 ): Promise<number> {
   // Ensure enriched note type exists
   const modelName = await createEnrichedNoteType();
@@ -222,6 +223,9 @@ export async function addNote(
   if (!decks.includes(deckName)) {
     await createDeck(deckName);
   }
+
+  const tags = Array.isArray(tagsOrReferenz) ? tagsOrReferenz : [];
+  const referenzValue = Array.isArray(tagsOrReferenz) ? referenz || '' : tagsOrReferenz || '';
   
   return await ankiRequest({
     action: 'addNote',
@@ -237,8 +241,9 @@ export async function addNote(
           Lösung: lösung || '',
           Erklärung: erklärung || '',
           Eselsbrücke: eselsbrücke || '',
+          Referenz: referenzValue,
         },
-        tags: tags || [],
+        tags,
       },
     },
   });
