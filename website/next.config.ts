@@ -1,8 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'standalone',
-  // Ensure proper routing
+  // Remove standalone output for Vercel
+  // Vercel handles the build output automatically
   trailingSlash: false,
 };
 
