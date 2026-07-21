@@ -6,6 +6,8 @@ An MCP (Model Context Protocol) server that enriches Anki exam decks with AI-gen
 
 🌐 **Live Website**: [https://adalbertanki.vercel.app](https://adalbertanki.vercel.app)
 
+🎓 **Altfragen (M2)**: On the website, open [`/altfragen`](https://adalbertanki.vercel.app/altfragen) to upload Gedächtnisprotokolle (PDF or text), auto-convert them into clickable SC/MC/KPRIM questions, and practice (“kreuzen”) in the browser. Converted exams stay in your local Klausurbank (localStorage) with JSON backup.
+
 > **Note**: "Adalbert" is used as a personal project name. This is an open-source educational tool with no commercial affiliation or copyright claims to the name.
 
 ## How It Works

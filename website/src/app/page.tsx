@@ -3,13 +3,15 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Dashboard from "@/components/Dashboard";
+import Link from "next/link";
 import { 
   BookOpen, 
   Brain, 
   CheckCircle,
   Sparkles,
   Lightbulb,
-  FileText
+  FileText,
+  PenLine
 } from "lucide-react";
 
 export default function Home() {
@@ -42,22 +44,21 @@ export default function Home() {
               KI-generierten deutschen Erklärungen anreichert und organisiert.
             </p>
             <div className="flex flex-col gap-4 sm:flex-row">
+              <Link
+                href="/altfragen"
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#002F5D] h-10 px-8 bg-[#002F5D] text-white shadow hover:bg-[#003d7a]"
+              >
+                <PenLine className="mr-2 h-5 w-5 flex-shrink-0" />
+                Altfragen kreuzen
+              </Link>
               <a 
                 href="https://github.com/ferdinandschweigert/adalbert/blob/main/README.md" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#002F5D] h-10 px-8 bg-[#002F5D] text-white shadow hover:bg-[#003d7a]"
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#002F5D] h-10 px-8 border border-[#002F5D] bg-white text-[#002F5D] shadow-sm hover:bg-[#eef5fb] hover:text-[#002F5D]"
               >
                 <BookOpen className="mr-2 h-5 w-5 flex-shrink-0" />
                 Dokumentation
-              </a>
-              <a 
-                href="https://github.com/ferdinandschweigert/adalbert" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#002F5D] h-10 px-8 border border-[#002F5D] bg-white text-[#002F5D] shadow-sm hover:bg-[#eef5fb] hover:text-[#002F5D]"
-              >
-                GitHub
               </a>
             </div>
           </div>
