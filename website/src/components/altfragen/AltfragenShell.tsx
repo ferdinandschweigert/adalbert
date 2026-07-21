@@ -41,7 +41,13 @@ export function AltfragenShell({
               href="/altfragen"
               className="rounded-md px-3 py-2 text-[#002F5D] hover:bg-[#eef5fb]"
             >
-              Klausuren
+              Kreuzen
+            </Link>
+            <Link
+              href="/altfragen/admin"
+              className="rounded-md px-3 py-2 text-zinc-500 hover:bg-[#eef5fb] hover:text-[#002F5D]"
+            >
+              Admin
             </Link>
           </nav>
         </div>

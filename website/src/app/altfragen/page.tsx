@@ -1,12 +1,11 @@
-import { AltfragenBank } from '@/components/altfragen/AltfragenBank';
+import { AltfragenPublicList } from '@/components/altfragen/AltfragenPublicList';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Altfragen – Adalbert',
-  description:
-    'Gedächtnisprotokolle vom 2. Staatsexamen hochladen und als anklickbare MC-Fragen kreuzen.',
+  description: 'Freigegebene Altfragen kreuzen – SC/MC/KPRIM im Übungsmodus.',
 };
 
 export default function AltfragenPage() {
-  return <AltfragenBank />;
+  return <AltfragenPublicList />;
 }

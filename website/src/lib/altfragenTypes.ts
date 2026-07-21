@@ -13,17 +13,31 @@ export interface StoredExam {
   id: string;
   title: string;
   sourceLabel?: string;
+  description?: string;
+  /** Only published exams appear on the public practice page. */
+  published: boolean;
   createdAt: string;
+  updatedAt: string;
   questions: ParsedQuestion[];
+}
+
+/** Summary without question bodies (public list). */
+export interface ExamSummary {
+  id: string;
+  title: string;
+  sourceLabel?: string;
+  description?: string;
+  published: boolean;
+  createdAt: string;
+  updatedAt: string;
+  questionCount: number;
 }
 
 /** Per-exam practice progress (resume where left off). */
 export interface ExamProgress {
   examId: string;
   currentIndex: number;
-  /** Selected answer bits per question index, e.g. "10000" */
   selections: Record<number, string>;
-  /** Question indices that were checked */
   checked: number[];
   completedAt?: string;
 }
@@ -31,5 +45,11 @@ export interface ExamProgress {
 export interface AltfragenExport {
   version: 1;
   exportedAt: string;
+  exams: StoredExam[];
+}
+
+export interface AltfragenBankFile {
+  version: 1;
+  updatedAt: string;
   exams: StoredExam[];
 }
