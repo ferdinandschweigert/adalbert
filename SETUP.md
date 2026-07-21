@@ -151,3 +151,21 @@ Die Website kann Karten direkt anreichern. So gehst du vor:
 ### "File not found"
 - Use absolute paths or paths relative to your current directory
 - You can use `~` for home directory (e.g., `~/Downloads/exam.apkg`)
+
+## Altfragen (Website): Admin + Kreuzen
+
+- **Studierende**: `/altfragen` – nur freigegebene Klausuren kreuzen
+- **Admin**: `/altfragen/admin` – hochladen, konvertieren, prüfen, freigeben
+
+### Umgebungsvariablen (Website / Vercel)
+
+| Variable | Zweck |
+|----------|--------|
+| `ALTFRAGEN_ADMIN_PASSWORD` | Admin-Login (Standard lokal: `adalbert-admin`) |
+| `GEMINI_API_KEY` / LLM-Keys | Für PDF/Text → Fragen-Konvertierung |
+| `ALTFRAGEN_GITHUB_TOKEN` | Optional: schreibt die Klausurbank persistent nach GitHub (für Vercel) |
+| `ALTFRAGEN_GITHUB_REPO` | Optional, Default `ferdinandschweigert/adalbert` |
+| `ALTFRAGEN_GITHUB_PATH` | Optional, Default `website/data/altfragen-bank.json` |
+| `ALTFRAGEN_GITHUB_BRANCH` | Optional, Default `main` |
+
+Ohne GitHub-Token speichert das Admin-Panel lokal in `website/data/altfragen-bank.json` (lokal/dev). Auf Vercel ohne Token sind Writes flüchtig – für Produktion Token setzen oder die Bank-Datei committen.

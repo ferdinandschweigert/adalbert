@@ -10,11 +10,10 @@ import type { ExamProgress, ParsedQuestion, StoredExam } from '@/lib/altfragenTy
 import {
   clearProgress,
   createEmptyProgress,
-  getExam,
   getProgress,
   saveProgress,
 } from '@/lib/altfragenStore';
-import { CheckCircle, ChevronLeft, ChevronRight, RotateCcw, XCircle } from 'lucide-react';
+import { AlertCircle, CheckCircle, ChevronLeft, ChevronRight, Loader2, RotateCcw, XCircle } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 function emptyBits(optionCount: number): string {
@@ -50,16 +49,37 @@ export function AltfragenPractice({ examId }: { examId: string }) {
   const router = useRouter();
   const [exam, setExam] = useState<StoredExam | null>(null);
   const [progress, setProgress] = useState<ExamProgress | null>(null);
-  const [mounted, setMounted] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState<string | null>(null);
   const [showResult, setShowResult] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
-    const found = getExam(examId);
-    setExam(found);
-    if (!found) return;
-    const existing = getProgress(examId);
-    setProgress(existing ?? createEmptyProgress(examId));
+    let cancelled = false;
+    (async () => {
+      setLoading(true);
+      setLoadError(null);
+      try {
+        const res = await fetch(`/api/altfragen/exams/${examId}`, { cache: 'no-store' });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || 'Klausur nicht gefunden');
+        if (cancelled) return;
+        const found = data.exam as StoredExam;
+        setExam(found);
+        const existing = getProgress(examId);
+        setProgress(existing ?? createEmptyProgress(examId));
+        if (existing?.completedAt) setShowResult(true);
+      } catch (e) {
+        if (!cancelled) {
+          setLoadError(e instanceof Error ? e.message : String(e));
+          setExam(null);
+        }
+      } finally {
+        if (!cancelled) setLoading(false);
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
   }, [examId]);
 
   const persist = useCallback((next: ExamProgress) => {
@@ -87,21 +107,27 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     return { correct, total: progress.checked.length, wrong };
   }, [exam, progress]);
 
-  if (!mounted) {
+  if (loading) {
     return (
       <AltfragenShell subtitle="Laden…">
-        <p className="text-sm text-zinc-500">Lade Klausur…</p>
+        <div className="flex items-center gap-2 text-sm text-zinc-500">
+          <Loader2 className="h-4 w-4 animate-spin" />
+          Lade Klausur…
+        </div>
       </AltfragenShell>
     );
   }
 
-  if (!exam || !progress) {
+  if (loadError || !exam || !progress) {
     return (
       <AltfragenShell subtitle="Nicht gefunden">
         <div className="mx-auto max-w-lg space-y-4 text-center">
-          <p className="text-zinc-600">Diese Klausur ist in diesem Browser nicht gespeichert.</p>
+          <div className="flex items-center justify-center gap-2 text-zinc-600">
+            <AlertCircle className="h-4 w-4" />
+            <span>{loadError || 'Diese Klausur ist nicht freigegeben oder existiert nicht.'}</span>
+          </div>
           <Button asChild>
-            <Link href="/altfragen">Zur Klausurbank</Link>
+            <Link href="/altfragen">Zur Übersicht</Link>
           </Button>
         </div>
       </AltfragenShell>
@@ -126,11 +152,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
   const handleSelect = (optIndex: number) => {
     if (isChecked) return;
     const exclusive = question.type === 'SC';
-    const nextBits = toggleBit(
-      selection || emptyBits(optionCount),
-      optIndex,
-      exclusive
-    );
+    const nextBits = toggleBit(selection || emptyBits(optionCount), optIndex, exclusive);
     persist({
       ...progress,
       selections: { ...progress.selections, [index]: nextBits },
@@ -142,13 +164,11 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     const checked = progress.checked.includes(index)
       ? progress.checked
       : [...progress.checked, index];
-    const isLast = index >= questions.length - 1;
     const allDone = checked.length >= questions.length;
     persist({
       ...progress,
       checked,
       completedAt: allDone ? new Date().toISOString() : progress.completedAt,
-      currentIndex: isLast ? index : index,
     });
     if (allDone) setShowResult(true);
   };
@@ -164,8 +184,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
 
   const handleRestart = () => {
     clearProgress(examId);
-    const fresh = createEmptyProgress(examId);
-    persist(fresh);
+    persist(createEmptyProgress(examId));
     setShowResult(false);
   };
 
@@ -174,9 +193,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
       if (!progress.checked.includes(i)) return acc;
       return acc + (isCorrect(q, progress.selections[i] || '') ? 1 : 0);
     }, 0);
-    const pct = questions.length
-      ? Math.round((answeredCorrect / questions.length) * 100)
-      : 0;
+    const pct = questions.length ? Math.round((answeredCorrect / questions.length) * 100) : 0;
 
     return (
       <AltfragenShell subtitle={exam.title}>
@@ -225,7 +242,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
               Neu starten
             </Button>
             <Button type="button" variant="outline" onClick={() => router.push('/altfragen')}>
-              Zur Klausurbank
+              Zur Übersicht
             </Button>
           </div>
         </div>
@@ -245,9 +262,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
           </p>
           <div className="flex items-center gap-2">
             <Badge variant="secondary">{question.type}</Badge>
-            <span className="text-xs text-zinc-400">
-              {progress.checked.length} geprüft
-            </span>
+            <span className="text-xs text-zinc-400">{progress.checked.length} geprüft</span>
           </div>
         </div>
 
@@ -312,7 +327,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
 
           {question.type === 'KPRIM' && !isChecked && (
             <p className="text-xs text-zinc-500">
-              KPRIM: Jede Aussage einzeln anhaken (richtig = ausgewählt).
+              KPRIM: Jede richtige Aussage anhaken.
             </p>
           )}
           {question.type === 'MC' && !isChecked && (
@@ -367,11 +382,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
 
           <div className="flex gap-2">
             {!isChecked ? (
-              <Button
-                type="button"
-                onClick={handleCheck}
-                disabled={!selection.includes('1')}
-              >
+              <Button type="button" onClick={handleCheck} disabled={!selection.includes('1')}>
                 Antwort prüfen
               </Button>
             ) : (
@@ -385,7 +396,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
 
         <div className="flex justify-center">
           <Button type="button" variant="ghost" size="sm" asChild>
-            <Link href="/altfragen">Klausurbank</Link>
+            <Link href="/altfragen">Übersicht</Link>
           </Button>
         </div>
       </div>

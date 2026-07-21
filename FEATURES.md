@@ -150,20 +150,22 @@ TUD Klinik/
 
 > **Status:** Teilweise live (v1 Subpage) | **Priorität:** Hoch | **Major Release**
 
-### ✅ Live auf der Website (`/altfragen`)
+### ✅ Live auf der Website (`/altfragen` + `/altfragen/admin`)
 
 | Feature | Status | Beschreibung |
 |---------|--------|--------------|
-| PDF/Text-Upload | ✅ | Gedächtnisprotokolle (M2) hochladen oder Text einfügen |
+| Öffentliches Kreuzen | ✅ | Studierende sehen nur freigegebene Klausuren und üben |
+| Admin-Panel | ✅ | Passwortgeschützt: Upload, KI-Konvertierung, Prüfung, Freigabe |
+| PDF/Text-Upload | ✅ | Gedächtnisprotokolle hochladen oder Text einfügen |
 | KI-Konvertierung | ✅ | Automatisch SC/MC/KPRIM mit Lösungsvorschlägen |
-| Lokale Klausurbank | ✅ | Persistenz im Browser (localStorage) + JSON Import/Export |
+| Gemeinsame Klausurbank | ✅ | Server-seitig (`data/altfragen-bank.json`, optional GitHub-Token) |
 | Quiz-Modus (Kreuzen) | ✅ | Anklickbare Optionen, Feedback, Score, Fortsetzen |
 
 ### 🏥 Altfragen-Datenbank (weiter geplant)
 
 | Feature | Status | Beschreibung |
 |---------|--------|--------------|
-| Altfragen-Import | 🚧 | Upload-Pipeline live; geteilte Cloud-DB noch offen |
+| Altfragen-Import | ✅ | Admin-Upload-Pipeline live |
 | Fach-Kategorisierung | 🔲 | Strukturierung nach Fächern/Semestern |
 | Universität-Filter | 🔲 | Altfragen nach Uni sortieren |
 | Jahr-Filter | 🔲 | Altfragen nach Prüfungsjahr |
