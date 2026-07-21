@@ -344,14 +344,17 @@ Dies ist Seite ${pageNum} von ${totalPages}.`;
 
 // LLM-Prompt zum Parsen der Fragen
 function buildParsePrompt(text: string): string {
-  return `Du bist ein Experte für medizinische Prüfungen.
+  return `Du bist ein Experte für das deutsche 2. Staatsexamen (M2 / IMPP) und medizinische Altfragen.
 
-Analysiere den Klausurtext und extrahiere ALLE Prüfungsfragen.
+Analysiere den Klausurtext (oft ein Gedächtnisprotokoll) und extrahiere ALLE Prüfungsfragen.
 
 WICHTIG:
 - Erkenne den Fragetyp: SC (eine Antwort, z.B. "Bitte kreuzen Sie eine Antwort an"), MC (mehrere), KPRIM (ja/nein je Option)
 - Optionen als (A) (B) (C) (D) (E) oder 1.–5. – gib sie exakt als Array
 - "question" = vollständiger Fragetext inkl. Stamm, ohne die Optionsliste
+- Gedächtnisprotokolle sind oft unvollständig oder laut: fehlende Optionen weglassen, keine erfundenen Antworten einfügen
+- Hinweise wie "vermutlich A", "Lösung C", "richtig war …" NICHT in den Fragetext schreiben – nur die eigentliche Frage + Optionen
+- Nummerierung so beibehalten wie im Protokoll, sonst fortlaufend ab 1
 
 Antworte NUR mit diesem JSON (keine Erklärungen):
 {
@@ -376,15 +379,17 @@ function buildAnswerPrompt(questions: ParsedQuestion[]): string {
     return `Frage ${q.number}: ${q.question}\n${optionsText}`;
   }).join('\n\n');
 
-  return `Du bist ein Experte für Dermatologie und medizinische Prüfungen.
+  return `Du bist ein Experte für klinische Medizin und das deutsche 2. Staatsexamen (M2 / IMPP-Stil).
 
-Bestimme die KORREKTEN Antworten für jede Frage. Nutze dein medizinisches Fachwissen.
+Bestimme die KORREKTEN Antworten für jede Frage. Nutze solides klinisches Fachwissen über alle Fächer (Innere, Chirurgie, Pädiatrie, Gynäkologie, Neurologie, Psychiatrie, Pharmakologie usw.).
 
 WICHTIG:
 - Bei SC (Single Choice): Genau EINE richtige Antwort
-- Bei MC (Multiple Choice): Eine oder mehrere richtige Antworten  
-- Gib Antworten als Binärcode (1=richtig, 0=falsch)
-- Gib eine KURZE Erklärung warum
+- Bei MC (Multiple Choice): Eine oder mehrere richtige Antworten
+- Bei KPRIM: Je Option richtig (1) oder falsch (0)
+- Gib Antworten als Binärcode (1=richtig, 0=falsch), Länge = Anzahl der Optionen
+- Gib eine KURZE deutschsprachige Erklärung
+- Wenn die Frage aus einem Gedächtnisprotokoll unklar/unvollständig ist: beste medizinische Schätzung und das in der Erklärung kurz erwähnen
 
 Antworte NUR mit diesem JSON:
 {
@@ -531,15 +536,21 @@ export async function POST(request: NextRequest) {
         );
       }
 
-      // Titel aus erstem Teil extrahieren
-      const titleMatch = text.match(/Derma[^\n]*/i) || text.match(/[A-Z][a-z]+\s+WS\s+\d{2}-\d{2}/);
-      const dateMatch = text.match(/\d{2}\.\d{2}\.\d{4}/);
+      // Titel aus erstem Teil extrahieren (M2 / Fachklausuren)
+      const titleMatch =
+        text.match(/(?:M2|2\.?\s*Staatsexamen|IMPP)[^\n]{0,60}/i) ||
+        text.match(/Gedächtnisprotokoll[^\n]{0,40}/i) ||
+        text.match(/Derma[^\n]*/i) ||
+        text.match(/[A-ZÄÖÜ][a-zäöüß]+\s+WS\s+\d{2}-\d{2}/);
+      const dateMatch =
+        text.match(/\d{2}\.\d{2}\.\d{4}/) ||
+        text.match(/(?:Frühjahr|Herbst|Sommer|Winter)\s*20\d{2}/i);
 
       return NextResponse.json({
         success: true,
         step: 'extract',
         text: text.substring(0, 50000), // Limit
-        title: titleMatch?.[0] || 'Unbekannte Klausur',
+        title: titleMatch?.[0]?.trim() || 'Unbekannte Klausur',
         date: dateMatch?.[0] || '',
         charCount: text.length,
         usedOcr: usedOcr || undefined,

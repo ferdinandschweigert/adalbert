@@ -148,13 +148,22 @@ TUD Klinik/
 
 ## v2.0.0 – Lernplattform Altfragen 🎓
 
-> **Status:** Geplant | **Priorität:** Hoch | **Major Release**
+> **Status:** Teilweise live (v1 Subpage) | **Priorität:** Hoch | **Major Release**
 
-### 🏥 Altfragen-Datenbank
+### ✅ Live auf der Website (`/altfragen`)
 
 | Feature | Status | Beschreibung |
 |---------|--------|--------------|
-| Altfragen-Import | 🔲 | Sammlung aller verfügbaren Altfragen |
+| PDF/Text-Upload | ✅ | Gedächtnisprotokolle (M2) hochladen oder Text einfügen |
+| KI-Konvertierung | ✅ | Automatisch SC/MC/KPRIM mit Lösungsvorschlägen |
+| Lokale Klausurbank | ✅ | Persistenz im Browser (localStorage) + JSON Import/Export |
+| Quiz-Modus (Kreuzen) | ✅ | Anklickbare Optionen, Feedback, Score, Fortsetzen |
+
+### 🏥 Altfragen-Datenbank (weiter geplant)
+
+| Feature | Status | Beschreibung |
+|---------|--------|--------------|
+| Altfragen-Import | 🚧 | Upload-Pipeline live; geteilte Cloud-DB noch offen |
 | Fach-Kategorisierung | 🔲 | Strukturierung nach Fächern/Semestern |
 | Universität-Filter | 🔲 | Altfragen nach Uni sortieren |
 | Jahr-Filter | 🔲 | Altfragen nach Prüfungsjahr |
@@ -186,7 +195,7 @@ TUD Klinik/
 ### 🎯 Lern-Modi
 
 - 🔲 **Klassisch** – Frage anzeigen, Antwort aufdecken
-- 🔲 **Quiz-Modus** – Interaktive Abfrage mit Feedback
+- ✅ **Quiz-Modus** – Interaktive Abfrage mit Feedback (`/altfragen`)
 - 🔲 **Spaced Repetition** – Anki-Style Wiederholungen
 - 🔲 **Random-Modus** – Zufällige Fragen aus gewählten Fächern
 

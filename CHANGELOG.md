@@ -4,6 +4,16 @@ Kurze Übersicht der wichtigsten Änderungen.
 
 ---
 
+## 07/2026
+
+### Altfragen-Lernmodus (Website `/altfragen`)
+- **Gedächtnisprotokolle hochladen** (PDF oder Text) und per KI in SC/MC/KPRIM umwandeln
+- **Klausurbank** im Browser (localStorage) inkl. JSON Import/Export
+- **Kreuzen**: anklickbare Optionen, Feedback, Score, Fortschritt fortsetzen
+- Prompts für **2. Staatsexamen / M2** generalisiert (nicht mehr Derma-only)
+
+---
+
 ## 01/2026
 
 ### Stabilität & Sicherheit
