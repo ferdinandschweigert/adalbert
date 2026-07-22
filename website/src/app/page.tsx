@@ -1,19 +1,10 @@
 import Image from 'next/image';
-import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
+import { AnkiDashboardLazy } from '@/components/AnkiDashboardLazy';
 import { Button } from '@/components/ui/button';
 import { BookOpen, Brain, ChevronRight, PenLine } from 'lucide-react';
-
-const Dashboard = dynamic(() => import('@/components/Dashboard'), {
-  ssr: false,
-  loading: () => (
-    <div className="rounded-xl border border-[#e2e8f0] bg-white p-8 text-center text-sm text-zinc-500">
-      Anki-Dashboard wird geladen…
-    </div>
-  ),
-});
 
 export default function Home() {
   return (
@@ -168,7 +159,7 @@ export default function Home() {
               du AnkiConnect und einen LLM-API-Key — siehe SETUP.md.
             </p>
           </div>
-          <Dashboard />
+          <AnkiDashboardLazy />
         </div>
       </section>
 
