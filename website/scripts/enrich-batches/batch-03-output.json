@@ -1,0 +1,733 @@
+{
+  "examId": "m2-ss26-f26-gedaechtnisprotokoll",
+  "questions": {
+    "61": {
+      "topicLabel": "AGS-Screening",
+      "explanation": "Beim klassischen adrenogenitalen Syndrom mit Salzverlust liegt meist ein 21-Hydroxylase-Mangel vor. Dadurch können Cortisol und Aldosteron nur vermindert gebildet werden, während Vorstufen vor dem Enzymblock ansteigen. Im Neugeborenenscreening wird deshalb im Trockenblut vor allem 17-OH-Progesteron als pathologisch erhöhtes Steroid erfasst. Die erhöhte Konzentration passt zum Salzverlustsyndrom, weil der Mineralokortikoidmangel zusätzlich zu Hyponatriämie, Hyperkaliämie und Exsikkose führen kann. Andere Steroide können je nach Defekt verändert sein, sind aber hier nicht der gesuchte Screeningparameter.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "11-Dehydrokortisol ist nicht der typische Marker des Neugeborenenscreenings beim häufigen 21-Hydroxylase-Mangel. Bei AGS-Fragen ist entscheidend, an die Anreicherung der Vorstufe 17-OH-Progesteron vor dem blockierten Syntheseschritt zu denken.",
+          "term": "11-Dehydrokortisol"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "21-Dehydrokortisol ist kein etablierter Zielparameter des routinemäßigen AGS-Neugeborenenscreenings in dieser Fragestellung. Die Formulierung mit Filterpapier und Trockenblut zielt auf 17-OH-Progesteron.",
+          "term": "21-Dehydrokortisol"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "17-OH-Progesteron steigt beim 21-Hydroxylase-Mangel an, weil es nicht regelrecht weiter zu Cortisol- und Aldosteronvorstufen umgesetzt wird. Genau dieser Anstieg wird im Neugeborenenscreening aus getrocknetem Blut gemessen. Ein hoher Wert ist daher ein zentraler Hinweis auf ein klassisches AGS, insbesondere auf die Salzverlustform.",
+          "term": "17-OH-Progesteron"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "11-Dehydrokortikosteron passt nicht zum gesuchten Screeningbefund des klassischen AGS. Der Salzverlust entsteht gerade durch die gestörte Mineralokortikoidsynthese, während der diagnostische Screeningfokus auf 17-OH-Progesteron liegt.",
+          "term": "11-Dehydrokortikosteron"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Aldosteron ist beim Salzverlust-AGS eher vermindert und nicht der als erhöht gesuchte Trockenblutmarker. Ein niedriger Mineralokortikoideffekt erklärt die Salzverlustsymptomatik, macht Aldosteron aber nicht zur richtigen Screeningantwort.",
+          "term": "Aldosteron"
+        }
+      ]
+    },
+    "62": {
+      "topicLabel": "Analfissur",
+      "explanation": "Plötzlich einschießende Schmerzen beim Absetzen eines eher festen Stuhls sprechen klassisch für eine akute Analfissur. Dass die digital-rektale Untersuchung wegen Schmerzen nicht möglich ist, passt ebenfalls sehr gut dazu. Blut kann vorkommen, muss aber nicht zwingend bemerkt werden und fehlt im Gedächtnisprotokoll nicht entscheidend als Ausschlusskriterium. Hämorrhoiden verursachen häufiger Blutung, Druckgefühl oder Prolaps und sind typischerweise weniger schmerzhaft. Tumoren oder andere perianale Erkrankungen erklären den akuten Defäkationsschmerz weniger plausibel.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Analkarzinom verursacht eher progrediente Beschwerden, Blutung, Fremdkörpergefühl oder tastbare Veränderungen. Ein erstmaliger, schlagartig auftretender Schmerz beim Stuhlgang bei ansonsten beschwerdearmem Patienten passt deutlich besser zu einer Fissur.",
+          "term": "Analkarzinom"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die Analfissur verursacht starke, oft stechende Schmerzen während und nach der Defäkation, besonders bei festem Stuhl. Die Untersuchung kann wegen des Sphinkterspasmus extrem schmerzhaft oder unmöglich sein. Das akute Auftreten ohne chronische Begleitsymptome stützt diese Verdachtsdiagnose.",
+          "term": "Analfissur"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Hämorrhoiden Grad 2 können bluten und beim Pressen prolabieren, verursachen aber meist keine so ausgeprägten akuten Schmerzen. Starke Schmerzen sprechen eher für Komplikationen wie Thrombose oder für eine Analfissur, nicht für unkomplizierte Hämorrhoiden Grad 2.",
+          "term": "Hämorrhoiden Grad 2"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Sinus pilonidalis liegt typischerweise in der Rima ani sakrokokzygeal und macht Schmerzen, Schwellung oder Sekretion dort. Der Defäkationsschmerz und die nicht mögliche rektale Untersuchung weisen eher auf eine Läsion im Analkanal.",
+          "term": "Sinus pilonidalis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Proctalgia fugax beschreibt kurze, krampfartige anorektale Schmerzattacken ohne strukturellen Befund und ohne klaren Auslöser durch harten Stuhl. Die hier geschilderte Situation beim Stuhlgang mit Untersuchungsunmöglichkeit ist für eine Fissur typischer.",
+          "term": "Proktalgia fugax"
+        }
+      ]
+    },
+    "63": {
+      "topicLabel": "Löfgren-Syndrom",
+      "explanation": "Schmerzhafte Sprunggelenkarthritis, Fieber und schmerzhafte rote Knoten an den Unterschenkeln entsprechen der typischen Konstellation eines Erythema nodosum mit Arthritis. Diese Trias ist hochverdächtig auf ein Löfgren-Syndrom als akute Verlaufsform der Sarkoidose. Ein Zeckenstich kurz zuvor kann ablenken, erklärt aber die symmetrische Sprunggelenkbeteiligung mit Erythema nodosum weniger gut. Auch ein leicht auffälliger oder im Protokoll widersprüchlich erinnerter ANA-Befund sollte nicht über die klinische Leitsymptomatik gestellt werden. Bei akuter Sarkoidose können Herz, Lunge und Abdomen initial klinisch unauffällig sein.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Polyarteriitis nodosa verursacht eine nekrotisierende Vaskulitis mittelgroßer Arterien mit Organmanifestationen wie Neuropathie, Hautulzera, Nieren- oder gastrointestinaler Beteiligung. Die Kombination aus Erythema nodosum und Sprunggelenkarthritis ist dafür nicht typisch.",
+          "term": "Polyarteriitis nodosa"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Akutes rheumatisches Fieber folgt typischerweise einer Streptokokkeninfektion und zeigt wandernde Polyarthritis, Karditis, Chorea oder typische Hautzeichen. Eine Tonsillektomie vor Monaten ersetzt keinen passenden vorausgehenden Infekt, und das Erythema nodosum mit Sprunggelenksarthritis lenkt eher zur Sarkoidose.",
+          "term": "Akutes Rheumatisches Fieber"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Borrelieninfektion kann nach Zeckenstich auftreten, typischerweise mit Erythema migrans oder später mit Mono- oder Oligoarthritis, häufig am Knie. Schmerzhafte rote Knoten an den Schienbeinen sind kein klassisches Borreliose-Leitsymptom.",
+          "term": "Borrelien-Infektion"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die akute Sarkoidose kann sich als Löfgren-Syndrom mit Fieber, Erythema nodosum und Sprunggelenkarthritis präsentieren. Gerade junge Erwachsene mit schmerzhaften Unterschenkelknoten und periartikulärer Schwellung der Sprunggelenke passen sehr gut in dieses Muster. Die Blickdiagnose ist klinisch oft entscheidender als unspezifische Laborabweichungen.",
+          "term": "Akute Sarkoidose"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein systemischer Lupus erythematodes kann Arthralgien, Fieber und Hautmanifestationen verursachen, aber Erythema nodosum mit typischer Sprunggelenkarthritis ist nicht die klassische Leitkonstellation. Ein isoliert grenzwertiger ANA-Befund wäre zudem unspezifisch und reicht hier nicht zur Diagnose.",
+          "term": "Systemischer Lupus Erythematodes"
+        }
+      ]
+    },
+    "64": {
+      "topicLabel": "Lebertransplantation",
+      "explanation": "Eine alkoholassoziierte Leberzirrhose ist keine absolute Kontraindikation für eine Lebertransplantation. Entscheidend ist unter anderem eine stabile Abstinenz, psychosoziale Einschätzung und die Wahrscheinlichkeit einer anhaltenden Adhärenz. Die im Examen gesuchte Aussage ist, dass eine Listung nach sechsmonatiger Alkoholabstinenz möglich ist. Die Organvergabe ist nicht auf deutsche Staatsangehörige beschränkt und erfolgt nicht vorwiegend nach bloßer Wartezeit. Aktive maligne Erkrankungen sind dagegen in vielen Situationen eine relevante Kontraindikation, weil Immunsuppression und Tumorprogression problematisch wären.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die Listung zur Transplantation ist nicht auf deutsche Staatsangehörige beschränkt. Maßgeblich sind medizinische Indikation, Erfolgsaussicht, Dringlichkeit und die geltenden Allokationsregeln.",
+          "term": "Nur Deutsche dürfen gelistet werden."
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Bei alkoholassoziierter Leberzirrhose kann eine Transplantation grundsätzlich infrage kommen, wenn eine stabile Abstinenz und ausreichende Mitarbeit vorliegen. Die genannte sechsmonatige Abstinenz ist eine typische Voraussetzung in Prüfungsfragen. Damit ist diese Aussage die zutreffende Option.",
+          "term": "Nach 6-monatiger Alkoholabstinenz darf er gelistet werden."
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Leberallokation richtet sich nicht primär nach Wartezeit. Vielmehr stehen Dringlichkeit und Erfolgsaussicht im Vordergrund; Wartezeit kann allenfalls nachrangig eine Rolle spielen.",
+          "term": "Es geht vorwiegend nach Wartezeit."
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Alkoholische Leberzirrhose ist keine absolute Kontraindikation. Problematisch wäre vor allem fortgesetzter Alkoholkonsum oder fehlende Adhärenz, nicht die Ätiologie an sich.",
+          "term": "Alkoholische Leberzirrhose des Empfängers ist eine absolute Kontraindikation für eine Transplantation."
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine aktive maligne Erkrankung ist wegen der Immunsuppression und der Prognose häufig eine Kontraindikation oder erfordert eine sehr strenge Einzelfallprüfung. Die Aussage, sie sei keine Kontraindikation, ist daher zu pauschal und falsch.",
+          "term": "Aktive maligne Erkrankung des Empfängers ist keine Kontraindikation für eine Transplantation."
+        }
+      ]
+    },
+    "65": {
+      "topicLabel": "Randomisierung",
+      "explanation": "Randomisierung bedeutet, dass Studienteilnehmende nach einem Zufallsverfahren den Studienarmen zugeteilt werden. Dadurch sollen bekannte und unbekannte Störfaktoren im Mittel gleichmäßig auf die Gruppen verteilt werden. Das Ziel ist also Strukturgleichheit der Studienarme zu Beginn der Studie. Randomisierung ersetzt weder die Verblindung noch garantiert sie identische Beobachtung oder Behandlung. Für die Auswertung ist sie außerdem Grundlage einer robusten Intention-to-treat-Analyse, nicht speziell einer aussagekräftigeren Per-Protokoll-Analyse.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Beobachtungsgleichheit meint eher gleiche Erfassung, Nachbeobachtung und Messmethoden in den Studienarmen. Das ist wichtig, wird aber nicht durch die zufällige Zuteilung allein erreicht.",
+          "term": "Beobachtungsgleichheit der Studienarme"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Randomisierung soll die Ausgangsmerkmale der Gruppen vergleichbar machen. Dadurch werden Confounder möglichst gleich verteilt und die Strukturgleichheit der Studienarme gefördert. Genau das ist der zentrale methodische Zweck der Randomisierung.",
+          "term": "Strukturgleichheit der beiden Studienarme"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Behandlungsgleichheit wäre gerade nicht das Ziel, wenn unterschiedliche Interventionen verglichen werden. Gleich sein sollen Rahmenbedingungen und Struktur, nicht die zu prüfende Behandlung selbst.",
+          "term": "Behandlungsgleichheit der Studienarme"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Verblindung kann in randomisierten Studien zusätzlich eingesetzt werden, folgt aber nicht automatisch aus der Randomisierung. Die zufällige Zuteilung sagt noch nichts darüber aus, ob Teilnehmende ihre Gruppenzugehörigkeit kennen.",
+          "term": "Ermöglicht die Verblindung der Versuchspersonen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Per-Protokoll-Analyse berücksichtigt nur regelgerecht behandelte und auswertbare Personen und kann dadurch Verzerrungen einführen. Der methodische Vorteil der Randomisierung wird klassisch durch Auswertung nach Intention-to-treat besser erhalten.",
+          "term": "Aussagekräftigere Per-Protokoll-Analyse"
+        }
+      ]
+    },
+    "66": {
+      "topicLabel": "Pneumothorax",
+      "explanation": "Akut einsetzender starker Schulter- oder Thoraxschmerz mit Dyspnoe ist eine typische klinische Präsentation eines Spontanpneumothorax. Im Röntgenbild würde man dazu eine fehlende periphere Lungenzeichnung, eine sichtbare Pleuralinie und je nach Ausmaß einen kollabierten Lungenanteil erwarten. Die Gedächtnisfrage verweist ausdrücklich auf ein Röntgenbild, das hier nicht vorliegt; die hinterlegte Lösung ist aber der Spontanpneumothorax. Raumforderungen oder parenchymale Herde erklären die plötzliche Schmerz-Dyspnoe-Konstellation weniger gut. Eine Mediastinalverlagerung wäre nur bei Spannungskomponente relevant und ist nicht die gesuchte Hauptdiagnose.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die Aussage mit geschluckten Kugeln passt nicht zur klinischen Konstellation aus akutem Schulterschmerz und Luftnot. Ohne passenden Fremdkörperbefund im Protokoll ist sie als Ablenker zu werten.",
+          "term": "Er hat zwei Kugeln geschluckt"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine perihiläre Raumforderung würde eher chronische oder subakute Beschwerden, Husten, B-Symptomatik oder Zufallsbefunde erklären. Der plötzliche Schmerz mit Dyspnoe spricht eher für einen Pneumothorax.",
+          "term": "Es findet sich eine Raumforderung im linken perihilären Raum (?)."
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Herd im Lungenparenchym ist ein unspezifischer radiologischer Befund und passt nicht so spezifisch zur akuten Symptomatik. Beim Pneumothorax liegt das Hauptproblem im Pleuraspalt und im Lungenkollaps, nicht in einem fokalen Parenchymherd.",
+          "term": "Herd im Lungenparenchym"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Mediastinalverlagerung nach rechts könnte bei großem linksseitigem Spannungspneumothorax vorkommen, ist aber hier nicht die als richtig hinterlegte Aussage. Ohne Bild und ohne Schockzeichen bleibt die Diagnose Spontanpneumothorax die passendere Antwort.",
+          "term": "Mediastinum nach rechts Verlagert"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Der Spontanpneumothorax erklärt die Kombination aus abruptem Schmerz, Leistungsabfall und Dyspnoe am besten. Radiologisch wäre eine abgehobene Pleuralinie mit fehlender Gefäßzeichnung peripher davon typisch. Da die Frage nach der wahrscheinlichsten Bild- und Klinikdiagnose fragt, ist diese Option korrekt.",
+          "term": "Der Patient hat am ehesten einen Spontanpneumothorax."
+        }
+      ]
+    },
+    "67": {
+      "topicLabel": "Virale Gastroenteritis",
+      "explanation": "Akut einsetzende Übelkeit, Erbrechen und wässrige Diarrhöen bei mehreren Familienmitgliedern sprechen am ehesten für eine infektiöse virale Gastroenteritis. Noro- und Rotaviren verursachen typischerweise Ausbrüche mit kurzer Inkubationszeit und hoher Kontagiosität. Die Reiserückkehr von den Kanaren ist hier weniger wichtig als die Gruppenerkrankung in der Familie. Für invasive bakterielle Enteritiden fehlen Hinweise wie blutige Diarrhö, hohes Fieber oder schwere systemische Zeichen. Bei einem Krankenpfleger ist außerdem die infektiologische Relevanz wegen möglicher Weiterverbreitung besonders hoch.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Amöbenruhr wäre eher bei Reise in Endemiegebiete und typischerweise mit dysenterischen, oft blutig-schleimigen Durchfällen zu erwarten. Die Kanaren allein und eine familiäre wässrige Gastroenteritis sprechen nicht dafür.",
+          "term": "Amöbenruhr, weil zuvor auf den Kanaren"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Staphylococcus-aureus-Toxinintoxikation beginnt meist sehr rasch nach kontaminierten Speisen und ist stark von Erbrechen geprägt. Der mehrtägige Verlauf mit mehreren erkrankten Familienmitgliedern passt besser zu einer viralen Gastroenteritis.",
+          "term": "Staph. aureus Toxin durch Lebensmittel Intox"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Noro- oder Rotaviren verursachen akute Brechdurchfälle und treten häufig als Ausbrüche in Familien, Gemeinschaftseinrichtungen oder im Gesundheitswesen auf. Wässrige Diarrhö, Übelkeit und Erbrechen sind typisch. Die kurze zeitliche Häufung bei Kindern und Erwachsenen stützt diese Diagnose.",
+          "term": "Noro- oder Rota-Virus"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Salmonellen können Durchfall nach kontaminierten Lebensmitteln auslösen, häufig mit Fieber und Bauchschmerzen. Die geschilderte familiäre, sehr ansteckend wirkende Brechdurchfallkonstellation passt aber eher zu Noro- oder Rotaviren.",
+          "term": "Salmonellen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll nicht überliefert. Inhaltlich lässt sie sich daher nicht sicher bewerten; entsprechend der hinterlegten Lösung ist sie nicht richtig.",
+          "term": "?"
+        }
+      ]
+    },
+    "68": {
+      "topicLabel": "Insulinom",
+      "explanation": "Beim Insulinom kommt es durch autonome Insulinsekretion zu Nüchternhypoglykämien. Typisch sind adrenerge Symptome wie Schwitzen, Tremor und Palpitationen sowie neuroglykopenische Symptome wie Verwirrtheit, Sehstörungen oder Bewusstseinsstörungen. Da Betroffene Beschwerden oft durch Essen bessern, ist eine Gewichtszunahme eher plausibel als eine Gewichtsabnahme. Gefragt ist, was nicht für ein Insulinom spricht; deshalb ist Gewichtsabnahme die richtige Antwort. Die übrigen Symptome passen sehr gut zur Hypoglykämie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Gewichtsabnahme ist für ein Insulinom nicht typisch. Viele Betroffene nehmen eher zu, weil sie wiederholt Kohlenhydrate zuführen, um Hypoglykämiesymptome zu verhindern oder zu beenden. Da nach dem untypischen Symptom gefragt wird, ist diese Option korrekt.",
+          "term": "Gewichtsabnahme"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Tremor ist ein klassisches adrenerges Warnsymptom der Hypoglykämie. Es spricht daher gerade für und nicht gegen ein Insulinom.",
+          "term": "Tremor"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Schwitzen gehört zu den typischen autonomen Symptomen bei Hypoglykämie. Beim Insulinom kann es besonders nüchtern oder nach längerer Nahrungskarenz auftreten.",
+          "term": "Schwitzen"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Verwirrtheit ist ein neuroglykopenisches Symptom und entsteht durch Glukosemangel im Gehirn. Damit passt sie gut zu spontanen Hypoglykämien bei Insulinom.",
+          "term": "Verwirrtheit"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Palpitationen entstehen durch die sympathoadrenerge Gegenregulation bei Hypoglykämie. Sie sind deshalb ein typisches Begleitsymptom und kein Argument gegen ein Insulinom.",
+          "term": "Palpitationen"
+        }
+      ]
+    },
+    "69": {
+      "topicLabel": "Arterielle Embolie",
+      "explanation": "Zu dieser Frage sind im Protokoll keine Falldetails dokumentiert, die Diagnose ist aber als arterielle Embolie hinterlegt. Eine akute arterielle Embolie führt typischerweise zu einem plötzlich einsetzenden arteriellen Verschluss mit Ischämiezeichen distal des Verschlusses. In Prüfungsfragen wird sie von lokalen Thrombosen dadurch abgegrenzt, dass der Beginn abrupt ist und häufig eine emboligene Quelle vorliegt. Da die Antwortoptionen auf embolische Ursachen fokussieren, ist die allgemeine arterielle Embolie die plausibelste übergeordnete Diagnose. Wegen der fehlenden klinischen Angaben bleibt die inhaltliche Sicherheit eingeschränkt.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Brachialisthrombose wäre ein lokaler thrombotischer Verschluss der Arteria brachialis. Ohne dokumentierte Lokalisation oder thrombotische Risikokonstellation ist sie gegenüber der allgemein hinterlegten arteriellen Embolie nicht die richtige Wahl.",
+          "term": "Brachialis Thrombose"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die arterielle Embolie ist als richtige Lösung hinterlegt. Sie beschreibt einen akuten Gefäßverschluss durch embolisches Material und passt als übergeordnete Diagnose am besten zu den gegebenen Antwortmöglichkeiten. Details zu Lokalisation und Ursache fehlen im Protokoll, daher bleibt die Begründung allgemein.",
+          "term": "arterielle Embolie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Pseudoembolie ist kein üblicher diagnostischer Zielbegriff für einen akuten arteriellen Gefäßverschluss in diesem Kontext. Ohne nähere Fallangaben gibt es keinen Grund, diese unspezifische Alternative der arteriellen Embolie vorzuziehen.",
+          "term": "Pseudoembolie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine paradoxe Embolie setzt eine venöse Emboliequelle und einen Rechts-links-Shunt voraus. Solche Hinweise sind nicht dokumentiert, deshalb ist die allgemeinere arterielle Embolie korrekt.",
+          "term": "paradoxe Embolie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll nicht überliefert. Sie kann daher nicht inhaltlich geprüft werden und wird gemäß hinterlegter Lösung als nicht korrekt behandelt.",
+          "term": "?"
+        }
+      ]
+    },
+    "70": {
+      "topicLabel": "Kleinhirntumor",
+      "explanation": "Ein Kind mit zunehmender Ungeschicklichkeit, Gangataxie, Kopfschmerzen und Übelkeit hat Warnzeichen für eine intrakranielle Raumforderung. Der auffällige Seiltänzergang und die Koordinationsprobleme sprechen besonders für eine Kleinhirnbeteiligung. Kopfschmerzen und Übelkeit können durch erhöhten intrakraniellen Druck entstehen, etwa bei einem Tumor der hinteren Schädelgrube. Gesteigerte Reflexe und Babinski-Zeichen zeigen eine zentrale Mitbeteiligung und passen nicht zu einer peripheren Neuropathie. Insgesamt ist ein Kleinhirntumor die wahrscheinlichste Verdachtsdiagnose.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Rückenmarkspathologie kann Pyramidenbahnzeichen und Gangstörungen verursachen, erklärt aber Kopfschmerzen, Übelkeit und feinmotorische Ataxie weniger gut. Die Kombination mit Seiltänzergang und Hirndruckzeichen lenkt stärker zur hinteren Schädelgrube.",
+          "term": "Rückenmarkspathologie"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Ein Kleinhirntumor bei Kindern kann mit Ataxie, Dysmetrie, Ungeschicklichkeit und unsicherem Gang auffallen. Kopfschmerzen und Übelkeit sprechen zusätzlich für erhöhten intrakraniellen Druck. Die beschriebenen zentralneurologischen Zeichen machen diese Diagnose am wahrscheinlichsten.",
+          "term": "Kleinhirntumor"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Polyneuropathie verursacht distal-symmetrische Sensibilitätsstörungen, abgeschwächte Reflexe und schlaffe Paresen. Gesteigerte Reflexe und Babinski-Zeichen sprechen dagegen für eine zentrale Läsion.",
+          "term": "Polyneuropathie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll nicht überliefert. Sie lässt sich daher nicht inhaltlich bewerten und ist nach der hinterlegten Lösung nicht korrekt.",
+          "term": "?"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll nicht überliefert. Ohne konkreten Begriff ist nur festzuhalten, dass sie gemäß Antwortschlüssel nicht die gesuchte Diagnose ist.",
+          "term": "?"
+        }
+      ]
+    },
+    "71": {
+      "topicLabel": "HFpEF-Therapie",
+      "explanation": "Bei Herzinsuffizienz mit erhaltener Ejektionsfraktion sind krankheitsmodifizierende Therapieoptionen begrenzter als bei HFrEF. SGLT2-Inhibitoren wie Empagliflozin haben jedoch einen Stellenwert bei symptomatischer Herzinsuffizienz unabhängig von der zugrunde liegenden Genese und auch bei HFpEF. Sie werden nicht primär wegen Diabetes eingesetzt, sondern als herzinsuffizienzbezogene Therapie. Andere Medikamente können bei Begleiterkrankungen oder bestimmten Konstellationen sinnvoll sein, sind aber nicht in gleicher Weise die allgemein gesuchte Option für HFpEF. Deshalb ist Empagliflozin die richtige Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Spironolacton kann bei ausgewählten Patientinnen und Patienten mit Herzinsuffizienz oder bei bestimmten Begleiterkrankungen erwogen werden. Als unabhängig von der Genese am ehesten zu gebende Standardoption bei HFpEF ist es hier aber nicht die beste Antwort.",
+          "term": "Spironolacton"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Betablocker sind bei HFrEF prognoseverbessernd und bei HFpEF etwa zur Frequenzkontrolle oder bei KHK sinnvoll. Sie sind jedoch nicht die spezifische, allgemein empfohlene HFpEF-Medikation in dieser Frage.",
+          "term": "Beta-Blocker"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Digoxin kann bei Vorhofflimmern zur Frequenzkontrolle oder in Einzelfällen bei Herzinsuffizienzsymptomen eingesetzt werden. Es ist keine breit empfohlene Basistherapie der HFpEF unabhängig von der Ursache.",
+          "term": "Digoxin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ramipril kann bei Hypertonie, KHK, diabetischer Nephropathie oder HFrEF relevant sein. Bei HFpEF ist es aber nicht die gesuchte universelle Therapieoption gegenüber einem SGLT2-Inhibitor.",
+          "term": "Ramipril"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Empagliflozin ist ein SGLT2-Inhibitor und wird bei symptomatischer Herzinsuffizienz auch unabhängig von Diabetes berücksichtigt. In HFpEF-Fragen ist diese Substanzklasse die zentrale medikamentöse Option mit breitem Einsatzspektrum. Sie passt daher am besten zur Formulierung unabhängig von der Genese.",
+          "term": "Empagliflozin"
+        }
+      ]
+    },
+    "72": {
+      "topicLabel": "Knochenszintigrafie",
+      "explanation": "Die hinterlegte Lösung beschreibt eine diffuse ossäre Metastasierung in der Knochenszintigrafie. Typisch wären multiple Herde vermehrter Traceraufnahme im Skelett, teils auch ein sehr ausgeprägtes, diffus gesteigertes Knochenbild. Physiologische Aktivität findet sich dagegen in Nieren und Harnblase, was bei der Bildinterpretation nicht mit Knochenmetastasen verwechselt werden darf. Da das eigentliche Bild hier nicht vorliegt und das Protokoll Unsicherheit erwähnt, ist die diagnostische Sicherheit reduziert. Gemäß Antwortschlüssel ist dennoch die diffuse Knochenmetastasierung die richtige Einordnung.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Diffuse Knochenmetastasen können in der Knochenszintigrafie durch multifokal oder diffus gesteigerte Traceraufnahme auffallen. Die Option ist als korrekt hinterlegt und entspricht der gesuchten Bilddiagnose. Ohne Bildbeilage lässt sich die Mustererkennung allerdings nicht unabhängig prüfen.",
+          "term": "Man sieht diffuse Knochenmetastasten (sicher? man sah nur symmetrisches Aufleuchten bei Nieren, Blase, Beckenkämme, Schultern?) → Ja, siehe Diffuse Metastasierung bei Amboss"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein altersentsprechender Knochenstoffwechsel wäre ein Normalbefund ohne pathologische Mehranreicherungen. Da der Antwortschlüssel eine diffuse Metastasierung vorgibt, ist diese Interpretation hier nicht korrekt.",
+          "term": "Altersentsprechender knochenstoffwechsel (Ich würde auch eher vermuten, dass es sich um einen Normalbefund gehandelt hat, betrachtet man nur die Knochen sah es sehr stark aus wie das: https://www.nuklearmedizin-berlin.de/knochenszintigraphie-2/ )"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Nebennierenmetastase ist mit einer Knochenszintigrafie nicht der typische Zielbefund. Die Untersuchung dient vor allem dem Nachweis ossärer Umbauprozesse, nicht der primären Beurteilung der Nebennieren.",
+          "term": "Nebennieremetastase"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Verheilte Rippenserienfrakturen können lineare oder fokale Mehranreicherungen entlang mehrerer Rippen zeigen. Die hinterlegte Lösung verlangt jedoch ein diffuses metastatisches Muster, nicht einen posttraumatischen Rippenbefund.",
+          "term": "Verheilte Rippenserienfraktur"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Harnabflussstörung könnte sich über Nieren- und Harntraktaktivität bemerkbar machen. Sie erklärt aber keine diffuse pathologische Skelettanreicherung und ist nicht die gesuchte Aussage.",
+          "term": "Harnabflussstörung"
+        }
+      ]
+    },
+    "73": {
+      "topicLabel": "Refluxtherapie",
+      "explanation": "Retrosternales Brennen und Heiserkeit passen zu einer gastroösophagealen Refluxkrankheit mit möglicher extraösophagealer Symptomatik. Die medikamentöse Standardtherapie der Refluxösophagitis besteht in einer Säuresuppression durch Protonenpumpeninhibitoren. Pharmakologisch hemmen diese die H+/K+-ATPase der Belegzellen und senken dadurch die Magensäuresekretion stark. H2-Antihistaminika können Säure ebenfalls reduzieren, sind aber in dieser Prüfungsfrage nicht die Therapie der ersten Wahl. Prokinetika oder andere unspezifische Substanzen stehen deutlich im Hintergrund.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "H+/K+-ATPase-Hemmer sind Protonenpumpeninhibitoren. Sie sind die zentrale medikamentöse Therapie der Refluxösophagitis, weil sie die Säureproduktion effektiv unterdrücken. Damit passt diese Option genau zur gesuchten Behandlung.",
+          "term": "H+-K+-ATP-Hemmer"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "H2-Antihistaminika vermindern die Säuresekretion, sind aber weniger potent als Protonenpumpeninhibitoren. Bei Refluxösophagitis sind PPI die bevorzugte Standardtherapie.",
+          "term": "H2-Antihistaminika"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "D2-Rezeptor-Antagonisten können prokinetisch und antiemetisch wirken. Sie behandeln aber nicht primär die säurebedingte Schleimhautschädigung der Refluxösophagitis.",
+          "term": "D2- Rezeptor-Antagonisten"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll nicht überliefert. Sie kann daher nicht inhaltlich beurteilt werden und ist gemäß Antwortschlüssel nicht richtig.",
+          "term": "?"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Phospholipide zur Veränderung der Oberflächenspannung gehören nicht zur Standardtherapie einer Refluxösophagitis. Die gesuchte pharmakologische Zielstruktur ist die Protonenpumpe der Belegzelle.",
+          "term": "Phospholipide zur Senkung der oberflächenspannung oder so"
+        }
+      ]
+    },
+    "74": {
+      "topicLabel": "Nervus vestibulocochlearis",
+      "explanation": "Der VIII. Hirnnerv umfasst den Hör- und Gleichgewichtsnerv. Ein Ausfall der vestibulären Funktion kann im Kopfimpulstest durch pathologische Einstellsakkaden auffallen. Dabei kann der Blick bei rascher Kopfdrehung nicht stabil auf dem Ziel gehalten werden und wird durch eine Korrektursakkade wieder eingestellt. Sensibilitätsstörungen im Gesicht, Pupillenstörungen oder Fazialiszeichen betreffen andere Hirnnerven. Ein Upbeat-Nystagmus weist eher auf zentrale vestibuläre Strukturen als spezifisch auf den VIII. Hirnnerv hin.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Upbeat-Nystagmus spricht eher für eine zentrale vestibuläre Störung, etwa im Hirnstamm- oder Kleinhirnbereich. Er ist nicht der typische isolierte Hinweis auf eine periphere VIII.-Hirnnerv-Läsion.",
+          "term": "Upbeat Nystagmus"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ipsilaterale Sensibilitätsstörungen an der Stirn betreffen den Nervus trigeminus, besonders den ophthalmischen Ast. Das passt nicht zum Nervus vestibulocochlearis.",
+          "term": "Ipsilaterale Sensibiltätsstrg an der Stirn"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Einstellsakkaden im Kopfimpulstest weisen auf eine gestörte vestibulo-okuläre Reflexfunktion hin. Diese Funktion läuft wesentlich über den vestibulären Anteil des VIII. Hirnnerven. Daher ist dies das passende Zeichen für eine Beteiligung des Nervus vestibulocochlearis.",
+          "term": "Einstellsakkaden im Kopfimpulstest"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Pupillenweitstand spricht für eine Störung parasympathischer Bahnen, typischerweise im Bereich des Nervus oculomotorius oder sympathischer Einflüsse. Er ist kein Leitsymptom einer VIII.-Hirnnerv-Läsion.",
+          "term": "Pupillenweitstand?"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Das Bell-Phänomen wird bei Fazialisparesen klinisch relevant und betrifft den Lidschluss. Es verweist damit eher auf den VII. Hirnnerv als auf den VIII. Hirnnerv.",
+          "term": "Bell-Phänomen"
+        }
+      ]
+    },
+    "75": {
+      "topicLabel": "COX-2-Risiko",
+      "explanation": "Etoricoxib ist ein selektiver COX-2-Hemmer und kann das kardiovaskuläre Risiko erhöhen. Bei einer Patientin mit arterieller Hypertonie, Diabetes mellitus Typ 2 und stattgehabter TIA besteht bereits ein relevantes vaskuläres Risikoprofil. In dieser Konstellation sollte man Etoricoxib daher am ehesten vermeiden. Metamizol, Paracetamol und schwache Opioide haben jeweils eigene Risiken, sind aber nicht in gleicher Weise wegen kardiovaskulärer Ereignisse problematisch. Die postoperative Schmerztherapie muss deshalb Nutzen und individuelle Risiken gegeneinander abwägen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Etoricoxib kann Blutdruck und thromboembolisches Risiko ungünstig beeinflussen. Nach TIA und bei weiteren Risikofaktoren wie Diabetes und Hypertonie ist es deshalb besonders kritisch. Es ist somit das Analgetikum, das am ehesten vermieden werden sollte.",
+          "term": "Etoricoxib"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Metamizol kann selten schwere Nebenwirkungen wie Agranulozytose verursachen und muss entsprechend umsichtig eingesetzt werden. Das spezifische Problem der Patientin ist aber das vaskuläre Risikoprofil, wodurch Etoricoxib ungünstiger ist.",
+          "term": "Metamizol"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Paracetamol ist bei vielen postoperativen Schmerzen ein mögliches Basisanalgetikum, sofern keine relevanten Kontraindikationen bestehen. Es trägt nicht das gleiche COX-2-typische kardiovaskuläre Risiko wie Etoricoxib.",
+          "term": "Paracetamol"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Tramadol kann Übelkeit, Schwindel, Sedierung und Interaktionen verursachen. Bei der hier betonten TIA- und Gefäßrisikokonstellation ist jedoch der COX-2-Hemmer die am ehesten zu vermeidende Option.",
+          "term": "Tramadol"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Tilidin ist ein schwaches Opioid mit typischen opioidbedingten Nebenwirkungen wie Sedierung, Obstipation oder Abhängigkeitspotenzial. Es ist aber nicht der wichtigste kardiovaskuläre Risikotreiber in dieser Auswahl.",
+          "term": "Tilidin"
+        }
+      ]
+    },
+    "76": {
+      "topicLabel": "Defibrillation",
+      "explanation": "Der Patient entwickelt intraoperativ eine lebensbedrohliche ventrikuläre Tachyarrhythmie mit massivem Blutdruckabfall. Nach dem hinterlegten Antwortschlüssel ist die Situation als defibrillationspflichtig zu werten, also als Kreislaufstillstand beziehungsweise pulslos zu behandelnde VT/VF-Konstellation. Dann ist die sofortige elektrische Defibrillation die entscheidende Maßnahme und darf nicht durch Medikamente verzögert werden. Eine synchronisierte Kardioversion wäre bei instabiler Tachykardie mit sicher vorhandenem Puls leitliniengerecht, ist hier aber nicht die als korrekt hinterlegte Antwort. Magnesium, Amiodaron oder Lidocain sind in speziellen Situationen oder nach elektrischer Therapie relevant, stehen initial jedoch nicht vor dem Schock.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die elektrische Kardioversion ist bei hämodynamisch instabiler tachykarder Rhythmusstörung mit vorhandenem Puls die typische Maßnahme. Der Antwortschlüssel wertet die geschilderte Kollapssituation jedoch als defibrillationspflichtig, sodass diese Option hier nicht korrekt ist.",
+          "term": "Elektrische Kardioversion -> sehr sicher ricxhtig"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Defibrillation ist bei Kammerflimmern und pulsloser ventrikulärer Tachykardie die prioritäre Therapie. Der massive Blutdruckabfall im OP-Kontext wird in der hinterlegten Lösung als unmittelbar schockpflichtige Situation gewertet. Deshalb ist die elektrische Defibrillation hier die richtige Antwort.",
+          "term": "Elektrische Defibrillation"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Magnesium ist besonders bei Torsade-de-pointes-Tachykardien relevant. Bei einer defibrillationspflichtigen ventrikulären Tachyarrhythmie darf es die elektrische Therapie nicht ersetzen oder verzögern.",
+          "term": "Applikation von Magnesium"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Amiodaron kann bei persistierender oder rezidivierender ventrikulärer Tachyarrhythmie im Reanimationsalgorithmus eine Rolle spielen. Initial steht bei Schockindikation aber die elektrische Defibrillation im Vordergrund.",
+          "term": "Applikation von Amiodaron"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Lidocain ist ein Antiarrhythmikum, das in bestimmten Situationen als Alternative oder Zusatztherapie erwogen werden kann. Es ersetzt jedoch nicht die sofortige Defibrillation bei defibrillationspflichtigem Rhythmus.",
+          "term": "Lidocain"
+        }
+      ]
+    },
+    "77": {
+      "topicLabel": "Demenzsymptom",
+      "explanation": "Bei einer beginnenden oder manifesten Demenz sind Störungen der zeitlichen Orientierung und der zeitlichen Einordnung sehr typisch. Eine Zeitgitterstörung beschreibt, dass Ereignisse nicht mehr korrekt in eine zeitliche Ordnung gebracht werden können. Solche Orientierungs- und Gedächtnisstörungen gehören zu den Kernsymptomen dementieller Syndrome. Wahnvorstellungen können bei Demenz vorkommen, sind aber nicht das wahrscheinlichste Basissymptom. Suizidalität ist eher im Kontext depressiver Syndrome mitzudenken und nicht typisch als Leitsymptom der Demenz.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll nicht überliefert. Sie kann nicht inhaltlich geprüft werden und ist nach dem Antwortschlüssel nicht korrekt.",
+          "term": "?"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll nicht überliefert. Ohne konkrete Symptomangabe lässt sie sich nicht gegen die typische Zeitgitterstörung abwägen.",
+          "term": "?"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Eine Zeitgitterstörung passt zu dementiellen Gedächtnis- und Orientierungsstörungen. Betroffene können Erlebnisse zeitlich falsch einordnen oder zeitliche Zusammenhänge verlieren. Damit ist sie von den überlieferten Optionen das wahrscheinlichste Symptom.",
+          "term": "Zeitgitterstörung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Wahnvorstellungen können im Verlauf mancher Demenzen auftreten, etwa bei psychotischen Begleitsymptomen. Für eine beginnende manifeste Demenz sind aber Gedächtnis- und Orientierungsstörungen typischer.",
+          "term": "Wahnvorstellungen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Suizidalität ist kein klassisches Leitsymptom einer Demenz. Sie sollte klinisch ernst genommen werden, spricht aber eher für depressive Krisen oder andere psychiatrische Konstellationen.",
+          "term": "Suizidalität"
+        }
+      ]
+    },
+    "78": {
+      "topicLabel": "Leberadenom",
+      "explanation": "Bei einem kleinen hepatozellulären Adenom ohne dokumentierte Komplikationszeichen ist häufig ein konservatives Vorgehen mit weiterer Bildgebung und Verlaufskontrolle angemessen. Wichtig ist die sichere Charakterisierung der Läsion und die Abgrenzung zu anderen fokalen Leberläsionen. Eine sofortige Resektion ist vor allem bei größeren, wachsenden, symptomatischen oder komplikationsträchtigen Adenomen zu erwägen. Östrogene können das Wachstum hepatozellulärer Adenome fördern und sind daher nicht therapeutisch sinnvoll. Die hinterlegte richtige Antwort ist deshalb zusätzliche Bildgebung und Abwarten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Leberteilresektion ist bei kleinen, unkomplizierten Adenomen nicht automatisch erforderlich. Zunächst sind Charakterisierung, Risikoeinschätzung und Verlauf entscheidend.",
+          "term": "B Leberteilresektion von dem Adenom"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Zusätzliche Bildgebung und kontrolliertes Abwarten passen zu einem kleinen Adenom ohne Hinweis auf Blutung, Wachstum oder Malignitätsverdacht. So kann die Diagnose gesichert und das Risiko im Verlauf beurteilt werden. Dieses konservative Vorgehen ist hier die beste Antwort.",
+          "term": "zusätzliche Bilgebung und abwarten"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Östrogen-Therapie wäre bei hepatozellulärem Adenom ungünstig, weil Östrogene mit Wachstum solcher Adenome assoziiert sind. Falls relevant, wird eher das Absetzen östrogenhaltiger Präparate erwogen.",
+          "term": "Östrogen-Therapie"
+        }
+      ]
+    },
+    "79": {
+      "topicLabel": "Pemphigus foliaceus",
+      "explanation": "Der Nachweis von Antikörpern gegen Desmoglein 1 bei negativem Desmoglein 3 passt sehr gut zu Pemphigus foliaceus. Diese Erkrankung betrifft vor allem oberflächliche Epidermisschichten und führt zu schlaffen, leicht rupturierenden Blasen, Erosionen und krustigen Arealen. Schleimhautbefall ist im Gegensatz zum Pemphigus vulgaris weniger typisch, weil dort Desmoglein 3 eine größere Rolle spielt. Negative BP180-Antikörper sprechen gegen ein bullöses Pemphigoid, und negative Ro/La-Antikörper gegen die genannten Kollagenoseoptionen. Die Lokalisation an Brust oder Stamm passt ebenfalls zu oberflächlichen pemphigusartigen Läsionen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Morbus Darier ist eine genetische Verhornungsstörung mit keratotischen Papeln in seborrhoischen Arealen. Der spezifische Autoantikörperbefund gegen Desmoglein 1 passt nicht dazu.",
+          "term": "M. Darier"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Tinea corporis zeigt typischerweise randbetonte, schuppende, ringförmige Herde und wird mykologisch gesichert. Anti-Desmoglein-1-Antikörper erklären dagegen eine autoimmune Blasenbildung.",
+          "term": "Tinea corporis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein seborrhoisches Ekzem verursacht erythematosquamöse Läsionen in talgdrüsenreichen Arealen. Schlaffe Blasen und Desmoglein-1-Antikörper sprechen klar gegen diese Diagnose.",
+          "term": "Seborrhoisches Ekzem"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Lupus erythematodes kann verschiedenartige Hautveränderungen verursachen, würde aber nicht durch isolierte Desmoglein-1-Antikörper erklärt. Die im Protokoll negativen Ro/La-Befunde stützen diese Option ebenfalls nicht.",
+          "term": "Lupus erythematosus"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Pemphigus foliaceus ist durch Autoantikörper gegen Desmoglein 1 gekennzeichnet. Dadurch entstehen oberflächliche, schlaffe Blasen und Erosionen, häufig ohne ausgeprägten Schleimhautbefall. Der Laborbefund mit positivem Desmoglein 1 und negativem Desmoglein 3 passt daher genau.",
+          "term": "Pemphigus foeliaceus"
+        }
+      ]
+    },
+    "80": {
+      "topicLabel": "Winkelblockglaukom",
+      "explanation": "Beim akuten Winkelblockglaukomanfall kommt es durch Verlegung des Kammerwinkels zu einem starken Anstieg des Augeninnendrucks. Nach medikamentöser Drucksenkung muss die anatomische Ursache behandelt werden, um erneute Anfälle zu verhindern. Die Laser-Iridotomie schafft eine Öffnung in der peripheren Iris und beseitigt den Pupillarblock als häufigen Mechanismus. Damit kann das Kammerwasser wieder besser zirkulieren und der Kammerwinkel entlastet werden. Andere glaukomchirurgische Verfahren sind nicht die typische Rezidivprophylaxe nach akutem Winkelblock.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die Laser-Iridotomie ist die klassische Maßnahme zur Rezidivprophylaxe nach akutem Winkelblockglaukom. Sie schafft einen alternativen Durchtritt für Kammerwasser und reduziert den Pupillarblock. Deshalb ist sie nach initialer Drucksenkung die richtige Option.",
+          "term": "Laser Iridiotomie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Trabekulotomie wird eher bei bestimmten Formen des Glaukoms, insbesondere im Kontext des Kammerwinkelabflusses, eingesetzt. Sie ist nicht die Standardmaßnahme zur Verhinderung erneuter Winkelblockanfälle durch Pupillarblock.",
+          "term": "Trabekulotomie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Goniotomie ist ein Verfahren am Kammerwinkel, vor allem bei speziellen Glaukomformen. Beim akuten Winkelblock steht nach Drucksenkung die Iridotomie im Vordergrund.",
+          "term": "Goniotomie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Stent-Einlage oder Kryokoagulation ist nicht die typische prophylaktische Maßnahme nach akutem Winkelblockglaukomanfall. Der entscheidende Mechanismus wird durch eine Laser-Iridotomie adressiert.",
+          "term": "Stent-Einlage; war glaub ich Kyrokoagulation als Antwortmöglichkeit"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Drainagesystem kann bei anderen, meist therapierefraktären Glaukomen eine Rolle spielen. Zur Rezidivprophylaxe des akuten Winkelblocks ist es gegenüber der Laser-Iridotomie nicht die richtige Antwort.",
+          "term": "Drainage system"
+        }
+      ]
+    }
+  }
+}
