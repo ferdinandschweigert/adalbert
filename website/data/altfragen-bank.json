@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-22T18:58:44.820Z",
+  "updatedAt": "2026-07-22T19:10:34.239Z",
   "exams": [
     {
-      "id": "759dd8cb-1e76-4122-b3c4-3ed95ce92d01",
+      "id": "m2-ss26-f26-gedaechtnisprotokoll",
       "title": "M2 SS26 / F26 – Gedächtnisprotokoll",
       "sourceLabel": "Gedächtnisprotokoll M2 SS26",
-      "description": "M2 SS26 Gedächtnisprotokoll: 319 Fragen, davon 83 mit grün markierter Lösung. Übrige zum Üben ohne Key.",
+      "description": "M2 SS26: 319 Fragen, 319 mit grün erkannter Lösung.",
       "published": true,
-      "createdAt": "2026-07-22T18:58:44.820Z",
-      "updatedAt": "2026-07-22T18:58:44.820Z",
+      "createdAt": "2026-07-22T19:10:34.238Z",
+      "updatedAt": "2026-07-22T19:10:34.239Z",
       "questions": [
         {
           "number": 1,
@@ -23,7 +23,7 @@
           ],
           "type": "SC",
           "correctAnswers": "01000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (B). 25-jährige Frau - unregelmäßiger Menstruationszyklus, vermehrte Gesichtsbehaarung - Erkrankung"
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 25-jährige Frau - unregelmäßiger Menstruationszyklus, vermehrte Gesichtsbehaarung - Erkrankung"
         },
         {
           "number": 2,
@@ -36,8 +36,8 @@
             "Intrauterines Pessar mit reinem Gestagen"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 25-jährige Frau - unregelmäßiger Menstruationszyklus, vermehrte Gesichtsbehaarung - Therapie"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 25-jährige Frau - unregelmäßiger Menstruationszyklus, vermehrte Gesichtsbehaarung - Therapie"
         },
         {
           "number": 3,
@@ -50,8 +50,8 @@
             "Verkürzte Ulna"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 67-jaehrige Frau - rheumatoide Arthritis - Roentgenbefund (Abbildung)"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 67-jaehrige Frau - rheumatoide Arthritis - Roentgenbefund (Abbildung)"
         },
         {
           "number": 4,
@@ -64,8 +64,8 @@
             "Anti-Zentromer"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 67-jaehrige Frau - rheumatoide Arthritis - Autoantikoerper"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 67-jaehrige Frau - rheumatoide Arthritis - Autoantikoerper"
         },
         {
           "number": 5,
@@ -79,7 +79,7 @@
           ],
           "type": "SC",
           "correctAnswers": "00010",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (D). 67-jaehrige Frau - rheumatoide Arthritis - DMARD"
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 67-jaehrige Frau - rheumatoide Arthritis - DMARD"
         },
         {
           "number": 6,
@@ -92,8 +92,8 @@
             "Erhöhtes Risiko für pankreas Insuffizienz"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 67-jaehrige Frau - rheumatoide Arthritis - Folgeerkrankungen"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 67-jaehrige Frau - rheumatoide Arthritis - Folgeerkrankungen"
         },
         {
           "number": 7,
@@ -106,8 +106,8 @@
             "Anamnese von Komorbiditäten"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 19-jaehrige Patientin mit Asthma bronchiale - Massnahmen"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 19-jaehrige Patientin mit Asthma bronchiale - Massnahmen"
         },
         {
           "number": 8,
@@ -120,8 +120,8 @@
             "Vollständige Reversibilität der Obstruktion nach Inhalation von ß2-Sympathomimetika"
           ],
           "type": "SC",
-          "correctAnswers": "00100",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (C). 19-jaehrige Patientin mit Asthma bronchiale - diagnostische Befunde"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 19-jaehrige Patientin mit Asthma bronchiale - diagnostische Befunde"
         },
         {
           "number": 9,
@@ -134,8 +134,8 @@
             "Inhalatives Kortikosteroid (ICS) als langfristige tägliche Inhalation"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 19-jaehrige Patientin mit Asthma bronchiale - Therapie"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 19-jaehrige Patientin mit Asthma bronchiale - Therapie"
         },
         {
           "number": 10,
@@ -148,8 +148,8 @@
             "Polyurie"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 7 Monate alter Junge mit hohem Fieber - klinisches Symptom bzw. Zeichen"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 7 Monate alter Junge mit hohem Fieber - klinisches Symptom bzw. Zeichen"
         },
         {
           "number": 11,
@@ -162,8 +162,8 @@
             "Lediglich Säuglinge unter einem Lebensjahr sollten eine Chemoprophylaxe erhalten."
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 7 Monate alter Junge mit hohem Fieber - Postexpositionsprophylaxe"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 7 Monate alter Junge mit hohem Fieber - Postexpositionsprophylaxe"
         },
         {
           "number": 12,
@@ -176,8 +176,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 68-jaehrige Patientin mit Verdachtsdiagnose Ileus - Klinische Untersuchungsbefunde"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 68-jaehrige Patientin mit Verdachtsdiagnose Ileus - Klinische Untersuchungsbefunde"
         },
         {
           "number": 13,
@@ -191,7 +191,7 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 68-jaehrige Patientin mit Verdachtsdiagnose Ileus - Diagnostik"
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 68-jaehrige Patientin mit Verdachtsdiagnose Ileus - Diagnostik"
         },
         {
           "number": 14,
@@ -204,8 +204,8 @@
             "Antiemetika"
           ],
           "type": "SC",
-          "correctAnswers": "00100",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (C). 68-jaehrige Patientin mit Verdachtsdiagnose Ileus - Therapie"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 68-jaehrige Patientin mit Verdachtsdiagnose Ileus - Therapie"
         },
         {
           "number": 15,
@@ -218,8 +218,8 @@
             "Zu"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 73-jaehrige Patientin mit Riesenzell-Arteriitis - Laborwerte"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 73-jaehrige Patientin mit Riesenzell-Arteriitis - Laborwerte"
         },
         {
           "number": 16,
@@ -232,8 +232,8 @@
             "I.v. Immunglobuline und Cyclosporin A"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 73-jaehrige Patientin mit Riesenzell-Arteriitis - Therapie"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 73-jaehrige Patientin mit Riesenzell-Arteriitis - Therapie"
         },
         {
           "number": 17,
@@ -246,8 +246,8 @@
             "Hämodialyse über zuvor angelegten Shaldon Katheter"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 83-jaehriger Patient - Herzinsuffizienz - Dyspnoe - dilatative Kardiomyopathie - Massnahmen"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 83-jaehriger Patient - Herzinsuffizienz - Dyspnoe - dilatative Kardiomyopathie - Massnahmen"
         },
         {
           "number": 18,
@@ -260,8 +260,8 @@
             "der auskultatorische Befund spricht für eine COPD"
           ],
           "type": "SC",
-          "correctAnswers": "00010",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (D). 83-jaehriger Patient - Herzinsuffizienz - Dyspnoe - dilatative Kardiomyopathie - Befunde"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 83-jaehriger Patient - Herzinsuffizienz - Dyspnoe - dilatative Kardiomyopathie - Befunde"
         },
         {
           "number": 19,
@@ -274,8 +274,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 45-jaehriger Mann - chronische Rhinosinusitis mit Polyposis nasi - Diagnostik"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 45-jaehriger Mann - chronische Rhinosinusitis mit Polyposis nasi - Diagnostik"
         },
         {
           "number": 20,
@@ -288,8 +288,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 45-jaehriger Mann - chronische Rhinosinusitis mit Polyposis nasi - Therapieentscheidung"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 45-jaehriger Mann - chronische Rhinosinusitis mit Polyposis nasi - Therapieentscheidung"
         },
         {
           "number": 21,
@@ -302,8 +302,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "01000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (B). 45-jaehriger Mann - chronische Rhinosinusitis mit Polyposis nasi - Kopfschmerzen/Fieber/Orbita-Schwellung - Diagnostik"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 45-jaehriger Mann - chronische Rhinosinusitis mit Polyposis nasi - Kopfschmerzen/Fieber/Orbita-Schwellung - Diagnostik"
         },
         {
           "number": 22,
@@ -316,8 +316,8 @@
             "CT"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 57-jaehrige Frau - V.a. Urolithiasis - Sonografie (Abbildung) - Massnahme"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 57-jaehrige Frau - V.a. Urolithiasis - Sonografie (Abbildung) - Massnahme"
         },
         {
           "number": 23,
@@ -330,8 +330,8 @@
             "Weiterhin konservative Therapie"
           ],
           "type": "SC",
-          "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 57-jaehrige Frau - V.a. Urolithiasis - Sonografie (Abbildung) - Therapie bei Zunahme des Befunds"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 57-jaehrige Frau - V.a. Urolithiasis - Sonografie (Abbildung) - Therapie bei Zunahme des Befunds"
         },
         {
           "number": 24,
@@ -345,7 +345,7 @@
           ],
           "type": "SC",
           "correctAnswers": "01000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (B). 80-jaehrige Frau - langwieriger Harnwegsinfekt - Rueckenschmerzen - Diagnose"
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 80-jaehrige Frau - langwieriger Harnwegsinfekt - Rueckenschmerzen - Diagnose"
         },
         {
           "number": 25,
@@ -358,8 +358,8 @@
             "operative Sanierung mit biologischer Klappe"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 80-jaehrige Frau - langwieriger Harnwegsinfekt - Rueckenschmerzen - Therapie"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 80-jaehrige Frau - langwieriger Harnwegsinfekt - Rueckenschmerzen - Therapie"
         },
         {
           "number": 26,
@@ -372,8 +372,8 @@
             "Molluscum contagiosum"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 70-jaehriger Mann - gewachsener Knoten an Schlaefe (Abbildung) - Diagnose"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 70-jaehriger Mann - gewachsener Knoten an Schlaefe (Abbildung) - Diagnose"
         },
         {
           "number": 27,
@@ -386,8 +386,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 70-jaehriger Mann - gewachsener Knoten an Schlaefe (Abbildung) - weitere Diagnose"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 70-jaehriger Mann - gewachsener Knoten an Schlaefe (Abbildung) - weitere Diagnose"
         },
         {
           "number": 28,
@@ -400,8 +400,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 55-jaehriger Mann - Prostatakarzinom - Risikoprofil"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 55-jaehriger Mann - Prostatakarzinom - Risikoprofil"
         },
         {
           "number": 29,
@@ -414,8 +414,8 @@
             "FDG-PET"
           ],
           "type": "SC",
-          "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 55-jaehriger Mann - Prostatak arzinom - Bildgebung Metastasensuche"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 55-jaehriger Mann - Prostatak arzinom - Bildgebung Metastasensuche"
         },
         {
           "number": 30,
@@ -429,7 +429,7 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 55-jaehriger Mann - Prostatakarzinom - kurative Therapie"
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 55-jaehriger Mann - Prostatakarzinom - kurative Therapie"
         },
         {
           "number": 31,
@@ -442,8 +442,8 @@
             "Mykoplasma Pneumoniae"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 61-jaehriger Mann - Lobaerpneumonie - Erreger"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 61-jaehriger Mann - Lobaerpneumonie - Erreger"
         },
         {
           "number": 32,
@@ -456,8 +456,8 @@
             "Levofloxacin"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 61-jaehriger Mann - Lobaerpneumonie - Therapie"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 61-jaehriger Mann - Lobaerpneumonie - Therapie"
         },
         {
           "number": 33,
@@ -470,8 +470,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 45-jaehriger Mann - alkoholisierter Treppensturz - intrakranielle Blutung - Blutungsform"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 45-jaehriger Mann - alkoholisierter Treppensturz - intrakranielle Blutung - Blutungsform"
         },
         {
           "number": 34,
@@ -484,8 +484,8 @@
             "Aneurysma der A. cerebri Media"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 45-jaehriger Mann - alkoholisierter Treppensturz - intrakranielle Blutung - Blutungsquelle"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 45-jaehriger Mann - alkoholisierter Treppensturz - intrakranielle Blutung - Blutungsquelle"
         },
         {
           "number": 35,
@@ -498,8 +498,8 @@
             "Irgendwas mit osmotisch wirksam"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 45-jaehriger Mann - alkoholisierter Treppensturz - intrakranielle Blutung - Massnahme"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 45-jaehriger Mann - alkoholisierter Treppensturz - intrakranielle Blutung - Massnahme"
         },
         {
           "number": 36,
@@ -512,8 +512,8 @@
             "PET-CT"
           ],
           "type": "SC",
-          "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 73-jaehriger Patient mit Kolonkarzinom - Staginguntersuchungen"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 73-jaehriger Patient mit Kolonkarzinom - Staginguntersuchungen"
         },
         {
           "number": 37,
@@ -526,8 +526,8 @@
             "Eigenblutspende präoperativ"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 73-jähriger Patient mit Kolonkarzinom - präoperative Maßnahmen bei Anämie"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 73-jähriger Patient mit Kolonkarzinom - präoperative Maßnahmen bei Anämie"
         },
         {
           "number": 38,
@@ -540,8 +540,8 @@
             "Es liegt ein UICC Stadium IV vor"
           ],
           "type": "SC",
-          "correctAnswers": "01000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (B). 73-jähriger Patient mit Kolonkarzinom - Tumorformel"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 73-jähriger Patient mit Kolonkarzinom - Tumorformel"
         },
         {
           "number": 39,
@@ -554,8 +554,8 @@
             "Patella Tilt"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 19-jährige Judo-Sportlerin mit Knieverletzung - Risikofaktor für Patellaluxation"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 19-jährige Judo-Sportlerin mit Knieverletzung - Risikofaktor für Patellaluxation"
         },
         {
           "number": 40,
@@ -568,8 +568,8 @@
             "Ruptur des Medialen Patellofemoralen Ligaments (MPFL)"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 19-jährige Judo-Sportlerin mit Knieverletzung - Operationsindikation"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 19-jährige Judo-Sportlerin mit Knieverletzung - Operationsindikation"
         },
         {
           "number": 41,
@@ -582,8 +582,8 @@
             "Endometriumkarzinom"
           ],
           "type": "SC",
-          "correctAnswers": "00100",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (C). 55-jaehrige Frau - Schmierblutung - Diagnose"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 55-jaehrige Frau - Schmierblutung - Diagnose"
         },
         {
           "number": 42,
@@ -597,7 +597,7 @@
           ],
           "type": "SC",
           "correctAnswers": "01000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (B). 55-jaehrige Frau - Schmierblutung - verdicktes Endometrium - naechste Untersuchung"
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 55-jaehrige Frau - Schmierblutung - verdicktes Endometrium - naechste Untersuchung"
         },
         {
           "number": 43,
@@ -610,8 +610,8 @@
             "Endometriose?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 55-jaehrige Frau - Schmierblutung - Praekanzerose fuer Endometriumkarzinom"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 55-jaehrige Frau - Schmierblutung - Praekanzerose fuer Endometriumkarzinom"
         },
         {
           "number": 44,
@@ -624,8 +624,8 @@
             "Familiäres Risiko"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 55-jaehrige Frau - Schmierblutung - Endometriumkarzinom-Typen"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 55-jaehrige Frau - Schmierblutung - Endometriumkarzinom-Typen"
         },
         {
           "number": 45,
@@ -638,8 +638,8 @@
             "Vollständige Verkohlung der Hand"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 35-jaehriger Patient mit Verbrennung der linken Hand - Diagnose"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 35-jaehriger Patient mit Verbrennung der linken Hand - Diagnose"
         },
         {
           "number": 46,
@@ -652,8 +652,8 @@
             "Wärmeapplikation"
           ],
           "type": "SC",
-          "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 35-jaehriger Patient mit Verbrennung der linken Hand - Therapie"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 35-jaehriger Patient mit Verbrennung der linken Hand - Therapie"
         },
         {
           "number": 47,
@@ -666,8 +666,8 @@
             "…central cord syndrom"
           ],
           "type": "SC",
-          "correctAnswers": "00010",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (D). 43-jaehriger Bauarbeiter - Sturz in Tiefe - Laehmung untere Extremitaeten - Diagnose"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 43-jaehriger Bauarbeiter - Sturz in Tiefe - Laehmung untere Extremitaeten - Diagnose"
         },
         {
           "number": 48,
@@ -680,8 +680,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00001",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (E). 43-jaehriger Bauarbeiter - Sturz in Tiefe - Laehmung untere Extremitaeten - Diagnostik"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 43-jaehriger Bauarbeiter - Sturz in Tiefe - Laehmung untere Extremitaeten - Diagnostik"
         },
         {
           "number": 49,
@@ -694,8 +694,8 @@
             "Spezifische Phobie"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 16-jaehriger Patient mit Psychose - Diagnose"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 16-jaehriger Patient mit Psychose - Diagnose"
         },
         {
           "number": 50,
@@ -708,8 +708,8 @@
             "Ein Intelligenztest sollte akut durchgeführt werden, da er therapierelevant ist"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 16-jaehriger Patient mit Psychose - Intelligenzdiagnostik"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 16-jaehriger Patient mit Psychose - Intelligenzdiagnostik"
         },
         {
           "number": 51,
@@ -722,8 +722,8 @@
             "47,XX+der(13;21)c (Robertsonsche Translokation)"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 37-jaehrige Ratsuchende mit Fehlgeburten - Chromosomenanalyse und Phaenotyp"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 37-jaehrige Ratsuchende mit Fehlgeburten - Chromosomenanalyse und Phaenotyp"
         },
         {
           "number": 52,
@@ -736,8 +736,8 @@
             "Keine diagnose Option kommt zur Zeit in Frage"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 37-jaehrige Ratsuchende mit Fehlgeburten - Beratungsgespraech"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 37-jaehrige Ratsuchende mit Fehlgeburten - Beratungsgespraech"
         },
         {
           "number": 53,
@@ -750,8 +750,8 @@
             "Für die bei dem Paar vermutete/ gesuchte fetale Erkrankung ist Präimplantationsdiagnostik nicht geeignet"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 37-jaehrige Ratsuchende mit Fehlgeburten - Praeimplantationsdiagnostik"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 37-jaehrige Ratsuchende mit Fehlgeburten - Praeimplantationsdiagnostik"
         },
         {
           "number": 54,
@@ -764,8 +764,8 @@
             "Amöbenenzepahilits"
           ],
           "type": "SC",
-          "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). IfSG - Erkrankung mit namentlicher Meldepflicht"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). IfSG - Erkrankung mit namentlicher Meldepflicht"
         },
         {
           "number": 55,
@@ -778,8 +778,8 @@
             "Möglicher Aufenthaltsort mit möglichem InfektionswegW"
           ],
           "type": "SC",
-          "correctAnswers": "00010",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (D). IfSG - kein Bestandteil der namentlichen Meldepflicht"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). IfSG - kein Bestandteil der namentlichen Meldepflicht"
         },
         {
           "number": 56,
@@ -792,8 +792,8 @@
             "Metoprolol Succinat ?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 85-jaehrige Patientin mit Exsikkose - Nierenfunktion und Pausierung von Medikamenten"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 85-jaehrige Patientin mit Exsikkose - Nierenfunktion und Pausierung von Medikamenten"
         },
         {
           "number": 57,
@@ -806,8 +806,8 @@
             "Vorhofflattern"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 85-jaehrige Patientin mit Exsikkose - EKG-Befundung"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 85-jaehrige Patientin mit Exsikkose - EKG-Befundung"
         },
         {
           "number": 58,
@@ -821,7 +821,7 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 85-jaehrige Patientin mit Exsikkose - Praesynkope - Risikoeinschaetzung"
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 85-jaehrige Patientin mit Exsikkose - Praesynkope - Risikoeinschaetzung"
         },
         {
           "number": 59,
@@ -834,8 +834,8 @@
             "EGFR kontrollieren"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 85-jaehrige Patientin mit Exsikkose - Massnahmen"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 85-jaehrige Patientin mit Exsikkose - Massnahmen"
         },
         {
           "number": 60,
@@ -848,8 +848,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 72-jaehriger Diabetiker - Wunde an Grosszehe - Angiografie (Abbildung) - Gefaess"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 72-jaehriger Diabetiker - Wunde an Grosszehe - Angiografie (Abbildung) - Gefaess"
         },
         {
           "number": 61,
@@ -862,8 +862,8 @@
             "Aldosteron"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. Neugeborenes mit Verdacht auf AGS - Screening"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). Neugeborenes mit Verdacht auf AGS - Screening"
         },
         {
           "number": 62,
@@ -876,8 +876,8 @@
             "Proktalgia fugax"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 56-jaehriger Patient mit Schmerzen am After - Diagnose"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 56-jaehriger Patient mit Schmerzen am After - Diagnose"
         },
         {
           "number": 63,
@@ -890,8 +890,8 @@
             "Systemischer Lupus Erythematodes"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 32-jaehrige Patientin - geschwollene Sprunggelenke - Exantheme an den Beinen - Diagnose"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 32-jaehrige Patientin - geschwollene Sprunggelenke - Exantheme an den Beinen - Diagnose"
         },
         {
           "number": 64,
@@ -904,8 +904,8 @@
             "Aktive maligne Erkrankung des Empfängers ist keine Kontraindikation für eine Transplantation."
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 48-jaehriger Patient mit alkoholtoxischer Leberzirrhose - Voraussetzungen zur Lebertransplantation"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 48-jaehriger Patient mit alkoholtoxischer Leberzirrhose - Voraussetzungen zur Lebertransplantation"
         },
         {
           "number": 65,
@@ -918,8 +918,8 @@
             "Aussagekräftigere Per-Protokoll-Analyse"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. Evidenz-basierte Leitlinien - Randomisierung"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). Evidenz-basierte Leitlinien - Randomisierung"
         },
         {
           "number": 66,
@@ -932,8 +932,8 @@
             "Der Patient hat am ehesten einen Spontanpneumothorax."
           ],
           "type": "SC",
-          "correctAnswers": "00010",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (D). 53-jaehriger Mann - Thoraxschmerz - Roentgenbefund (Abbildung)"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 53-jaehriger Mann - Thoraxschmerz - Roentgenbefund (Abbildung)"
         },
         {
           "number": 67,
@@ -947,7 +947,7 @@
           ],
           "type": "SC",
           "correctAnswers": "00100",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (C). 37-jaehriger Krankenpfleger - Diarrhoeen - Ursache und Vorgehen"
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 37-jaehriger Krankenpfleger - Diarrhoeen - Ursache und Vorgehen"
         },
         {
           "number": 68,
@@ -960,8 +960,8 @@
             "Palpitationen"
           ],
           "type": "SC",
-          "correctAnswers": "00010",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (D). 34-jaehriger Mann - V.a. Insulinom - Symptome Fra ge Pat. mit spontaner hypoglykämie nach Nahrungskarenz. Was spricht n"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 34-jaehriger Mann - V.a. Insulinom - Symptome Fra ge Pat. mit spontaner hypoglykämie nach Nahrungskarenz. Was spricht n"
         },
         {
           "number": 69,
@@ -974,8 +974,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 78-jährige Patientin mit Luftnot, Herzrasen und pelzigem Gefühl in der rechten Hand - Diagnose"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 78-jährige Patientin mit Luftnot, Herzrasen und pelzigem Gefühl in der rechten Hand - Diagnose"
         },
         {
           "number": 70,
@@ -988,8 +988,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 6-jaehriger Junge - Kopfschmerzen/Seiltaenzergang - Diagnose"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 6-jaehriger Junge - Kopfschmerzen/Seiltaenzergang - Diagnose"
         },
         {
           "number": 71,
@@ -1002,8 +1002,8 @@
             "Empagliflozin"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 64-jaehriger Patient - Herzinsuffizienz - erhaltene systolische Funktion - Therapie"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 64-jaehriger Patient - Herzinsuffizienz - erhaltene systolische Funktion - Therapie"
         },
         {
           "number": 72,
@@ -1016,8 +1016,8 @@
             "Harnabflussstörung"
           ],
           "type": "SC",
-          "correctAnswers": "00100",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (C). 70-jaehriger Patient - Prostatakarzinom - Skelettszintigrafie (Abbildung) - Befund"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 70-jaehriger Patient - Prostatakarzinom - Skelettszintigrafie (Abbildung) - Befund"
         },
         {
           "number": 73,
@@ -1030,8 +1030,8 @@
             "Phospholipide zur Senkung der oberflächenspannung oder so"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 36-jaehrige Frau - Refluxoesophagitis - Therapie"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 36-jaehrige Frau - Refluxoesophagitis - Therapie"
         },
         {
           "number": 74,
@@ -1044,8 +1044,8 @@
             "Bell-Phänomen"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 84-jaehrige Patientin mit Laesion 8. Hirnnerv - klinische Befunde"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 84-jaehrige Patientin mit Laesion 8. Hirnnerv - klinische Befunde"
         },
         {
           "number": 75,
@@ -1058,8 +1058,8 @@
             "Tilidin"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 65-jaehrige Patientin mit Z.n. Cholezystektomie - Schmerzmedikation"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 65-jaehrige Patientin mit Z.n. Cholezystektomie - Schmerzmedikation"
         },
         {
           "number": 76,
@@ -1072,8 +1072,8 @@
             "Lidocain"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 69-jaehriger Patient - tachykarde Rhythmusstoerung waehrend TURP - EKG (Abbildung) - therapeutische Massnahme"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 69-jaehriger Patient - tachykarde Rhythmusstoerung waehrend TURP - EKG (Abbildung) - therapeutische Massnahme"
         },
         {
           "number": 77,
@@ -1086,8 +1086,8 @@
             "Suizidalität"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 72-jähriger Patient mit beginnendem dementiellen Syndrom - Befunde"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 72-jähriger Patient mit beginnendem dementiellen Syndrom - Befunde"
         },
         {
           "number": 78,
@@ -1098,8 +1098,8 @@
             "Östrogen-Therapie"
           ],
           "type": "SC",
-          "correctAnswers": "000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 35-jaehrige Patientin mit hepatischem Adenom - Vorgehensweise"
+          "correctAnswers": "010",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 35-jaehrige Patientin mit hepatischem Adenom - Vorgehensweise"
         },
         {
           "number": 79,
@@ -1112,8 +1112,8 @@
             "Pemphigus foeliaceus"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 55-jaehriger Mann - Hautveraenderungen an der Brust (Abbildung) - Antikoerper-Bestimmung - Diagnose"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 55-jaehriger Mann - Hautveraenderungen an der Brust (Abbildung) - Antikoerper-Bestimmung - Diagnose"
         },
         {
           "number": 80,
@@ -1126,8 +1126,8 @@
             "Drainage system"
           ],
           "type": "SC",
-          "correctAnswers": "01000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (B). 55-jaehriger Patient mit akutem Glaukomanfall - OP-Verfahren"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 55-jaehriger Patient mit akutem Glaukomanfall - OP-Verfahren"
         },
         {
           "number": 81,
@@ -1140,8 +1140,8 @@
             "Supratemporale Quadrantenanopsie"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 34-jaehriger Patient - Verdacht auf Retrobulbaerneuritis - Symptomatik bzw. Befund"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 34-jaehriger Patient - Verdacht auf Retrobulbaerneuritis - Symptomatik bzw. Befund"
         },
         {
           "number": 82,
@@ -1154,8 +1154,8 @@
             "Morning glory Papille"
           ],
           "type": "SC",
-          "correctAnswers": "01000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (B). 15-jaehriger Patient mit beidseitiger Visusminderung - pathologische Struktur"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 15-jaehriger Patient mit beidseitiger Visusminderung - pathologische Struktur"
         },
         {
           "number": 83,
@@ -1168,8 +1168,8 @@
             "Schielen wird bei Blick nach rechts schlimmer bzw. Schielwinkel wird dann größer"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 57-jaehriger Patient mit rechtsseitiger Abduzensparese - Befund"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 57-jaehriger Patient mit rechtsseitiger Abduzensparese - Befund"
         },
         {
           "number": 84,
@@ -1182,8 +1182,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 63-jaehriger Bankkaufmann mit Niedergeschlagenheit - keinen Ausweg - Massnahmen"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 63-jaehriger Bankkaufmann mit Niedergeschlagenheit - keinen Ausweg - Massnahmen"
         },
         {
           "number": 85,
@@ -1196,8 +1196,8 @@
             "Furunkel"
           ],
           "type": "SC",
-          "correctAnswers": "00001",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (E). 14-jaehriger Junge - Hautveraenderungen im Nacken (Abbildung) - Barbershop - Diagnose"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 14-jaehriger Junge - Hautveraenderungen im Nacken (Abbildung) - Barbershop - Diagnose"
         },
         {
           "number": 86,
@@ -1210,8 +1210,8 @@
             "Buproprion"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 40-jaehriger Patient mit sexueller Funktionsstoerung - Arzneistofftherapie"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 40-jaehriger Patient mit sexueller Funktionsstoerung - Arzneistofftherapie"
         },
         {
           "number": 87,
@@ -1224,8 +1224,8 @@
             "primär progresive Aphasie vom logopädischen Typ"
           ],
           "type": "SC",
-          "correctAnswers": "01000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (B). 67-jähriger Patient mit nachlassenden intellektuellen Fähigkeiten - Diagnose"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 67-jähriger Patient mit nachlassenden intellektuellen Fähigkeiten - Diagnose"
         },
         {
           "number": 88,
@@ -1238,8 +1238,8 @@
             "Trinukleotidexpansion"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. maennliches Neugeborenes mit auffaelliger Morphologie - Ursache"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). maennliches Neugeborenes mit auffaelliger Morphologie - Ursache"
         },
         {
           "number": 89,
@@ -1252,8 +1252,8 @@
             "Enukleation des Auge"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 67-jaehrige Patientin mit ophthalmologischem Befund - Massnahmen"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 67-jaehrige Patientin mit ophthalmologischem Befund - Massnahmen"
         },
         {
           "number": 90,
@@ -1266,8 +1266,8 @@
             "Schwellkörperinjektionen mit Prostaglandinen"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 69-jaehriger Mann - erektile Dysfunktion - Therapie"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 69-jaehriger Mann - erektile Dysfunktion - Therapie"
         },
         {
           "number": 91,
@@ -1280,8 +1280,8 @@
             "Elektrokonvulsionstherapie"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 35-jaehriger Ingenieur - auffaelliges psychisches Verhalten - Therapie"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 35-jaehriger Ingenieur - auffaelliges psychisches Verhalten - Therapie"
         },
         {
           "number": 92,
@@ -1294,8 +1294,8 @@
             "Abstammungswahn"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 38-jaehriger Patient mit schizophrener Psychose - haeufigste Wahnform"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 38-jaehriger Patient mit schizophrener Psychose - haeufigste Wahnform"
         },
         {
           "number": 93,
@@ -1309,7 +1309,7 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 52-jaehrige Patientin - Sehstoerung/Schwaeche - Orbita-MRT (Abbildung) - V.a. ZNS-Erkrankung - Diagnostik"
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 52-jaehrige Patientin - Sehstoerung/Schwaeche - Orbita-MRT (Abbildung) - V.a. ZNS-Erkrankung - Diagnostik"
         },
         {
           "number": 94,
@@ -1322,8 +1322,8 @@
             "TPO-Antikörper"
           ],
           "type": "SC",
-          "correctAnswers": "00010",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (D). 55-jaehriger Patient - Wesensveraenderung und Bewegungsstoerung - Diagnostik"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 55-jaehriger Patient - Wesensveraenderung und Bewegungsstoerung - Diagnostik"
         },
         {
           "number": 95,
@@ -1336,8 +1336,8 @@
             "Temporale Spikes"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 17-jaehrige Patientin mit Grand-mal-Anfall - Diagnose"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 17-jaehrige Patientin mit Grand-mal-Anfall - Diagnose"
         },
         {
           "number": 96,
@@ -1350,8 +1350,8 @@
             "100%"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 25-jaehriger Mann - eineiiger Zwillingsbruder - Wahrscheinlichkeit heterogene Anlagetraegerschaft"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 25-jaehriger Mann - eineiiger Zwillingsbruder - Wahrscheinlichkeit heterogene Anlagetraegerschaft"
         },
         {
           "number": 97,
@@ -1364,8 +1364,8 @@
             "CK im Serum?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 35-jaehrige Patientin mit Guillain-Barré-Syndrom - Kontrolluntersuchungen"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 35-jaehrige Patientin mit Guillain-Barré-Syndrom - Kontrolluntersuchungen"
         },
         {
           "number": 98,
@@ -1378,8 +1378,8 @@
             "Auffälliger Mini-Mental-Status Test"
           ],
           "type": "SC",
-          "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 61-jaehrige Patientin mit Multisystematrophie - Untersuchungsbefunde"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 61-jaehrige Patientin mit Multisystematrophie - Untersuchungsbefunde"
         },
         {
           "number": 99,
@@ -1392,8 +1392,8 @@
             "Hydatide"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 22-jaehriger Mann - Verhaertung rechter Hoden - Diagnose"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 22-jaehriger Mann - Verhaertung rechter Hoden - Diagnose"
         },
         {
           "number": 100,
@@ -1406,8 +1406,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 24-jaehriger Patient mit hypochondrischer Stoerung - kognitive Verhaltenstherapie"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 24-jaehriger Patient mit hypochondrischer Stoerung - kognitive Verhaltenstherapie"
         },
         {
           "number": 101,
@@ -1420,8 +1420,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 46-jaehriger Patient mit Gangerschwernis und Muskeltonuserhoehung - Neuroanatomie"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 46-jaehriger Patient mit Gangerschwernis und Muskeltonuserhoehung - Neuroanatomie"
         },
         {
           "number": 102,
@@ -1434,8 +1434,8 @@
             "Phenprocoumon"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 55-jaehriger Patient - Stent in RIVA - Prophylaxe Stentthrombose"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 55-jaehriger Patient - Stent in RIVA - Prophylaxe Stentthrombose"
         },
         {
           "number": 103,
@@ -1448,8 +1448,8 @@
             "Faszikulationen EMG/ Spontanaktivitäten in der Nadelmyographie"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 60-jaehriger Patient - Differenzialdiagnose ALS - zusatzdiagnostische Befunde"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 60-jaehriger Patient - Differenzialdiagnose ALS - zusatzdiagnostische Befunde"
         },
         {
           "number": 104,
@@ -1462,8 +1462,8 @@
             "Kammerflimmern"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 71-jaehriger Patient - Palpitationen - EKG-Befund"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 71-jaehriger Patient - Palpitationen - EKG-Befund"
         },
         {
           "number": 105,
@@ -1476,8 +1476,8 @@
             "Querschnittstudie"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 45-jaehriger Mann - Nutzen des Prostatascreenings - Studientyp"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 45-jaehriger Mann - Nutzen des Prostatascreenings - Studientyp"
         },
         {
           "number": 106,
@@ -1490,8 +1490,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00100",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (C). 17-jaehrige Schuelerin - Halsschmerzen/Fieber/Lymphknoten/Milz - Massnahmen"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 17-jaehrige Schuelerin - Halsschmerzen/Fieber/Lymphknoten/Milz - Massnahmen"
         },
         {
           "number": 107,
@@ -1504,8 +1504,8 @@
             "Lässt sich so nicht beantworten"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 69-jaehrige Patientin - Belastungsinkontinenz - Descensus uteri - Descensus-Ausmass"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 69-jaehrige Patientin - Belastungsinkontinenz - Descensus uteri - Descensus-Ausmass"
         },
         {
           "number": 108,
@@ -1518,8 +1518,8 @@
             "Prämature Pubertätsentwicklung"
           ],
           "type": "SC",
-          "correctAnswers": "01000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (B). 3 Monate alter Saeugling mit Gastroenteritis - Dehydratationsgefaehrdung Kinder"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 3 Monate alter Saeugling mit Gastroenteritis - Dehydratationsgefaehrdung Kinder"
         },
         {
           "number": 109,
@@ -1532,8 +1532,8 @@
             "I.v. Flüssigkeitssubstitution"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 3 Monate alter Saeugling mit Gastroenteritis und Dehydratation - Therapie"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 3 Monate alter Saeugling mit Gastroenteritis und Dehydratation - Therapie"
         },
         {
           "number": 110,
@@ -1546,8 +1546,8 @@
             "Ich weiß nicht mehr, Kalzium vielleicht oder Magnesium? nee meine das war kein elektrolyt"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 3 Monate alter Saeugling mit Gastroenteritis - Laborparameter vor Therapie"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 3 Monate alter Saeugling mit Gastroenteritis - Laborparameter vor Therapie"
         },
         {
           "number": 111,
@@ -1560,8 +1560,8 @@
             "Tiefe und schnelle Atmung bzw. Tachypnoe"
           ],
           "type": "SC",
-          "correctAnswers": "00010",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (D). 3 Monate alter Saeugling mit Gastroenteritis - klinisches Zeichen der Dehydratation"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 3 Monate alter Saeugling mit Gastroenteritis - klinisches Zeichen der Dehydratation"
         },
         {
           "number": 112,
@@ -1575,7 +1575,7 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 51-jaehriger Patient mit Diabetes mellitus Typ 2 und Adipositas - GLP-1-Rezeptoragonist - unerwuenschte Wirkungen"
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 51-jaehriger Patient mit Diabetes mellitus Typ 2 und Adipositas - GLP-1-Rezeptoragonist - unerwuenschte Wirkungen"
         },
         {
           "number": 113,
@@ -1588,8 +1588,8 @@
             "Pankreasenzymsubstitution"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 51-jaehriger Patient mit Diabetes mellitus Typ 2 und Adipositas - Vorbeugung unerwuenschte Wirkungen GLP-1-Rezeptoragonist"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 51-jaehriger Patient mit Diabetes mellitus Typ 2 und Adipositas - Vorbeugung unerwuenschte Wirkungen GLP-1-Rezeptoragonist"
         },
         {
           "number": 114,
@@ -1602,8 +1602,8 @@
             "Sitagliptin"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 51-jaehriger Patient mit Diabetes mellitus Typ 2 und Adipositas - Therapiebeginn mit GLP-1-Rezeptoragonist - Absetzen von Arzneistoff"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 51-jaehriger Patient mit Diabetes mellitus Typ 2 und Adipositas - Therapiebeginn mit GLP-1-Rezeptoragonist - Absetzen von Arzneistoff"
         },
         {
           "number": 115,
@@ -1616,8 +1616,8 @@
             "Auflagerung spricht für Wurm- oder Parasitenbefall"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 28-jaehrige Frau - akutes Abdomen Resektion Dickdarmsegment makroskopisches Praeparat (Abbildung) - Befund"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 28-jaehrige Frau - akutes Abdomen Resektion Dickdarmsegment makroskopisches Praeparat (Abbildung) - Befund"
         },
         {
           "number": 116,
@@ -1630,8 +1630,8 @@
             "Parasitenbefall: Granulome, Keimzellproliferation und Monozytose"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 28-jaehrige Frau - akutes Abdomen Resektion Dickdarmsegment - Differenzialdiagnosen mit histopathologischen Veraenderungen"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 28-jaehrige Frau - akutes Abdomen Resektion Dickdarmsegment - Differenzialdiagnosen mit histopathologischen Veraenderungen"
         },
         {
           "number": 117,
@@ -1644,8 +1644,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "01000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (B). 28-jaehrige Frau - akutes Abdomen Resektion Dickdarmsegment - differenzialdiagnostische Ueberlegungen"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 28-jaehrige Frau - akutes Abdomen Resektion Dickdarmsegment - differenzialdiagnostische Ueberlegungen"
         },
         {
           "number": 118,
@@ -1658,8 +1658,8 @@
             "Altersgipfel bei Kindern und im Senium"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 55-jaehrige Frau - Lichen sclerosus vulvae - Charakteristika"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 55-jaehrige Frau - Lichen sclerosus vulvae - Charakteristika"
         },
         {
           "number": 119,
@@ -1672,8 +1672,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 55-jaehrige Frau - Lichen sclerosus vulvae - Differenzialdiagnosen vulvaerer Pruritus"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 55-jaehrige Frau - Lichen sclerosus vulvae - Differenzialdiagnosen vulvaerer Pruritus"
         },
         {
           "number": 120,
@@ -1686,8 +1686,8 @@
             "Langfristige Gabe von Methotrexat"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 55-jaehrige Frau - Lichen sclerosus vulvae - Therapie"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 55-jaehrige Frau - Lichen sclerosus vulvae - Therapie"
         },
         {
           "number": 121,
@@ -1700,8 +1700,8 @@
             "80%"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 35-jaehrige Patientin vor geplanter Strumektomie - Apfelscore - Risiko fuer PONV"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 35-jaehrige Patientin vor geplanter Strumektomie - Apfelscore - Risiko fuer PONV"
         },
         {
           "number": 122,
@@ -1714,8 +1714,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 35-jaehrige Patientin vor geplanter Strumektomie - Kriterien des Apfelscore"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 35-jaehrige Patientin vor geplanter Strumektomie - Kriterien des Apfelscore"
         },
         {
           "number": 123,
@@ -1728,8 +1728,8 @@
             "Diphenhydramin"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 35-jaehrige Patientin vor geplanter Strumektomie - Prophylaxe/Therapie PONV"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 35-jaehrige Patientin vor geplanter Strumektomie - Prophylaxe/Therapie PONV"
         },
         {
           "number": 124,
@@ -1742,8 +1742,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 4-jaehriges Kind Naevus flammeus (Abbildung) – diagnostisches Vorgehen"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 4-jaehriges Kind Naevus flammeus (Abbildung) – diagnostisches Vorgehen"
         },
         {
           "number": 125,
@@ -1756,8 +1756,8 @@
             "topische Therapie"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 4-jaehriges Kind Naevus flammeus (Abbildung) – Therapie"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 4-jaehriges Kind Naevus flammeus (Abbildung) – Therapie"
         },
         {
           "number": 126,
@@ -1770,8 +1770,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 31-jährige Gebärende in \"Austrittsperiode\" - Definition"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 31-jährige Gebärende in \"Austrittsperiode\" - Definition"
         },
         {
           "number": 127,
@@ -1784,8 +1784,8 @@
             "Aszellation mit Wehe lässt auf Wohlergehen des Kindes schließen"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 31-jährige Gebärende in \"Austrittsperiode\" - CTG (Abbildung)"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 31-jährige Gebärende in \"Austrittsperiode\" - CTG (Abbildung)"
         },
         {
           "number": 128,
@@ -1798,8 +1798,8 @@
             "Nach der Übergabe mit Hebamme besprechen und andere OÄ in der nächsten Pause um Zweitmeinung bitten"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 31-jährige Gebärende in \"Austrittsperiode\" - V.a. CTG-Fehleinschätzung durch OA - Verhalten Assistenzärztin"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 31-jährige Gebärende in \"Austrittsperiode\" - V.a. CTG-Fehleinschätzung durch OA - Verhalten Assistenzärztin"
         },
         {
           "number": 129,
@@ -1812,8 +1812,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 67-jaehriger Patient Husten roetliche Farbe Sputum Z.n. Mitralklappenrekonstruktion Hypertonie Raucher – Diagnostik"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 67-jaehriger Patient Husten roetliche Farbe Sputum Z.n. Mitralklappenrekonstruktion Hypertonie Raucher – Diagnostik"
         },
         {
           "number": 130,
@@ -1826,8 +1826,8 @@
             "Defekt der Mitralklappenrekonstruktion"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 67-jaehriger Patient Husten roetliche Farbe Sputum Z.n. Mitralklappenrekonstruktion Hypertonie Raucher – Verdachtsdiagnose basierend auf Roentgenbefund (Abbildung)"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 67-jaehriger Patient Husten roetliche Farbe Sputum Z.n. Mitralklappenrekonstruktion Hypertonie Raucher – Verdachtsdiagnose basierend auf Roentgenbefund (Abbildung)"
         },
         {
           "number": 131,
@@ -1840,8 +1840,8 @@
             "Wird an endokriner ? Entgleisung sterben"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 55-jaehriger Mann mit IgA-Glomerulonephritis - Prognose"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 55-jaehriger Mann mit IgA-Glomerulonephritis - Prognose"
         },
         {
           "number": 132,
@@ -1854,8 +1854,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 55-jaehriger Mann - IgA-Glomerulonephritis -Risiko fuer Dialyse - Arzneistoffe"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 55-jaehriger Mann - IgA-Glomerulonephritis -Risiko fuer Dialyse - Arzneistoffe"
         },
         {
           "number": 133,
@@ -1868,8 +1868,8 @@
             "Hämodialyse zu Hause"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 55-jaehriger Patient - IgA-Glomerulonephritis - Nierenersatztherapie - Verfahren cT2_024 | 67-jaehriger Patient Husten roetliche Farbe Sputum Z.n. Mitralklappenrekonstruktion Hypertonie Raucher – weiterfuehrende Diagnostik"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 55-jaehriger Patient - IgA-Glomerulonephritis - Nierenersatztherapie - Verfahren cT2_024 | 67-jaehriger Patient Husten roetliche Farbe Sputum Z.n. Mitralklappenrekonstruktion Hypertonie Raucher – weiterfuehrende Diagnostik"
         },
         {
           "number": 134,
@@ -1881,9 +1881,9 @@
             "Anti HBs und anti HBe",
             "Anti-HbsAK und Anti-Hbc-AKe"
           ],
-          "type": "MC",
-          "correctAnswers": "10010",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A, D). 28-jaehrige Frau aus Nigeria - Verdacht auf chronische Virushepatitis B - serologische Marker"
+          "type": "SC",
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 28-jaehrige Frau aus Nigeria - Verdacht auf chronische Virushepatitis B - serologische Marker"
         },
         {
           "number": 135,
@@ -1896,8 +1896,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 28-jaehrige Frau aus Nigeria - bestaetigte chronische Virushepatitis B - weitere Abklaerung"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 28-jaehrige Frau aus Nigeria - bestaetigte chronische Virushepatitis B - weitere Abklaerung"
         },
         {
           "number": 136,
@@ -1910,8 +1910,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 28-jaehrige Frau aus Nigeria - chronische Virushepatitis B - antivirale Therapie"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 28-jaehrige Frau aus Nigeria - chronische Virushepatitis B - antivirale Therapie"
         },
         {
           "number": 137,
@@ -1924,8 +1924,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 28-jaehrige Frau aus Nigeria - chronische Virushepatitis B - Ansprechen der Therapie"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 28-jaehrige Frau aus Nigeria - chronische Virushepatitis B - Ansprechen der Therapie"
         },
         {
           "number": 138,
@@ -1938,8 +1938,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "01000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (B). 78-jaehrige Frau - chronisch obstruktive Lungenerkrankung - Befunde anhand Roentgenbild"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 78-jaehrige Frau - chronisch obstruktive Lungenerkrankung - Befunde anhand Roentgenbild"
         },
         {
           "number": 139,
@@ -1952,8 +1952,8 @@
             "altersentsprechender Normalbefund"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 78-jaehrige Frau - chronisch obstruktive Lungenerkrankung - Laborbefunde"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 78-jaehrige Frau - chronisch obstruktive Lungenerkrankung - Laborbefunde"
         },
         {
           "number": 140,
@@ -1966,8 +1966,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 78-jaehrige Frau - chronisch obstruktive Lungenerkrankung - Blutgasanalyse - Befundkonstellation"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 78-jaehrige Frau - chronisch obstruktive Lungenerkrankung - Blutgasanalyse - Befundkonstellation"
         },
         {
           "number": 141,
@@ -1980,8 +1980,8 @@
             "15-21"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 78-jaehrige Frau - chronisch obstruktive Lungenerkrankung - Sarkopenie - Eiweissbedarf"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 78-jaehrige Frau - chronisch obstruktive Lungenerkrankung - Sarkopenie - Eiweissbedarf"
         },
         {
           "number": 142,
@@ -1994,8 +1994,8 @@
             "Pneumokokken"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 78-jaehrige Frau - chronisch obstruktive Lungenerkrankung - Impfungen"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 78-jaehrige Frau - chronisch obstruktive Lungenerkrankung - Impfungen"
         },
         {
           "number": 143,
@@ -2009,7 +2009,7 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 27-jaehrige Patientin Anaesthesie bei OP Sprunggelenks-Fraktur Maligne Hyperthermie – Ausloeser"
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 27-jaehrige Patientin Anaesthesie bei OP Sprunggelenks-Fraktur Maligne Hyperthermie – Ausloeser"
         },
         {
           "number": 144,
@@ -2022,8 +2022,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 27-jaehrige Patientin Anaesthesie bei OP Sprunggelenks-Fraktur Maligne Hyperthermie – Therapie"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 27-jaehrige Patientin Anaesthesie bei OP Sprunggelenks-Fraktur Maligne Hyperthermie – Therapie"
         },
         {
           "number": 145,
@@ -2036,8 +2036,8 @@
             "Kalium"
           ],
           "type": "SC",
-          "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 27-jaehrige Patientin Anaesthesie bei OP Sprunggelenks-Fraktur Maligne Hyperthermie - Pathophysiologie"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 27-jaehrige Patientin Anaesthesie bei OP Sprunggelenks-Fraktur Maligne Hyperthermie - Pathophysiologie"
         },
         {
           "number": 146,
@@ -2050,8 +2050,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00010",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (D). 27-jaehrige Patientin Anaesthesie bei OP Sprunggelenks-Fraktur Maligne Hyperthermie - Kontraindikationen"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 27-jaehrige Patientin Anaesthesie bei OP Sprunggelenks-Fraktur Maligne Hyperthermie - Kontraindikationen"
         },
         {
           "number": 147,
@@ -2064,8 +2064,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 63-jaehriger Mann - benigne Prostatahyperplasie - medikamentoese Therapie"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 63-jaehriger Mann - benigne Prostatahyperplasie - medikamentoese Therapie"
         },
         {
           "number": 148,
@@ -2078,8 +2078,8 @@
             "Laservaporisation"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 63-jaehriger Mann - benigne Prostatahyperplasie - interventionelle/operative Therapie"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 63-jaehriger Mann - benigne Prostatahyperplasie - interventionelle/operative Therapie"
         },
         {
           "number": 149,
@@ -2092,8 +2092,8 @@
             "Blasensteine"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 63-jaehriger Mann - benigne Prostatahyperplasie - absolute OP-Indikation"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 63-jaehriger Mann - benigne Prostatahyperplasie - absolute OP-Indikation"
         },
         {
           "number": 150,
@@ -2106,8 +2106,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 61-jaehrige Frau - Erbrechen Harnwegsinfekt CT-Abdomen (Abbildung) - Befund"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 61-jaehrige Frau - Erbrechen Harnwegsinfekt CT-Abdomen (Abbildung) - Befund"
         },
         {
           "number": 151,
@@ -2120,8 +2120,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 61-jaehrige Frau - Erbrechen Harnwegsinfekt CT-Abdomen (Abbildung) - Therapie"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 61-jaehrige Frau - Erbrechen Harnwegsinfekt CT-Abdomen (Abbildung) - Therapie"
         },
         {
           "number": 152,
@@ -2134,8 +2134,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 51-jaehrige Frau - Knoten rechte Brust V.a. Mammakarzinom - Sicherung Verdachtsdiagnose"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 51-jaehrige Frau - Knoten rechte Brust V.a. Mammakarzinom - Sicherung Verdachtsdiagnose"
         },
         {
           "number": 153,
@@ -2148,8 +2148,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 51-jaehrige Frau - Knoten rechte Brust Mammakarzinom bestaetigt - Grundlagen Therapieempfehlung"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 51-jaehrige Frau - Knoten rechte Brust Mammakarzinom bestaetigt - Grundlagen Therapieempfehlung"
         },
         {
           "number": 154,
@@ -2162,8 +2162,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 24-jaehriger Patient - akute lymphatische B-Zell-Leukaemie - CAR-T-Zell-Therapie - Prinzip"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 24-jaehriger Patient - akute lymphatische B-Zell-Leukaemie - CAR-T-Zell-Therapie - Prinzip"
         },
         {
           "number": 155,
@@ -2176,8 +2176,8 @@
             "Medikamentöse Stimulation der Lymphopoese (oder so ähnlich)"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 24-jaehriger Patient - akute lymphatische B-Zell-Leukaemie - CAR-T-Zell-Therapie - Massnahmen"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 24-jaehriger Patient - akute lymphatische B-Zell-Leukaemie - CAR-T-Zell-Therapie - Massnahmen"
         },
         {
           "number": 156,
@@ -2190,8 +2190,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 24-jaehriger Patient - akute lymphatische B-Zell-Leukaemie - CAR-T-Zell-Therapie - unerwuenschte Wirkung"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 24-jaehriger Patient - akute lymphatische B-Zell-Leukaemie - CAR-T-Zell-Therapie - unerwuenschte Wirkung"
         },
         {
           "number": 157,
@@ -2204,8 +2204,8 @@
             "Konkave St Streckenhebung"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 28-jaehrige Frau - Influenza-Infektion - Belastungsdyspnoe - EKG-Befund"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 28-jaehrige Frau - Influenza-Infektion - Belastungsdyspnoe - EKG-Befund"
         },
         {
           "number": 158,
@@ -2218,8 +2218,8 @@
             "Virus Infekt"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 28-jaehrige Frau - Influenza-Infektion - Belastungsdyspnoe - Laborbefunde - Ursachen"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 28-jaehrige Frau - Influenza-Infektion - Belastungsdyspnoe - Laborbefunde - Ursachen"
         },
         {
           "number": 159,
@@ -2232,8 +2232,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 28-jaehrige Frau - Influenza-Infektion - Belastungsdyspnoe - Diagnose"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 28-jaehrige Frau - Influenza-Infektion - Belastungsdyspnoe - Diagnose"
         },
         {
           "number": 160,
@@ -2246,8 +2246,8 @@
             "CT Abdomen mit Kontrastmittel"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 55-jaehrige Frau - V.a. Neubildung im Bereich der gynaekologischen Beckenorgane - Diagnostik"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 55-jaehrige Frau - V.a. Neubildung im Bereich der gynaekologischen Beckenorgane - Diagnostik"
         },
         {
           "number": 161,
@@ -2260,8 +2260,8 @@
             "Glatt begrenzte Struktur mit Schallschatten"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 55-jaehrige Frau - V.a. Neubildung im Bereich der gynaekologischen Beckenorgane Sonografie Adnexe - malignitaetsverdaechtiger Befund"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 55-jaehrige Frau - V.a. Neubildung im Bereich der gynaekologischen Beckenorgane Sonografie Adnexe - malignitaetsverdaechtiger Befund"
         },
         {
           "number": 162,
@@ -2274,8 +2274,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00100",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (C). 55-jaehrige Frau - V.a. Neubildung im Bereich der gynaekologischen Beckenorgane (maligner ovarieller Prozess) - weitere Diagnostik"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 55-jaehrige Frau - V.a. Neubildung im Bereich der gynaekologischen Beckenorgane (maligner ovarieller Prozess) - weitere Diagnostik"
         },
         {
           "number": 163,
@@ -2288,8 +2288,8 @@
             "Erniedrigte Gamma-GT (niedrig)"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 27-jaehriger Patient mit Alkoholkonsum - Befundkonstellation Laborwerte"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 27-jaehriger Patient mit Alkoholkonsum - Befundkonstellation Laborwerte"
         },
         {
           "number": 164,
@@ -2302,8 +2302,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 27-jaehriger Patient mit Alkoholkonsum - Risikofaktor obstruktives Schlafapnoesyndrom"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 27-jaehriger Patient mit Alkoholkonsum - Risikofaktor obstruktives Schlafapnoesyndrom"
         },
         {
           "number": 165,
@@ -2316,8 +2316,8 @@
             "Gelenkpunktion mit Sy"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 72-jaehriger Patient mit belastungsabhaengigen Knieschmerzen - Untersuchungsbefunde Bewegungseinschraenkung Kniegelenk"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 72-jaehriger Patient mit belastungsabhaengigen Knieschmerzen - Untersuchungsbefunde Bewegungseinschraenkung Kniegelenk"
         },
         {
           "number": 166,
@@ -2331,7 +2331,7 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 72-jaehriger Patient mit belastungsabhaengigen Knieschmerzen - Varusgonarthrose"
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 72-jaehriger Patient mit belastungsabhaengigen Knieschmerzen - Varusgonarthrose"
         },
         {
           "number": 167,
@@ -2344,8 +2344,8 @@
             "Totale bikondyläre Knieendoprothese (TEP)"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 72-jaehriger Patient mit belastungsabhaengigen Knieschmerzen - Therapieoptionen"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 72-jaehriger Patient mit belastungsabhaengigen Knieschmerzen - Therapieoptionen"
         },
         {
           "number": 168,
@@ -2358,8 +2358,8 @@
             "Phenprocoumon"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 72-jaehriger Patient mit belastungsabhaengigen Knieschmerzen - Prophylaxe postoperative Beinvenenthrombose"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 72-jaehriger Patient mit belastungsabhaengigen Knieschmerzen - Prophylaxe postoperative Beinvenenthrombose"
         },
         {
           "number": 169,
@@ -2372,8 +2372,8 @@
             "Verknöcherung der Prothese"
           ],
           "type": "SC",
-          "correctAnswers": "01000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (B). 72-jaehriger Patient mit belastungsabhaengigen Knieschmerzen - Komplikationen nach Implantation Knietotalendoprothese"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 72-jaehriger Patient mit belastungsabhaengigen Knieschmerzen - Komplikationen nach Implantation Knietotalendoprothese"
         },
         {
           "number": 170,
@@ -2386,8 +2386,8 @@
             "Shigellenruhr-"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 72-jaehrige Frau - Durchfaelle nach Indienreise - Verdachtsdiagnose"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 72-jaehrige Frau - Durchfaelle nach Indienreise - Verdachtsdiagnose"
         },
         {
           "number": 171,
@@ -2400,8 +2400,8 @@
             "Okkultes Blut im Stuhl"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 72-jaehrige Frau - Durchfaelle nach Indienreise - Laborparameter"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 72-jaehrige Frau - Durchfaelle nach Indienreise - Laborparameter"
         },
         {
           "number": 172,
@@ -2414,8 +2414,8 @@
             "Stufenbiopsie aus Dickdarm und nach Befund Therapieentscheidung"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 72-jaehrige Frau - Durchfaelle nach Indienreise - weiteres Vorgehen"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 72-jaehrige Frau - Durchfaelle nach Indienreise - weiteres Vorgehen"
         },
         {
           "number": 173,
@@ -2428,8 +2428,8 @@
             "KG 5"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 76-jaehrige Patientin nach Schlaganfall Rehabilitationsklinik Funktionsfaehigkeiten – Kraftgrad nach Janda"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 76-jaehrige Patientin nach Schlaganfall Rehabilitationsklinik Funktionsfaehigkeiten – Kraftgrad nach Janda"
         },
         {
           "number": 174,
@@ -2442,8 +2442,8 @@
             "Selbstständig 100m weit laufen oder so"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 76-jaehrige Patientin nach Schlaganfall Rehabilitationsklinik Funktionsfaehigkeiten - Fruehreha-Index"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 76-jaehrige Patientin nach Schlaganfall Rehabilitationsklinik Funktionsfaehigkeiten - Fruehreha-Index"
         },
         {
           "number": 175,
@@ -2456,8 +2456,8 @@
             "Gestörte Sprachproduktion, aber Nachsprechen okay"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 76-jaehrige Patientin nach Schlaganfall Rehabilitationsklinik Funktionsfaehigkeiten – Symptome Broca-Aphasie"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 76-jaehrige Patientin nach Schlaganfall Rehabilitationsklinik Funktionsfaehigkeiten – Symptome Broca-Aphasie"
         },
         {
           "number": 176,
@@ -2470,8 +2470,8 @@
             "40/40/0"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 40-jaehriger Patient mit schmerzbedingt eingeschraenkter Handgelenksbeweglichkeit - Neutral-Null-Methode"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 40-jaehriger Patient mit schmerzbedingt eingeschraenkter Handgelenksbeweglichkeit - Neutral-Null-Methode"
         },
         {
           "number": 177,
@@ -2484,8 +2484,8 @@
             "Unauffälliger befund"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 40-jaehriger Patient mit schmerzbedingt eingeschraenkter Handgelenksbeweglichkeit - Interpretation Roentgenbefund"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 40-jaehriger Patient mit schmerzbedingt eingeschraenkter Handgelenksbeweglichkeit - Interpretation Roentgenbefund"
         },
         {
           "number": 178,
@@ -2498,8 +2498,8 @@
             "bandrekonstruktion"
           ],
           "type": "SC",
-          "correctAnswers": "00100",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (C). 40-jaehriger Patient mit schmerzbedingt eingeschraenkter Handgelenksbeweglichkeit - Therapieoptionen"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 40-jaehriger Patient mit schmerzbedingt eingeschraenkter Handgelenksbeweglichkeit - Therapieoptionen"
         },
         {
           "number": 179,
@@ -2512,8 +2512,8 @@
             "Performance bias"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. Effekte onkologischer Screeningprogramme zur Frueherkennung - systematischer Fehler (Bias)"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). Effekte onkologischer Screeningprogramme zur Frueherkennung - systematischer Fehler (Bias)"
         },
         {
           "number": 180,
@@ -2526,8 +2526,8 @@
             "Patient soll Thiamazol bekommen"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 53-jaehriger Patient Thyreoidektomie zervikale Lymphadenektomie follikulaeres Schilddruesenkarzinom (pT3) - Therapie"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 53-jaehriger Patient Thyreoidektomie zervikale Lymphadenektomie follikulaeres Schilddruesenkarzinom (pT3) - Therapie"
         },
         {
           "number": 181,
@@ -2540,8 +2540,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 48-jaehriger Patient mit Schwellung am Ellbogen - Diagnose"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 48-jaehriger Patient mit Schwellung am Ellbogen - Diagnose"
         },
         {
           "number": 182,
@@ -2554,8 +2554,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 48-jaehrige Patientin mit Hautveraenderungen an beiden Haenden - Diagnose"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 48-jaehrige Patientin mit Hautveraenderungen an beiden Haenden - Diagnose"
         },
         {
           "number": 183,
@@ -2568,8 +2568,8 @@
             "Still Syndrom"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. SARS-CoV-2-Infektion mit Pediatric Inflammatory Multisystem Syndrome - Differentialdiagnose"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). SARS-CoV-2-Infektion mit Pediatric Inflammatory Multisystem Syndrome - Differentialdiagnose"
         },
         {
           "number": 184,
@@ -2582,8 +2582,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 63-jaehriger Mann Hemiparese rechts globale Aphasie Blickwendung nach links Verschluss A. cerebri media links in CT-Angiografie - Massnahmen"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 63-jaehriger Mann Hemiparese rechts globale Aphasie Blickwendung nach links Verschluss A. cerebri media links in CT-Angiografie - Massnahmen"
         },
         {
           "number": 185,
@@ -2596,8 +2596,8 @@
             "Vitamin K"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 43-jaehrige Schwangere - Beinvenenthrombose - leitliniengerechte Antikoagulation"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 43-jaehrige Schwangere - Beinvenenthrombose - leitliniengerechte Antikoagulation"
         },
         {
           "number": 186,
@@ -2610,8 +2610,8 @@
             "E. coli"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 42-jaehrige Lehrerin -Bauchtrauma - postoperative Peritonitis - bakterielle Erreger und Antiinfektiva"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 42-jaehrige Lehrerin -Bauchtrauma - postoperative Peritonitis - bakterielle Erreger und Antiinfektiva"
         },
         {
           "number": 187,
@@ -2624,8 +2624,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. Sekretaerin mit starken Rueckenschmerzen - Rehabilitationsfaehigkeit"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). Sekretaerin mit starken Rueckenschmerzen - Rehabilitationsfaehigkeit"
         },
         {
           "number": 188,
@@ -2638,8 +2638,8 @@
             "Arbeiten in gebeugter Körperhaltung in engen Verhältnissen"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 56-jaehriger Patient zervikales Wurzelreizsyndrom - Risiko fuer Berufskrankheit der Halswirbelsaeule"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 56-jaehriger Patient zervikales Wurzelreizsyndrom - Risiko fuer Berufskrankheit der Halswirbelsaeule"
         },
         {
           "number": 189,
@@ -2653,7 +2653,7 @@
           ],
           "type": "SC",
           "correctAnswers": "01000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (B). 60-jaehrige Frau Hautveraenderungen (Abbildung) - Diagnose Effloreszenzen"
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 60-jaehrige Frau Hautveraenderungen (Abbildung) - Diagnose Effloreszenzen"
         },
         {
           "number": 190,
@@ -2666,8 +2666,8 @@
             "Hypothermie"
           ],
           "type": "SC",
-          "correctAnswers": "00010",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (D). 69-jaehriger Mann pneumogene Sepsis verminderte zentralvenoese Sauerstoffsaettigung - Ursache"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 69-jaehriger Mann pneumogene Sepsis verminderte zentralvenoese Sauerstoffsaettigung - Ursache"
         },
         {
           "number": 191,
@@ -2680,8 +2680,8 @@
             "Nichts davon trifft zu"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 4-jaehriges Kind mit Epilepsie - Praeventionsbegriff"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 4-jaehriges Kind mit Epilepsie - Praeventionsbegriff"
         },
         {
           "number": 192,
@@ -2694,8 +2694,8 @@
             "Folsäure"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 72-jaehrige Patientin - Diabetes mellitus Typ 2 - Nebenwirkung Metformin"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 72-jaehrige Patientin - Diabetes mellitus Typ 2 - Nebenwirkung Metformin"
         },
         {
           "number": 193,
@@ -2708,8 +2708,8 @@
             "Beseitigung einer durch einen intrapulmonalen Shunt verursachten Hypoxie"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 30-jaehriger Patient Einleitung einer Narkose Praeoxygenierung - moegliche Wirkung"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 30-jaehriger Patient Einleitung einer Narkose Praeoxygenierung - moegliche Wirkung"
         },
         {
           "number": 194,
@@ -2722,8 +2722,8 @@
             "Antimikrobielle Lokaltherapie mit Gentamicin für mind 10 Tage, nach Abheilung noch weitere 7 Tage"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 65-jaehrige Patientin mit Juckreiz an beiden Fuessen- Hautbefund - Therapie"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 65-jaehrige Patientin mit Juckreiz an beiden Fuessen- Hautbefund - Therapie"
         },
         {
           "number": 195,
@@ -2736,8 +2736,8 @@
             "Chronisch entzündlicher im ZNS"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 38-jaehriger Patient mit zunehmenden Gangstoerungen und Dranginkontinenz - Ursache"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 38-jaehriger Patient mit zunehmenden Gangstoerungen und Dranginkontinenz - Ursache"
         },
         {
           "number": 196,
@@ -2750,8 +2750,8 @@
             "Orale Ernährung entsprechend der Verträglichkeit"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 68-jaehriger Patient - akute oedematoese Pankreatitis - Ernaehrungsplan"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 68-jaehriger Patient - akute oedematoese Pankreatitis - Ernaehrungsplan"
         },
         {
           "number": 197,
@@ -2764,8 +2764,8 @@
             "Schädlicher Gebrauch"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 54-jaehriger Patient mit Alkoholabhaengigkeit - charakteristische Erkrankung"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 54-jaehriger Patient mit Alkoholabhaengigkeit - charakteristische Erkrankung"
         },
         {
           "number": 198,
@@ -2778,8 +2778,8 @@
             "Tilidin"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 25-jaehriger Mann mit heftigsten unertraeglichen Kopfschmerzen - Akuttherapie"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 25-jaehriger Mann mit heftigsten unertraeglichen Kopfschmerzen - Akuttherapie"
         },
         {
           "number": 199,
@@ -2792,8 +2792,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 24-jaehrige Studentin Gefuehlsstoerung rechter Arm Doppelbilder vor einem Jahr MRT (Abbildung) - Diagnose"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 24-jaehrige Studentin Gefuehlsstoerung rechter Arm Doppelbilder vor einem Jahr MRT (Abbildung) - Diagnose"
         },
         {
           "number": 200,
@@ -2806,8 +2806,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. Aerztin in Weiterbildung - serologische Parameter bei Immunitaet gegen Hepatitis B"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). Aerztin in Weiterbildung - serologische Parameter bei Immunitaet gegen Hepatitis B"
         },
         {
           "number": 201,
@@ -2820,8 +2820,8 @@
             "OP zur Entstauung"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 61-jaehriger Patient nach Unterschenkelamputation - Anschlussheilbehandlung - Massnahmen"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 61-jaehriger Patient nach Unterschenkelamputation - Anschlussheilbehandlung - Massnahmen"
         },
         {
           "number": 202,
@@ -2834,8 +2834,8 @@
             "Die DSO koordiniert den Transport der Spenderorgane"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 39-jaehriger Patient mit irreversiblem Ausfall aller Hirnfunktionen und Organtransplantation - Zustaendigkeit DSO"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 39-jaehriger Patient mit irreversiblem Ausfall aller Hirnfunktionen und Organtransplantation - Zustaendigkeit DSO"
         },
         {
           "number": 203,
@@ -2848,8 +2848,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "01000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (B). 30-jaehriger Mann - V.a. Hodentumor - lymphatische Metastasierung"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 30-jaehriger Mann - V.a. Hodentumor - lymphatische Metastasierung"
         },
         {
           "number": 204,
@@ -2862,8 +2862,8 @@
             "Systematische Löschung"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 45-jaehrige Patientin mit Panikattacke - lerntheoretisches Konzept"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 45-jaehrige Patientin mit Panikattacke - lerntheoretisches Konzept"
         },
         {
           "number": 205,
@@ -2876,8 +2876,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 72-jaehriger Mann - Leukozytose tastbare Milz - Krankheitsbild"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 72-jaehriger Mann - Leukozytose tastbare Milz - Krankheitsbild"
         },
         {
           "number": 206,
@@ -2890,8 +2890,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 71-jaehriger Patient mit Verwahrlosungstendenz - Syndrom"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 71-jaehriger Patient mit Verwahrlosungstendenz - Syndrom"
         },
         {
           "number": 207,
@@ -2904,8 +2904,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "01000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (B). 30-jaehrige Patientin unertraegliche Kopfschmerzen vor 2 Tagen entbunden mit PDK-Anlage – Krankheitsbild"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 30-jaehrige Patientin unertraegliche Kopfschmerzen vor 2 Tagen entbunden mit PDK-Anlage – Krankheitsbild"
         },
         {
           "number": 208,
@@ -2918,8 +2918,8 @@
             "Liquorpunktion"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 23-jaehriger Patient mit Einschraenkung des Gesichtsfelds - Zusatzuntersuchung zur diagnostischen Abklaerungo"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 23-jaehriger Patient mit Einschraenkung des Gesichtsfelds - Zusatzuntersuchung zur diagnostischen Abklaerungo"
         },
         {
           "number": 209,
@@ -2932,8 +2932,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 72-jaehrige Patientin - Diabetes mellitus Typ 2 hypoglykaemische Episoden - Diabetes-Neueinstellung"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 72-jaehrige Patientin - Diabetes mellitus Typ 2 hypoglykaemische Episoden - Diabetes-Neueinstellung"
         },
         {
           "number": 210,
@@ -2947,7 +2947,7 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 77-jaehriger ehemaliger Tankwart - chronische myeloische Leukaemie - berufliche Gefahrstoffe"
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 77-jaehriger ehemaliger Tankwart - chronische myeloische Leukaemie - berufliche Gefahrstoffe"
         },
         {
           "number": 211,
@@ -2960,8 +2960,8 @@
             "Erklärt der Mutter, dass Röntgen für den Ausschluss der Fraktur erforderlich ist."
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 5-jaehriges Kind Sturz auf Unterarm Sorge der Mutter wegen Strahlenbelastung bei Roentgenuntersuchung - Vorgehensweise"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 5-jaehriges Kind Sturz auf Unterarm Sorge der Mutter wegen Strahlenbelastung bei Roentgenuntersuchung - Vorgehensweise"
         },
         {
           "number": 212,
@@ -2974,8 +2974,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00010",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (D). 57-jaehrige Frau generalisierter epileptischer Anfall transiente Hemiparese CT/MRT (Abbildung) durastaendige Raumforderung - Diagnose"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 57-jaehrige Frau generalisierter epileptischer Anfall transiente Hemiparese CT/MRT (Abbildung) durastaendige Raumforderung - Diagnose"
         },
         {
           "number": 213,
@@ -2988,8 +2988,8 @@
             "Arterieller Verschluss"
           ],
           "type": "SC",
-          "correctAnswers": "00010",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (D). 72-jaehrige Patientin mit Verdacht auf Pneumonie und Beinschmerzen - weitere Diagnose"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 72-jaehrige Patientin mit Verdacht auf Pneumonie und Beinschmerzen - weitere Diagnose"
         },
         {
           "number": 214,
@@ -3002,8 +3002,8 @@
             "Gewebetransglutaminase (tTG) vom typ IgG > 30U/ml"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 11-jaehrige Patientin mit Verdacht auf Diabetes mellitus Typ 1 - diagnostische Parameter"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 11-jaehrige Patientin mit Verdacht auf Diabetes mellitus Typ 1 - diagnostische Parameter"
         },
         {
           "number": 215,
@@ -3016,8 +3016,8 @@
             "IgA-Vaskulitis"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 11-jaehrige Patientin mit Verdacht auf Diabetes mellitus Typ 1 - Assoziation mit weiteren Erkrankungen"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 11-jaehrige Patientin mit Verdacht auf Diabetes mellitus Typ 1 - Assoziation mit weiteren Erkrankungen"
         },
         {
           "number": 216,
@@ -3030,8 +3030,8 @@
             "Orale Antidiabetika nicht empfohlen"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 11-jaehrige Patientin mit Verdacht auf Diabetes mellitus Typ 1 - Metformin oder SGLT-2-Hemmer"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 11-jaehrige Patientin mit Verdacht auf Diabetes mellitus Typ 1 - Metformin oder SGLT-2-Hemmer"
         },
         {
           "number": 217,
@@ -3045,7 +3045,7 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 5 Wochen alter Saeugling mit Verdacht auf Pertussis - Sicherung der Verdachtsdiagnose"
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 5 Wochen alter Saeugling mit Verdacht auf Pertussis - Sicherung der Verdachtsdiagnose"
         },
         {
           "number": 218,
@@ -3058,8 +3058,8 @@
             "Inhalatives Glucocortikoid"
           ],
           "type": "SC",
-          "correctAnswers": "00010",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (D). 5 Wochen alter Saeugling mit Pertussis - Therapie"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 5 Wochen alter Saeugling mit Pertussis - Therapie"
         },
         {
           "number": 219,
@@ -3073,7 +3073,7 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 60-jaehriger Patient - starke lagerungsunabhaengige Rueckenschmerzen - Ursache und Massnahme"
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 60-jaehriger Patient - starke lagerungsunabhaengige Rueckenschmerzen - Ursache und Massnahme"
         },
         {
           "number": 220,
@@ -3086,8 +3086,8 @@
             "LAE"
           ],
           "type": "SC",
-          "correctAnswers": "00100",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (C). 60-jaehriger Patient - starke lagerungsunabhaengige Rueckenschmerzen - Obduktion - Gefaesspraeparat (Abbildung) - Erkrankung"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 60-jaehriger Patient - starke lagerungsunabhaengige Rueckenschmerzen - Obduktion - Gefaesspraeparat (Abbildung) - Erkrankung"
         },
         {
           "number": 221,
@@ -3100,8 +3100,8 @@
             "Influenza"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 21-jaehrige Patientin mit Splenektomie - Impfungen"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 21-jaehrige Patientin mit Splenektomie - Impfungen"
         },
         {
           "number": 222,
@@ -3114,8 +3114,8 @@
             "Low-dose Glukokortikoiden"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 21-jaehrige Patientin mit Splenektomie - Vorgehensweise bei Thrombozytose"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 21-jaehrige Patientin mit Splenektomie - Vorgehensweise bei Thrombozytose"
         },
         {
           "number": 223,
@@ -3128,8 +3128,8 @@
             "CT Angio Abdomen"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 58-jaehrige Patientin mit krampfartigen Oberbauchschmerzen - Untersuchungsmethoden"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 58-jaehrige Patientin mit krampfartigen Oberbauchschmerzen - Untersuchungsmethoden"
         },
         {
           "number": 224,
@@ -3142,8 +3142,8 @@
             "Hemifundoplicatio"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 58-jaehrige Patientin mit krampfartigen Oberbauchschmerzen - Therapiemassnahmen"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 58-jaehrige Patientin mit krampfartigen Oberbauchschmerzen - Therapiemassnahmen"
         },
         {
           "number": 225,
@@ -3156,8 +3156,8 @@
             "Koprostase"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 58-jaehrige Patientin mit krampfartigen Oberbauchschmerzen - Befund bzw. Diagnose bei Z.n. notfallmaessiger Laparotomie"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 58-jaehrige Patientin mit krampfartigen Oberbauchschmerzen - Befund bzw. Diagnose bei Z.n. notfallmaessiger Laparotomie"
         },
         {
           "number": 226,
@@ -3171,7 +3171,7 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 50-jaehriger Patient - arterielle Hypertonie - Hypokaliaemie - Ursache"
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 50-jaehriger Patient - arterielle Hypertonie - Hypokaliaemie - Ursache"
         },
         {
           "number": 227,
@@ -3185,7 +3185,7 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 50-jaehriger Patient - arterielle Hypertonie - Hypokaliaemie - sekundaere Hypertonie"
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 50-jaehriger Patient - arterielle Hypertonie - Hypokaliaemie - sekundaere Hypertonie"
         },
         {
           "number": 228,
@@ -3198,8 +3198,8 @@
             "Mikrobielles ekzem"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. vierkoepfige Familie - Juckreiz - Skabies - Differenzialdiagnose"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). vierkoepfige Familie - Juckreiz - Skabies - Differenzialdiagnose"
         },
         {
           "number": 229,
@@ -3212,8 +3212,8 @@
             "Histologische Probe einer Verkrustung"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. vierkoepfige Familie - Juckreiz - persistierende Skabies - Vorgehensweise"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). vierkoepfige Familie - Juckreiz - persistierende Skabies - Vorgehensweise"
         },
         {
           "number": 230,
@@ -3226,8 +3226,8 @@
             "Nach Umarmung"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. vierkoepfige Familie - Juckreiz - Skabies - Kontaktpersonen"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). vierkoepfige Familie - Juckreiz - Skabies - Kontaktpersonen"
         },
         {
           "number": 231,
@@ -3240,8 +3240,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 15-jaehrige Patientin mit primaerem Lymphoedem - Zeichen nach Stemmer"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 15-jaehrige Patientin mit primaerem Lymphoedem - Zeichen nach Stemmer"
         },
         {
           "number": 232,
@@ -3254,8 +3254,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00010",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (D). 15-jaehrige Patientin mit primaerem Lymphoedem - Komplexe physikalische Entstauungstherapie"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 15-jaehrige Patientin mit primaerem Lymphoedem - Komplexe physikalische Entstauungstherapie"
         },
         {
           "number": 233,
@@ -3268,8 +3268,8 @@
             "Beckenvenenthrombose"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 59-jaehrige Patientin - progrediente Schmerzen im Gesaess - Verdachtsdiagnose"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 59-jaehrige Patientin - progrediente Schmerzen im Gesaess - Verdachtsdiagnose"
         },
         {
           "number": 234,
@@ -3282,8 +3282,8 @@
             "Laufergonometrie"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 59-jaehrige Patientin - progrediente Schmerzen im Gesaess - diagnostische Massnahmen"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 59-jaehrige Patientin - progrediente Schmerzen im Gesaess - diagnostische Massnahmen"
         },
         {
           "number": 235,
@@ -3296,8 +3296,8 @@
             "Adhäsiver Prozess"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 56-jaehriger Gaertner - rechtsseitige Hoerminderung - Pathologie des Mittelohres"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 56-jaehriger Gaertner - rechtsseitige Hoerminderung - Pathologie des Mittelohres"
         },
         {
           "number": 236,
@@ -3310,8 +3310,8 @@
             "Sinuskopie"
           ],
           "type": "SC",
-          "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 56-jaehriger Gaertner - rechtsseitige Hoerminderung - Diagnostik"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 56-jaehriger Gaertner - rechtsseitige Hoerminderung - Diagnostik"
         },
         {
           "number": 237,
@@ -3325,7 +3325,7 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 56-jaehriger Gaertner - rechtsseitige Hoerminderung - Vorgehen bei nachgewiesener Lymphknotenmetastase"
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 56-jaehriger Gaertner - rechtsseitige Hoerminderung - Vorgehen bei nachgewiesener Lymphknotenmetastase"
         },
         {
           "number": 238,
@@ -3338,8 +3338,8 @@
             "Beginnende Sepsis durch HWI bei liegendem Katheter"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 59-jaehriger Patient - Darmdurchbruch infolge Sigmadivertikulitis - Fieber - Arbeitshypothese"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 59-jaehriger Patient - Darmdurchbruch infolge Sigmadivertikulitis - Fieber - Arbeitshypothese"
         },
         {
           "number": 239,
@@ -3352,8 +3352,8 @@
             "CT Abdomen"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 59-jaehriger Patient - Darmdurchbruch infolge Sigmadivertikulitis - Fieber - diagnostische Schritte"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 59-jaehriger Patient - Darmdurchbruch infolge Sigmadivertikulitis - Fieber - diagnostische Schritte"
         },
         {
           "number": 240,
@@ -3366,8 +3366,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00010",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (D). 59-jaehriger Patient - Darmdurchbruch infolge Sigmadivertikulitis - Fieber - therapeutische Massnahmen"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 59-jaehriger Patient - Darmdurchbruch infolge Sigmadivertikulitis - Fieber - therapeutische Massnahmen"
         },
         {
           "number": 241,
@@ -3380,8 +3380,8 @@
             "Pvk unmittelbar entfernen, wenn nicht mehr benötigt"
           ],
           "type": "SC",
-          "correctAnswers": "00010",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (D). 59-jaehriger Patient - Darmdurchbruch infolge Sigmadivertikulitis - Fieber - PVK-assoziierte Sepsis"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 59-jaehriger Patient - Darmdurchbruch infolge Sigmadivertikulitis - Fieber - PVK-assoziierte Sepsis"
         },
         {
           "number": 242,
@@ -3394,8 +3394,8 @@
             "Sinuatrialer Block"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 59-jaehriger Patient mit starken Brustschmerzen - EKG-Analyse"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 59-jaehriger Patient mit starken Brustschmerzen - EKG-Analyse"
         },
         {
           "number": 243,
@@ -3408,8 +3408,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 59-jaehriger Patient mit starken Brustschmerzen - Massnahme"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 59-jaehriger Patient mit starken Brustschmerzen - Massnahme"
         },
         {
           "number": 244,
@@ -3422,8 +3422,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 59-jaehriger Patient mit starken Brustschmerzen - Roentgenbild - therapeutische Massnahme"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 59-jaehriger Patient mit starken Brustschmerzen - Roentgenbild - therapeutische Massnahme"
         },
         {
           "number": 245,
@@ -3436,8 +3436,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 84-jaehriger Mann - Schmerzen in Huefte nach Stolpersturz - CT (Abbildung) - Befund"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 84-jaehriger Mann - Schmerzen in Huefte nach Stolpersturz - CT (Abbildung) - Befund"
         },
         {
           "number": 246,
@@ -3450,8 +3450,8 @@
             "TSH"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 84-jaehriger Mann - Schmerzen in Huefte nach Stolpersturz - CT (Abbildung) - praeoperative Laboruntersuchungen"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 84-jaehriger Mann - Schmerzen in Huefte nach Stolpersturz - CT (Abbildung) - praeoperative Laboruntersuchungen"
         },
         {
           "number": 247,
@@ -3464,8 +3464,8 @@
             "Aprotinin"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 84-jaehriger Mann - Schmerzen in Huefte nach Stolpersturz - CT (Abbildung) - Aufhebung Gerinnungshemmer"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 84-jaehriger Mann - Schmerzen in Huefte nach Stolpersturz - CT (Abbildung) - Aufhebung Gerinnungshemmer"
         },
         {
           "number": 248,
@@ -3478,8 +3478,8 @@
             "Schlaganfall bei Opa mit 64J."
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 13 Jahre altes Maedchen - Bundesjugendspiele - Ohnmacht - red flag A Aufgetreten beim 400m Lauf B Aufgetreten nachdem"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 13 Jahre altes Maedchen - Bundesjugendspiele - Ohnmacht - red flag A Aufgetreten beim 400m Lauf B Aufgetreten nachdem"
         },
         {
           "number": 249,
@@ -3492,8 +3492,8 @@
             "Ruhe EKG"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 13 Jahre altes Maedchen - Bundesjugendspiele - Ohnmacht - Basis-Diagnostik"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 13 Jahre altes Maedchen - Bundesjugendspiele - Ohnmacht - Basis-Diagnostik"
         },
         {
           "number": 250,
@@ -3506,8 +3506,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 13 Jahre altes Maedchen - Bundesjugendspiele - Ohnmacht - Massnahmen"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 13 Jahre altes Maedchen - Bundesjugendspiele - Ohnmacht - Massnahmen"
         },
         {
           "number": 251,
@@ -3520,8 +3520,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 68-jaehriger Mann - langjaehrige Asbestexposition - Ueberlegungen zu asbestassoziierten Erkrankungen A Adenokarzinome s"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 68-jaehriger Mann - langjaehrige Asbestexposition - Ueberlegungen zu asbestassoziierten Erkrankungen A Adenokarzinome s"
         },
         {
           "number": 252,
@@ -3534,8 +3534,8 @@
             "Lungenfibrose"
           ],
           "type": "SC",
-          "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 68-jaehriger Mann - langjaehrige Asbestexposition - Diagnose/Folge einer Asbestexposition"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 68-jaehriger Mann - langjaehrige Asbestexposition - Diagnose/Folge einer Asbestexposition"
         },
         {
           "number": 253,
@@ -3548,8 +3548,8 @@
             "NSE Tumormarker-Erhöhung"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 68-jaehriger Mann - langjaehrige Asbestexposition - Symptome Mesotheliom"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 68-jaehriger Mann - langjaehrige Asbestexposition - Symptome Mesotheliom"
         },
         {
           "number": 254,
@@ -3562,8 +3562,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00100",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (C). 69-jaehriger Mann - Muedigkeit und rasche Atemnot - Fieber - mikrobiologische Diagnostik mittels Blutkulturen"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 69-jaehriger Mann - Muedigkeit und rasche Atemnot - Fieber - mikrobiologische Diagnostik mittels Blutkulturen"
         },
         {
           "number": 255,
@@ -3576,8 +3576,8 @@
             "4 Zähne mit Karies"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 69-jaehriger Mann - Muedigkeit und rasche Atemnot - Fieber - Befunde in Anbetracht der Verdachtsdiagnose"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 69-jaehriger Mann - Muedigkeit und rasche Atemnot - Fieber - Befunde in Anbetracht der Verdachtsdiagnose"
         },
         {
           "number": 256,
@@ -3590,8 +3590,8 @@
             "Ciprofloxacin und Linezolid"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 69-jaehriger Mann - Muedigkeit und rasche Atemnot - Fieber - kalkulierte antimikrobielle Therapie"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 69-jaehriger Mann - Muedigkeit und rasche Atemnot - Fieber - kalkulierte antimikrobielle Therapie"
         },
         {
           "number": 257,
@@ -3604,8 +3604,8 @@
             "LDH im Normbereich?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 72-jaehriger Patient - zunehmende Schwaeche - leichte Gangunsicherheit - Laborbefunde"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 72-jaehriger Patient - zunehmende Schwaeche - leichte Gangunsicherheit - Laborbefunde"
         },
         {
           "number": 258,
@@ -3619,7 +3619,7 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 72-jaehriger Patient - zunehmende Schwaeche - leichte Gangunsicherheit - auffaelliger Laborbefund - Arzneistoff"
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 72-jaehriger Patient - zunehmende Schwaeche - leichte Gangunsicherheit - auffaelliger Laborbefund - Arzneistoff"
         },
         {
           "number": 259,
@@ -3632,8 +3632,8 @@
             "Metamizol"
           ],
           "type": "SC",
-          "correctAnswers": "00010",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (D). 72-jaehriger Patient - zunehmende Schwaeche - leichte Gangunsicherheit - Wiederauftreten der Befunde - Arzneistoff"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 72-jaehriger Patient - zunehmende Schwaeche - leichte Gangunsicherheit - Wiederauftreten der Befunde - Arzneistoff"
         },
         {
           "number": 260,
@@ -3646,8 +3646,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 81-jaehriger Patient - spontane Blutungszeichen - Epistaxis - klinisches Bild und Laborkonstellation"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 81-jaehriger Patient - spontane Blutungszeichen - Epistaxis - klinisches Bild und Laborkonstellation"
         },
         {
           "number": 261,
@@ -3660,8 +3660,8 @@
             "Vasopressin"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 81-jaehriger Mann - spontane Blutungszeichen - Epistaxis - Therapieverfahren"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 81-jaehriger Mann - spontane Blutungszeichen - Epistaxis - Therapieverfahren"
         },
         {
           "number": 262,
@@ -3674,8 +3674,8 @@
             "Suizidalität"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 6-jaehriger Patient mit hyperkinetischer Stoerung des Sozialverhaltens - Klassifikationskriterien (ICD-10) A Impulsivit"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 6-jaehriger Patient mit hyperkinetischer Stoerung des Sozialverhaltens - Klassifikationskriterien (ICD-10) A Impulsivit"
         },
         {
           "number": 263,
@@ -3688,8 +3688,8 @@
             "Beta blocker"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 6-jaehriger Patient mit hyperkinetischer Stoerung des Sozialverhaltens - leitliniengerechte medikamentoese Behandlung"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 6-jaehriger Patient mit hyperkinetischer Stoerung des Sozialverhaltens - leitliniengerechte medikamentoese Behandlung"
         },
         {
           "number": 264,
@@ -3702,8 +3702,8 @@
             "Glas im Gesicht beider"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. Autounfall mit einem Ueberlebenden und einem Toten - Rekonstruktion der Sitzposition"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). Autounfall mit einem Ueberlebenden und einem Toten - Rekonstruktion der Sitzposition"
         },
         {
           "number": 265,
@@ -3716,8 +3716,8 @@
             "Autolyse muss beachtet werden, weil dabei auch Alkohol entsteht"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. Autounfall mit einem Ueberlebenden und einem Toten - postmortale Blutalkoholbestimmung"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). Autounfall mit einem Ueberlebenden und einem Toten - postmortale Blutalkoholbestimmung"
         },
         {
           "number": 266,
@@ -3730,8 +3730,8 @@
             "1,5 Promille"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. Autounfall mit einem Ueberlebenden und einem Toten - Mindestblutalkoholkonzentration"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). Autounfall mit einem Ueberlebenden und einem Toten - Mindestblutalkoholkonzentration"
         },
         {
           "number": 267,
@@ -3745,7 +3745,7 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 3-jaehrige Patientin mit Mukoviszidose - exokrine Pankreasfunktion - Parameter"
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 3-jaehrige Patientin mit Mukoviszidose - exokrine Pankreasfunktion - Parameter"
         },
         {
           "number": 268,
@@ -3758,8 +3758,8 @@
             "Radioverfahren mit Kontrastmittel"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 3-jaehrige Patientin mit Mukoviszidose - gastrooesophageale Refluxerkrankung - Diagnostik"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 3-jaehrige Patientin mit Mukoviszidose - gastrooesophageale Refluxerkrankung - Diagnostik"
         },
         {
           "number": 269,
@@ -3772,8 +3772,8 @@
             "irgendwas Hepatitis"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 3-jaehrige Patientin mit Mukoviszidose - Symptome Zinkmangel"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 3-jaehrige Patientin mit Mukoviszidose - Symptome Zinkmangel"
         },
         {
           "number": 270,
@@ -3786,8 +3786,8 @@
             "Epistaxis"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 6-jaehriger Junge - Aortenisthmusstenose - fehlende Leistenpulse - Komplikationen"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 6-jaehriger Junge - Aortenisthmusstenose - fehlende Leistenpulse - Komplikationen"
         },
         {
           "number": 271,
@@ -3800,8 +3800,8 @@
             "Gerinnungsstörungen"
           ],
           "type": "SC",
-          "correctAnswers": "00100",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (C). 6-jaehriger Junge - Aortenisthmusstenose - fehlende Leistenpulse - praeoperatives Aufklaerungsgespraech"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 6-jaehriger Junge - Aortenisthmusstenose - fehlende Leistenpulse - praeoperatives Aufklaerungsgespraech"
         },
         {
           "number": 272,
@@ -3814,8 +3814,8 @@
             "Sigma-Divertikulitis"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 29-jaehrige Patientin mit persistierenden breiigen Stuhlgaengen - Diagnose"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 29-jaehrige Patientin mit persistierenden breiigen Stuhlgaengen - Diagnose"
         },
         {
           "number": 273,
@@ -3828,8 +3828,8 @@
             "Hoher Vitamin-D Spiegelf Pop"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 29-jaehrige Patientin mit persistierenden breiigen Stuhlgaengen - Risikofaktoren Morbus Crohn"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 29-jaehrige Patientin mit persistierenden breiigen Stuhlgaengen - Risikofaktoren Morbus Crohn"
         },
         {
           "number": 274,
@@ -3842,8 +3842,8 @@
             "Rosskastanien"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 29-jaehrige Patientin mit persistierenden breiigen Stuhlgaengen - Phytotherapie bei Colitis ulcerosa"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 29-jaehrige Patientin mit persistierenden breiigen Stuhlgaengen - Phytotherapie bei Colitis ulcerosa"
         },
         {
           "number": 275,
@@ -3856,8 +3856,8 @@
             "Phytotherapeutika in die behandlung mit einbeziehen"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 29-jaehrige Patientin mit persistierenden breiigen Stuhlgaengen - Therapieempfehlung bei Reizdarmsyndrom"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 29-jaehrige Patientin mit persistierenden breiigen Stuhlgaengen - Therapieempfehlung bei Reizdarmsyndrom"
         },
         {
           "number": 276,
@@ -3870,8 +3870,8 @@
             "Ballaststoffreiche Ernährung (>= 30mg/d)"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 29-jaehrige Patientin mit persistierenden breiigen Stuhlgaengen - Therapie bei Sigma-Divertikulitis"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 29-jaehrige Patientin mit persistierenden breiigen Stuhlgaengen - Therapie bei Sigma-Divertikulitis"
         },
         {
           "number": 277,
@@ -3884,8 +3884,8 @@
             "Mönchspfeffer, Kamille, Zimt, Himbeerblätter, Schafgarbe"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 29-jaehrige Patientin mit persistierenden breiigen Stuhlgaengen - Therapie bei funktioneller Dyspepsie"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 29-jaehrige Patientin mit persistierenden breiigen Stuhlgaengen - Therapie bei funktioneller Dyspepsie"
         },
         {
           "number": 278,
@@ -3898,8 +3898,8 @@
             "Mitautor:in sein bei etwas mit schlechter wissenschaftlicher Praxis (Mitautor:in sein ohne eigenen Anteil; anders bzw. offener formuliert)"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. Publikationen mit wissenschaftlichem Fehlverhalten - DFG-Richtlinien - Tatbestaende"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). Publikationen mit wissenschaftlichem Fehlverhalten - DFG-Richtlinien - Tatbestaende"
         },
         {
           "number": 279,
@@ -3912,8 +3912,8 @@
             "Im Röntgen beidseits vergrößerte Lymphknoten"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 22-jährige Patientin - Morbus Behcet - Organmanifestation"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 22-jährige Patientin - Morbus Behcet - Organmanifestation"
         },
         {
           "number": 280,
@@ -3926,8 +3926,8 @@
             "Achoasmen"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 12.5-jähriger Patient mit chronischer Ticstörung - Fachbegriff für beschriebenes Symptom"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 12.5-jähriger Patient mit chronischer Ticstörung - Fachbegriff für beschriebenes Symptom"
         },
         {
           "number": 281,
@@ -3940,8 +3940,8 @@
             "Zuggurtungsosteosynthese?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 40-jähriger Patient mit Klavikulafraktur infolge Sturz mit Mountainbike - Therapieoption"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 40-jähriger Patient mit Klavikulafraktur infolge Sturz mit Mountainbike - Therapieoption"
         },
         {
           "number": 282,
@@ -3954,8 +3954,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00001",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (E). 60-jähriger Mann - Auffahrunfall mit Airbagauslösung - Paraplegie mit Hypästhesien - Notfall-MRT - Diagnose"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 60-jähriger Mann - Auffahrunfall mit Airbagauslösung - Paraplegie mit Hypästhesien - Notfall-MRT - Diagnose"
         },
         {
           "number": 283,
@@ -3968,8 +3968,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 73-jährige Frau - Sturz in häuslichem Umfeld - Schmerzen linke Hüfte - Röntgendiagnostik (Abbildung) - Diagnose"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 73-jährige Frau - Sturz in häuslichem Umfeld - Schmerzen linke Hüfte - Röntgendiagnostik (Abbildung) - Diagnose"
         },
         {
           "number": 284,
@@ -3983,7 +3983,7 @@
           ],
           "type": "SC",
           "correctAnswers": "01000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (B). 61-jähriger Gussputzer mit restrik LP tiver Ventilationsstörung - Diagnose"
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 61-jähriger Gussputzer mit restrik LP tiver Ventilationsstörung - Diagnose"
         },
         {
           "number": 285,
@@ -3996,8 +3996,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 8 Monate alter Säugling - Leistenhernien-Operation - Vollnarkose - präoperative Nüchternheit"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 8 Monate alter Säugling - Leistenhernien-Operation - Vollnarkose - präoperative Nüchternheit"
         },
         {
           "number": 286,
@@ -4010,8 +4010,8 @@
             "Keine Therapie aufgrund von fortgeschrittenen Alter"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 78-jähriger Patient mit Knoten an der Nase - Vorgehensweise"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 78-jähriger Patient mit Knoten an der Nase - Vorgehensweise"
         },
         {
           "number": 287,
@@ -4024,8 +4024,8 @@
             "Nur intraoperativ beurteilbar"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 70-jährige Patientin - Mammakarzinom - Wächterlymphknotenszintigrafie - Beurteilung Fokus"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 70-jährige Patientin - Mammakarzinom - Wächterlymphknotenszintigrafie - Beurteilung Fokus"
         },
         {
           "number": 288,
@@ -4039,7 +4039,7 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 85-jährige Frau - Degeneration biologischer Herzklappenprothese - Diskussion erneuter Intervention"
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 85-jährige Frau - Degeneration biologischer Herzklappenprothese - Diskussion erneuter Intervention"
         },
         {
           "number": 289,
@@ -4052,8 +4052,8 @@
             "Thermokoagulation des Ganglion gasseri"
           ],
           "type": "SC",
-          "correctAnswers": "01000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (B). 62-jährige Frau - stärkste einseitige Gesichtsschmerzen - Gewichtsverlust - Therapiemöglichkeiten"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 62-jährige Frau - stärkste einseitige Gesichtsschmerzen - Gewichtsverlust - Therapiemöglichkeiten"
         },
         {
           "number": 290,
@@ -4066,8 +4066,8 @@
             "Pseudomonaden"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 70-jähriger Patient mit Insektenstich - Erreger einer potenziell lebensbedrohlichen Erkrankung"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 70-jähriger Patient mit Insektenstich - Erreger einer potenziell lebensbedrohlichen Erkrankung"
         },
         {
           "number": 291,
@@ -4080,8 +4080,8 @@
             "Akrozentrische Fusion"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. gesundes Paar mit Kinderwunsch - Diskrepanz der Chromosomenkonstellation"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). gesundes Paar mit Kinderwunsch - Diskrepanz der Chromosomenkonstellation"
         },
         {
           "number": 292,
@@ -4094,8 +4094,8 @@
             "Schmerzmedis iv. bei Bedarf"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 35-jähriger Patient mit Kniearthroskopie - Schmerzmedikation"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 35-jähriger Patient mit Kniearthroskopie - Schmerzmedikation"
         },
         {
           "number": 293,
@@ -4108,8 +4108,8 @@
             "Nierenfunktionszintigrafie"
           ],
           "type": "SC",
-          "correctAnswers": "00010",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (D). 34-jährige Frau - keine adäquate Funktion der Transplantatniere - diagnostische Maßnahme vor Revisionsoperation"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 34-jährige Frau - keine adäquate Funktion der Transplantatniere - diagnostische Maßnahme vor Revisionsoperation"
         },
         {
           "number": 294,
@@ -4122,8 +4122,8 @@
             "Basilarisverschluss und ischämien"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 43-jährige Frau - V.a. Schlaganfall - Apathie - Dysarthrie - vertikale Blickparese - Stroke-MRT (Abbildung) - Diagnose"
+          "correctAnswers": "00001",
+          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 43-jährige Frau - V.a. Schlaganfall - Apathie - Dysarthrie - vertikale Blickparese - Stroke-MRT (Abbildung) - Diagnose"
         },
         {
           "number": 295,
@@ -4136,8 +4136,8 @@
             "Gesamt Tauprotein ernidriegt"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 67-jähriger ehemaliger Schulleiter mit zunehmender Gedächtnisstörung - Bestätigung der wahrscheinlichsten Diagnose"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 67-jähriger ehemaliger Schulleiter mit zunehmender Gedächtnisstörung - Bestätigung der wahrscheinlichsten Diagnose"
         },
         {
           "number": 296,
@@ -4151,7 +4151,7 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 35-jähriger Patient mit formaler Denkstörung - psychopathologische Symptome"
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 35-jähriger Patient mit formaler Denkstörung - psychopathologische Symptome"
         },
         {
           "number": 297,
@@ -4164,8 +4164,8 @@
             "Hämorrhagische Blutung"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 21-jähriger Mann - Sturz vom Rad - epileptischer Anfall - Anisokorie - Notfall-CT (Abbildung) - Ursache"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 21-jähriger Mann - Sturz vom Rad - epileptischer Anfall - Anisokorie - Notfall-CT (Abbildung) - Ursache"
         },
         {
           "number": 298,
@@ -4178,8 +4178,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 37-jähriger Mann - Gewichtszunahme - Hyperkortisolismus - diagnostisches Verfahren"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 37-jähriger Mann - Gewichtszunahme - Hyperkortisolismus - diagnostisches Verfahren"
         },
         {
           "number": 299,
@@ -4192,8 +4192,8 @@
             "Geschlossene Reposition"
           ],
           "type": "SC",
-          "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 85-jährige Patientin mit Schmerzen in der rechten Schulter infolge häuslichem Sturz - Therapieoptionen"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 85-jährige Patientin mit Schmerzen in der rechten Schulter infolge häuslichem Sturz - Therapieoptionen"
         },
         {
           "number": 300,
@@ -4206,8 +4206,8 @@
             "Keratitis"
           ],
           "type": "SC",
-          "correctAnswers": "00001",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (E). 32-jähriger Patient mit langsamer Sehverschlechterung und Lichtempfindlichkeit - Diagnose"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 32-jähriger Patient mit langsamer Sehverschlechterung und Lichtempfindlichkeit - Diagnose"
         },
         {
           "number": 301,
@@ -4220,8 +4220,8 @@
             "Beleuchtung rechts mit deutlicher Pupillenkontraktion links"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 68-jähriger Patient mit schmerzloser Visusminderung - Auffälligkeit bei Pupillentestung"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 68-jähriger Patient mit schmerzloser Visusminderung - Auffälligkeit bei Pupillentestung"
         },
         {
           "number": 302,
@@ -4234,8 +4234,8 @@
             "Metamizol"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 26-jährige Bürokauffrau mit unerträglichen rechtsseitigen Kopfschmerzen - Medikamente in der akuten Phase"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 26-jährige Bürokauffrau mit unerträglichen rechtsseitigen Kopfschmerzen - Medikamente in der akuten Phase"
         },
         {
           "number": 303,
@@ -4248,8 +4248,8 @@
             "Altersschwäche als Folge von Lebensalter als Folge von (Grunderkrankung) maligne Grunderkrankung"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. Leichenschau bei einer 64-jährigen Patientin - Todesursachenkaskade"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). Leichenschau bei einer 64-jährigen Patientin - Todesursachenkaskade"
         },
         {
           "number": 304,
@@ -4262,8 +4262,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 69-jährige Frau - zunehmende Sprachstörung - Verwirrtheitszustände - Z.n. Mittelohrentzündung und Hirninfarkt - MRT (Abbildung) - Diagnose"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 69-jährige Frau - zunehmende Sprachstörung - Verwirrtheitszustände - Z.n. Mittelohrentzündung und Hirninfarkt - MRT (Abbildung) - Diagnose"
         },
         {
           "number": 305,
@@ -4277,7 +4277,7 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (A). 35-jähriger Mann - plötzlich aufgetretene progrediente radikuläre Schmerzen rechter Arm - Höhe Bandscheibenvorfalls"
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 35-jähriger Mann - plötzlich aufgetretene progrediente radikuläre Schmerzen rechter Arm - Höhe Bandscheibenvorfalls"
         },
         {
           "number": 306,
@@ -4290,8 +4290,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00100",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (C). 73-jährige Patientin - submammärer Juckreiz - Erreger"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 73-jährige Patientin - submammärer Juckreiz - Erreger"
         },
         {
           "number": 307,
@@ -4304,8 +4304,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 40-jährige Frau - punktförmige Hautveränderungen untere Extremitäten - Hämoglobin-Erniedrigung"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 40-jährige Frau - punktförmige Hautveränderungen untere Extremitäten - Hämoglobin-Erniedrigung"
         },
         {
           "number": 308,
@@ -4318,8 +4318,8 @@
             "5%"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. Früherkennungsuntersuchung - Wahrscheinlichkeit an einer Krebsart erkrankt zu sein"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). Früherkennungsuntersuchung - Wahrscheinlichkeit an einer Krebsart erkrankt zu sein"
         },
         {
           "number": 309,
@@ -4332,8 +4332,8 @@
             "Wartenbergzeichen"
           ],
           "type": "SC",
-          "correctAnswers": "00010",
-          "explanation": "Lösung laut grüner Markierung im Gedächtnisprotokoll (D). 56-jährige Patientin mit zunehmendem Taubheitsgefühl der rechten Hand - Handzeichen"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 56-jährige Patientin mit zunehmendem Taubheitsgefühl der rechten Hand - Handzeichen"
         },
         {
           "number": 310,
@@ -4346,8 +4346,8 @@
             "Extrazerebraler Tumor mir beidseitiger transtentorieller herniation"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 74-jährige Patientin - fremdbeobachteter epileptischer Anfall - positives Babinski-Zeichen - Pupillenasymmetrie - kraniale MRT (Abbildung) - MRT-Befunde"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 74-jährige Patientin - fremdbeobachteter epileptischer Anfall - positives Babinski-Zeichen - Pupillenasymmetrie - kraniale MRT (Abbildung) - MRT-Befunde"
         },
         {
           "number": 311,
@@ -4360,8 +4360,8 @@
             "Relevanter Rechtsschenkelblock"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 5-jähriger Junge - Vorhofscheidewanddefekt (ASD II) - Grundlage für chirurgisch-operativen Verschluss"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 5-jähriger Junge - Vorhofscheidewanddefekt (ASD II) - Grundlage für chirurgisch-operativen Verschluss"
         },
         {
           "number": 312,
@@ -4374,8 +4374,8 @@
             "Einmalige Filgrastim (G-CSF Stimulanz) Gabe"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 65-jähriger Patient - medikamentöse Therapie bei Bronchialkarzinom - Neutropenie - Fieber - Maßnahme"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 65-jähriger Patient - medikamentöse Therapie bei Bronchialkarzinom - Neutropenie - Fieber - Maßnahme"
         },
         {
           "number": 313,
@@ -4388,8 +4388,8 @@
             "Fettgewebe"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 37-jährige Patientin mit schmerzhaftem Ohr - pathophysiologisches Geschehen"
+          "correctAnswers": "00010",
+          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 37-jährige Patientin mit schmerzhaftem Ohr - pathophysiologisches Geschehen"
         },
         {
           "number": 314,
@@ -4402,8 +4402,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 23-jähriger Patient mit Fahrradsturz und Drehschwindelattacke vier Tage nach dem Sturz - Diagnose"
+          "correctAnswers": "01000",
+          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 23-jähriger Patient mit Fahrradsturz und Drehschwindelattacke vier Tage nach dem Sturz - Diagnose"
         },
         {
           "number": 315,
@@ -4416,8 +4416,8 @@
             "?"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 53-jährige Frau schläfrig im Bett aufgefunden - GCS 11 - Schwäche linker Arm - eingenässt - Maßnahme in Notaufnahme"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 53-jährige Frau schläfrig im Bett aufgefunden - GCS 11 - Schwäche linker Arm - eingenässt - Maßnahme in Notaufnahme"
         },
         {
           "number": 316,
@@ -4430,8 +4430,8 @@
             "Prolaps der Bindehaut über die Lidkante"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 79-jährige Patientin mit stark gerötetem und tränendem Auge - Ursache der Akutsymptomatik"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 79-jährige Patientin mit stark gerötetem und tränendem Auge - Ursache der Akutsymptomatik"
         },
         {
           "number": 317,
@@ -4444,8 +4444,8 @@
             "Immobilisation vor kurzem"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 40-jähriger Patient mit thorakalen Schmerzen - Marburger Herz-Score"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 40-jähriger Patient mit thorakalen Schmerzen - Marburger Herz-Score"
         },
         {
           "number": 318,
@@ -4458,8 +4458,8 @@
             "Methotrexat"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 84-jährige Patientin - akute Schwellung von Gesicht und Zunge - auslösender Arzneistoff"
+          "correctAnswers": "10000",
+          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 84-jährige Patientin - akute Schwellung von Gesicht und Zunge - auslösender Arzneistoff"
         },
         {
           "number": 319,
@@ -4472,8 +4472,8 @@
             "Paracetamol"
           ],
           "type": "SC",
-          "correctAnswers": "00000",
-          "explanation": "Keine grüne Lösungs-Markierung im Protokoll gefunden. 38-jährige Patientin mit heftigsten Kopfschmerzen bei Erkältung - ursächliche Substanz"
+          "correctAnswers": "00100",
+          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). 38-jährige Patientin mit heftigsten Kopfschmerzen bei Erkältung - ursächliche Substanz"
         }
       ]
     }

@@ -10,6 +10,9 @@ Kurze Übersicht der wichtigsten Änderungen.
 - **Öffentlich nur Kreuzen**: freigegebene Klausuren üben
 - **Admin-Panel** (`/altfragen/admin`): Upload, KI-Konvertierung, Lösungsprüfung, Freigabe
 - **Gemeinsame Klausurbank** (Datei + optional GitHub Contents API)
+- **M2 SS26**: 319 Fragen mit grünen Lösungen (Pixel-Extraktion, seitenübergreifend)
+- **Amboss-Style**: Fragenübersicht, Seitennavigation, Springen zu Fragen
+- **Community-Statistik**: Wie oft Optionen gewählt / % richtig
 - Prompts für **2. Staatsexamen / M2** generalisiert (nicht mehr Derma-only)
 
 ---
