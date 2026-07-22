@@ -3,6 +3,12 @@
 import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
+import {
+  buildLocalHeatmap,
+  ensureLocalActivityFromExamCaches,
+  mergeDaily,
+  readLocalExamAggregates,
+} from '@/lib/altfragenLocalActivity';
 
 type ExamBar = {
   examId: string;
@@ -38,15 +44,7 @@ function shortTitle(title: string): string {
 }
 
 function emptyHeatmap(): Array<{ date: string; count: number }> {
-  const out: Array<{ date: string; count: number }> = [];
-  const today = new Date();
-  today.setUTCHours(12, 0, 0, 0);
-  for (let i = 97; i >= 0; i--) {
-    const d = new Date(today);
-    d.setUTCDate(today.getUTCDate() - i);
-    out.push({ date: d.toISOString().slice(0, 10), count: 0 });
-  }
-  return out;
+  return buildLocalHeatmap({}, 98);
 }
 
 function StatValue({
@@ -68,7 +66,17 @@ function StatValue({
       />
     );
   }
-  return <span className={cn('mt-1 block text-3xl font-bold tabular-nums', className)}>{children}</span>;
+  return (
+    <span className={cn('mt-1 block text-3xl font-bold tabular-nums', className)}>{children}</span>
+  );
+}
+
+function weekdayLabel(iso: string): string {
+  try {
+    return new Date(iso + 'T12:00:00Z').toLocaleDateString('de-DE', { weekday: 'short' });
+  } catch {
+    return iso.slice(5);
+  }
 }
 
 export function HomeStats() {
@@ -83,19 +91,63 @@ export function HomeStats() {
         const res = await fetch('/api/altfragen/stats/overview', { cache: 'no-store' });
         const json = await res.json();
         if (!res.ok) throw new Error(json.error || 'Stats fehlgeschlagen');
-        if (!cancelled) {
-          setData({
-            totalAttempts: json.totalAttempts || 0,
-            totalCorrect: json.totalCorrect || 0,
-            totalWrong: json.totalWrong || 0,
-            examCount: json.examCount || 0,
-            questionsTouched: json.questionsTouched || 0,
-            activeDays: json.activeDays || 0,
-            peakDay: json.peakDay || null,
-            exams: json.exams || [],
-            heatmap: json.heatmap?.length ? json.heatmap : emptyHeatmap(),
-          });
+        if (cancelled) return;
+
+        const serverExams: ExamBar[] = json.exams || [];
+        const examIds = serverExams.map((e) => e.examId);
+        const localAggs = readLocalExamAggregates(examIds);
+        const localById = Object.fromEntries(localAggs.map((a) => [a.examId, a]));
+        const localAct = ensureLocalActivityFromExamCaches(examIds);
+
+        const exams = serverExams.map((e) => {
+          const local = localById[e.examId];
+          const attempts = Math.max(e.attempts, local?.attempts || 0);
+          // Prefer higher attempts source for correct ratio consistency
+          const correct =
+            (local?.attempts || 0) > e.attempts ? local?.correct || 0 : Math.max(e.correct, local?.correct || 0);
+          return {
+            ...e,
+            attempts,
+            correct,
+            questionsWithData: Math.max(e.questionsWithData, local?.questionsWithData || 0),
+          };
+        });
+
+        const serverDaily: Record<string, number> = {};
+        for (const cell of json.heatmap || []) {
+          if (cell.count > 0) serverDaily[cell.date] = cell.count;
         }
+        const daily = mergeDaily(serverDaily, localAct.daily || {});
+        const heatmap = buildLocalHeatmap(daily, 98);
+
+        let totalAttempts = 0;
+        let totalCorrect = 0;
+        let questionsTouched = 0;
+        for (const e of exams) {
+          totalAttempts += e.attempts;
+          totalCorrect += e.correct;
+          questionsTouched += e.questionsWithData;
+        }
+
+        let activeDays = 0;
+        let peakDay: Overview['peakDay'] = null;
+        for (const cell of heatmap) {
+          if (cell.count > 0) activeDays += 1;
+          if (!peakDay || cell.count > peakDay.count) peakDay = { date: cell.date, count: cell.count };
+        }
+        if (peakDay && peakDay.count === 0) peakDay = null;
+
+        setData({
+          totalAttempts,
+          totalCorrect,
+          totalWrong: Math.max(0, totalAttempts - totalCorrect),
+          examCount: json.examCount || exams.length,
+          questionsTouched,
+          activeDays,
+          peakDay,
+          exams,
+          heatmap,
+        });
       } catch (e) {
         if (!cancelled) setError(e instanceof Error ? e.message : String(e));
       } finally {
@@ -136,51 +188,45 @@ export function HomeStats() {
     return cols;
   }, [display.heatmap]);
 
+  const last14 = useMemo(() => display.heatmap.slice(-14), [display.heatmap]);
+  const max14 = useMemo(() => Math.max(1, ...last14.map((d) => d.count), 0), [last14]);
+
   const accuracy =
     display.totalAttempts > 0
       ? Math.round((display.totalCorrect / display.totalAttempts) * 100)
       : null;
 
   const kpi = [
-    {
-      label: 'Kreuzungen',
-      value: display.totalAttempts,
-      className: 'text-[#002F5D]',
-    },
+    { label: 'Kreuzungen', value: display.totalAttempts, className: 'text-[#002F5D]' },
     {
       label: 'Richtig',
       value: accuracy !== null ? `${accuracy}%` : '—',
       className: 'text-emerald-700',
     },
-    {
-      label: 'Falsch',
-      value: display.totalWrong,
-      className: 'text-red-600',
-    },
-    {
-      label: 'Klausuren',
-      value: display.examCount,
-      className: 'text-[#002F5D]',
-    },
-    {
-      label: 'Fragen mit Daten',
-      value: display.questionsTouched,
-      className: 'text-[#002F5D]',
-    },
-    {
-      label: 'Aktive Tage',
-      value: display.activeDays,
-      className: 'text-[#002F5D]',
-    },
+    { label: 'Falsch', value: display.totalWrong, className: 'text-red-600' },
+    { label: 'Klausuren', value: display.examCount, className: 'text-[#002F5D]' },
+    { label: 'Fragen mit Daten', value: display.questionsTouched, className: 'text-[#002F5D]' },
+    { label: 'Aktive Tage', value: display.activeDays, className: 'text-[#002F5D]' },
   ];
 
-  // Placeholder exam bars while loading / empty — keep layout stable
   const barRows =
     display.exams.length > 0
       ? display.exams
       : [
-          { examId: 'placeholder-a', title: 'Klausur A', attempts: 0, correct: 0, questionsWithData: 0 },
-          { examId: 'placeholder-b', title: 'Klausur B', attempts: 0, correct: 0, questionsWithData: 0 },
+          {
+            examId: 'placeholder-a',
+            title: 'Klausur A',
+            attempts: 0,
+            correct: 0,
+            questionsWithData: 0,
+          },
+          {
+            examId: 'placeholder-b',
+            title: 'Klausur B',
+            attempts: 0,
+            correct: 0,
+            questionsWithData: 0,
+          },
         ];
 
   return (
@@ -191,7 +237,7 @@ export function HomeStats() {
             Aktivität beim Kreuzen
           </h2>
           <p className="mt-1 text-sm text-zinc-500">
-            Kreuzungen, Trefferquote und Aktivitäts-Heatmap
+            Server + lokale Kreuzungen (bleiben auch ohne Persistenz auf Vercel sichtbar)
           </p>
         </div>
 
@@ -201,7 +247,6 @@ export function HomeStats() {
           </p>
         )}
 
-        {/* KPI boxes — always visible */}
         <div className="mx-auto mb-6 grid max-w-5xl grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
           {kpi.map((item) => (
             <div
@@ -218,8 +263,45 @@ export function HomeStats() {
           ))}
         </div>
 
+        {/* 14-day activity bars */}
+        <div className="mx-auto mb-6 max-w-5xl rounded-xl border border-[#e2e8f0] bg-[#f8fafc] p-5 md:p-6">
+          <p className="mb-1 text-sm font-medium text-zinc-800">Aktivität letzte 14 Tage</p>
+          <p className="mb-4 text-xs text-zinc-500">Kreuzungen pro Tag</p>
+          <div className="flex h-36 items-end gap-1.5 sm:gap-2">
+            {last14.map((day) => {
+              const h =
+                loading || day.count <= 0 ? 4 : Math.max(8, Math.round((day.count / max14) * 100));
+              return (
+                <div key={day.date} className="flex min-w-0 flex-1 flex-col items-center gap-1">
+                  <span className="text-[10px] tabular-nums text-zinc-500">
+                    {loading ? '·' : day.count > 0 ? day.count : ''}
+                  </span>
+                  <div
+                    title={`${day.date}: ${day.count}`}
+                    className={cn(
+                      'w-full max-w-[28px] rounded-t-md transition-all duration-500',
+                      loading ? 'animate-pulse bg-zinc-200' : 'bg-[#002F5D]',
+                      day.count === 0 && !loading && 'bg-zinc-200'
+                    )}
+                    style={{ height: `${h}%` }}
+                  />
+                  <span className="truncate text-[10px] text-zinc-400">{weekdayLabel(day.date)}</span>
+                </div>
+              );
+            })}
+          </div>
+          {!loading && last14.every((d) => d.count === 0) && (
+            <p className="mt-3 text-center text-xs text-zinc-500">
+              Noch keine Aktivität —{' '}
+              <Link href="/altfragen" className="font-medium text-[#002F5D] underline">
+                eine Frage kreuzen
+              </Link>
+              , dann erscheinen die Balken.
+            </p>
+          )}
+        </div>
+
         <div className="mx-auto grid max-w-5xl gap-6 lg:grid-cols-2">
-          {/* Bar chart box — always visible */}
           <div className="rounded-xl border border-[#e2e8f0] bg-[#f8fafc] p-5 md:p-6">
             <p className="mb-3 text-sm font-medium text-zinc-800">Versuche je Klausur</p>
             <ul className="space-y-3">
@@ -264,14 +346,6 @@ export function HomeStats() {
                 );
               })}
             </ul>
-            {!loading && display.totalAttempts === 0 && (
-              <p className="mt-4 text-center text-xs text-zinc-500">
-                Noch keine Kreuzungen —{' '}
-                <Link href="/altfragen" className="font-medium text-[#002F5D] underline">
-                  jetzt üben
-                </Link>
-              </p>
-            )}
             {display.peakDay && !loading && (
               <p className="mt-4 text-xs text-zinc-500">
                 Stärkster Tag: {display.peakDay.date} · {display.peakDay.count}×
@@ -279,9 +353,8 @@ export function HomeStats() {
             )}
           </div>
 
-          {/* Heatmap box — always visible */}
           <div className="rounded-xl border border-[#e2e8f0] bg-[#f8fafc] p-5 md:p-6">
-            <p className="mb-1 text-sm font-medium text-zinc-800">Aktivität (14 Wochen)</p>
+            <p className="mb-1 text-sm font-medium text-zinc-800">Heatmap (14 Wochen)</p>
             <p className="mb-4 text-xs text-zinc-500">
               Jedes Kästchen = ein Tag · dunkler = mehr Kreuzungen
             </p>
@@ -292,11 +365,7 @@ export function HomeStats() {
                     {week.map((day) => (
                       <div
                         key={day.date}
-                        title={
-                          loading
-                            ? day.date
-                            : `${day.date}: ${day.count} Kreuzung${day.count === 1 ? '' : 'en'}`
-                        }
+                        title={`${day.date}: ${day.count} Kreuzung${day.count === 1 ? '' : 'en'}`}
                         className={cn(
                           'h-3 w-3 rounded-sm sm:h-3.5 sm:w-3.5',
                           loading ? 'animate-pulse bg-zinc-200/80' : heatClass(day.count, maxHeat)
