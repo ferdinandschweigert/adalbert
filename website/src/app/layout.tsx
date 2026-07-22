@@ -8,8 +8,9 @@ const sourceSans = Source_Sans_3({
 });
 
 export const metadata: Metadata = {
-  title: "Adalbert - Anki MCP Server",
-  description: "AI-powered Anki card enrichment with German explanations. Organize decks, manage tags, and enhance your flashcards with intelligent features.",
+  title: "Adalbert — Kreuzen & Anki",
+  description:
+    "Staatsexamen-Altfragen kreuzen und Anki-Decks mit deutschen Erklärungen anreichern.",
   icons: {
     icon: [
       { url: "/favicon.png", type: "image/png", sizes: "48x48" },
