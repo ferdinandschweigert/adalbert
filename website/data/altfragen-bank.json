@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-22T20:19:14.780Z",
+  "updatedAt": "2026-07-22T20:45:44Z",
   "exams": [
     {
       "id": "m2-ss26-f26-gedaechtnisprotokoll",
@@ -9,7 +9,7 @@
       "description": "M2 SS26: 319 Fragen mit Lösungen und Wikipedia-/Amboss-/Flexikon-Erklärungen pro Option.",
       "published": true,
       "createdAt": "2026-07-22T19:10:34.238Z",
-      "updatedAt": "2026-07-22T19:42:11.578Z",
+      "updatedAt": "2026-07-22T20:45:44Z",
       "questions": [
         {
           "number": 1,
@@ -23,104 +23,110 @@
           ],
           "type": "SC",
           "correctAnswers": "01000",
-          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 25-jährige Frau - unregelmäßiger Menstruationszyklus, vermehrte Gesichtsbehaarung - Erkrankung",
+          "explanation": "Richtig ist PCOS. Die Konstellation Oligo-/Anovulation (Zyklus >40 Tage) plus klinische Androgenisierung (Hirsutismus an Hals/Kinn, androgenetischer Haarausfall frontal) bei einer jungen Frau erfüllt die typische klinische Diagnose nach Rotterdam-Kriterien (2 von 3: Oligoovulation, Hyperandrogenismus, polyzystische Ovarien).",
           "optionRationales": [
             {
               "index": 0,
               "correct": false,
-              "text": "Falsch (A): Endometriose/prämature Ovarialinsuffizienz? ist nicht die markierte Lösung (richtig: B).",
+              "text": "Endometriose erklärt eher Dysmenorrhö/Unterbauchschmerz, nicht primär Hirsutismus und verlängerte Zyklen. Eine vorzeitige Ovarialinsuffizienz führt eher zu hypoöstrogener Amenorrhö ohne Androgenisierungszeichen.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Endometriose%2Fpr%C3%A4mature%20Ovarialinsuffizienz%20Eine%2025-j%C3%A4hrige%20Frau%20stellt%20sich%20zur%20Vorsorge%20in"
+                  "url": "https://next.amboss.com/de/search?q=Endometriose"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Endometriose%2Fpr%C3%A4mature%20Ovarialinsuffizienz%3F"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Endometriose"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Endometriose%2Fpr%C3%A4mature%20Ovarialinsuffizienz%3F"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Endometriose"
                 }
               ]
             },
             {
               "index": 1,
               "correct": true,
-              "text": "Richtig (B). Das polyendokrine metabolische Ovarsyndrom (englisch polyendocrine metabolic ovarian syndrome; kurz: PMO-Syndrom, PMOS) ist eine der häufigsten Stoffwechselstörungen geschlechtsreifer Frauen, ausgelöst durch unterschiedliche pathogenetische Mechanismen und gekennzeichnet durch ein komplex gestörtes hormonales Gleichgewicht. Das PMO-Syndrom ist die häufigste Ursache für erhöhte Androgenspiegel (Hyperandrogenämie), Zyk — Passt zum Fall: „Eine 25-jährige Frau stellt sich zur Vorsorge in einer gynäkologischen Praxis vor. Sie berichtet von einem verlängerten Zyklus über 40 Tage, Haarwuchs an Hals u…“.",
+              "text": "PCOS passt am besten: Oligomenorrhö + klinischer Hyperandrogenismus bei fertiler Frau.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=PCOS%20Eine%2025-j%C3%A4hrige%20Frau%20stellt%20sich%20zur%20Vorsorge%20in"
+                  "url": "https://next.amboss.com/de/search?q=PCOS"
                 },
                 {
                   "label": "DocCheck Flexikon",
                   "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=PCOS"
                 },
                 {
-                  "label": "Wikipedia: Polyendokrines metabolisches Ovarsyndrom",
-                  "url": "https://de.wikipedia.org/wiki/Polyendokrines_metabolisches_Ovarsyndrom"
+                  "label": "Wikipedia",
+                  "url": "https://de.wikipedia.org/w/index.php?search=PCOS"
                 }
               ]
             },
             {
               "index": 2,
               "correct": false,
-              "text": "Falsch (C). Das Ullrich-Turner-Syndrom, auch nur Turner-Syndrom (UTS), Monosomie X oder Status Bonnevie-Ullrich (Bonnevie-Ullrich-Syndrom), ist eine bei Frauen auftretende Chromosomenaberration. Bei dieser besitzen (somatische) Körperzellen anstelle zweier Geschlechtschromosomen nur ein funktionsfähiges X-Chromosom. 50 % der betroffenen Frauen haben den Karyotyp 45,X (oder 45,X0), während etwa 40 % der Betroffenen ein Mosaik auf — Hier nicht die beste Antwort; markiert ist B.",
+              "text": "Turner-Syndrom präsentiert sich typischerweise mit primärer Amenorrhö und Kleinwuchs – nicht mit Hirsutismus in den 20ern.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Turner%20Syndrom5%20Eine%2025-j%C3%A4hrige%20Frau%20stellt%20sich%20zur%20Vorsorge%20in"
+                  "url": "https://next.amboss.com/de/search?q=Turner-Syndrom"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Turner%20Syndrom5"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Turner-Syndrom"
                 },
                 {
-                  "label": "Wikipedia: Ullrich-Turner-Syndrom",
-                  "url": "https://de.wikipedia.org/wiki/Ullrich-Turner-Syndrom"
+                  "label": "Wikipedia",
+                  "url": "https://de.wikipedia.org/w/index.php?search=Turner-Syndrom"
                 }
               ]
             },
             {
               "index": 3,
               "correct": false,
-              "text": "Falsch (D). Das Klinefelter-Syndrom, auch Klinefelter-Reifenstein-Albright-Syndrom, mit dem Karyotyp 47,XXY ist eine der häufigsten Formen angeborener Chromosomenanomalien beim männlichen Geschlecht und die häufigste Ursache von Hypogonadismus. Menschen mit diesem Syndrom besitzen, abweichend vom üblichen männlichen Karyotyp (46,XY), ein zusätzliches X-Chromosom in allen (47,XXY) oder einem Teil der Körperzellen (mos 47,XXY / 46 — Hier nicht die beste Antwort; markiert ist B.",
+              "text": "Klinefelter betrifft Männer, nicht eine menstruierende Frau in der gynäkologischen Vorsorge.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Klinefelter%20Syndrom%20Eine%2025-j%C3%A4hrige%20Frau%20stellt%20sich%20zur%20Vorsorge%20in"
+                  "url": "https://next.amboss.com/de/search?q=Klinefelter-Syndrom"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Klinefelter%20Syndrom"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Klinefelter-Syndrom"
                 },
                 {
-                  "label": "Wikipedia: Klinefelter-Syndrom",
-                  "url": "https://de.wikipedia.org/wiki/Klinefelter-Syndrom"
+                  "label": "Wikipedia",
+                  "url": "https://de.wikipedia.org/w/index.php?search=Klinefelter-Syndrom"
                 }
               ]
             },
             {
               "index": 4,
               "correct": false,
-              "text": "Falsch (E). Die Androgenresistenz ist ein Phänomen, bei dem aufgrund einer Mutation im Erbgut des männlichen Menschen der Androgenrezeptor nur unzureichend funktioniert, das heißt, genetisch ist das Individuum ein Mann (XY-Geschlechtschromosomen), die Geschlechtsorgane sind teils männlich, teils weiblich ausdifferenziert, und es werden auch Androgene gebildet; der Wirkungsort dieser Hormone, der Androgenrezeptor, funktioniert je — Hier nicht die beste Antwort; markiert ist B.",
+              "text": "Androgeninsensitivität betrifft genetisch männliche Individuen mit weiblichem Phänotyp; hier liegt eine Frau mit Androgenisierungszeichen vor.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Androgeninsensitivit%C3%A4t%20Eine%2025-j%C3%A4hrige%20Frau%20stellt%20sich%20zur%20Vorsorge%20in"
+                  "url": "https://next.amboss.com/de/search?q=Androgeninsensitivit%C3%A4t"
                 },
                 {
                   "label": "DocCheck Flexikon",
                   "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Androgeninsensitivit%C3%A4t"
                 },
                 {
-                  "label": "Wikipedia: Androgenresistenz",
-                  "url": "https://de.wikipedia.org/wiki/Androgenresistenz"
+                  "label": "Wikipedia",
+                  "url": "https://de.wikipedia.org/w/index.php?search=Androgeninsensitivit%C3%A4t"
                 }
               ]
             }
-          ]
+          ],
+          "topicLabel": "Polyzystisches Ovarialsyndrom (PCOS)",
+          "explanationMeta": {
+            "source": "cursor",
+            "generatedAt": "2026-07-22T20:45:44Z",
+            "confidence": "high"
+          }
         },
         {
           "number": 2,
@@ -134,104 +140,110 @@
           ],
           "type": "SC",
           "correctAnswers": "01000",
-          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 25-jährige Frau - unregelmäßiger Menstruationszyklus, vermehrte Gesichtsbehaarung - Therapie",
+          "explanation": "Bei PCOS mit Verhütungswunsch und Androgensymptomen ist eine kombinierte orale Kontrazeption (Östrogen + Gestagen) erste Wahl: sichere Verhütung plus Symptomkontrolle über Gonadotropin-Suppression und SHBG-Anstieg (weniger freies Testosteron). Reine Gestagenmethoden verhüten, bessern Hirsutismus aber deutlich weniger zuverlässig.",
           "optionRationales": [
             {
               "index": 0,
               "correct": false,
-              "text": "Falsch (A): Reines orales Gestagenpräparat ist nicht die markierte Lösung (richtig: B).",
+              "text": "Reine orale Gestagene verhüten, senken Hyperandrogenismus aber meist unzureichend.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Reines%20orales%20Gestagenpr%C3%A4parat%20Die%20Patientin%20m%C3%B6chte%20eine%20sichere%20Verh%C3%BCtung.%20Welche%20der"
+                  "url": "https://next.amboss.com/de/search?q=Gestagenpille"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Reines%20orales%20Gestagenpr%C3%A4parat"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Gestagenpille"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Reines%20orales%20Gestagenpr%C3%A4parat"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Gestagenpille"
                 }
               ]
             },
             {
               "index": 1,
               "correct": true,
-              "text": "Richtig (B): Orale Kombination von Gestagen und Östrogen. Fall: „Die Patientin möchte eine sichere Verhütung. Welche der folgenden Behandlungsmöglichkeiten ist am ehesten zu empfhelen?. Patientin aus Frage 1 möchte sicher verhüten und ihre Sympt…“.",
+              "text": "Kombinierte orale Kontrazeption: Verhütung plus beste Symptomkontrolle der Androgenisierung bei PCOS.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Orale%20Kombination%20von%20Gestagen%20und%20%C3%96strogen%20Die%20Patientin%20m%C3%B6chte%20eine%20sichere%20Verh%C3%BCtung.%20Welche%20der"
+                  "url": "https://next.amboss.com/de/search?q=Kombinierte%20orale%20Kontrazeption"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Orale%20Kombination%20von%20Gestagen%20und%20%C3%96strogen"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Kombinierte%20orale%20Kontrazeption"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Orale%20Kombination%20von%20Gestagen%20und%20%C3%96strogen"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Kombinierte%20orale%20Kontrazeption"
                 }
               ]
             },
             {
               "index": 2,
               "correct": false,
-              "text": "Falsch (C): Depotgabe von Gestagen subkutan ist nicht die markierte Lösung (richtig: B).",
+              "text": "Depot-Gestagen: Verhütung ja, Antiandrogen-Effekt limitiert.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Depotgabe%20von%20Gestagen%20subkutan%20Die%20Patientin%20m%C3%B6chte%20eine%20sichere%20Verh%C3%BCtung.%20Welche%20der"
+                  "url": "https://next.amboss.com/de/search?q=Depot-Gestagen"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Depotgabe%20von%20Gestagen%20subkutan"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Depot-Gestagen"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Depotgabe%20von%20Gestagen%20subkutan"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Depot-Gestagen"
                 }
               ]
             },
             {
               "index": 3,
               "correct": false,
-              "text": "Falsch (D): Injektionen von Gestagen subkutan ist nicht die markierte Lösung (richtig: B).",
+              "text": "Gestagen-Injektionen analog: nicht die bevorzugte Option zur Hirsutismuskontrolle.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Injektionen%20von%20Gestagen%20subkutan%20Die%20Patientin%20m%C3%B6chte%20eine%20sichere%20Verh%C3%BCtung.%20Welche%20der"
+                  "url": "https://next.amboss.com/de/search?q=Gestagen-Injektion"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Injektionen%20von%20Gestagen%20subkutan"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Gestagen-Injektion"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Injektionen%20von%20Gestagen%20subkutan"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Gestagen-Injektion"
                 }
               ]
             },
             {
               "index": 4,
               "correct": false,
-              "text": "Falsch (E): Intrauterines Pessar mit reinem Gestagen ist nicht die markierte Lösung (richtig: B).",
+              "text": "LNG-IUP ist gute Verhütung, systemischer Antiandrogen-Effekt aber gering.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Intrauterines%20Pessar%20mit%20reinem%20Gestagen%20Die%20Patientin%20m%C3%B6chte%20eine%20sichere%20Verh%C3%BCtung.%20Welche%20der"
+                  "url": "https://next.amboss.com/de/search?q=Gestagen-IUP"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Intrauterines%20Pessar%20mit%20reinem%20Gestagen"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Gestagen-IUP"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Intrauterines%20Pessar%20mit%20reinem%20Gestagen"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Gestagen-IUP"
                 }
               ]
             }
-          ]
+          ],
+          "topicLabel": "PCOS – hormonelle Kontrazeption",
+          "explanationMeta": {
+            "source": "cursor",
+            "generatedAt": "2026-07-22T20:45:44Z",
+            "confidence": "high"
+          }
         },
         {
           "number": 3,
@@ -245,35 +257,35 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 67-jaehrige Frau - rheumatoide Arthritis - Roentgenbefund (Abbildung)",
+          "explanation": "Die RA betrifft typischerweise die kleinen Gelenke (MCP, PIP, MTP). Radiologisch typisch sind Usuren und im Verlauf Fehlstellungen/Subluxationen der MCP-/MTP-Gelenke – passend zur Morgensteifigkeit mit Besserung über den Tag.",
           "optionRationales": [
             {
               "index": 0,
               "correct": true,
-              "text": "Richtig (A): Subluxation von MCP und MTP. Fall: „Eine ältere Patientin stellt sich mit Schmerzen der kleinen Finger- und Fußgelenke vor. Diese würden vor allem morgens auftreten und sich im Laufe des Tages deutlich verbessern. Si…“.",
+              "text": "Subluxationen an MCP/MTP sind ein klassischer Bildbefund der fortgeschrittenen RA.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Subluxation%20von%20MCP%20und%20MTP%20Eine%20%C3%A4ltere%20Patientin%20stellt%20sich%20mit%20Schmerzen%20der"
+                  "url": "https://next.amboss.com/de/search?q=Rheumatoide%20Arthritis%20R%C3%B6ntgen"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Subluxation%20von%20MCP%20und%20MTP"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Rheumatoide%20Arthritis%20R%C3%B6ntgen"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Subluxation%20von%20MCP%20und%20MTP"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Rheumatoide%20Arthritis%20R%C3%B6ntgen"
                 }
               ]
             },
             {
               "index": 1,
               "correct": false,
-              "text": "Falsch (B): Fersensporn ist nicht die markierte Lösung (richtig: A).",
+              "text": "Fersensporn ist unspezifisch/degenerativ und kein typischer RA-Befund.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Fersensporn%20Eine%20%C3%A4ltere%20Patientin%20stellt%20sich%20mit%20Schmerzen%20der"
+                  "url": "https://next.amboss.com/de/search?q=Fersensporn"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -288,61 +300,67 @@
             {
               "index": 2,
               "correct": false,
-              "text": "Falsch (C): Tophi am Köpfchen des Os metatarsale I ist nicht die markierte Lösung (richtig: A).",
+              "text": "Tophi sprechen für Gicht, nicht für RA.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Tophi%20am%20K%C3%B6pfchen%20des%20Os%20metatarsale%20I%20Eine%20%C3%A4ltere%20Patientin%20stellt%20sich%20mit%20Schmerzen%20der"
+                  "url": "https://next.amboss.com/de/search?q=Gicht%20Tophi"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Tophi%20am%20K%C3%B6pfchen%20des%20Os%20metatarsale%20I"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Gicht%20Tophi"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Tophi%20am%20K%C3%B6pfchen%20des%20Os%20metatarsale%20I"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Gicht%20Tophi"
                 }
               ]
             },
             {
               "index": 3,
               "correct": false,
-              "text": "Falsch (D): Exophyten am Mittelfußknochen ist nicht die markierte Lösung (richtig: A).",
+              "text": "Osteophyten/Exophyten sind eher arthrotisch, nicht das Leitbild der RA.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Exophyten%20am%20Mittelfu%C3%9Fknochen%20Eine%20%C3%A4ltere%20Patientin%20stellt%20sich%20mit%20Schmerzen%20der"
+                  "url": "https://next.amboss.com/de/search?q=Arthrose%20Osteophyten"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Exophyten%20am%20Mittelfu%C3%9Fknochen"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Arthrose%20Osteophyten"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Exophyten%20am%20Mittelfu%C3%9Fknochen"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Arthrose%20Osteophyten"
                 }
               ]
             },
             {
               "index": 4,
               "correct": false,
-              "text": "Falsch (E): Verkürzte Ulna ist nicht die markierte Lösung (richtig: A).",
+              "text": "Eine verkürzte Ulna ist kein typisches RA-Zeichen.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Verk%C3%BCrzte%20Ulna%20Eine%20%C3%A4ltere%20Patientin%20stellt%20sich%20mit%20Schmerzen%20der"
+                  "url": "https://next.amboss.com/de/search?q=Ulna"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Verk%C3%BCrzte%20Ulna"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Ulna"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Verk%C3%BCrzte%20Ulna"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Ulna"
                 }
               ]
             }
-          ]
+          ],
+          "topicLabel": "Rheumatoide Arthritis – Röntgen",
+          "explanationMeta": {
+            "source": "cursor",
+            "generatedAt": "2026-07-22T20:45:44Z",
+            "confidence": "high"
+          }
         },
         {
           "number": 4,
@@ -356,92 +374,92 @@
           ],
           "type": "SC",
           "correctAnswers": "00010",
-          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 67-jaehrige Frau - rheumatoide Arthritis - Autoantikoerper",
+          "explanation": "Bei RA sind RF und vor allem ACPA/Anti-CCP die relevanten Autoantikörper. Anti-CCP ist hochspezifisch für die RA und daher im vorliegenden Fall „am ehesten“ nachweisbar.",
           "optionRationales": [
             {
               "index": 0,
               "correct": false,
-              "text": "Falsch (A): Anti Nukleosom ist nicht die markierte Lösung (richtig: D).",
+              "text": "Anti-Nukleosom eher SLE-Kontext, nicht Leitmarker der RA.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Anti%20Nukleosom%20Welcher%20der%20Folgenden%20Antik%C3%B6rper%20ist%20im%20vorliegenden%20Fall"
+                  "url": "https://next.amboss.com/de/search?q=Anti-Nukleosom"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Anti%20Nukleosom"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Anti-Nukleosom"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Anti%20Nukleosom"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Anti-Nukleosom"
                 }
               ]
             },
             {
               "index": 1,
               "correct": false,
-              "text": "Falsch (B): Anti Cardiolipin ist nicht die markierte Lösung (richtig: D).",
+              "text": "Anti-Cardiolipin gehört zum Antiphospholipid-Syndrom.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Anti%20Cardiolipin%20Welcher%20der%20Folgenden%20Antik%C3%B6rper%20ist%20im%20vorliegenden%20Fall"
+                  "url": "https://next.amboss.com/de/search?q=Anti-Cardiolipin"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Anti%20Cardiolipin"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Anti-Cardiolipin"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Anti%20Cardiolipin"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Anti-Cardiolipin"
                 }
               ]
             },
             {
               "index": 2,
               "correct": false,
-              "text": "Falsch (C): Anti Phospholipid A2 ist nicht die markierte Lösung (richtig: D).",
+              "text": "Anti-PLA2R ist Marker der membranösen Nephropathie, nicht der RA.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Anti%20Phospholipid%20A2%20Welcher%20der%20Folgenden%20Antik%C3%B6rper%20ist%20im%20vorliegenden%20Fall"
+                  "url": "https://next.amboss.com/de/search?q=Anti-PLA2R"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Anti%20Phospholipid%20A2"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Anti-PLA2R"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Anti%20Phospholipid%20A2"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Anti-PLA2R"
                 }
               ]
             },
             {
               "index": 3,
               "correct": true,
-              "text": "Richtig (D): Anti-CCP-AK. Fall: „Welcher der Folgenden Antikörper ist im vorliegenden Fall am Ehesten nachweisbar?“.",
+              "text": "Anti-CCP (ACPA) ist der spezifischste serologische Marker der RA.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Anti-CCP-AK%20Welcher%20der%20Folgenden%20Antik%C3%B6rper%20ist%20im%20vorliegenden%20Fall"
+                  "url": "https://next.amboss.com/de/search?q=Anti-CCP"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Anti-CCP-AK"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Anti-CCP"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Anti-CCP-AK"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Anti-CCP"
                 }
               ]
             },
             {
               "index": 4,
               "correct": false,
-              "text": "Falsch (E): Anti-Zentromer ist nicht die markierte Lösung (richtig: D).",
+              "text": "Anti-Zentromer typisch für limitierte systemische Sklerose, nicht RA.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Anti-Zentromer%20Welcher%20der%20Folgenden%20Antik%C3%B6rper%20ist%20im%20vorliegenden%20Fall"
+                  "url": "https://next.amboss.com/de/search?q=Anti-Zentromer"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -453,7 +471,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "topicLabel": "Rheumatoide Arthritis – Anti-CCP",
+          "explanationMeta": {
+            "source": "cursor",
+            "generatedAt": "2026-07-22T20:45:44Z",
+            "confidence": "high"
+          }
         },
         {
           "number": 5,
@@ -467,16 +491,16 @@
           ],
           "type": "SC",
           "correctAnswers": "00010",
-          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 67-jaehrige Frau - rheumatoide Arthritis - DMARD",
+          "explanation": "DMARDs verändern den Krankheitsverlauf der RA (z. B. MTX, Tocilizumab, Adalimumab, Tofacitinib). Diclofenac ist ein NSAR: symptomatisch wirksam, aber nicht disease-modifying.",
           "optionRationales": [
             {
               "index": 0,
               "correct": false,
-              "text": "Falsch (A): Methotrexat ist nicht die markierte Lösung (richtig: D).",
+              "text": "Methotrexat ist das klassische csDMARD der RA.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Methotrexat%20Die%20Therapie%20der%20vorliegenden%20Erkrankung%20umfasst%20in%20der"
+                  "url": "https://next.amboss.com/de/search?q=Methotrexat"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -491,11 +515,11 @@
             {
               "index": 1,
               "correct": false,
-              "text": "Falsch (B): Tocilizumab ist nicht die markierte Lösung (richtig: D).",
+              "text": "Tocilizumab ist ein bDMARD (IL-6-Rezeptor).",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Tocilizumab%20Die%20Therapie%20der%20vorliegenden%20Erkrankung%20umfasst%20in%20der"
+                  "url": "https://next.amboss.com/de/search?q=Tocilizumab"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -510,11 +534,11 @@
             {
               "index": 2,
               "correct": false,
-              "text": "Falsch (C): Adalimumab ist nicht die markierte Lösung (richtig: D).",
+              "text": "Adalimumab ist ein bDMARD (TNF-α).",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Adalimumab%20Die%20Therapie%20der%20vorliegenden%20Erkrankung%20umfasst%20in%20der"
+                  "url": "https://next.amboss.com/de/search?q=Adalimumab"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -529,11 +553,11 @@
             {
               "index": 3,
               "correct": true,
-              "text": "Richtig (D): Diclofenac. Fall: „Die Therapie der vorliegenden Erkrankung umfasst in der Regel den Einsatz von Disease Modifying Antirheumatic Drugs. Welches der folgenden Medikamente gehört am Ehesten nicht dazu?“.",
+              "text": "Diclofenac ist ein NSAR und gehört nicht zu den DMARDs.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Diclofenac%20Die%20Therapie%20der%20vorliegenden%20Erkrankung%20umfasst%20in%20der"
+                  "url": "https://next.amboss.com/de/search?q=Diclofenac"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -548,11 +572,11 @@
             {
               "index": 4,
               "correct": false,
-              "text": "Falsch (E): Tofacitinib ist nicht die markierte Lösung (richtig: D).",
+              "text": "Tofacitinib (JAK-Inhibitor) zählt zu den tsDMARDs.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Tofacitinib%20Die%20Therapie%20der%20vorliegenden%20Erkrankung%20umfasst%20in%20der"
+                  "url": "https://next.amboss.com/de/search?q=Tofacitinib"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -564,7 +588,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "topicLabel": "DMARDs bei rheumatoider Arthritis",
+          "explanationMeta": {
+            "source": "cursor",
+            "generatedAt": "2026-07-22T20:45:44Z",
+            "confidence": "high"
+          }
         },
         {
           "number": 6,
@@ -578,104 +608,110 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 67-jaehrige Frau - rheumatoide Arthritis - Folgeerkrankungen",
+          "explanation": "Chronische Inflammation bei RA erhöht das Risiko für Atherosklerose und damit Myokardinfarkt sowie Schlaganfall. Das ist unter den genannten Optionen die relevanteste Risikoassoziation.",
           "optionRationales": [
             {
               "index": 0,
               "correct": true,
-              "text": "Richtig (A): Erhöhtes Risiko für Myokardinfarkt und Apoplex. Fall: „Aufgrund der entzündlichen Gelenk Erkrankung besteht für welche der folgenden Erkrankungen am ehesten ein erhöhtes Risiko?“.",
+              "text": "RA geht mit erhöhtem Risiko für Myokardinfarkt und Apoplex einher.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Erh%C3%B6htes%20Risiko%20f%C3%BCr%20Myokardinfarkt%20und%20Apoplex%20Aufgrund%20der%20entz%C3%BCndlichen%20Gelenk%20Erkrankung%20besteht%20"
+                  "url": "https://next.amboss.com/de/search?q=Rheumatoide%20Arthritis%20kardiovaskul%C3%A4res%20Risiko"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Erh%C3%B6htes%20Risiko%20f%C3%BCr%20Myokardinfarkt%20und%20Apoplex"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Rheumatoide%20Arthritis%20kardiovaskul%C3%A4res%20Risiko"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Erh%C3%B6htes%20Risiko%20f%C3%BCr%20Myokardinfarkt%20und%20Apoplex"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Rheumatoide%20Arthritis%20kardiovaskul%C3%A4res%20Risiko"
                 }
               ]
             },
             {
               "index": 1,
               "correct": false,
-              "text": "Falsch (B): Erhöhte Risiko für (knochenmark-) Neoplasien ist nicht die markierte Lösung (richtig: A).",
+              "text": "Knochenmarkneoplasien sind nicht das typische Leitrisiko der RA selbst.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Erh%C3%B6hte%20Risiko%20f%C3%BCr%20Neoplasien%20Aufgrund%20der%20entz%C3%BCndlichen%20Gelenk%20Erkrankung%20besteht%20f%C3%BCr%20welche"
+                  "url": "https://next.amboss.com/de/search?q=RA%20Malignom"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Erh%C3%B6hte%20Risiko%20f%C3%BCr%20(knochenmark-)%20Neoplasien"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=RA%20Malignom"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Erh%C3%B6hte%20Risiko%20f%C3%BCr%20(knochenmark-)%20Neoplasien"
+                  "url": "https://de.wikipedia.org/w/index.php?search=RA%20Malignom"
                 }
               ]
             },
             {
               "index": 2,
               "correct": false,
-              "text": "Falsch (C): Erhöhtes Risiko für sekundären Hyperparathyreoidismus ist nicht die markierte Lösung (richtig: A).",
+              "text": "Sekundärer Hyperparathyreoidismus ist keine typische RA-Komplikation.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Erh%C3%B6htes%20Risiko%20f%C3%BCr%20sekund%C3%A4ren%20Hyperparathyreoidismus%20Aufgrund%20der%20entz%C3%BCndlichen%20Gelenk%20Erkrankung%20b"
+                  "url": "https://next.amboss.com/de/search?q=Hyperparathyreoidismus"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Erh%C3%B6htes%20Risiko%20f%C3%BCr%20sekund%C3%A4ren%20Hyperparathyreoidismus"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Hyperparathyreoidismus"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Erh%C3%B6htes%20Risiko%20f%C3%BCr%20sekund%C3%A4ren%20Hyperparathyreoidismus"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Hyperparathyreoidismus"
                 }
               ]
             },
             {
               "index": 3,
               "correct": false,
-              "text": "Falsch (D): Erhöhtes Risiko für Primär sklerosierende Cholangitis ist nicht die markierte Lösung (richtig: A).",
+              "text": "PSC ist klassisch mit Colitis ulcerosa assoziiert, nicht mit RA.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Erh%C3%B6htes%20Risiko%20f%C3%BCr%20Prim%C3%A4r%20sklerosierende%20Cholangitis%20Aufgrund%20der%20entz%C3%BCndlichen%20Gelenk%20Erkrankung%20b"
+                  "url": "https://next.amboss.com/de/search?q=PSC"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Erh%C3%B6htes%20Risiko%20f%C3%BCr%20Prim%C3%A4r%20sklerosierende%20Cholangitis"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=PSC"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Erh%C3%B6htes%20Risiko%20f%C3%BCr%20Prim%C3%A4r%20sklerosierende%20Cholangitis"
+                  "url": "https://de.wikipedia.org/w/index.php?search=PSC"
                 }
               ]
             },
             {
               "index": 4,
               "correct": false,
-              "text": "Falsch (E): Erhöhtes Risiko für pankreas Insuffizienz ist nicht die markierte Lösung (richtig: A).",
+              "text": "Pankreasinsuffizienz gehört nicht zum typischen RA-Risikoprofil.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Erh%C3%B6htes%20Risiko%20f%C3%BCr%20pankreas%20Insuffizienz%20Aufgrund%20der%20entz%C3%BCndlichen%20Gelenk%20Erkrankung%20besteht%20f%C3%BCr%20w"
+                  "url": "https://next.amboss.com/de/search?q=Pankreasinsuffizienz"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Erh%C3%B6htes%20Risiko%20f%C3%BCr%20pankreas%20Insuffizienz"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Pankreasinsuffizienz"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Erh%C3%B6htes%20Risiko%20f%C3%BCr%20pankreas%20Insuffizienz"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Pankreasinsuffizienz"
                 }
               ]
             }
-          ]
+          ],
+          "topicLabel": "RA – kardiovaskuläres Risiko",
+          "explanationMeta": {
+            "source": "cursor",
+            "generatedAt": "2026-07-22T20:45:44Z",
+            "confidence": "high"
+          }
         },
         {
           "number": 7,
@@ -689,35 +725,35 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 19-jaehrige Patientin mit Asthma bronchiale - Massnahmen",
+          "explanation": "Gefragt ist die zunächst am wenigsten indizierte Maßnahme. Bei steigendem Salbutamol-Bedarf stehen zuerst Auskultation, Pulsoxymetrie und gezielte Anamnese im Vordergrund. Ein Röntgen-Thorax ist initial nicht routinemäßig nötig, solange keine Hinweise auf Pneumonie, Pneumothorax o. Ä. vorliegen.",
           "optionRationales": [
             {
               "index": 0,
               "correct": true,
-              "text": "Richtig (A): Röntgen Thorax. Fall: „Die 19-jährige Frau M. hat seit der Kindheit ein Asthma bronchiale. Außerdem ist eine Allergie gegen Hausstaubmilben bekannt, weswegen eine sublinguale Hyposensibilisierung durchge…“.",
+              "text": "Röntgen-Thorax ist hier die am wenigsten prioritäre Erstmaßnahme.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=R%C3%B6ntgen%20Thorax%20Die%2019-j%C3%A4hrige%20Frau%20M.%20hat%20seit%20der%20Kindheit"
+                  "url": "https://next.amboss.com/de/search?q=Asthma%20R%C3%B6ntgen%20Thorax"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=R%C3%B6ntgen%20Thorax"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Asthma%20R%C3%B6ntgen%20Thorax"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=R%C3%B6ntgen%20Thorax"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Asthma%20R%C3%B6ntgen%20Thorax"
                 }
               ]
             },
             {
               "index": 1,
               "correct": false,
-              "text": "Falsch (B): Pulsoxymetrie ist nicht die markierte Lösung (richtig: A).",
+              "text": "Pulsoxymetrie ist eine schnelle, sinnvolle Einschätzung der Oxygenierung.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Pulsoxymetrie%20Die%2019-j%C3%A4hrige%20Frau%20M.%20hat%20seit%20der%20Kindheit"
+                  "url": "https://next.amboss.com/de/search?q=Pulsoxymetrie"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -732,61 +768,67 @@
             {
               "index": 2,
               "correct": false,
-              "text": "Falsch (C): Auskultation ist nicht die markierte Lösung (richtig: A).",
+              "text": "Auskultation gehört zur Basisuntersuchung.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Auskultation%20Die%2019-j%C3%A4hrige%20Frau%20M.%20hat%20seit%20der%20Kindheit"
+                  "url": "https://next.amboss.com/de/search?q=Auskultation%20Asthma"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Auskultation"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Auskultation%20Asthma"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Auskultation"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Auskultation%20Asthma"
                 }
               ]
             },
             {
               "index": 3,
               "correct": false,
-              "text": "Falsch (D): Erweiterte Medikamenten-Anamnese ist nicht die markierte Lösung (richtig: A).",
+              "text": "Medikamentenanamnese (Bedarfsfrequenz, Technik) ist essenziell.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Erweiterte%20Medikamenten-Anamnese%20Die%2019-j%C3%A4hrige%20Frau%20M.%20hat%20seit%20der%20Kindheit"
+                  "url": "https://next.amboss.com/de/search?q=Asthma%20Anamnese"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Erweiterte%20Medikamenten-Anamnese"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Asthma%20Anamnese"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Erweiterte%20Medikamenten-Anamnese"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Asthma%20Anamnese"
                 }
               ]
             },
             {
               "index": 4,
               "correct": false,
-              "text": "Falsch (E): Anamnese von Komorbiditäten ist nicht die markierte Lösung (richtig: A).",
+              "text": "Komorbiditäten können Exazerbationen triggern und sind anamnestisch relevant.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Anamnese%20von%20Komorbidit%C3%A4ten%20Die%2019-j%C3%A4hrige%20Frau%20M.%20hat%20seit%20der%20Kindheit"
+                  "url": "https://next.amboss.com/de/search?q=Asthma%20Komorbidit%C3%A4ten"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Anamnese%20von%20Komorbidit%C3%A4ten"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Asthma%20Komorbidit%C3%A4ten"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Anamnese%20von%20Komorbidit%C3%A4ten"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Asthma%20Komorbidit%C3%A4ten"
                 }
               ]
             }
-          ]
+          ],
+          "topicLabel": "Asthma – Erstmaßnahmen bei Kontrollverlust",
+          "explanationMeta": {
+            "source": "cursor",
+            "generatedAt": "2026-07-22T20:45:44Z",
+            "confidence": "high"
+          }
         },
         {
           "number": 8,
@@ -800,104 +842,110 @@
           ],
           "type": "SC",
           "correctAnswers": "00001",
-          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 19-jaehrige Patientin mit Asthma bronchiale - diagnostische Befunde",
+          "explanation": "Asthma ist eine variable, typischerweise reversible Obstruktion. Die (nahezu) vollständige Reversibilität nach β2-Mimetikum stützt Asthma gegenüber weitgehend irreversibler Obstruktion. Isoliert erniedrigte VC/FVC/FEV1/Peak-Flow belegen keine Reversibilität.",
           "optionRationales": [
             {
               "index": 0,
               "correct": false,
-              "text": "Falsch (A): Reduzierte Vitalkapazität (VC) ist nicht die markierte Lösung (richtig: E).",
+              "text": "Reduzierte VC ist unspezifisch und belegt keine Reversibilität.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Reduzierte%20Vitalkapazit%C3%A4t%20Welcher%20der%20folgenden%20Befunde%20erh%C3%A4rtet%20am%20ehesten%20die"
+                  "url": "https://next.amboss.com/de/search?q=Vitalkapazit%C3%A4t"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Reduzierte%20Vitalkapazit%C3%A4t%20(VC)"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Vitalkapazit%C3%A4t"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Reduzierte%20Vitalkapazit%C3%A4t%20(VC)"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Vitalkapazit%C3%A4t"
                 }
               ]
             },
             {
               "index": 1,
               "correct": false,
-              "text": "Falsch (B): Reduzierte Forcierte Vitalkapazität (FVC) ist nicht die markierte Lösung (richtig: E).",
+              "text": "Reduzierte FVC allein differenziert Asthma nicht sicher.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Reduzierte%20Forcierte%20Vitalkapazit%C3%A4t%20Welcher%20der%20folgenden%20Befunde%20erh%C3%A4rtet%20am%20ehesten%20die"
+                  "url": "https://next.amboss.com/de/search?q=FVC"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Reduzierte%20Forcierte%20Vitalkapazit%C3%A4t%20(FVC)"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=FVC"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Reduzierte%20Forcierte%20Vitalkapazit%C3%A4t%20(FVC)"
+                  "url": "https://de.wikipedia.org/w/index.php?search=FVC"
                 }
               ]
             },
             {
               "index": 2,
               "correct": false,
-              "text": "Falsch (C): Reduzierter Peak Flow ist nicht die markierte Lösung (richtig: E).",
+              "text": "Peak-Flow kann obstruktiv erniedrigt sein, ohne Reversibilität zu beweisen.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Reduzierter%20Peak%20Flow%20Welcher%20der%20folgenden%20Befunde%20erh%C3%A4rtet%20am%20ehesten%20die"
+                  "url": "https://next.amboss.com/de/search?q=Peak%20Flow"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Reduzierter%20Peak%20Flow"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Peak%20Flow"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Reduzierter%20Peak%20Flow"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Peak%20Flow"
                 }
               ]
             },
             {
               "index": 3,
               "correct": false,
-              "text": "Falsch (D): Reduzierte Einsekundenkapazität (FEV1) ist nicht die markierte Lösung (richtig: E).",
+              "text": "Erniedrigtes FEV1 zeigt Obstruktion, nicht zwingend vollständige Reversibilität.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Reduzierte%20Einsekundenkapazit%C3%A4t%20Welcher%20der%20folgenden%20Befunde%20erh%C3%A4rtet%20am%20ehesten%20die"
+                  "url": "https://next.amboss.com/de/search?q=FEV1"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Reduzierte%20Einsekundenkapazit%C3%A4t%20(FEV1)"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=FEV1"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Reduzierte%20Einsekundenkapazit%C3%A4t%20(FEV1)"
+                  "url": "https://de.wikipedia.org/w/index.php?search=FEV1"
                 }
               ]
             },
             {
               "index": 4,
               "correct": true,
-              "text": "Richtig (E): Vollständige Reversibilität der Obstruktion nach Inhalation von ß2-Sympathomimetika. Fall: „Welcher der folgenden Befunde erhärtet am ehesten die Verdachtsdiagnose eines ins Erwachsenenalter persistierenden Asthma bronchiale?“.",
+              "text": "Vollständige Reversibilität nach β2-Sympathomimetikum erhärtet Asthma am ehesten.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Vollst%C3%A4ndige%20Reversibilit%C3%A4t%20der%20Obstruktion%20nach%20Inhalation%20von%20%C3%9F2-Sympathomimet%20Welcher%20der%20folgend"
+                  "url": "https://next.amboss.com/de/search?q=Bronchospasmolysetest"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Vollst%C3%A4ndige%20Reversibilit%C3%A4t%20der%20Obstruktion%20nach%20Inhalation%20von%20%C3%9F2-Sympathomimet"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Bronchospasmolysetest"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Vollst%C3%A4ndige%20Reversibilit%C3%A4t%20der%20Obstruktion%20nach%20Inhalation%20von%20%C3%9F2-Sympathomimet"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Bronchospasmolysetest"
                 }
               ]
             }
-          ]
+          ],
+          "topicLabel": "Asthma – Reversibilität der Obstruktion",
+          "explanationMeta": {
+            "source": "cursor",
+            "generatedAt": "2026-07-22T20:45:44Z",
+            "confidence": "high"
+          }
         },
         {
           "number": 9,
@@ -911,104 +959,110 @@
           ],
           "type": "SC",
           "correctAnswers": "00001",
-          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 19-jaehrige Patientin mit Asthma bronchiale - Therapie",
+          "explanation": "Bei Kontrollverlust (stark gestiegener Salbutamol-Bedarf) mit Giemen, aber stabilen Vitalparametern, ist zusätzlich zum Bedarfs-β2-Mimetikum ein inhalatives Kortikosteroid als langfristige Controller-Therapie indiziert. Oraler Steroidstoß, Antibiotikum ohne Infekt und LABA ohne ICS sind hier nicht die passende Dauermaßnahme.",
           "optionRationales": [
             {
               "index": 0,
               "correct": false,
-              "text": "Falsch (A): Oraler Prednisolonstoß über 5 Tage ist nicht die markierte Lösung (richtig: E).",
+              "text": "Oraler Prednisolonstoß ist bei dieser relativ stabilen Präsentation nicht die erste Dauermaßnahme.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Oraler%20Prednisolonsto%C3%9F%20%C3%BCber%205%20Tage%20Bei%20der%20Untersuchung%20der%20Patientin%20erheben%20Sie%20folgende"
+                  "url": "https://next.amboss.com/de/search?q=Prednisolon%20Asthma"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Oraler%20Prednisolonsto%C3%9F%20%C3%BCber%205%20Tage"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Prednisolon%20Asthma"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Oraler%20Prednisolonsto%C3%9F%20%C3%BCber%205%20Tage"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Prednisolon%20Asthma"
                 }
               ]
             },
             {
               "index": 1,
               "correct": false,
-              "text": "Falsch (B): Ipratropiumbromid über eine Woche als Inhalation ist nicht die markierte Lösung (richtig: E).",
+              "text": "Ipratropium ersetzt keine langfristige ICS-Therapie.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Ipratropiumbromid%20%C3%BCber%20eine%20Woche%20als%20Inhalation%20Bei%20der%20Untersuchung%20der%20Patientin%20erheben%20Sie%20folg"
+                  "url": "https://next.amboss.com/de/search?q=Ipratropium"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Ipratropiumbromid%20%C3%BCber%20eine%20Woche%20als%20Inhalation"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Ipratropium"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Ipratropiumbromid%20%C3%BCber%20eine%20Woche%20als%20Inhalation"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Ipratropium"
                 }
               ]
             },
             {
               "index": 2,
               "correct": false,
-              "text": "Falsch (C): Doxycyclin über 7-10 Tage ist nicht die markierte Lösung (richtig: E).",
+              "text": "Doxycyclin ohne klaren bakteriellen Infekt nicht indiziert.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Doxycyclin%20%C3%BCber%207-10%20Tage%20Bei%20der%20Untersuchung%20der%20Patientin%20erheben%20Sie%20folgende"
+                  "url": "https://next.amboss.com/de/search?q=Doxycyclin"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Doxycyclin%20%C3%BCber%207-10%20Tage"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Doxycyclin"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Doxycyclin%20%C3%BCber%207-10%20Tage"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Doxycyclin"
                 }
               ]
             },
             {
               "index": 3,
               "correct": false,
-              "text": "Falsch (D): LABA als lan2gfristige tägliche Inhalation ist nicht die markierte Lösung (richtig: E).",
+              "text": "LABA-Dauertherapie ohne ICS ist bei Asthma nicht empfohlen.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=LABA%20als%20lan2gfristige%20t%C3%A4gliche%20Inhalation%20Bei%20der%20Untersuchung%20der%20Patientin%20erheben%20Sie%20folgende"
+                  "url": "https://next.amboss.com/de/search?q=LABA"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=LABA%20als%20lan2gfristige%20t%C3%A4gliche%20Inhalation"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=LABA"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=LABA%20als%20lan2gfristige%20t%C3%A4gliche%20Inhalation"
+                  "url": "https://de.wikipedia.org/w/index.php?search=LABA"
                 }
               ]
             },
             {
               "index": 4,
               "correct": true,
-              "text": "Richtig (E): Inhalatives Kortikosteroid (ICS) als langfristige tägliche Inhalation. Fall: „Bei der Untersuchung der Patientin erheben Sie folgende Befunde: Sauerstoffsättigung: 97%, Puls 76/min, RR 110/70 mmHg. Auskultation: Giemen bds. Welche der folgenden therapeutisch…“.",
+              "text": "ICS als langfristige tägliche Inhalation ist die zentrale Controller-Therapie.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Inhalatives%20Kortikosteroid%20als%20langfristige%20t%C3%A4gliche%20Inhalation%20Bei%20der%20Untersuchung%20der%20Patientin%20e"
+                  "url": "https://next.amboss.com/de/search?q=ICS%20Asthma"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Inhalatives%20Kortikosteroid%20(ICS)%20als%20langfristige%20t%C3%A4gliche%20Inhalation"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=ICS%20Asthma"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Inhalatives%20Kortikosteroid%20(ICS)%20als%20langfristige%20t%C3%A4gliche%20Inhalation"
+                  "url": "https://de.wikipedia.org/w/index.php?search=ICS%20Asthma"
                 }
               ]
             }
-          ]
+          ],
+          "topicLabel": "Asthma – Basistherapie ICS",
+          "explanationMeta": {
+            "source": "cursor",
+            "generatedAt": "2026-07-22T20:45:44Z",
+            "confidence": "high"
+          }
         },
         {
           "number": 10,
@@ -1022,35 +1076,35 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 7 Monate alter Junge mit hohem Fieber - klinisches Symptom bzw. Zeichen",
+          "explanation": "Fieberhafter, apathischer Säugling mit Hypotonie und rasch auftretender Purpura/akraler Nekrose spricht für fulminante Meningokokkensepsis. Eine gespannte Fontanelle ist beim Säugling ein wichtiges Zeichen meningealer Mitbeteiligung/Hirndruck und daher am ehesten zu erwarten.",
           "optionRationales": [
             {
               "index": 0,
               "correct": true,
-              "text": "Richtig (A): Gespannte Fontanelle. Fall: „Fallbeschreibung für 39-40: Die Eltern bringen ein 7-monate altes Kind zu Ihnen in die Notaufnahme. Es habe lang anhaltendes Fieber von 40°C, wirke apathisch und trinke schlecht (o…“.",
+              "text": "Gespannte Fontanelle als Meningitis-/Hirndruckzeichen passt zur invasiven Meningokokkenerkrankung.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Gespannte%20Fontanelle%20Fallbeschreibung%20f%C3%BCr%2039-40%3A%20Die%20Eltern%20bringen%20ein%207-monate"
+                  "url": "https://next.amboss.com/de/search?q=Meningokokkensepsis%20Fontanelle"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Gespannte%20Fontanelle"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Meningokokkensepsis%20Fontanelle"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Gespannte%20Fontanelle"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Meningokokkensepsis%20Fontanelle"
                 }
               ]
             },
             {
               "index": 1,
               "correct": false,
-              "text": "Falsch (B): Akrozyanose ist nicht die markierte Lösung (richtig: A).",
+              "text": "Akrozyanose allein ist unspezifisch und erklärt nicht das Vollbild mit Purpura fulminans.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Akrozyanose%20Fallbeschreibung%20f%C3%BCr%2039-40%3A%20Die%20Eltern%20bringen%20ein%207-monate"
+                  "url": "https://next.amboss.com/de/search?q=Akrozyanose"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -1065,49 +1119,49 @@
             {
               "index": 2,
               "correct": false,
-              "text": "Falsch (C): Tonisch verkrampfte Kiefermuskulatur, später auch Rücken- und Bauchmuskulatur ist nicht die markierte Lösung (richtig: A).",
+              "text": "Tonische Kiefer-/Rumpfkrämpfe sind typischer für Tetanus.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Tonisch%20verkrampfte%20Kiefermuskulatur%2C%20sp%C3%A4ter%20auch%20R%C3%BCcken-%20und%20Bauchmuskulatur%20Fallbeschreibung%20f%C3%BCr%203"
+                  "url": "https://next.amboss.com/de/search?q=Tetanus"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Tonisch%20verkrampfte%20Kiefermuskulatur%2C%20sp%C3%A4ter%20auch%20R%C3%BCcken-%20und%20Bauchmuskulatur"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Tetanus"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Tonisch%20verkrampfte%20Kiefermuskulatur%2C%20sp%C3%A4ter%20auch%20R%C3%BCcken-%20und%20Bauchmuskulatur"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Tetanus"
                 }
               ]
             },
             {
               "index": 3,
               "correct": false,
-              "text": "Falsch (D): Positives Pyramidenzeichen ist nicht die markierte Lösung (richtig: A).",
+              "text": "Ein positives Pyramidenbahnzeichen ist kein Leitbefund dieser Erkrankung beim Säugling.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Positives%20Pyramidenzeichen%20Fallbeschreibung%20f%C3%BCr%2039-40%3A%20Die%20Eltern%20bringen%20ein%207-monate"
+                  "url": "https://next.amboss.com/de/search?q=Pyramidenbahnzeichen"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Positives%20Pyramidenzeichen"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Pyramidenbahnzeichen"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Positives%20Pyramidenzeichen"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Pyramidenbahnzeichen"
                 }
               ]
             },
             {
               "index": 4,
               "correct": false,
-              "text": "Falsch (E): Polyurie ist nicht die markierte Lösung (richtig: A).",
+              "text": "Polyurie passt nicht zu Fieber, Trinkschwäche und septischem Schock.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Polyurie%20Fallbeschreibung%20f%C3%BCr%2039-40%3A%20Die%20Eltern%20bringen%20ein%207-monate"
+                  "url": "https://next.amboss.com/de/search?q=Polyurie"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -1119,7 +1173,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "topicLabel": "Meningokokkensepsis / Waterhouse-Friderichsen",
+          "explanationMeta": {
+            "source": "cursor",
+            "generatedAt": "2026-07-22T20:45:44Z",
+            "confidence": "high"
+          }
         },
         {
           "number": 11,
@@ -3353,16 +3413,16 @@
           ],
           "type": "SC",
           "correctAnswers": "00010",
-          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 61-jaehriger Mann - Lobaerpneumonie - Erreger",
+          "explanation": "Klassische Lobärpneumonie (Fieber, produktiver Husten, Abgeschlagenheit): Häufigster bakterieller CAP-Erreger ist Streptococcus pneumoniae. Atypische Erreger (Mykoplasmen, Chlamydophila) und Viren passen weniger zum Lobärbild; Klebsiella ist seltener und eher spezielle Risikokonstellationen.",
           "optionRationales": [
             {
               "index": 0,
               "correct": false,
-              "text": "Falsch (A): Klebsiella pneumoniae ist nicht die markierte Lösung (richtig: D).",
+              "text": "Klebsiella ist seltener CAP-Erreger, eher spezielle Risikokonstellationen.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Klebsiella%20pneumoniae%20Ein%2050-j%C3%A4hriger%20Mann%20stellt%20sich%20bei%20seiner%20Haus%C3%A4rztin"
+                  "url": "https://next.amboss.com/de/search?q=Klebsiella%20pneumoniae"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -3377,49 +3437,49 @@
             {
               "index": 1,
               "correct": false,
-              "text": "Falsch (B): Influenza B ist nicht die markierte Lösung (richtig: D).",
+              "text": "Influenza ist viral und nicht der typische Lobärpneumonie-Erreger.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Influenza%20B%20Ein%2050-j%C3%A4hriger%20Mann%20stellt%20sich%20bei%20seiner%20Haus%C3%A4rztin"
+                  "url": "https://next.amboss.com/de/search?q=Influenza"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Influenza%20B"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Influenza"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Influenza%20B"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Influenza"
                 }
               ]
             },
             {
               "index": 2,
               "correct": false,
-              "text": "Falsch (C): Chlamydophilia Pneumoniae (ehemals Chlamydia Pneumoniae) ist nicht die markierte Lösung (richtig: D).",
+              "text": "Chlamydophila pneumoniae verursacht eher atypische Pneumonien.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Chlamydophilia%20Pneumoniae%20Ein%2050-j%C3%A4hriger%20Mann%20stellt%20sich%20bei%20seiner%20Haus%C3%A4rztin"
+                  "url": "https://next.amboss.com/de/search?q=Chlamydophila%20pneumoniae"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Chlamydophilia%20Pneumoniae%20(ehemals%20Chlamydia%20Pneumoniae)"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Chlamydophila%20pneumoniae"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Chlamydophilia%20Pneumoniae%20(ehemals%20Chlamydia%20Pneumoniae)"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Chlamydophila%20pneumoniae"
                 }
               ]
             },
             {
               "index": 3,
               "correct": true,
-              "text": "Richtig (D): Streptococcus pneumoniae. Fall: „Ein 50-jähriger Mann stellt sich bei seiner Hausärztin mit Fieber, Husten mit Auswurf und Abgeschlagenheit vor. Er ist Raucher (ca. 10 Packyears) und trinkt mehrmals die Woche Alko…“.",
+              "text": "Streptococcus pneumoniae ist der häufigste Erreger der klassischen ambulant erworbenen Lobärpneumonie.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Streptococcus%20pneumoniae%20Ein%2050-j%C3%A4hriger%20Mann%20stellt%20sich%20bei%20seiner%20Haus%C3%A4rztin"
+                  "url": "https://next.amboss.com/de/search?q=Streptococcus%20pneumoniae"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -3434,23 +3494,29 @@
             {
               "index": 4,
               "correct": false,
-              "text": "Falsch (E): Mykoplasma Pneumoniae ist nicht die markierte Lösung (richtig: D).",
+              "text": "Mycoplasma pneumoniae: typischerweise atypische Pneumonie.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Mykoplasma%20Pneumoniae%20Ein%2050-j%C3%A4hriger%20Mann%20stellt%20sich%20bei%20seiner%20Haus%C3%A4rztin"
+                  "url": "https://next.amboss.com/de/search?q=Mycoplasma%20pneumoniae"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Mykoplasma%20Pneumoniae"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Mycoplasma%20pneumoniae"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Mykoplasma%20Pneumoniae"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Mycoplasma%20pneumoniae"
                 }
               ]
             }
-          ]
+          ],
+          "topicLabel": "Ambulant erworbene Pneumonie – Pneumokokken",
+          "explanationMeta": {
+            "source": "cursor",
+            "generatedAt": "2026-07-22T20:45:44Z",
+            "confidence": "high"
+          }
         },
         {
           "number": 32,
@@ -4907,104 +4973,110 @@
           ],
           "type": "SC",
           "correctAnswers": "01000",
-          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 35-jaehriger Patient mit Verbrennung der linken Hand - Diagnose",
+          "explanation": "Kaum Schmerzen und fehlende distale Pulse sprechen für eine tiefe, mindestens drittgradige Verbrennung. Die Handfläche entspricht grob ≈1% KOF. Daher am ehesten: Verbrennung 3. Grades, ca. 1% KOF.",
           "optionRationales": [
             {
               "index": 0,
               "correct": false,
-              "text": "Falsch (A): Verbrennung 4. Grades 0,5 % der KOF ist nicht die markierte Lösung (richtig: B).",
+              "text": "4. Grad mit 0,5% ist weniger treffend; Leitbefund hier ist drittgradig ≈ Handfläche (≈1%).",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Verbrennung%204.%20Grades%200%2C5%20%25%20der%20KOF%20Fall%3A%20Patient%20hat%20sich%20beim%20Grillen%20mit%20Spiritus"
+                  "url": "https://next.amboss.com/de/search?q=Verbrennung%204.%20Grad"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Verbrennung%204.%20Grades%200%2C5%20%25%20der%20KOF"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Verbrennung%204.%20Grad"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Verbrennung%204.%20Grades%200%2C5%20%25%20der%20KOF"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Verbrennung%204.%20Grad"
                 }
               ]
             },
             {
               "index": 1,
               "correct": true,
-              "text": "Richtig (B): Verbrennung 3. Grades 1 % der KOF ist die markierte Lösung. Fall: „Fall: Patient hat sich beim Grillen mit Spiritus eine Hand verbrannt, kaum Schmerzen, keine distalen Pulse, stark geschwollene Finger (Bildbeilage mit einer Hand Blasen schon abget…“.",
+              "text": "Schmerzarm + Pulse fehlend → tief (3. Grad); Hand ≈1% KOF.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Verbrennung%203.%20Grades%201%20%25%20der%20KOF%20Fall%3A%20Patient%20hat%20sich%20beim%20Grillen%20mit%20Spiritus"
+                  "url": "https://next.amboss.com/de/search?q=Verbrennung%203.%20Grad"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Verbrennung%203.%20Grades%201%20%25%20der%20KOF"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Verbrennung%203.%20Grad"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Verbrennung%203.%20Grades%201%20%25%20der%20KOF"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Verbrennung%203.%20Grad"
                 }
               ]
             },
             {
               "index": 2,
               "correct": false,
-              "text": "Falsch (C): Verbrennung 2. Grades 2% der KOF ist nicht die markierte Lösung (richtig: B).",
+              "text": "2. Grad ist typischerweise schmerzhaft; 2% für eine Hand eher zu hoch.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Verbrennung%202.%20Grades%202%25%20der%20KOF%20Fall%3A%20Patient%20hat%20sich%20beim%20Grillen%20mit%20Spiritus"
+                  "url": "https://next.amboss.com/de/search?q=Verbrennung%202.%20Grad"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Verbrennung%202.%20Grades%202%25%20der%20KOF"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Verbrennung%202.%20Grad"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Verbrennung%202.%20Grades%202%25%20der%20KOF"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Verbrennung%202.%20Grad"
                 }
               ]
             },
             {
               "index": 3,
               "correct": false,
-              "text": "Falsch (D): Verbrennung 1. Grades, 3 % der KOF ist nicht die markierte Lösung (richtig: B).",
+              "text": "1. Grad ist schmerzhaft und oberflächlich – passt nicht.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Verbrennung%201.%20Grades%2C%203%20%25%20der%20KOF%20Fall%3A%20Patient%20hat%20sich%20beim%20Grillen%20mit%20Spiritus"
+                  "url": "https://next.amboss.com/de/search?q=Verbrennung%201.%20Grad"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Verbrennung%201.%20Grades%2C%203%20%25%20der%20KOF"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Verbrennung%201.%20Grad"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Verbrennung%201.%20Grades%2C%203%20%25%20der%20KOF"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Verbrennung%201.%20Grad"
                 }
               ]
             },
             {
               "index": 4,
               "correct": false,
-              "text": "Falsch (E): Vollständige Verkohlung der Hand ist nicht die markierte Lösung (richtig: B).",
+              "text": "Vollständige Verkohlung ist so nicht belegt.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Vollst%C3%A4ndige%20Verkohlung%20der%20Hand%20Fall%3A%20Patient%20hat%20sich%20beim%20Grillen%20mit%20Spiritus"
+                  "url": "https://next.amboss.com/de/search?q=Verkohlung"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Vollst%C3%A4ndige%20Verkohlung%20der%20Hand"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Verkohlung"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Vollst%C3%A4ndige%20Verkohlung%20der%20Hand"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Verkohlung"
                 }
               ]
             }
-          ]
+          ],
+          "topicLabel": "Verbrennungstiefe und Ausdehnung",
+          "explanationMeta": {
+            "source": "cursor",
+            "generatedAt": "2026-07-22T20:45:44Z",
+            "confidence": "high"
+          }
         },
         {
           "number": 46,
@@ -6683,35 +6755,35 @@
           ],
           "type": "SC",
           "correctAnswers": "00100",
-          "explanation": "Lösung C (grüne Markierung im Gedächtnisprotokoll). Neugeborenes mit Verdacht auf AGS - Screening",
+          "explanation": "Beim klassischen 21-Hydroxylase-Mangel staut sich 17-Hydroxyprogesteron vor dem Enzymblock. Genau dieses Steroid wird im Neugeborenen-Screening als Marker bestimmt und ist erhöht.",
           "optionRationales": [
             {
               "index": 0,
               "correct": false,
-              "text": "Falsch (A): 11-Dehydrokortisol ist nicht die markierte Lösung (richtig: C).",
+              "text": "11-Deoxycortisol ist eher bei 11β-Hydroxylase-Mangel relevant, nicht der Standard-Screeningmarker des 21-OH-AGS.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=11-Dehydrokortisol%20Bei%20einem%20M%C3%A4dchen%20(S%C3%A4ugling)%20wurde%20ein%20adrenogenitales%20Salzmangelsyndrom"
+                  "url": "https://next.amboss.com/de/search?q=11-Deoxycortisol"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=11-Dehydrokortisol"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=11-Deoxycortisol"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=11-Dehydrokortisol"
+                  "url": "https://de.wikipedia.org/w/index.php?search=11-Deoxycortisol"
                 }
               ]
             },
             {
               "index": 1,
               "correct": false,
-              "text": "Falsch (B): 21-Dehydrokortisol ist nicht die markierte Lösung (richtig: C).",
+              "text": "„21-Dehydrokortisol“ ist nicht der etablierte Screeningmarker.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=21-Dehydrokortisol%20Bei%20einem%20M%C3%A4dchen%20(S%C3%A4ugling)%20wurde%20ein%20adrenogenitales%20Salzmangelsyndrom"
+                  "url": "https://next.amboss.com/de/search?q=21-Dehydrokortisol"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -6726,30 +6798,30 @@
             {
               "index": 2,
               "correct": true,
-              "text": "Richtig (C): 17-OH-Progesteron ist die markierte Lösung. Fall: „Bei einem Mädchen (Säugling) wurde ein adrenogenitales Salzmangelsyndrom festgestellt (AGS). Sinngemäß: Was wird beim Neugeborenenscreenig erhöht festgestellt? (Iwie so was wird au…“.",
+              "text": "17-OH-Progesteron ist der Screeningparameter beim 21-Hydroxylase-Mangel.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=17-OH-Progesteron%20Bei%20einem%20M%C3%A4dchen%20(S%C3%A4ugling)%20wurde%20ein%20adrenogenitales%20Salzmangelsyndrom"
+                  "url": "https://next.amboss.com/de/search?q=17-Hydroxyprogesteron"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=17-OH-Progesteron"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=17-Hydroxyprogesteron"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=17-OH-Progesteron"
+                  "url": "https://de.wikipedia.org/w/index.php?search=17-Hydroxyprogesteron"
                 }
               ]
             },
             {
               "index": 3,
               "correct": false,
-              "text": "Falsch (D): 11-Dehydrokortikosteron ist nicht die markierte Lösung (richtig: C).",
+              "text": "11-Dehydrokortikosteron ist nicht der relevante Screeningmarker.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=11-Dehydrokortikosteron%20Bei%20einem%20M%C3%A4dchen%20(S%C3%A4ugling)%20wurde%20ein%20adrenogenitales%20Salzmangelsyndrom"
+                  "url": "https://next.amboss.com/de/search?q=11-Dehydrokortikosteron"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -6764,11 +6836,11 @@
             {
               "index": 4,
               "correct": false,
-              "text": "Falsch (E): Aldosteron ist nicht die markierte Lösung (richtig: C).",
+              "text": "Aldosteron ist beim Salzverlust eher erniedrigt; Screening läuft über 17-OHP.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Aldosteron%20Bei%20einem%20M%C3%A4dchen%20(S%C3%A4ugling)%20wurde%20ein%20adrenogenitales%20Salzmangelsyndrom"
+                  "url": "https://next.amboss.com/de/search?q=Aldosteron"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -6780,7 +6852,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "topicLabel": "AGS – 17-OH-Progesteron im Neugeborenenscreening",
+          "explanationMeta": {
+            "source": "cursor",
+            "generatedAt": "2026-07-22T20:45:44Z",
+            "confidence": "high"
+          }
         },
         {
           "number": 62,
@@ -8237,16 +8315,16 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 65-jaehrige Patientin mit Z.n. Cholezystektomie - Schmerzmedikation",
+          "explanation": "Gefragt ist, welches Schmerzmittel man am ehesten vermeiden soll. Bei art. Hypertonie, DM2 und stattgehabter TIA haben COX-2-Hemmer (Etoricoxib) ein ungünstiges kardiovaskuläres Risikoprofil und sind daher zu meiden. Metamizol, Paracetamol bzw. Opioide sind in dieser Konstellation die weniger problematischen Alternativen.",
           "optionRationales": [
             {
               "index": 0,
               "correct": true,
-              "text": "Richtig (A): Etoricoxib ist die markierte Lösung. Fall: „Frau nach Cholezystektomie mit Schmerzen NAS 6. Mit in der VE einen art Hypertous, DM2 und eine stattgehabte TIA. Welches Schmerzmittel soll man am ehesten vermeiden.“.",
+              "text": "Etoricoxib (COX-2) wegen kardiovaskulärer Vorschädigung (TIA/Hypertonie) am ehesten vermeiden.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Etoricoxib%20Frau%20nach%20Cholezystektomie%20mit%20Schmerzen%20NAS%206.%20Mit"
+                  "url": "https://next.amboss.com/de/search?q=Etoricoxib"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -8261,11 +8339,11 @@
             {
               "index": 1,
               "correct": false,
-              "text": "Falsch (B): Metamizol ist nicht die markierte Lösung (richtig: A).",
+              "text": "Metamizol ist hier nicht das primär zu meidende Mittel.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Metamizol%20Frau%20nach%20Cholezystektomie%20mit%20Schmerzen%20NAS%206.%20Mit"
+                  "url": "https://next.amboss.com/de/search?q=Metamizol"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -8280,11 +8358,11 @@
             {
               "index": 2,
               "correct": false,
-              "text": "Falsch (C): Paracetamol ist nicht die markierte Lösung (richtig: A).",
+              "text": "Paracetamol hat kein vergleichbares CV-Meidegebot wie COX-2-Hemmer.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Paracetamol%20Frau%20nach%20Cholezystektomie%20mit%20Schmerzen%20NAS%206.%20Mit"
+                  "url": "https://next.amboss.com/de/search?q=Paracetamol"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -8299,11 +8377,11 @@
             {
               "index": 3,
               "correct": false,
-              "text": "Falsch (D): Tramadol ist nicht die markierte Lösung (richtig: A).",
+              "text": "Tramadol ist nicht das Mittel, das wegen der TIA-Anamnese speziell vermieden werden muss.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Tramadol%20Frau%20nach%20Cholezystektomie%20mit%20Schmerzen%20NAS%206.%20Mit"
+                  "url": "https://next.amboss.com/de/search?q=Tramadol"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -8318,11 +8396,11 @@
             {
               "index": 4,
               "correct": false,
-              "text": "Falsch (E): Tilidin ist nicht die markierte Lösung (richtig: A).",
+              "text": "Tilidin ebenso: nicht die CV-spezifische Kontraindikation wie bei Etoricoxib.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Tilidin%20Frau%20nach%20Cholezystektomie%20mit%20Schmerzen%20NAS%206.%20Mit"
+                  "url": "https://next.amboss.com/de/search?q=Tilidin"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -8334,7 +8412,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "topicLabel": "Postoperative Analgesie – COX-2 meiden bei CV-Risiko",
+          "explanationMeta": {
+            "source": "cursor",
+            "generatedAt": "2026-07-22T20:45:44Z",
+            "confidence": "high"
+          }
         },
         {
           "number": 76,
@@ -9973,54 +10057,54 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 35-jaehriger Ingenieur - auffaelliges psychisches Verhalten - Therapie",
+          "explanation": "Bei akuter Manie ist eine antimanische Akuttherapie vorrangig. Olanzapin ist eine etablierte Option. Antidepressiva (Citalopram) können die Manie verstärken; DBT, Clomethiazol und EKT sind hier nicht die vordringlichste Erstmaßnahme.",
           "optionRationales": [
             {
               "index": 0,
               "correct": true,
-              "text": "Richtig (A): Olanzapin ist die markierte Lösung. Fall: „(Lange fallgewschichte zu zu Mann mit manischen Symptomen, kam schon einmal in einer Altfrage vor), Welches Therapie ist am vordringlichsten indiziert?. klassische manische Symptom…“.",
+              "text": "Olanzapin ist eine etablierte Akuttherapie der Manie.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Olanzapin%20(Lange%20fallgewschichte%20zu%20zu%20Mann%20mit%20manischen%20Symptomen%2C"
+                  "url": "https://next.amboss.com/de/search?q=Olanzapin%20Manie"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Olanzapin"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Olanzapin%20Manie"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Olanzapin"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Olanzapin%20Manie"
                 }
               ]
             },
             {
               "index": 1,
               "correct": false,
-              "text": "Falsch (B): DBT ist nicht die markierte Lösung (richtig: A).",
+              "text": "DBT ist keine Akuttherapie der Manie.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=DBT%20(Lange%20fallgewschichte%20zu%20zu%20Mann%20mit%20manischen%20Symptomen%2C"
+                  "url": "https://next.amboss.com/de/search?q=Dialektisch-behaviorale%20Therapie"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=DBT"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Dialektisch-behaviorale%20Therapie"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=DBT"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Dialektisch-behaviorale%20Therapie"
                 }
               ]
             },
             {
               "index": 2,
               "correct": false,
-              "text": "Falsch (C): Clomethiazol ist nicht die markierte Lösung (richtig: A).",
+              "text": "Clomethiazol gehört zum Alkoholentzugsmanagement.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Clomethiazol%20(Lange%20fallgewschichte%20zu%20zu%20Mann%20mit%20manischen%20Symptomen%2C"
+                  "url": "https://next.amboss.com/de/search?q=Clomethiazol"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -10035,11 +10119,11 @@
             {
               "index": 3,
               "correct": false,
-              "text": "Falsch (D): Citalopram ist nicht die markierte Lösung (richtig: A).",
+              "text": "Citalopram kann manische Symptome verstärken und ist falsch.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Citalopram%20(Lange%20fallgewschichte%20zu%20zu%20Mann%20mit%20manischen%20Symptomen%2C"
+                  "url": "https://next.amboss.com/de/search?q=Citalopram"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -10054,11 +10138,11 @@
             {
               "index": 4,
               "correct": false,
-              "text": "Falsch (E): Elektrokonvulsionstherapie ist nicht die markierte Lösung (richtig: A).",
+              "text": "EKT ist Reserve-/Sonderindikation, nicht die vordringlichste Erstmaßnahme hier.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Elektrokonvulsionstherapie%20(Lange%20fallgewschichte%20zu%20zu%20Mann%20mit%20manischen%20Symptomen%2C"
+                  "url": "https://next.amboss.com/de/search?q=Elektrokonvulsionstherapie"
                 },
                 {
                   "label": "DocCheck Flexikon",
@@ -10070,7 +10154,13 @@
                 }
               ]
             }
-          ]
+          ],
+          "topicLabel": "Manie – akute Pharmakotherapie",
+          "explanationMeta": {
+            "source": "cursor",
+            "generatedAt": "2026-07-22T20:45:44Z",
+            "confidence": "high"
+          }
         },
         {
           "number": 92,
@@ -13303,104 +13393,110 @@
           ],
           "type": "SC",
           "correctAnswers": "00001",
-          "explanation": "Lösung E (grüne Markierung im Gedächtnisprotokoll). 35-jaehrige Patientin vor geplanter Strumektomie - Apfelscore - Risiko fuer PONV",
+          "explanation": "Beim Apfel-Score entspricht 4 Punkten ein PONV-Risiko von etwa 80% (Faustregel: 0→10%, 1→20%, 2→40%, 3→60%, 4→80%).",
           "optionRationales": [
             {
               "index": 0,
               "correct": false,
-              "text": "Falsch (A): 10% ist nicht die markierte Lösung (richtig: E).",
+              "text": "10% entspricht eher 0 Punkten.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=10%25%2035-j%C3%A4hrige%20Patientin%20vor%20geplanter%20Strumektomie-%20Apfel-Score%204%20PONV"
+                  "url": "https://next.amboss.com/de/search?q=Apfel-Score"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=10%25"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Apfel-Score"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=10%25"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Apfel-Score"
                 }
               ]
             },
             {
               "index": 1,
               "correct": false,
-              "text": "Falsch (B): 20% ist nicht die markierte Lösung (richtig: E).",
+              "text": "20% entspricht eher 1 Punkt.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=20%25%2035-j%C3%A4hrige%20Patientin%20vor%20geplanter%20Strumektomie-%20Apfel-Score%204%20PONV"
+                  "url": "https://next.amboss.com/de/search?q=Apfel-Score"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=20%25"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Apfel-Score"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=20%25"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Apfel-Score"
                 }
               ]
             },
             {
               "index": 2,
               "correct": false,
-              "text": "Falsch (C): 40% ist nicht die markierte Lösung (richtig: E).",
+              "text": "40% entspricht eher 2 Punkten.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=40%25%2035-j%C3%A4hrige%20Patientin%20vor%20geplanter%20Strumektomie-%20Apfel-Score%204%20PONV"
+                  "url": "https://next.amboss.com/de/search?q=Apfel-Score"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=40%25"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Apfel-Score"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=40%25"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Apfel-Score"
                 }
               ]
             },
             {
               "index": 3,
               "correct": false,
-              "text": "Falsch (D): 60% ist nicht die markierte Lösung (richtig: E).",
+              "text": "60% entspricht eher 3 Punkten.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=60%25%2035-j%C3%A4hrige%20Patientin%20vor%20geplanter%20Strumektomie-%20Apfel-Score%204%20PONV"
+                  "url": "https://next.amboss.com/de/search?q=Apfel-Score"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=60%25"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Apfel-Score"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=60%25"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Apfel-Score"
                 }
               ]
             },
             {
               "index": 4,
               "correct": true,
-              "text": "Richtig (E): 80% ist die markierte Lösung. Fall: „35-jährige Patientin vor geplanter Strumektomie- Apfel-Score 4 PONV Risiko“.",
+              "text": "Bei Apfel-Score 4 liegt das PONV-Risiko bei ca. 80%.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=80%25%2035-j%C3%A4hrige%20Patientin%20vor%20geplanter%20Strumektomie-%20Apfel-Score%204%20PONV"
+                  "url": "https://next.amboss.com/de/search?q=Apfel-Score%20PONV"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=80%25"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Apfel-Score%20PONV"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=80%25"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Apfel-Score%20PONV"
                 }
               ]
             }
-          ]
+          ],
+          "topicLabel": "PONV – Apfel-Score",
+          "explanationMeta": {
+            "source": "cursor",
+            "generatedAt": "2026-07-22T20:45:44Z",
+            "confidence": "high"
+          }
         },
         {
           "number": 122,
@@ -23293,104 +23389,110 @@
           ],
           "type": "SC",
           "correctAnswers": "01000",
-          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 5-jaehriges Kind Sturz auf Unterarm Sorge der Mutter wegen Strahlenbelastung bei Roentgenuntersuchung - Vorgehensweise",
+          "explanation": "Laut Lösungsschlüssel: Bei erhaltener Beweglichkeit ohne Fehlstellung und nur Druckschmerz ist eine zeitnahe klinische Wiedervorstellung vertretbar. Sofortige Vollbelastung ohne Kontrolle ist unsicher; MRT überdimensioniert. Ob Sono/Röntgen später nötig wird, hängt vom Verlauf ab – markiert ist hier die Wiedervorstellung.",
           "optionRationales": [
             {
               "index": 0,
               "correct": false,
-              "text": "Falsch (A): Sono zum Frakturausschluss - bin mir sicher dass das sicher war. ist nicht die markierte Lösung (richtig: B).",
+              "text": "Sono kann kindliche Unterarmfrakturen oft darstellen, ist hier aber nicht die markierte Lösung.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Sono%20zum%20Frakturausschluss%20-%20bin%20mir%20sicher%20dass%20das%20sicher%20war%205J%20Kind%20mit%20Sturz%20auf%20Unterarm%2C%20Schm"
+                  "url": "https://next.amboss.com/de/search?q=Ultraschall%20Fraktur%20Kind"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Sono%20zum%20Frakturausschluss%20-%20bin%20mir%20sicher%20dass%20das%20sicher%20war."
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Ultraschall%20Fraktur%20Kind"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Sono%20zum%20Frakturausschluss%20-%20bin%20mir%20sicher%20dass%20das%20sicher%20war."
+                  "url": "https://de.wikipedia.org/w/index.php?search=Ultraschall%20Fraktur%20Kind"
                 }
               ]
             },
             {
               "index": 1,
               "correct": true,
-              "text": "Richtig (B): Wiedervorstellung in ein paar Tagen ist die markierte Lösung. Fall: „5J Kind mit Sturz auf Unterarm, Schmerzen auf Druck, aber keine Bewegunseinschränkung oder Fehlstellung. Mutter hat Sorgen wegen der Strahlenbelastung des Kindes bei Röntgenuntersu…“.",
+              "text": "Bei blander Klinik ohne Fehlstellung: zeitnahe Wiedervorstellung laut Schlüssel.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Wiedervorstellung%20in%20ein%20paar%20Tagen%205J%20Kind%20mit%20Sturz%20auf%20Unterarm%2C%20Schmerzen%20auf"
+                  "url": "https://next.amboss.com/de/search?q=Kindliche%20Fraktur%20Beobachtung"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Wiedervorstellung%20in%20ein%20paar%20Tagen"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Kindliche%20Fraktur%20Beobachtung"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Wiedervorstellung%20in%20ein%20paar%20Tagen"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Kindliche%20Fraktur%20Beobachtung"
                 }
               ]
             },
             {
               "index": 2,
               "correct": false,
-              "text": "Falsch (C): Entlassung und Vollbelastung ist nicht die markierte Lösung (richtig: B).",
+              "text": "Sofort Vollbelastung ohne Kontrolle riskiert, eine Verletzung zu übersehen.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Entlassung%20und%20Vollbelastung%205J%20Kind%20mit%20Sturz%20auf%20Unterarm%2C%20Schmerzen%20auf"
+                  "url": "https://next.amboss.com/de/search?q=Fraktur%20Entlassung"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Entlassung%20und%20Vollbelastung"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Fraktur%20Entlassung"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Entlassung%20und%20Vollbelastung"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Fraktur%20Entlassung"
                 }
               ]
             },
             {
               "index": 3,
               "correct": false,
-              "text": "Falsch (D): MRT zum Auschluss Epiphysenverletzung ist nicht die markierte Lösung (richtig: B).",
+              "text": "MRT ist keine Erstmaßnahme bei diesem Szenario.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=MRT%20zum%20Auschluss%20Epiphysenverletzung%205J%20Kind%20mit%20Sturz%20auf%20Unterarm%2C%20Schmerzen%20auf"
+                  "url": "https://next.amboss.com/de/search?q=MRT%20Kind%20Arm"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=MRT%20zum%20Auschluss%20Epiphysenverletzung"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=MRT%20Kind%20Arm"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=MRT%20zum%20Auschluss%20Epiphysenverletzung"
+                  "url": "https://de.wikipedia.org/w/index.php?search=MRT%20Kind%20Arm"
                 }
               ]
             },
             {
               "index": 4,
               "correct": false,
-              "text": "Falsch (E): Erklärt der Mutter, dass Röntgen für den Ausschluss der Fraktur erforderlich ist. ist nicht die markierte Lösung (richtig: B).",
+              "text": "Röntgen ist laut Schlüssel nicht zwingend sofort erforderlich, wenn Kontrolle geplant wird.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Erkl%C3%A4rt%20der%20Mutter%2C%20dass%20R%C3%B6ntgen%20f%C3%BCr%20den%20Ausschluss%20der%20Fraktur%20erforderlich%20ist%205J%20Kind%20mit%20Sturz%20a"
+                  "url": "https://next.amboss.com/de/search?q=R%C3%B6ntgen%20Kind"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Erkl%C3%A4rt%20der%20Mutter%2C%20dass%20R%C3%B6ntgen%20f%C3%BCr%20den%20Ausschluss%20der%20Fraktur%20erforderlich%20ist"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=R%C3%B6ntgen%20Kind"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Erkl%C3%A4rt%20der%20Mutter%2C%20dass%20R%C3%B6ntgen%20f%C3%BCr%20den%20Ausschluss%20der%20Fraktur%20erforderlich%20ist."
+                  "url": "https://de.wikipedia.org/w/index.php?search=R%C3%B6ntgen%20Kind"
                 }
               ]
             }
-          ]
+          ],
+          "topicLabel": "Kindlicher Unterarm – klinische Verlaufskontrolle",
+          "explanationMeta": {
+            "source": "cursor",
+            "generatedAt": "2026-07-22T20:45:44Z",
+            "confidence": "high"
+          }
         },
         {
           "number": 212,
@@ -26623,104 +26725,110 @@
           ],
           "type": "SC",
           "correctAnswers": "10000",
-          "explanation": "Lösung A (grüne Markierung im Gedächtnisprotokoll). 59-jaehriger Patient - Darmdurchbruch infolge Sigmadivertikulitis - Fieber - PVK-assoziierte Sepsis",
+          "explanation": "Zur PVK-Infektionsprävention zählen Händedesinfektion, aseptischer Verband, tägliche Kontrolle und Entfernung sobald nicht mehr nötig. Ein routinemäßiger Wechsel alle 72 h wird evidenzbasiert nicht empfohlen, solange der Zugang komplikationslos ist – daher gehört genau das „am ehesten nicht“ dazu.",
           "optionRationales": [
             {
               "index": 0,
               "correct": true,
-              "text": "Richtig (A): Wechseln des pvk postoperativ alle 72 Stunden ist die markierte Lösung. Fall: „Was gehört nach evidenz am ehesten nicht zum vorgehen zur vorbeugung von pvk-Infektionen?“.",
+              "text": "Routinemäßiger PVK-Wechsel alle 72 h ist evidenzbasiert nicht indiziert.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Wechseln%20des%20pvk%20postoperativ%20alle%2072%20Stunden%20Was%20geh%C3%B6rt%20nach%20evidenz%20am%20ehesten%20nicht%20zum"
+                  "url": "https://next.amboss.com/de/search?q=PVK%20Wechselintervall"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Wechseln%20des%20pvk%20postoperativ%20alle%2072%20Stunden"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=PVK%20Wechselintervall"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Wechseln%20des%20pvk%20postoperativ%20alle%2072%20Stunden"
+                  "url": "https://de.wikipedia.org/w/index.php?search=PVK%20Wechselintervall"
                 }
               ]
             },
             {
               "index": 1,
               "correct": false,
-              "text": "Falsch (B): Steriler Pflaster aseptisch aufkleben ist nicht die markierte Lösung (richtig: A).",
+              "text": "Aseptisches Abdecken gehört zur Prävention.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Steriler%20Pflaster%20aseptisch%20aufkleben%20Was%20geh%C3%B6rt%20nach%20evidenz%20am%20ehesten%20nicht%20zum"
+                  "url": "https://next.amboss.com/de/search?q=PVK%20Verband"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Steriler%20Pflaster%20aseptisch%20aufkleben"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=PVK%20Verband"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Steriler%20Pflaster%20aseptisch%20aufkleben"
+                  "url": "https://de.wikipedia.org/w/index.php?search=PVK%20Verband"
                 }
               ]
             },
             {
               "index": 2,
               "correct": false,
-              "text": "Falsch (C): Hygienische Händedesinfektion vor Anlage ist nicht die markierte Lösung (richtig: A).",
+              "text": "Händedesinfektion vor Anlage ist Standard.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Hygienische%20H%C3%A4ndedesinfektion%20vor%20Anlage%20Was%20geh%C3%B6rt%20nach%20evidenz%20am%20ehesten%20nicht%20zum"
+                  "url": "https://next.amboss.com/de/search?q=H%C3%A4ndedesinfektion"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Hygienische%20H%C3%A4ndedesinfektion%20vor%20Anlage"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=H%C3%A4ndedesinfektion"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Hygienische%20H%C3%A4ndedesinfektion%20vor%20Anlage"
+                  "url": "https://de.wikipedia.org/w/index.php?search=H%C3%A4ndedesinfektion"
                 }
               ]
             },
             {
               "index": 3,
               "correct": false,
-              "text": "Falsch (D): PVK täglich kontrollieren durch Anschauen und/ oder Palpation ist nicht die markierte Lösung (richtig: A).",
+              "text": "Tägliche Kontrolle auf Infektionszeichen ist empfohlen.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=PVK%20t%C3%A4glich%20kontrollieren%20durch%20Anschauen%20und%2F%20oder%20Palpation%20Was%20geh%C3%B6rt%20nach%20evidenz%20am%20ehesten%20nic"
+                  "url": "https://next.amboss.com/de/search?q=PVK%20Kontrolle"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=PVK%20t%C3%A4glich%20kontrollieren%20durch%20Anschauen%20und%2F%20oder%20Palpation"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=PVK%20Kontrolle"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=PVK%20t%C3%A4glich%20kontrollieren%20durch%20Anschauen%20und%2F%20oder%20Palpation"
+                  "url": "https://de.wikipedia.org/w/index.php?search=PVK%20Kontrolle"
                 }
               ]
             },
             {
               "index": 4,
               "correct": false,
-              "text": "Falsch (E): Pvk unmittelbar entfernen, wenn nicht mehr benötigt ist nicht die markierte Lösung (richtig: A).",
+              "text": "Frühzeitige Entfernung nicht mehr benötigter PVK reduziert Infektionsrisiko.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Pvk%20unmittelbar%20entfernen%2C%20wenn%20nicht%20mehr%20ben%C3%B6tigt%20Was%20geh%C3%B6rt%20nach%20evidenz%20am%20ehesten%20nicht%20zum"
+                  "url": "https://next.amboss.com/de/search?q=PVK%20Entfernung"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Pvk%20unmittelbar%20entfernen%2C%20wenn%20nicht%20mehr%20ben%C3%B6tigt"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=PVK%20Entfernung"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Pvk%20unmittelbar%20entfernen%2C%20wenn%20nicht%20mehr%20ben%C3%B6tigt"
+                  "url": "https://de.wikipedia.org/w/index.php?search=PVK%20Entfernung"
                 }
               ]
             }
-          ]
+          ],
+          "topicLabel": "PVK – Infektionsprävention",
+          "explanationMeta": {
+            "source": "cursor",
+            "generatedAt": "2026-07-22T20:45:44Z",
+            "confidence": "high"
+          }
         },
         {
           "number": 242,
@@ -29953,104 +30061,110 @@
           ],
           "type": "SC",
           "correctAnswers": "00010",
-          "explanation": "Lösung D (grüne Markierung im Gedächtnisprotokoll). 6-jaehriger Junge - Aortenisthmusstenose - fehlende Leistenpulse - praeoperatives Aufklaerungsgespraech",
+          "explanation": "Bei Korrektur einer Aortenisthmusstenose ist die spinale Ischämie mit Querschnittssyndrom eine seltene, aber schwerwiegende und damit aufklärungspflichtige Komplikation.",
           "optionRationales": [
             {
               "index": 0,
               "correct": false,
-              "text": "Falsch (A): Myokardinfarkt ist nicht die markierte Lösung (richtig: D).",
+              "text": "Myokardinfarkt ist nicht die klassische spezifische Extremkomplikation dieser OP.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Myokardinfarkt%206-j%C3%A4hriger%20Junge%20mit%20Aortenisthmusstenose%20soll%20operiert%20werden%2C%20%C3%BCber"
+                  "url": "https://next.amboss.com/de/search?q=Aortenisthmusstenose%20OP"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Myokardinfarkt"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Aortenisthmusstenose%20OP"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Myokardinfarkt"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Aortenisthmusstenose%20OP"
                 }
               ]
             },
             {
               "index": 1,
               "correct": false,
-              "text": "Falsch (B): Niereninsuffizienz ist nicht die markierte Lösung (richtig: D).",
+              "text": "Niereninsuffizienz ist nicht die gefragte seltene neurologische Extremkomplikation.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Niereninsuffizienz%206-j%C3%A4hriger%20Junge%20mit%20Aortenisthmusstenose%20soll%20operiert%20werden%2C%20%C3%BCber"
+                  "url": "https://next.amboss.com/de/search?q=Aortenisthmusstenose"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Niereninsuffizienz"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Aortenisthmusstenose"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Niereninsuffizienz"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Aortenisthmusstenose"
                 }
               ]
             },
             {
               "index": 2,
               "correct": false,
-              "text": "Falsch (C): Beinverlust ist nicht die markierte Lösung (richtig: D).",
+              "text": "Beinverlust ist keine typische Standard-Aufklärungskomplikation dieser Korrektur.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Beinverlust%206-j%C3%A4hriger%20Junge%20mit%20Aortenisthmusstenose%20soll%20operiert%20werden%2C%20%C3%BCber"
+                  "url": "https://next.amboss.com/de/search?q=Aortenisthmusstenose"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Beinverlust"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Aortenisthmusstenose"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Beinverlust"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Aortenisthmusstenose"
                 }
               ]
             },
             {
               "index": 3,
               "correct": true,
-              "text": "Richtig (D): Querschnittssyndrom ist die markierte Lösung. Fall: „6-jähriger Junge mit Aortenisthmusstenose soll operiert werden, über welche sehr seltene aber schwerwiegende OP-Komplikation sollten Sie die Eltern unbedingt aufklären“.",
+              "text": "Querschnitt durch spinale Minderperfusion ist die seltene, schwerwiegende Aufklärungskomplikation.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Querschnittssyndrom%206-j%C3%A4hriger%20Junge%20mit%20Aortenisthmusstenose%20soll%20operiert%20werden%2C%20%C3%BCber"
+                  "url": "https://next.amboss.com/de/search?q=spinale%20Isch%C3%A4mie%20Aortenisthmusstenose"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Querschnittssyndrom"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=spinale%20Isch%C3%A4mie%20Aortenisthmusstenose"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Querschnittssyndrom"
+                  "url": "https://de.wikipedia.org/w/index.php?search=spinale%20Isch%C3%A4mie%20Aortenisthmusstenose"
                 }
               ]
             },
             {
               "index": 4,
               "correct": false,
-              "text": "Falsch (E): Gerinnungsstörungen ist nicht die markierte Lösung (richtig: D).",
+              "text": "Gerinnungsstörungen sind unspezifisch und nicht der Kern der Frage.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Gerinnungsst%C3%B6rungen%206-j%C3%A4hriger%20Junge%20mit%20Aortenisthmusstenose%20soll%20operiert%20werden%2C%20%C3%BCber"
+                  "url": "https://next.amboss.com/de/search?q=Gerinnungsst%C3%B6rung%20OP"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Gerinnungsst%C3%B6rungen"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Gerinnungsst%C3%B6rung%20OP"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Gerinnungsst%C3%B6rungen"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Gerinnungsst%C3%B6rung%20OP"
                 }
               ]
             }
-          ]
+          ],
+          "topicLabel": "Aortenisthmusstenose – OP-Aufklärung Querschnitt",
+          "explanationMeta": {
+            "source": "cursor",
+            "generatedAt": "2026-07-22T20:45:44Z",
+            "confidence": "high"
+          }
         },
         {
           "number": 272,
@@ -33283,104 +33397,110 @@
           ],
           "type": "SC",
           "correctAnswers": "01000",
-          "explanation": "Lösung B (grüne Markierung im Gedächtnisprotokoll). 68-jähriger Patient mit schmerzloser Visusminderung - Auffälligkeit bei Pupillentestung",
+          "explanation": "Kirschroter Fleck + akute einseitige Visusminderung = Zentralarterienverschluss. Es besteht eine relative afferente Pupillenstörung am betroffenen Auge: Beleuchtung des gesunden Auges führt über den Konsensualreflex zu deutlicher Verengung auch der betroffenen Pupille.",
           "optionRationales": [
             {
               "index": 0,
               "correct": false,
-              "text": "Falsch (A): Beleuchtung rechts mit Pupillenkontraktion rechts ist nicht die markierte Lösung (richtig: B).",
+              "text": "Direkte Beleuchtung rechts führt beim CRAO rechts eher zu abgeschwächter Reaktion.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Beleuchtung%20rechts%20mit%20Pupillenkontraktion%20rechts%20Problem%20rechtes%20Auge%20%2B%20Fundoskopie%20mit%20erkennbarem"
+                  "url": "https://next.amboss.com/de/search?q=RAPD"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Beleuchtung%20rechts%20mit%20Pupillenkontraktion%20rechts"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=RAPD"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Beleuchtung%20rechts%20mit%20Pupillenkontraktion%20rechts"
+                  "url": "https://de.wikipedia.org/w/index.php?search=RAPD"
                 }
               ]
             },
             {
               "index": 1,
               "correct": true,
-              "text": "Richtig (B): Beleuchtung links mit deutlicher Pupillenkontraktion rechts ist die markierte Lösung. Fall: „Problem rechtes Auge + Fundoskopie mit erkennbarem kirschroten Fleck; Patient hatte Visusverschlechterung über ca. 1 Tag. Welche Aussage ist richtig bezüglich Pupillenreaktion? (wa…“.",
+              "text": "Beleuchtung links → konsensuelle deutliche Kontraktion rechts (afferenter Defekt rechts, Efferenz intakt).",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Beleuchtung%20links%20mit%20deutlicher%20Pupillenkontraktion%20rechts%20Problem%20rechtes%20Auge%20%2B%20Fundoskopie%20mit%20e"
+                  "url": "https://next.amboss.com/de/search?q=relative%20afferente%20Pupillenst%C3%B6rung"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Beleuchtung%20links%20mit%20deutlicher%20Pupillenkontraktion%20rechts"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=relative%20afferente%20Pupillenst%C3%B6rung"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Beleuchtung%20links%20mit%20deutlicher%20Pupillenkontraktion%20rechts"
+                  "url": "https://de.wikipedia.org/w/index.php?search=relative%20afferente%20Pupillenst%C3%B6rung"
                 }
               ]
             },
             {
               "index": 2,
               "correct": false,
-              "text": "Falsch (C): Beleuchtung beidseits ohne Pupillenrekation rechts ist nicht die markierte Lösung (richtig: B).",
+              "text": "Komplett fehlende Reaktion beidseits ist nicht der typische RAPD-Befund.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Beleuchtung%20beidseits%20ohne%20Pupillenrekation%20rechts%20Problem%20rechtes%20Auge%20%2B%20Fundoskopie%20mit%20erkennbare"
+                  "url": "https://next.amboss.com/de/search?q=Pupillenreaktion"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Beleuchtung%20beidseits%20ohne%20Pupillenrekation%20rechts"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Pupillenreaktion"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Beleuchtung%20beidseits%20ohne%20Pupillenrekation%20rechts"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Pupillenreaktion"
                 }
               ]
             },
             {
               "index": 3,
               "correct": false,
-              "text": "Falsch (D): Swinging-Flashlight test mit verlangsamter Dilatation rechts beim Wechsel von rechts nach links ist nicht die markierte Lösung (richtig: B).",
+              "text": "Die Swinging-Flashlight-Beschreibung ist so nicht korrekt für den typischen RAPD.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Swinging-Flashlight%20test%20mit%20verlangsamter%20Dilatation%20rechts%20beim%20Wechsel%20von%20re%20Problem%20rechtes%20Aug"
+                  "url": "https://next.amboss.com/de/search?q=Swinging%20Flashlight%20Test"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Swinging-Flashlight%20test%20mit%20verlangsamter%20Dilatation%20rechts%20beim%20Wechsel%20von%20re"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Swinging%20Flashlight%20Test"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Swinging-Flashlight%20test%20mit%20verlangsamter%20Dilatation%20rechts%20beim%20Wechsel%20von%20rechts%20nach%20links"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Swinging%20Flashlight%20Test"
                 }
               ]
             },
             {
               "index": 4,
               "correct": false,
-              "text": "Falsch (E): Beleuchtung rechts mit deutlicher Pupillenkontraktion links ist nicht die markierte Lösung (richtig: B).",
+              "text": "Beleuchtung rechts mit Kontraktion links ist nicht der leitende RAPD-Nachweis.",
               "links": [
                 {
                   "label": "Amboss (Login)",
-                  "url": "https://next.amboss.com/de/search?q=Beleuchtung%20rechts%20mit%20deutlicher%20Pupillenkontraktion%20links%20Problem%20rechtes%20Auge%20%2B%20Fundoskopie%20mit%20e"
+                  "url": "https://next.amboss.com/de/search?q=Konsensualreflex"
                 },
                 {
                   "label": "DocCheck Flexikon",
-                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Beleuchtung%20rechts%20mit%20deutlicher%20Pupillenkontraktion%20links"
+                  "url": "https://flexikon.doccheck.com/de/Spezial:Suche?search=Konsensualreflex"
                 },
                 {
                   "label": "Wikipedia",
-                  "url": "https://de.wikipedia.org/w/index.php?search=Beleuchtung%20rechts%20mit%20deutlicher%20Pupillenkontraktion%20links"
+                  "url": "https://de.wikipedia.org/w/index.php?search=Konsensualreflex"
                 }
               ]
             }
-          ]
+          ],
+          "topicLabel": "Zentralarterienverschluss – relative afferente Pupillenstörung",
+          "explanationMeta": {
+            "source": "cursor",
+            "generatedAt": "2026-07-22T20:45:44Z",
+            "confidence": "high"
+          }
         },
         {
           "number": 302,

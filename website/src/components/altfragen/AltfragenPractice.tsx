@@ -1,12 +1,13 @@
 'use client';
 
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 import { AltfragenShell } from '@/components/altfragen/AltfragenShell';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import type {
   ExamProgress,
+  OptionRationale,
   ParsedQuestion,
   QuestionStat,
   StoredExam,
@@ -20,6 +21,7 @@ import {
 import {
   AlertCircle,
   BarChart3,
+  BookOpen,
   CheckCircle,
   ChevronLeft,
   ChevronRight,
@@ -29,6 +31,13 @@ import {
   XCircle,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
+
+type QuestionExplanation = {
+  explanation: string | null;
+  optionRationales: OptionRationale[];
+  topicLabel: string | null;
+  topicUrl: string | null;
+};
 
 function emptyBits(optionCount: number): string {
   return '0'.repeat(optionCount);
@@ -86,6 +95,9 @@ export function AltfragenPractice({ examId }: { examId: string }) {
   const [communityStats, setCommunityStats] = useState<Record<string, QuestionStat>>({});
   const [reporting, setReporting] = useState(false);
   const [nowTick, setNowTick] = useState(() => Date.now());
+  const [explanations, setExplanations] = useState<Record<number, QuestionExplanation>>({});
+  const [explanationLoading, setExplanationLoading] = useState(false);
+  const explanationFetchRef = useRef<Set<number>>(new Set());
 
   useEffect(() => {
     let cancelled = false;
@@ -167,6 +179,42 @@ export function AltfragenPractice({ examId }: { examId: string }) {
   );
   const isChecked = progress?.checked.some((i) => Number(i) === index) ?? false;
   const currentStat = question ? communityStats[String(question.number)] : undefined;
+  const currentExplanation = question ? explanations[question.number] : undefined;
+
+  useEffect(() => {
+    if (!exam || !question || !isChecked) return;
+    const qNum = question.number;
+    if (explanationFetchRef.current.has(qNum)) return;
+    explanationFetchRef.current.add(qNum);
+
+    let cancelled = false;
+    (async () => {
+      setExplanationLoading(true);
+      try {
+        const res = await fetch(
+          `/api/altfragen/exams/${examId}/questions/${qNum}/explanation`,
+          { cache: 'no-store' }
+        );
+        const data = await res.json();
+        if (!res.ok || cancelled) return;
+        const payload: QuestionExplanation = {
+          explanation: data.explanation ?? null,
+          optionRationales: data.optionRationales ?? [],
+          topicLabel: data.topicLabel ?? null,
+          topicUrl: data.topicUrl ?? null,
+        };
+        if (!payload.explanation && !payload.optionRationales.length) return;
+        setExplanations((prev) => ({ ...prev, [qNum]: payload }));
+      } catch {
+        explanationFetchRef.current.delete(qNum);
+      } finally {
+        if (!cancelled) setExplanationLoading(false);
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [exam, examId, question, isChecked]);
 
   const navStatus = useCallback(
     (i: number): NavStatus => {
@@ -749,9 +797,12 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                   currentStat && currentStat.attempts > 0
                     ? Math.round((optStat / currentStat.attempts) * 100)
                     : null;
+                const rationale = currentExplanation?.optionRationales?.find(
+                  (r) => r.index === optIndex
+                );
 
                 return (
-                  <li key={optIndex}>
+                  <li key={optIndex} className="space-y-1.5">
                     <button
                       type="button"
                       disabled={isChecked}
@@ -788,6 +839,18 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                         )}
                       </span>
                     </button>
+                    {isChecked && rationale?.text && (
+                      <p
+                        className={cn(
+                          'border-l-2 px-3 py-1.5 text-sm leading-relaxed',
+                          isRight
+                            ? 'border-emerald-400 text-emerald-950'
+                            : 'border-red-300 text-zinc-700'
+                        )}
+                      >
+                        {rationale.text}
+                      </p>
+                    )}
                   </li>
                 );
               })}
@@ -833,6 +896,33 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                     richtig bei {currentStat.attempts} Versuchen
                     {reporting ? ' · aktualisiere…' : ''}
                   </p>
+                )}
+              </div>
+            )}
+
+            {isChecked && explanationLoading && !currentExplanation && (
+              <p className="flex items-center gap-2 text-xs text-zinc-500">
+                <Loader2 className="h-3.5 w-3.5 animate-spin" />
+                Erklärung wird geladen…
+              </p>
+            )}
+
+            {isChecked && currentExplanation?.explanation && (
+              <div className="space-y-3 border-t border-[#e2e8f0] pt-4">
+                <h3 className="text-sm font-semibold text-zinc-900">Erklärung</h3>
+                <p className="text-sm leading-relaxed text-zinc-800">
+                  {currentExplanation.explanation}
+                </p>
+                {currentExplanation.topicLabel && currentExplanation.topicUrl && (
+                  <a
+                    href={currentExplanation.topicUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 rounded-md border border-[#cfe0f0] bg-[#f4f8fc] px-3 py-2 text-sm font-medium text-[#002F5D] transition hover:bg-[#e8f1f9]"
+                  >
+                    <BookOpen className="h-4 w-4" />
+                    {currentExplanation.topicLabel}
+                  </a>
                 )}
               </div>
             )}
