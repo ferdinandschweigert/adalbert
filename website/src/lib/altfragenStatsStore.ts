@@ -219,6 +219,11 @@ export interface HomepageExamStat {
 export interface HomepageStatsOverview {
   totalAttempts: number;
   totalCorrect: number;
+  totalWrong: number;
+  examCount: number;
+  questionsTouched: number;
+  activeDays: number;
+  peakDay: { date: string; count: number } | null;
   exams: HomepageExamStat[];
   /** Last 98 days (14 weeks × 7), oldest → newest */
   heatmap: Array<{ date: string; count: number }>;
@@ -231,6 +236,7 @@ export async function getHomepageStatsOverview(
   const exams: HomepageExamStat[] = [];
   let totalAttempts = 0;
   let totalCorrect = 0;
+  let questionsTouched = 0;
 
   for (const meta of examMeta) {
     const qs = stats.exams[meta.id]?.questionStats || {};
@@ -245,6 +251,7 @@ export async function getHomepageStatsOverview(
     }
     totalAttempts += attempts;
     totalCorrect += correct;
+    questionsTouched += questionsWithData;
     exams.push({
       examId: meta.id,
       title: meta.title,
@@ -260,12 +267,28 @@ export async function getHomepageStatsOverview(
   const activity = stats.dailyActivity || {};
   const today = new Date();
   today.setUTCHours(12, 0, 0, 0);
+  let activeDays = 0;
+  let peakDay: { date: string; count: number } | null = null;
   for (let i = 97; i >= 0; i--) {
     const d = new Date(today);
     d.setUTCDate(today.getUTCDate() - i);
     const key = d.toISOString().slice(0, 10);
-    heatmap.push({ date: key, count: activity[key] || 0 });
+    const count = activity[key] || 0;
+    if (count > 0) activeDays += 1;
+    if (!peakDay || count > peakDay.count) peakDay = { date: key, count };
+    heatmap.push({ date: key, count });
   }
+  if (peakDay && peakDay.count === 0) peakDay = null;
 
-  return { totalAttempts, totalCorrect, exams, heatmap };
+  return {
+    totalAttempts,
+    totalCorrect,
+    totalWrong: Math.max(0, totalAttempts - totalCorrect),
+    examCount: examMeta.length,
+    questionsTouched,
+    activeDays,
+    peakDay,
+    exams,
+    heatmap,
+  };
 }
