@@ -9,9 +9,12 @@ const links = [
 
 export function SiteHeader({
   active,
+  context,
   className,
 }: {
   active?: 'kreuzen' | 'anki' | 'home';
+  /** Optional secondary label under the brand (avoids a second header bar). */
+  context?: string;
   className?: string;
 }) {
   return (
@@ -22,7 +25,7 @@ export function SiteHeader({
       )}
     >
       <div className="container mx-auto flex items-center justify-between gap-4 px-6 py-3.5">
-        <Link href="/" className="flex items-center gap-2.5 min-w-0">
+        <Link href="/" className="flex min-w-0 items-center gap-2.5">
           <Image
             src="/adalbert-mark.webp"
             alt=""
@@ -31,8 +34,13 @@ export function SiteHeader({
             className="h-9 w-9 shrink-0 object-contain"
             priority
           />
-          <span className="truncate text-lg font-bold tracking-tight text-[#002F5D]">
-            Adalbert
+          <span className="min-w-0">
+            <span className="block truncate text-lg font-bold tracking-tight text-[#002F5D]">
+              Adalbert
+            </span>
+            {context ? (
+              <span className="block truncate text-xs text-zinc-500">{context}</span>
+            ) : null}
           </span>
         </Link>
         <nav className="flex items-center gap-1 text-sm sm:gap-2">
