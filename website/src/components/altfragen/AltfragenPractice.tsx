@@ -61,104 +61,6 @@ function letter(index: number): string {
   return String.fromCharCode(65 + index);
 }
 
-function OptionRationaleBlock({
-  question,
-  optIndex,
-  isRight,
-  loading,
-}: {
-  question: ParsedQuestion;
-  optIndex: number;
-  isRight: boolean;
-  loading?: boolean;
-}) {
-  const [open, setOpen] = useState(false);
-  const rationale = question.optionRationales?.find((r) => r.index === optIndex);
-  const opt = question.options[optIndex];
-  const correctLetters = (question.correctAnswers || '')
-    .split('')
-    .map((b, i) => (b === '1' ? letter(i) : null))
-    .filter(Boolean)
-    .join(', ');
-
-  const text =
-    rationale?.text ||
-    (loading
-      ? 'Erklärung wird geladen…'
-      : isRight
-        ? `Richtig: ${opt} — markierte Lösung${correctLetters ? ` (${correctLetters})` : ''}.`
-        : `Falsch: ${opt} — nicht die markierte Lösung${correctLetters ? ` (richtig: ${correctLetters})` : ''}.`);
-
-  const links = rationale?.links?.length
-    ? rationale.links
-    : [
-        {
-          label: 'Amboss (Login)',
-          url: `https://next.amboss.com/de/search?q=${encodeURIComponent(opt.slice(0, 80))}`,
-        },
-        {
-          label: 'DocCheck Flexikon',
-          url: `https://flexikon.doccheck.com/de/Spezial:Suche?search=${encodeURIComponent(opt.slice(0, 80))}`,
-        },
-        {
-          label: 'Wikipedia',
-          url: `https://de.wikipedia.org/w/index.php?search=${encodeURIComponent(opt.slice(0, 80))}`,
-        },
-      ];
-
-  return (
-    <div className="mt-1.5 ml-9">
-      <button
-        type="button"
-        onClick={() => setOpen((v) => !v)}
-        className={cn(
-          'flex w-full items-center justify-between gap-2 rounded-md border px-3 py-1.5 text-left text-xs font-medium transition',
-          isRight
-            ? 'border-emerald-200 bg-emerald-50/80 text-emerald-900 hover:bg-emerald-50'
-            : 'border-zinc-200 bg-zinc-50 text-zinc-700 hover:bg-zinc-100'
-        )}
-      >
-        <span>{isRight ? 'Warum richtig' : 'Warum nicht'} — Erklärung</span>
-        <span className="shrink-0 text-zinc-400">{open ? '▾' : '▸'}</span>
-      </button>
-      {open && (
-        <div
-          className={cn(
-            'mt-1 rounded-md border px-3 py-2 text-xs leading-relaxed',
-            isRight
-              ? 'border-emerald-200 bg-emerald-50/80 text-emerald-950'
-              : 'border-zinc-200 bg-zinc-50 text-zinc-700'
-          )}
-        >
-          <p>
-            {loading && !rationale?.text ? (
-              <span className="inline-flex items-center gap-1.5 text-zinc-500">
-                <Loader2 className="h-3 w-3 animate-spin" />
-                Lade medizinische Erklärung…
-              </span>
-            ) : (
-              text
-            )}
-          </p>
-          <p className="mt-1.5 flex flex-wrap gap-x-3 gap-y-1">
-            {links.map((link) => (
-              <a
-                key={link.url + link.label}
-                href={link.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium text-[#002F5D] underline underline-offset-2 hover:text-[#003d7a]"
-              >
-                {link.label} ↗
-              </a>
-            ))}
-          </p>
-        </div>
-      )}
-    </div>
-  );
-}
-
 type NavStatus = 'current' | 'unseen' | 'correct' | 'wrong' | 'done';
 
 export function AltfragenPractice({ examId }: { examId: string }) {
@@ -170,7 +72,6 @@ export function AltfragenPractice({ examId }: { examId: string }) {
   const [showResult, setShowResult] = useState(false);
   const [communityStats, setCommunityStats] = useState<Record<string, QuestionStat>>({});
   const [reporting, setReporting] = useState(false);
-  const [explaining, setExplaining] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -283,7 +184,6 @@ export function AltfragenPractice({ examId }: { examId: string }) {
       completedAt: allDone ? new Date().toISOString() : progress.completedAt,
     });
     void reportStats(question, bits);
-    void loadExplanations(question, index);
     if (allDone) setShowResult(true);
   };
 
@@ -334,33 +234,6 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     }
   };
 
-  const loadExplanations = async (q: ParsedQuestion, qIndex: number) => {
-    setExplaining(true);
-    try {
-      const res = await fetch('/api/altfragen/explain', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question: q }),
-      });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error || 'Erklärungen fehlgeschlagen');
-      if (!data.optionRationales) return;
-      setExam((prev) => {
-        if (!prev) return prev;
-        const questions = [...prev.questions];
-        questions[qIndex] = {
-          ...questions[qIndex],
-          optionRationales: data.optionRationales,
-        };
-        return { ...prev, questions };
-      });
-    } catch {
-      // keep fallback rationales
-    } finally {
-      setExplaining(false);
-    }
-  };
-
   const handleCheck = () => {
     commitAnswer(selection);
   };
@@ -373,7 +246,6 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     persist(createEmptyProgress(examId));
     setShowResult(false);
     setShowOverview(false);
-    setExplaining(false);
   };
 
   if (loading) {
@@ -664,15 +536,6 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                         <XCircle className="mt-0.5 h-4 w-4 shrink-0 text-red-500" />
                       )}
                     </button>
-                    {isChecked && (
-                      <OptionRationaleBlock
-                        key={`${index}-${optIndex}`}
-                        question={question}
-                        optIndex={optIndex}
-                        isRight={isRight}
-                        loading={explaining}
-                      />
-                    )}
                   </li>
                 );
               })}
