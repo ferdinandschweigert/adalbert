@@ -1,0 +1,745 @@
+{
+  "examId": "m2-ss26-f26-gedaechtnisprotokoll",
+  "questions": {
+    "41": {
+      "topicLabel": "Postmenopausenblutung",
+      "explanation": "Eine Blutung nach mehrjähriger Amenorrhö in der Postmenopause ist immer abklärungsbedürftig, bis eine maligne Ursache ausgeschlossen ist. Bei dieser Patientin kommt zusätzlich Tamoxifen als Risikofaktor hinzu: Es wirkt am Endometrium partiell östrogenagonistisch und kann dort proliferative Veränderungen begünstigen. Zwar können auch Polypen, Myome oder Hyperplasien Blutungen verursachen, die vorrangig auszuschließende Diagnose ist aber das Endometriumkarzinom. Die Anamnese mit persistierender Schmierblutung macht eine histologische Abklärung besonders relevant. Die korrekte Antwort ist daher das Endometriumkarzinom.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Frühschwangerschaft ist bei einer 55-jährigen Patientin mit vierjähriger Amenorrhö sehr unwahrscheinlich und erklärt die Tamoxifen-assoziierte Risikokonstellation nicht. Bei postmenopausaler Blutung steht nicht eine Schwangerschaft, sondern der Ausschluss endometrialer Pathologie im Vordergrund.",
+          "term": "Frühschwangerschaft"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein intrakavitärer Korpuspolyp kann unter Tamoxifen auftreten und postmenopausale Blutungen verursachen. Er ist eine wichtige Differenzialdiagnose, aber im Prüfungskontext nicht die vorrangig auszuschließende, potenziell lebensbedrohliche Diagnose.",
+          "term": "Korpuspolyp"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein submuköses bzw. intrakavitäres Myom kann Blutungsstörungen verursachen. Nach der Menopause bilden Myome jedoch häufig eher zurück, und die Konstellation verlangt zunächst den Ausschluss eines Endometriumkarzinoms.",
+          "term": "Intrakavitäres Myom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Endometriumhyperplasie ist unter Tamoxifen möglich und kann eine Vorläuferläsion darstellen. Sie ist klinisch relevant, wird hier aber gegenüber dem direkt auszuschließenden Endometriumkarzinom nachrangig gewichtet.",
+          "term": "Endometriumhyperplasie"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Das Endometriumkarzinom ist bei postmenopausaler Blutung die wichtigste Ausschlussdiagnose. Tamoxifen erhöht die Wachstumsstimulation am Endometrium, sodass die Blutung histologisch abgeklärt werden muss.",
+          "term": "Endometriumkarzinom"
+        }
+      ]
+    },
+    "42": {
+      "topicLabel": "Endometriumabklärung",
+      "explanation": "Die Frage setzt den Fall der postmenopausalen Patientin unter Tamoxifen fort. Ein im transvaginalen Ultraschall verdicktes Endometrium ist in dieser Konstellation nicht ausreichend durch Beobachtung oder Zervixdiagnostik geklärt. Entscheidend ist die Gewinnung von Endometriumgewebe, möglichst unter Sicht, um fokale Läsionen wie Polypen oder ein Karzinom nicht zu übersehen. Die Hysteroskopie mit fraktionierter Kürettage ermöglicht sowohl die Beurteilung der Kavität als auch die getrennte histologische Untersuchung. Deshalb ist sie hier die nächste sinnvolle Untersuchung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Diese Antwort ist im Gedächtnisprotokoll nicht überliefert. Eine nicht rekonstruierte Option kann gegenüber der klar passenden histologischen Endometriumabklärung nicht als richtige Antwort bewertet werden.",
+          "term": "Unvollständige Option"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die Hysteroskopie mit fraktionierter Kürettage ist bei postmenopausaler Endometriumauffälligkeit eine geeignete Abklärung. Sie liefert die entscheidende Histologie und kann fokale intrauterine Befunde sichtbar machen.",
+          "term": "Hysteroskopie und Kürettage"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Rekto- und Koloskopie klären gastrointestinale Blutungsquellen ab. Hier geht es jedoch um ein sonographisch verdicktes Endometrium nach gynäkologischer Fragestellung, sodass diese Untersuchung nicht zielführend ist.",
+          "term": "Koloskopie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Portiobiopsie nach Schiller-Jod-Probe dient der Abklärung zervikaler oder vaginaler Epithelveränderungen. Sie untersucht nicht das Endometrium und kann ein Korpuskarzinom nicht zuverlässig ausschließen.",
+          "term": "Portiobiopsie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Der PAP-Abstrich ist ein Screening- bzw. Abklärungsverfahren für zervikale Zellveränderungen. Für die histologische Sicherung einer Endometriumveränderung ist er ungeeignet.",
+          "term": "PAP-Abstrich"
+        }
+      ]
+    },
+    "43": {
+      "topicLabel": "Endometrium-Präkanzerose",
+      "explanation": "Die relevante Präkanzerose des Endometriumkarzinoms ist die atypische Endometriumhyperplasie bzw. endometriale intraepitheliale Neoplasie. Sie ist durch glanduläre Proliferation mit zellulären Atypien gekennzeichnet und hat eine klare Nähe zum endometrioiden Endometriumkarzinom. In der vorangehenden Fallgruppe ging es bereits um Tamoxifen, Blutung und verdicktes Endometrium; in diesem Kontext ist die Abgrenzung zwischen benignen Befunden und Präkanzerose zentral. Atrophie, Polypen und Myome können Blutungen verursachen, sind aber nicht die klassische direkte Präkanzerose. Endometriose ist eine ektopische Endometrium-ähnliche Erkrankung und nicht die gesuchte Vorläuferläsion des Korpuskarzinoms.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die atypische Endometriumhyperplasie ist die typische Präkanzerose des endometrioiden Endometriumkarzinoms. Entscheidend ist das Vorliegen zellulärer Atypien, nicht nur eine einfache Schleimhautvermehrung.",
+          "term": "Atypische Hyperplasie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Endometriumatrophie ist in der Postmenopause häufig und kann ebenfalls Blutungen verursachen. Sie ist jedoch keine Präkanzerose, sondern ein eher regressiver Schleimhautbefund.",
+          "term": "Endometriumatrophie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Endometriumpolyp ist meist eine benigne fokale Schleimhautveränderung. Er kann Blutungen auslösen und muss je nach Situation histologisch beurteilt werden, ist aber nicht die klassische Präkanzerose.",
+          "term": "Polyp"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein intrakavitäres Myom ist ein gutartiger glatter Muskelknoten der Gebärmutterwand. Es kann Blutungsstörungen machen, stellt aber keine endometriale Vorläuferläsion eines Karzinoms dar.",
+          "term": "Intrakavitäres Myom"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Das Fragezeichen zeigt, dass diese Option im Protokoll unsicher überliefert ist. Inhaltlich wäre Endometriose dennoch keine typische Präkanzerose des Endometriumkarzinoms, sondern eine Erkrankung mit endometriumähnlichem Gewebe außerhalb der Gebärmutterhöhle.",
+          "term": "Endometriose"
+        }
+      ]
+    },
+    "44": {
+      "topicLabel": "Endometriumkarzinom-Typen",
+      "explanation": "Die klassische Einteilung des Endometriumkarzinoms in Typ I und Typ II orientiert sich vor allem an der Östrogenabhängigkeit. Typ-I-Karzinome sind typischerweise östrogenassoziiert und entstehen häufig auf dem Boden einer Hyperplasie. Typ-II-Karzinome gelten demgegenüber eher als östrogenunabhängig und sind biologisch oft aggressiver. Menopausenbezug, Vorläuferläsionen und Risikoprofile hängen mit dieser Einteilung zusammen, sind aber nicht das primäre Kriterium in der Antwortauswahl. Deshalb ist der Einfluss von Östrogen die beste Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Das zeitliche Auftreten um die Menopause kann epidemiologisch hilfreich sein, definiert die Typ-I/Typ-II-Einteilung aber nicht am besten. Beide Typen können im höheren Lebensalter auftreten.",
+          "term": "Menopausenbezug"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die Einteilung wird klassisch über die Östrogenabhängigkeit erklärt. Typ I ist östrogenassoziiert, Typ II eher östrogenunabhängig.",
+          "term": "Östrogeneinfluss"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Vorläuferläsionen unterscheiden sich zwar zwischen den Typen und sind klinisch relevant. Sie sind hier aber eher Folge bzw. Begleitmerkmal der östrogenabhängigen Pathogenese und nicht das am besten gesuchte Einteilungskriterium.",
+          "term": "Vorläuferläsion"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Tiefenausbreitung in das Myometrium ist ein Staging- und Prognosekriterium. Sie dient nicht der grundsätzlichen Typ-I/Typ-II-Klassifikation.",
+          "term": "Myometriuminvasion"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein familiäres Risiko, etwa im Rahmen hereditärer Tumorsyndrome, kann beim Endometriumkarzinom wichtig sein. Es ist jedoch nicht das Kriterium der klassischen Zwei-Typen-Einteilung.",
+          "term": "Familiäres Risiko"
+        }
+      ]
+    },
+    "45": {
+      "topicLabel": "Verbrennungstiefe",
+      "explanation": "Die beschriebene weiße Haut, die geringe Schmerzhaftigkeit und die Durchblutungsstörung sprechen für eine tiefe, vollschichtige Verbrennung. Das passt am ehesten zu einer Verbrennung 3. Grades. Bei der Flächenabschätzung wird die Handfläche einschließlich Finger näherungsweise als etwa ein Prozent der Körperoberfläche verwendet; die Angabe einer dorsalen Hand mit Fingern passt in der Antwortauswahl am besten zu 1 Prozent. Eine Verbrennung 2. Grades wäre typischerweise schmerzhaft und blasenbildend mit erhaltener Restdurchblutung. Eine 4.-gradige Verbrennung oder vollständige Verkohlung würde tiefere Strukturen wie Sehnen, Muskeln oder Knochen betreffen und ist hier nicht beschrieben.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Verbrennung 4. Grades betrifft tiefere Strukturen jenseits der gesamten Haut, etwa Sehnen, Muskeln oder Knochen. Im Fall werden weiße Haut und Minderperfusion beschrieben, aber keine Verkohlung oder Zerstörung tiefer Gewebe; außerdem passt die Flächenangabe weniger gut.",
+          "term": "Verbrennung 4. Grades"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Eine Verbrennung 3. Grades ist vollschichtig und kann wegen zerstörter Nervenendigungen wenig schmerzhaft sein. Die weiße Haut und fehlende distale Pulse bei einer betroffenen Handregion passen am besten zu dieser Einordnung mit ungefähr 1 Prozent Körperoberfläche.",
+          "term": "Verbrennung 3. Grades"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Verbrennungen 2. Grades sind typischerweise sehr schmerzhaft und gehen mit Blasenbildung einher. Die hier betonte geringe Schmerzhaftigkeit, weiße Haut und Minderperfusion sprechen eher für eine tiefere Schädigung.",
+          "term": "Verbrennung 2. Grades"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Verbrennung 1. Grades ist oberflächlich, gerötet und schmerzhaft, ohne vollschichtige Hautnekrose. Fehlende Pulse und weißliche, tief geschädigte Haut passen nicht dazu.",
+          "term": "Verbrennung 1. Grades"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine vollständige Verkohlung der Hand wäre eine extreme Tiefenschädigung mit schwarzer Nekrose und Beteiligung tiefer Strukturen. Das wird im Fall nicht beschrieben; die passende Kategorie ist die vollschichtige Verbrennung 3. Grades.",
+          "term": "Verkohlung"
+        }
+      ]
+    },
+    "46": {
+      "topicLabel": "Escharotomie",
+      "explanation": "Die Frage setzt die tiefe Handverbrennung fort: Es bestehen starke Schwellung und Minderperfusion der Finger. Bei zirkulären oder einschnürenden tiefen Verbrennungen kann ein starrer Verbrennungsschorf die Durchblutung gefährden. Dann ist die Escharotomie die akute entlastende Maßnahme, um den Gewebedruck zu senken und die Perfusion zu verbessern. Antikoagulation oder Thrombozytenhemmung behandeln nicht die mechanische Kompression durch den Schorf. Kühlung und Hochlagerung können unterstützend sein, reichen bei klinischer Minderperfusion aber nicht aus.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "ASS adressiert eine thrombozytäre Gerinnungskomponente, nicht den mechanischen Druck durch Verbrennungsschorf und Ödem. Bei drohender Ischämie nach tiefer Verbrennung wäre es keine ausreichende Akuttherapie.",
+          "term": "ASS"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Therapeutisches Heparin ist bei einer druckbedingten Minderperfusion durch Eschar nicht ursächlich wirksam. Es würde die notwendige chirurgische Entlastung nicht ersetzen.",
+          "term": "Heparin"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die Escharotomie spaltet den einschnürenden Verbrennungsschorf. Bei Minderperfusion der Finger nach tiefer Verbrennung ist sie die entscheidende Akutmaßnahme zur Dekompression.",
+          "term": "Escharotomie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Kühlung und Hochlagerung sind bei leichteren Verbrennungen und Schwellung unterstützend sinnvoll. Bei fehlender oder bedrohter distaler Perfusion reichen sie jedoch nicht aus und dürfen die Entlastung nicht verzögern.",
+          "term": "Kühlung und Hochlagerung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Wärmeapplikation ist bei einer akuten Verbrennung mit Schwellung und Ischämie nicht die passende Therapie. Sie löst die einschnürende Wirkung des Verbrennungsschorfs nicht.",
+          "term": "Wärmeapplikation"
+        }
+      ]
+    },
+    "47": {
+      "topicLabel": "Konus-Kauda-Syndrom",
+      "explanation": "Der Sturz mit anschließendem starken Rückenschmerz, schlaffen Paresen, erloschenen Reflexen und Sensibilitätsausfall im Reithosenbereich passt am besten zu einem Konus-Kauda-Syndrom. Die Reithosenanästhesie ist dabei ein besonders wichtiger Hinweis auf eine Schädigung der sakralen Nervenwurzeln bzw. des Conus-cauda-Bereichs. Auch die schlaffe Lähmung und Areflexie sprechen eher für eine periphere bzw. wurzelnahe Läsion als für ein rein zentrales Rückenmarksyndrom. Die Fragestellung nennt zwar diagnostische Maßnahme, die Antwortoptionen sind jedoch Syndrome; entsprechend ist die wahrscheinlichste Diagnose gefragt. Bei dieser Konstellation muss eine rasche notfallmäßige Bildgebung und neurochirurgische Bewertung folgen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Das Konus-Kauda-Syndrom erklärt Reithosenanästhesie, schlaffe Paresen und Reflexverlust nach einem Wirbelsäulentrauma. Die sakral betonten sensiblen Ausfälle sind hierfür besonders typisch.",
+          "term": "Konus-Kauda-Syndrom"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Beim Spinalis-anterior-Syndrom stehen motorische Ausfälle und Störungen von Schmerz- und Temperaturempfinden unterhalb der Läsion im Vordergrund. Eine isoliert sakral betonte Reithosenanästhesie mit schlaffen Paresen passt weniger gut.",
+          "term": "Spinalis-anterior-Syndrom"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Hinterkantensyndrom ist keine typische klinische Syndromdiagnose für diese neurologische Ausfallkonstellation. Die Leitsymptome sprechen klarer für eine Kompression von Conus bzw. Cauda equina.",
+          "term": "Hinterkantensyndrom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Das Brown-Sequard-Syndrom beschreibt eine Halbseitenläsion des Rückenmarks mit gekreuzten sensiblen und ipsilateralen motorischen Ausfällen. Die symmetrische schlaffe Beinparese mit Reithosenanästhesie entspricht diesem Muster nicht.",
+          "term": "Brown-Sequard-Syndrom"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Das Central-Cord-Syndrom betrifft typischerweise die oberen Extremitäten stärker als die unteren und ist häufig mit zervikalen Läsionen assoziiert. Die hier geschilderten sakralen Ausfälle und Beinparesen passen dazu nicht.",
+          "term": "Central-Cord-Syndrom"
+        }
+      ]
+    },
+    "48": {
+      "topicLabel": "Schockraumdiagnostik",
+      "explanation": "Der Fall ist ein Hochenergietrauma nach Sturz aus Höhe mit neurologischen Ausfällen. Im Schockraum steht zunächst die strukturierte Traumadiagnostik im Vordergrund, um knöcherne Verletzungen, Blutungen und weitere lebensbedrohliche Verletzungen rasch zu erfassen. Dafür ist die CT-Traumaspirale die passende initiale Untersuchung. Ein MRT der LWS kann im Verlauf zur Beurteilung neuraler Strukturen sehr wichtig sein, ersetzt aber die primäre Schockraumdiagnostik bei potenziell polytraumatisiertem Patienten nicht. Restharnbestimmung kann die Verdachtsdiagnose Konus-Kauda-Syndrom ergänzen, ist aber nicht die erste umfassende Diagnostik nach diesem Unfallmechanismus.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die CT-Traumaspirale ist im Schockraum die geeignete initiale Bildgebung nach Hochenergietrauma. Sie erfasst schnell Wirbelsäulenverletzungen und weitere traumarelevante Befunde.",
+          "term": "CT-Traumaspirale"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die Myelografie ist in der Akutsituation kein primäres Standardverfahren. Sie ist invasiver und wurde durch CT und MRT in den meisten Fragestellungen weitgehend verdrängt.",
+          "term": "Myelografie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein MRT der LWS ist zur Darstellung von Rückenmark, Conus, Cauda und Bandscheiben sehr hilfreich. Im Schockraum nach Hochenergietrauma ist jedoch zunächst die CT-Traumaspirale zur schnellen Gesamterfassung vorrangig.",
+          "term": "MRT LWS"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Restharnbestimmung kann bei Verdacht auf Konus-Kauda-Syndrom zusätzliche Hinweise auf eine Blasenfunktionsstörung geben. Sie klärt aber weder Frakturen noch weitere Verletzungen nach dem Sturz und ist daher nicht die erste Maßnahme.",
+          "term": "Restharnbestimmung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwort ist im Gedächtnisprotokoll nicht überliefert. Gegenüber der klar indizierten Schockraum-CT kann eine unbekannte Option nicht als richtige Lösung herangezogen werden.",
+          "term": "Unvollständige Option"
+        }
+      ]
+    },
+    "49": {
+      "topicLabel": "Paranoide Schizophrenie",
+      "explanation": "Der Jugendliche zeigt nach Reduktion einer antipsychotischen Medikation erneut ein psychotisch anmutendes Zustandsbild. Auffällig sind paranoide Bedeutungszuschreibungen, Misstrauen gegenüber Untersuchenden und Familie, aggressive Anspannung sowie ein bizarres Vermeidungsverhalten gegenüber roten Reizen. Dass keine psychotischen Wahrnehmungen angegeben werden, schließt eine Schizophrenie nicht aus, da Wahn und formale Verhaltensauffälligkeiten ebenfalls zentrale Symptome sein können. Das negative Drogenscreening stützt eine primär psychiatrische Diagnose. In der Antwortauswahl passt die paranoide Schizophrenie daher am besten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Zwangsgedanken werden typischerweise als ich-dyston erlebt und führen zu ritualisierten Zwangshandlungen zur Angstreduktion. Das misstrauisch-paranoide, aggressive und bizarr fehlinterpretierende Verhalten passt besser zu einer Psychose.",
+          "term": "Zwangsstörung"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Paranoide Überzeugungen, bizarre Bedeutungszuschreibungen und erneute Verschlechterung nach Reduktion von Olanzapin sprechen für eine paranoide Schizophrenie. Halluzinationen müssen nicht zwingend berichtet werden, damit eine psychotische Störung wahrscheinlich ist.",
+          "term": "Paranoide Schizophrenie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine auf den familiären Raum begrenzte Verhaltensstörung erklärt nicht die paranoiden Fehlüberzeugungen gegenüber Untersuchenden und die vorausgegangene antipsychotische Behandlung. Zudem treten die Auffälligkeiten nicht nur innerfamiliär auf.",
+          "term": "Verhaltensstörung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine generalisierte Angststörung ist durch anhaltende, übermäßige Sorgen in mehreren Lebensbereichen geprägt. Bizarre Bedeutungszuschreibungen, Wahnideen und aggressive psychotische Anspannung sind dafür nicht typisch.",
+          "term": "Generalisierte Angststörung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine spezifische Phobie wäre eine umschriebene, situations- oder objektgebundene Angst bei erhaltener Realitätsprüfung. Die roten Reize sind hier in ein paranoides Gesamtbild eingebettet und erklären die Symptomatik nicht ausreichend.",
+          "term": "Spezifische Phobie"
+        }
+      ]
+    },
+    "50": {
+      "topicLabel": "Intelligenzdiagnostik",
+      "explanation": "Die Frage knüpft an den akut psychotisch wirkenden Jugendlichen an. Eine Intelligenztestung kann in der Kinder- und Jugendpsychiatrie wichtig sein, sollte aber aussagekräftig und belastbar durchgeführt werden. Bei akuter psychotischer Symptomatik, starker Anspannung und Aggressivität wären Aufmerksamkeit, Motivation, Kooperation und Realitätsprüfung erheblich beeinträchtigt. Das Testergebnis wäre deshalb wahrscheinlich nicht valide und könnte falsch interpretiert werden. Sinnvoll ist die Durchführung im Verlauf, wenn die akute Symptomatik abgeklungen bzw. ausreichend stabilisiert ist.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Migration im frühen Kindesalter macht eine Intelligenzdiagnostik nicht grundsätzlich sinnlos. Bei Sprach- oder Kulturfaktoren müssen Testauswahl und Interpretation angepasst werden.",
+          "term": "Migration"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Eine Testung sollte erfolgen, wenn der Patient ausreichend stabil und kooperationsfähig ist. In der akuten psychotischen Krise wären die Ergebnisse kaum valide.",
+          "term": "Testung im Verlauf"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Nicht-sprachliche oder sprachreduzierte Tests können gerade bei Sprachbarrieren sinnvoll sein. Die Aussage, dass kein Intelligenztest durchgeführt werden könne, wenn er nicht-sprachlich ist, ist inhaltlich falsch.",
+          "term": "Nicht-sprachlicher Test"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Für Jugendliche gibt es geeignete Intelligenztestverfahren. Die Altersangabe in der Option ist daher kein Grund, auf eine Testung zu verzichten.",
+          "term": "Testalter"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine akute Testung wäre wegen der aktuellen Symptomatik nicht zuverlässig. Auch wenn Intelligenzdiagnostik therapeutisch relevant sein kann, sollte sie nicht in einem Zustand durchgeführt werden, der das Ergebnis massiv verfälscht.",
+          "term": "Akuttestung"
+        }
+      ]
+    },
+    "51": {
+      "topicLabel": "Robertson-Translokation",
+      "explanation": "Wiederholte Aborte bei ansonsten gesunden Eltern sprechen unter anderem für eine balancierte chromosomale Strukturveränderung bei einem Elternteil. Eine Robertson-Translokation kann balanciert vorliegen; die Trägerin oder der Träger ist dann meist klinisch unauffällig, bildet aber häufiger unbalancierte Keimzellen. Dadurch steigt das Risiko für Fehlgeburten oder Nachkommen mit unbalanciertem Chromosomensatz. Bei einer balancierten Robertson-Translokation ist die Chromosomenzahl typischerweise reduziert, weil zwei akrozentrische Chromosomen fusioniert sind. Deshalb passt 45,XX,der(14;21) am besten zur gesuchten Konfiguration.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "45,XX,der(14;21) beschreibt eine weibliche Trägerin einer Robertson-Translokation mit reduzierter Chromosomenzahl. Das kann klinisch unauffällig sein, aber zu unbalancierten Gameten und wiederholten Aborten führen.",
+          "term": "Balancierte Robertson-Translokation"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Klinefelter-Syndrom beim Mann ist mit Hypogonadismus und häufig eingeschränkter Fertilität assoziiert. Es erklärt nicht typisch ein gesundes Paar mit wiederholten Aborten durch balancierte Translokation.",
+          "term": "Klinefelter-Syndrom"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Das Turner-Syndrom betrifft phänotypisch weibliche Personen und ist typischerweise mit Gonadendysgenesie und Infertilität verbunden. Zudem ist die angegebene Schreibweise 46,X nicht die klassische Karyotypangabe.",
+          "term": "Turner-Syndrom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Bei einer balancierten Robertson-Translokation ist die Gesamtzahl der Chromosomen meist 45, nicht 46. Die hier angegebene Konfiguration passt daher weniger gut zur klinisch unauffälligen Translokationsträgerschaft.",
+          "term": "46,XX,der(14;21)"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "47,XX plus Derivativchromosom spricht eher für einen zusätzlichen chromosomalen Anteil und damit nicht für eine balancierte, klinisch unauffällige Trägerschaft. Für wiederholte Aborte bei gesunden Eltern ist die balancierte Robertson-Translokation die passendere Antwort.",
+          "term": "Unbalancierte Konfiguration"
+        }
+      ]
+    },
+    "52": {
+      "topicLabel": "Pränataldiagnostik",
+      "explanation": "Nach dem Verdacht auf eine elterliche Robertson-Translokation sind invasive pränatale Verfahren grundsätzlich geeignet, fetales Material für eine Chromosomenanalyse zu gewinnen. Die Chorionzottenbiopsie ist ein solches Verfahren und wird mit einem kleinen, aber relevanten Fehlgeburtsrisiko verbunden; die Option nennt dies als bis zu 1 Prozent. NIPT ist hingegen ein Screeningverfahren und ersetzt keine diagnostische Chromosomenanalyse bei strukturellen Translokationsfragen. Die Amniozentese wird nicht typischerweise so früh wie in der Option angegeben durchgeführt. Eine Nabelschnurpunktion existiert bei speziellen Indikationen, ist aber nicht wegen eines Fehlbildungsrisikos grundsätzlich ausgeschlossen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Der NIPT ist ein nichtinvasives Screening und keine beste diagnostische Methode für balancierte Translokationen. Gerade strukturelle chromosomale Fragestellungen erfordern bei diagnostischem Anspruch meist fetales Untersuchungsmaterial.",
+          "term": "NIPT"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die Amniozentese wird nicht regelhaft zu dem in der Option genannten frühen Zeitpunkt durchgeführt. Für frühere invasive Diagnostik kommt eher die Chorionzottenbiopsie infrage.",
+          "term": "Amniozentese"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Nabelschnurpunktion wird nicht grundsätzlich wegen eines Fehlbildungsrisikos unterlassen. Sie ist ein invasives Spezialverfahren mit eigenen Risiken und Indikationen, aber die Aussage der Option ist so nicht korrekt.",
+          "term": "Nabelschnurpunktion"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die Chorionzottenbiopsie ist ein invasives Verfahren der Pränataldiagnostik. Ein Fehlgeburtsrisiko bis zu der in der Option genannten Größenordnung ist eine typische Aufklärungsinformation.",
+          "term": "Chorionzottenbiopsie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Bei einem Paar mit Verdacht auf eine relevante chromosomale Translokation kommen diagnostische Verfahren grundsätzlich in Betracht. Daher ist die Aussage, dass derzeit keine Diagnoseoption infrage komme, zu pauschal.",
+          "term": "Keine Diagnostik"
+        }
+      ]
+    },
+    "53": {
+      "topicLabel": "Präimplantationsdiagnostik",
+      "explanation": "Die Präimplantationsdiagnostik ist in Deutschland nur unter engen Voraussetzungen zulässig. Zentral ist dabei die Prüfung bzw. Zustimmung durch eine zuständige Ethikkommission, wenn ein hohes Risiko für eine schwerwiegende genetische Erkrankung oder schwere Schädigung des Embryos besteht. Im vorliegenden Fall geht es nach den Vorfragen um eine mögliche chromosomale Translokationsproblematik mit wiederholten Aborten. PID ist nicht einfach eine Leistung, die jede humangenetische Praxis mit Labor nach Belieben durchführen darf. Ebenso ist sie nicht primär ein Verfahren für Methylierungen oder balancierte Translokationen selbst, sondern dient der Auswahl von Embryonen ohne die relevante unbalancierte genetische Konstellation.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "PID darf nicht von jedem Facharzt für Humangenetik allein aufgrund eines angeschlossenen Labors durchgeführt werden. Sie ist an rechtliche Voraussetzungen, zugelassene Strukturen und ein geregeltes Verfahren gebunden.",
+          "term": "Durchführungsberechtigung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Diese Option spricht zudem von Pränataldiagnostik, nicht von Präimplantationsdiagnostik. Die bloße Anordnung durch eine humangenetische Fachärztin oder einen Facharzt beantwortet die PID-Frage nicht korrekt.",
+          "term": "Pränataldiagnostik"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "PID ist nicht besonders als Standardverfahren zur Detektion von Methylierungen oder balancierten Translokationen selbst zu verstehen. Bei Translokationsträgern geht es typischerweise um die Frage, ob Embryonen eine unbalancierte Chromosomenausstattung tragen.",
+          "term": "Methylierungen und Translokationen"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Nach zustimmender Bewertung durch eine Ethikkommission kann PID in Deutschland unter engen Voraussetzungen erlaubt sein. Diese Antwort trifft den rechtlichen Kern der Frage am besten.",
+          "term": "Ethikkommission"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Für Paare mit relevanter chromosomaler Strukturveränderung und wiederholten Fehlgeburten kann PID grundsätzlich eine zu prüfende Option sein. Die pauschale Aussage, sie sei hierfür nicht geeignet, ist daher falsch.",
+          "term": "Eignung der PID"
+        }
+      ]
+    },
+    "54": {
+      "topicLabel": "Meldepflicht",
+      "explanation": "Nach Infektionsschutzrecht sind bestimmte Erkrankungen bzw. Erregernachweise namentlich zu melden. Pertussis gehört zu den meldepflichtigen Erkrankungen und ist in der Antwortauswahl die richtige Wahl. AIDS als Krankheitsstadium wird nicht in dieser Form namentlich als Erkrankung gemeldet; HIV-Meldungen folgen besonderen Regeln. Gonorrhoe ist keine allgemeine namentliche ärztliche Meldepflicht wie Pertussis. Die übrigen unscharf formulierten Enzephalitis- bzw. Mykoseoptionen entsprechen hier nicht der gesuchten Standardantwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "AIDS ist nicht die in dieser Antwortauswahl gesuchte namentlich meldepflichtige Erkrankung. HIV-bezogene Meldungen sind gesondert geregelt und nicht mit einer einfachen namentlichen AIDS-Meldung gleichzusetzen.",
+          "term": "AIDS"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Pertussis ist eine meldepflichtige Erkrankung. In der Auswahl ist sie die klare Standardantwort zur namentlichen Meldepflicht.",
+          "term": "Pertussis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Gonorrhoe ist nicht die klassische namentlich meldepflichtige Erkrankung in dieser Fragestellung. Für sexuell übertragbare Infektionen bestehen teils andere Melde- und Surveillance-Regeln.",
+          "term": "Gonorrhoe"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Der Begriff Enzephalomykosen ist unscharf und entspricht keiner typischen Standardantwort für diese Frage. Eine allgemeine namentliche Meldepflicht wird dadurch nicht begründet.",
+          "term": "Enzephalomykosen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Auch eine Amöbenenzephalitis ist hier nicht die gesuchte Standarddiagnose der namentlichen Meldepflicht. Die klare Antwort in der Auswahl ist Pertussis.",
+          "term": "Amöbenenzephalitis"
+        }
+      ]
+    },
+    "55": {
+      "topicLabel": "Meldeinhalt",
+      "explanation": "Die Frage knüpft an die namentliche Meldepflicht an und fragt nach Angaben, die nicht regulär mitzuteilen sind. Bei namentlichen Meldungen sind personenbezogene Daten, Diagnose- und Erkrankungsangaben sowie relevante Informationen zu Exposition, Tätigkeit, Impfstatus oder Blut- bzw. Organspenden je nach Erkrankung wichtig. Kontaktpersonen und ein pauschaler Aufenthalt in den letzten 14 Tagen sind jedoch nicht als genereller Bestandteil jeder Erstmeldung in dieser Form vorgesehen. Kontaktpersonen können im Rahmen der Ermittlungen des Gesundheitsamts relevant werden, gehören aber nicht in gleicher Weise zum standardisierten Meldedatensatz der ärztlichen Meldung. Deshalb ist diese Option als nicht mitzuteilende Angabe richtig.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Angaben zu Tätigkeit, Umfeld oder Aufenthaltsort können bei Infektionsschutzfragen relevant sein, besonders bei Lebensmittelumgang oder Gemeinschaftseinrichtungen. Diese Informationen helfen, Übertragungsrisiken und Maßnahmen einzuschätzen.",
+          "term": "Arbeitsort und Umfeld"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Ein pauschaler Aufenthalt in den letzten 14 Tagen plus Kontaktpersonen ist nicht generell als ärztlich mitzuteilender Inhalt jeder namentlichen Meldung vorgesehen. Kontaktpersonen werden eher im Rahmen der gesundheitsamtlichen Nachverfolgung erhoben.",
+          "term": "Kontaktpersonen"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Informationen zu Blutspenden, Organspenden, Gewebespenden oder Transfusionen können für die Infektionsverfolgung relevant sein. Deshalb ist diese Angabe nicht die gesuchte Ausnahme.",
+          "term": "Spende und Transfusion"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Der Impfstatus ist bei impfpräventablen Erkrankungen und Ausbrüchen epidemiologisch wichtig. Er kann die Bewertung von Durchbruchsinfektionen und Schutzmaßnahmen beeinflussen.",
+          "term": "Impfstatus"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein möglicher Infektionsort oder Infektionsweg kann Bestandteil der epidemiologischen Bewertung sein. Die Formulierung ist unsauber, zielt aber auf eine grundsätzlich relevante Expositionsinformation.",
+          "term": "Infektionsweg"
+        }
+      ]
+    },
+    "56": {
+      "topicLabel": "Metformin bei Niereninsuffizienz",
+      "explanation": "Bei Exsikkose und deutlich eingeschränkter Nierenfunktion ist Metformin besonders kritisch. Eine akute Verschlechterung der Nierenfunktion und Dehydratation erhöhen das Risiko einer Metformin-Akkumulation und einer Laktatazidose. Deshalb sollte Metformin in dieser Situation am ehesten pausiert bzw. abgesetzt werden. Die übrigen Medikamente können je nach klinischem Kontext ebenfalls überprüft werden, sind aber nicht die klassische Prüfungsantwort bei eGFR 24 und Exsikkose. Entscheidend ist hier die Kombination aus Nierenfunktionseinschränkung und akutem Flüssigkeitsmangel.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Metformin ist bei deutlich eingeschränkter Nierenfunktion und akuter Exsikkose problematisch. Wegen Akkumulations- und Laktatazidosegefahr ist es hier das Medikament, das am ehesten abgesetzt werden sollte.",
+          "term": "Metformin"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Simvastatin ist bei chronischer kardiovaskulärer Prävention nicht automatisch wegen einer eGFR von 24 die erste abzusetzzende Substanz. Eine Medikationsprüfung ist sinnvoll, aber die akute klassische Gefährdung betrifft hier Metformin.",
+          "term": "Simvastatin"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Mit SS-Blocker ist im Protokoll vermutlich ein Betablocker gemeint. Betablocker müssen bei Hypotonie oder Bradykardie überprüft werden, sind aber nicht spezifisch wegen eGFR 24 und Exsikkose die naheliegendste Antwort.",
+          "term": "Betablocker"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Metamizol kann unerwünschte Wirkungen haben und sollte bei vulnerablen Patientinnen kritisch geprüft werden. Im Vergleich zu Metformin besteht hier aber nicht die gleiche typische Kontraindikationslogik bei Niereninsuffizienz und Dehydratation.",
+          "term": "Metamizol"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Das Fragezeichen zeigt eine unsichere Protokollüberlieferung dieser Option. Metoprolol succinat wird zwar klinisch je nach Kreislaufsituation überprüft, ist aber nicht die primär wegen eGFR 24 abzusetzzende Substanz.",
+          "term": "Metoprolol"
+        }
+      ]
+    },
+    "57": {
+      "topicLabel": "Vorhofflimmern",
+      "explanation": "Die Frage bezieht sich auf die ältere Patientin mit Exsikkose und unklaren kardiovaskulären Vorerkrankungen. Als EKG-Befund ist laut Antwortschlüssel Vorhofflimmern gesucht. Typisch wären eine absolut unregelmäßige Kammeraktion und fehlende geordnete P-Wellen. Das passt klinisch zu einer häufigen Rhythmusstörung im höheren Lebensalter, die Schwindel, Leistungsminderung oder Synkopen begünstigen kann. Da das eigentliche EKG-Bild im Protokoll nicht vorliegt, stützt sich die Erklärung auf die angegebene richtige Antwort und die typischen Merkmale.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Vorhofflimmern zeigt typischerweise eine absolut arrhythmische Kammeraktion ohne regelhafte P-Wellen. Es ist laut Antwortschlüssel der gesuchte EKG-Befund im Fall der älteren Patientin.",
+          "term": "Vorhofflimmern"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Sinusarrhythmie geht von einem Sinusrhythmus aus und zeigt weiterhin P-Wellen mit physiologisch variierenden RR-Abständen. Sie erklärt den gesuchten Befund weniger gut als Vorhofflimmern.",
+          "term": "Sinusarrhythmie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein AV-Block III° führt zu kompletter atrioventrikulärer Dissoziation mit Ersatzrhythmus und meist ausgeprägter Bradykardie. Das ist ein anderes EKG-Muster als die absolute Arrhythmie bei Vorhofflimmern.",
+          "term": "AV-Block III°"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Beim AV-Block II° Typ Wenckebach verlängert sich die PQ-Zeit schrittweise bis ein QRS-Komplex ausfällt. Dieses periodische Muster unterscheidet sich deutlich von Vorhofflimmern.",
+          "term": "Wenckebach"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Vorhofflattern zeigt häufig regelmäßige Flatterwellen und je nach Überleitung eine eher regelmäßige oder regelmäßig wechselnde Kammeraktion. Der gesuchte Befund ist laut Schlüssel Vorhofflimmern, nicht Vorhofflattern.",
+          "term": "Vorhofflattern"
+        }
+      ]
+    },
+    "58": {
+      "topicLabel": "Synkopen-Risiko",
+      "explanation": "Synkopen im Liegen sind ein Warnzeichen für eine potenziell kardiale Ursache. Vasovagale und orthostatische Synkopen treten typischerweise im Stehen, nach Lagewechsel, bei längerem Stehen, Schmerz oder emotionalem Trigger auf. Eine Synkope in horizontaler Position lässt sich dadurch schlechter erklären und macht Rhythmusstörungen oder strukturelle Herzerkrankungen wahrscheinlicher. Kardiale Synkopen sind mit einem höheren Risiko für lebensbedrohliche Ereignisse verbunden. Deshalb ist in der Antwortauswahl die Synkope im Liegen die risikoreichste Konstellation.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine Synkope im Liegen ist ein Red Flag für eine kardiale Ursache, insbesondere Rhythmusstörungen. Sie hat deshalb das höchste Risiko für gefährliche kardiovaskuläre Ereignisse in dieser Auswahl.",
+          "term": "Synkope im Liegen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Synkope nach dem Aufstehen spricht eher für eine orthostatische Ursache, besonders bei Exsikkose oder antihypertensiver Medikation. Das ist relevant, aber meist weniger alarmierend als eine Synkope im Liegen.",
+          "term": "Orthostase"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Synkope nach Defäkation passt zu einer situativen Reflexsynkope. Diese kann belastend sein, ist aber typischerweise weniger hinweisend auf eine lebensbedrohliche kardiale Ursache als eine Synkope im Liegen.",
+          "term": "Defäkationssynkope"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Langes Stehen begünstigt vasovagale oder orthostatische Synkopen. Diese Auslöser sind klassisch reflexvermittelt und daher nicht die risikoreichste Antwort.",
+          "term": "Langes Stehen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Synkope bei Anlage einer peripheren Venenverweilkanüle ist typisch vasovagal durch Schmerz, Angst oder vegetative Reaktion. Das ist in der Regel weniger verdächtig auf eine maligne kardiale Ursache.",
+          "term": "Vasovagaler Trigger"
+        }
+      ]
+    },
+    "59": {
+      "topicLabel": "Exsikkose-Management",
+      "explanation": "Bei einer exsikkierten älteren Patientin ist die Fortführung von Diuretika problematisch. Diuretika können den Flüssigkeitsmangel verstärken, Blutdruckabfälle begünstigen und die Nierenfunktion weiter verschlechtern. Die Akutmaßnahmen zielen stattdessen auf Kreislaufstabilisierung, Flüssigkeitsausgleich und Verlaufskontrolle. Schatten bzw. Kühlung der Umgebung, Vitalzeichenkontrolle und Kontrolle der Nierenfunktion sind sinnvolle unterstützende bzw. diagnostische Schritte. Daher sollte man am ehesten nicht die Diuretika weitergeben.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Diuretika können bei Exsikkose den Volumenmangel verschlimmern. Sie sollten in dieser Situation kritisch pausiert statt einfach weitergegeben werden.",
+          "term": "Diuretika"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "In den Schatten setzen ist bei Hitze, Dehydratation oder Kreislaufbelastung eine sinnvolle Basismaßnahme. Es reduziert weitere thermische Belastung und ist nicht die gesuchte falsche Maßnahme.",
+          "term": "Schatten"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Flüssigkeitssubstitution ist bei Exsikkose eine zentrale therapeutische Maßnahme. Art und Geschwindigkeit richten sich nach Kreislauf, Begleiterkrankungen und Labor, aber grundsätzlich ist sie richtig.",
+          "term": "Flüssigkeit"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Vitalzeichenkontrollen sind bei Exsikkose wichtig, um Kreislaufstabilität und Therapieansprechen zu beurteilen. Sie gehören zur Basisüberwachung.",
+          "term": "Vitalzeichen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Kontrolle der eGFR bzw. Nierenfunktion ist bei Dehydratation und potenzieller akuter Nierenschädigung sinnvoll. Sie hilft auch bei der Anpassung der Medikation.",
+          "term": "Nierenfunktion"
+        }
+      ]
+    },
+    "60": {
+      "topicLabel": "Unterschenkelarterien",
+      "explanation": "Die Frage bezieht sich auf eine angiographische Bildbeilage bei Wunde an der Großzehe. Laut Antwortschlüssel ist die langstreckig offene Arterie die Arteria tibialis anterior. Anatomisch verläuft sie im vorderen Unterschenkelkompartiment und setzt sich am Fußrücken als Arteria dorsalis pedis fort, was bei Läsionen im Bereich der Großzehe klinisch relevant sein kann. Die Arteria fibularis und die Arteria tibialis posterior versorgen andere Stromgebiete und haben in der DSA eine andere Lagebeziehung. Da das Bild selbst nicht vorliegt, ist die Erklärung bildbezogen nur eingeschränkt überprüfbar, folgt aber dem angegebenen korrekten Antwortschlüssel.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die Arteria fibularis verläuft eher lateral bzw. tief im Unterschenkel und ist nicht die laut Schlüssel dargestellte langstreckig offene Arterie. Sie setzt sich auch nicht als dorsale Fußarterie fort.",
+          "term": "Arteria fibularis"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Der Truncus tibiofibularis ist ein kurzer proximaler Gefäßabschnitt nach Abgang der Arteria tibialis anterior. Eine langstreckig am Unterschenkel offene Arterie wäre daher nicht als Truncus tibiofibularis zu bezeichnen.",
+          "term": "Truncus tibiofibularis"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die Arteria tibialis anterior verläuft nach ventral und weiter zum Fußrücken. Bei einer Darstellung einer langstreckig offenen vorderen Unterschenkelarterie ist sie die passende Bezeichnung.",
+          "term": "Arteria tibialis anterior"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Arteria tibialis posterior verläuft im hinteren Kompartiment und zieht hinter dem Innenknöchel zur Fußsohle. Das passt nicht zur laut Schlüssel gesuchten langstreckig offenen Arteria tibialis anterior.",
+          "term": "Arteria tibialis posterior"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll nicht überliefert. Bei einer unbekannten Antwortoption und fehlender Bildbeilage bleibt die Zuordnung eingeschränkt, der Schlüssel nennt jedoch die Arteria tibialis anterior.",
+          "term": "Unvollständige Option"
+        }
+      ]
+    }
+  }
+}
