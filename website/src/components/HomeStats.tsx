@@ -88,15 +88,14 @@ export function HomeStats() {
       : null;
 
   return (
-    <section id="stats" className="scroll-mt-20 border-b border-[#e2e8f0] bg-white py-16 md:py-20">
+    <section id="stats" className="scroll-mt-20 border-b border-[#e2e8f0] bg-white py-10 md:py-14">
       <div className="container mx-auto px-6">
-        <div className="mx-auto mb-10 max-w-3xl text-center">
-          <p className="text-sm font-semibold text-[#2C94CC]">Statistik</p>
-          <h2 className="mt-2 text-3xl font-bold tracking-tight text-zinc-900">
+        <div className="mx-auto mb-6 max-w-3xl text-center">
+          <h2 className="text-xl font-bold tracking-tight text-zinc-900 md:text-2xl">
             Aktivität beim Kreuzen
           </h2>
-          <p className="mt-3 text-zinc-600">
-            Echte Kreuzungen aus freigegebenen Klausuren — Balkendiagramm und Heatmap.
+          <p className="mt-1 text-sm text-zinc-500">
+            Versuche je Klausur und Heatmap der letzten Wochen
           </p>
         </div>
 
