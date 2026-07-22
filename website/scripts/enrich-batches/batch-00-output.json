@@ -1,0 +1,745 @@
+{
+  "examId": "m2-ss26-f26-gedaechtnisprotokoll",
+  "questions": {
+    "1": {
+      "topicLabel": "Polyzystisches Ovarsyndrom",
+      "explanation": "Die Kombination aus Oligo- bzw. verlängerten Zyklen, Hirsutismus an Kinn und Hals sowie androgenetischer Alopezie passt am besten zu einem polyzystischen Ovarsyndrom (PCOS). Typisch sind klinische oder laborchemische Zeichen eines Hyperandrogenismus zusammen mit Ovulationsstörungen. Andere Ursachen einer Hyperandrogenämie oder Zyklusstörung müssen differenzialdiagnostisch bedacht werden, werden durch die Antwortoptionen hier aber weniger gut abgebildet. Das PCOS ist zudem eine häufige Ursache für Zyklusunregelmäßigkeiten bei jungen Frauen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Endometriose verursacht typischerweise Dysmenorrhö, chronische Unterbauchschmerzen, Dyspareunie oder Infertilität, erklärt aber Hirsutismus und androgenetische Alopezie nicht. Eine prämature Ovarialinsuffizienz kann Zyklusstörungen verursachen, geht jedoch eher mit Östrogenmangelsymptomen und erhöhten Gonadotropinen einher. Die hier geschilderte Hyperandrogenisierung spricht daher gegen diese Option.",
+          "term": "Endometriose prämature Ovarialinsuffizienz"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "PCOS ist bei einer jungen Frau mit verlängertem Zyklus, Hirsutismus und androgenetischer Alopezie die naheliegendste Diagnose. Die Beschwerden spiegeln eine Ovulationsstörung und Hyperandrogenismus wider. Häufig finden sich zusätzlich polyzystisch imponierende Ovarien, metabolische Risikofaktoren oder Akne, sie sind für die klinische Verdachtsdiagnose aber nicht zwingend in der Frage genannt.",
+          "term": "PCOS Hyperandrogenismus Oligomenorrhö"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Beim Turner-Syndrom liegt ein weiblicher Karyotyp mit fehlendem oder verändertem X-Chromosom vor; typisch sind Kleinwuchs, Gonadendysgenesie und primäre Amenorrhö oder verzögerte Pubertät. Hirsutismus und androgenetische Alopezie stehen dabei nicht im Vordergrund. Eine Erstmanifestation mit isoliert verlängerten Zyklen bei einer 25-Jährigen wäre untypisch.",
+          "term": "Turner-Syndrom Gonadendysgenesie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Das Klinefelter-Syndrom betrifft Personen mit männlichem Phänotyp und zusätzlichem X-Chromosom. Typisch sind Hodenatrophie, Infertilität und Hypogonadismus. Es erklärt die Beschwerden einer 25-jährigen Frau mit Zyklusstörung und Hirsutismus nicht.",
+          "term": "Klinefelter-Syndrom"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Bei kompletter Androgeninsensitivität besteht ein 46,XY-Karyotyp mit weiblichem äußeren Erscheinungsbild, primärer Amenorrhö und meist fehlender oder spärlicher Behaarung. Hirsutismus durch Androgenwirkung ist gerade nicht typisch, weil die Androgenrezeptorwirkung gestört ist. Die geschilderte Konstellation passt daher nicht zu dieser Diagnose.",
+          "term": "Androgeninsensitivität"
+        }
+      ]
+    },
+    "2": {
+      "topicLabel": "PCOS Therapie und Kontrazeption",
+      "explanation": "Bei der Patientin aus Frage 1 spricht die Symptomkonstellation für ein PCOS mit Hyperandrogenismus und Zyklusstörung. Wenn zugleich sichere Kontrazeption und Besserung androgenabhängiger Symptome gewünscht sind, ist ein kombiniertes orales Kontrazeptivum aus Östrogen und Gestagen naheliegend. Es reguliert den Zyklus, schützt das Endometrium vor unopponierter Östrogenwirkung und kann klinische Hyperandrogenismuszeichen bessern. Reine Gestagenmethoden können zwar verhüten, beeinflussen Hirsutismus und androgenetische Alopezie aber in der Regel weniger günstig.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein reines orales Gestagenpräparat kann eine kontrazeptive Option sein, adressiert aber die Hyperandrogenismus-Symptome beim PCOS weniger gezielt. Zykluskontrolle und antiandrogene Wirkung sind bei kombinierten Präparaten typischerweise günstiger. Daher ist es hier nicht die beste Antwort.",
+          "term": "Gestagenmonopräparat PCOS"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Ein kombiniertes orales Kontrazeptivum ist bei PCOS und Wunsch nach sicherer Verhütung eine typische Erstlinientherapie, sofern keine Kontraindikationen bestehen. Es senkt die ovarielle Androgenproduktion funktionell, erhöht über den Östrogenanteil SHBG und stabilisiert den Zyklus. Dadurch können Hirsutismus und androgenetische Alopezie zumindest gebessert werden.",
+          "term": "kombinierte orale Kontrazeption PCOS"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine subkutane Depot-Gestagengabe ist eine wirksame Kontrazeption, eignet sich aber nicht primär zur Besserung androgenabhängiger PCOS-Symptome. Zudem können Blutungsunregelmäßigkeiten auftreten. Im Kontext von Zyklusregulation und Hyperandrogenismus ist die kombinierte orale Therapie plausibler.",
+          "term": "Depotgestagen Kontrazeption"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Gestageninjektionen bieten zwar Empfängnisschutz, behandeln aber die im Vordergrund stehende Hyperandrogenisierung nicht optimal. Bei PCOS ist die Wahl der Kontrazeption häufig auch therapeutisch motiviert, etwa zur Zyklusstabilisierung. Deshalb ist diese Option der kombinierten Östrogen-Gestagen-Therapie unterlegen.",
+          "term": "Gestageninjektion PCOS"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein gestagenhaltiges Intrauterinsystem schützt lokal das Endometrium und verhütet zuverlässig. Es hat jedoch keinen vergleichbaren systemischen antiandrogenen Effekt wie kombinierte orale Kontrazeptiva. Für die Kombination aus sicherer Verhütung und Symptomverbesserung bei PCOS ist es daher nicht die beste Wahl.",
+          "term": "Levonorgestrel-IUS PCOS"
+        }
+      ]
+    },
+    "3": {
+      "topicLabel": "Rheumatoide Arthritis Röntgenbefunde",
+      "explanation": "Die geschilderte Morgensteifigkeit und die Besserung im Tagesverlauf passen zu einer entzündlichen Arthritis; bei Befall kleiner Finger- und Zehengelenke ist die rheumatoide Arthritis typisch. Radiologisch finden sich bei fortgeschrittener Erkrankung gelenknahe Osteopenie, Gelenkspaltverschmälerung, Erosionen und Fehlstellungen bis hin zu Subluxationen, besonders an MCP- und MTP-Gelenken. Eine Subluxation dieser Gelenke unterstützt daher die Diagnose. Die anderen Befunde sprechen eher für andere Krankheitsbilder oder sind nicht typisch für rheumatoide Arthritis.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Subluxationen an MCP- und MTP-Gelenken sind typische Spät- bzw. Strukturveränderungen einer rheumatoiden Arthritis. Sie entstehen durch chronische Synovialitis, Destruktion von Knorpel und Knochen sowie Bandlockerung. Gerade der symmetrische Befall kleiner Gelenke macht diesen Befund diagnostisch passend.",
+          "term": "rheumatoide Arthritis Subluxation MCP MTP"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Fersensporn ist eine knöcherne Enthesiophytenbildung am Kalkaneus und wird eher mit mechanischer Belastung oder Enthesopathien assoziiert. Er ist kein Leitröntgenbefund der rheumatoiden Arthritis. Der Befund erklärt die symmetrische Entzündung kleiner Hand- und Fußgelenke nicht.",
+          "term": "Fersensporn"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Tophi am Köpfchen des Os metatarsale I sprechen eher für eine chronische Gicht. Die Gicht betrifft klassischerweise das Großzehengrundgelenk und kann tophöse Ablagerungen bilden. Das passt weniger zu einer seropositiven, symmetrischen Polyarthritis der kleinen Gelenke.",
+          "term": "Gicht Tophi Großzehengrundgelenk"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Exophyten bzw. Osteophyten sind eher Ausdruck degenerativer Gelenkveränderungen wie Arthrose. Rheumatoide Arthritis führt dagegen typischerweise zu Erosionen und Gelenkdestruktion durch Synovialitis, nicht zu prominenter knöcherner Anbautenbildung. Diese Option stützt die Verdachtsdiagnose daher nicht am ehesten.",
+          "term": "Osteophyten Arthrose"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine verkürzte Ulna ist kein klassischer Befund der rheumatoiden Arthritis. Bei RA können Handgelenkdestruktionen und Fehlstellungen auftreten, aber die genannte isolierte Knochenlängenveränderung ist nicht diagnostisch wegweisend. Sie passt deshalb schlechter als Subluxationen an MCP- und MTP-Gelenken.",
+          "term": "rheumatoide Arthritis Hand Röntgen"
+        }
+      ]
+    },
+    "4": {
+      "topicLabel": "Rheumatoide Arthritis Antikörper",
+      "explanation": "Die Frage bezieht sich auf den vorangehenden Fall einer rheumatoiden Arthritis. Anti-CCP-Antikörper sind für die rheumatoide Arthritis besonders charakteristisch und besitzen eine hohe Spezifität. Sie können bereits früh im Krankheitsverlauf nachweisbar sein und sind mit erosivem Verlauf assoziiert. Die übrigen Antikörper gehören eher zu anderen Autoimmunerkrankungen oder Syndromen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Anti-Nukleosom-Antikörper werden vor allem im Zusammenhang mit systemischem Lupus erythematodes diskutiert. Sie sind nicht der typische wegweisende Antikörper bei rheumatoider Arthritis. Im vorliegenden Fall wäre diese Wahl daher weniger passend.",
+          "term": "Anti-Nukleosom-Antikörper Lupus"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Anticardiolipin-Antikörper gehören zu den Antiphospholipid-Antikörpern und sind bei Antiphospholipid-Syndrom oder Lupus relevant. Typisch wären Thrombosen, Schwangerschaftskomplikationen oder Livedo, nicht primär erosive Polyarthritis. Sie erklären den RA-Fall nicht am besten.",
+          "term": "Anticardiolipin-Antikörper"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Antikörper gegen Phospholipase A2-Rezeptor sind klassisch mit primärer membranöser Nephropathie assoziiert. Eine solche Nierenerkrankung ist im Fall nicht beschrieben. Für rheumatoide Arthritis ist dieser Antikörper nicht typisch.",
+          "term": "PLA2R-Antikörper membranöse Nephropathie"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Anti-CCP-Antikörper sind ein zentraler serologischer Marker der rheumatoiden Arthritis. Sie passen besonders gut zu der vorangegangenen Klinik mit entzündlicher Morgensteifigkeit und Befall kleiner Gelenke. Zusammen mit Rheumafaktor und Entzündungsparametern unterstützen sie die Diagnose, wobei Anti-CCP besonders spezifisch ist.",
+          "term": "Anti-CCP rheumatoide Arthritis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Anti-Zentromer-Antikörper sprechen eher für eine limitierte systemische Sklerose. Klinisch wären Raynaud-Phänomen, Hautveränderungen oder Organmanifestationen der Sklerose zu erwarten. Sie sind nicht der naheliegendste Antikörper bei rheumatoider Arthritis.",
+          "term": "Anti-Zentromer-Antikörper systemische Sklerose"
+        }
+      ]
+    },
+    "5": {
+      "topicLabel": "Rheumatoide Arthritis DMARDs",
+      "explanation": "Bei rheumatoider Arthritis werden krankheitsmodifizierende Antirheumatika eingesetzt, um Entzündung, Gelenkdestruktion und Funktionsverlust langfristig zu reduzieren. Dazu zählen konventionelle synthetische DMARDs wie Methotrexat, biologische DMARDs wie TNF- oder IL-6-Rezeptor-Inhibitoren und zielgerichtete synthetische DMARDs wie JAK-Inhibitoren. Diclofenac ist dagegen ein nichtsteroidales Antirheumatikum. Es kann Schmerzen und Entzündungssymptome lindern, verändert aber den Krankheitsverlauf nicht grundlegend und zählt daher nicht zu den DMARDs.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Methotrexat ist ein klassisches konventionelles synthetisches DMARD und häufig Basistherapeutikum der rheumatoiden Arthritis. Es wirkt krankheitsmodifizierend und soll strukturelle Schäden verhindern. Daher gehört es sehr wohl zu den DMARDs.",
+          "term": "Methotrexat DMARD rheumatoide Arthritis"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Tocilizumab ist ein IL-6-Rezeptor-Antikörper und zählt zu den biologischen DMARDs. Es kann bei rheumatoider Arthritis eingesetzt werden, insbesondere wenn konventionelle Therapieansätze nicht ausreichen oder nicht vertragen werden. Es ist daher nicht die gesuchte Ausnahme.",
+          "term": "Tocilizumab biologisches DMARD"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Adalimumab ist ein TNF-alpha-Inhibitor und damit ein biologisches DMARD. Es richtet sich gegen zentrale entzündliche Signalwege der rheumatoiden Arthritis. Somit gehört es zur krankheitsmodifizierenden Therapie.",
+          "term": "Adalimumab TNF-Inhibitor DMARD"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Diclofenac ist ein NSAR und dient vor allem der symptomatischen Schmerz- und Entzündungshemmung. Es beeinflusst die zugrunde liegende Autoimmunaktivität und die langfristige Gelenkdestruktion nicht in der Weise eines DMARD. Deshalb ist Diclofenac die Substanz, die am ehesten nicht zu den Disease Modifying Antirheumatic Drugs gehört.",
+          "term": "Diclofenac NSAR kein DMARD"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Tofacitinib ist ein JAK-Inhibitor und zählt zu den zielgerichteten synthetischen DMARDs. Es greift in intrazelluläre Zytokinsignalwege ein und kann bei rheumatoider Arthritis krankheitsmodifizierend wirken. Daher ist diese Option nicht die gesuchte Ausnahme.",
+          "term": "Tofacitinib JAK-Inhibitor DMARD"
+        }
+      ]
+    },
+    "6": {
+      "topicLabel": "Rheumatoide Arthritis kardiovaskuläres Risiko",
+      "explanation": "Chronisch entzündliche Systemerkrankungen wie die rheumatoide Arthritis erhöhen das kardiovaskuläre Risiko. Die persistierende systemische Entzündung begünstigt Atherosklerose und damit Ereignisse wie Myokardinfarkt und Schlaganfall. Das Risiko wird zusätzlich durch klassische Risikofaktoren, eingeschränkte Mobilität oder glucocorticoidbedingte Effekte beeinflusst. Die anderen Antwortmöglichkeiten sind keine typischen unmittelbaren Risikokonstellationen der rheumatoiden Arthritis.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Bei rheumatoider Arthritis besteht ein erhöhtes Risiko für kardiovaskuläre Ereignisse wie Myokardinfarkt und Apoplex. Entscheidend ist die chronische systemische Entzündung, die endotheliale Dysfunktion und Atherosklerose fördert. Eine gute Kontrolle der Entzündungsaktivität ist deshalb auch kardiovaskulär relevant.",
+          "term": "rheumatoide Arthritis kardiovaskuläres Risiko"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein erhöhtes Risiko für bestimmte hämatologische Neoplasien kann bei chronischer Entzündung oder Immunsuppression diskutiert werden, ist aber nicht die klassische Prüfungsantwort in diesem Kontext. Die Frage zielt auf die gut etablierte Zunahme kardiovaskulärer Ereignisse. Gegenüber Myokardinfarkt und Apoplex ist diese Option weniger passend.",
+          "term": "rheumatoide Arthritis Lymphomrisiko"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein sekundärer Hyperparathyreoidismus entsteht typischerweise bei chronischer Niereninsuffizienz, Vitamin-D-Mangel oder Malabsorption. Rheumatoide Arthritis führt nicht regelhaft zu dieser endokrinen Störung. Osteoporose kann zwar bei RA und Glukokortikoidtherapie relevant sein, das ist aber nicht gleichbedeutend mit sekundärem Hyperparathyreoidismus.",
+          "term": "sekundärer Hyperparathyreoidismus Ursachen"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Primär sklerosierende Cholangitis ist besonders mit chronisch-entzündlichen Darmerkrankungen, vor allem Colitis ulcerosa, assoziiert. Sie ist keine typische Folge einer rheumatoiden Arthritis. Daher spricht der Fall nicht für diese Risikoerhöhung.",
+          "term": "primär sklerosierende Cholangitis Colitis ulcerosa"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Pankreasinsuffizienz ist nicht als typische Komplikation der rheumatoiden Arthritis bekannt. Sie passt eher zu chronischer Pankreatitis, zystischer Fibrose oder Pankreasresektion. Die entzündliche Gelenkerkrankung erhöht vor allem das kardiovaskuläre Risiko.",
+          "term": "Pankreasinsuffizienz Ursachen"
+        }
+      ]
+    },
+    "7": {
+      "topicLabel": "Asthma bronchiale Verlaufskontrolle",
+      "explanation": "Die Patientin mit bekanntem Asthma benötigt wegen deutlich häufigerem Salbutamolbedarf eine strukturierte Reevaluation. Zunächst sind Anamnese, Medikamentenanamnese, Erfassung von Komorbiditäten, Vitalparameter einschließlich Pulsoxymetrie und körperliche Untersuchung mit Auskultation wichtig. Ein Röntgen-Thorax ist bei unkomplizierter Asthmaverschlechterung ohne Hinweise auf Pneumonie, Pneumothorax, Herzinsuffizienz oder andere Differenzialdiagnosen nicht primär erforderlich. Daher ist es unter den genannten Maßnahmen am wenigsten indiziert.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ein Röntgen-Thorax gehört nicht zur unmittelbaren Basisdiagnostik jeder Asthmaverschlechterung. Es wird eher bei atypischer Klinik, Fieber, fokalem Auskultationsbefund, Verdacht auf Pneumonie, Pneumothorax oder andere Differenzialdiagnosen eingesetzt. Bei stabiler Patientin stehen zunächst klinische Einschätzung und Therapieanpassung im Vordergrund.",
+          "term": "Asthma Exazerbation Röntgen Thorax Indikation"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die Pulsoxymetrie ist bei Dyspnoe eine einfache und wichtige Basismaßnahme. Sie hilft, eine relevante Hypoxämie oder schwere Exazerbation zu erkennen. Damit ist sie initial deutlich indizierter als ein routinemäßiges Röntgenbild.",
+          "term": "Pulsoxymetrie Asthma"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Auskultation ist Teil der körperlichen Untersuchung bei Asthma. Giemen, verlängertes Exspirium oder ein sehr leises Atemgeräusch können die Einschätzung der Obstruktion unterstützen. Sie ist deshalb zunächst sinnvoll.",
+          "term": "Asthma Auskultation Giemen"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine erweiterte Medikamentenanamnese ist hier wichtig, weil der stark gestiegene Salbutamolverbrauch auf unzureichende Kontrolle, falsche Inhalationstechnik oder fehlende Controller-Therapie hinweisen kann. Auch auslösende Medikamente können relevant sein. Daher ist diese Maßnahme initial indiziert.",
+          "term": "Asthma Medikamentenanamnese Inhalationstechnik"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Komorbiditäten wie allergische Rhinitis, chronische Rhinosinusitis, Adipositas, Reflux oder psychische Faktoren können Asthmakontrolle und Symptomwahrnehmung beeinflussen. Ihre Erfassung gehört zur Verlaufskontrolle bei zunehmenden Beschwerden. Sie ist daher keine am wenigsten indizierte Maßnahme.",
+          "term": "Asthma Komorbiditäten"
+        }
+      ]
+    },
+    "8": {
+      "topicLabel": "Asthma bronchiale Reversibilität",
+      "explanation": "Asthma bronchiale ist durch eine variable, meist reversible Atemwegsobstruktion gekennzeichnet. Der Nachweis einer deutlichen oder vollständigen Reversibilität der Obstruktion nach Inhalation eines Beta-2-Sympathomimetikums stützt die Diagnose besonders. Einzelne erniedrigte Lungenfunktionswerte können zwar auf Obstruktion oder Ventilationsstörung hinweisen, sind aber weniger spezifisch. Entscheidend ist die Variabilität der Obstruktion im passenden klinischen Kontext.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine reduzierte Vitalkapazität kann bei restriktiven Ventilationsstörungen oder schwerer Überblähung auftreten. Sie ist nicht spezifisch für Asthma. Ohne Reversibilitätsnachweis erhärtet sie die Diagnose weniger gut.",
+          "term": "Vitalkapazität Asthma"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine reduzierte forcierte Vitalkapazität kann verschiedene Ursachen haben und ist nicht der charakteristische Kernbefund des Asthmas. Bei Obstruktion kann sie mitbetroffen sein, beweist aber keine variable bronchiale Obstruktion. Der Bronchodilatationstest ist diagnostisch aussagekräftiger.",
+          "term": "forcierte Vitalkapazität Asthma"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein reduzierter Peak Flow passt zu einer Atemwegsobstruktion und kann in der Verlaufskontrolle hilfreich sein. Als Einzelbefund ist er jedoch unspezifisch und abhängig von Mitarbeit und Technik. Besonders beweisend ist die Variabilität bzw. Reversibilität.",
+          "term": "Peak Flow Asthma"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine reduzierte FEV1 ist ein wichtiger Hinweis auf eine obstruktive Ventilationsstörung. Sie kommt aber auch bei anderen obstruktiven Erkrankungen vor. Erst die Reversibilität nach Bronchodilatator macht den Befund für Asthma deutlich spezifischer.",
+          "term": "FEV1 obstruktive Ventilationsstörung"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Die Reversibilität der Obstruktion nach Inhalation eines Beta-2-Sympathomimetikums ist ein klassischer diagnostischer Hinweis auf Asthma bronchiale. Sie zeigt, dass die Atemwegsverengung variabel und bronchodilatatorisch beeinflussbar ist. Das passt besonders gut zu einem persistierenden Asthma im Erwachsenenalter.",
+          "term": "Bronchodilatationstest Asthma Reversibilität"
+        }
+      ]
+    },
+    "9": {
+      "topicLabel": "Asthma bronchiale Dauertherapie",
+      "explanation": "Der deutlich gestiegene Salbutamolbedarf zeigt eine unzureichende Asthmakontrolle. Bei Asthma sollte eine reine Bedarfstherapie mit kurzwirksamem Beta-2-Sympathomimetikum nicht die einzige langfristige Behandlung bleiben, wenn wiederholt Symptome auftreten. Ein inhalatives Kortikosteroid adressiert die zugrunde liegende eosinophile bzw. entzündliche Atemwegskomponente und senkt das Exazerbationsrisiko. Bei stabilen Vitalparametern und ohne Hinweise auf bakterielle Infektion oder schwere Exazerbation ist eine langfristige ICS-Therapie hier am passendsten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein oraler Prednisolonstoß kann bei einer relevanten akuten Asthmaexazerbation indiziert sein. Die Angaben mit normaler Sauerstoffsättigung, stabilem Kreislauf und der Frage nach einer zusätzlichen Maßnahme zum Salbutamol sprechen hier eher für eine notwendige Controller-Therapie. Als langfristige Lösung ist der systemische Steroidstoß nicht die beste Antwort.",
+          "term": "Asthma Exazerbation orale Glukokortikoide"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ipratropiumbromid kann in der akuten Behandlung schwererer obstruktiver Exazerbationen ergänzend eingesetzt werden. Eine einwöchige alleinige Zusatzinhalation löst aber nicht das Problem der fehlenden antientzündlichen Dauertherapie. Für die langfristige Asthmakontrolle ist ein ICS zentraler.",
+          "term": "Ipratropium Asthma Exazerbation"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Doxycyclin wäre nur bei begründetem Verdacht auf eine bakterielle Infektion sinnvoll. Husten und Auswurf allein beweisen keine bakterielle Bronchitis oder Pneumonie, und die Vitalparameter sind unauffällig. Eine Antibiotikatherapie ist daher nicht die naheliegende Maßnahme.",
+          "term": "Asthma Antibiotika Indikation"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein LABA darf bei Asthma nicht als Monotherapie eingesetzt werden, weil die antientzündliche Komponente fehlt. Wenn ein langwirksamer Beta-2-Agonist benötigt wird, erfolgt er in Kombination mit einem inhalativen Kortikosteroid. Daher ist LABA allein nicht korrekt.",
+          "term": "LABA Monotherapie Asthma"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Ein inhalatives Kortikosteroid ist die passende langfristige Zusatztherapie bei unzureichend kontrolliertem Asthma. Es reduziert die bronchiale Entzündung, verbessert die Symptomkontrolle und senkt das Exazerbationsrisiko. Der stark erhöhte Bedarf an Salbutamol ist ein klares Warnzeichen, dass eine Controller-Therapie nötig ist.",
+          "term": "inhalatives Kortikosteroid Asthma Dauertherapie"
+        }
+      ]
+    },
+    "10": {
+      "topicLabel": "Meningokokkenmeningitis und Sepsis",
+      "explanation": "Der Säugling mit hohem Fieber, Apathie, Trinkschwäche, Hypotonie und rasch auftretenden lividen Einblutungen hat hochgradig verdächtige Zeichen einer fulminanten bakteriellen Sepsis, insbesondere einer Meningokokkensepsis mit möglicher Meningitis. Petechien, Purpura und Nekrosen sprechen für eine schwere Gerinnungsaktivierung und periphere Minderperfusion. Bei Säuglingen können Meningitiszeichen unspezifisch sein; eine gespannte Fontanelle ist ein klassisches mögliches Zeichen eines erhöhten intrakraniellen Drucks bzw. einer Meningitis. Die anderen Optionen passen weniger gut zu dieser Erkrankungskonstellation.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine gespannte Fontanelle kann bei Säuglingen ein Hinweis auf Meningitis oder erhöhten intrakraniellen Druck sein. Im geschilderten Bild mit Fieber, Apathie und purpurischen Hautveränderungen ist eine invasive Meningokokkenerkrankung sehr wahrscheinlich. Daher ist dieses Zeichen als Manifestation gut zu erwarten.",
+          "term": "Meningokokkenmeningitis Säugling gespannte Fontanelle"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Akrozyanose bezeichnet eine bläuliche Verfärbung der Akren und kann bei Kreislaufzentralisation vorkommen. Im Fall werden jedoch bereits livide Einblutungen und nekrotisch wirkende Fingerkuppen beschrieben, was eher für Purpura fulminans als für eine einfache Akrozyanose spricht. Als typische gesuchte Manifestation der vermuteten Meningitis ist die gespannte Fontanelle passender.",
+          "term": "Akrozyanose Purpura fulminans"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Tonisch verkrampfte Kiefermuskulatur mit späterem Befall von Rücken- und Bauchmuskulatur beschreibt einen Tetanus-typischen Verlauf. Tetanus verursacht Muskelspasmen, aber keine fulminante fieberhafte Purpura mit septischem Schockbild. Diese Option passt daher nicht zum Fall.",
+          "term": "Tetanus Trismus Opisthotonus"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein positives Pyramidenzeichen weist auf eine Schädigung der Pyramidenbahn hin. Es ist kein typisches frühes Leitsymptom einer Meningokokkensepsis beim Säugling. Die akute Konstellation spricht vielmehr für Meningitis/Sepsis mit meningealen und septischen Zeichen.",
+          "term": "Pyramidenbahnzeichen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Polyurie wäre bei diesem schwer kranken, hypotonen Säugling nicht zu erwarten. Bei Sepsis drohen vielmehr Minderperfusion, Dehydratation und akutes Nierenversagen mit abnehmender Diurese. Diese Option widerspricht der klinischen Schocksituation.",
+          "term": "Sepsis Säugling Oligurie"
+        }
+      ]
+    },
+    "11": {
+      "topicLabel": "Meningokokken Chemoprophylaxe",
+      "explanation": "Die Frage bezieht sich auf den Säugling mit Verdacht auf invasive Meningokokkenerkrankung. Enge Kontaktpersonen eines Erkrankten sollen eine Chemoprophylaxe erhalten, weil das Risiko für eine sekundäre Erkrankung im nahen Umfeld erhöht ist. Eine Impfung ersetzt diese postexpositionelle Chemoprophylaxe nicht zuverlässig, da nicht alle Serogruppen und Situationen abgedeckt sind und ein unmittelbarer Schutz nicht garantiert ist. Die Auswahl des konkreten Antibiotikums richtet sich nach Alter, Schwangerschaft und Kontraindikationen, aber der Grundsatz betrifft alle engen Kontaktpersonen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Alle engen Kontaktpersonen sollen bei invasiver Meningokokkenerkrankung eine Chemoprophylaxe erhalten. Dazu zählen insbesondere Haushaltskontakte wie Geschwister und weitere im Haushalt lebende Personen. Der Impfstatus hebt diese Empfehlung nicht grundsätzlich auf.",
+          "term": "Meningokokken Chemoprophylaxe enge Kontaktpersonen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine vollständige Impfung nach STIKO-Empfehlung schließt eine Chemoprophylaxe nach engem Kontakt nicht aus. Impfungen decken je nach Impfstoff nicht alle relevanten Serogruppen ab und sind keine unmittelbare Eradikation einer möglichen nasopharyngealen Besiedlung. Daher ist diese Aussage zu absolut.",
+          "term": "Meningokokken Impfung Chemoprophylaxe"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Kinder unter 6 Jahren benötigen als enge Kontaktpersonen zwar eine Prophylaxe, aber die Aussage legt Ciprofloxacin pauschal als Mittel der Wahl nahe. Die Wahl des Antibiotikums ist alters- und situationsabhängig und insbesondere bei Kindern nicht einfach pauschal so zu formulieren. Der sicherere Grundsatz ist: alle engen Kontaktpersonen erhalten eine geeignete Chemoprophylaxe.",
+          "term": "Meningokokken Chemoprophylaxe Kinder"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Schwangere im Haushalt ist eine enge Kontaktperson und benötigt eine geeignete Prophylaxe, aber sie ist nicht die einzige. Auch die Geschwister sind Haushaltskontakte. Daher ist die Einschränkung auf die Schwangere falsch.",
+          "term": "Meningokokken Chemoprophylaxe Schwangerschaft"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Prophylaxe ist nicht nur für Säuglinge unter einem Jahr vorgesehen. Entscheidend ist der enge Kontakt zum Indexfall, insbesondere im Haushalt. Auch ältere Kinder und Erwachsene können Träger werden oder erkranken.",
+          "term": "Meningokokken Haushaltskontakte"
+        }
+      ]
+    },
+    "12": {
+      "topicLabel": "Ileus Symptome",
+      "explanation": "Bei einem mechanischen Ileus sind kolikartige bzw. krampfartige Bauchschmerzen ein klassisches Symptom, vor allem solange die Darmmuskulatur gegen ein Passagehindernis arbeitet. Je nach Lokalisation und Stadium können zusätzlich Übelkeit, Erbrechen, Meteorismus und Stuhl- bzw. Windverhalt auftreten. Die knappe Fallbeschreibung lässt Details wie Lokalisation, Auskultationsbefund und Bildgebung offen. Unter den genannten Optionen passt der krampfartige Schmerz dennoch am besten.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Krampfartige Bauchschmerzen sind bei mechanischem Ileus typisch. Sie entstehen durch gesteigerte Peristaltik proximal des Passagehindernisses. Besonders in frühen Phasen können diese Schmerzen kolikartig auftreten.",
+          "term": "Ileus krampfartige Bauchschmerzen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein eingefallener Bauch ist bei Ileus nicht typisch. Häufiger kommt es durch Gas- und Flüssigkeitsstau zu Meteorismus bzw. abdomineller Distension. Diese Option passt daher schlecht.",
+          "term": "Ileus Meteorismus"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Flatulenzen sprechen eher gegen einen kompletten Ileus, da ein Stuhl- und Windverhalt typisch sein kann. Bei inkompletter Obstruktion können Winde zwar noch abgehen, als klassisches Leitsymptom ist das aber nicht gemeint. Krampfartige Schmerzen sind deutlich charakteristischer.",
+          "term": "Ileus Stuhlverhalt Windverhalt"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Gefüllte Umbilikalvenen weisen eher auf portosystemische Kollateralen bei portaler Hypertension hin. Sie gehören nicht zum typischen Symptomkomplex eines Ileus. Diese Option ist daher nicht plausibel.",
+          "term": "Caput medusae portale Hypertension"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll unvollständig angegeben. Da sie laut Lösungsschlüssel nicht korrekt ist, lässt sich ohne vollständigen Text nur festhalten, dass sie nicht die gesuchte typische Ileusmanifestation darstellt. Inhaltlich darf aus dem Fragezeichen keine zusätzliche klinische Aussage abgeleitet werden.",
+          "term": "unvollständige Antwortoption Ileus"
+        }
+      ]
+    },
+    "13": {
+      "topicLabel": "Ileus Diagnostik und Akuttherapie",
+      "explanation": "Bei Verdacht auf Ileus ist eine rasche Akutdiagnostik und Stabilisierung entscheidend. Dazu gehören klinische Untersuchung, Labor, Bildgebung je nach Situation, Flüssigkeitssubstitution, Analgesie und Antiemese. Eine Kolontransitzeitmessung ist eine elektive Funktionsdiagnostik bei chronischer Obstipation und hat in der akuten Ileusabklärung keinen Platz. Deshalb ist sie die Maßnahme, die hier am ehesten nicht durchgeführt werden sollte.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die Kolontransitzeitmessung dient der Abklärung chronischer Motilitätsstörungen bzw. Obstipation. Bei akutem Ileusverdacht wäre sie zu langsam, nicht therapeutisch hilfreich und würde die notwendige Akutversorgung verzögern. Daher sollte sie hier nicht erfolgen.",
+          "term": "Kolontransitzeit Ileus"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine CT kann bei Ileus sehr hilfreich sein, um Lokalisation, Ursache, Komplikationen und Operationsdringlichkeit einzuschätzen. Besonders bei unklarer Klinik ist sie eine wichtige Akutbildgebung. Sie gehört daher nicht zu den Maßnahmen, die grundsätzlich zu vermeiden sind.",
+          "term": "CT Ileus Diagnostik"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine intravenöse Schmerztherapie ist bei Ileus nicht kontraindiziert; Schmerzen sollen angemessen behandelt werden. Spasmolytische oder analgetische Maßnahmen können symptomatisch sinnvoll sein, solange die Diagnostik nicht verzögert wird. Sie ist daher nicht die am ehesten falsche Maßnahme.",
+          "term": "Ileus Analgesie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Flüssigkeitssubstitution ist bei Ileus wichtig, weil Erbrechen, Drittverluste in den Darm und verminderte orale Aufnahme rasch zu Volumenmangel führen können. Elektrolytstörungen müssen ebenfalls korrigiert werden. Flüssigkeit zu geben ist daher eine sinnvolle Basismaßnahme.",
+          "term": "Ileus Flüssigkeit Elektrolyte"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Antiemetika können bei Übelkeit und Erbrechen symptomatisch hilfreich sein. Sie ersetzen keine kausale Therapie, sind aber Teil der supportiven Akutbehandlung. Damit sind sie nicht die gesuchte ungeeignete Maßnahme.",
+          "term": "Ileus Antiemetika"
+        }
+      ]
+    },
+    "14": {
+      "topicLabel": "Mechanischer Ileus Therapie",
+      "explanation": "Beim mechanischen Ileus stehen initial Nahrungskarenz, Volumen- und Elektrolytausgleich, Magensonde bei Erbrechen oder distendiertem Magen, Analgesie/Antiemese und chirurgische Mitbeurteilung im Vordergrund. Eine Antibiotikatherapie ist nicht bei jedem mechanischen Ileus obligat. Sie wird insbesondere bei Ischämie, Perforation, Peritonitis, Sepsis oder Operationsindikation mit Kontaminationsrisiko relevant. Da die Frage fragt, was nicht erfolgen muss, ist die pauschale Antibiose die beste Antwort.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine Antibiose ist beim mechanischen Ileus nicht automatisch erforderlich. Sie ist situationsabhängig, etwa bei strangulierendem Ileus, Peritonitis, Perforation oder septischem Verlauf. Ohne solche Hinweise muss sie nicht regelhaft erfolgen.",
+          "term": "mechanischer Ileus Antibiose"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Magensonde kann beim mechanischen Ileus zur Dekompression, Aspirationsprophylaxe und Symptomlinderung notwendig sein. Besonders bei Erbrechen oder ausgeprägter Distension ist sie eine typische Basismaßnahme. Daher ist sie nicht die gesuchte Ausnahme.",
+          "term": "Ileus Magensonde"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Intravenöse Flüssigkeit ist bei Ileus eine zentrale Maßnahme, weil Patienten häufig dehydriert sind und erhebliche Flüssigkeit in den Darm sequestriert wird. Auch Elektrolytstörungen müssen ausgeglichen werden. Diese Maßnahme muss typischerweise erfolgen.",
+          "term": "Ileus intravenöse Flüssigkeit"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine angemessene Analgesie ist bei mechanischem Ileus wichtig. Spasmolytische Analgesie kann Beschwerden lindern, ersetzt aber nicht die ursächliche Abklärung und Therapie. Sie ist im Akutmanagement plausibler als eine pauschale Antibiotikagabe.",
+          "term": "mechanischer Ileus Schmerztherapie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Antiemetika sind bei Übelkeit und Erbrechen symptomatisch sinnvoll. Sie verhindern keine Obstruktion, können aber Beschwerden und Aspirationsrisiko verringern helfen. Daher gehören sie eher zu den supportiven Maßnahmen als zur gesuchten Ausnahme.",
+          "term": "Ileus Übelkeit Erbrechen Antiemetika"
+        }
+      ]
+    },
+    "15": {
+      "topicLabel": "Riesenzellarteriitis Labor",
+      "explanation": "Bei Riesenzellarteriitis finden sich typischerweise deutlich erhöhte Entzündungsparameter. Dazu gehören eine erhöhte Blutsenkungsgeschwindigkeit und häufig auch ein erhöhtes CRP. Klinisch passen neue Kopfschmerzen, Kauschmerzen, Druckschmerz der A. temporalis oder Sehstörungen besonders gut, auch wenn diese im Gedächtnisprotokoll nicht ausgeführt sind. Komplementverbrauch, Hepatitis-Assoziation oder Antiphospholipid-Antikörper sind nicht typische Leitbefunde der Riesenzellarteriitis.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine erhöhte BSG ist ein typischer Laborbefund bei Riesenzellarteriitis. Sie spiegelt die ausgeprägte systemische Entzündungsreaktion wider. Auch wenn die BSG allein nicht beweisend ist, passt sie unter den Optionen am besten.",
+          "term": "Riesenzellarteriitis BSG CRP"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Erniedrigte Komplementfaktoren C3 und C4 sprechen eher für Immunkomplexerkrankungen wie systemischen Lupus erythematodes oder bestimmte Vaskulitiden. Bei Riesenzellarteriitis ist ein Komplementverbrauch kein typischer Leitbefund. Daher ist diese Option nicht korrekt.",
+          "term": "Komplement C3 C4 erniedrigt"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Hepatitis-B- oder Hepatitis-C-Assoziation passt eher zu anderen Vaskulitiden oder Kryoglobulinämie-Konstellationen. Die Riesenzellarteriitis ist eine Großgefäßvaskulitis älterer Menschen und wird nicht primär über Hepatitisantikörper diagnostiziert. Die Option ist zudem im Protokoll unscharf formuliert.",
+          "term": "Hepatitis C Kryoglobulinämie Vaskulitis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Anti-Phospholipid-Antikörper sind mit Antiphospholipid-Syndrom und thrombotischen Ereignissen assoziiert. Sie sind kein typischer Laborbefund der Riesenzellarteriitis. Bei RZA stehen Entzündungsparameter und Gefäßdiagnostik im Vordergrund.",
+          "term": "Antiphospholipid-Antikörper"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig bzw. nicht sinnvoll rekonstruierbar. Laut Lösungsschlüssel ist sie nicht korrekt. Ohne vollständigen Text kann keine spezifische medizinische Aussage daraus abgeleitet werden.",
+          "term": "unvollständige Antwortoption Riesenzellarteriitis"
+        }
+      ]
+    },
+    "16": {
+      "topicLabel": "Riesenzellarteriitis Tocilizumab",
+      "explanation": "Die Riesenzellarteriitis wird primär mit Glukokortikoiden behandelt, um insbesondere ischämische Komplikationen wie Sehverlust zu verhindern. Als steroid-sparende oder zusätzliche Therapie kann Tocilizumab eingesetzt werden. Tocilizumab blockiert den IL-6-Rezeptor und adressiert damit einen wichtigen Entzündungsweg der Erkrankung. Andere genannte Substanzen sind für diese Indikation nicht die typische ergänzende Therapie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "TNF-alpha-Inhibitoren und IL-1-Antikörper sind nicht die klassische Zusatztherapie bei Riesenzellarteriitis. Für die RZA ist insbesondere die IL-6-vermittelte Entzündung therapeutisch relevant. Daher ist diese Sammeloption nicht am besten passend.",
+          "term": "Riesenzellarteriitis TNF-Inhibitor"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Tocilizumab ist ein IL-6-Rezeptor-Antikörper und kann bei Riesenzellarteriitis zusätzlich zu bzw. im Rahmen einer Glukokortikoid-sparenden Strategie eingesetzt werden. Es kann die Krankheitsaktivität senken und den Bedarf an längerfristiger Steroidexposition reduzieren. Unter den Optionen ist es die spezifisch passende Substanz.",
+          "term": "Tocilizumab Riesenzellarteriitis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Rituximab richtet sich gegen CD20-positive B-Zellen und wird bei anderen Autoimmunerkrankungen und bestimmten Vaskulitiden eingesetzt. Bei Riesenzellarteriitis ist es nicht die typische Standard-Zusatztherapie. Es ist daher weniger passend als Tocilizumab.",
+          "term": "Rituximab Vaskulitis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Nichtselektive COX-Inhibitoren können Schmerzen lindern, wirken aber nicht krankheitskontrollierend auf die Gefäßentzündung der Riesenzellarteriitis. Sie ersetzen keine immunsuppressive Therapie. Als Zusatz zu Glukokortikoiden im Sinne einer krankheitsmodifizierenden Behandlung sind sie nicht gemeint.",
+          "term": "Riesenzellarteriitis NSAR"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Intravenöse Immunglobuline und Cyclosporin A sind keine typischen Standardtherapien der Riesenzellarteriitis. Sie würden allenfalls in speziellen immunologischen Situationen erwogen, die hier nicht beschrieben sind. Die etablierte gezielte Zusatzoption ist Tocilizumab.",
+          "term": "Riesenzellarteriitis Immunglobuline Cyclosporin"
+        }
+      ]
+    },
+    "17": {
+      "topicLabel": "Akute dekompensierte Herzinsuffizienz",
+      "explanation": "Der fragmentarisch geschilderte Fall beschreibt eine bekannte Herzinsuffizienz mit Luftnot, peripheren Ödemen, Gewichtszunahme und stark erhöhtem NT-proBNP. Das passt am ehesten zu einer Volumenüberladung bzw. akuten kardialen Dekompensation mit möglichem Lungenödem. Schleifendiuretika sind in dieser Situation eine zentrale symptomatische Akutmaßnahme zur Entstauung. Die übrigen Maßnahmen können in anderen Konstellationen wichtig sein, sind anhand der Angaben aber nicht die naheliegendste erste Therapie.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Schleifendiuretika sind bei akuter dekompensierter Herzinsuffizienz mit Ödemen, Gewichtszunahme und pulmonaler Stauung die passende entstauende Therapie. Sie reduzieren die Volumenüberladung und können Dyspnoe rasch bessern. Das passt am besten zur geschilderten Konstellation.",
+          "term": "akute dekompensierte Herzinsuffizienz Schleifendiuretika"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Koronarangiographie mit Interventionsbereitschaft ist bei akutem Koronarsyndrom oder starker Ischämiesuspektion zentral. Der Fall nennt aber vor allem Zeichen der Stauung und Volumenüberladung, nicht typische Angina, ST-Hebungen oder Troponindynamik. Daher ist dies nicht die naheliegendste Maßnahme.",
+          "term": "Koronarangiographie Indikation Herzinsuffizienz"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Schrittmacherabfrage kann bei Rhythmusproblemen, Synkopen oder Verdacht auf Device-Fehlfunktion wichtig sein. Die geschilderten Zeichen sprechen jedoch primär für kardiale Dekompensation mit Flüssigkeitsretention. Ohne entsprechenden Hinweis ist die Abfrage nicht die beste Erstmaßnahme.",
+          "term": "Schrittmacherabfrage Indikation"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine intravenöse antimikrobielle Therapie wäre bei Pneumonie, Sepsis oder anderer bakterieller Infektion indiziert. Husten oder Atemgeräusche allein beweisen das nicht, und die Ödeme sowie Gewichtszunahme sprechen stärker für Stauung. Daher ist diese Option nicht am ehesten angezeigt.",
+          "term": "Herzinsuffizienz Pneumonie Differenzialdiagnose"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Hämodialyse über Shaldon-Katheter ist bei schweren dialysepflichtigen Entgleisungen wie therapierefraktärer Hyperkaliämie, schwerer Azidose, Intoxikation oder therapierefraktärer Überwässerung zu erwägen. Der Fall nennt erhöhte Nierenretentionsparameter, aber keine zwingende Dialyseindikation. Zunächst ist bei stauungsbedingter Dekompensation die diuretische Entlastung plausibler.",
+          "term": "Dialyseindikation akutes Nierenversagen Herzinsuffizienz"
+        }
+      ]
+    },
+    "18": {
+      "topicLabel": "Kardiorenales Syndrom",
+      "explanation": "Die Frage bezieht sich auf den vorangehenden Herzinsuffizienzfall mit Nierenretentionsparametern. Herz- und Nierenerkrankungen beeinflussen sich wechselseitig: Eine Herzinsuffizienz kann über venöse Stauung und reduzierte Perfusion die Nierenfunktion verschlechtern, während Niereninsuffizienz Volumen- und Blutdruckprobleme verstärken kann. Dieses Zusammenspiel wird als kardiorenales bzw. renokardiales Syndrom beschrieben. Die übrigen Aussagen sind anhand der fragmentarischen Angaben zu absolut oder fachlich nicht korrekt.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Herz- und Nierenerkrankungen können konsekutiv und wechselseitig auftreten bzw. sich gegenseitig verschlechtern. Bei Herzinsuffizienz sind Nierenfunktionsstörungen häufig, unter anderem durch Stauung, Minderperfusion und neurohumorale Aktivierung. Diese Aussage passt zum Fall mit Herzinsuffizienz und erhöhten Retentionsparametern.",
+          "term": "kardiorenales Syndrom"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine CKD-Stadieneinteilung nach KDIGO erfordert eine definierte, über längere Zeit bestehende Nierenfunktionsstörung bzw. konkrete eGFR- und Albuminurieangaben. Das Gedächtnisprotokoll nennt nur erhöhte Retentionsparameter. Damit lässt sich Stadium G3 nicht sicher festlegen.",
+          "term": "KDIGO CKD G3 eGFR"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein postprandial gemessener grenzwertiger Blutzucker reicht allein nicht zur Diagnose eines manifesten Diabetes mellitus und zum Therapiebeginn aus. Dafür braucht es standardisierte diagnostische Kriterien, etwa wiederholte Nüchternglukose, HbA1c oder einen oralen Glukosetoleranztest im passenden Kontext. Die Aussage ist daher zu weitgehend.",
+          "term": "Diabetes mellitus Diagnose Kriterien"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "NT-proBNP kann bei Niereninsuffizienz erhöht sein und muss im Kontext interpretiert werden, verliert aber nicht vollständig seine Aussagekraft oder prognostische Bedeutung. Gerade sehr hohe Werte können weiterhin auf Herzinsuffizienz und ungünstige Prognose hinweisen. Die absolute Formulierung ist falsch.",
+          "term": "NT-proBNP Niereninsuffizienz prognostischer Wert"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Giemen, Pfeifen oder Brummen können bei COPD vorkommen, aber auch bei kardialem Asthma bzw. pulmonaler Stauung im Rahmen einer Herzinsuffizienz. Im Fall sprechen Ödeme, Gewichtszunahme und NT-proBNP stärker für Dekompensation. Der Auskultationsbefund allein beweist keine COPD.",
+          "term": "kardiales Asthma Giemen Herzinsuffizienz"
+        }
+      ]
+    },
+    "19": {
+      "topicLabel": "Chronische Rhinosinusitis mit Nasenpolypen",
+      "explanation": "Beidseitige blass-weißliche, glasige Gewebewucherungen aus dem mittleren Nasengang bei chronisch behinderter Nasenatmung und retronasaler Sekretion sprechen für Nasenpolypen im Rahmen einer chronischen Rhinosinusitis. Zur weiteren Beurteilung der Ausdehnung und Beteiligung der Nasennebenhöhlen ist eine CT der Nasennebenhöhlen typisch. Sie ist besonders relevant vor operativer Planung oder bei unklarer Ausdehnung. Eine Biopsie ist eher bei einseitigen, blutenden, destruierenden oder sonst malignitätssuspekten Befunden vorrangig.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine CT der Nasennebenhöhlen zeigt die Ausdehnung der chronischen Rhinosinusitis, Verschattungen, anatomische Varianten und mögliche Operationsrelevanz. Bei endoskopisch typischen beidseitigen Polypen ist sie die passende weiterführende Diagnostik. Sie hilft, die Beteiligung der Nasennebenhöhlen objektiv zu erfassen.",
+          "term": "chronische Rhinosinusitis Nasenpolypen CT"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Biopsie ist bei Verdacht auf Neoplasie wichtig, etwa bei einseitigem Befund, Blutung, Ulzeration, Schmerz, knöcherner Destruktion oder atypischem Wachstum. Hier werden beidseitige glasige Polypen aus dem mittleren Nasengang beschrieben, was eher entzündlich-polypös ist. Daher ist die CT zur Ausdehnungsdiagnostik naheliegender.",
+          "term": "Nasenpolypen Biopsie einseitig Malignomverdacht"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine NO-Messung im Nasenvorhof ist nicht die Standarddiagnostik zur Beurteilung von Nasenpolypen und Nasennebenhöhlenbeteiligung. Sie kann in speziellen Fragestellungen wie ziliärer Dyskinesie eine Rolle spielen. Für diesen Fall ist sie nicht die beste nächste Untersuchung.",
+          "term": "nasales NO primäre ziliäre Dyskinesie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll unvollständig angegeben. Da sie laut Lösungsschlüssel nicht korrekt ist, kann sie nicht als gesuchte Diagnostik gewertet werden. Ohne Text darf keine konkrete diagnostische Maßnahme hineingedeutet werden.",
+          "term": "unvollständige Antwortoption Nasenpolypen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll ebenfalls unvollständig. Sie ist gemäß Lösungsschlüssel nicht korrekt. Inhaltlich lässt sich aus dem Fragezeichen keine belastbare Alternative zur CT ableiten.",
+          "term": "unvollständige Antwortoption chronische Rhinosinusitis"
+        }
+      ]
+    },
+    "20": {
+      "topicLabel": "Chronische Rhinosinusitis Therapie",
+      "explanation": "Bei chronischer Rhinosinusitis mit nasalen Polypen gehören topische Glukokortikoide und Nasenspülungen zu den zentralen konservativen Maßnahmen. Topische Steroide wirken antientzündlich, können die Schleimhautschwellung reduzieren und Polypen verkleinern; Nasenspülungen unterstützen die lokale Reinigung und mukoziliäre Clearance. Eine vollständige Rückbildung aller Polypen ist dadurch nicht bei den meisten Patienten sicher zu erwarten. Die Therapie ist nicht nur bei nachgewiesener Allergie wirksam, da die Entzündung bei CRSwNP häufig auch unabhängig von einer klassischen Allergie besteht.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Topische Glukokortikoide können Symptome bessern und Polypen verkleinern, führen aber nicht bei den meisten Patienten zu einer vollständigen Rückbildung. Gerade größere oder rezidivierende Polypen können trotz konservativer Therapie persistieren. Die Aussage ist daher zu stark formuliert.",
+          "term": "Nasenpolypen topische Steroide Rückbildung"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Topische Glukokortikoide wirken lokal antientzündlich und abschwellend, während Nasenspülungen Sekret, Krusten und Entzündungsmediatoren mechanisch reduzieren können. Dadurch kann sich die mukoziliäre Clearance verbessern und die Polypenlast abnehmen. Diese Beschreibung passt am besten zur erwarteten Wirkung der konservativen Therapie.",
+          "term": "CRSwNP topische Glukokortikoide Nasenspülung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Topische Steroide hemmen die Entzündung, aber die Aussage, sie verhinderten durch Wirkung auf eosinophile Entzündung eine Chronifizierung, ist in dieser Form nicht passend. Bei der Patientin besteht bereits eine chronische Rhinosinusitis mit Polypen. Ziel ist Symptomkontrolle und Reduktion der Entzündung, nicht die Verhinderung einer bereits eingetretenen Chronifizierung.",
+          "term": "chronische Rhinosinusitis eosinophile Entzündung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Wirksamkeit topischer nasaler Glukokortikoide bei chronischer Rhinosinusitis mit Polypen setzt keinen Allergienachweis voraus. Allergien können Begleitfaktoren sein, erklären aber nicht die gesamte Erkrankung. Daher ist die Einschränkung auf allergische Patienten falsch.",
+          "term": "Nasenpolypen Allergie topische Glukokortikoide"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll unvollständig angegeben. Laut Lösungsschlüssel ist sie nicht korrekt. Ohne vollständigen Wortlaut lässt sich keine spezifische Aussage zur Therapie ableiten.",
+          "term": "unvollständige Antwortoption CRSwNP Therapie"
+        }
+      ]
+    }
+  }
+}
