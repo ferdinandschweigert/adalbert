@@ -49,6 +49,10 @@ export interface ExamProgress {
   currentIndex: number;
   selections: Record<number, string>;
   checked: number[];
+  /** ISO timestamp when the session started (first answer or first open). */
+  startedAt?: string;
+  /** ISO timestamp when each question index was checked. */
+  checkedAt?: Record<number, string>;
   completedAt?: string;
 }
 

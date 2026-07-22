@@ -19,6 +19,7 @@ import {
 } from '@/lib/altfragenStore';
 import {
   AlertCircle,
+  BarChart3,
   CheckCircle,
   ChevronLeft,
   ChevronRight,
@@ -61,6 +62,17 @@ function letter(index: number): string {
   return String.fromCharCode(65 + index);
 }
 
+function formatDuration(ms: number): string {
+  if (!Number.isFinite(ms) || ms < 0) return '—';
+  const totalSec = Math.floor(ms / 1000);
+  const h = Math.floor(totalSec / 3600);
+  const m = Math.floor((totalSec % 3600) / 60);
+  const s = totalSec % 60;
+  if (h > 0) return `${h}h ${m}min ${s}s`;
+  if (m > 0) return `${m}min ${s}s`;
+  return `${s}s`;
+}
+
 type NavStatus = 'current' | 'unseen' | 'correct' | 'wrong' | 'done';
 
 export function AltfragenPractice({ examId }: { examId: string }) {
@@ -69,9 +81,11 @@ export function AltfragenPractice({ examId }: { examId: string }) {
   const [loading, setLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [showOverview, setShowOverview] = useState(false);
+  const [showAuswertung, setShowAuswertung] = useState(false);
   const [showResult, setShowResult] = useState(false);
   const [communityStats, setCommunityStats] = useState<Record<string, QuestionStat>>({});
   const [reporting, setReporting] = useState(false);
+  const [nowTick, setNowTick] = useState(() => Date.now());
 
   useEffect(() => {
     let cancelled = false;
@@ -88,7 +102,13 @@ export function AltfragenPractice({ examId }: { examId: string }) {
         if (cancelled) return;
         setExam(examData.exam as StoredExam);
         const existing = getProgress(examId);
-        setProgress(existing ?? createEmptyProgress(examId));
+        const nextProgress = existing ?? createEmptyProgress(examId);
+        if (!nextProgress.startedAt) {
+          nextProgress.startedAt = new Date().toISOString();
+          saveProgress(nextProgress);
+        }
+        if (!nextProgress.checkedAt) nextProgress.checkedAt = {};
+        setProgress(nextProgress);
         if (existing?.completedAt) setShowResult(true);
 
         if (statsRes.ok) {
@@ -123,6 +143,12 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     };
   }, [examId]);
 
+  useEffect(() => {
+    if (!progress?.startedAt || progress.completedAt) return;
+    const id = window.setInterval(() => setNowTick(Date.now()), 1000);
+    return () => window.clearInterval(id);
+  }, [progress?.startedAt, progress?.completedAt]);
+
   const persist = useCallback(
     (next: ExamProgress) => {
       setProgress(next);
@@ -145,19 +171,30 @@ export function AltfragenPractice({ examId }: { examId: string }) {
   const navStatus = useCallback(
     (i: number): NavStatus => {
       if (!progress || !questions[i]) return 'unseen';
-      if (i === progress.currentIndex && !showOverview && !showResult) return 'current';
+      if (i === progress.currentIndex && !showOverview && !showAuswertung && !showResult) return 'current';
       if (!progress.checked.some((c) => Number(c) === i)) return 'unseen';
       const q = questions[i];
       const sel = progress.selections[i] ?? progress.selections[String(i) as unknown as number] ?? '';
       if (!hasAnswerKey(q)) return 'done';
       return isCorrect(q, sel) ? 'correct' : 'wrong';
     },
-    [progress, questions, showOverview, showResult]
+    [progress, questions, showOverview, showAuswertung, showResult]
   );
 
   const scoreSummary = useMemo(() => {
-    if (!exam || !progress) return { correct: 0, graded: 0, checked: 0 };
+    if (!exam || !progress) {
+      return {
+        correct: 0,
+        wrong: 0,
+        graded: 0,
+        checked: 0,
+        open: 0,
+        elapsedMs: 0,
+        avgMs: 0,
+      };
+    }
     let correct = 0;
+    let wrong = 0;
     let graded = 0;
     for (let i = 0; i < exam.questions.length; i++) {
       if (!progress.checked.some((c) => Number(c) === i)) continue;
@@ -166,29 +203,48 @@ export function AltfragenPractice({ examId }: { examId: string }) {
       const sel =
         progress.selections[i] ?? progress.selections[String(i) as unknown as number] ?? '';
       if (isCorrect(exam.questions[i], sel)) correct += 1;
+      else wrong += 1;
     }
-    return { correct, graded, checked: progress.checked.length };
-  }, [exam, progress]);
+    const startMs = progress.startedAt ? Date.parse(progress.startedAt) : NaN;
+    const endMs = progress.completedAt ? Date.parse(progress.completedAt) : nowTick;
+    const elapsedMs =
+      Number.isFinite(startMs) && Number.isFinite(endMs) ? Math.max(0, endMs - startMs) : 0;
+    const checked = progress.checked.length;
+    return {
+      correct,
+      wrong,
+      graded,
+      checked,
+      open: exam.questions.length - checked,
+      elapsedMs,
+      avgMs: checked > 0 ? elapsedMs / checked : 0,
+    };
+  }, [exam, progress, nowTick]);
 
   const goTo = (nextIndex: number) => {
     if (!progress) return;
     const clamped = Math.max(0, Math.min(questions.length - 1, nextIndex));
     setShowResult(false);
     setShowOverview(false);
+    setShowAuswertung(false);
     persist({ ...progress, currentIndex: clamped, completedAt: undefined });
   };
 
   const commitAnswer = (bits: string) => {
     if (!progress || !question || !bits.includes('1')) return;
-    const checked = progress.checked.includes(index)
+    const nowIso = new Date().toISOString();
+    const checked = progress.checked.some((c) => Number(c) === index)
       ? progress.checked
       : [...progress.checked, index];
     const allDone = checked.length >= questions.length;
+    const nextCheckedAt = { ...(progress.checkedAt || {}), [index]: nowIso };
     persist({
       ...progress,
+      startedAt: progress.startedAt || nowIso,
       selections: { ...progress.selections, [index]: bits },
       checked,
-      completedAt: allDone ? new Date().toISOString() : progress.completedAt,
+      checkedAt: nextCheckedAt,
+      completedAt: allDone ? nowIso : progress.completedAt,
     });
     void reportStats(question, bits);
     if (allDone) setShowResult(true);
@@ -255,17 +311,21 @@ export function AltfragenPractice({ examId }: { examId: string }) {
       return;
     }
     const nextSelections: Record<number, string> = { ...progress.selections };
-    // Keys may be numbers or strings after localStorage round-trip
     delete nextSelections[index];
     delete nextSelections[String(index) as unknown as number];
+    const nextCheckedAt = { ...(progress.checkedAt || {}) };
+    delete nextCheckedAt[index];
+    delete nextCheckedAt[String(index) as unknown as number];
     const nextChecked = progress.checked
       .map((i) => Number(i))
       .filter((i) => i !== index);
     persist({
       examId: progress.examId,
       currentIndex: progress.currentIndex,
+      startedAt: progress.startedAt,
       selections: nextSelections,
       checked: nextChecked,
+      checkedAt: nextCheckedAt,
     });
   };
 
@@ -281,6 +341,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     persist(createEmptyProgress(examId));
     setShowResult(false);
     setShowOverview(false);
+    setShowAuswertung(false);
   };
 
   if (loading) {
@@ -347,8 +408,13 @@ export function AltfragenPractice({ examId }: { examId: string }) {
             <p className="text-sm font-medium text-[#2C94CC]">Ergebnis</p>
             <p className="mt-2 text-4xl font-bold text-[#002F5D]">{pct}%</p>
             <p className="mt-2 text-zinc-600">
-              {scoreSummary.correct} von {scoreSummary.graded} richtig · {scoreSummary.checked}{' '}
-              geprüft
+              {scoreSummary.correct} richtig · {scoreSummary.wrong} falsch · {scoreSummary.open} offen
+            </p>
+            <p className="mt-1 text-sm text-zinc-500">
+              Zeit: {formatDuration(scoreSummary.elapsedMs)}
+              {scoreSummary.checked > 0
+                ? ` · Ø ${formatDuration(scoreSummary.avgMs)} / Frage`
+                : ''}
             </p>
           </div>
           <div className="rounded-xl border border-[#e2e8f0] bg-white p-4 shadow-sm">
@@ -371,12 +437,137 @@ export function AltfragenPractice({ examId }: { examId: string }) {
               <RotateCcw className="mr-2 h-4 w-4" />
               Neu starten
             </Button>
+            <Button
+              type="button"
+              variant="outline"
+              onClick={() => {
+                setShowResult(false);
+                setShowAuswertung(true);
+              }}
+            >
+              <BarChart3 className="mr-2 h-4 w-4" />
+              Auswertung
+            </Button>
             <Button type="button" variant="outline" onClick={() => setShowOverview(true)}>
               <LayoutGrid className="mr-2 h-4 w-4" />
               Übersicht
             </Button>
             <Button type="button" variant="ghost" asChild>
               <Link href="/altfragen">Alle Klausuren</Link>
+            </Button>
+          </div>
+        </div>
+      </AltfragenShell>
+    );
+  }
+
+  if (showAuswertung) {
+    const pct = scoreSummary.graded
+      ? Math.round((scoreSummary.correct / scoreSummary.graded) * 100)
+      : 0;
+    const wrongPct = scoreSummary.graded
+      ? Math.round((scoreSummary.wrong / scoreSummary.graded) * 100)
+      : 0;
+    return (
+      <AltfragenShell subtitle={exam.title}>
+        <div className="mx-auto max-w-3xl space-y-6">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <div>
+              <h2 className="text-xl font-bold text-zinc-900">Auswertung</h2>
+              <p className="text-sm text-zinc-500">Statistik zu Richtig / Falsch und Zeit</p>
+            </div>
+            <Button
+              type="button"
+              variant="outline"
+              onClick={() => {
+                setShowAuswertung(false);
+                setShowOverview(false);
+              }}
+            >
+              Zurück zur Frage
+            </Button>
+          </div>
+
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="rounded-xl border border-emerald-200 bg-emerald-50 p-4">
+              <p className="text-xs font-medium uppercase tracking-wide text-emerald-700">Richtig</p>
+              <p className="mt-1 text-3xl font-bold text-emerald-800">{scoreSummary.correct}</p>
+              <p className="text-xs text-emerald-700">{pct}% der bewerteten</p>
+            </div>
+            <div className="rounded-xl border border-red-200 bg-red-50 p-4">
+              <p className="text-xs font-medium uppercase tracking-wide text-red-700">Falsch</p>
+              <p className="mt-1 text-3xl font-bold text-red-800">{scoreSummary.wrong}</p>
+              <p className="text-xs text-red-700">{wrongPct}% der bewerteten</p>
+            </div>
+            <div className="rounded-xl border border-[#e2e8f0] bg-white p-4">
+              <p className="text-xs font-medium uppercase tracking-wide text-zinc-500">Offen</p>
+              <p className="mt-1 text-3xl font-bold text-zinc-800">{scoreSummary.open}</p>
+              <p className="text-xs text-zinc-500">
+                {scoreSummary.checked}/{questions.length} geprüft
+              </p>
+            </div>
+            <div className="rounded-xl border border-[#e2e8f0] bg-white p-4">
+              <p className="text-xs font-medium uppercase tracking-wide text-zinc-500">Zeit</p>
+              <p className="mt-1 text-2xl font-bold text-[#002F5D]">
+                {formatDuration(scoreSummary.elapsedMs)}
+              </p>
+              <p className="text-xs text-zinc-500">
+                Ø {formatDuration(scoreSummary.avgMs)} / Frage
+              </p>
+            </div>
+          </div>
+
+          <div className="rounded-xl border border-[#e2e8f0] bg-white p-4 shadow-sm">
+            <p className="mb-3 text-sm font-medium text-zinc-800">Verteilung</p>
+            <div className="h-3 overflow-hidden rounded-full bg-zinc-100">
+              <div className="flex h-full w-full">
+                <div
+                  className="bg-emerald-500 transition-all"
+                  style={{
+                    width: `${questions.length ? (scoreSummary.correct / questions.length) * 100 : 0}%`,
+                  }}
+                />
+                <div
+                  className="bg-red-500 transition-all"
+                  style={{
+                    width: `${questions.length ? (scoreSummary.wrong / questions.length) * 100 : 0}%`,
+                  }}
+                />
+              </div>
+            </div>
+            <div className="mt-3 flex flex-wrap gap-4 text-xs text-zinc-500">
+              <span className="inline-flex items-center gap-1.5">
+                <span className="h-2.5 w-2.5 rounded-full bg-emerald-500" /> richtig
+              </span>
+              <span className="inline-flex items-center gap-1.5">
+                <span className="h-2.5 w-2.5 rounded-full bg-red-500" /> falsch
+              </span>
+              <span className="inline-flex items-center gap-1.5">
+                <span className="h-2.5 w-2.5 rounded-full bg-zinc-200" /> offen
+              </span>
+            </div>
+          </div>
+
+          <div className="rounded-xl border border-[#e2e8f0] bg-white p-4 shadow-sm">
+            <p className="mb-3 text-sm font-medium text-zinc-800">Fragen — springe zu einer</p>
+            <QuestionNav />
+          </div>
+
+          <div className="flex flex-wrap gap-2">
+            <Button
+              type="button"
+              variant="outline"
+              onClick={() => {
+                setShowAuswertung(false);
+                setShowOverview(true);
+              }}
+            >
+              <LayoutGrid className="mr-2 h-4 w-4" />
+              Übersicht
+            </Button>
+            <Button type="button" variant="ghost" onClick={handleRestartAll}>
+              <RotateCcw className="mr-2 h-4 w-4" />
+              Neu starten
             </Button>
           </div>
         </div>
@@ -392,12 +583,25 @@ export function AltfragenPractice({ examId }: { examId: string }) {
             <div>
               <h2 className="text-xl font-bold text-zinc-900">Fragenübersicht</h2>
               <p className="text-sm text-zinc-500">
-                {scoreSummary.checked} / {questions.length} geprüft · {scoreSummary.correct} richtig
+                {scoreSummary.checked} / {questions.length} geprüft · {scoreSummary.correct} richtig ·{' '}
+                {scoreSummary.wrong} falsch · {formatDuration(scoreSummary.elapsedMs)}
               </p>
             </div>
-            <Button type="button" variant="outline" onClick={() => setShowOverview(false)}>
-              Zurück zur Frage
-            </Button>
+            <div className="flex flex-wrap gap-2">
+              <Button
+                type="button"
+                onClick={() => {
+                  setShowOverview(false);
+                  setShowAuswertung(true);
+                }}
+              >
+                <BarChart3 className="mr-1.5 h-4 w-4" />
+                Auswertung
+              </Button>
+              <Button type="button" variant="outline" onClick={() => setShowOverview(false)}>
+                Zurück zur Frage
+              </Button>
+            </div>
           </div>
           <QuestionNav />
           <ul className="divide-y divide-[#e2e8f0] rounded-xl border border-[#e2e8f0] bg-white shadow-sm">
@@ -480,6 +684,16 @@ export function AltfragenPractice({ examId }: { examId: string }) {
             >
               <LayoutGrid className="mr-1.5 h-3.5 w-3.5" />
               Übersicht
+            </Button>
+            <Button
+              type="button"
+              variant="secondary"
+              size="sm"
+              className="w-full"
+              onClick={() => setShowAuswertung(true)}
+            >
+              <BarChart3 className="mr-1.5 h-3.5 w-3.5" />
+              Auswertung
             </Button>
           </div>
         </aside>
