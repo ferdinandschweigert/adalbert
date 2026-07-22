@@ -9,7 +9,7 @@ export function AltfragenShell({
   subtitle?: string;
 }) {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#eef5fb] via-white to-[#f5f7fa]">
+    <div className="min-h-screen bg-white">
       <SiteHeader active="kreuzen" context={subtitle ? `Kreuzen · ${subtitle}` : 'Kreuzen'} />
       <main className="container mx-auto px-6 py-8 md:py-10">{children}</main>
     </div>
