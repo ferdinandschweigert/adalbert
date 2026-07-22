@@ -1,0 +1,745 @@
+{
+  "examId": "m2-ss26-f26-gedaechtnisprotokoll",
+  "questions": {
+    "21": {
+      "topicLabel": "Sinusitis-Komplikation",
+      "explanation": "Bei chronischer Rhinosinusitis mit akuter Verschlechterung, Fieber, einseitigen orbitalen Schmerzen und Sehstörungen muss an eine orbitale Komplikation gedacht werden. Dazu gehören insbesondere eine Orbitaphlegmone oder ein subperiostaler Abszess, die rasch visusbedrohend werden können. Die passende nächste Diagnostik ist daher eine notfallmäßige Schnittbildgebung, typischerweise CT der Nasennebenhöhlen und Orbita mit Kontrastmittel. So lassen sich Ausdehnung, knöcherne Beteiligung und ein drainierbarer Abszess beurteilen. Die korrekte Antwort ist damit die notfallmäßige CT mit Kontrastmittel. Die übrigen Optionen sind im Gedächtnisprotokoll nicht überliefert und können inhaltlich nicht sicher bewertet werden.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Diese Antwort ist richtig. Fieber, einseitiger Augenschmerz und Sehstörungen bei Sinusitis sprechen für eine orbitale Komplikation, bei der eine rasche CT mit Kontrastmittel indiziert ist. Ein subperiostaler Abszess muss erkannt werden, weil hiervon die Dringlichkeit einer operativen Entlastung und antibiotischen Therapie abhängt.",
+          "term": "Notfall-CT bei orbitaler Komplikation"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Ohne konkreten Inhalt lässt sie sich medizinisch nicht prüfen; sie kann die als korrekt markierte Notfall-CT daher nicht verdrängen.",
+          "term": "Unvollständige Option"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Bei Warnzeichen wie Sehstörung und Fieber wäre ein abwartendes oder rein symptomatisches Vorgehen jedenfalls nicht ausreichend belegt.",
+          "term": "Unvollständige Option"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Für die Bewertung fehlt der konkrete Maßnahmeninhalt; maßgeblich bleibt die sofortige Abklärung einer möglichen orbitalen Ausbreitung.",
+          "term": "Unvollständige Option"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Eine nicht rekonstruierte Option darf der gesicherten korrekten Bildgebungsempfehlung nicht widersprechen.",
+          "term": "Unvollständige Option"
+        }
+      ]
+    },
+    "22": {
+      "topicLabel": "Ureterstein-Diagnostik",
+      "explanation": "Bei Verdacht auf Urolithiasis mit Hydronephrose sind Analgesie, Spasmolyse und je nach Situation auch konservative Maßnahmen zunächst plausibel. Für die Diagnostik eines Harnleitersteins ist die CT, insbesondere die Niedrigdosis-CT ohne Kontrastmittel, sehr aussagekräftig. Ein MRT ist dagegen nicht die Standarddiagnostik zur Steindetektion und bildet kleine Konkremente schlechter ab. In einer Frage nach der Maßnahme, die man nicht machen sollte, ist daher das MRT die beste Antwort. Mehr trinken und Bewegung können bei unkompliziertem Steinleiden unterstützend sinnvoll sein, dürfen aber eine relevante Obstruktion oder Infektion nicht verzögern. Die gestauten Harnwege machen insgesamt eine strukturierte urologische Abklärung erforderlich.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Mehr trinken ist nicht die gesuchte falsche Maßnahme. Bei unkomplizierter Urolithiasis kann eine ausreichende Flüssigkeitszufuhr den spontanen Steinabgang unterstützen. Bei starker Obstruktion, Fieber oder Nierenfunktionsstörung muss sie aber durch ärztliche Kontrolle und gegebenenfalls Intervention ergänzt werden.",
+          "term": "Hydratation"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Spasmoanalgesie ist bei Nierenkolik eine typische Akutmaßnahme. Die Schmerztherapie steht initial im Vordergrund, weil Koliken sehr schmerzhaft sind und vegetative Symptome verursachen können. Sie behandelt jedoch nicht automatisch die Ursache einer relevanten Harnstauung.",
+          "term": "Spasmoanalgesie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Bewegung kann bei kleinen distalen Steinen als unterstützende konservative Maßnahme genannt werden. Sie ist nicht die zentrale Therapie, aber im Gegensatz zum MRT keine ungeeignete Diagnostik. Bei kompliziertem Verlauf ist sie natürlich nicht ausreichend.",
+          "term": "Konservative Steintherapie"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Diese Antwort ist richtig, weil das MRT bei Verdacht auf Harnleiterstein nicht die übliche Erstliniendiagnostik ist. Steine werden in der CT deutlich zuverlässiger dargestellt. Ein MRT kann in Sonderkonstellationen eine Rolle spielen, ist hier aber die Maßnahme, die man am ehesten nicht wählen sollte.",
+          "term": "MRT bei Urolithiasis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die CT ist bei Verdacht auf Urolithiasis diagnostisch sehr geeignet. Sie kann Steinlage, Größe, Begleitstauung und Differenzialdiagnosen erfassen. Deshalb ist sie nicht die gesuchte Maßnahme, die vermieden werden sollte.",
+          "term": "CT bei Urolithiasis"
+        }
+      ]
+    },
+    "23": {
+      "topicLabel": "Distaler Ureterstein",
+      "explanation": "Ein 6-mm-Stein im distalen Harnleiter kann initial konservativ behandelt werden, wenn keine Komplikationszeichen bestehen und die Beschwerden kontrollierbar sind. Kommt die Patientin jedoch erneut mit starken Schmerzen und persistierender Harnstauung, ist die konservative Strategie ausgeschöpft. Für distale Uretersteine ist die Ureterorenoskopie mit Steinentfernung ein etabliertes interventionelles Vorgehen. Eine perkutane Nephrolitholapaxie ist eher für größere Nierensteine geeignet und wäre hier zu invasiv sowie anatomisch nicht passend. Eine offene Steinoperation ist heutzutage nur in Ausnahmefällen erforderlich. Daher ist die endoskopische ureterale Steinentfernung der nächste sinnvolle Schritt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die perkutane Nephrolitholapaxie ist hier nicht passend. Sie wird vor allem bei größeren oder komplexen Nierensteinen eingesetzt, nicht primär bei einem distalen Harnleiterstein. Für den beschriebenen Stein ist ein transurethral-endoskopischer Zugang naheliegender.",
+          "term": "Perkutane Nephrolitholapaxie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine offene Nephrolitholapaxie ist bei einem distalen Ureterstein nicht indiziert. Offene Steinoperationen sind selten und bleiben besonderen Ausnahmesituationen vorbehalten. Bei einem 6-mm-Stein im distalen Harnleiter wäre dieses Vorgehen unverhältnismäßig.",
+          "term": "Offene Steinoperation"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine rein medikamentöse Behandlung war im Verlauf bereits die initiale Richtung. Bei erneuter Vorstellung mit starken Schmerzen und gestauter Niere spricht der Fall für Therapieversagen oder zumindest für Interventionsbedarf. Eine weitere medikamentöse Eskalation alleine löst den obstruierenden Stein nicht zuverlässig.",
+          "term": "Medikamentöse Steintherapie"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Diese Antwort ist richtig. Die Ureterorenoskopie erlaubt bei distalem Harnleiterstein die direkte Darstellung, Zertrümmerung oder Entfernung des Konkrements. Bei persistierenden starken Schmerzen und Harnstauung ist sie ein geeignetes nächstes Verfahren nach konservativem Therapieversuch.",
+          "term": "Ureterorenoskopie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Weiterhin konservativ vorzugehen ist in dieser Verlaufssituation nicht mehr am besten. Die Patientin hat erneut starke Schmerzen und eine gestaute Niere, sodass die Belastung und das Risiko einer fortbestehenden Obstruktion zunehmen. Der Fall verlangt nun eine aktive Steinentfernung.",
+          "term": "Konservatives Vorgehen"
+        }
+      ]
+    },
+    "24": {
+      "topicLabel": "Spondylodiszitis",
+      "explanation": "Eine ältere Patientin mit länger bestehendem Harnwegsinfekt, subfebrilen Temperaturen, Nachtschweiß und starken nächtlichen beziehungsweise morgendlichen LWS-Schmerzen passt am besten zu einer Spondylodiszitis. Hämatogene Streuung aus einem Infektfokus kann Wirbelkörper und Bandscheibenfach betreffen. Typisch sind tief sitzende Rückenschmerzen, die in Ruhe oder nachts ausgeprägt sein können, sowie unspezifische Entzündungszeichen. Eine chronische Pyelonephritis kann Fieber und Flankenschmerzen verursachen, erklärt aber die ausgeprägten belastungs- und ruheabhängigen LWS-Schmerzen weniger gut. Die übrigen abdominalen Entzündungen passen weder zur Lokalisation noch zum Verlauf. Deshalb ist Spondylodiszitis die wahrscheinlichste Diagnose.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine chronische Pyelonephritis ist wegen des Harnwegsinfekts differenzialdiagnostisch denkbar. Typischer wären jedoch Flankenschmerzen, Klopfschmerz, Dysurie oder rezidivierende Harnwegszeichen. Die dominierenden nächtlichen LWS-Schmerzen mit systemischen Symptomen sprechen stärker für eine Wirbelsäuleninfektion.",
+          "term": "Chronische Pyelonephritis"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Diese Antwort ist richtig. Spondylodiszitis verursacht häufig starke lokale Rückenschmerzen, die auch nachts bestehen, und kann mit Fieber, Nachtschweiß und erhöhten Entzündungszeichen einhergehen. Ein vorausgehender oder persistierender Infekt, etwa im Urogenitaltrakt, kann als hämatogene Quelle dienen.",
+          "term": "Spondylodiszitis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Cholezystitis verursacht typischerweise rechtsseitige Oberbauchschmerzen, häufig mit Druckschmerz und gastrointestinalen Begleitsymptomen. LWS-Schmerzen nach längerem Liegen stehen dabei nicht im Vordergrund. Der vorausgehende Harnwegsinfekt erklärt diese Option ebenfalls nicht überzeugend.",
+          "term": "Cholezystitis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Pankreatitis kann in den Rücken ausstrahlende Oberbauchschmerzen machen. Der Fall beschreibt aber primär LWS-Schmerzen, subakuten Verlauf und infektiöse Allgemeinsymptome nach Harnwegsinfekt. Ohne typische Oberbauchsymptomatik ist diese Diagnose weniger wahrscheinlich.",
+          "term": "Pankreatitis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Colitis ulcerosa äußert sich vor allem durch blutige Diarrhöen, Tenesmen und abdominelle Beschwerden. Sie erklärt weder den Harnwegsinfekt als Vorlauf noch die ausgeprägten nächtlichen LWS-Schmerzen. Diese Option passt daher klinisch nicht.",
+          "term": "Colitis ulcerosa"
+        }
+      ]
+    },
+    "25": {
+      "topicLabel": "Endokarditis-OP",
+      "explanation": "Eine infektiöse Endokarditis mit schwerer Aortenklappeninsuffizienz ist eine hochgefährliche Konstellation, weil akute Klappeninsuffizienz rasch zur kardialen Dekompensation führen kann. Bei schwerer Klappendestruktion oder hämodynamischer Relevanz besteht eine dringliche operative Indikation. In der älteren Patientin aus dem Vorfallkontext ist bei Klappenersatz häufig eine biologische Prothese plausibel, weil keine dauerhafte mechanische Antikoagulation angestrebt wird. Eine vorherige Sanierung jedes extrakardialen Herdes darf die notwendige Herzoperation bei schwerer Klappeninsuffizienz nicht verzögern. Die korrekte Antwort ist daher die operative Sanierung mit biologischer Klappe. Die nicht überlieferten Optionen lassen sich nicht weiter prüfen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Ohne konkreten Inhalt ist keine medizinisch belastbare Bewertung möglich; die als korrekt markierte operative Sanierung bleibt maßgeblich.",
+          "term": "Unvollständige Option"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Bei schwerer Aortenklappeninsuffizienz durch Endokarditis wäre eine Verzögerung einer indizierten Operation grundsätzlich kritisch.",
+          "term": "Unvollständige Option"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Der Fall enthält bereits eine schwere Klappeninsuffizienz, sodass die Therapieentscheidung nicht anhand einer unbekannten Alternative umgedeutet werden sollte.",
+          "term": "Unvollständige Option"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Zunächst nur einen nichtkardialen Herd zu sanieren ist hier nicht die beste Antwort. Bei schwerer Aortenklappeninsuffizienz durch Endokarditis kann die kardiale Situation die dringlichere Gefahr darstellen. Eine Fokussanierung ist wichtig, darf aber eine notwendige Klappenoperation nicht unangemessen verzögern.",
+          "term": "Fokussanierung"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Diese Antwort ist richtig. Die Kombination aus Endokarditis und schwerer Aortenklappeninsuffizienz spricht für eine operative Sanierung mit Klappenersatz. Bei älteren Patientinnen ist eine biologische Klappe häufig eine naheliegende Prothesenwahl.",
+          "term": "Biologischer Klappenersatz"
+        }
+      ]
+    },
+    "26": {
+      "topicLabel": "Keratoakanthom",
+      "explanation": "Ein rasch wachsender, derber, knotiger Hauttumor über wenige Wochen passt klassisch zu einem Keratoakanthom. Dieses wird klinisch oft als kraterförmiger Knoten beschrieben und kann einem hochdifferenzierten Plattenepithelkarzinom stark ähneln. Wegen dieser Überlappung ist die histologische Abklärung beziehungsweise vollständige Exzision wichtig, auch wenn die Prüfungsantwort Keratoakanthom lautet. Ein Basalzellkarzinom wächst meist langsamer und zeigt andere typische morphologische Zeichen. Angiome und Mollusken erklären das schnelle Wachstum eines 1,5-cm-Nodus weniger gut. Die Bildabhängigkeit macht die Einordnung etwas protokollabhängig, aber die markierte Lösung ist mit dem Verlauf vereinbar.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein seniles Angiom ist typischerweise eine kleine, rote bis livide vaskuläre Papel. Es wächst nicht klassisch innerhalb kurzer Zeit zu einem größeren nodulären Tumor heran. Juckreiz allein würde diese Diagnose nicht ausreichend stützen.",
+          "term": "Seniles Angiom"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Basalzellkarzinom ist ein häufiger nichtmelanozytärer Hauttumor, wächst aber meist eher langsam. Typisch wären perlschnurartiger Randsaum, Teleangiektasien oder Ulzeration, je nach Subtyp. Das sehr schnelle noduläre Wachstum über Wochen passt besser zum Keratoakanthom.",
+          "term": "Basalzellkarzinom"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Diese Antwort ist richtig. Das Keratoakanthom zeigt typischerweise ein rasches Wachstum über Wochen und tritt als knotige, oft kraterartige Läsion auf. Da es klinisch und histologisch mit einem Plattenepithelkarzinom überlappen kann, wird es praktisch ernst genommen und nicht nur beobachtet.",
+          "term": "Keratoakanthom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Angiom wäre eine vaskuläre Läsion und erklärt die beschriebene rasch wachsende knotige Struktur weniger gut. Ein malignes Melanom bleibt bei auffälligen pigmentierten oder neu wachsenden Hautveränderungen immer eine wichtige Differenzialdiagnose. Nach der vorgegebenen Lösung ist hier aber das Keratoakanthom die passendere Prüfungsantwort.",
+          "term": "Angiom oder Melanom"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Molluscum contagiosum verursacht meist kleine, hautfarbene, zentral gedellte Papeln. Ein einzelner 1,5-cm-Knoten mit raschem Wachstum bei erwachsener Person passt dazu deutlich schlechter. Die Läsion wäre für ein typisches Molluskum zu groß und zu tumorartig beschrieben.",
+          "term": "Molluscum contagiosum"
+        }
+      ]
+    },
+    "27": {
+      "topicLabel": "Aktinische Keratosen",
+      "explanation": "Die korrekte Antwort laut Lösungsschlüssel sind aktinische Keratosen, also frühe Plattenepithelkarzinom-Vorstufen auf chronisch lichtgeschädigter Haut. Sie treten häufig multipel auf und erscheinen als kleine raue, schuppige oder erythematöse Areale, die in der Bildfrage oberhalb der Hauptläsion gelegen haben können. Seborrhoische Keratosen sind zwar sehr häufig und können ebenfalls multipel auftreten, werden aber im Lösungsschlüssel nicht als richtig geführt. Senile Angiome wären vaskulär und meist glatt-rot, Exkoriationen wären Kratzartefakte. Wegen der Bildabhängigkeit und des widersprüchlichen Protokollhinweises bei Option 0 ist die inhaltliche Sicherheit etwas eingeschränkt. Maßgeblich bleibt aber `correctAnswers`, sodass Option 1 richtig ist.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Seborrhoische Keratosen sind gutartige, oft scharf begrenzte und wie aufgeklebt wirkende Alterswarzen. Sie können multipel sein und wären bildmorphologisch eine plausible Differenzialdiagnose. Laut Lösungsschlüssel ist diese Option aber nicht korrekt, sodass sie hier nicht als richtige Antwort gewertet wird.",
+          "term": "Seborrhoische Keratosen"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Diese Antwort ist richtig. Aktinische Keratosen entstehen auf chronisch UV-geschädigter Haut und zeigen sich häufig als multiple raue, schuppende Läsionen. Sie gelten als Präkanzerosen beziehungsweise frühe Formen im Spektrum des Plattenepithelkarzinoms und passen zu kleinen zusätzlichen Effloreszenzen in sonnenexponierten Arealen.",
+          "term": "Aktinische Keratosen"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Exkoriationen sind Kratz- oder Scheuerverletzungen der Haut. Sie erklären keine typischen multiplen keratotischen Läsionen auf lichtgeschädigter Haut. Ohne Hinweis auf traumatisches Aufkratzen sind sie weniger wahrscheinlich.",
+          "term": "Exkoriationen"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Senile Angiome sind kleine, rote vaskuläre Papeln. Sie sind häufig harmlos und können multipel auftreten, haben aber keine raue keratotische Oberfläche. Damit passen sie weniger gut zu aktinischen Begleitläsionen.",
+          "term": "Senile Angiome"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Ohne konkrete Beschreibung kann sie nicht gegen die als korrekt markierten aktinischen Keratosen abgewogen werden.",
+          "term": "Unvollständige Option"
+        }
+      ]
+    },
+    "28": {
+      "topicLabel": "Prostatakarzinom-Risiko",
+      "explanation": "Für die Risikostratifikation des lokalisierten Prostatakarzinoms werden unter anderem PSA-Wert, Gleason-Score beziehungsweise ISUP-Gruppe und Tumorausdehnung herangezogen. Ein Gleason-Score von 4+4=8 entspricht einem ungünstigen histologischen Muster und ordnet den Patienten in die Hochrisikogruppe ein. Der PSA-Wert von 17 allein läge nicht im höchsten Risikobereich, wird aber durch den Gleason-Score überlagert. Der bilaterale Tumornachweis unterstützt zusätzlich eine relevante Tumorlast, ist aber für die Hochrisikoeinstufung nicht der entscheidende alleinige Punkt. Die Aussage, das Risiko könne nicht bestimmt werden, ist falsch, weil die genannten Befunde gerade eine Einordnung erlauben. Damit ist Hoch-Risiko-Prostatakarzinom korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein intermediäres Risiko wäre bei weniger ungünstigen Befunden denkbar, etwa bei niedrigerem Gleason-Muster und moderatem PSA. Hier liegt jedoch in weiteren Stanzen ein Gleason 4+4=8 vor. Dieser Befund hebt die Erkrankung in die Hochrisikokategorie.",
+          "term": "Intermediärrisiko"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Diese Antwort ist richtig. Ein Gleason-Score von 8 ist ein starkes Hochrisikokriterium beim Prostatakarzinom. Auch wenn der PSA-Wert nicht allein hochrisikodefinierend wäre, reicht der histologische Befund für die Einordnung als Hoch-Risiko-Prostatakarzinom aus.",
+          "term": "Hochrisiko-Prostatakarzinom"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Niedrigrisiko-Prostatakarzinom setzt günstige klinische und histologische Befunde voraus. Ein Gleason 4+4=8 ist damit nicht vereinbar. Auch der PSA-Wert und der beidseitige Tumornachweis sprechen klar gegen eine Niedrigrisikosituation.",
+          "term": "Niedrigrisiko"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Das Risiko kann anhand der vorliegenden Diagnostik sehr wohl eingeschätzt werden. PSA, MRT-gestützte und systematische Biopsien sowie Gleason-Scores liefern zentrale Informationen. Gerade der höchste nachgewiesene Gleason-Score bestimmt hier die Risikogruppe.",
+          "term": "Risikostratifikation"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Ohne konkreten Inhalt kann sie die klare Hochrisikoeinstufung durch Gleason 8 nicht ersetzen.",
+          "term": "Unvollständige Option"
+        }
+      ]
+    },
+    "29": {
+      "topicLabel": "PSMA-PET/CT",
+      "explanation": "Beim Prostatakarzinom ist die PSMA-PET/CT eine sehr sensitive und spezifische Methode zur Darstellung von Lymphknoten- und Fernmetastasen, insbesondere bei höherem Risiko. PSMA steht für prostataspezifisches Membranantigen, das in vielen Prostatakarzinomzellen stark exprimiert wird. Dadurch kann die Untersuchung Tumormanifestationen gezielter erfassen als rein morphologische CT-Verfahren. Ein Ganzkörper-MRT kann ebenfalls Metastasen detektieren, ist aber in dieser Prüfungsfrage nicht die beste Antwort. FDG-PET ist beim typischen Prostatakarzinom weniger geeignet, da viele Tumoren nicht primär stark FDG-avid sind. Deshalb ist PSMA-PET/CT korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein CT des Abdomens kann vergrößerte Lymphknoten oder Organmetastasen zeigen. Es ist jedoch primär morphologisch und übersieht kleine oder nicht vergrößerte Tumormanifestationen leichter. Im Vergleich zur PSMA-PET/CT ist es für diese Fragestellung weniger sensitiv und spezifisch.",
+          "term": "CT Abdomen"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Diese Antwort ist richtig. Die PSMA-PET/CT kombiniert funktionelle PSMA-basierte Tumordetektion mit anatomischer Zuordnung in der CT. Beim Prostatakarzinom ist sie für Metastasensuche und Ausbreitungsdiagnostik besonders leistungsfähig.",
+          "term": "PSMA-PET/CT"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "CT von Thorax und Abdomen ist ein klassisches Stagingverfahren und kann grobe Fernmetastasen erfassen. Für kleine Lymphknotenmetastasen oder frühe ossäre Manifestationen ist es aber weniger treffsicher. Die PSMA-PET/CT ist für Prostatakarzinommetastasen gezielter.",
+          "term": "CT Thorax-Abdomen"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Ganzkörper-MRT kann insbesondere Knochen- und Weichteilmetastasen gut darstellen. Es nutzt aber nicht die tumorspezifische PSMA-Anreicherung. In der Frage nach höchster Sensitivität und Spezifität beim Prostatakarzinom ist daher PSMA-PET/CT vorzuziehen.",
+          "term": "Ganzkörper-MRT"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "FDG-PET bildet Glukosestoffwechsel ab und ist bei vielen Tumorarten hilfreich. Beim üblichen Prostatakarzinom ist FDG jedoch nicht die spezifischste Standardmethode. PSMA-basierte Bildgebung passt biologisch deutlich besser zur Erkrankung.",
+          "term": "FDG-PET"
+        }
+      ]
+    },
+    "30": {
+      "topicLabel": "Lokalisiertes Prostatakarzinom",
+      "explanation": "Bei einem nicht metastasierten Prostatakarzinom mit Hochrisikokonstellation kommen kurative lokale Therapieverfahren in Betracht. Dazu gehören die radikale Prostatektomie mit Lymphknotenstaging oder eine definitive Radiotherapie, je nach Tumorstadium, Komorbidität und Patientenpräferenz. Eine alleinige Androgendeprivation ist in kurativer Situation meist nicht ausreichend als definitive Therapie. Eine transurethrale Prostataresektion behandelt obstruktive Beschwerden, aber nicht onkologisch kurativ das Prostatakarzinom. Östrogen- oder Gestagentherapien sind keine passende primäre Standardantwort für diesen Fall. Somit ist radikale Prostatektomie oder Radiatio die beste Option.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Diese Antwort ist richtig. Bei nicht metastasiertem Prostatakarzinom ist ein kurativer Ansatz mit radikaler Prostatektomie oder definitiver Radiotherapie grundsätzlich geeignet. Die Auswahl hängt von Staging, Risiko, Allgemeinzustand und Patientenwunsch ab.",
+          "term": "Kurative Lokaltherapie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Androgentherapie kann beim Prostatakarzinom eine wichtige Rolle spielen, besonders als Systemtherapie oder in Kombination mit Radiotherapie bei bestimmten Risikoprofilen. Als alleinige beste Therapie eines nicht metastasierten, kurativ behandelbaren Falls ist sie hier jedoch nicht ausreichend. Sie ersetzt die lokale kurative Behandlung nicht.",
+          "term": "Androgendeprivation"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine transurethrale Prostataentfernung beziehungsweise TUR-P dient vor allem der Behandlung einer benignen Obstruktion oder palliativer Harnabflussprobleme. Sie entfernt nicht die gesamte Prostata mit onkologischer Zielsetzung. Für ein lokalisiertes Prostatakarzinom ist sie daher nicht die kurative Standardtherapie.",
+          "term": "TUR-P"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Östrogen- und Gestagentherapien sind keine passende primäre Standardoption für diesen beschriebenen Fall. Moderne Prostatakarzinomtherapie orientiert sich an lokaler Kurativtherapie, Androgendeprivation und weiteren spezifischen Systemtherapien je nach Stadium. Diese Option wirkt unspezifisch und ist nicht die beste Antwort.",
+          "term": "Hormontherapie-Alternative"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Ohne konkreten Inhalt kann sie die als korrekt markierte kurative Lokaltherapie nicht ersetzen.",
+          "term": "Unvollständige Option"
+        }
+      ]
+    },
+    "31": {
+      "topicLabel": "Lobärpneumonie",
+      "explanation": "Bei einer ambulant erworbenen typischen Lobärpneumonie ist Streptococcus pneumoniae der klassische und wahrscheinlichste Erreger. Das klinische Bild mit Fieber, produktivem Husten und Abgeschlagenheit passt zu einer bakteriellen Pneumonie. Rauchen und Alkoholkonsum erhöhen zwar das Risiko für verschiedene Pneumonieerreger, ändern aber die häufigste Ursache der typischen CAP nicht grundsätzlich. Klebsiella kann bei Alkoholabhängigkeit und schwereren Verläufen vorkommen, ist aber nicht der Standarderreger der ambulanten Lobärpneumonie. Atypische Erreger wie Mykoplasmen oder Chlamydophila verursachen eher interstitielle oder atypische Verläufe. Influenza B wäre viral und passt nicht am besten zur Lobärpneumonie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Klebsiella pneumoniae kann Pneumonien verursachen und wird klassisch mit bestimmten Risikokonstellationen wie schwerem Alkoholabusus in Verbindung gebracht. Dennoch ist sie nicht der wahrscheinlichste Erreger einer gewöhnlichen ambulant erworbenen Lobärpneumonie. Streptococcus pneumoniae bleibt hier typischer.",
+          "term": "Klebsiella pneumoniae"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Influenza B verursacht eine virale Atemwegsinfektion und kann eine Pneumonie begünstigen oder komplizieren. Eine typische Lobärpneumonie mit produktivem Auswurf wird jedoch eher bakteriell gedacht. Ohne Influenza-Kontext ist Influenza B nicht die wahrscheinlichste Antwort.",
+          "term": "Influenza B"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Chlamydophila pneumoniae gehört zu den atypischen Erregern der ambulant erworbenen Pneumonie. Atypische Pneumonien zeigen oft weniger lobäre Konsolidierung und eher trockenen Husten oder schleichenden Verlauf. Für die klassische Lobärpneumonie ist dieser Erreger weniger wahrscheinlich.",
+          "term": "Chlamydophila pneumoniae"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Diese Antwort ist richtig. Streptococcus pneumoniae ist der klassische häufige Erreger der ambulant erworbenen typischen Pneumonie und besonders der Lobärpneumonie. Das klinische Bild mit Fieber und produktivem Husten passt gut dazu.",
+          "term": "Streptococcus pneumoniae"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Mycoplasma pneumoniae ist ein typischer atypischer Pneumonieerreger, häufig mit schleichendem Beginn und eher trockener Symptomatik. Eine Lobärpneumonie wird klassisch nicht primär dadurch erklärt. Deshalb ist diese Option weniger passend als Pneumokokken.",
+          "term": "Mycoplasma pneumoniae"
+        }
+      ]
+    },
+    "32": {
+      "topicLabel": "Ambulante Pneumonie",
+      "explanation": "Die Frage bezieht sich auf den vorherigen Fall einer ambulant erworbenen Lobärpneumonie mit wahrscheinlich pneumokokkenbedingter Ätiologie. Für eine kalkulierte ambulante Therapie ist Amoxicillin eine naheliegende Basistherapie gegen Pneumokokken. Oseltamivir wäre eine antivirale Therapie bei Influenza und passt nicht zur bakteriellen Lobärpneumonie. Flucloxacillin richtet sich vor allem gegen Staphylokokken und ist für die Standard-CAP nicht passend. Penicillin V ist für diese Indikation weniger geeignet als Amoxicillin. Levofloxacin kann in bestimmten Situationen eingesetzt werden, ist aber wegen Nebenwirkungsprofil und Antibiotic-Stewardship nicht die erste Prüfungsantwort bei unkomplizierter ambulanter Pneumonie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Diese Antwort ist richtig. Amoxicillin deckt Pneumokokken gut ab und passt zur kalkulierten ambulanten Therapie einer typischen ambulant erworbenen Pneumonie. Es knüpft direkt an den wahrscheinlichsten Erreger aus der Vorfrage an.",
+          "term": "Amoxicillin"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Oseltamivir ist ein Neuraminidasehemmer gegen Influenza. Für eine bakterielle Lobärpneumonie ist es keine kalkulierte Standardantibiose. Es wäre nur bei passendem Influenzaverdacht oder gesicherter Influenza zu diskutieren.",
+          "term": "Oseltamivir"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Flucloxacillin ist vor allem ein Anti-Staphylokokken-Penicillin. Die typische ambulant erworbene Lobärpneumonie wird jedoch primär pneumokokkenorientiert behandelt. Daher ist Flucloxacillin hier nicht die beste kalkulierte Therapie.",
+          "term": "Flucloxacillin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Penicillin V ist oral verfügbar, wird aber für die ambulante Pneumonie nicht als beste Standardantwort gegenüber Amoxicillin gewählt. Amoxicillin erreicht für respiratorische Infektionen ein geeigneteres Wirkspektrum und wird in diesem Kontext bevorzugt. Deshalb ist Penicillin V hier nicht korrekt.",
+          "term": "Penicillin V"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Levofloxacin ist ein Fluorchinolon mit Wirksamkeit gegen typische und atypische Pneumonieerreger. Wegen relevanter Nebenwirkungen und Resistenzschutz wird es nicht unnötig als erste Wahl bei unkomplizierter ambulanter CAP eingesetzt. Es bleibt eher besonderen Konstellationen vorbehalten.",
+          "term": "Levofloxacin"
+        }
+      ]
+    },
+    "33": {
+      "topicLabel": "Subduralhämatom",
+      "explanation": "Nach Sturz unter Alkoholeinfluss mit schwerer Bewusstseinsstörung und entsprechendem cCT-Befund ist laut Lösungsschlüssel ein Subduralhämatom gemeint. Subduralhämatome entstehen typischerweise zwischen Dura und Arachnoidea und können nach Trauma auftreten, besonders bei vulnerablen Brückenvenen. Im CT erscheinen sie klassisch sichelförmig entlang der Hemisphärenkonvexität, während Epiduralhämatome eher bikonvex begrenzt sind. Eine intrazerebrale Contre-coup-Blutung oder Subarachnoidalblutung hätte andere typische Blutungsverteilungen. Da das konkrete Bild nicht vorliegt, stützt sich die Einordnung auf den Lösungsschlüssel und die Folgefrage zu Brückenvenen. Die korrekte Antwort ist Subduralhämatom.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Diese Antwort ist richtig. Ein traumatisches Subduralhämatom passt zum Sturzereignis und zur Folgefrage nach verletzten Brückenvenen. Klinisch kann es bei großer Blutung oder Hirndruck rasch zu schwerer Bewusstseinsstörung führen.",
+          "term": "Subduralhämatom"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Contre-coup-Blutung liegt intrazerebral auf der Gegenseite des Anpralls und ist eine andere traumatische Blutungsform. Sie erklärt nicht die klassische Folgefrage nach Brückenvenen des Subduralraums. Der Lösungsschlüssel spricht daher gegen diese Option.",
+          "term": "Contre-coup-Blutung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Subarachnoidalblutung verteilt sich im Subarachnoidalraum, etwa in Sulci und basalen Zisternen. Traumatische SAB ist möglich, aber die Folgefrage nach Brückenvenen passt besser zum Subduralhämatom. Zudem wäre bei aneurysmatischer SAB ein anderer klinischer Kontext typisch.",
+          "term": "Subarachnoidalblutung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Epiduralhämatom entsteht klassisch durch arterielle Blutung, häufig aus der Arteria meningea media. Im CT ist es eher linsenförmig und durch Schädelnähte begrenzt. Das passt nicht zur vorgegebenen korrekten Blutungsart.",
+          "term": "Epiduralblutung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Ohne konkreten Befundinhalt kann sie nicht gegen das als korrekt markierte Subduralhämatom bewertet werden.",
+          "term": "Unvollständige Option"
+        }
+      ]
+    },
+    "34": {
+      "topicLabel": "Brückenvenenruptur",
+      "explanation": "Die Folgefrage bezieht sich auf das zuvor gesuchte Subduralhämatom. Akute traumatische Subduralhämatome entstehen typischerweise durch Einriss von Brückenvenen zwischen Hirnoberfläche und venösen Sinus. Je nach Trauma können auch kortikale Gefäße beteiligt sein, was die gegebene Antwortformulierung einschließt. Die Arteria meningea media ist dagegen klassisch mit dem Epiduralhämatom verknüpft. Aneurysmen, thalamostriatale Gefäße oder die Arteria sphenopalatina passen nicht zum subduralen Blutungsraum nach Schädel-Hirn-Trauma. Deshalb ist Option 0 korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Diese Antwort ist richtig. Beim Subduralhämatom reißen typischerweise Brückenvenen, die vom Kortex zu den venösen Sinus ziehen. Die Formulierung mit kortikalen Gefäßen passt im traumatischen Kontext zusätzlich zu möglichen Begleitverletzungen.",
+          "term": "Brückenvenen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die Arteria meningea media ist die klassische Blutungsquelle des Epiduralhämatoms. Ein Epiduralhämatom liegt zwischen Schädelknochen und Dura und hat eine andere CT-Morphologie. Für das Subduralhämatom ist diese Arterie nicht typisch.",
+          "term": "Arteria meningea media"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Thalamostriatale Gefäße sind perforierende Gefäße im Bereich der Basalganglienregion. Blutungen dort wären eher intrazerebral lokalisiert. Sie erklären kein traumatisches Subduralhämatom.",
+          "term": "Thalamostriatale Gefäße"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Arteria sphenopalatina ist vor allem im Kontext der Epistaxis relevant. Sie hat keinen Bezug zur Entstehung eines Subduralhämatoms. Diese Option ist anatomisch nicht passend.",
+          "term": "Arteria sphenopalatina"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Aneurysma der Arteria cerebri media kann zu einer Subarachnoidalblutung führen. Das ist eine andere Blutungslokalisation und meist kein typischer traumatischer Subduralmechanismus. Daher passt diese Option nicht zur Vorfrage.",
+          "term": "MCA-Aneurysma"
+        }
+      ]
+    },
+    "35": {
+      "topicLabel": "Akuter Hirndruck",
+      "explanation": "Cushing-Reflex mit schwerer Hypertonie, Bradykardie und zunehmenden Beatmungsdrücken zeigt eine akute, lebensbedrohliche Hirndruckkrise an. Im Kontext eines großen rechtsseitigen traumatischen Hämatoms reicht eine rein medikamentöse Hirndrucksenkung nicht aus, wenn eine raumfordernde Blutung dekomprimiert werden muss. Die kausale Notfallmaßnahme ist die neurochirurgische Entlastung mit dekompressiver Hemikraniektomie und Hämatomausräumung. Eine Ventrikeldrainage kann bei Hydrozephalus oder Liquorabflussproblem helfen, beseitigt aber ein massives subdurales Raumforderungsproblem nicht ausreichend. Eine Bohrlochtrepanation ist eher bei chronischem Subduralhämatom typisch und für die akute schwere Dekompensation nicht die beste Antwort. Deshalb ist die sofortige operative Dekompression korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Ventrikeldrainage und medikamentöse Hirndrucksenkung können bei bestimmten Hirndruckursachen sinnvoll sein. Bei raumforderndem traumatischem Hämatom mit akuter Einklemmungsgefahr behandeln sie die Ursache aber nicht ausreichend. Der Fall verlangt eine operative Entlastung des Hämatoms.",
+          "term": "Ventrikeldrainage"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Diese Antwort ist richtig. Cushing-Zeichen bei raumforderndem Hämatom bedeuten eine neurochirurgische Notfallsituation. Die dekompressive Hemikraniektomie mit Hämatomausräumung senkt den Druck kausal und verhindert weitere Einklemmung.",
+          "term": "Dekompressive Hemikraniektomie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Bohrlochtrepanation ist vor allem bei chronischem Subduralhämatom ein typisches Verfahren. Bei akutem schwerem Schädel-Hirn-Trauma mit Hirndruckkrise und Hämatomraumforderung ist sie meist nicht ausreichend. Die größere dekompressive Operation ist hier die bessere Antwort.",
+          "term": "Bohrlochtrepanation"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine DSA dient dem Nachweis und gegebenenfalls der endovaskulären Behandlung vaskulärer Blutungsquellen. Das passt eher zu aneurysmatischen oder arteriovenösen Blutungen. Beim traumatischen Subduralhämatom mit akuter Druckkrise darf sie die Entlastungsoperation nicht verzögern.",
+          "term": "Digitale Subtraktionsangiografie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Osmotisch wirksame Substanzen können kurzfristig zur Hirndrucksenkung eingesetzt werden. Sie sind aber bei einer raumfordernden Blutung mit Einklemmungszeichen keine definitive Therapie. Entscheidend ist die rasche operative Dekompression.",
+          "term": "Osmotherapie"
+        }
+      ]
+    },
+    "36": {
+      "topicLabel": "Kolonkarzinom-Staging",
+      "explanation": "Beim histologisch gesicherten Kolonkarzinom gehört zur präoperativen Ausbreitungsdiagnostik eine Schnittbildgebung zur Beurteilung von Fernmetastasen und lokaler Situation. Nach bereits erfolgter Koloskopie und Abdomensonografie ist ein CT von Thorax und Abdomen die passende zusätzliche Staginguntersuchung. Beim Kolonkarzinom ist ein MRT des Beckens nicht regelhaft erforderlich; es ist vor allem beim Rektumkarzinom für die lokale Beckenbeurteilung zentral. Endosonografie spielt ebenfalls eher bei rektalen oder bestimmten lokalen Fragestellungen eine Rolle. PET-CT ist nicht die Standarduntersuchung für das primäre Staging eines unkomplizierten Kolonkarzinoms. Daher ist CT Thorax-Abdomen korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein MRT des Beckens ist insbesondere beim Rektumkarzinom wichtig, weil dort Mesorektum, Faszienbezug und lokale Resektabilität beurteilt werden. Der Tumor liegt hier im Colon descendens. Für das Kolonkarzinom-Staging ist daher CT Thorax-Abdomen naheliegender.",
+          "term": "MRT Becken"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Diese Antwort ist richtig. Das CT von Thorax und Abdomen dient der Suche nach Fernmetastasen, Lymphknotenbefall und weiteren relevanten Befunden vor Operation. Es ergänzt Koloskopie und Sonografie sinnvoll beim Kolonkarzinom-Staging.",
+          "term": "CT Thorax-Abdomen"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Urografie beurteilt Harntrakt und ableitende Harnwege. Die Prostatahyperplasie im Fall ist eine Nebendiagnose und begründet kein onkologisches Kolonkarzinom-Staging. Diese Untersuchung beantwortet die Metastasenfrage nicht adäquat.",
+          "term": "Urografie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Endosonografie ist für die lokale Tiefeninfiltration bei bestimmten gastrointestinalen Tumoren nützlich, besonders im Rektum oder Ösophagus. Beim Colon descendens ist sie präoperativ nicht die typische zusätzliche Staginguntersuchung. Die Fernmetastasensuche wird damit nicht ausreichend abgedeckt.",
+          "term": "Endosonografie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein PET-CT ist nicht die Standarduntersuchung für das routinemäßige Erststaging eines operablen Kolonkarzinoms. Es kann in speziellen unklaren Situationen hilfreich sein, ersetzt aber nicht das konventionelle CT-Staging. Daher ist es hier nicht die beste Antwort.",
+          "term": "PET-CT"
+        }
+      ]
+    },
+    "37": {
+      "topicLabel": "Präoperative Anämie",
+      "explanation": "Bei einem Patienten mit Kolonkarzinom und mikrozytär-hypochromer Anämie ist ein Eisenmangel durch chronischen Blutverlust sehr wahrscheinlich. Präoperativ sollte die Anämie gezielt abgeklärt und behandelt werden, um das perioperative Risiko und Transfusionsbedarf zu senken. Die im Lösungsschlüssel korrekte Antwort nennt Eisenstatusbestimmung und gegebenenfalls Eisengabe, im Protokoll sogar als intravenöse Option formuliert. Eine bloße Bereitstellung von Erythrozytenkonzentraten behandelt die Ursache nicht und ist keine Patient-Blood-Management-Strategie. Reines Nach-Hause-Schicken mit oraler Eisengabe ist vor Tumoroperation und relevanter Anämie zu unstrukturiert. Eigenblutspende ist bei anämischem Tumorpatienten nicht sinnvoll.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Erythrozytenkonzentrate bereitzustellen kann für den Notfall oder erwarteten Blutverlust organisatorisch nötig sein. Es ist aber nicht die beste primäre Maßnahme bei präoperativer Eisenmangelanämie. Die Ursache der Anämie sollte diagnostiziert und möglichst vor der Operation behandelt werden.",
+          "term": "Transfusionsbereitstellung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Diese Option geht inhaltlich in die richtige Richtung, ist laut Lösungsschlüssel aber nicht die gesuchte Antwort. Vermutlich war in der Prüfungsfassung die konkretere Formulierung mit Eisenstatus und gezielter Eisengabe, insbesondere i.v. bei zeitnaher OP, gemeint. Daher wird diese ähnlich klingende Option hier nicht als korrekt gewertet.",
+          "term": "Eisenstoffwechsel"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Diese Antwort ist richtig. Mikrozytär-hypochrome Anämie spricht für Eisenmangel, der vor einer Kolonkarzinomoperation abgeklärt und behandelt werden sollte. Eine gezielte Eisensubstitution kann Teil des präoperativen Patient Blood Management sein.",
+          "term": "Eisenstatus und Eisengabe"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Einfach nach Hause zu schicken und oral Eisen zu geben ist bei relevanter präoperativer Anämie vor Tumoroperation zu wenig gesteuert. Es fehlen Diagnostik, zeitliche Planung und Bewertung, ob eine schnellere oder gezieltere Substitution nötig ist. Die OP-Vorbereitung sollte aktiv optimiert werden.",
+          "term": "Orale Eisensubstitution"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Eigenblutspende ist bei bestehender Anämie ungünstig, weil sie den Hb-Wert weiter senken kann. Bei Tumoroperationen ist sie zudem nicht die naheliegende Strategie zur präoperativen Optimierung. Patient Blood Management zielt hier eher auf Diagnostik und Korrektur des Eisenmangels.",
+          "term": "Eigenblutspende"
+        }
+      ]
+    },
+    "38": {
+      "topicLabel": "TNM-Klassifikation",
+      "explanation": "Die Tumorformel pT3, N1, V1, L1, G2, M0, R0 beschreibt ein pathologisch gesichertes Kolonkarzinom mit Durchdringung über die Muscularis propria hinaus, regionärem Lymphknotenbefall, Gefäß- und Lymphgefäßinvasion, mäßiger Differenzierung, ohne Fernmetastasen und vollständig reseziert. Laut Lösungsschlüssel ist die Aussage zu N1, V1 und L1 als Markern für frühe Fernmetastasierung korrekt zu werten, da Nodalbefall sowie lymphovaskuläre Invasion eine erhöhte systemische Ausbreitungsneigung anzeigen. Das `p` steht für pathologische Klassifikation, nicht für Residualtumor. G2 bedeutet mäßig, nicht gut differenziert. M0 schließt ein UICC-Stadium IV aus. Außerdem ist mit 11 untersuchten Lymphknoten nicht das übliche geforderte Mindestmaß erreicht, sodass Option 0 nicht korrekt ist.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Diese Aussage ist nicht korrekt. Beim Kolonkarzinom wird für ein verlässliches nodales Staging üblicherweise eine ausreichende Zahl regionaler Lymphknoten gefordert; 11 wird hier laut Lösung nicht als Mindestmaß gewertet. Damit ist die Aussage zum Mindestmaß falsch.",
+          "term": "Lymphknotenstaging"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Das `p` in pT3 steht für pathologisch gesicherte TNM-Klassifikation. Der Residualtumor wird durch die R-Klassifikation beschrieben. Hier bedeutet R0, dass kein makroskopischer oder mikroskopischer Residualtumor nachweisbar ist.",
+          "term": "pTNM"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "G2 bedeutet mäßig differenziert. Gut differenziert wäre G1. Die Aussage setzt den Differenzierungsgrad daher falsch um.",
+          "term": "Grading G2"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Diese Antwort ist laut Lösungsschlüssel richtig. N1 zeigt regionären Lymphknotenbefall, V1 venöse Invasion und L1 lymphatische Invasion an. Diese Befunde markieren eine Tumorbiologie mit erhöhter Neigung zur systemischen beziehungsweise frühen metastatischen Ausbreitung.",
+          "term": "Lymphovaskuläre Invasion"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein UICC-Stadium IV setzt Fernmetastasen voraus. In der Tumorformel steht jedoch M0, also kein Nachweis von Fernmetastasen. Daher liegt nach den angegebenen Daten kein Stadium IV vor.",
+          "term": "UICC-Stadium IV"
+        }
+      ]
+    },
+    "39": {
+      "topicLabel": "Patellaluxation-Risiko",
+      "explanation": "Nach lateraler Patellaluxation sind anatomische Faktoren wichtig, die eine erneute laterale Instabilität begünstigen. Dazu zählen ein vergrößerter TT-TG-Abstand, Patellahochstand, Trochleadysplasie und pathologischer Patella-Tilt. Eine medialisierte Tuberositas tibiae zieht den Streckapparat eher nach medial und ist daher gerade kein typischer Risikofaktor für eine laterale Reluxation. Ein lateralisierter Ansatz der Tuberositas wäre dagegen problematisch, weil er den lateralen Zug erhöht. Die Frage fragt ausdrücklich nach dem Faktor, der am ehesten keinen Risikofaktor darstellt. Deshalb ist die medialisierte Tuberositas tibiae korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Diese Antwort ist richtig, weil nach dem Nicht-Risikofaktor gefragt wird. Eine medialisierte Tuberositas tibiae erhöht den lateralen Zug auf die Patella nicht, sondern wäre eher entlastend für laterale Instabilität. Problematisch ist typischerweise eine Lateralisierung mit erhöhtem TT-TG-Abstand.",
+          "term": "Medialisierte Tuberositas tibiae"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein vergrößerter TT-TG-Abstand ist ein etablierter Risikofaktor für laterale Patellainstabilität. Er beschreibt eine ungünstige laterale Position des Tuberositasansatzes relativ zur Trochlea. Dadurch steigt der lateralisierende Kraftvektor auf die Patella.",
+          "term": "TT-TG-Abstand"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Patellahochstand begünstigt Patellaluxationen. Die Patella greift später in die knöcherne Trochleaführung ein und ist in früher Flexion schlechter stabilisiert. Deshalb ist dies ein echter Risikofaktor.",
+          "term": "Patella alta"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Trochleadysplasie ist einer der wichtigsten anatomischen Risikofaktoren für rezidivierende Patellaluxationen. Die femorale Gleitrinne ist dabei zu flach oder fehlgeformt. Dadurch fehlt die knöcherne Führung der Patella.",
+          "term": "Trochleadysplasie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein pathologischer Patella-Tilt spricht für Fehlstellung und laterale Instabilitätstendenz. Er kann mit Retinakulumspannung und gestörter Zentrierung im Gleitlager einhergehen. Daher ist er kein Nicht-Risikofaktor, sondern eine relevante Instabilitätskonstellation.",
+          "term": "Patella-Tilt"
+        }
+      ]
+    },
+    "40": {
+      "topicLabel": "Patellaluxation-OP",
+      "explanation": "Nach akuter Patellaluxation wird initial häufig konservativ behandelt, wenn keine wesentlichen Begleitverletzungen vorliegen. Eine osteochondrale Fraktur beziehungsweise Flake-Fraktur ist jedoch eine absolute oder zumindest klare operative Indikation, weil ein Gelenkflächenfragment vorliegt und freie Gelenkkörper Folgeschäden verursachen können. Ein Gelenkerguss oder positives Apprehension-Zeichen zeigt zwar eine relevante Verletzung beziehungsweise Instabilität an, erzwingt aber allein nicht zwingend eine sofortige Operation. Auch eine isolierte MPFL-Ruptur ist nach Erstluxation häufig konservativ behandelbar, abhängig von Stabilität und Begleitbefunden. Eine Meniskopathie ist nicht die typische absolute OP-Indikation im Patellaluxationsfall. Daher ist die osteochondrale Fraktur die beste Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Diese Antwort ist richtig. Eine osteochondrale Fraktur nach Patellaluxation bedeutet, dass Knorpel-Knochen-Anteile aus der Gelenkfläche gelöst sein können. Wegen freier Fragmente und Gelenkflächenschaden besteht eine klare operative Behandlungsindikation.",
+          "term": "Osteochondrale Fraktur"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine bestehende Meniskopathie kann Beschwerden verursachen und je nach Ausprägung behandlungsbedürftig sein. Sie ist im Kontext der Patellaluxation aber nicht die typische absolute OP-Indikation. Entscheidend wäre eher eine blockierende Läsion oder ein klarer struktureller Schaden mit entsprechender Symptomatik.",
+          "term": "Meniskopathie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein positives Apprehension-Sign weist auf Patellainstabilität hin. Es belegt aber allein keine zwingende sofortige Operationspflicht nach Erstluxation. Die Therapie richtet sich nach Reluxationsrisiko, Begleitverletzungen und Verlauf.",
+          "term": "Apprehension-Sign"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein deutlicher Gelenkerguss ist nach akuter Patellaluxation häufig und kann auf eine Hämarthrose oder Begleitverletzung hinweisen. Er ist ein Anlass zur sorgfältigen Diagnostik, besonders zum Ausschluss osteochondraler Fragmente. Allein ist er aber nicht die absolute OP-Indikation.",
+          "term": "Gelenkerguss"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Das mediale patellofemorale Ligament reißt bei lateraler Patellaluxation häufig. Eine MPFL-Ruptur allein wird nach Erstluxation nicht automatisch operiert. Operativ relevant wird sie vor allem bei rezidivierender Instabilität oder in Kombination mit weiteren Risikofaktoren und Begleitverletzungen.",
+          "term": "MPFL-Ruptur"
+        }
+      ]
+    }
+  }
+}
