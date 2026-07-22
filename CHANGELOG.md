@@ -6,16 +6,22 @@ Kurze Übersicht der wichtigsten Änderungen.
 
 ## 07/2026
 
-### Altfragen-Lernmodus (Website `/altfragen`)
-- **Öffentlich nur Kreuzen**: freigegebene Klausuren üben
-- **Admin-Panel** (`/altfragen/admin`): Upload, KI-Konvertierung, Lösungsprüfung, Freigabe
-- **Gemeinsame Klausurbank** (Datei + optional GitHub Contents API)
-- **M2 SS26**: 319 Fragen mit grünen Lösungen (Pixel-Extraktion, seitenübergreifend)
-- **Amboss-Style**: Fragenübersicht, Seitennavigation, Springen zu Fragen
-- **Option-Erklärungen**: Wikipedia-Extrakte + Amboss/Flexikon-Links; Live-Nachladen beim Prüfen
-- **Community-Statistik**: Wie oft Optionen gewählt / % richtig (Seed + Live)
-- **Fachschafts-Zugang**: optionaler `ALTFRAGEN_ACCESS_CODE` (kein Login nötig)
-- Prompts für **2. Staatsexamen / M2** generalisiert (nicht mehr Derma-only)
+### Website-Struktur & Doku
+- **Startseite neu:** klare Trennung **Kreuzen** vs **Anki** (Header-Nav, zwei Module, Anker `#kreuzen` / `#anki`)
+- Gemeinsamer Site-Header/Footer; Altfragen nutzt dieselbe Nav
+- Doku aktualisiert: README, SETUP, FEATURES
+
+### Altfragen / Kreuzen
+- **Öffentlich nur Kreuzen**; Admin-Panel für Upload & Freigabe
+- **M2 SS26** (~319) + **M2 2025-A** (320 Fragen, 3 PDFs als eine Klausur)
+- Amboss-Style UI, Auswertung (richtig/falsch/Zeit), Einzel-Reset
+- Community-Stats ohne Seed-Daten; Fake-Erklärungen entfernt
+- Optionaler Fachschafts-Zugang; schlankere Exam-API (ohne Rationales-Blob)
+- Favicon/Mark Adalbert; Header ohne Oval-Crop
+
+### Anki
+- Dashboard lazy-load auf der Startseite (`/#anki`)
+- Bestehende MCP- und Website-Anreicherung unverändert nutzbar
 
 ---
 
@@ -30,30 +36,15 @@ Kurze Übersicht der wichtigsten Änderungen.
 - **PDF hochladen** → Altklausuren als Anki-Karten
 - **LLM extrahiert Fragen** (SC/MC/KPRIM erkannt)
 - **LLM bestimmt korrekte Antworten** + Erklärungen
-- **Deck-Auswahl**: Neues Deck oder Unterdeck (z.B. "Derma::Altklausuren::WS18-19")
+- **Deck-Auswahl**: Neues Deck oder Unterdeck
 - Format: Question, Q_1–Q_5, Answers (kompatibel mit bestehenden Decks)
 
 ### Resume-Funktion für Anreicherung
-- **Fortschritt wird automatisch gespeichert** im Browser (localStorage)
-- Bei Netzwerkfehler oder Computer-Schlaf: **Fortsetzen** statt Neustart
-- "Neu starten" Button um von vorne zu beginnen
-- Anzeige des gespeicherten Fortschritts mit Zeitstempel
+- Fortschritt im Browser (localStorage), Fortsetzen statt Neustart
 
-### 80/20 Themenliste (LLM)
-- Top 15 **Themen** statt einzelner Fragen, Fokus auf Konzepte
-- LLM-basierte Analyse mit Lernzielen und Begründungen
-- Kein nutzloser Heuristik-Fallback mehr; klare Fehlermeldung, wenn LLM nicht verfügbar
-
-### Karten-Anreicherung: Struktur & Originalerhalt
-- **Bewertungstabelle**: Aussage | Richtig/Falsch | Begründung (MC-Fragen)
-- **Zusammenfassung** als Take-Home-Message
-- **Original-Frage, Q1–Q5, Binärcode** bleiben erhalten und werden klickbar/lesbar angezeigt
-- Binärcode-Anzeige: Grün (✓) / Rot (✗) pro Option; Leerzeichen im Code werden ignoriert
-
-### Export: Anreicherung in Original-Karten (Option A)
-- **Keine neuen Karten** mehr; Anreicherung wird ins **Sources-Feld** der bestehenden Karten geschrieben
-- KPRIM/MC-Format (Question, Q_1–Q_5, Answers) bleibt unverändert
-- Lösung, Tabelle, Zusammenfassung, Eselsbrücke, Referenz, Hinweis landen im Sources-Feld
+### Karten-Anreicherung
+- Bewertungstabelle, Zusammenfassung, Originalfelder erhalten
+- Anreicherung ins Sources-Feld der bestehenden Karten
 
 ---
 
