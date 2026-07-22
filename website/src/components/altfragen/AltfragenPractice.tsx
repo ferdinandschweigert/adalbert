@@ -135,7 +135,10 @@ export function AltfragenPractice({ examId }: { examId: string }) {
   const index = progress?.currentIndex ?? 0;
   const question = questions[index];
   const optionCount = question?.options.length ?? 0;
-  const selection = normalizeBits(progress?.selections[index], optionCount);
+  const selection = normalizeBits(
+    progress?.selections[index] ?? progress?.selections[String(index) as unknown as number],
+    optionCount
+  );
   const isChecked = progress?.checked.some((i) => Number(i) === index) ?? false;
   const currentStat = question ? communityStats[String(question.number)] : undefined;
 
@@ -143,9 +146,9 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     (i: number): NavStatus => {
       if (!progress || !questions[i]) return 'unseen';
       if (i === progress.currentIndex && !showOverview && !showResult) return 'current';
-      if (!progress.checked.includes(i)) return 'unseen';
+      if (!progress.checked.some((c) => Number(c) === i)) return 'unseen';
       const q = questions[i];
-      const sel = progress.selections[i] || '';
+      const sel = progress.selections[i] ?? progress.selections[String(i) as unknown as number] ?? '';
       if (!hasAnswerKey(q)) return 'done';
       return isCorrect(q, sel) ? 'correct' : 'wrong';
     },
@@ -157,10 +160,12 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     let correct = 0;
     let graded = 0;
     for (let i = 0; i < exam.questions.length; i++) {
-      if (!progress.checked.includes(i)) continue;
+      if (!progress.checked.some((c) => Number(c) === i)) continue;
       if (!hasAnswerKey(exam.questions[i])) continue;
       graded += 1;
-      if (isCorrect(exam.questions[i], progress.selections[i] || '')) correct += 1;
+      const sel =
+        progress.selections[i] ?? progress.selections[String(i) as unknown as number] ?? '';
+      if (isCorrect(exam.questions[i], sel)) correct += 1;
     }
     return { correct, graded, checked: progress.checked.length };
   }, [exam, progress]);
