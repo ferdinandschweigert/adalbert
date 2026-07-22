@@ -1,0 +1,745 @@
+{
+  "examId": "m2-2025a-staatsexamen",
+  "questions": {
+    "101": {
+      "topicLabel": "Hepatisches Adenom",
+      "explanation": "Bei der Patientin ist ein hepatisches Adenom bereits histologisch gesichert und mit 10 cm deutlich groß. Hepatische Adenome sind benigne Lebertumoren, können aber insbesondere bei größerem Durchmesser bluten und haben je nach Subtyp ein relevantes Entartungsrisiko. Bei einer großen, soliden Raumforderung ist daher die operative Resektion die naheliegende definitive Therapie. Ein rein abwartendes Vorgehen wäre in dieser Konstellation zu zurückhaltend, weil die Läsion bereits groß ist und nicht nur zufällig unklar imponiert. Medikamentöse antiöstrogene Therapie, Transplantationsvorbereitung oder Embolisation sind im geschilderten elektiven Setting nicht die primär indizierte Standardmaßnahme.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die Resektion der Leber-Raumforderung ist hier richtig. Ein hepatisches Adenom von 10 cm ist wegen Blutungs- und Entartungsrisiko nicht nur kontrollbedürftig, sondern sollte in der Regel operativ entfernt werden, sofern die Patientin resektabel ist. Die histologische Sicherung nimmt der Läsion zudem nicht die klinische Relevanz.",
+          "term": "Leberadenom Resektion"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Beobachtung und erweiterte Bildgebung können bei kleinen, asymptomatischen oder diagnostisch noch unklaren Leberläsionen sinnvoll sein. In diesem Fall ist die Diagnose jedoch bereits durch Biopsie gestellt und der Tumor mit 10 cm groß. Ein Watch-and-wait-Ansatz würde das Blutungs- und Progressionsrisiko nicht angemessen adressieren.",
+          "term": "Beobachtung Leberadenom"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine antiöstrogene Therapie ist keine etablierte definitive Behandlung eines großen hepatischen Adenoms. Zwar können hormonelle Einflüsse bei Adenomen eine Rolle spielen und das Absetzen östrogenhaltiger Präparate relevant sein. Bei einer 10-cm-Läsion ersetzt dies aber nicht die indizierte Resektion.",
+          "term": "antiöstrogene Therapie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Lebertransplantation ist bei einem isolierten, resektablen hepatischen Adenom nicht angezeigt. Sie kommt nur bei ganz anderen Konstellationen schwerer diffuser Lebererkrankung oder nicht anders behandelbarer Tumorsituationen in Betracht. Die Frage beschreibt eine einzelne Raumforderung, die chirurgisch entfernt werden kann.",
+          "term": "Lebertransplantation"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine transarterielle Embolisation kann bei akuter Blutung oder ausgewählten interventionellen Situationen eine Rolle spielen. Hier wird jedoch keine Ruptur oder hämodynamische Notfallsituation beschrieben. Bei gesichertem großem Adenom ist die Resektion die passendere definitive Maßnahme.",
+          "term": "transarterielle Embolisation"
+        }
+      ]
+    },
+    "102": {
+      "topicLabel": "Amaurosis fugax",
+      "explanation": "Die Patientin berichtet über wiederholte, kurz dauernde, vollständig reversible Erblindung eines Auges ohne Schmerzen. Das ist klassisch für eine Amaurosis fugax, also eine vorübergehende retinale oder okuläre Ischämie. Die Symptomdauer von wenigen Minuten und die komplette Erholung sprechen eher für ein embolisches oder hämodynamisches Ereignis als für eine primäre Glaskörper- oder Entzündungserkrankung. Das höhere Alter und der zeitweise erhöhte Blutdruck erhöhen die Plausibilität eines vaskulären Geschehens. Eine Amaurosis fugax ist klinisch als TIA-Äquivalent ernst zu nehmen und sollte vaskulär abgeklärt werden.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Amaurosis fugax ist die richtige Diagnose. Typisch sind plötzlich einsetzende, schmerzlose, vorübergehende monokulare Sehstörungen mit vollständiger Rückbildung. Die geschilderten Episoden über maximal wenige Minuten passen sehr gut zu einer transienten retinalen Ischämie.",
+          "term": "Amaurosis fugax"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Glaskörperfloater werden als bewegliche Punkte, Fäden oder Schatten wahrgenommen und persistieren meist situationsabhängig im Gesichtsfeld. Sie verursachen keine vollständige, wenige Minuten dauernde Blindheit eines Auges mit anschließender vollständiger Erholung. Schmerzlosigkeit allein macht diese Diagnose daher nicht passend.",
+          "term": "Glaskörperfloater"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Neuritis nervi optici verursacht typischerweise eine über Stunden bis Tage zunehmende Visusminderung und ist häufig mit Schmerzen bei Augenbewegungen verbunden. Die Beschwerden bilden sich nicht wiederholt nach wenigen Minuten komplett zurück. Die Altersgruppe und der paroxysmale Verlauf sprechen ebenfalls eher gegen eine Optikusneuritis.",
+          "term": "Optikusneuritis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Das Posner-Schlossman-Syndrom ist durch rezidivierende glaukomatozyklitische Krisen mit Augeninnendruckanstieg und meist entzündlichen Vorderabschnittsbefunden geprägt. Es erklärt keine isolierte, komplette, kurzzeitige monokulare Erblindung. Schmerzen oder Druckgefühl wären zudem eher erwartbar als bei der beschriebenen Amaurosis fugax.",
+          "term": "Posner-Schlossman-Syndrom"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein rezidivierendes Winkelblockglaukom verursacht typischerweise anfallsartige Augenschmerzen, Rötung, Halos, Übelkeit oder Druckgefühl. Eine schmerzlose, vollständig reversible Blindheit für wenige Minuten passt dazu nicht. Die Frage beschreibt vielmehr ein vaskuläres Warnsymptom.",
+          "term": "Winkelblockglaukom"
+        }
+      ]
+    },
+    "103": {
+      "topicLabel": "Frozen Shoulder",
+      "explanation": "Die Patientin hat eine schmerzhafte Schultersteife mit deutlicher Einschränkung der passiven Beweglichkeit, besonders der Außenrotation. Der Verlauf mit zunächst massiven Ruhe- und Nachtschmerzen und beginnender Schmerzabnahme bei persistierender Bewegungseinschränkung passt gut zur adhäsiven Kapsulitis, also Frozen Shoulder. Diabetes mellitus ist ein typischer Risikofaktor für dieses Krankheitsbild. Gegen eine isolierte Sehnenläsion spricht, dass nicht nur die aktive, sondern auch die passive Beweglichkeit global eingeschränkt ist. Arthrose, Nekrose oder eine isolierte Bizepssehnentendinitis erklären den akuten schmerzhaften Beginn und das typische Kapselmuster weniger gut.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine aseptische Humeruskopfnekrose kann Schulterschmerzen verursachen, würde aber meist bildmorphologisch und anamnestisch anders abgeklärt werden und erklärt das typische globale Kapselmuster nicht am besten. In der Frage fehlen Risikofaktoren wie relevante Steroidexposition, Alkoholabusus oder Trauma. Die ausgeprägte passive Bewegungseinschränkung mit Diabetes spricht stärker für Frozen Shoulder.",
+          "term": "Humeruskopfnekrose"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Frozen Shoulder ist die wahrscheinlichste Verdachtsdiagnose. Charakteristisch sind starke Schulter- und Nachtschmerzen mit zunehmender passiver und aktiver Bewegungseinschränkung, besonders der Außenrotation. Der gut eingestellte Diabetes mellitus erhöht die Wahrscheinlichkeit zusätzlich.",
+          "term": "adhäsive Kapsulitis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Omarthrose entwickelt sich typischerweise langsam progredient und betrifft eher ältere Patientinnen und Patienten. Sie kann Schmerzen und Bewegungseinschränkung verursachen, passt aber weniger zu einem plötzlich neu aufgetretenen, sechswöchigen Verlauf mit massiven Nacht- und Ruheschmerzen. Das klinische Kapselmuster ist für Frozen Shoulder typischer.",
+          "term": "Omarthrose"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Rotatorenmanschettenläsionen führen vor allem zu Schmerzen und Schwäche bei aktiven Bewegungen. Die passive Beweglichkeit bleibt bei isolierten Sehnenläsionen oft vergleichsweise besser erhalten. Die hier stark eingeschränkte passive Außenrotation und Abduktion spricht eher für eine Kapselkontraktur.",
+          "term": "Rotatorenmanschettenläsion"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Tendinitis der langen Bizepssehne verursacht meist ventrale Schulterschmerzen und Druckschmerz im Sulcus bicipitalis, aber keine globale passive Schultersteife. Sie erklärt insbesondere die deutliche Außenrotations- und Abduktionseinschränkung nicht ausreichend. Der Gesamtbefund passt besser zur Frozen Shoulder.",
+          "term": "Bizepssehnentendinitis"
+        }
+      ]
+    },
+    "104": {
+      "topicLabel": "Thalamusschmerz",
+      "explanation": "Ein Infarkt im rechten Thalamus kann zu zentralen Schmerzen auf der kontralateralen Körperseite führen. Der Thalamus ist eine zentrale Umschaltstation somatosensorischer Bahnen, darunter auch nozizeptive Informationen. Bei Läsionen kann es zu einem zentralen poststroke pain kommen, klassisch auch als thalamisches Schmerzsyndrom beschrieben. Da sensible Bahnen überwiegend gekreuzt verlaufen, wäre bei rechtsseitiger Läsion eher die linke Körperseite betroffen. Reine emotionale Schmerzverarbeitung oder endogene Schmerzhemmung stehen bei dieser anatomischen Lokalisation nicht im Vordergrund.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Thalamusinfarkt bleibt nicht zwingend folgenlos, da der Thalamus für sensorische Verarbeitung und Weiterleitung zentral ist. Gerade sensible Ausfälle oder zentrale Schmerzen sind mögliche Folgen. Die Antwort unterschätzt daher die klinische Bedeutung der Läsion.",
+          "term": "Thalamusinfarkt"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Linksseitige Schmerzen sind bei einem rechten Thalamusinfarkt am ehesten zu erwarten. Das entspricht einem zentralen Schmerzsyndrom auf der kontralateralen Seite. Die Lokalisation passt zur Kreuzung somatosensorischer Bahnen und zur thalamischen Verarbeitung von Schmerzreizen.",
+          "term": "zentrales Schmerzsyndrom"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die emotionale Verarbeitung von Schmerzen wird stärker mit limbischen und kortikalen Netzwerken verbunden. Der Thalamus ist zwar in Schmerznetzwerke eingebunden, die prüfungsrelevante Folge einer rechtsseitigen thalamischen Läsion ist hier aber der kontralaterale zentrale Schmerz. Diese Option trifft den anatomischen Kern der Frage weniger gut.",
+          "term": "emotionale Schmerzverarbeitung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die endogene Schmerzhemmung wird vor allem über absteigende modulierende Systeme, etwa aus Hirnstammnetzwerken, vermittelt. Ein Thalamusinfarkt kann Schmerzverarbeitung verändern, erklärt aber nicht am ehesten eine isolierte Störung dieser Hemmsysteme. Gesucht ist die typische kontralaterale Schmerzfolge.",
+          "term": "endogene Schmerzhemmung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine rechtsseitige herabgesetzte Schmerzwahrnehmung passt nicht zur gekreuzten somatosensorischen Organisation. Bei einem rechten Thalamusinfarkt wären sensible Störungen eher linksseitig zu erwarten. Außerdem fragt die Konstellation am ehesten nach zentralen Schmerzen, nicht nach ipsilateraler Hypalgesie.",
+          "term": "ipsilaterale Hypalgesie"
+        }
+      ]
+    },
+    "105": {
+      "topicLabel": "AWMF-Leitlinien",
+      "explanation": "Gesucht ist die Aussage, die am wenigsten zutrifft. AWMF-Leitlinien sind systematisch entwickelte Entscheidungshilfen, aber keine rechtlich verbindlichen Richtlinien mit Richtlinienfunktion. Auch S3-Leitlinien haben durch systematische Evidenzaufarbeitung und Konsensprozesse die höchste methodische Qualität, bleiben jedoch Empfehlungen. Die Offenlegung von Interessenkonflikten, Interdisziplinarität und formale Evidenz- bzw. Konsensverfahren ab höheren Stufen gehören hingegen zum Leitlinienverständnis der AWMF. Ebenso ist die Graduierung von Empfehlungen ein typisches Element methodisch hochwertiger Leitlinien.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die Offenlegung von Interessenkonflikten ist ein zentrales Element der Leitlinienarbeit. Sie soll Transparenz schaffen und den Umgang mit möglichen Verzerrungen ermöglichen. Diese Aussage trifft daher zu und ist nicht die gesuchte am wenigsten zutreffende Antwort.",
+          "term": "Interessenkonflikte"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Diese Aussage ist am wenigsten zutreffend. Auch S3-Leitlinien der AWMF sind keine verbindlichen Richtlinien, sondern evidenz- und konsensbasierte Handlungsempfehlungen. Sie können medizinische Standards prägen, haben aber nicht automatisch Richtlinienfunktion.",
+          "term": "S3-Leitlinie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein interdisziplinärer Ansatz ist bei vielen Leitlinien ausdrücklich gewünscht, weil Diagnostik und Therapie häufig mehrere Fachgebiete berühren. Dadurch sollen Empfehlungen praktikabel und fachlich ausgewogen werden. Diese Aussage ist daher grundsätzlich zutreffend.",
+          "term": "Interdisziplinarität"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ab den höheren Leitlinienstufen sind strukturierte Verfahren zur Evidenz- und/oder Konsensbasierung charakteristisch. S2-Leitlinien unterscheiden sich gerade durch solche formalen Elemente von rein informellen Expertenempfehlungen. Die Aussage passt daher zum AWMF-Regelwerk.",
+          "term": "Evidenz und Konsens"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Graduierung von Empfehlungen ist ein übliches Instrument, um Stärke und Verbindlichkeitsgrad einer Empfehlung transparent zu machen. Starke, abgeschwächte oder offene Empfehlungen helfen, Nutzen, Schaden und Evidenzlage abzubilden. Diese Aussage ist daher nicht die falsche Kernaussage.",
+          "term": "Empfehlungsgraduierung"
+        }
+      ]
+    },
+    "106": {
+      "topicLabel": "Kindeswohlgefährdung",
+      "explanation": "Die zahlreichen unterschiedlich alten Hämatome an untypischen Lokalisationen und die doppelkonturierten, ösenartigen Hämatome begründen einen erheblichen Verdacht auf körperliche Misshandlung. In dieser Situation muss die Ärztin das Kindeswohl schützen und darf bzw. soll bei entsprechendem Verdacht das zuständige Jugendamt einbeziehen. Eine automatische strafprozessuale Anzeigepflicht besteht für Ärztinnen und Ärzte dadurch nicht. Gleichzeitig ist die Weitergabe relevanter Informationen nicht generell von der Zustimmung der Eltern abhängig, wenn eine Kindeswohlgefährdung im Raum steht. Die Befunde müssen sorgfältig dokumentiert und medizinisch eingeordnet werden.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Doppelkonturierte Hämatome mit ösenartigen Enden sind hochverdächtig auf eine Schlagverletzung mit einem Gegenstand. Die absolute Aussage, sie entstünden nicht bei einem Treppensturz, ist jedoch zu kategorisch formuliert und ersetzt nicht die notwendige Gesamtbeurteilung. Entscheidend ist hier das korrekte Schutzhandeln bei Verdacht auf Kindeswohlgefährdung.",
+          "term": "doppelkonturiertes Hämatom"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine generelle Anzeigepflicht bei Staatsanwaltschaft oder Polizei besteht für die Ärztin in dieser Konstellation nicht. Ärztliches Handeln zielt zunächst auf Gefährdungseinschätzung, Dokumentation und Kinderschutzstrukturen. Strafverfolgung kann relevant werden, ist aber nicht die hier am ehesten korrekte Pflichtmaßnahme.",
+          "term": "Anzeigepflicht"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Bei Verdacht auf Kindeswohlgefährdung ist die Ärztin nicht darauf beschränkt, nur mit Zustimmung der Eltern Dritte einzubeziehen. Das Kindeswohl kann eine Informationsweitergabe an zuständige Stellen rechtfertigen. Die elterliche Sorge hebt die ärztliche Verantwortung für den Schutz des Kindes nicht auf.",
+          "term": "Schweigepflicht und Kinderschutz"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die Kontaktaufnahme mit dem zuständigen Jugendamt ist hier am ehesten korrekt. Die Befunde sind verdächtig auf Misshandlung und damit auf eine mögliche Kindeswohlgefährdung. Das Jugendamt ist die zentrale Stelle, um Schutzmaßnahmen und weitere Abklärung einzuleiten.",
+          "term": "Jugendamt"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Verletzungen, die im Rahmen einer Vorsorgeuntersuchung auffallen, dürfen nicht ignoriert werden. Gerade Hämatome an untypischen Stellen und mit auffälliger Form müssen beschrieben, dokumentiert und eingeordnet werden. Die U-Untersuchung schließt die Beachtung relevanter pathologischer Befunde selbstverständlich ein.",
+          "term": "Dokumentation"
+        }
+      ]
+    },
+    "107": {
+      "topicLabel": "Azathioprin-Interaktion",
+      "explanation": "Azathioprin wird zu 6-Mercaptopurin und weiteren aktiven Metaboliten verstoffwechselt. Allopurinol hemmt die Xanthinoxidase und kann dadurch den Abbau dieser Purinmetaboliten vermindern. Die Folge ist ein deutlich erhöhtes Risiko für schwere Toxizität, insbesondere Knochenmarkssuppression. Deshalb muss vor Beginn einer Azathioprintherapie gezielt nach Allopurinol gefragt werden, wenn eine starke Dosisreduktion vorgesehen ist. Die anderen genannten Medikamente haben keine entsprechende klassische Interaktion, die genau diese Anpassung begründet.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Allopurinol ist die richtige Antwort. Durch Hemmung der Xanthinoxidase steigen relevante Azathioprin-/6-Mercaptopurin-Metabolite an, wodurch Myelotoxizität droht. Deshalb ist bei gleichzeitiger Einnahme eine erhebliche Dosisanpassung und engmaschige Kontrolle erforderlich.",
+          "term": "Allopurinol Azathioprin"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Acetylsalicylsäure hat keine typische Xanthinoxidase-bezogene Interaktion mit Azathioprin. Blutungsrisiken oder gastrointestinale Nebenwirkungen können je nach Patient relevant sein, erklären aber nicht die geforderte starke Dosisreduktion. Die gesuchte Interaktion betrifft Allopurinol.",
+          "term": "Acetylsalicylsäure"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Carvedilol ist ein Betablocker mit zusätzlicher vasodilatierender Wirkung. Es ist nicht als klassische Ursache einer Azathioprin-Akkumulation bekannt. Eine Dosisreduktion auf den in der Frage genannten Umfang wird dadurch nicht begründet.",
+          "term": "Carvedilol"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Empagliflozin ist ein SGLT2-Hemmer zur Behandlung des Diabetes mellitus bzw. kardiorenaler Indikationen. Es hemmt nicht die Xanthinoxidase und führt nicht zu der typischen Azathioprin-Interaktion. Daher ist es nicht die gesuchte Begleitmedikation.",
+          "term": "Empagliflozin"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Furosemid ist ein Schleifendiuretikum und kann Elektrolyt- oder Volumenprobleme verursachen. Eine spezifische Interaktion, die eine starke Azathioprin-Dosisreduktion notwendig macht, besteht aber nicht. Die entscheidende Substanz ist Allopurinol.",
+          "term": "Furosemid"
+        }
+      ]
+    },
+    "108": {
+      "topicLabel": "MRGN-Klassifizierung",
+      "explanation": "Für die MRGN-Klassifizierung gramnegativer Stäbchen werden Leitsubstanzen aus zentralen Antibiotikagruppen herangezogen. Prüfungsrelevant sind Piperacillin, ein Cephalosporin der dritten bzw. vierten Generation wie Cefotaxim oder Ceftazidim, ein Carbapenem wie Imipenem oder Meropenem und Ciprofloxacin als Fluorchinolon. Die Einordnung 3MRGN oder 4MRGN richtet sich danach, gegen wie viele dieser Gruppen eine Resistenz besteht. Aminoglykoside wie Gentamicin und einfache Penicilline wie Penicillin G oder Ampicillin sind nicht die entscheidenden Leitsubstanzen dieser Klassifikation. Deshalb passt nur die Kombination aus Piperacillin, Cefotaxim, Ciprofloxacin und Imipenem.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Penicillin G ist keine Leitsubstanz der MRGN-Klassifizierung für Enterobacterales wie Klebsiella pneumoniae. Gentamicin gehört ebenfalls nicht zu den vier entscheidenden MRGN-Leitgruppen. Obwohl Cefotaxim und Ciprofloxacin relevante Substanzen sein können, ist die Kombination insgesamt falsch.",
+          "term": "Penicillin G Gentamicin"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ampicillin ist bei vielen Enterobacterales ohnehin nicht die geeignete Leitsubstanz und ersetzt Piperacillin nicht. Gentamicin ist kein Klassifikationskriterium der MRGN-Systematik. Auch wenn Cefepim und Imipenem in relevante Gruppen fallen, ist diese Antwort daher nicht korrekt.",
+          "term": "Ampicillin Cefepim Gentamicin"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Piperacillin und Meropenem sind relevante Leitsubstanzen, und Ceftriaxon steht inhaltlich für die Cephalosporingruppe. Gentamicin gehört jedoch nicht zu den für die MRGN-Klassifikation entscheidenden Gruppen. Stattdessen muss ein Fluorchinolon wie Ciprofloxacin enthalten sein.",
+          "term": "Gentamicin statt Ciprofloxacin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Kombination enthält mit Cefepim, Ciprofloxacin und Imipenem mehrere relevante Gruppen. Ampicillin ist aber nicht die Leitsubstanz für die Acylureidopenicillin-Gruppe, die durch Piperacillin abgebildet wird. Deshalb ist die Liste unvollständig bzw. falsch zusammengesetzt.",
+          "term": "Ampicillin statt Piperacillin"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Piperacillin, Cefotaxim, Ciprofloxacin und Imipenem bilden die gesuchten Leitsubstanzen ab. Sie repräsentieren die relevanten Gruppen Acylureidopenicilline, höhere Cephalosporine, Fluorchinolone und Carbapeneme. Diese Kombination entspricht der MRGN-Klassifizierung am besten.",
+          "term": "Piperacillin Cefotaxim Ciprofloxacin Imipenem"
+        }
+      ]
+    },
+    "109": {
+      "topicLabel": "Nosokomiale Pneumonie",
+      "explanation": "Bei nosokomialen Pneumonien müssen insbesondere Staphylococcus aureus, Enterobacterales und Pseudomonas aeruginosa berücksichtigt werden. Diese Erregergruppen sind für Krankenhauspneumonien besonders relevant, vor allem bei vorangegangener Intensivbehandlung, schweren Grunderkrankungen und möglicher Antibiotikaexposition. Im Fallkontext ist zudem bereits Klebsiella pneumoniae als Enterobacterales-Erreger nachgewiesen. Streptococcus pyogenes und Staphylococcus epidermidis stehen bei nosokomialer Pneumonie nicht typischerweise im Vordergrund. Haemophilus influenzae kann respiratorisch relevant sein, ist aber in den Antwortkombinationen nicht der entscheidende Bestandteil der häufigsten HAP-Erregertrias.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Staphylococcus aureus und Enterobacterales sind bei nosokomialen Pneumonien wichtige Erreger. Streptococcus pyogenes gehört jedoch nicht zu den typischen häufigen Erregern, die empirisch im Krankenhauspneumonie-Kontext im Vordergrund stehen. Pseudomonas aeruginosa fehlt in dieser Kombination.",
+          "term": "Streptococcus pyogenes"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Pseudomonas aeruginosa ist zwar relevant, aber Staphylococcus epidermidis ist eher ein Hautkeim und typischer Erreger von Fremdmaterial- oder Katheterinfektionen. Haemophilus influenzae kann Atemwegsinfektionen verursachen, bildet aber zusammen mit S. epidermidis nicht die typische häufige HAP-Erregergruppe. Staphylococcus aureus und Enterobacterales fehlen.",
+          "term": "Staphylococcus epidermidis"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Staphylococcus aureus, Enterobacterales und Pseudomonas aeruginosa sind die richtige Kombination. Diese Erreger sind bei nosokomialen Pneumonien besonders häufig bzw. klinisch relevant und müssen bei empirischen Therapiekonzepten bedacht werden. Der Nachweis von Klebsiella pneumoniae im Fall passt zur Gruppe der Enterobacterales.",
+          "term": "HAP-Erreger"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Enterobacterales und Pseudomonas aeruginosa sind wichtige HAP-Erreger. Streptococcus pyogenes ist jedoch nicht Teil der typischen häufigen nosokomialen Pneumonieerreger, die hier gefragt sind. Staphylococcus aureus fehlt als zentrale Komponente.",
+          "term": "fehlender Staphylococcus aureus"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Enterobacterales sind in dieser Frage relevant, Staphylococcus epidermidis und Streptococcus pyogenes aber nicht die typische häufige Kombination für nosokomiale Pneumonie. S. epidermidis spricht eher für Kontamination oder Fremdmaterialinfektionen. Außerdem fehlt Pseudomonas aeruginosa.",
+          "term": "S. epidermidis und S. pyogenes"
+        }
+      ]
+    },
+    "110": {
+      "topicLabel": "3MRGN-Hygiene",
+      "explanation": "Bei Nachweis eines 3MRGN-Erregers sind Hygienemaßnahmen erforderlich, deren konkrete Ausgestaltung sich nach dem hausinternen Hygieneplan und den lokalen Risikobereichen richtet. Klebsiella pneumoniae ist ein gramnegativer Erreger; bei MRGN stehen konsequente Basishygiene, Kontaktmaßnahmen und situationsabhängige Isolations- bzw. Schutzmaßnahmen im Vordergrund. Eine pauschale FFP2-Maskenpflicht ist dadurch nicht automatisch begründet. Eine Dekolonisation der Nasenvorhöfe mit Mupirocin betrifft typischerweise MRSA-Konzepte und nicht Klebsiella. Sporizide Desinfektion ist vor allem bei sporenbildenden Erregern relevant und nicht die spezifische Antwort auf 3MRGN.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Bei einem 3MRGN-Nachweis sind Hygienemaßnahmen nicht entbehrlich. Multiresistente gramnegative Erreger können nosokomial übertragen werden, insbesondere in vulnerablen Patientengruppen. Mindestens die im Haus festgelegten Hygienevorgaben müssen umgesetzt werden.",
+          "term": "keine Hygienemaßnahmen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine FFP2-Maske ist keine generelle Standardmaßnahme nur aufgrund eines 3MRGN-Nachweises im Sputum. Atemschutz kann situationsabhängig bei bestimmten Tätigkeiten oder Erregern relevant sein, ist hier aber nicht die allgemein passende Antwort. Entscheidend sind die Vorgaben des Hygieneplans.",
+          "term": "FFP2-Maske"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Hygienemaßnahmen nach hausinternem Hygieneplan sind korrekt. Die konkrete Versorgung von 3MRGN-Patientinnen und -Patienten richtet sich nach lokalen Vorgaben, Risikobereich, Material und Übertragungswegen. Damit wird die erforderliche Infektionsprävention angemessen abgebildet.",
+          "term": "hausinterner Hygieneplan"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Mupirocin zur Dekolonisation der Nasenvorhöfe ist eine typische Maßnahme im Kontext von Staphylococcus aureus, insbesondere MRSA. Klebsiella pneumoniae als gramnegativer MRGN-Erreger wird dadurch nicht sinnvoll dekolonisiert. Diese Maßnahme passt daher nicht zum Fall.",
+          "term": "Mupirocin-Dekolonisation"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Sporizide Desinfektionsmittel sind vor allem bei sporenbildenden Erregern wie Clostridioides difficile von besonderer Bedeutung. Klebsiella pneumoniae bildet keine Sporen. Eine tägliche sporizide Raumdesinfektion ist deshalb nicht die spezifisch erforderliche Standardmaßnahme bei 3MRGN.",
+          "term": "sporizide Desinfektion"
+        }
+      ]
+    },
+    "111": {
+      "topicLabel": "Multiples Myelom",
+      "explanation": "Der Patient zeigt mit Rückenschmerzen, Osteolysen, Sturzsenkung und M-Gradient bereits typische Hinweise auf ein Multiples Myelom. Diagnoseerhärtend sind Befunde, die zu Knochenmarkinfiltration und Endorganschädigung passen. Anämie entsteht häufig durch Verdrängung der normalen Hämatopoese, Hyperkalzämie durch osteolytische Knochenprozesse. Eine Thrombozytopenie kann ebenfalls durch Knochenmarkbeteiligung auftreten und stützt die hämatologische Systemerkrankung. Konstellationen mit Hypokalzämie, Hyperbilirubinämie, erniedrigtem Gesamteiweiß oder Thrombozytose passen deutlich weniger gut zum klassischen Myelombild.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Anämie und Thrombozytopenie können bei Knochenmarkinfiltration vorkommen. Hypokalzämie passt jedoch nicht zum typischen osteolytischen Myelomgeschehen; eher ist eine Hyperkalzämie verdächtig. Daher ist diese Kombination nicht die beste Diagnoseerhärtung.",
+          "term": "Hypokalzämie"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Anämie, Hyperkalzämie und Thrombozytopenie passen am besten zum Multiplen Myelom. Die Hyperkalzämie spiegelt osteolytische Aktivität wider, die Anämie und Thrombozytopenie eine mögliche Knochenmarkverdrängung. Zusammen mit M-Gradient und Osteolysen erhärtet dies die Diagnose deutlich.",
+          "term": "CRAB-Kriterien"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine eingeschränkte Nierenfunktion kann beim Multiplen Myelom vorkommen. Hyperbilirubinämie und Thrombozytose sind jedoch keine typischen Kernbefunde zur Diagnoseerhärtung. Die Kombination wirkt daher weniger myelomspezifisch als Anämie, Hyperkalzämie und Thrombozytopenie.",
+          "term": "Nierenfunktion Hyperbilirubinämie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Antikörpermangelsyndrom kann durch Verdrängung normaler Immunglobuline entstehen. Ein erniedrigtes Gesamteiweiß passt aber nicht gut zu einem ausgeprägten M-Gradienten, bei dem monoklonales Protein nachweisbar ist. Eine PTT-Verlängerung ist zudem kein typischer diagnoseerhärtender Standardbefund.",
+          "term": "Antikörpermangel"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Hyperkalzämie kann zwar zum Multiplen Myelom passen. Hyperbilirubinämie und Hyperphosphatämie sind jedoch nicht die charakteristische Befundkombination zur Diagnoseerhärtung in diesem Fall. Entscheidend sind vor allem Knochenmark- und Endorganschäden im Myelomkontext.",
+          "term": "Hyperbilirubinämie Hyperphosphatämie"
+        }
+      ]
+    },
+    "112": {
+      "topicLabel": "Myelom-IgG",
+      "explanation": "Beim Multiplen Myelom ist eine monoklonale Gammopathie vom Typ IgG am häufigsten. Der Fallkontext mit Osteolysen, M-Gradient und Verdacht auf Myelom lenkt auf die Immunglobulinklasse des M-Proteins. IgA-Myelome kommen ebenfalls vor, sind aber weniger häufig als IgG-Myelome. IgD- und IgE-Myelome sind seltene Varianten. Eine IgM-Paraproteinämie weist typischer eher auf Morbus Waldenström als auf das klassische Multiple Myelom hin.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "IgA kann beim Multiplen Myelom vorkommen und ist eine wichtige Variante. Es ist jedoch nicht die häufigste Immunglobulinklasse. Die häufigste Klasse ist IgG.",
+          "term": "IgA-Myelom"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "IgD-Myelome sind möglich, aber selten. Sie sind deshalb nicht die typische Antwort auf die Frage nach der häufigsten Immunglobulinklasse. Für die Standardprüfung ist IgG entscheidend.",
+          "term": "IgD-Myelom"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "IgE-Myelome sind extrem ungewöhnliche Varianten und gehören nicht zum typischen Basiswissen der häufigen Myelomformen. Eine IgE-Paraproteinämie wäre daher nicht die naheliegende häufigste Klasse. Die Antwort widerspricht dem klassischen Verteilungsmuster.",
+          "term": "IgE-Myelom"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "IgG ist die richtige Antwort. Das klassische Multiple Myelom ist am häufigsten mit einer monoklonalen IgG-Komponente assoziiert. Deshalb ist IgG bei der Frage nach der häufigsten Immunglobulinklasse zu wählen.",
+          "term": "IgG-Myelom"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "IgM ist für das klassische Multiple Myelom nicht die typische häufigste Klasse. Eine monoklonale IgM-Gammopathie lenkt eher an ein lymphoplasmozytisches Lymphom bzw. Morbus Waldenström. Im Myelomkontext ist IgG deutlich naheliegender.",
+          "term": "IgM-Paraproteinämie"
+        }
+      ]
+    },
+    "113": {
+      "topicLabel": "Morbus Waldenström",
+      "explanation": "Eine monoklonale Gammopathie vom Typ IgM ist typisch für Morbus Waldenström, ein lymphoplasmozytisches Lymphom mit Produktion von IgM-Paraprotein. Der Fall knüpft an die Myelomfragen an und fragt nach der wichtigsten Differenzialdiagnose bei IgM-M-Komponente. Im Gegensatz zum klassischen Multiplen Myelom steht bei Morbus Waldenström die IgM-Produktion durch lymphoplasmozytische Zellen im Vordergrund. CML, ATTR-Amyloidose, Morbus Castleman und Hodgkin-Lymphom haben keine typische monoklonale IgM-Gammopathie als Leitsignal. Daher ist Morbus Waldenström die eindeutige Zuordnung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die chronische myeloische Leukämie ist eine myeloproliferative Neoplasie und typischerweise nicht durch eine monoklonale IgM-Gammopathie definiert. Im Vordergrund stehen Leukozytose und klonale myeloische Proliferation. Sie ist daher nicht die gesuchte Erkrankung.",
+          "term": "CML"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Morbus Waldenström ist richtig. Die Erkrankung entspricht einem lymphoplasmozytischen Lymphom mit typischer monoklonaler IgM-Produktion. Eine IgM-Paraproteinämie sollte daher klassisch an diese Diagnose denken lassen.",
+          "term": "Morbus Waldenström"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "ATTR-Amyloidose beruht auf Ablagerungen von Transthyretin und ist nicht durch eine monoklonale IgM-Gammopathie charakterisiert. Amyloidosen können differenzialdiagnostisch komplex sein, aber ATTR ist keine IgM-Paraprotein-Erkrankung. Die Zuordnung zu Morbus Waldenström ist deutlich spezifischer.",
+          "term": "ATTR-Amyloidose"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Morbus Castleman ist eine lymphoproliferative Erkrankung mit systemischen Entzündungszeichen oder lokalisierter Lymphknotenvergrößerung. Eine typische monoklonale IgM-Gammopathie ist nicht das definierende Merkmal. Diese Option passt daher nicht am besten.",
+          "term": "Morbus Castleman"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Das Hodgkin-Lymphom ist durch charakteristische Tumorzellen im lymphatischen Gewebe geprägt, nicht durch eine typische IgM-Paraproteinämie. Monoklonale Gammopathien können in verschiedenen Kontexten auftreten, sind hier aber nicht das Leitsymptom. Die klassische IgM-Erkrankung ist Morbus Waldenström.",
+          "term": "Hodgkin-Lymphom"
+        }
+      ]
+    },
+    "114": {
+      "topicLabel": "CD38 beim Myelom",
+      "explanation": "Myelomzellen exprimieren häufig CD38, und dieser Oberflächenmarker ist ein therapeutisch wichtiger Angriffspunkt. Antikörpertherapien gegen CD38 gehören zu den etablierten zielgerichteten Therapieprinzipien beim Multiplen Myelom. Die Frage zielt daher nicht auf T-Zell-, B-Zell- oder Stammzellmarker, sondern auf den für Plasmazellen relevanten Marker. CD8 ist ein T-Zell-Marker, CD19 und CD20 sind eher B-Zell-Marker, und CD34 kennzeichnet hämatopoetische Vorläuferzellen. CD38 ist damit die passende Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "CD8 ist vor allem ein Marker zytotoxischer T-Zellen. Er ist kein typischer therapeutischer Oberflächenmarker von Myelomzellen. Die Frage sucht einen Plasmazell- bzw. Myelommarker.",
+          "term": "CD8"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "CD19 ist ein B-Zell-Marker und bei vielen B-Zell-Neoplasien relevant. Myelomzellen als maligne Plasmazellen werden therapeutisch aber klassisch über andere Marker adressiert. Für die Antikörpertherapie im Myelom ist CD38 die bessere Antwort.",
+          "term": "CD19"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "CD20 ist ein wichtiger Zielmarker bei bestimmten B-Zell-Lymphomen. Beim Multiplen Myelom ist CD20 jedoch nicht der zentrale therapeutische Angriffspunkt. Die gesuchte Antikörperzielstruktur ist CD38.",
+          "term": "CD20"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "CD34 ist ein Marker hämatopoetischer Stamm- und Vorläuferzellen. Er dient nicht als typischer therapeutischer Angriffspunkt auf Myelomzellen. Diese Option passt eher zu Stammzell- und Blastencharakterisierung.",
+          "term": "CD34"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "CD38 ist richtig. Myelomzellen exprimieren CD38, und gegen CD38 gerichtete Antikörper nutzen diesen Marker therapeutisch. Damit ist CD38 der gesuchte Oberflächenmarker bei Patienten mit Multiplem Myelom.",
+          "term": "CD38"
+        }
+      ]
+    },
+    "115": {
+      "topicLabel": "Mammakarzinom-Abklärung",
+      "explanation": "Bei klinischem Verdacht auf Mammakarzinom erfolgt zunächst eine strukturierte Diagnostik mit Bildgebung und histologischer Sicherung. Mammografie und Sonografie charakterisieren den Brustbefund und die axilläre Situation, die Stanzbiopsie liefert die notwendige Histologie einschließlich weiterer prädiktiver Marker. Erst danach können Staging, Operation und systemische Therapie sinnvoll geplant werden. Eine primäre Mastektomie oder offene Biopsie unter Schnellschnittbedingungen wäre ohne vorherige leitliniengerechte Abklärung nicht das systematische nächste Vorgehen. Auch eine rein zytologische Untersuchung der Ulzeration oder sofortige Tamoxifen-Therapie wäre diagnostisch unzureichend.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Biopsie ist zwar notwendig, aber eine unmittelbar anschließende Tamoxifen-Therapie setzt Hormonrezeptorstatus und Therapieplanung voraus. Die Antwort überspringt die vollständige bildgebende Abklärung und die systematische histopathologische Einordnung. Daher ist sie als nächster Schritt zu verkürzt.",
+          "term": "Tamoxifen nach Biopsie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein zytologischer Abstrich der Ulzeration reicht zur sicheren Diagnostik eines Mammakarzinoms nicht aus. Eine Skelettszintigrafie kann in bestimmten Staging-Konstellationen relevant sein, steht aber nicht vor der primären Bildgebung und histologischen Sicherung. Die Option ist daher nicht systematisch genug.",
+          "term": "Zytologie Ulzeration"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine primäre Mastektomie ohne vorherige vollständige Diagnostik und histologische Sicherung ist nicht das angemessene nächste Vorgehen. Auch bei klinisch hochverdächtigem Befund müssen Tumorbiologie und Ausbreitung geklärt werden. Die Operation wird erst nach strukturierter Therapieplanung festgelegt.",
+          "term": "primäre Mastektomie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine offene Biopsie unter Narkose mit Schnellschnitt und anschließender Mastektomie entspricht nicht dem bevorzugten diagnostischen Standard. Minimalinvasive Stanzbiopsien liefern in der Regel ausreichendes Gewebe für Histologie und Markerdiagnostik. Die Antwort ist zu invasiv und legt die definitive Operation zu früh fest.",
+          "term": "offene Biopsie"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Mammografie bzw. Ultraschall und Stanzbiopsie sind der richtige nächste Schritt. Sie verbinden lokale Bildgebung mit histologischer Sicherung und ermöglichen anschließend eine fundierte onkologische Planung. Auch die axilläre Auffälligkeit kann dabei gezielt mitbeurteilt werden.",
+          "term": "Mammografie Sonografie Stanzbiopsie"
+        }
+      ]
+    },
+    "116": {
+      "topicLabel": "Mammakarzinom-Staging",
+      "explanation": "Bei diagnostiziertem Mammakarzinom mit axillärer Ausdehnung muss vor der weiteren onkologischen Therapieplanung eine Ausbreitungsdiagnostik erfolgen. Ein CT von Thorax und Abdomen dient der Suche nach Fernmetastasen und der Einschätzung der Tumorlast in wichtigen Organregionen. Diese Information beeinflusst wesentlich, ob kurativ-lokoregionär oder primär systemisch-palliativ geplant wird. Echokardiografie kann vor bestimmten potenziell kardiotoxischen Therapien relevant werden, beantwortet aber nicht die Stagingfrage. EKG, vaginaler Ultraschall und Nierenszintigrafie sind in diesem Kontext nicht die naheliegendste zusätzliche onkologische Diagnostik.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "CT von Thorax und Abdomen ist hier richtig. Bei axillärer Ausdehnung muss vor Therapieplanung eine Fernmetastasierung in relevanten Organregionen abgeklärt werden. Das Ergebnis hat direkten Einfluss auf das onkologische Gesamtkonzept.",
+          "term": "Staging-CT"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Echokardiografie kann vor bestimmten systemischen Therapien sinnvoll sein, insbesondere wenn eine kardiotoxische Behandlung erwogen wird. Sie klärt aber keine Tumorausbreitung und ist daher nicht die wichtigste zusätzliche diagnostische Maßnahme vor der grundlegenden onkologischen Planung. In der Frage steht das Staging im Vordergrund.",
+          "term": "Echokardiografie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein EKG kann wegen des bekannten Vorhofflimmerns oder perioperativ relevant sein. Es liefert jedoch keine entscheidende Information zur Ausbreitung des Mammakarzinoms. Für die onkologische Therapieplanung ist das CT deutlich wichtiger.",
+          "term": "EKG"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein vaginaler Ultraschall ist keine Standard-Staginguntersuchung beim Mammakarzinom mit axillärem Befall. Er kann bei gynäkologischen Fragestellungen sinnvoll sein, beantwortet aber nicht die Frage nach thorakoabdominellen Metastasen. Daher ist er hier nicht am ehesten durchzuführen.",
+          "term": "vaginaler Ultraschall"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Nierenszintigrafie prüft vor allem seitengetrennte Nierenfunktion oder Abflussfragen. Das ist für die Ausbreitungsdiagnostik eines Mammakarzinoms nicht die typische erste Zusatzmaßnahme. Der Fall verlangt eine onkologische Staginguntersuchung.",
+          "term": "Nierenszintigrafie"
+        }
+      ]
+    },
+    "117": {
+      "topicLabel": "Mammakarzinom-Marker",
+      "explanation": "Für die initiale Therapieplanung beim Mammakarzinom sind Hormonrezeptorstatus, HER2-Status und Grading zentrale histopathologische Merkmale. Der Östrogen- und Progesteronrezeptorstatus entscheidet über endokrine Therapieoptionen, der HER2-Status über anti-HER2-gerichtete Konzepte. Das Grading beschreibt die Differenzierung und unterstützt die Risikoeinschätzung. Genetische Marker wie BRCA können in bestimmten Situationen wichtig sein, ersetzen aber nicht die grundlegende Tumorbiologie aus ER, PR, HER2 und Grading. Mismatch-Repair, POLE oder Testosteronrezeptoren sind für das übliche Mammakarzinom-Primärprofil nicht die passenden Kernparameter.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "BRCA1 kann bei familiärem Risiko oder bestimmten therapeutischen Fragestellungen relevant sein. Für die initiale Standardcharakterisierung der Biopsie fehlen in dieser Kombination jedoch Progesteronrezeptoren. Die Kernkombination besteht aus ER, PR, HER2 und Grading.",
+          "term": "BRCA1 und Markerprofil"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Östrogenrezeptorstatus, HER2-Status, Grading und Progesteronrezeptorstatus sind die richtige Kombination. Diese Merkmale definieren wesentliche therapeutische Optionen und die biologische Einordnung des Mammakarzinoms. Sie sollten für die weitere Therapieplanung zunächst vorliegen.",
+          "term": "ER PR HER2 Grading"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Mismatch-Repair-Status und POLE-Mutationen sind besonders aus anderen Tumorentitäten, etwa Endometrium- oder kolorektalen Karzinomen, bekannt. Sie gehören nicht zum grundlegenden Standardprofil des Mammakarzinoms in dieser Frage. Außerdem fehlt der Progesteronrezeptorstatus.",
+          "term": "MMR POLE"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Der Testosteronrezeptorstatus ist kein zentraler Standardparameter der initialen Mammakarzinomplanung. Zwar enthält die Option HER2, PR und ER, aber das Grading fehlt. Damit ist die Kombination nicht vollständig und nicht am besten geeignet.",
+          "term": "Testosteronrezeptor"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine HER2-FISH-Untersuchung kann bei unklarem HER2-Befund ergänzend relevant sein. BRCA2 und Testosteronrezeptorstatus gehören jedoch nicht zur grundlegenden initialen Histologie-Kombination, und PR sowie Grading fehlen. Die Option verfehlt daher den Standardmarker-Satz.",
+          "term": "HER2-FISH BRCA2"
+        }
+      ]
+    },
+    "118": {
+      "topicLabel": "Mammakarzinom-Risiko",
+      "explanation": "Beim Mammakarzinom ist weibliches Geschlecht der wichtigste Risikokontext, und zunehmendes Alter ist danach ein zentraler Risikofaktor. Die 75-jährige Patientin im Fall passt daher in eine Altersgruppe mit deutlich höherer Erkrankungswahrscheinlichkeit als junge Frauen. Mammakarzinom ist sehr häufig, aber die Aussage mit der höchsten Mortalität ist so nicht die beste allgemeine Charakterisierung. Die Behandlung beginnt nicht grundsätzlich mit Mastektomie, sondern richtet sich nach Stadium, Biologie und Operabilität. Ein genetisches Risiko betrifft nur eine Minderheit der Fälle, und eine besondere Häufung bei Leukämiepatientinnen ist nicht die typische epidemiologische Kernaussage.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Das Mammakarzinom ist eine der wichtigsten Krebserkrankungen der Frau und sehr häufig. Die Aussage, es sei das Karzinom der Frau mit der höchsten Mortalität, ist jedoch nicht die zutreffendste Kernaussage dieser Frage. Prüfungsrelevant ist hier vor allem das Alter als wesentlicher Risikofaktor.",
+          "term": "Mammakarzinom Mortalität"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die Mastektomie ist nicht grundsätzlich der erste Behandlungsschritt. Je nach Befund kommen brusterhaltende Operation, neoadjuvante Therapie, systemische Therapie und Strahlentherapie in unterschiedlichen Sequenzen infrage. Eine pauschale primäre Mastektomie widerspricht dem individualisierten Vorgehen.",
+          "term": "Mastektomie"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Alter ist nach weiblichem Geschlecht der wichtigste Risikofaktor und damit die richtige Aussage. Die Erkrankungswahrscheinlichkeit nimmt mit zunehmendem Lebensalter deutlich zu. Die 75-jährige Patientin passt daher zu einem typischen Risikoprofil.",
+          "term": "Alter als Risikofaktor"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein relevanter Teil der Mammakarzinome kann genetisch mitbedingt sein, etwa bei familiären Hochrisikokonstellationen. Die Aussage, die Hälfte der Fälle habe ein genetisches Risiko, ist jedoch zu hoch und nicht korrekt. Die meisten Fälle entstehen nicht als klassische hereditäre Hochrisikoerkrankung.",
+          "term": "genetisches Risiko"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine signifikante Häufung von Mammakarzinomen bei Leukämiepatientinnen ist keine typische allgemeine Aussage zum Mammakarzinomrisiko. Leukämien und Mammakarzinome haben unterschiedliche Risikoprofile. Diese Option lenkt daher weg von den etablierten Risikofaktoren.",
+          "term": "Leukämie"
+        }
+      ]
+    },
+    "119": {
+      "topicLabel": "Brusterhaltende Therapie",
+      "explanation": "Brusterhaltung beim Mammakarzinom bedeutet, dass der Tumor mit ausreichendem Sicherheitskonzept entfernt wird, ohne die gesamte Brust zu entfernen. Typischer Bestandteil ist eine R0-Resektion, also die vollständige Tumorentfernung im Gesunden, gefolgt von Bestrahlung der erhaltenen Brust. Die Radiotherapie senkt das Risiko lokaler Rezidive und ist daher eng mit der brusterhaltenden Therapie verknüpft. Mastektomie mit Rekonstruktion kann kosmetisch eine Brustform wiederherstellen, ist aber begrifflich keine Brusterhaltung. Chemotherapie oder Bestrahlung allein ohne brusterhaltende Tumorresektion beschreiben das Konzept ebenfalls nicht korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Mastektomie mit plastischer Rekonstruktion erhält nicht die natürliche Brust, sondern entfernt sie und stellt anschließend eine Brustform wieder her. Das kann rekonstruktiv sinnvoll sein, ist aber nicht mit Brusterhaltung gleichzusetzen. Der Begriff bezieht sich auf eine brusterhaltende Tumorresektion.",
+          "term": "Mastektomie Rekonstruktion"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "R0-Resektion gefolgt von Bestrahlung ist die klassische brusterhaltende Therapie. Der Tumor wird vollständig entfernt, während die Brust erhalten bleibt. Die anschließende Bestrahlung gehört typischerweise zum lokalen Sicherheitskonzept.",
+          "term": "R0-Resektion Bestrahlung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine neoadjuvante Chemotherapie kann in bestimmten Situationen eine brusterhaltende Operation ermöglichen. Wenn anschließend jedoch eine Mastektomie erfolgt, ist das Ergebnis nicht brusterhaltend. Die Option widerspricht daher dem gesuchten Begriff.",
+          "term": "neoadjuvante Chemotherapie Mastektomie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Adjuvante Chemotherapie und Bestrahlung beschreiben keine vollständige lokale Tumorentfernung. Für Brusterhaltung ist die operative Entfernung des Tumors im Gesunden zentral. Ohne Nennung der brusterhaltenden Resektion ist diese Option unvollständig.",
+          "term": "adjuvante Therapie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die übliche Sequenz der brusterhaltenden Therapie ist nicht primär Bestrahlung gefolgt von Tumorentfernung. Zunächst erfolgt die brusterhaltende Operation mit R0-Ziel, danach typischerweise die Bestrahlung. Die Antwort vertauscht damit das Konzept.",
+          "term": "Bestrahlung vor Operation"
+        }
+      ]
+    },
+    "120": {
+      "topicLabel": "Fragmentozyten",
+      "explanation": "Die Kombination aus Petechien, starker Thrombozytopenie, Anämie und neurologischen Beschwerden wie Kopfschmerzen lenkt an eine thrombotische Mikroangiopathie. Im Blutausstrich sind dabei Fragmentozyten bzw. Schistozyten typisch, also mechanisch geschädigte Erythrozytenfragmente. Sie entstehen durch Abscheren von Erythrozyten in der Mikrozirkulation und stützen eine mikroangiopathische hämolytische Anämie. Die fehlende Blastenvermehrung macht eine akute Leukämie als unmittelbare Erklärung weniger wahrscheinlich. Anisozyten, Anulozyten, Howell-Jolly-Körperchen und Megalozyten würden jeweils andere hämatologische Muster anzeigen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Anisozyten beschreiben Erythrozyten unterschiedlicher Größe. Das kann bei vielen Anämieformen vorkommen, erklärt aber nicht spezifisch die Kombination aus Thrombozytopenie und mikroangiopathischer Hämolyse. Die mit Pfeilen markierten Zellen sollen hier als Fragmente erkannt werden.",
+          "term": "Anisozyten"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Anulozyten sind ringförmig erscheinende, stark hypochrome Erythrozyten und passen eher zu ausgeprägten Eisenmangelkonstellationen. Die Fallkonstellation mit Petechien, Thrombozytopenie und hämolytischer Anämie spricht nicht primär dafür. Gesucht sind Fragmentozyten als Zeichen mechanischer Erythrozytenschädigung.",
+          "term": "Anulozyten"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Howell-Jolly-Körperchen sind basophile Kernreste in Erythrozyten und treten typischerweise bei fehlender oder eingeschränkter Milzfunktion auf. Sie sind keine Erythrozytenfragmente. Der klinische Kontext spricht vielmehr für eine thrombotische Mikroangiopathie.",
+          "term": "Howell-Jolly-Körperchen"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Fragmentozyten sind richtig. Es handelt sich um unregelmäßig geformte Erythrozytenfragmente, die bei mechanischer Schädigung in der Mikrozirkulation entstehen. Zusammen mit Thrombozytopenie und Anämie passen sie sehr gut zu einer thrombotischen Mikroangiopathie.",
+          "term": "Fragmentozyten"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Megalozyten sind große, häufig oval imponierende Erythrozyten bei megaloblastärer Blutbildung, etwa im Kontext von Vitamin-B12- oder Folsäuremangel. Sie erklären nicht die akute Konstellation mit Petechien und starker Thrombozytopenie. Im Ausstrich sind hier Fragmentozyten gefragt.",
+          "term": "Megalozyten"
+        }
+      ]
+    }
+  }
+}

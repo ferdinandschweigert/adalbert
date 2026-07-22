@@ -1,0 +1,745 @@
+{
+  "examId": "m2-2025a-staatsexamen",
+  "questions": {
+    "121": {
+      "topicLabel": "Thrombotisch-thrombozytopenische Purpura",
+      "explanation": "Die Kombination aus ausgeprägter Thrombozytopenie, Anämie und neurologischen Beschwerden passt am besten zu einer thrombotisch-thrombozytopenischen Purpura. Die punktförmigen, nicht wegdrückbaren Hautveränderungen entsprechen Petechien durch den Thrombozytenmangel. Im Vorbefund der Fallserie waren Fragmentozyten die wegweisende morphologische Veränderung, was eine mikroangiopathische hämolytische Anämie stützt. Bei der TTP führen thrombozytenreiche Mikrothromben in kleinen Gefäßen zu Thrombozytenverbrauch, Erythrozytenfragmentierung und Organmanifestationen, häufig auch neurologisch. Das Fehlen einer Blastenvermehrung und die normwertigen Leukozyten sprechen gegen eine akute Leukämie als führende Diagnose.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine akute Leukämie kann mit Anämie, Thrombozytopenie und Infektzeichen einhergehen. Hier fehlen jedoch eine Blastenvermehrung im Differenzialblutbild und ein typischer Hinweis auf eine leukämische Systemerkrankung. Die neurologischen Symptome und der Kontext mit Fragmentozyten sprechen stärker für eine thrombotische Mikroangiopathie.",
+          "term": "akute Leukämie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Immunthrombozytopenie verursacht typischerweise eine isolierte Thrombozytopenie mit Petechien oder Schleimhautblutungen. Eine gleichzeitige hämolytische Anämie mit Fragmentozyten und neurologischen Beschwerden ist dafür nicht charakteristisch. Daher erklärt sie den Gesamtbefund schlechter als eine TTP.",
+          "term": "Immunthrombozytopenie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Autoimmunhämolyse kann Müdigkeit und Anämie erklären. Sie führt aber nicht regelhaft zu einer ausgeprägten Thrombozytopenie mit Petechien und passt auch nicht gut zu Fragmentozyten, die eher eine mechanische Erythrozytenschädigung anzeigen. Der Fall spricht deshalb nicht primär für eine isolierte Autoimmunhämolyse.",
+          "term": "Autoimmunhämolyse"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Meningokokkeninfektion kann Petechien und Kopfschmerzen verursachen und ist klinisch sehr ernst zu nehmen. Erwartbar wären jedoch ein septisches Krankheitsbild, Fieber, Meningismus oder deutliche Entzündungszeichen. Die Blutbildkonstellation mit mikroangiopathischer Hämolyse passt deutlich besser zur TTP.",
+          "term": "Meningokokkeninfektion"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Die thrombotisch-thrombozytopenische Purpura erklärt Thrombozytopenie, Petechien, Anämie und neurologische Beschwerden in einem gemeinsamen Krankheitsmodell. Durch Mikrothromben werden Thrombozyten verbraucht und Erythrozyten mechanisch geschädigt, wodurch Fragmentozyten entstehen. Damit ist sie unter den Antwortmöglichkeiten die stimmigste Verdachtsdiagnose.",
+          "term": "TTP"
+        }
+      ]
+    },
+    "122": {
+      "topicLabel": "Nicht-invasive Pränataltestung",
+      "explanation": "Bei der NIPT wird zellfreie fetale beziehungsweise plazentare DNA aus dem mütterlichen Blut untersucht. Das Verfahren ist gerade dadurch nicht-invasiv, dass keine fetale Punktion, keine Chorionzottenbiopsie und keine Amniozentese erforderlich sind. In der 12. Schwangerschaftswoche ist eine periphere Blutprobe der Mutter das geeignete Ausgangsmaterial. Der unauffällige Ultraschall ändert nichts daran, dass die Patientin altersbedingt eine zusätzliche Screeninguntersuchung wünscht. Entscheidend ist, dass die Probe mütterliches Plasma enthält, in dem die zellfreie fetale DNA nachweisbar ist.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine periphere Blutprobe der Mutter ist das Standardmaterial für die NIPT. Daraus wird mütterliches Plasma gewonnen, in dem zellfreie DNA fetalen beziehungsweise plazentaren Ursprungs zirkuliert. Damit bleibt die Untersuchung nicht-invasiv.",
+          "term": "mütterliches Blut"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine fetale Blutprobe aus der Nabelschnur wäre ein invasiver Eingriff. Sie ist für eine NIPT nicht erforderlich und würde das Grundprinzip des Verfahrens verfehlen. Außerdem wäre sie mit einem anderen Risiko- und Indikationsprofil verbunden.",
+          "term": "fetale Blutprobe"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Chorionzottenbiopsie liefert genetisches Material aus Plazentagewebe, ist aber invasiv. Sie kann für diagnostische Fragestellungen eingesetzt werden, ist jedoch nicht das Ausgangsmaterial einer nicht-invasiven pränatalen Testung. Im vorliegenden Fall wird ausdrücklich nach NIPT gefragt.",
+          "term": "Chorionzottenbiopsie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Fruchtwasserzellen werden im Rahmen einer Amniozentese gewonnen. Diese Untersuchung ist invasiv und dient der diagnostischen Chromosomenanalyse, nicht dem Screening mittels NIPT. Für die NIPT ist daher keine Fruchtwasserpunktion angezeigt.",
+          "term": "Fruchtwasserzellen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Speichelprobe der Mutter enthält vor allem maternale Zellen und maternale DNA. Sie ist nicht geeignet, die für die NIPT benötigte zellfreie fetale DNA im mütterlichen Plasma zu erfassen. Daher ist sie kein bevorzugtes Ausgangsmaterial.",
+          "term": "Speichelprobe"
+        }
+      ]
+    },
+    "123": {
+      "topicLabel": "Zellfreie fetale DNA",
+      "explanation": "Die NIPT beruht auf der Analyse zellfreier fetaler DNA im mütterlichen Blut. Diese DNA stammt überwiegend aus trophoblastärem beziehungsweise plazentarem Gewebe und zirkuliert als kleine DNA-Fragmente im mütterlichen Plasma. Dadurch können häufige fetale Chromosomenstörungen als Screeninguntersuchung eingeschätzt werden, ohne direkt fetales Gewebe zu punktieren. Der vorherige Fallkontext mit peripherer mütterlicher Blutprobe ist hierfür entscheidend. Andere Biomoleküle wie Proteine, tRNA oder maternale mikroRNAs sind nicht der reguläre Zielanalyt der NIPT.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Mitochondriale fetale DNA ist nicht der übliche Analyt der NIPT. Die Standarduntersuchung zielt auf zellfreie DNA-Fragmente im mütterlichen Plasma ab, die chromosomale Informationen tragen. Eine Beschränkung auf mitochondriale DNA würde die Fragestellung der Aneuploidie-Screeningtests nicht abbilden.",
+          "term": "mitochondriale DNA"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Zellfreie fetale DNA ist der zentrale Analyt der NIPT. Sie liegt im mütterlichen Plasma vor und stammt überwiegend aus der Plazenta. Deshalb kann sie aus einer peripheren Blutprobe der Mutter analysiert werden.",
+          "term": "zellfreie fetale DNA"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "DNA-bindende fetale Proteine sind nicht das Ziel der NIPT. Die Untersuchung wertet Nukleinsäurefragmente aus, nicht Proteinmuster. Proteine würden die chromosomale Fragestellung der NIPT nicht direkt beantworten.",
+          "term": "fetale Proteine"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Transfer-RNA aus maternalen Zellen ist maternales Zellmaterial und kein fetaler Screeninganalyt. Sie eignet sich nicht zur Beurteilung fetaler Chromosomenverhältnisse. Zudem würde sie den nicht-invasiven genetischen Informationsgewinn der NIPT nicht liefern.",
+          "term": "Transfer-RNA"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "MikroRNAs aus dem maternalen Serum können biologisch interessant sein, sind aber nicht der regelhafte NIPT-Analyt. Die NIPT basiert auf zellfreier fetaler DNA im mütterlichen Plasma. Daher passt diese Antwort nicht zum etablierten Testprinzip.",
+          "term": "mikroRNAs"
+        }
+      ]
+    },
+    "124": {
+      "topicLabel": "Benzodiazepin-Antagonist",
+      "explanation": "Bei einer vermuteten Benzodiazepin-Intoxikation ist Flumazenil der spezifische kompetitive Antagonist am Benzodiazepin-Bindungsort des GABA-A-Rezeptors. Es kann die sedierenden und atemdepressiven Wirkungen von Benzodiazepinen direkt aufheben. Im Fall sprechen Vigilanzminderung, verwaschene Sprache, verlangsamtes Denken und anamnestisch gesteigerter Benzodiazepinkonsum für eine Intoxikation. Bei chronischem Konsum muss Flumazenil klinisch vorsichtig eingesetzt werden, weil ein Entzug oder Krampfanfälle ausgelöst werden können. Die Frage zielt jedoch auf den verfügbaren direkten Antagonisten, und das ist Flumazenil.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Acamprosat wird in der Rückfallprophylaxe bei Alkoholabhängigkeit eingesetzt. Es antagonisiert Benzodiazepine nicht direkt am GABA-A-Rezeptor. Für die akute Aufhebung einer Benzodiazepinwirkung ist es daher ungeeignet.",
+          "term": "Acamprosat"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Clomethiazol wirkt sedierend und kann bei bestimmten Entzugssituationen eine Rolle spielen. Es ist aber kein spezifischer Antagonist von Benzodiazepinen. Bei der beschriebenen Intoxikation würde es die Sedierung eher nicht gezielt aufheben.",
+          "term": "Clomethiazol"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Dantrolen wird bei der malignen Hyperthermie und verwandten hypermetabolen Zuständen eingesetzt. Sein Angriffspunkt liegt an der Skelettmuskulatur, nicht am Benzodiazepinrezeptor. Es passt deshalb nicht zur direkten Antagonisierung einer Benzodiazepinwirkung.",
+          "term": "Dantrolen"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Flumazenil ist der spezifische Benzodiazepin-Antagonist. Es verdrängt Benzodiazepine am Rezeptor und kann Sedierung sowie Vigilanzminderung rasch bessern. Wegen möglicher Entzugssymptome muss die Anwendung bei Abhängigkeit sorgfältig abgewogen werden.",
+          "term": "Flumazenil"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Naloxon ist ein Opioidantagonist. Es hebt Wirkungen von Opioiden wie Atemdepression und Bewusstseinsminderung auf, wirkt aber nicht spezifisch gegen Benzodiazepine. Bei reiner Benzodiazepin-Intoxikation wäre es daher nicht der gesuchte Antagonist.",
+          "term": "Naloxon"
+        }
+      ]
+    },
+    "125": {
+      "topicLabel": "Benzodiazepin-Entzug",
+      "explanation": "Beim Entzug von Benzodiazepinen oder bei rascher Aufhebung ihrer Wirkung ist vor allem mit einer Rebound-Aktivierung des zentralen und autonomen Nervensystems zu rechnen. Typisch sind innere Unruhe, Schlafstörungen, vegetative Symptome wie Schwitzen und in schwereren Verläufen Wahrnehmungsstörungen oder Krampfanfälle. Atemdepression ist dagegen eine Wirkung der Benzodiazepin-Intoxikation, nicht ein erwartetes Entzugssymptom. Im Fall ist die Patientin intoxikiert und vigilanzgemindert; eine Antagonisierung kann diese dämpfenden Effekte aufheben. Deshalb ist unter den genannten Symptomen Atemdepression am wenigsten im Rahmen des Entzugs beziehungsweise der Wirkaufhebung zu erwarten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Atemdepression gehört eher zur Intoxikation mit zentral dämpfenden Substanzen. Bei Benzodiazepinentzug erwartet man dagegen Unruhe, vegetative Aktivierung und neurologische Übererregbarkeit. Daher ist Atemdepression hier am wenigsten zu erwarten.",
+          "term": "Atemdepression"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Innere Unruhe ist ein typisches Entzugssymptom nach Benzodiazepinen. Sie entspricht dem Wegfall der anxiolytisch-sedierenden Wirkung. Gerade bei chronischem Konsum kann sie ausgeprägt auftreten.",
+          "term": "innere Unruhe"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Perzeptionsstörungen können bei schwerem Benzodiazepinentzug auftreten. Sie spiegeln die zentrale Übererregbarkeit nach Wegfall der GABAergen Dämpfung wider. Deshalb sind sie nicht die am wenigsten zu erwartende Antwort.",
+          "term": "Perzeptionsstörungen"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Schlafstörungen sind im Benzodiazepinentzug sehr plausibel. Benzodiazepine werden häufig sedierend genutzt, sodass nach Reduktion oder Absetzen ein Rebound mit Insomnie auftreten kann. Diese Antwort passt daher gut zum Entzugssyndrom.",
+          "term": "Schlafstörungen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Schwitzen ist ein vegetatives Entzugssymptom. Es passt zur autonomen Aktivierung nach Wegfall der benzodiazepinvermittelten Dämpfung. Damit ist es im Gegensatz zur Atemdepression durchaus zu erwarten.",
+          "term": "Schwitzen"
+        }
+      ]
+    },
+    "126": {
+      "topicLabel": "Benzodiazepin-Abhängigkeit",
+      "explanation": "Bei längerfristigem und gesteigertem Benzodiazepinkonsum ist ein abruptes Absetzen ungünstig und potenziell gefährlich. Es kann ausgeprägte Entzugssymptome, Delir, Krampfanfälle und eine Dekompensation der zugrunde liegenden Angststörung auslösen. Deshalb wird eine Entwöhnung in der Regel geplant, überwacht und häufig durch Ausschleichen oder eine qualifizierte Entzugsbehandlung strukturiert. Ergänzend sind Suchthilfeangebote und eine Behandlung der komorbiden Angststörung wichtig, um Rückfälle zu vermeiden. Im vorliegenden Fall ist daher am ehesten vom direkten Absetzen ohne Begleitmedikation abzuraten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ein direktes Absetzen nach chronischem Benzodiazepinkonsum ist riskant. Es kann einen schweren Entzug mit vegetativen, psychischen und neurologischen Symptomen auslösen. Daher ist diese Option diejenige, von der am ehesten abzuraten ist.",
+          "term": "abruptes Absetzen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein schrittweises Ausschleichen unter ärztlicher Überwachung ist ein sinnvolles Vorgehen. Es reduziert das Risiko schwerer Entzugssymptome und ermöglicht die Kontrolle von Rückfällen oder Komplikationen. Diese Option ist daher nicht die abzuratende Maßnahme.",
+          "term": "Ausschleichen"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine qualifizierte stationäre Entzugsbehandlung kann bei Abhängigkeit, Komorbidität oder hohem Risiko sinnvoll sein. Sie bietet engmaschige Überwachung und therapeutische Struktur. Im beschriebenen Fall ist sie grundsätzlich plausibel.",
+          "term": "stationärer Entzug"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Suchtberatungsstelle kann bei der langfristigen Abstinenzstabilisierung unterstützen. Sie ersetzt nicht zwingend die Akutbehandlung, ist aber im Verlauf eine sinnvolle Ergänzung. Daher ist diese Empfehlung nicht abzulehnen.",
+          "term": "Suchtberatung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Patientin hat eine komorbide Angststörung, die vermutlich zum Benzodiazepinkonsum beigetragen hat. Eine störungsspezifische Psychotherapie kann Rückfälle verhindern und alternative Bewältigungsstrategien fördern. Diese Maßnahme ist daher fachlich sinnvoll.",
+          "term": "Psychotherapie"
+        }
+      ]
+    },
+    "127": {
+      "topicLabel": "Benzodiazepin-Indikationen",
+      "explanation": "Benzodiazepine sind in Psychiatrie und Neurologie vor allem als kurzzeitig sedierende, anxiolytische, antikonvulsive und muskelrelaxierende Medikamente bedeutsam. Sie können in Akutsituationen wie agitierten Zuständen, suizidalen Krisen, Status epilepticus oder Katatonie lege artis eingesetzt werden. Sie sind jedoch keine Mood Stabilizer im Sinne einer phasenprophylaktischen Therapie der bipolaren Störung. Für die Langzeitbehandlung bipolarer Erkrankungen stehen andere Wirkstoffgruppen im Vordergrund. Daher gilt die Aussage zum Einsatz als Mood Stabilizer am wenigsten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Benzodiazepine sind keine Mood Stabilizer bei bipolarer Störung. Sie können allenfalls kurzfristig bei Erregung, Angst oder Schlaflosigkeit unterstützend eingesetzt werden. Eine phasenprophylaktische Wirkung im eigentlichen Sinn wird damit nicht erreicht.",
+          "term": "Mood Stabilizer"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Bei agitierten Depressionen können Benzodiazepine vorübergehend zur Sedierung und Anxiolyse eingesetzt werden. Das ersetzt nicht die antidepressive Behandlung, kann aber akut entlasten. Daher ist diese Aussage grundsätzlich zutreffend.",
+          "term": "agitierte Depression"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "In akuten suizidalen Krisen kann kurzfristige Sedierung oder Anxiolyse indiziert sein. Benzodiazepine können dabei unter engmaschiger Kontrolle eine unterstützende Rolle spielen. Die Suizidalität selbst wird dadurch nicht kausal behandelt, aber die Aussage ist nicht am wenigsten zutreffend.",
+          "term": "suizidale Krise"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Benzodiazepine sind wichtige Medikamente in der Akutbehandlung des Status epilepticus. Ihre antikonvulsive Wirkung beruht auf der Verstärkung GABAerger Hemmung. Diese Aussage ist daher klar richtig.",
+          "term": "Status epilepticus"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Katatonie kann auf Benzodiazepine, insbesondere Lorazepam, ansprechen. Der Einsatz ist in diesem Versorgungskontext etabliert. Daher ist diese Option nicht die am wenigsten zutreffende Aussage.",
+          "term": "Katatonie"
+        }
+      ]
+    },
+    "128": {
+      "topicLabel": "Septische Arthritis",
+      "explanation": "Bei einem fiebernden Kind mit Nichtbelastung des Beins, deutlich erhöhten Entzündungswerten und einem relevanten Hüftgelenkerguss besteht der dringende Verdacht auf eine septische Arthritis. Nach Abnahme von Blutkulturen ist die Punktion des Gelenkergusses der entscheidende nächste diagnostische Schritt. Sie ermöglicht die Gewinnung von Synovialflüssigkeit für Zellzahl, Grampräparat, Kultur und Resistenztestung. Die septische Arthritis ist ein Notfall, weil eine verzögerte Diagnostik und Therapie das Gelenk schädigen kann. Bildgebung kann ergänzen, ersetzt aber bei Erguss und Infektionsverdacht nicht die Gelenkpunktion.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Serologische Antikörpersuchtests sind bei akuter septischer Arthritis nicht der nächste diagnostische Schritt. Sie liefern meist keine rasche Erregerdiagnostik und helfen bei der unmittelbaren Therapieentscheidung wenig. Der vorhandene Erguss sollte direkt mikrobiologisch untersucht werden.",
+          "term": "Serologie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Röntgenbild des Beckens kann knöcherne Differenzialdiagnosen oder Spätfolgen zeigen. In der akuten Situation mit sonografisch nachgewiesenem Erguss sichert es die Infektion aber nicht. Die Erregerdiagnostik aus dem Gelenkerguss ist vorrangig.",
+          "term": "Röntgen"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine CT der Hüfte ist bei einem Kind mit klar nachgewiesenem Erguss nicht die naheliegendste nächste Maßnahme. Sie bringt Strahlenexposition mit sich und ersetzt keine mikrobiologische Sicherung. Für die Diagnose der septischen Arthritis ist die Punktion entscheidender.",
+          "term": "CT"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die Punktion des Gelenkergusses ist bei Verdacht auf septische Arthritis zentral. Sie bestätigt die eitrige Entzündung und ermöglicht den Erregernachweis mit Resistenztestung. Dadurch kann die antimikrobielle Therapie gezielt angepasst werden.",
+          "term": "Gelenkpunktion"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Keine weitere Diagnostik wäre bei diesem Befund gefährlich. Fieber, Nichtbelastung, hohe Entzündungswerte und ein Hüfterguss sprechen für einen dringlichen infektiologischen Notfall. Ohne Gelenkpunktion würde eine wichtige diagnostische und therapeutische Weichenstellung fehlen.",
+          "term": "keine Diagnostik"
+        }
+      ]
+    },
+    "129": {
+      "topicLabel": "Coxitis fugax",
+      "explanation": "Die Coxitis fugax ist eine meist selbstlimitierende, nichtbakterielle Hüftgelenksreizung im Kindesalter. Im Gegensatz zu septischer Arthritis, Osteomyelitis oder Phlegmone ist dabei keine antimikrobielle Therapie erforderlich. Behandelt wird in erster Linie symptomatisch, etwa mit Schonung und entzündungshemmenden Maßnahmen, während klinisch auf Warnzeichen geachtet wird. Im Fallkontext ist die septische Arthritis wegen Fieber, stark erhöhtem CRP und Gelenkerguss zwar die wahrscheinlichere Akutdiagnose. Die Frage fragt aber allgemein, bei welcher Diagnose am ehesten keine antimikrobielle Therapie indiziert ist; das ist die Coxitis fugax.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine septische eitrige Arthritis ist eine bakterielle Gelenkinfektion. Sie erfordert rasche antibiotische Therapie und meist auch Gelenkentlastung beziehungsweise Drainage. Daher ist hier eine antimikrobielle Behandlung indiziert.",
+          "term": "septische Arthritis"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die Coxitis fugax ist keine bakterielle Infektion des Gelenks. Sie wird in der Regel symptomatisch behandelt und bildet sich meist folgenlos zurück. Deshalb ist bei dieser Diagnose am ehesten keine antimikrobielle Therapie erforderlich.",
+          "term": "Coxitis fugax"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Osteomyelitis ist eine Infektion des Knochens und wird antimikrobiell behandelt. Auch ohne Weichteilbeteiligung ist eine Erregertherapie erforderlich. Andernfalls drohen Ausbreitung und knöcherne Schäden.",
+          "term": "Osteomyelitis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Osteomyelitis mit Arthritis kombiniert Knochen- und Gelenkinfektion. Das ist eine besonders relevante bakterielle Erkrankung, die eine rasche systemische Antibiotikatherapie erfordert. Diese Option ist daher klar nicht gesucht.",
+          "term": "Osteomyelitis mit Arthritis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Phlegmone ist eine bakterielle Weichteilinfektion. Auch ohne Gelenkbeteiligung ist eine antimikrobielle Therapie angezeigt. Sie unterscheidet sich damit deutlich von der nichtbakteriellen Coxitis fugax.",
+          "term": "Phlegmone"
+        }
+      ]
+    },
+    "130": {
+      "topicLabel": "Staphylokokken-Osteomyelitis",
+      "explanation": "Bei akuter Osteomyelitis und Arthritis mit Nachweis von Staphylococcus aureus ist eine rasche antimikrobielle Therapie erforderlich. Initial wird bei schwerem Verdacht beziehungsweise gesicherter bakterieller Infektion empirisch behandelt, meist intravenös, und nach Erreger- und Resistenzbefund gezielt angepasst. Das Vorgehen verbindet frühzeitige Therapie mit Antibiotic Stewardship. Ein Abwarten bis zur Resistenztestung wäre bei einem kranken Kind mit Knochen- und Gelenkinfektion riskant. Makrolide, eine extrem kurze Therapiedauer oder lokale Gentamicin-Ketten mit Chinolonen sind in diesem Kontext nicht die passende allgemeine Empfehlung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Makrolide sind bei Staphylococcus-aureus-Osteomyelitis nicht die Mittel der ersten Wahl. Die Therapie muss zuverlässig gegen den wahrscheinlichen beziehungsweise nachgewiesenen Erreger wirksam sein. Diese pauschale Empfehlung wäre daher falsch.",
+          "term": "Makrolide"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Therapie über nur wenige Tage ist für Osteomyelitis und septische Arthritis in der Regel zu kurz. Knochen- und Gelenkinfektionen benötigen eine ausreichend lange und klinisch kontrollierte Behandlung. Die Aussage unterschätzt die notwendige Therapiedauer deutlich.",
+          "term": "kurze Therapiedauer"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Bei hochgradigem Verdacht oder Nachweis einer schweren bakteriellen Knochen- und Gelenkinfektion darf die Therapie nicht bis zum Resistenzbefund verzögert werden. Nach Blutkulturen und geeigneter Materialgewinnung wird initial empirisch behandelt. Die Resistenztestung dient anschließend der Anpassung.",
+          "term": "Therapieverzug"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die initiale empirische intravenöse Therapie wird nach Vorliegen der Resistenztestung gezielt angepasst. Das ist der zentrale Grundsatz bei schweren bakteriellen Infektionen wie Osteomyelitis und Arthritis. So werden frühe Wirksamkeit und gezielte Erregertherapie kombiniert.",
+          "term": "Therapieanpassung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Gentamicin-Ketten und Chinolone sind keine regelhafte Standardempfehlung für die beschriebene pädiatrische Osteomyelitis mit Arthritis. Lokale Antibiotikaträger haben spezielle Indikationen und ersetzen nicht die systemische, erregerspezifische Therapie. Die pauschale Kombination ist daher nicht passend.",
+          "term": "Gentamicin-Ketten"
+        }
+      ]
+    },
+    "131": {
+      "topicLabel": "Gestationsdiabetes-Therapie",
+      "explanation": "Bei neu diagnostiziertem Gestationsdiabetes ohne Hinweis auf fetale Makrosomie steht zunächst die strukturierte Basistherapie im Vordergrund. Dazu gehören medizinische Ernährungsberatung, moderate körperliche Aktivität und ambulante Blutzuckerselbstmessungen. Anhand der gemessenen Werte wird zeitnah entschieden, ob die Basismaßnahmen ausreichen oder eine medikamentöse Therapie erforderlich wird. Ein sofortiger Beginn mit Insulin oder Metformin ist bei dieser Ausgangslage nicht automatisch vorrangig. Ebenso ist eine stationäre Aufnahme nur wegen der Diagnose in dieser stabilen Situation nicht die naheliegendste Maßnahme.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Gestationsdiabetes erfordert auch ohne fetale Makrosomie therapeutische Konsequenzen. Zunächst sind Ernährung, Bewegung und Blutzuckerselbstkontrollen wichtig. Abwarten ohne Maßnahmen würde das Risiko mütterlicher und fetaler Komplikationen unnötig erhöhen.",
+          "term": "keine Therapie"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Ernährungsberatung und ambulante Blutzuckerselbstmessungen sind die vorrangige Erstmaßnahme bei unkompliziertem Gestationsdiabetes. Sie ermöglichen eine rasche Beurteilung, ob die Stoffwechsellage durch Basismaßnahmen kontrolliert werden kann. Die weitere Behandlung richtet sich dann nach den Verlaufswerten.",
+          "term": "Ernährungsberatung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Metformin ist nicht die vorrangige initiale Maßnahme in dieser stabilen Situation. Vor einer medikamentösen Therapie sollte geprüft werden, ob Basismaßnahmen mit Selbstkontrolle ausreichen. Zudem wird die Indikation zu oralen Antidiabetika in der Schwangerschaft zurückhaltend gestellt.",
+          "term": "Metformin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Insulin ist wichtig, wenn die Zielwerte unter Basistherapie nicht erreicht werden oder besondere Risikokonstellationen bestehen. Hier wird zunächst eine ambulante Verlaufskontrolle nach Ernährungsumstellung und Selbstmessung angestrebt. Ein sofortiger Basalinsulinbeginn ist daher nicht vorrangig.",
+          "term": "Basalinsulin"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine stationäre Aufnahme zur intensivierten Insulintherapie ist bei dieser Patientin nicht die erste Maßnahme. Sie ist klinisch stabil und es liegt kein Hinweis auf eine akute Entgleisung oder fetale Makrosomie vor. Die Behandlung kann zunächst ambulant strukturiert werden.",
+          "term": "stationäre Aufnahme"
+        }
+      ]
+    },
+    "132": {
+      "topicLabel": "GDM-Risikofaktoren",
+      "explanation": "Ein Body-Mass-Index unter 25 kg/m2 vor der Schwangerschaft gilt am wenigsten als Risikofaktor für Gestationsdiabetes. Vielmehr ist Übergewicht beziehungsweise Adipositas ein klassischer Risikofaktor, während ein normaler BMI das Risiko nicht in gleicher Weise erhöht. Weitere etablierte Risikokonstellationen sind ein früherer Gestationsdiabetes, eine positive Familienanamnese für Diabetes mellitus, höheres mütterliches Alter und bestimmte ethnische Hintergründe. Die Patientin im Fall ist 35 Jahre alt und hat bereits einen diagnostizierten GDM, aber die Frage zielt allgemein auf Risikofaktoren. Unter den Antwortmöglichkeiten ist daher der BMI unter 25 kg/m2 die am wenigsten passende Angabe.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ein BMI unter 25 kg/m2 vor der Schwangerschaft entspricht keinem klassischen GDM-Risikofaktor. Risikosteigernd ist vielmehr ein erhöhter BMI. Daher ist diese Antwort am wenigsten als Risikofaktor zu werten.",
+          "term": "normaler BMI"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Bestimmte ethnische Hintergründe sind mit einem erhöhten Risiko für Gestationsdiabetes verbunden. Dazu zählen in Leitlinien häufig Regionen mit hoher Diabetesprävalenz. Diese Option passt daher grundsätzlich zu einem Risikofaktor.",
+          "term": "Ethnizität"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Gestationsdiabetes in einer früheren Schwangerschaft ist ein starker Risikohinweis. Er zeigt eine bereits bestehende Neigung zu gestörter Glukosetoleranz unter Schwangerschaftsbedingungen. Diese Option ist daher klar ein Risikofaktor.",
+          "term": "früherer GDM"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine positive Familienanamnese für Diabetes mellitus weist auf genetische und metabolische Prädisposition hin. Sie erhöht das Risiko für Störungen des Glukosestoffwechsels in der Schwangerschaft. Deshalb ist sie als Risikofaktor plausibel.",
+          "term": "Familienanamnese"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Höheres mütterliches Alter gehört zu den bekannten Risikofaktoren für Gestationsdiabetes. Die Insulinresistenz und metabolische Vulnerabilität nehmen mit dem Alter tendenziell zu. Diese Antwort ist daher nicht die am wenigsten passende.",
+          "term": "Alter"
+        }
+      ]
+    },
+    "133": {
+      "topicLabel": "GDM-Folgerisiken",
+      "explanation": "Nach Gestationsdiabetes ist das spätere Risiko für metabolische und kardiovaskuläre Erkrankungen erhöht. Besonders relevant ist die Entwicklung eines Diabetes mellitus Typ 2, außerdem bestehen Zusammenhänge mit arterieller Hypertonie und kardiovaskulären Erkrankungen. Auch psychische Folgeprobleme wie Depressionen werden im Zusammenhang mit GDM beschrieben. Eine Hypothyreose ist dagegen unter den genannten Optionen am wenigsten typisch als postpartal erhöhtes Folgerisiko durch GDM. Deshalb ist sie hier die gesuchte Antwort, obwohl Schilddrüsenerkrankungen in der Schwangerschaft grundsätzlich eigene Bedeutung haben können.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Hypothyreose ist im Vergleich zu den anderen Optionen am wenigsten typisch als Folge- oder Assoziationsrisiko nach Gestationsdiabetes. Der GDM weist vor allem auf eine spätere metabolische und kardiovaskuläre Vulnerabilität hin. Daher ist diese Antwort korrekt.",
+          "term": "Hypothyreose"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Das Risiko für Diabetes mellitus Typ 2 ist nach Gestationsdiabetes deutlich erhöht. Der GDM kann als Belastungstest des Glukosestoffwechsels verstanden werden. Diese Erkrankung ist daher nicht die am geringsten erhöhte.",
+          "term": "Typ-2-Diabetes"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Depressive Symptome beziehungsweise Depressionen werden nach GDM häufiger beobachtet als bei Frauen ohne GDM. Psychosoziale Belastung, Schwangerschaftskomplikationen und metabolische Faktoren können dazu beitragen. Daher ist diese Option nicht am wenigsten passend.",
+          "term": "Depression"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Arterielle Hypertonie gehört zu den kardiometabolischen Risiken, die nach GDM vermehrt auftreten können. Der gemeinsame Hintergrund sind metabolische Risikofaktoren und Insulinresistenz. Deshalb ist diese Antwort nicht gesucht.",
+          "term": "Hypertonie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Kardiovaskuläre Erkrankungen sind nach Gestationsdiabetes langfristig relevanter als bei Frauen ohne diese Vorgeschichte. Der GDM markiert ein erhöhtes kardiometabolisches Risiko. Somit ist diese Option nicht die am geringsten erhöhte.",
+          "term": "kardiovaskuläre Erkrankungen"
+        }
+      ]
+    },
+    "134": {
+      "topicLabel": "Legionellen-Übertragung",
+      "explanation": "Legionellen werden typischerweise durch Inhalation erregerhaltiger Wasser-Aerosole übertragen. Klassische Quellen sind technische Wassersysteme wie Duschen, Klimaanlagen, Whirlpools oder andere Anlagen mit warmem Wasser und Aerosolbildung. Im Reise- und Hotelkontext ist das Duschen bei einem Zwischenaufenthalt deshalb die plausibelste Exposition. Eine Übertragung über Nahrung, Sexualkontakte oder Stechmücken gehört nicht zum typischen Infektionsweg. Entscheidend ist nicht die Südamerikareise an sich, sondern eine mögliche Exposition gegenüber kontaminierten Wasser-Aerosolen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Der Verzehr kontaminierter Nahrungsmittel ist kein typischer Infektionsweg der Legionellen-Pneumonie. Legionellen verursachen die Pneumonie vor allem nach Einatmen kontaminierter Wasser-Aerosole. Eine gastrointestinale Aufnahme erklärt die Erkrankung daher nicht am ehesten.",
+          "term": "Nahrungsmittel"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Duschen in einem Hotel ist eine klassische Risikosituation, wenn das Warmwassersystem mit Legionellen kontaminiert ist. Beim Duschen entstehen feine Wasser-Aerosole, die eingeatmet werden können. Das passt am besten zur Legionellen-Pneumonie.",
+          "term": "Hotel-Dusche"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Das Einatmen erregerhaltiger Aerosole ist grundsätzlich der richtige Mechanismus, die angegebene Situation beim Geschäftsessen liefert aber keine typische Legionellenquelle. Entscheidend sind meist Wasser-Aerosole aus technischen Wassersystemen. Deshalb ist die Hotel-Dusche die konkretere und wahrscheinlichere Antwort.",
+          "term": "Aerosole beim Essen"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Legionellen werden nicht durch Mückenstiche übertragen. Eine Tigermücke wäre eher bei anderen reisemedizinischen Infektionen relevant. Für eine Legionellen-Pneumonie passt dieser Vektor nicht.",
+          "term": "Mückenstich"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ungeschützter Geschlechtsverkehr ist kein Übertragungsweg für Legionellen. Die Erkrankung entsteht nicht durch sexuelle Transmission, sondern durch inhalierte kontaminierte Wasser-Aerosole. Diese Antwort ist daher unplausibel.",
+          "term": "Geschlechtsverkehr"
+        }
+      ]
+    },
+    "135": {
+      "topicLabel": "Legionellen-Diagnostik",
+      "explanation": "Zur zeitnahen Erhärtung einer Legionellen-Pneumonie eignet sich der Nachweis von Erreger-DNA mittels PCR aus respiratorischem Material. Die PCR kann rasch Hinweise auf Legionella spp. liefern und ist besonders sinnvoll, wenn eine respiratorische Probe verfügbar ist. Ein Urinantigentest wäre ebenfalls ein bekanntes schnelles Verfahren, ist hier aber nicht als passende Antwortoption formuliert. Serologische Verfahren sind für die Akutdiagnostik weniger geeignet, weil Antikörper oft erst im Verlauf aussagekräftig werden. Nasopharyngealabstriche oder eine Gramfärbung des Sputums sind für Legionellen nicht zuverlässig genug.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Erregerspezifische IgG-Antikörper im Serum sind für die zeitnahe Akutdiagnostik ungeeignet. Ein aussagekräftiger Titeranstieg zeigt sich häufig erst im Verlauf. Für die rasche Erhärtung der Verdachtsdiagnose ist diese Option daher nicht optimal.",
+          "term": "IgG-Serologie"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Eine PCR aus respiratorischem Untersuchungsmaterial kann Legionellen-DNA zeitnah nachweisen. Sie passt zur Pneumonie, weil das Material aus dem betroffenen Organsystem stammt. Unter den angebotenen Verfahren ist sie am ehesten geeignet.",
+          "term": "PCR"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Nachweis erregerspezifischer IgM-Antikörper im Urin ist kein übliches diagnostisches Prinzip bei Legionellen. Bekannt ist der Antigennachweis im Urin, nicht ein IgM-Antikörpernachweis dort. Die Formulierung macht diese Option falsch.",
+          "term": "IgM im Urin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Der kulturelle Nachweis von Legionellen erfordert geeignetes respiratorisches Material und spezielle Kulturbedingungen. Ein Nasopharyngealabstrich ist für die Legionellen-Pneumonie nicht das geeignete Standardmaterial. Zudem ist die Kultur nicht die schnellste Methode.",
+          "term": "Kultur aus Abstrich"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Legionellen lassen sich in der Gramfärbung aus Sputum schlecht und unzuverlässig nachweisen. Die Methode ist daher zur zeitnahen Sicherung der Verdachtsdiagnose nicht geeignet. Molekulare oder antigenbasierte Verfahren sind hierfür besser.",
+          "term": "Gramfärbung"
+        }
+      ]
+    },
+    "136": {
+      "topicLabel": "Legionellen-Morphologie",
+      "explanation": "Legionellen sind gramnegative Stäbchenbakterien. In der Gramfärbung können sie zwar schwach oder schwer darstellbar sein und wachsen bevorzugt intrazellulär in Makrophagen, dennoch entspricht ihre grundlegende Einordnung gramnegativen Stäbchen. Die Antwort zielt auf die mikrobiologische Morphologie, nicht auf die diagnostische Empfindlichkeit der Gramfärbung. Grampositive Kokken oder Stäbchen sowie gramnegative Kokken passen taxonomisch nicht. Die Aussage, sie stellten sich gar nicht dar, ist zu absolut und widerspricht der grundsätzlichen Gramklassifikation.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Grampositive Kokken wären beispielsweise Staphylokokken oder Streptokokken. Legionellen gehören nicht zu dieser morphologischen Gruppe. Diese Antwort ist daher eindeutig falsch.",
+          "term": "grampositive Kokken"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Gramnegative Kokken passen zu Erregern wie Neisserien, nicht zu Legionellen. Legionellen sind stäbchenförmig. Die Kokkenmorphologie ist daher nicht korrekt.",
+          "term": "gramnegative Kokken"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Grampositive Stäbchen beschreiben eine andere Bakteriengruppe. Legionellen besitzen eine gramnegative Zellwandstruktur. Auch wenn sie schwer anfärbbar sein können, sind sie keine grampositiven Stäbchen.",
+          "term": "grampositive Stäbchen"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Legionellen sind gramnegative Stäbchen. Diese Einordnung ist für die mikrobiologische Grundcharakterisierung entscheidend. Praktisch ist zu beachten, dass die Gramfärbung für den Nachweis wenig sensitiv sein kann.",
+          "term": "gramnegative Stäbchen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Legionellen können intrazellulär vorkommen und sind in der Gramfärbung oft schwer zu sehen. Daraus folgt aber nicht, dass sie sich grundsätzlich gar nicht darstellen oder keine Gramklassifikation hätten. Die korrekte Einordnung bleibt gramnegatives Stäbchen.",
+          "term": "intrazellulär"
+        }
+      ]
+    },
+    "137": {
+      "topicLabel": "Legionellen-Therapie",
+      "explanation": "Legionellen sind intrazelluläre Erreger, sodass Antibiotika mit guter intrazellulärer Wirksamkeit benötigt werden. Makrolide wie Azithromycin gehören zu den geeigneten Wirkstoffen zur Behandlung einer Legionellen-Pneumonie. Beta-Laktam-Antibiotika wie Penicillin G oder Cefuroxim sind für Legionellen typischerweise nicht ausreichend wirksam. Cotrimoxazol und Imipenem sind in diesem unkomplizierten ambulanten Fall nicht die naheliegendste Standardwahl. Daher ist Azithromycin unter den Antwortmöglichkeiten am besten geeignet.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Penicillin G ist ein Beta-Laktam und nicht geeignet für die gezielte Therapie einer Legionellen-Pneumonie. Legionellen sind intrazellulär lokalisiert und sprechen nicht zuverlässig auf klassische Beta-Laktame an. Diese Option ist daher falsch.",
+          "term": "Penicillin G"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Cefuroxim ist ebenfalls ein Beta-Laktam-Antibiotikum. Es deckt typische ambulante Pneumonieerreger teilweise ab, aber Legionellen nicht ausreichend. Bei Verdacht auf Legionellen ist ein Wirkstoff mit intrazellulärer Aktivität erforderlich.",
+          "term": "Cefuroxim"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Azithromycin ist ein Makrolid mit guter intrazellulärer Wirksamkeit. Es ist deshalb für Legionellen-Pneumonien geeignet. Unter den genannten Optionen ist es die passendste Therapie.",
+          "term": "Azithromycin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Cotrimoxazol ist nicht die bevorzugte Standardtherapie der Legionellen-Pneumonie. Auch wenn es gegen bestimmte atypische oder opportunistische Erreger eingesetzt werden kann, ist es hier nicht die naheliegendste Wahl. Makrolide sind in diesem Fall passender.",
+          "term": "Cotrimoxazol"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Imipenem ist ein Breitspektrum-Carbapenem und für den beschriebenen Fall nicht die typische Erstwahl. Es wäre für andere schwere oder resistente Infektionen zu erwägen, nicht primär für eine unkomplizierte Legionellen-Pneumonie. Die intrazellulär wirksame Makrolidtherapie ist hier geeigneter.",
+          "term": "Imipenem"
+        }
+      ]
+    },
+    "138": {
+      "topicLabel": "Obstruktion mit Überblähung",
+      "explanation": "Der vorgegebene Lungenfunktionsbefund ist nach dem Antwortschlüssel als obstruktive Ventilationsstörung mit deutlicher Überblähung zu bewerten. Obstruktion zeigt sich typischerweise an einer verminderten Ausatemflussleistung beziehungsweise einem erniedrigten Verhältnis von FEV1 zu Vitalkapazität. Eine Überblähung spricht zusätzlich für Luftfalle und erhöhte Lungenvolumina, etwa ein erhöhtes Residualvolumen. Der klinische Kontext mit chronischem Husten, Eosinophilie und grenzwertig erhöhtem IgE passt zu einer obstruktiven Atemwegserkrankung. Eine reine Restriktion oder ein Normalbefund würde die Kombination aus Obstruktionszeichen und Überblähung nicht erklären.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein altersentsprechender Normalbefund würde keine relevante Obstruktion und keine deutliche Überblähung zeigen. Der Antwortschlüssel setzt jedoch einen pathologischen Lungenfunktionsbefund voraus. Daher ist diese Option nicht vereinbar.",
+          "term": "Normalbefund"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine gemischte obstruktive und restriktive Ventilationsstörung würde neben Obstruktionszeichen auch Hinweise auf eine relevante Volumenminderung erwarten lassen. Die korrekte Einordnung betont jedoch die Obstruktion mit Überblähung. Eine Restriktion steht hier nicht im Vordergrund.",
+          "term": "gemischte Störung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine restriktive Ventilationsstörung ist durch verminderte Lungenvolumina geprägt. Das passt nicht zu einer deutlichen Überblähung, bei der Luft in der Lunge verbleibt. Diese Antwort beschreibt daher ein anderes Funktionsmuster.",
+          "term": "Restriktion"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Eine obstruktive Ventilationsstörung mit deutlicher Überblähung erklärt einen verminderten Ausatemfluss zusammen mit Luftfalle. Dieses Muster passt zu obstruktiven Atemwegserkrankungen, etwa Asthma oder COPD-ähnlichen Befunden. Im Fall stützen Husten und eosinophile Entzündungszeichen eine obstruktive Arbeitshypothese.",
+          "term": "Obstruktion mit Überblähung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Obstruktion ohne Überblähung würde zwar den obstruktiven Anteil erfassen, aber den zusätzlichen Volumenbefund übersehen. Die richtige Bewertung nennt ausdrücklich eine deutliche Überblähung. Deshalb ist diese Option unvollständig.",
+          "term": "Obstruktion ohne Überblähung"
+        }
+      ]
+    },
+    "139": {
+      "topicLabel": "Asthma-Basistherapie",
+      "explanation": "Der Fall beschreibt eine obstruktive Atemwegserkrankung, deren Arbeitshypothese durch einen Bronchospasmolysetest gefestigt wird. Eine relevante Reversibilität der Obstruktion zusammen mit Eosinophilie und erhöhtem IgE passt am ehesten zu Asthma bronchiale. Für die Monotherapie ist ein inhalatives Glukokortikoid die geeignete antiinflammatorische Basistherapie. Eine alleinige Behandlung mit langwirksamen Betamimetika ist bei Asthma nicht angemessen, weil sie die Entzündung nicht kontrolliert und als Monotherapie riskant sein kann. Andere Optionen wie LAMA, Cromoglicinsäure oder Leukotrienantagonisten sind in dieser Konstellation nicht die beste Monotherapie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Langwirksame Anticholinergika können bei obstruktiven Atemwegserkrankungen eine Rolle spielen, besonders bei COPD oder als Zusatztherapie. Bei neu gesichertem Asthma sind sie aber nicht die bevorzugte Monotherapie. Die antiinflammatorische Kontrolle fehlt.",
+          "term": "LAMA"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Langwirksame Betamimetika erweitern die Bronchien, behandeln aber nicht die zugrunde liegende Entzündung. Als Monotherapie bei Asthma sind sie nicht geeignet. Sie werden gegebenenfalls mit inhalativen Glukokortikoiden kombiniert.",
+          "term": "LABA"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Cromoglicinsäure hat eine mastzellstabilisierende Wirkung, ist aber nicht die bevorzugte Standard-Monotherapie bei dieser erwachsenen Patientin. Die Wirksamkeit ist im Vergleich zur inhalativen Glukokortikoidtherapie begrenzt. Daher ist diese Option nicht am ehesten zu verordnen.",
+          "term": "Cromoglicinsäure"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Ein inhalatives Glukokortikoid behandelt die asthmatische Atemwegsentzündung. Bei reversibler Obstruktion und eosinophiler Konstellation ist es die passende Monotherapie zur Kontrolle der Erkrankung. Damit adressiert es die Pathophysiologie besser als reine Bronchodilatatoren.",
+          "term": "inhalatives Glukokortikoid"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Leukotrienantagonisten können bei Asthma in bestimmten Situationen ergänzend eingesetzt werden. Sie sind jedoch nicht die bevorzugte Erst-Monotherapie bei der beschriebenen erwachsenen Patientin. Ein inhalatives Glukokortikoid ist wirksamer als antiinflammatorische Basisbehandlung.",
+          "term": "Leukotrienantagonist"
+        }
+      ]
+    },
+    "140": {
+      "topicLabel": "Langzeitblutdruck-Dipper",
+      "explanation": "Die Langzeit-Blutdruckmessung ist nach dem Antwortschlüssel als Hypertonie mit erhaltener nächtlicher Blutdruckabsenkung zu bewerten. Damit liegen erhöhte Blutdruckwerte vor, aber der Blutdruck fällt nachts ab, was als Dipper-Profil bezeichnet wird. Ein Non-Dipper-Profil wäre dagegen durch fehlende oder unzureichende nächtliche Absenkung gekennzeichnet. Ein entgleister Bluthochdruck würde eine deutlich akutere beziehungsweise schwerere Bewertung nahelegen als der beschriebene ambulante Messbefund. Bei einem seit Jahren bekannten und behandelten Hypertonus ist diese Unterscheidung wichtig, weil sowohl das mittlere Blutdruckniveau als auch das zirkadiane Muster beurteilt werden.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Normalbefund würde in der Langzeitmessung keine erhöhten Blutdruckwerte zeigen. Der korrekte Befund enthält jedoch erhöhte Werte. Daher ist diese Antwort nicht passend.",
+          "term": "Normalbefund"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein entgleister Bluthochdruck beschreibt eine deutlich schwerere, akut behandlungsbedürftige Situation. Die korrekte Bewertung lautet nicht Entgleisung, sondern erhöhte Werte mit erhaltener nächtlicher Absenkung. Diese Option überzeichnet den Befund.",
+          "term": "entgleister Blutdruck"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Diese Antwort kombiniert normale Blutdruckwerte mit fehlender Nachtabsenkung. Im gesuchten Befund sind die Blutdruckwerte jedoch erhöht. Außerdem ist die nächtliche Absenkung gerade erhalten.",
+          "term": "normaler Non-Dipper"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Erhöhte Blutdruckwerte sind zwar Teil des Befunds, aber die nächtliche Blutdruckabsenkung fehlt nicht. Ein Non-Dipper-Profil wäre eine fehlende Absenkung in der Nacht. Der Antwortschlüssel spricht stattdessen für einen Dipper.",
+          "term": "hypertensiver Non-Dipper"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Diese Option beschreibt erhöhte Blutdruckwerte bei erhaltener nächtlicher Absenkung. Genau das entspricht einem Dipper-Profil. Für die weitere hausärztliche Therapie ist damit sowohl die Hypertonie als auch das noch erhaltene Tages-Nacht-Muster relevant.",
+          "term": "hypertensiver Dipper"
+        }
+      ]
+    }
+  }
+}

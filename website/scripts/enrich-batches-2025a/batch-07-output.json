@@ -1,0 +1,745 @@
+{
+  "examId": "m2-2025a-staatsexamen",
+  "questions": {
+    "141": {
+      "topicLabel": "Hypertonie-Herzschaden",
+      "explanation": "Bei langjähriger arterieller Hypertonie kommt es früh zu einer erhöhten linksventrikulären Nachlast mit konzentrischem Remodeling und verminderter Relaxation. Echokardiografisch zeigt sich dies häufig zunächst als diastolische Dysfunktion, noch bevor ausgeprägte Dilatationen oder eine systolische Pumpstörung auffallen. Der vorherige 24-Stunden-Blutdruckbefund spricht für weiterhin erhöhte Werte bei erhaltenem nächtlichem Abfall, sodass eine hypertensive Zielorganschädigung plausibel ist. Klappenvitien oder rechtsventrikuläre Störungen sind dagegen keine typischen Frühbefunde der unkomplizierten Hypertonie. Eine Linksatrialdilatation kann sekundär aus chronisch erhöhten Füllungsdrücken entstehen, ist aber eher Folge einer länger bestehenden diastolischen Belastung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die diastolische Dysfunktion passt am besten als früher kardialer Endorganschaden bei arterieller Hypertonie. Durch die erhöhte Nachlast wird der linke Ventrikel steifer, sodass sich die Relaxation und Füllung früh verschlechtern können, auch wenn die Ejektionsfraktion noch normal ist.",
+          "term": "diastolische Dysfunktion"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Aortenklappeninsuffizienz ist kein typischer Frühbefund einer hypertensiven Herzerkrankung. Sie kann zwar ebenfalls zu Volumenbelastung des linken Ventrikels führen, entsteht aber meist durch Klappenerkrankungen oder Aortenwurzelpathologien und erklärt den Fallkontext nicht am ehesten.",
+          "term": "Aortenklappeninsuffizienz"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Dilatation des linken Vorhofs kann bei chronisch erhöhten linksventrikulären Füllungsdrücken auftreten. Als Frühbefund ist jedoch eher die diastolische Funktionsstörung des linken Ventrikels zu erwarten, aus der die Vorhofvergrößerung später resultieren kann.",
+          "term": "linksatriale Dilatation"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine rechtsventrikuläre Dysfunktion spricht eher für pulmonale Hypertonie, relevante Lungenerkrankungen, Rechtsherzinfarkt oder andere rechtsseitige Belastungen. Bei primärer systemischer arterieller Hypertonie ist der linke Ventrikel zuerst betroffen.",
+          "term": "rechtsventrikuläre Dysfunktion"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Mitralklappenstenose ist typischerweise ein strukturelles Klappenvitium und keine Folge einer arteriellen Hypertonie. Sie würde eher zu linksatrialer Druckbelastung und pulmonaler Stauung führen, passt aber nicht als hypertensiver Frühschaden.",
+          "term": "Mitralklappenstenose"
+        }
+      ]
+    },
+    "142": {
+      "topicLabel": "Antihypertensive Kombination",
+      "explanation": "Der Patient hat trotz ACE-Hemmer-Therapie weiterhin erhöhte Blutdruckwerte in der 24-Stunden-Messung. Bei unzureichender Blutdruckkontrolle wird leitliniengerecht meist eine Kombinationstherapie mit komplementären Wirkmechanismen gewählt, insbesondere ACE-Hemmer oder Sartan plus Kalziumantagonist oder thiazidartiges Diuretikum. Da Ramipril bereits in hoher Dosis gegeben wird, ist die Ergänzung eines thiazidartigen Diuretikums naheliegend. Eine duale Blockade des Renin-Angiotensin-Systems durch ACE-Hemmer und Sartan ist wegen ungünstigem Nutzen-Risiko-Profil nicht sinnvoll. Zentral wirksame Antihypertensiva und Betablocker sind ohne spezielle Zusatzindikation nicht die bevorzugte Eskalation.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Erhöhung der Ramipril-Dosis ist hier nicht die beste Eskalation, da der Patient bereits mit 10 mg behandelt wird. Bei persistierender Hypertonie ist häufig die Kombination mit einem zweiten Wirkprinzip wirksamer als das weitere Ausreizen eines einzelnen Präparats.",
+          "term": "ACE-Hemmer-Dosissteigerung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die Kombination aus ACE-Hemmer und Sartan bedeutet eine duale Hemmung des Renin-Angiotensin-Systems. Diese wird wegen erhöhter Risiken, etwa für Nierenfunktionsverschlechterung und Hyperkaliämie, in der Routinebehandlung der Hypertonie nicht empfohlen.",
+          "term": "duale RAAS-Blockade"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Zentrale Alpha-Agonisten können den Blutdruck senken, sind aber typischerweise keine frühe Standardergänzung bei unkomplizierter Hypertonie. Sie werden eher bei ausgewählten oder therapierefraktären Situationen eingesetzt und sind häufiger durch zentralnervöse Nebenwirkungen limitiert.",
+          "term": "zentraler Alpha-Agonist"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Betablocker sind bei Hypertonie besonders sinnvoll, wenn Zusatzindikationen wie KHK, Herzinsuffizienz oder bestimmte Rhythmusstörungen bestehen. Im geschilderten Fall sind solche Indikationen nicht genannt, daher ist ein thiazidartiges Diuretikum die passendere Kombinationsoption.",
+          "term": "Betablocker"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Ein thiazidartiges Diuretikum ergänzt den ACE-Hemmer mit einem anderen Wirkmechanismus und ist eine etablierte Kombination bei unzureichend kontrollierter arterieller Hypertonie. Es passt besonders, wenn keine Kontraindikationen genannt sind und der Blutdruck trotz bisheriger Therapie erhöht bleibt.",
+          "term": "Thiazid-artiges Diuretikum"
+        }
+      ]
+    },
+    "143": {
+      "topicLabel": "Kontaktlinsenkeratitis",
+      "explanation": "Die Patientin hat eine schmerzhafte Visusminderung mit Hornhautbefund im Kontext regelmäßigen Kontaktlinsentragens. Kontaktlinsen sind ein zentraler Risikofaktor für mikrobielle Keratitiden, insbesondere weil sie Mikrotraumen, Hypoxie und Keimadhärenz an der Hornhaut begünstigen können. Bei Kontaktlinsenträgern müssen bakterielle Erreger, einschließlich Pseudomonas, besonders bedacht werden; auch Akanthamöben kommen differenzialdiagnostisch in Betracht. Das Arbeitsumfeld im Krankenhaus ist weniger entscheidend als der direkte Kontaktlinseneffekt am Auge. Myopie erklärt die Notwendigkeit der Linsen, ist aber nicht der eigentliche auslösende Risikofaktor.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Mit 39 Jahren hat die Patientin kein altersbedingtes Hauptrisiko für die vermutete Hornhautinfektion. Entscheidend ist der lokale Risikofaktor an der Hornhaut, nicht das Lebensalter.",
+          "term": "Alter"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Das Arbeiten in einer orthopädischen Klinik kann theoretisch mit Keimkontakt einhergehen, erklärt aber eine Keratitis nicht so direkt wie Kontaktlinsentragen. Ohne Hinweis auf ein konkretes berufliches Augentrauma oder eine Kontamination ist das Arbeitsumfeld nicht der wahrscheinlichste Auslöser.",
+          "term": "Arbeitsumfeld"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Kontaktlinsen begünstigen Hornhautepitheldefekte, Keimadhärenz und eine verminderte lokale Abwehr. Bei schmerzhaftem roten Auge mit Visusminderung ist der Kontaktlinsengebrauch deshalb ein klassischer Risikofaktor für eine mikrobielle Keratitis.",
+          "term": "Kontaktlinsengebrauch"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die hohe Myopie ist der Grund, warum die Patientin Kontaktlinsen trägt, verursacht aber nicht unmittelbar die infektiöse Hornhauterkrankung. Der relevante Risikomechanismus entsteht durch die Linse auf der Hornhautoberfläche.",
+          "term": "Myopie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Entropium kann durch einwärts gerichtete Wimpern Hornhautreizungen und Epitheldefekte verursachen. Im Fall wird ein Entropium jedoch nicht beschrieben, während der Kontaktlinsengebrauch ausdrücklich genannt ist.",
+          "term": "Entropium"
+        }
+      ]
+    },
+    "144": {
+      "topicLabel": "Keratitisdiagnostik",
+      "explanation": "Bei Verdacht auf eine mikrobielle Keratitis soll vor Beginn der antimikrobiellen Therapie möglichst Material direkt von der Hornhaut gewonnen werden. Gramfärbung und mikrobiologische Kultur ermöglichen Erregernachweis und Resistenztestung, was gerade bei schweren, kontaktlinsenassoziierten Verläufen wichtig ist. Der diagnostische Schritt darf die Therapie nicht unnötig verzögern, sollte aber vor der ersten Antibiotikagabe erfolgen, weil danach die Nachweiswahrscheinlichkeit sinken kann. Ein bloßer Bindehautabstrich ist weniger aussagekräftig als Hornhautmaterial aus dem Infiltrat. Spezifische Spezialdiagnostik auf Akanthamöben oder konfokale Mikroskopie ist bei entsprechendem Verdacht wichtig, aber nicht der allgemein erste Schritt in dieser Konstellation.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die konfokale Mikroskopie kann bei bestimmten Erregern, insbesondere Akanthamöben oder Pilzen, hilfreich sein. Als erster erforderlicher Schritt vor Therapieeinleitung ist jedoch die Materialgewinnung von der Hornhaut für mikrobiologische Basisdiagnostik vorrangig.",
+          "term": "konfokale Mikroskopie"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Hornhautmaterial aus dem betroffenen Areal ist bei mikrobieller Keratitis die entscheidende Probe. Gramfärbung und Kultur dienen der schnellen Orientierung und der gezielten Anpassung der Therapie nach Erreger- und Resistenznachweis.",
+          "term": "Hornhautkultur"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Bindehautabstrich erfasst vor allem die konjunktivale Flora und kann den eigentlichen Erreger im Hornhautinfiltrat verfehlen. Für die Therapieentscheidung bei Keratitis ist direktes Hornhautmaterial deutlich aussagekräftiger.",
+          "term": "Bindehautabstrich"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Fluorescein macht Epitheldefekte sichtbar und ist in der Augenuntersuchung sehr nützlich. Vor Einleitung einer antimikrobiellen Therapie beantwortet es aber nicht die entscheidende Frage nach dem Erreger und ersetzt keine mikrobiologische Probe.",
+          "term": "Fluorescein-Färbung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Akanthamöben sind bei Kontaktlinsenträgern eine wichtige Differenzialdiagnose, besonders bei typischer Klinik oder Therapieversagen. Der Fall fragt jedoch nach dem ersten diagnostischen Schritt vor Therapie, und dieser ist die allgemeine Hornhautprobe für Gramfärbung und Kultur.",
+          "term": "Akanthamöbenabstrich"
+        }
+      ]
+    },
+    "145": {
+      "topicLabel": "Keratitistherapie",
+      "explanation": "Die Patientin hat den typischen Notfall einer schweren mikrobiellen Keratitis mit Schmerz, Visusminderung und Kontaktlinsenrisiko. Nach Gewinnung von Hornhautmaterial darf nicht auf das Kulturergebnis gewartet werden, sondern es muss sofort eine intensive topische antimikrobielle Breitspektrumtherapie beginnen. Bei schwerem Befund ist eine stationäre Aufnahme sinnvoll, damit sehr häufige Applikationen, auch nachts, zuverlässig erfolgen und Komplikationen früh erkannt werden. Eine ambulante Minimaltherapie wäre angesichts des Risikos für Hornhautdestruktion und Visusverlust unzureichend. Keratoplastik oder Enukleation sind keine initialen Standardmaßnahmen, solange keine entsprechende fortgeschrittene Komplikation vorliegt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Das Abwarten der Diagnostik wäre gefährlich, weil eine mikrobielle Keratitis rasch fortschreiten und die Hornhaut zerstören kann. Die Probe wird vor Therapiebeginn gewonnen, danach muss sofort empirisch behandelt werden.",
+          "term": "Therapieaufschub"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Tränenwegsspülung behandelt die Hornhautinfektion nicht ursächlich. Gentamicin in niedriger ambulanter Frequenz mit Kontrolle erst nach zwei Tagen wäre bei schwerem kontaktlinsenassoziiertem Befund zu wenig intensiv.",
+          "term": "ambulante Gentamicintherapie"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Stationäre Aufnahme und intensive topische Breitspektrumtherapie sind bei schwerer mikrobieller Keratitis angemessen. Die häufige Gabe auch während der Nacht soll rasch hohe lokale Wirkspiegel erreichen und eine Hornhautperforation verhindern.",
+          "term": "intensive topische Antibiotikatherapie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Notfallkeratoplastik ist keine Routinetherapie zu Beginn einer infektiösen Keratitis. Sie kommt eher bei drohender oder eingetretener Perforation oder therapierefraktären schweren Verläufen in Betracht.",
+          "term": "Notfallkeratoplastik"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Enukleation ist eine extreme Maßnahme bei nicht beherrschbaren, das Auge zerstörenden Prozessen. Im geschilderten Stadium steht die augenerhaltende intensive antimikrobielle Therapie im Vordergrund.",
+          "term": "Enukleation"
+        }
+      ]
+    },
+    "146": {
+      "topicLabel": "Lyme-Arthritis-Differenzialdiagnose",
+      "explanation": "Eine Lyme-Arthritis tritt typischerweise Wochen bis Monate nach Borrelieninfektion auf und betrifft häufig große Gelenke, besonders das Knie, oft mit Erguss. Der Zeckenstich zwei Monate zuvor und die Kniebeschwerden passen daher grundsätzlich gut. Ein hochtitriger Nachweis von ANA und Anti-dsDNA-Antikörpern spricht dagegen deutlich für eine systemische Autoimmunerkrankung, insbesondere einen systemischen Lupus erythematodes, und damit für eine andere Diagnose. Ein fehlender starker Leukozytenanstieg schließt eine Lyme-Arthritis nicht aus, da sie nicht wie eine akute septische Arthritis imponieren muss. FSME-Impfung und frühere mögliche Neuroborreliose sind für die aktuelle Differenzialdiagnose weniger gegenteilig.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Gelenkerguss ist bei Lyme-Arthritis gerade typisch, insbesondere am Kniegelenk. Dieser Befund würde die Verdachtsdiagnose daher nicht am stärksten infrage stellen.",
+          "term": "Kniegelenkerguss"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Das Fehlen einer ausgeprägten Leukozytose passt durchaus zu einer Lyme-Arthritis. Eine massive systemische Entzündungsreaktion wäre eher bei bakteriell-septischer Arthritis zu erwarten, ist aber für Borrelienarthritis nicht obligat.",
+          "term": "fehlende Leukozytose"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Hochtitrige ANA zusammen mit Anti-dsDNA-Antikörpern sind ein starker Hinweis auf eine Kollagenose, besonders systemischen Lupus erythematodes. Ein solcher Befund spräche deutlich stärker für eine andere Ursache der Gelenkbeschwerden als für eine Lyme-Arthritis.",
+          "term": "ANA und Anti-dsDNA"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine FSME-Impfung schützt gegen Frühsommer-Meningoenzephalitis, nicht gegen Borrelien. Sie macht eine Lyme-Arthritis weder wahrscheinlicher noch unwahrscheinlicher und ist daher kein starkes Gegenargument.",
+          "term": "FSME-Impfung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine frühere vermutete Neuroborreliose beweist die aktuelle Diagnose nicht, zeigt aber eher eine mögliche Exposition gegenüber Borrelien. Als Hinweis auf eine völlig andere Diagnose ist dieser Punkt deutlich schwächer als spezifische Autoantikörper.",
+          "term": "frühere Neuroborreliose"
+        }
+      ]
+    },
+    "147": {
+      "topicLabel": "Erythema migrans",
+      "explanation": "Bei Verdacht auf Lyme-Borreliose sollte gezielt nach einem Erythema migrans gefragt werden. Diese wandernde, sich ausbreitende Rötung ist die klassische frühe Hautmanifestation nach Zeckenstich und kann der späteren Lyme-Arthritis vorausgehen. Gerade in einem patientengerechten Gespräch ist die Frage nach einer ringförmig größer werdenden Rötung um die Stichstelle leicht verständlich und klinisch sehr relevant. Andere erythematöse Erkrankungen haben andere Leitsituationen, etwa rheumatisches Fieber oder Arznei-/Infektreaktionen, und passen weniger zum Borrelioseverdacht. Das Fehlen eines erinnerlichen Erythema migrans schließt Borreliose nicht sicher aus, sein Vorliegen stützt sie aber stark.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Acanthosis nigricans zeigt meist bräunlich-verdickte Hautareale in Beugen und ist mit Insulinresistenz oder anderen metabolischen Zusammenhängen assoziiert. Sie ist keine typische Hautmanifestation der Lyme-Borreliose.",
+          "term": "Acanthosis nigricans"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Eczema herpeticatum ist eine disseminierte Herpes-simplex-Infektion auf vorgeschädigter Haut, häufig bei atopischer Dermatitis. Es erklärt keine Kniearthritis nach Zeckenstich und ist nicht vorrangig zu erfragen.",
+          "term": "Eczema herpeticatum"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Das Erythema anulare marginatum ist klassisch mit rheumatischem Fieber assoziiert. Es ist ringförmig, aber nicht die typische Borreliose-Hautmanifestation nach Zeckenstich.",
+          "term": "Erythema anulare marginatum"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Das Erythema exsudativum multiforme tritt meist im Rahmen von Infektionen oder Arzneimittelreaktionen auf und zeigt typische kokardenartige Läsionen. Es ist für die Abklärung einer möglichen Lyme-Arthritis nicht der vorrangige anamnestische Hautbefund.",
+          "term": "Erythema exsudativum multiforme"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Das Erythema migrans ist die klassische Frühmanifestation der Lyme-Borreliose. Eine vorausgegangene, sich ausbreitende Rötung nach Zeckenstich würde den Zusammenhang zwischen Zeckenexposition und aktueller Arthritis deutlich stützen.",
+          "term": "Erythema migrans"
+        }
+      ]
+    },
+    "148": {
+      "topicLabel": "Borreliosemanifestationen",
+      "explanation": "Borrelieninfektionen können Haut, Nervensystem, Gelenke und seltener das Herz betreffen. Typische Hautmanifestationen sind neben dem Erythema migrans auch das Borrelienlymphozytom und die Acrodermatitis chronica atrophicans. Neurologisch können eine lymphozytäre Meningitis und periphere Fazialisparesen auftreten, insbesondere bei Neuroborreliose. Eine eosinophile Ösophagitis gehört dagegen nicht zum Manifestationsspektrum der Lyme-Borreliose. Sie ist eine immunvermittelte Erkrankung der Speiseröhre und passt nicht zur Borrelieninfektion.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Borrelienlymphozytom ist eine bekannte, wenn auch seltenere kutane Manifestation der Lyme-Borreliose. Es tritt häufig als bläulich-rötlicher Knoten oder Plaque auf und ist daher keine richtige Antwort auf die Frage nach einer nicht typischen Manifestation.",
+          "term": "Borrelienlymphozytom"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die Acrodermatitis chronica atrophicans ist eine typische Spätmanifestation der Lyme-Borreliose an der Haut. Sie spricht daher gerade für eine Borrelieninfektion und nicht dagegen.",
+          "term": "Acrodermatitis chronica atrophicans"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die eosinophile Ösophagitis ist keine typische Manifestation einer Borrelieninfektion. Sie ist vielmehr eine chronisch-entzündliche, immunologisch geprägte Erkrankung der Speiseröhre mit eosinophiler Infiltration.",
+          "term": "eosinophile Ösophagitis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Meningitis kann im Rahmen einer Neuroborreliose auftreten. Besonders eine lymphozytäre Meningoradikulitis oder Meningitis gehört zum neurologischen Spektrum der Erkrankung.",
+          "term": "Meningitis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine periphere Fazialisparese ist eine klassische Manifestation der Neuroborreliose, bei Kindern und Erwachsenen. Sie ist daher als Borrelienmanifestation gut vereinbar.",
+          "term": "periphere Fazialisparese"
+        }
+      ]
+    },
+    "149": {
+      "topicLabel": "Postmenopausenblutung",
+      "explanation": "Postmenopausale Blutungen müssen immer abgeklärt werden, da ein Endometriumkarzinom ausgeschlossen werden muss. Nach unauffälliger Portio in der Spekulumeinstellung ist die transvaginale Sonografie der naheliegende nächste Schritt, um Endometriumdicke, Uterus und Adnexe zu beurteilen. Die Patientin hat mit Hypertonie und Diabetes zusätzliche Risikofaktoren für ein Endometriumkarzinom, was die Abklärung dringlich macht. Schnittbildverfahren wie CT oder MRT sind initial nicht die erste Maßnahme zur Ursachenklärung einer postmenopausalen Blutung. Eine Gewebegewinnung wird bei auffälligem sonografischem Befund oder anhaltendem Verdacht benötigt, aber die Frage zielt auf den nächsten diagnostischen Schritt nach unauffälliger Portio.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die transvaginale Sonografie ist nach unauffälligem Spekulumbefund der sinnvolle nächste Schritt bei postmenopausaler Blutung. Sie erlaubt die Beurteilung des Endometriums und leitet die Entscheidung über eine histologische Abklärung.",
+          "term": "transvaginale Sonografie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein MRT kann bei gesicherter Diagnose oder speziellen Fragestellungen zur lokalen Ausbreitung hilfreich sein. Als erster nächster Schritt bei postmenopausaler Blutung ist es jedoch zu aufwendig und nicht primär erforderlich.",
+          "term": "MRT"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Kolposkopie dient vor allem der gezielten Beurteilung von Portio und Zervix. Da die Portio in der Spekulumeinstellung unauffällig ist und die Blutung postmenopausal ist, steht zunächst die Abklärung des Endometriums im Vordergrund.",
+          "term": "Kolposkopie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine CT ist für die Primärabklärung einer postmenopausalen Blutung nicht geeignet. Sie hat ihren Stellenwert eher bei Staging-Fragen oder extrapelvinen Befunden, nicht bei der ersten Endometriumsbeurteilung.",
+          "term": "CT"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Biopsie kann die Diagnose sichern, ist aber nicht der in der Frage gesuchte nächste Schritt nach unauffälliger Portio. Zunächst wird üblicherweise sonografisch beurteilt, ob das Endometrium auffällig ist und eine gezielte histologische Sicherung notwendig wird.",
+          "term": "Biopsie"
+        }
+      ]
+    },
+    "150": {
+      "topicLabel": "Endometriumkarzinom-Sicherung",
+      "explanation": "Der Verdacht auf ein Endometriumkarzinom wird durch histologische Untersuchung von Endometriumgewebe gesichert. Hysteroskopie mit fraktionierter Abrasio erlaubt die direkte Beurteilung der Gebärmutterhöhle und die getrennte Gewebegewinnung aus Zervikalkanal und Cavum uteri. Das ist bei postmenopausaler Blutung und entsprechendem Verdacht diagnostisch deutlich zielgerichteter als Bildgebung allein. MRT kann die Ausbreitung beurteilen, ersetzt aber keine Histologie. Zervixbiopsie oder Koloskopie würden andere Organe beziehungsweise Lokalisationen adressieren und sichern die Verdachtsdiagnose Endometriumkarzinom nicht am ehesten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Hysteroskopie und fraktionierte Abrasio liefern Gewebe aus dem Endometrium und ermöglichen damit die histologische Sicherung. Sie sind deshalb die passende Maßnahme, wenn der Verdacht auf ein Endometriumkarzinom bestätigt oder ausgeschlossen werden soll.",
+          "term": "Hysteroskopie und Abrasio"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine diagnostische Laparoskopie beurteilt die Bauchhöhle und äußere Beckenorgane, nicht primär das Endometrium. Für die Sicherung eines Endometriumkarzinoms ist sie daher nicht die geeignete erste histologische Methode.",
+          "term": "diagnostische Laparoskopie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein MRT des Beckens kann bei bestätigtem Tumor wichtige Informationen zur lokalen Ausdehnung geben. Die Verdachtsdiagnose selbst wird aber durch Gewebeuntersuchung gesichert, nicht durch Bildgebung allein.",
+          "term": "Becken-MRT"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Knipsbiopsie der Zervix ist bei auffälligem Portiobefund oder Verdacht auf Zervixpathologie sinnvoll. Der Verdacht betrifft hier jedoch das Endometrium, sodass eine Zervixbiopsie die Diagnose nicht am ehesten sichert.",
+          "term": "Zervixbiopsie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Koloskopie untersucht den Dickdarm und hat keinen direkten Stellenwert zur Sicherung eines Endometriumkarzinoms. Sie wäre nur bei gastrointestinaler Fragestellung relevant.",
+          "term": "Koloskopie"
+        }
+      ]
+    },
+    "151": {
+      "topicLabel": "Endometriumkarzinom-Operation",
+      "explanation": "Bei bestätigtem endometrioidem Endometriumkarzinom im frühen Stadium ist die operative Therapie der zentrale nächste Schritt. Der Befund pT1a beschreibt eine auf den Uterus begrenzte Erkrankung mit geringer Myometriuminvasion, G3 zeigt jedoch ein hohes Grading und damit ein erhöhtes Risikoprofil. Deshalb ist die totale Hysterektomie mit beidseitiger Adnexexstirpation und nodalem Staging mittels Sentinel-Lymphknoten am ehesten indiziert. Eine primäre Radiochemotherapie oder alleinige Brachytherapie ersetzt die Operation in dieser Situation nicht. Organerhaltende oder zervixchirurgische Konzepte passen nicht zur 67-jährigen Patientin mit Endometriumkarzinom.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine kombinierte Radiochemotherapie kann bei fortgeschrittenen, inoperablen oder adjuvanten Situationen eine Rolle spielen. Bei einem operablen frühen Endometriumkarzinom ist sie jedoch nicht der nächste Standardtherapieschritt.",
+          "term": "Radiochemotherapie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein neoadjuvantes, organerhaltendes Konzept mit Chemotherapie passt nicht zum typischen Vorgehen beim operablen Endometriumkarzinom dieser Patientin. Organerhalt ist vor allem bei streng ausgewählten jüngeren Patientinnen mit Kinderwunsch ein Thema, nicht in der beschriebenen Konstellation.",
+          "term": "neoadjuvante organerhaltende Therapie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Trachelektomie ist eine fertilitätserhaltende Operation bei ausgewählten Zervixkarzinomen. Sie behandelt kein Endometriumkarzinom adäquat und ist für diese Patientin nicht passend.",
+          "term": "Trachelektomie"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Totale Hysterektomie mit beidseitiger Adnexexstirpation ist die operative Basistherapie beim Endometriumkarzinom. Wegen des G3-Befunds ist zusätzlich ein nodales Staging über Sentinel-Lymphknoten plausibel und entspricht dem geforderten nächsten Vorgehen.",
+          "term": "Hysterektomie mit Sentinel-Lymphadenektomie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine vaginale Brachytherapie kann adjuvant je nach Risikokonstellation erwogen werden. Als alleiniger nächster Schritt vor der operativen Tumorentfernung ist sie in diesem Fall nicht richtig.",
+          "term": "vaginale Brachytherapie"
+        }
+      ]
+    },
+    "152": {
+      "topicLabel": "Fibromyalgietherapie",
+      "explanation": "Das Fibromyalgiesyndrom ist durch chronische generalisierte Schmerzen, Schlafstörungen, Erschöpfung und funktionelle Begleitsymptome ohne entzündliche oder strukturelle Organpathologie gekennzeichnet. Die Therapie ist multimodal, wobei Aufklärung, aktivierende Maßnahmen und individuell angepasste körperliche Aktivität zentrale Bausteine sind. Bewegungstherapie verbessert Belastbarkeit, Schmerzbewältigung und Funktionsniveau und ist deutlich sinnvoller als Schonung. Entzündungshemmende oder immunsuppressive Medikamente sind ohne entzündliche Erkrankung nicht kausal. Operative Verfahren haben beim Fibromyalgiesyndrom keinen Stellenwert.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Quadrantenoperation ist kein Therapieverfahren für das Fibromyalgiesyndrom. Die Beschwerden sind nicht durch eine umschriebene chirurgisch behebbare Strukturpathologie erklärbar.",
+          "term": "Quadrantenoperation"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ibuprofen kann bei einzelnen nozizeptiven Schmerzen kurzfristig helfen, behandelt das Fibromyalgiesyndrom aber nicht gezielt. Da keine Entzündungszeichen vorliegen, ist ein NSAR nicht die am ehesten zu empfehlende Basistherapie.",
+          "term": "Ibuprofen"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Methotrexat ist ein krankheitsmodifizierendes Immunsuppressivum bei entzündlich-rheumatischen Erkrankungen. Beim Fibromyalgiesyndrom fehlen entzündliche Befunde, daher wäre Methotrexat nicht indiziert.",
+          "term": "Methotrexat"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Bettruhe verstärkt bei chronischen Schmerzsyndromen häufig Dekonditionierung, Schlafprobleme und Funktionsverlust. Beim Fibromyalgiesyndrom wird vielmehr eine vorsichtige, regelmäßige Aktivierung empfohlen.",
+          "term": "Bettruhe"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Bewegungstherapie ist ein zentraler Bestandteil der nichtmedikamentösen Behandlung des Fibromyalgiesyndroms. Sie sollte angepasst, regelmäßig und ressourcenorientiert erfolgen, um Funktion und Schmerzbewältigung zu verbessern.",
+          "term": "Bewegungstherapie"
+        }
+      ]
+    },
+    "153": {
+      "topicLabel": "Rehabilitation-Kostenträger",
+      "explanation": "Für medizinische Rehabilitation gilt der Grundsatz, dass der zuständige Träger vom Rehabilitationsziel abhängt. Die gesetzliche Rentenversicherung ist typischerweise zuständig, wenn die Erwerbsfähigkeit erhalten oder wiederhergestellt werden soll. Diese Patientin arbeitet seit vielen Jahren nicht mehr beruflich und betreut Kinder sowie eine pflegebedürftige Angehörige; im Fall steht daher nicht die Rückkehr ins Erwerbsleben im Vordergrund. Für eine stationäre medizinische Rehabilitation zur Behandlung einer Erkrankung ist dann am ehesten die gesetzliche Krankenversicherung zuständig. Pflege-, Unfall- und Arbeitslosenversicherung decken die geschilderte Rehabilitationsindikation nicht primär ab.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die gesetzliche Krankenversicherung ist zuständig, wenn eine medizinische Rehabilitation erforderlich ist und kein vorrangiger anderer Rehabilitationsträger, insbesondere die Rentenversicherung, greift. Da die Patientin seit Jahren nicht erwerbstätig ist, steht die Wiederherstellung der Erwerbsfähigkeit nicht im Vordergrund.",
+          "term": "gesetzliche Krankenversicherung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die gesetzliche Rentenversicherung ist vor allem zuständig, wenn durch Rehabilitation Erwerbsfähigkeit gesichert oder wiederhergestellt werden soll. Bei einer seit zehn Jahren nicht berufstätigen Patientin ist dies im Fall nicht das naheliegende primäre Rehabilitationsziel.",
+          "term": "gesetzliche Rentenversicherung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Pflegeversicherung unterstützt Pflegebedürftigkeit und pflegerische Versorgung, ist aber nicht der primäre Kostenträger für eine medizinische Rehabilitation der Patientin. Dass sie ihre Schwiegermutter pflegt, ändert daran nichts.",
+          "term": "gesetzliche Pflegeversicherung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die gesetzliche Unfallversicherung wäre bei Arbeitsunfall, Wegeunfall oder Berufskrankheit zuständig. Für das Fibromyalgiesyndrom ohne beruflichen Unfallzusammenhang ist sie nicht der passende Träger.",
+          "term": "gesetzliche Unfallversicherung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Arbeitslosenversicherung finanziert keine medizinische Rehabilitation wegen eines chronischen Schmerzsyndroms. Sie ist für Leistungen rund um Arbeitslosigkeit und Arbeitsförderung zuständig, nicht für die hier gefragte stationäre Reha.",
+          "term": "Arbeitslosenversicherung"
+        }
+      ]
+    },
+    "154": {
+      "topicLabel": "KHK-Stressbildgebung",
+      "explanation": "Bei Verdacht auf chronisches Koronarsyndrom und unauffälligem Ruhe-EKG sowie unauffälliger Echokardiografie ist zur weiteren Abklärung eine funktionelle Ischämiediagnostik sinnvoll. Alternativ zur Myokard-Perfusions-SPECT kommt die Stress-Perfusions-MRT in Betracht, da sie belastungs- oder pharmakologisch induzierte Perfusionsstörungen des Myokards darstellen kann. Sie untersucht damit dieselbe klinische Fragestellung: Gibt es belastungsabhängige Ischämie als Hinweis auf relevante KHK? Ein 24-Stunden-Ruhe-EKG oder eine transösophageale Echokardiografie klären diese Frage nicht ausreichend. Spiroergometrie und 6-Minuten-Gehtest erfassen Leistungsfähigkeit, sind aber keine gleichwertige myokardiale Perfusionsdiagnostik.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Der 6-Minuten-Gehtest misst vor allem funktionelle Belastbarkeit, etwa bei Herzinsuffizienz oder pulmonalen Erkrankungen. Er ist keine geeignete Alternative zur myokardialen Perfusionsbildgebung bei KHK-Verdacht.",
+          "term": "6-Minuten-Gehtest"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein 24-Stunden-Ruhe-EKG kann Rhythmusstörungen erfassen, zeigt aber keine belastungsabhängige Myokardischämie mit ausreichender Aussagekraft. Für die Abklärung belastungsabhängiger Thoraxschmerzen ist es daher nicht die beste Alternative zur SPECT.",
+          "term": "Langzeit-EKG"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die transösophageale Echokardiografie ist besonders hilfreich bei Klappen-, Vorhof- oder Aortenfragestellungen. Sie ersetzt keine funktionelle Ischämiediagnostik bei Verdacht auf KHK.",
+          "term": "transösophageale Echokardiografie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Spiroergometrie erlaubt eine differenzierte Beurteilung von kardiopulmonaler Leistungsfähigkeit und Atemgasen. Sie ist aber nicht die naheliegendste direkte Alternative zu einer Myokard-Perfusions-SPECT.",
+          "term": "Spiroergometrie"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Die Stress-Perfusions-MRT kann induzierbare Perfusionsdefekte des Myokards nachweisen und ist damit eine funktionelle Ischämiediagnostik. Sie passt deshalb als Alternative zur Myokard-Perfusions-SPECT bei weiter abzuklärendem KHK-Verdacht.",
+          "term": "Stress-Perfusions-MRT"
+        }
+      ]
+    },
+    "155": {
+      "topicLabel": "Myokard-SPECT-Ischämie",
+      "explanation": "In der Myokard-Perfusions-SPECT spricht ein Perfusionsdefekt unter Belastung, der in Ruhe nicht oder deutlich geringer besteht, für eine reversible Ischämie. Laut Antwortschlüssel betrifft dieser Befund die Vorderwand, sodass am ehesten eine belastungsinduzierte Vorderwandischämie vorliegt. Das passt zur Angina pectoris während der ergometrischen Belastung trotz unauffälligem Belastungs-EKG. Eine Infarktnarbe würde typischerweise als fixierter Defekt in Belastungs- und Ruheaufnahme imponieren. Wenn keine Ischämie vorläge, dürfte sich kein belastungsabhängiger Perfusionsunterschied zeigen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine unter Belastung verminderte und in Ruhe gebesserte Perfusion entspricht einer reversiblen Ischämie. Da der korrekte Befund in der Vorderwand liegt, ist die Vorderwandischämie die passendste Interpretation.",
+          "term": "Vorderwandischämie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Infarktnarbe in der Hinterwand wäre ein irreversibler, also auch in Ruhe bestehender Perfusionsdefekt in der Hinterwand. Die Fallfrage zielt dagegen auf einen belastungsabhängigen Vorderwandbefund.",
+          "term": "Hinterwandnarbe"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Keine Ischämie wäre anzunehmen, wenn Belastungs- und Ruheaufnahmen keine relevanten reversiblen Perfusionsdefekte zeigen. Die korrekte Auswertung beschreibt jedoch gerade eine Ischämie.",
+          "term": "keine Myokardischämie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Hypertrophie des rechten Ventrikels ist nicht der führende Befund einer linksventrikulären Myokard-Perfusions-SPECT in dieser KHK-Abklärung. Die Beschwerden und die Bildgebung beziehen sich auf linksventrikuläre Perfusionsstörungen.",
+          "term": "rechtsventrikuläre Hypertrophie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Vorderwandnarbe wäre ein fixer Perfusionsdefekt, der sowohl unter Belastung als auch in Ruhe besteht. Der entscheidende Befund ist hier reversibel und damit ischämisch, nicht narbig.",
+          "term": "Vorderwandnarbe"
+        }
+      ]
+    },
+    "156": {
+      "topicLabel": "Akute Pankreatitis",
+      "explanation": "Gürtelförmige Oberbauchschmerzen mit Ausstrahlung, Alkoholabusus, Nahrungsvermeidung und wiederkehrenden Episoden sprechen am ehesten für eine akute Pankreatitis auf dem Boden einer chronischen Pankreasschädigung oder rezidivierender Entzündung. Zur Diagnosesicherung ist die Lipase der zentrale Laborparameter, zusammen mit der typischen Klinik. Leukozyten und CRP erfassen die entzündliche Reaktion und unterstützen die Einschätzung des Verlaufs. Troponin und BNP würden eher kardiale Differenzialdiagnosen adressieren. Amylase kann ebenfalls erhöht sein, ist aber gegenüber Lipase weniger spezifisch; Kalzium ist für Ursachen- oder Schweregradbeurteilung relevant, aber nicht die beste Konstellation zur Sicherung der wahrscheinlichsten Diagnose.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Hb, Troponin und BNP passen vor allem zur Abklärung von Blutung, Myokardschaden oder Herzinsuffizienz. Die führende Verdachtsdiagnose im Fall ist jedoch eine Pankreatitis, für die insbesondere die Lipase bedeutsam ist.",
+          "term": "kardiale Laborparameter"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Leukozyten, Transaminasen und CRP zeigen Entzündung und können Hinweise auf eine biliäre Genese liefern. Ohne Lipase fehlt aber der wichtigste Laborparameter zur Sicherung einer akuten Pankreatitis.",
+          "term": "Transaminasen ohne Lipase"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Leukozyten, Lipase und CRP sind die passendste Laborwert-Konstellation bei Verdacht auf akute Pankreatitis. Die Lipase stützt die Diagnose, während Leukozyten und CRP die Entzündungsaktivität und den Verlauf einordnen helfen.",
+          "term": "Lipase bei Pankreatitis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Hb, Prokalzitonin und Blutzucker können bei Differenzialdiagnosen oder Komplikationen relevant sein. Für die primäre Sicherung der Pankreatitis fehlt jedoch auch hier die Lipase.",
+          "term": "Prokalzitonin und Blutzucker"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "CRP, Kalzium und Amylase können im Pankreatitis-Kontext Informationen liefern, insbesondere zur Entzündung und zu Begleitfaktoren. Die Lipase ist für die Diagnosesicherung aber der wichtigere Enzymparameter, weshalb diese Konstellation weniger geeignet ist.",
+          "term": "Amylase und Kalzium"
+        }
+      ]
+    },
+    "157": {
+      "topicLabel": "Pankreatitis-Bildgebung",
+      "explanation": "Bei Verdacht auf akute Pankreatitis ist neben der Blutentnahme initial eine Abdomensonografie indiziert. Sie ist rasch verfügbar, nicht invasiv und kann wichtige Ursachen wie Gallensteine oder eine Cholestase sowie freie Flüssigkeit oder grobe Komplikationszeichen erfassen. Auch wenn der Patient nicht ikterisch ist und Alkoholabusus vorliegt, sollte eine biliäre Ursache initial gesucht werden. Die kontrastmittelverstärkte CT ist besonders bei unklarer Diagnose, schwerem Verlauf oder Komplikationsverdacht wichtig, aber nicht regelhaft die erste Bildgebung unmittelbar zu Beginn. Endosonografie und MRCP sind eher weiterführende Verfahren bei spezieller biliärer Fragestellung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die Endosonografie kann kleine Gallensteine oder Pankreasveränderungen sehr gut darstellen. Initial ist sie aber invasiver und nicht der erste Standard neben der Blutentnahme.",
+          "term": "Endosonografie"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die Abdomensonografie ist die initial geeignete Bildgebung bei Verdacht auf Pankreatitis. Sie hilft insbesondere, eine biliäre Genese und Hinweise auf Komplikationen oder Begleitbefunde früh zu erkennen.",
+          "term": "Abdomensonografie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine kontrastmittelverstärkte CT ist bei schwerem Verlauf, unklarer Diagnose oder Komplikationsverdacht sehr wertvoll. Initial bei klinisch und laborchemisch wahrscheinlicher Pankreatitis ist jedoch zunächst die Sonografie die passendere Untersuchung.",
+          "term": "Kontrastmittel-CT"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "MRT mit MRCP eignet sich für detaillierte Darstellungen von Pankreas- und Gallengängen. Als erste Untersuchung neben der Blutentnahme ist sie jedoch meist nicht erforderlich und weniger verfügbar als die Sonografie.",
+          "term": "MRT/MRCP"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Abdomenübersichtsaufnahme kann freie Luft oder Ileuszeichen zeigen, beurteilt aber Pankreas und Gallenwege nur unzureichend. Für die initiale Pankreatitisabklärung ist sie der Sonografie klar unterlegen.",
+          "term": "Abdomenübersicht"
+        }
+      ]
+    },
+    "158": {
+      "topicLabel": "Schenkelhalsfraktur",
+      "explanation": "Bei einer dislozierten Schenkelhalsfraktur ist das betroffene Bein klassischerweise verkürzt und außenrotiert. Die Verkürzung entsteht durch Muskelzug und Fragmentverschiebung, die Außenrotation durch die Stellung des distalen Fragments und die Wirkung der Hüftaußenrotatoren. Im Fall sprechen Sturz, Hüftschmerz, fehlende Bewegungsprüfung und präklinischer Verdacht auf eine proximale Femurfraktur. Innenrotation ist eher für andere Verletzungsmuster, etwa bestimmte Hüftluxationen, typisch. Abduktion oder Adduktion allein beschreibt nicht den klassischen Befund der Schenkelhalsfraktur.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Außenrotation passt zwar zur Schenkelhalsfraktur, die klassische Kombination ist aber Außenrotation mit Verkürzung. Abduktion ist nicht das Leitsymptom, das man bei dieser Verdachtsdiagnose am ehesten erwartet.",
+          "term": "Außenrotation mit Abduktion"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Außenrotation und Verkürzung sind der typische klinische Befund bei dislozierter proximaler Femur- beziehungsweise Schenkelhalsfraktur. Diese Fehlstellung passt sehr gut zur gestürzten älteren Patientin mit starken Hüftschmerzen.",
+          "term": "außenrotiert und verkürzt"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Innenrotation und Verkürzung sind nicht die klassische Fehlstellung bei Schenkelhalsfraktur. Innenrotation erinnert eher an andere Hüftverletzungen und widerspricht dem typischen Bild der proximalen Femurfraktur.",
+          "term": "Innenrotation mit Verkürzung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Innenrotation und Adduktion passen nicht zur erwarteten Schenkelhalsfrakturstellung. Bei dieser Fraktur ist vor allem eine Außenrotation des betroffenen Beins zu erwarten.",
+          "term": "Innenrotation mit Adduktion"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Innenrotation und Abduktion sind für die vermutete Schenkelhalsfraktur untypisch. Die relevante klinische Blickdiagnose ist das verkürzte, außenrotierte Bein.",
+          "term": "Innenrotation mit Abduktion"
+        }
+      ]
+    },
+    "159": {
+      "topicLabel": "Schenkelhalsfraktur-Therapie",
+      "explanation": "Eine mediale Schenkelhalsfraktur Garden IV ist vollständig disloziert und hat bei älteren Patientinnen ein hohes Risiko für Femurkopfnekrose und Pseudarthrose. Bei einer 92-jährigen Patientin mit fortgeschrittener Demenz und zuvor nur kurzer Mobilität am Rollator ist daher eine endoprothetische Versorgung angemessen. Da das Acetabulum intakt ist und die funktionellen Ansprüche begrenzt sind, ist eine Duokopfprothese am ehesten passend. Eine Totalendoprothese kommt eher bei aktiveren Patientinnen oder relevanter Acetabulumpathologie in Betracht. Konservative Therapie oder Osteosynthese wären bei dislozierter medialer Fraktur in dieser Konstellation nicht geeignet.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine konservative Therapie mit früher Mobilisation reicht bei einer dislozierten medialen Schenkelhalsfraktur Garden IV in der Regel nicht aus. Sie würde Schmerzen, Immobilität und Komplikationsrisiken unnötig erhöhen.",
+          "term": "konservative Frühmobilisation"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Bettruhe ist bei alten Patientinnen besonders komplikationsträchtig, etwa durch Pneumonie, Thrombose, Dekubitus und Delirverschlechterung. Bei dislozierter Schenkelhalsfraktur wird eine operative Versorgung zur raschen Mobilisierung angestrebt.",
+          "term": "konservative Bettruhe"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Totalendoprothese ersetzt Kopf und Pfanne und ist eher bei höherem Aktivitätsniveau oder relevanter Pfannenpathologie sinnvoll. Da das Acetabulum intakt ist und die Patientin hochbetagt sowie dement ist, ist eine Duokopfprothese naheliegender.",
+          "term": "Totalendoprothese"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die Duokopfprothese ist bei hochbetagten, eingeschränkt mobilen Patientinnen mit dislozierter medialer Schenkelhalsfraktur und intaktem Acetabulum eine typische Versorgung. Sie ermöglicht eine rasche Belastung und vermeidet die Risiken einer kopferhaltenden Osteosynthese bei Garden-IV-Fraktur.",
+          "term": "Duokopfprothese"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine dynamische Hüftschraube ist eher bei bestimmten pertrochantären Frakturen oder geeigneten stabilen Frakturmustern relevant. Bei dislozierter medialer Schenkelhalsfraktur einer 92-jährigen Patientin ist eine kopferhaltende Osteosynthese nicht die beste Option.",
+          "term": "dynamische Hüftschraube"
+        }
+      ]
+    },
+    "160": {
+      "topicLabel": "Sturz unter Antikoagulation",
+      "explanation": "Die Patientin ist nach unbeobachtetem Sturz neurologisch wegen fortgeschrittener Demenz nicht zuverlässig beurteilbar und nimmt Phenprocoumon ein. Zusätzlich besteht eine Prellmarke an der Stirn, sodass eine intrakranielle Blutung auch bei scheinbar unverändertem Verhalten ausgeschlossen werden muss. Der angegebene paravertebrale HWS-Druckschmerz und die unzuverlässige Untersuchung sprechen außerdem für eine Bildgebung der Halswirbelsäule. Initial ist daher CT von Schädel und HWS am ehesten indiziert, weil es schnell verfügbar ist und relevante akute Traumafolgen erfasst. Spezielle Verfahren wie MRT, PET-CT oder Gefäßdarstellung sind ohne entsprechende Zusatzhinweise nicht die erste Wahl.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein PET-CT hat keinen Stellenwert in der initialen Traumadiagnostik nach Sturz. Es dient nuklearmedizinischen Fragestellungen, etwa in der Onkologie oder Entzündungsdiagnostik, nicht dem schnellen Ausschluss akuter Blutungen oder Frakturen.",
+          "term": "PET-CT"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein MRT der HWS kann bei speziellen neurologischen oder ligamentären Fragestellungen hilfreich sein. Initial nach Sturz ist bei der unruhigen, dementen und antikoagulierten Patientin aber die schnelle CT von Schädel und HWS vorrangig.",
+          "term": "HWS-MRT"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine CT-Angiografie des rechten Beines wäre bei Verdacht auf Gefäßverletzung oder akute Ischämie sinnvoll. Der Fall beschreibt Hüftschmerz und Fehlstellung, aber keinen Hinweis auf ein arterielles Gefäßproblem des Beines.",
+          "term": "Bein-CT-Angiografie"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "CT von Schädel und HWS ist bei Kopfaufprall, Antikoagulation, unzuverlässiger neurologischer Beurteilbarkeit und HWS-Druckschmerz die passende initiale Zusatzbildgebung. Sie dient dem Ausschluss intrakranieller Blutung und relevanter Halswirbelsäulenverletzung.",
+          "term": "CT Schädel und HWS"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Sonografie der Hüfte ist für die initiale Abklärung einer Schenkelhalsfraktur nicht ausreichend. Die relevante zusätzliche Gefahr im Fall betrifft Kopf und HWS nach Sturz unter Antikoagulation.",
+          "term": "Hüftsonografie"
+        }
+      ]
+    }
+  }
+}

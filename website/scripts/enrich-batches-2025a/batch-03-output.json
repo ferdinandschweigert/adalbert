@@ -1,0 +1,745 @@
+{
+  "examId": "m2-2025a-staatsexamen",
+  "questions": {
+    "61": {
+      "topicLabel": "Salmonellose und IfSG",
+      "explanation": "Bei den positiv nachgewiesenen Salmonellen handelt es sich um eine enteritische Salmonellose mit lebensmittelhygienischer Relevanz. Für Personen, die Salmonellen ausscheiden und in Küchen von Gaststätten oder vergleichbaren Lebensmittelbereichen tätig sind, greift wegen der Weiterverbreitungsgefahr ein Tätigkeits- bzw. Beschäftigungsverbot nach dem IfSG. Entscheidend ist nicht, ob die Person symptomatisch ist, sondern ob durch die Tätigkeit Lebensmittel kontaminiert werden können. Meldepflichten betreffen insbesondere ärztliche und labordiagnostische Stellen, nicht pauschal den Restaurantbesitzer als primär Meldepflichtigen. Auch Kontaktpersonen wie Kinder erkrankter Erwachsener lösen nicht automatisch Informationspflichten gegenüber Schulen aus.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Der Restaurantbesitzer ist nicht der typische primär Meldepflichtige nach IfSG für den Nachweis einer Salmonelleninfektion. Namentliche Meldungen erfolgen insbesondere durch Ärztinnen, Ärzte und Labore beziehungsweise bei bestimmten Konstellationen durch Einrichtungen. Das Gesundheitsamt kann zwar im Rahmen der Ausbruchsermittlung ein Restaurant einbeziehen, daraus folgt aber nicht diese Aussage als Regelfall.",
+          "term": "Meldepflichtige Personen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Salmonellen sind nicht erst bei einer Gruppenerkrankung relevant. Der direkte oder indirekte Nachweis von Salmonellen ist bei Hinweis auf eine akute Infektion meldepflichtig. Zusätzlich kann eine Gruppenerkrankung durch Lebensmittel den öffentlichen Gesundheitsdienst besonders schnell aktivieren, ersetzt aber nicht die Einzelmeldepflicht.",
+          "term": "Einzelmeldepflicht"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Allein die Tatsache, dass Erkrankte Kinder haben, verpflichtet nicht automatisch zur Information von Schulen oder Kinderbetreuungseinrichtungen. Relevant wäre vor allem, ob ein Kind selbst erkrankt, verdächtig oder ausscheidend ist und eine Gemeinschaftseinrichtung besucht. Kontaktpersonen werden je nach Risiko durch das Gesundheitsamt beurteilt.",
+          "term": "Gemeinschaftseinrichtungen"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Bei Salmonellen besteht keine bloß nichtnamentliche Meldepflicht für Erkrankung und Tod. Der Erregernachweis ist bei akuter Infektion namentlich zu melden; auch bestimmte Krankheitsverdachts- und Ausbruchskonstellationen sind namentlich relevant. Die Aussage unterschätzt daher die gesetzliche Meldeintensität.",
+          "term": "Namentliche Meldung"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Asymptomatische Salmonellenausscheider können bei Tätigkeiten in Gaststättenküchen Lebensmittel kontaminieren und weitere Personen infizieren. Deshalb sieht das IfSG für solche Tätigkeiten ein Beschäftigungs- beziehungsweise Tätigkeitsverbot vor, solange eine Weiterverbreitung zu befürchten ist. Die Maßnahme schützt besonders vor lebensmittelassoziierten Ausbrüchen.",
+          "term": "Beschäftigungsverbot"
+        }
+      ]
+    },
+    "62": {
+      "topicLabel": "Salmonellose-Therapie",
+      "explanation": "Die enteritische Salmonellose wird bei immunkompetenten Erwachsenen in der Regel supportiv behandelt, insbesondere mit Flüssigkeits- und Elektrolytausgleich. Antibiotika sind nicht routinemäßig angezeigt, da sie den unkomplizierten Verlauf meist nicht relevant verkürzen und die Erregerausscheidung ungünstig beeinflussen können. Eine wichtige Sonderkonstellation sind Dauerausscheider, bei denen persistierende Erregerreservoire gesucht werden sollten. Prädisponierende Faktoren wie Gallensteine oder Nierensteine können als Rückzugsorte beziehungsweise begünstigende Faktoren für eine persistierende Ausscheidung wirken. Die Fallvignette fragt ausdrücklich nach einer Maßnahme im Rahmen der Salmonellenerkrankung, nicht nach unspezifischer Bildgebung ohne klinischen Hinweis.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine antimikrobielle Therapie ist bei unkomplizierter enteritischer Salmonellose nicht die Regel. Sie kommt eher bei schweren Verläufen, Risikopersonen oder invasiver Erkrankung in Betracht. Bei vielen Betroffenen steht die supportive Behandlung im Vordergrund.",
+          "term": "Antibiotikatherapie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine spezielle zweiwöchige Diät eliminiert Salmonellen nicht sicher. Schonende Kost kann symptomatisch angenehm sein, ist aber keine kausale Eradikationsmaßnahme. Entscheidend sind Hydrierung, Hygiene und gegebenenfalls gezielte Maßnahmen bei Risikokonstellationen.",
+          "term": "Diätmaßnahmen"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine pauschale zweiwöchige Quarantäne ist für enteritische Salmonellosen nicht die Standardmaßnahme. Wichtiger sind hygienische Maßnahmen und Tätigkeitsbeschränkungen in sensiblen Bereichen wie Lebensmittelverarbeitung oder Gemeinschaftseinrichtungen. Das Gesundheitsamt entscheidet situationsabhängig über weitere Einschränkungen.",
+          "term": "Quarantäne"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Bei Dauerausscheidern sollte nach Faktoren gesucht werden, die eine Persistenz begünstigen. Dazu zählen insbesondere mögliche Reservoirsituationen im biliären oder urologischen Bereich, etwa Gallen- oder Nierensteine. Die Abklärung ist sinnvoll, weil eine rein symptomatische Akutbehandlung die Ursache der Dauerausscheidung nicht beseitigt.",
+          "term": "Dauerausscheider"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine routinemäßige Ultraschalluntersuchung zum Ausschluss einer Leberbeteiligung ist bei einer gewöhnlichen enteritischen Salmonellose nicht angezeigt. Eine Bildgebung richtet sich nach klinischen Hinweisen auf Komplikationen oder besondere Risikokonstellationen. Ohne entsprechende Zeichen wäre diese Maßnahme nicht die naheliegende Standardbehandlung.",
+          "term": "Leberbeteiligung"
+        }
+      ]
+    },
+    "63": {
+      "topicLabel": "Salmonellose-Verlauf",
+      "explanation": "Nichttyphoidale Salmonellen verursachen meist eine akute Gastroenteritis mit Diarrhö, Bauchschmerzen, Übelkeit oder Erbrechen. Der Verlauf ist aber nicht strikt auf den Darm begrenzt: Bei vulnerablen Personen oder schwerer Erkrankung kann es zu invasiven Verläufen mit Bakteriämie und hohem Fieber kommen. Diese Möglichkeit erklärt, warum Warnzeichen und Risikofaktoren klinisch relevant sind, obwohl die meisten Fälle unkompliziert verlaufen. Eine sehr hohe Gesamtletalität oder häufig isolierte Exantheme passen nicht zur typischen enteritischen Salmonellose. Auch ein allgemein zugelassener Impfstoff zur Reduktion der Krankheitsschwere bei nichttyphoidaler Salmonellose steht nicht im Vordergrund.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die Symptomatik betrifft zwar häufig vor allem den Gastrointestinaltrakt, aber nicht ausschließlich den Darm. Invasive Verläufe mit extraintestinaler Manifestation oder Bakteriämie sind möglich. Die absolute Formulierung macht die Aussage falsch.",
+          "term": "Gastroenteritis"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Bei Salmonellosen besteht ein Risiko für eine Bakteriämie, insbesondere bei schweren Verläufen oder vulnerablen Patientengruppen. Klinisch kann dies mit hohem Fieber und reduziertem Allgemeinzustand einhergehen. Diese Komplikation ist gerade deshalb wichtig, weil sie eine andere diagnostische und therapeutische Bewertung erfordert als eine unkomplizierte Enteritis.",
+          "term": "Bakteriämie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Gesamtletalität von über 10% passt nicht zur gewöhnlichen nichttyphoidalen Salmonellose. Die meisten enteritischen Verläufe sind selbstlimitierend. Eine erhöhte Sterblichkeit betrifft vor allem schwere invasive Verläufe und Risikopatienten, rechtfertigt aber nicht diese allgemeine Aussage.",
+          "term": "Letalität"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Isolierte Verläufe mit hohem Fieber und Hautausschlag sind für die enteritische Salmonellose nicht häufig. Exantheme werden klassisch eher im Kontext typhöser Erkrankungen diskutiert und sind nicht das typische Bild der hier beschriebenen Lebensmittelinfektion. Die Häufigkeitsangabe ist daher irreführend.",
+          "term": "Exanthem"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Für die gewöhnliche nichttyphoidale Salmonellose steht kein wirksamer, für Risikopersonen zugelassener Impfstoff zur Reduktion der Krankheitsschwere als Standardmaßnahme zur Verfügung. Prävention beruht vor allem auf Lebensmittelhygiene und Infektionsschutzmaßnahmen. Die Aussage vermischt dies mit anderen Salmonella-Konstellationen.",
+          "term": "Impfung"
+        }
+      ]
+    },
+    "64": {
+      "topicLabel": "Harnblasenkarzinom",
+      "explanation": "Die Frage sucht die Aussage, die zum Urothelkarzinom der Harnblase am ehesten nicht zutrifft. Urothelkarzinome treten typischerweise im höheren Lebensalter auf, betreffen Männer häufiger und werden durch Risikofaktoren wie Nikotinabusus begünstigt. Ein Carcinoma in situ kann durch photodynamische Diagnostik besser sichtbar gemacht werden als mit alleiniger Weißlichtzystoskopie. Das Urachuskarzinom ist dagegen typischerweise kein Urothelkarzinom, sondern meist ein Adenokarzinom aus Resten des Urachus. Daher ist die Aussage zum Urachuskarzinom die falsche Aussage.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die meisten Harnblasenkarzinome werden im höheren Lebensalter diagnostiziert. Ein Alter über 60 Jahre passt sehr gut zum epidemiologischen Profil. Diese Aussage trifft daher zu und ist nicht die gesuchte falsche Aussage.",
+          "term": "Epidemiologie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Männer sind beim Urothelkarzinom der Harnblase häufiger betroffen als Frauen. Das ist ein klassischer epidemiologischer Merksatz. Die Aussage ist somit korrekt.",
+          "term": "Geschlechtsverteilung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die photodynamische Diagnostik mit Hexaminolävulinat kann insbesondere flache Läsionen wie ein Carcinoma in situ besser detektieren. CIS-Läsionen sind unter Weißlicht oft schwer erkennbar. Deshalb ist diese Aussage inhaltlich zutreffend.",
+          "term": "Photodynamische Diagnostik"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Nikotinabusus ist ein wichtiger Risikofaktor für das Urothelkarzinom der Harnblase. Kanzerogene werden renal ausgeschieden und können auf das Urothel einwirken. Diese Aussage ist daher richtig.",
+          "term": "Nikotinabusus"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Das Urachuskarzinom ist typischerweise kein Urothelkarzinom. Es entsteht aus Urachusresten im Bereich des Blasendachs beziehungsweise der Mittellinie und ist histologisch meist ein Adenokarzinom. Damit ist diese Aussage die gesuchte Nicht-zutreffende.",
+          "term": "Urachuskarzinom"
+        }
+      ]
+    },
+    "65": {
+      "topicLabel": "High-Risk-NMIBC",
+      "explanation": "Der Patient hat ein nicht-muskelinvasives, aber sehr ungünstig konstelliertes Urothelkarzinom: pT1 high grade, begleitendes CIS und in der Nachresektion erneut pT1 high grade. Diese Befundkombination bedeutet ein hohes Progressionsrisiko in Richtung muskelinvasiver Erkrankung. Nach unvollständiger Kontrolle durch TUR-B beziehungsweise erneutem Hochrisikobefund muss die radikale Zystoprostatektomie mit regionaler Lymphadenektomie als Therapieoption ernsthaft mit dem Patienten besprochen werden. Eine reine Verlaufskontrolle oder erneute lokale Einzelmaßnahme würde dem Risiko nicht ausreichend gerecht. Eine alleinige Radiotherapie ist in dieser Situation nicht die Standardoption für ein persistierendes sehr hohes Risiko bei nicht-muskelinvasiver Erkrankung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Blasenteilresektion ist bei multifokalitäts- und CIS-verdächtigen Hochrisikokonstellationen des Urothelkarzinoms nicht die naheliegende Standardlösung. Das begleitende Carcinoma in situ spricht gegen ein rein lokal begrenztes chirurgisches Vorgehen am 5-cm-Areal. Sie würde das Progressionsrisiko nicht ausreichend adressieren.",
+          "term": "Blasenteilresektion"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine weitere Nachresektion allein ist nach bereits erfolgter Nachresektion mit erneutem pT1-high-grade-Befund nicht die angemessenste Strategie. Der persistierende Hochrisikobefund zeigt, dass ein relevantes Progressionsrisiko besteht. Deshalb muss eine definitive Therapieoption besprochen werden.",
+          "term": "Nachresektion"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die radikale Zystoprostatektomie mit regionaler Lymphadenektomie ist bei sehr hohem Progressionsrisiko eine wichtige Therapieoption. pT1 high grade, CIS und erneuter pT1-high-grade-Nachweis nach Nachresektion sprechen für eine besonders aggressive Biologie. In dieser Situation sollte die definitive operative Therapie mit dem Patienten besprochen werden.",
+          "term": "Radikale Zystektomie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Alleinige engmaschige Zystoskopien behandeln den Tumor nicht. Bei persistierendem pT1 high grade mit CIS wäre reines Beobachten onkologisch riskant. Kontrollintervalle sind wichtig in der Nachsorge, ersetzen hier aber keine adäquate Therapieentscheidung.",
+          "term": "Zystoskopiekontrolle"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine alleinige Radiotherapie von Harnblase und Lymphabflusswegen ist bei dieser nicht-muskelinvasiven Hochrisikosituation nicht die typische Standardempfehlung. Blasenerhaltende Konzepte betreffen andere Konstellationen und sind meist multimodal. Hier steht die Besprechung der radikalen Operation im Vordergrund.",
+          "term": "Radiotherapie"
+        }
+      ]
+    },
+    "66": {
+      "topicLabel": "Harnableitung",
+      "explanation": "Nach radikaler Zystektomie kommen verschiedene Formen der Harnableitung infrage. Dazu zählen kontinente und inkontinente Ableitungen wie Ileum-Neoblase, Ileumconduit, Pouch-Verfahren und Ureterokutaneostomie. Eine Urethrozystozele beschreibt dagegen eine Senkung beziehungsweise Vorwölbung im Bereich von Urethra und Blase und ist kein Verfahren zur Harnableitung. Die Frage ist als Negativfrage formuliert, daher ist gerade dieser Begriff korrekt auszuwählen. Die übrigen Begriffe bezeichnen etablierte rekonstruktive oder ableitende urologische Operationsverfahren.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die Urethrozystozele ist keine Methode der Harnableitung. Der Begriff beschreibt eine Beckenboden- beziehungsweise Senkungsproblematik mit Vorwölbung von Blase und Harnröhre. Damit passt er nicht in die Reihe der postzystektomischen Harnableitungen.",
+          "term": "Urethrozystozele"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die Ileum-Neoblase ist eine kontinente orthotope Harnableitung. Dabei wird aus Darm ein Reservoir gebildet, das an die Harnröhre angeschlossen werden kann. Sie ist daher sehr wohl eine Harnableitung.",
+          "term": "Ileum-Neoblase"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Das Ileumconduit ist eine klassische inkontinente Harnableitung. Urin wird über ein ausgeschaltetes Ileumsegment zur Haut abgeleitet und in einem Stomabeutel gesammelt. Es ist daher eindeutig ein Verfahren der Harnableitung.",
+          "term": "Ileumconduit"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Der MAINZ-Pouch ist ein kontinent angelegtes Reservoir aus Darmanteilen. Solche Pouch-Verfahren gehören zu den rekonstruktiven Harnableitungen. Der Begriff ist daher keine falsche Antwort in dieser Negativfrage.",
+          "term": "MAINZ-Pouch"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Ureterokutaneostomie leitet die Harnleiter direkt oder über kurze Strecke zur Haut aus. Sie ist eine einfache Form der inkontinenten Harnableitung. Damit bezeichnet sie gerade ein Harnableitungsverfahren.",
+          "term": "Ureterokutaneostomie"
+        }
+      ]
+    },
+    "67": {
+      "topicLabel": "Pyelonephritis-Erreger",
+      "explanation": "Die junge Frau zeigt Zeichen einer akuten Harnwegsinfektion mit oberer Beteiligung: Fieber, Flankenschmerz, Klopfschmerz des Nierenlagers, Leukozyturie, Nitritnachweis und erhöhte Entzündungswerte. Der häufigste Erreger unkomplizierter Harnwegsinfektionen und akuter Pyelonephritiden ist Escherichia coli aus der Darmflora. Der Nitritnachweis unterstützt eine Infektion durch nitratreduzierende gramnegative Enterobakterien, wozu E. coli klassisch gehört. Andere Erreger kommen vor, sind aber in dieser klinischen Konstellation weniger häufig. Die neue Partnerschaft kann das Risiko für rezidivierende Harnwegsinfekte erhöhen, ändert aber nicht den häufigsten Erreger.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Escherichia coli ist der häufigste Erreger unkomplizierter Harnwegsinfektionen und akuter Pyelonephritiden bei jungen Frauen. Der Erreger stammt typischerweise aus der intestinalen Flora und kann aszendierend die Harnwege infizieren. Nitrit im Urinstix passt gut zu vielen gramnegativen Enterobakterien einschließlich E. coli.",
+          "term": "Escherichia coli"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Klebsiella pneumoniae kann Harnwegsinfektionen verursachen, ist aber weniger häufig als E. coli. Sie wird eher bei bestimmten Risikokonstellationen, nosokomialen Infektionen oder komplizierten Verläufen bedeutsamer. Für die beschriebene junge, sonst gesunde Patientin ist sie nicht der wahrscheinlichste Erreger.",
+          "term": "Klebsiella pneumoniae"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Pseudomonas aeruginosa ist kein typischer häufigster Erreger unkomplizierter Harnwegsinfektionen bei jungen gesunden Frauen. Der Keim spielt eher bei nosokomialen Infektionen, Kathetern, strukturellen Harnwegserkrankungen oder Vorantibiotikatherapie eine Rolle. Die Fallbeschreibung spricht primär für eine häufige ambulante Harnwegsinfektion.",
+          "term": "Pseudomonas aeruginosa"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Staphylococcus saprophyticus ist ein relevanter Erreger unkomplizierter Zystitiden bei jungen Frauen. Er ist jedoch insgesamt deutlich seltener als E. coli und verursacht typischerweise eher untere Harnwegsinfekte. Bei Fieber und Nierenlagerklopfschmerz bleibt E. coli am wahrscheinlichsten.",
+          "term": "Staphylococcus saprophyticus"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Enterococcus faecalis kann Harnwegsinfektionen verursachen, ist aber nicht der häufigste Erreger dieser Konstellation. Enterokokken sind zudem nicht der klassische Nitrit-positive Befundträger im Urinstix. Die Gesamtkonstellation passt besser zu E. coli.",
+          "term": "Enterococcus faecalis"
+        }
+      ]
+    },
+    "68": {
+      "topicLabel": "Pyelonephritis-Antibiose",
+      "explanation": "Bei der Patientin liegt klinisch eine akute Pyelonephritis ohne schwere Allgemeinsymptome vor. Eine empirische Therapie muss vor allem gegen typische uropathogene gramnegative Erreger wie E. coli wirksam sein und ausreichende Spiegel im Harnwegs- beziehungsweise Nierengewebe erreichen. Unter den angebotenen Substanzen ist Cefpodoxim als orales Cephalosporin mit Wirksamkeit gegen viele Enterobakterien die adäquateste initiale Option. Clindamycin und Vancomycin decken die typischen gramnegativen Uropathogene nicht sinnvoll ab. Sulfamethoxazol allein und Amoxicillin sind wegen unzureichender Eignung beziehungsweise Resistenzproblematik hier nicht die beste empirische Wahl.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Clindamycin wirkt vor allem gegen grampositive Erreger und Anaerobier. Typische uropathogene gramnegative Erreger wie E. coli werden damit nicht zuverlässig behandelt. Für eine akute Pyelonephritis ist es daher empirisch ungeeignet.",
+          "term": "Clindamycin"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Cefpodoxim ist unter den genannten Optionen die plausibelste empirische Substanz bei akuter Pyelonephritis ohne schwere Allgemeinsymptome. Es erfasst viele Enterobakterien, darunter häufig E. coli, und ist als orale Therapieoption bei geeigneter klinischer Situation einsetzbar. Die Therapie sollte nach Kultur- und Resistenzbefund angepasst werden.",
+          "term": "Cefpodoxim"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Vancomycin richtet sich gegen grampositive Erreger und ist nicht für die empirische Behandlung typischer gramnegativer Harnwegsinfekte geeignet. E. coli und andere Enterobakterien werden nicht adäquat abgedeckt. Zudem wäre Vancomycin für diese ambulante Konstellation unnötig breit in die falsche Richtung.",
+          "term": "Vancomycin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Sulfamethoxazol allein ist nicht die übliche geeignete empirische Standardtherapie einer akuten Pyelonephritis. Wenn überhaupt, wird in der Praxis die Kombination mit Trimethoprim betrachtet und dann unter Resistenzaspekten bewertet. Als allein genannte Substanz ist es hier nicht die beste Wahl.",
+          "term": "Sulfamethoxazol"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Amoxicillin ist für E. coli-Harnwegsinfektionen empirisch häufig nicht ausreichend zuverlässig. Resistenzprobleme machen es als initiale Monotherapie bei Pyelonephritis unattraktiv. Ohne gesichertes Antibiogramm ist es daher nicht die adäquateste Option.",
+          "term": "Amoxicillin"
+        }
+      ]
+    },
+    "69": {
+      "topicLabel": "Pyelonephritis-Diagnostik",
+      "explanation": "Bei fieberhafter Harnwegsinfektion mit Nierenlagerklopfschmerz besteht der Verdacht auf akute Pyelonephritis. Vor Beginn der Antibiotikatherapie sollten geeignete mikrobiologische Proben, insbesondere Urinkultur und bei entsprechender Schwere oder Fieber auch Blutkulturen, abgenommen werden. Anschließend wird nicht auf das Antibiogramm gewartet, sondern eine kalkulierte antimikrobielle Therapie begonnen. Sobald Erreger und Resistenzlage vorliegen, wird die Behandlung gezielt angepasst. Dieses Vorgehen verbindet schnelle Therapie mit mikrobiologischer Absicherung und vermeidet sowohl Verzögerung als auch blinde Weiterbehandlung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die Abnahme von Urin- und Blutkulturen ist sinnvoll, aber der Therapiebeginn darf bei klinischer Pyelonephritis nicht bis zum Antibiogramm verzögert werden. Das Ergebnis benötigt Zeit, während die Infektion fortschreiten kann. Nach Probennahme sollte deshalb kalkuliert behandelt werden.",
+          "term": "Therapieverzögerung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Serotypisierung ist für die Akutversorgung einer Pyelonephritis nicht der entscheidende Schritt. Klinisch relevant sind Erregernachweis und Resistenztestung. Auf eine serologische Identifizierung zu warten, wäre nicht adäquat.",
+          "term": "Serotypisierung"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Dieses Vorgehen ist bei akuter Pyelonephritis am schlüssigsten: zuerst mikrobiologische Diagnostik, dann sofortige kalkulierte Therapie. So wird die Erregerdiagnostik nicht durch die Antibiotikagabe verfälscht, ohne die Behandlung unnötig zu verzögern. Nach Erhalt des Antibiogramms wird die Therapie gezielt angepasst.",
+          "term": "Kalkulierte Therapie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine sofortige Antibiotikatherapie ohne vorherige Kulturen verschenkt wichtige diagnostische Informationen. Gerade bei Fieber, Rezidiven und möglicher Pyelonephritis ist eine Kultur vor Therapiebeginn sinnvoll. Eine Modifikation erst bei Nichtansprechen ist weniger gezielt als die Anpassung nach Antibiogramm.",
+          "term": "Kultur vor Antibiose"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine rein supportive Anfangsbehandlung ist bei fieberhafter Pyelonephritis nicht angemessen. Die Patientin hat systemische Entzündungszeichen und einen oberen Harnwegsinfekt. Eine antimikrobielle Therapie sollte daher nicht erst bei weiterer Verschlechterung beginnen.",
+          "term": "Supportive Therapie"
+        }
+      ]
+    },
+    "70": {
+      "topicLabel": "Akute Pyelonephritis",
+      "explanation": "Die Patientin hat suprapubische Beschwerden und Pollakisurie als Zeichen eines Harnwegsinfekts, zusätzlich aber Fieber, linksseitigen Nierenlagerklopfschmerz, Leukozytose und erhöhtes CRP. Diese Kombination charakterisiert am genauesten eine akute Pyelonephritis. Eine unkomplizierte Zystitis wäre auf den unteren Harntrakt begrenzt und ginge typischerweise nicht mit Flankenschmerz und Fieber einher. Eine Urosepsis ist mangels Kreislauf- oder Organfunktionsstörung nicht die genaueste Diagnose. Die Bakteriurie ist klar symptomatisch, sodass eine asymptomatische Bakteriurie ausgeschlossen ist.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Urosepsis würde eine Infektion mit systemischer Organdysfunktion beziehungsweise schwerer systemischer Entgleisung nahelegen. Die Patientin ist kreislauf- und atemstabil und hat keine schweren Allgemeinsymptome. Der Begriff wäre daher zu schwer und nicht die genaueste Charakterisierung.",
+          "term": "Urosepsis"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine asymptomatische Bakteriurie liegt gerade nicht vor, weil die Patientin Beschwerden hat. Pollakisurie, suprapubische Schmerzen, Fieber und Nierenlagerklopfschmerz sind deutliche Symptome. Der positive Urinbefund ist damit klinisch relevant.",
+          "term": "Asymptomatische Bakteriurie"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Fieber, Flankenschmerz beziehungsweise Nierenlagerklopfschmerz und entzündliche Laborwerte sprechen für eine akute Pyelonephritis. Die unteren Harnwegssymptome passen als begleitende Zystitiszeichen zu einem aszendierenden Infekt. Diese Diagnose beschreibt die Gesamtkonstellation am genauesten.",
+          "term": "Akute Pyelonephritis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine unkomplizierte Zystitis betrifft den unteren Harntrakt. Fieber, Nierenlagerklopfschmerz und erhöhte systemische Entzündungsparameter sprechen gegen eine reine Zystitis. Die Diagnose wäre daher zu eng gefasst.",
+          "term": "Unkomplizierte Zystitis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Urethritis verursacht eher Dysurie und urethrale Beschwerden, oft im Zusammenhang mit sexuell übertragbaren Erregern. Der ausgeprägte Nierenlagerklopfschmerz und das Fieber passen deutlich besser zur Pyelonephritis. Der Begriff komplizierte Urethritis erfasst die Befunde nicht.",
+          "term": "Urethritis"
+        }
+      ]
+    },
+    "71": {
+      "topicLabel": "Pyelonephritis-Bildgebung",
+      "explanation": "Bei akuter Pyelonephritis dient die weitere Diagnostik auch dazu, Risikokonstellationen wie Harnabflussstörung, Steine oder Abszesshinweise zu erkennen. Eine Abdomensonografie ist hierfür eine geeignete, nichtinvasive und rasch verfügbare Untersuchung. In der Fallbeschreibung sprechen rezidivierende Harnwegsinfekte und aktuelle obere Harnwegsbeteiligung dafür, strukturelle oder obstruktive Faktoren zumindest zu prüfen. Invasive oder strahlenintensive Verfahren sind initial ohne spezielle Zusatzhinweise nicht erste Wahl. Die Sonografie ist deshalb die adäquate Maßnahme zur aktuellen Risikoeinschätzung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die Miktionszystourethrografie dient vor allem der Darstellung von Reflux oder urethralen beziehungsweise vesikalen Funktionsfragen. Sie ist nicht die initiale Standarduntersuchung zur akuten Risikoeinschätzung bei erwachsener Patientin mit Pyelonephritis. Ohne spezielle Fragestellung wäre sie zu aufwendig und invasiv.",
+          "term": "Miktionszystourethrografie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die Ausscheidungsurografie ist keine bevorzugte Akutdiagnostik für diese Situation. Sie ist strahlen- und kontrastmittelbelastet und wurde in vielen Fragestellungen durch Sonografie und CT ersetzt. Für die erste Risikoeinschätzung ist sie nicht am besten geeignet.",
+          "term": "Ausscheidungsurografie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Zystoskopie untersucht die Blase von innen, beantwortet aber die akute Frage nach Nierenstau, Steinen oder parenchymatösen Komplikationen nicht primär. Bei akuter Infektion wäre sie ohne klare Indikation zudem belastend. Sie ist daher nicht die passende erste Maßnahme.",
+          "term": "Zystoskopie"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die Abdomensonografie kann Harnstau, Steine, anatomische Auffälligkeiten und Hinweise auf Komplikationen erfassen. Sie ist nichtinvasiv, rasch verfügbar und bei Pyelonephritis mit rezidivierenden Infekten besonders sinnvoll. Damit eignet sie sich am besten zur aktuellen Risikoeinschätzung.",
+          "term": "Abdomensonografie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Angio-Computertomografie ist auf Gefäßfragestellungen ausgerichtet. Für eine akute Harnwegsinfektion mit Pyelonephritisverdacht besteht ohne Hinweis auf vaskuläre Komplikationen keine Indikation. Sie wäre diagnostisch nicht zielgerichtet.",
+          "term": "Angio-CT"
+        }
+      ]
+    },
+    "72": {
+      "topicLabel": "Leistenhernie",
+      "explanation": "Der Patient hat links eine symptomatische und rechts eine klinisch nachweisbare asymptomatische Leistenhernie. Bei Männern mit Leistenhernie ist die netzbasierte Versorgung ein etablierter Standard, weil sie die Stabilität der Rekonstruktion verbessert. Bei beidseitigem Befund bietet ein minimalinvasives Vorgehen den Vorteil, beide Seiten über denselben Zugang zu versorgen. Da links ohnehin eine Operationsindikation besteht und rechts bereits eine Hernie nachweisbar ist, ist die beidseitige minimalinvasive Netzimplantation am ehesten empfehlenswert. Ein Bruchband oder eine netzfreie Operation sind keine gleichwertigen modernen Standardoptionen in dieser Konstellation.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine offene Netzoperation links würde die symptomatische Seite behandeln, lässt aber die rechts nachgewiesene Hernie unversorgt. Bei beidseitigem Befund ist ein laparoendoskopisches Vorgehen besonders attraktiv, weil beide Seiten in einer Sitzung adressiert werden können. Die Option ist daher weniger passend als die beidseitige minimalinvasive Versorgung.",
+          "term": "Offene Netzoperation"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine offene Operation ohne Netzimplantation ist bei erwachsenen Leistenhernien in der Regel nicht die bevorzugte Standardversorgung. Netzverfahren senken das Rezidivrisiko und sind etabliert. Zusätzlich bliebe auch hier die kontralaterale Hernie unbehandelt.",
+          "term": "Netzfreie Hernienoperation"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Bruchband ist keine definitive Therapie der Leistenhernie. Wenn minimalinvasiv operiert wird und beidseits eine Hernie besteht, kann die Gegenseite in derselben Sitzung mitversorgt werden. Das Tragen eines Bruchbands rechts wäre daher nicht die beste Empfehlung.",
+          "term": "Bruchband"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine minimalinvasive Operation ohne Netzimplantation entspricht bei erwachsenen Leistenhernien nicht dem üblichen Standard. Der zentrale Vorteil der modernen Verfahren besteht gerade in der spannungsarmen Netzverstärkung. Ohne Netz wäre das Rezidivrisiko ungünstiger.",
+          "term": "Minimalinvasiv ohne Netz"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Die minimalinvasive Operation mit Netzimplantation beidseits passt am besten zum beidseitigen Befund. Sie behandelt die symptomatische linke Hernie und versorgt die rechts bereits klinisch nachweisbare Hernie im selben Eingriff. Gerade bei bilateralen Leistenhernien ist dieses Vorgehen besonders naheliegend.",
+          "term": "Bilaterale Netzplastik"
+        }
+      ]
+    },
+    "73": {
+      "topicLabel": "Privatrezept",
+      "explanation": "Auch ein Privatrezept muss die verordnete Arznei eindeutig identifizierbar machen. Dazu gehört bei Tabletten insbesondere die Wirkstärke beziehungsweise Arzneistoffmenge pro Tablette, damit Apotheke und Patient wissen, welche Stärke abgegeben werden soll. Ein Handelsname ist nicht zwingend, wenn der Wirkstoff eindeutig verordnet ist. Eine Pharmazentralnummer oder ein Kostenträger sind für ein Privatrezept nicht zwingende Angaben. Die E-Mail-Adresse des Verschreibers gehört ebenfalls nicht zu den unbedingt erforderlichen Rezeptangaben.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die E-Mail-Adresse des Verschreibers ist keine zwingende Pflichtangabe auf einem Privatrezept. Erforderlich sind Identifizierbarkeit und die üblichen formalen Angaben der verschreibenden Person, aber nicht gerade eine E-Mail-Adresse. Die Aussage ist daher zu spezifisch.",
+          "term": "Verschreiberkontakt"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Der Handelsname ist nicht zwingend erforderlich, wenn der Arzneistoff eindeutig bezeichnet wird. Eine Verordnung kann grundsätzlich auch über den Wirkstoff erfolgen. Entscheidend ist, dass das Arzneimittel einschließlich Stärke und Darreichung eindeutig bestimmbar ist.",
+          "term": "Handelsname"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Pharmazentralnummer erleichtert die eindeutige Zuordnung eines Fertigarzneimittels, ist aber auf dem Rezept nicht unbedingt erforderlich. Ärztliche Verordnungen werden üblicherweise über Arzneimittelname oder Wirkstoff, Stärke, Darreichungsform und Menge konkretisiert. Daher ist die PZN nicht die Pflichtangabe, nach der gefragt wird.",
+          "term": "Pharmazentralnummer"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die Arzneistoffmenge pro Tablette ist notwendig, um die verordnete Stärke eindeutig festzulegen. Gerade bei Sildenafil existieren unterschiedliche Wirkstärken, sodass eine bloße Wirkstoffnennung nicht ausreicht. Diese Angabe ist deshalb für eine sichere Abgabe unbedingt relevant.",
+          "term": "Wirkstärke"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Kostenträger ist bei einem Privatrezept nicht zwingend zu vermerken. Die Kostenübernahme über die gesetzliche Krankenversicherung steht hier gerade nicht im Vordergrund. Für die Arzneimittelidentifikation ist diese Angabe außerdem nicht erforderlich.",
+          "term": "Kostenträger"
+        }
+      ]
+    },
+    "74": {
+      "topicLabel": "Psoriasisarthritis",
+      "explanation": "Die Kombination aus rezidivierenden juckenden Hautveränderungen am Kopf, Nagelveränderungen mit Tüpfelungen und Gelenkbeschwerden spricht am ehesten für eine Psoriasis mit Psoriasisarthritis. Nagelpitting ist ein klassischer Hinweis auf Psoriasis, und komplett geschwollene Finger passen zu einer Daktylitis. Die Morgensteife und Beschwerden an Finger- und Handgelenken zeigen eine entzündliche Gelenkbeteiligung. Auch wenn die Abbildung nicht vorliegt, trägt die klinische Beschreibung die Diagnose sehr deutlich. Andere Differenzialdiagnosen erklären Haut-, Nagel- und Gelenkmanifestationen nicht in dieser typischen Kombination.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Alopezie durch Lues kann haarige Kopfhaut betreffen, erklärt aber Nagelpitting und Daktylitis nicht überzeugend. Auch die rezidivierenden juckenden Hautveränderungen mit entzündlichen Gelenkbeschwerden passen besser zu Psoriasis. Für Syphilis fehlen zudem passende systemische Hinweise.",
+          "term": "Syphilitische Alopezie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein mikrobielles Ekzem kann juckende Hautveränderungen verursachen. Es erklärt jedoch die typischen Nageltüpfelungen und die entzündlichen Gelenkbeschwerden mit geschwollenen ganzen Fingern nicht. Die Systematik spricht daher gegen ein reines Ekzem.",
+          "term": "Mikrobielles Ekzem"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Psoriasis kann die Kopfhaut betreffen und typische Nagelveränderungen wie Tüpfelnägel verursachen. Die Gelenkschmerzen mit Morgensteife und gelegentlich komplett geschwollenen Fingern passen zu einer Psoriasisarthritis mit Daktylitis. Damit erklärt diese Diagnose Haut-, Nagel- und Gelenkbefunde am besten.",
+          "term": "Psoriasis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine rheumatoide Arthritis kann Morgensteife und Handgelenkbeschwerden verursachen. Sie erklärt aber die juckenden Kopfhautläsionen und die Tüpfelnägel nicht typisch. Daktylitis ist außerdem eher ein Hinweis auf eine Spondyloarthritis beziehungsweise Psoriasisarthritis.",
+          "term": "Rheumatoide Arthritis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Tinea capitis kann schuppende oder entzündliche Kopfhautveränderungen verursachen. Nagelpitting und entzündliche Gelenkbeschwerden gehören jedoch nicht zum typischen Bild. Bei einer 55-jährigen Patientin mit diesen Zusatzbefunden ist Psoriasis deutlich wahrscheinlicher.",
+          "term": "Tinea capitis"
+        }
+      ]
+    },
+    "75": {
+      "topicLabel": "Leberzyste",
+      "explanation": "Die vorgegebenen korrekten Antworten sprechen für eine unkomplizierte Leberzyste als wahrscheinlichste Diagnose. Klinisch passen über Monate bestehende Druck- oder Völlegefühlbeschwerden ohne B-Symptomatik und ohne Stuhl- oder Miktionsauffälligkeiten zu einer großen benignen Raumforderung der Leber. Unkomplizierte Leberzysten sind häufig Zufallsbefunde, können bei entsprechender Größe aber Beschwerden durch Raumforderung verursachen. Maligne oder infektiöse Differenzialdiagnosen würden meist zusätzliche Bildmorphologie oder klinische Hinweise erfordern, die in der Vignette nicht genannt werden. Da die Bildbeilage hier nicht einsehbar ist, stützt sich die Erklärung auf die Fallangaben und die vorgegebene Lösung.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine unkomplizierte Leberzyste kann asymptomatisch sein oder bei Größe ein postprandiales Völlegefühl und lageabhängige Schmerzen auslösen. Das Fehlen von Gewichtsabnahme, B-Symptomatik und auffälliger Darm- oder Miktionssymptomatik passt zu einem benignen Befund. Die Diagnose ist gemäß Lösung die wahrscheinlichste Einordnung der Bild- und Fallkonstellation.",
+          "term": "Leberzyste"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine alveoläre Echinokokkose ist eine wichtige Differenzialdiagnose zystischer oder infiltrativer Leberläsionen. Typischerweise wären jedoch eine charakteristische infiltrative Bildmorphologie, epidemiologische Hinweise oder ein anderer klinischer Verdacht relevant. Aus der Vignette ergibt sich dies nicht als wahrscheinlichste Diagnose.",
+          "term": "Alveoläre Echinokokkose"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein hepatozelluläres Karzinom tritt häufig im Kontext chronischer Lebererkrankungen oder anderer Risikofaktoren auf. Solche Hinweise werden bei der Patientin nicht genannt. Eine einfache zystische, beschwerdeauslösende Raumforderung passt besser zur vorgegebenen Lösung.",
+          "term": "Hepatozelluläres Karzinom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Kolorektale Lebermetastasen wären vor allem bei bekanntem oder vermutetem kolorektalem Karzinom naheliegend. Die Koloskopie vor etwa zwei Jahren und fehlende B-Symptomatik schließen Malignität nicht absolut aus, machen sie aber in dieser Prüfungsfrage nicht zur wahrscheinlichsten Antwort. Auch die Lösung weist auf einen benignen zystischen Befund.",
+          "term": "Lebermetastase"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Cholezystitis verursacht typischerweise akute rechtsseitige Oberbauchschmerzen, oft mit Entzündungszeichen und Bezug zur Gallenblase. Die monatelangen, eher raumforderungsartigen Beschwerden passen dazu weniger gut. Die Schnittbildgebung soll hier offenbar eine Leberläsion und keine akute Gallenblasenentzündung zeigen.",
+          "term": "Cholezystitis"
+        }
+      ]
+    },
+    "76": {
+      "topicLabel": "Mesenteriale Ischämie",
+      "explanation": "Bei Verdacht auf akute mesenteriale Ischämie ist die Diagnostik zeitkritisch und darf nicht allein auf Laborparameter gestützt werden. Unter den routinemäßigen Laborwerten haben normale D-Dimere jedoch den größten Wert, eine akute mesenteriale Ischämie weitgehend unwahrscheinlich zu machen. Laktat kann ansteigen, ist aber oft eher Zeichen fortgeschrittener Ischämie und bei frühen Verläufen nicht zuverlässig normalitätsausschließend. Entzündungsparameter wie Leukozyten, CRP oder Prokalzitonin sind unspezifisch und können initial unauffällig sein. Bei klinischem Verdacht bleibt die rasche Bildgebung, insbesondere Gefäßdarstellung, entscheidend.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Laktat ist ein wichtiger Warnparameter, steigt aber häufig erst bei fortgeschrittener Minderperfusion oder Gewebehypoxie an. Ein normales Laktat schließt eine frühe mesenteriale Ischämie nicht zuverlässig aus. Deshalb ist es nicht der beste Laborwert für den Ausschluss.",
+          "term": "Laktat"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Normale D-Dimere machen eine akute mesenteriale Ischämie unter den genannten Routinelaborparametern am ehesten weitgehend unwahrscheinlich. D-Dimere spiegeln Aktivierung von Gerinnung und Fibrinolyse wider, wie sie bei thromboembolischen oder ischämischen Prozessen auftreten kann. Sie ersetzen aber bei starkem klinischem Verdacht keine rasche bildgebende Abklärung.",
+          "term": "D-Dimere"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Leukozytenzahl ist ein unspezifischer Entzündungs- und Stressparameter. Sie kann bei akuter mesenterialer Ischämie erhöht sein, aber auch normal bleiben oder aus vielen anderen Gründen ansteigen. Ein Normalwert schließt die Diagnose nicht ausreichend aus.",
+          "term": "Leukozyten"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "CRP steigt verzögert an und ist für akute, erst seit wenigen Stunden bestehende Prozesse wenig sensitiv. Ein normales CRP zu Beginn der Symptomatik wäre daher nicht beruhigend genug. Es ist zudem nicht spezifisch für eine mesenteriale Ischämie.",
+          "term": "CRP"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Prokalzitonin ist vor allem im Kontext bakterieller Infektionen und Sepsis hilfreich. Eine primär vaskuläre mesenteriale Ischämie kann initial ohne Prokalzitoninanstieg verlaufen. Ein Normalwert schließt die Erkrankung daher nicht weitgehend aus.",
+          "term": "Prokalzitonin"
+        }
+      ]
+    },
+    "77": {
+      "topicLabel": "Wundmorphologie",
+      "explanation": "Stumpfe Gewalt kann an der behaarten Kopfhaut Platzwunden erzeugen, die wegen der straffen Haut über dem Schädel wie Schnittwunden aussehen können. Ein wichtiges Unterscheidungsmerkmal sind Gewebebrücken in der Tiefe der Wunde: Bei stumpfer Zerreißung bleiben bindegewebige Strukturen, Gefäße oder Nerven teilweise gespannt erhalten. Eine scharfe Stich- oder Schnittverletzung trennt das Gewebe dagegen glatter und vollständiger. Glatte Wundränder sprechen eher für scharfe Gewalt, während die Tiefe bis zum Knochen oder starke Blutung am Kopf nicht zuverlässig differenzieren. Ein Hämatomsaum kann stumpfe Einwirkung begleiten, ist aber weniger spezifisch als eindeutige Gewebebrücken.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Glatte Wundränder sprechen eher für eine scharfe Gewalteinwirkung durch Schnitt oder Stich. Bei stumpfer Gewalt sind Wundränder häufiger unregelmäßig, gequetscht oder unterminiert. Dieser Befund würde also nicht am ehesten gegen eine Stich- oder Schnittverletzung sprechen.",
+          "term": "Glatte Wundränder"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Gewebebrücken in der Tiefe sind ein klassisches Zeichen einer Riss- oder Platzwunde durch stumpfe Gewalt. Dabei zerreißt das Gewebe ungleichmäßig, sodass einzelne Strukturen nicht vollständig durchtrennt werden. Bei scharfer Gewalt wären solche Brücken deutlich weniger zu erwarten.",
+          "term": "Gewebebrücken"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Wunde bis auf den Schädelknochen kann sowohl bei stumpfer als auch bei scharfer Gewalteinwirkung vorkommen. Die Kopfhaut ist dünn über dem Schädel, sodass tiefe Verletzungen dort nicht automatisch die Entstehungsart klären. Dieser Befund ist daher nicht am spezifischsten.",
+          "term": "Sondierbarkeit"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Kopfhaut ist stark durchblutet, sodass sowohl Schnittverletzungen als auch Platzwunden erheblich bluten können. Die Blutungsstärke hängt stark von Lokalisation und Gefäßbeteiligung ab. Sie erlaubt keine sichere Abgrenzung zwischen stumpfer und scharfer Gewalt.",
+          "term": "Kopfhautblutung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein saumartiges Hämatom um die Hauteröffnung kann zu stumpfer Gewalteinwirkung passen. Es ist jedoch nicht so beweisend wie Gewebebrücken in der Tiefe, weil Blutunterlaufungen auch begleitend oder durch Manipulation entstehen können. In dieser Frage ist daher ein anderer Befund stärker wegweisend.",
+          "term": "Hämatomsaum"
+        }
+      ]
+    },
+    "78": {
+      "topicLabel": "Reisediarrhö",
+      "explanation": "Nach einer Reise nach Mexiko mit wässrigen Durchfällen und nur geringer Temperaturerhöhung ist die klassische Ursache einer Reisediarrhö ein enterotoxischer E. coli. ETEC bildet hitzelabile und/oder hitzestabile Enterotoxine, die eine sekretorische Diarrhö auslösen, ohne primär eine invasive Entzündung zu verursachen. Deshalb stehen wässrige Stühle und Allgemeinbeschwerden im Vordergrund, während blutige Diarrhö oder schwere Dysenterie fehlen. Andere E.-coli-Pathovare verursachen eher persistierende Verläufe, hämorrhagische Kolitis, invasive Dysenterie oder Erkrankungen bei Kleinkindern. Die Reiseanamnese und Symptomatik führen daher am ehesten zu ETEC.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "EAEC kann wässrige, teils länger anhaltende Durchfälle verursachen und ist ebenfalls reisemedizinisch relevant. Der klassische Erreger der akuten Reisediarrhö mit sekretorischem, wässrigem Verlauf ist jedoch ETEC. Deshalb ist EAEC hier nicht die beste Antwort.",
+          "term": "EAEC"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "EHEC verursacht typischerweise hämorrhagische Kolitis mit starken Bauchschmerzen und kann ein hämolytisch-urämisches Syndrom auslösen. Wässrige Reisediarrhö mit nur wenig Fieber ist dafür weniger typisch. Zudem steht bei EHEC nicht die klassische Reisediarrhö im Vordergrund.",
+          "term": "EHEC"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "EIEC ist invasiv und verursacht eher ein dysenterisches Krankheitsbild mit Fieber, krampfartigen Schmerzen und möglicherweise Blut oder Schleim im Stuhl. Die Fallbeschreibung betont starke wässrige Durchfälle bei nur wenig erhöhter Temperatur. Das passt besser zu einem toxigenen als zu einem invasiven Pathovar.",
+          "term": "EIEC"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "EPEC ist vor allem als Erreger von Durchfällen bei Säuglingen und Kleinkindern bekannt. Beim erwachsenen Reiserückkehrer mit typischer wässriger Diarrhö ist ETEC naheliegender. Die Alters- und Reisesituation spricht daher gegen EPEC als beste Antwort.",
+          "term": "EPEC"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "ETEC ist der klassische Auslöser der Reisediarrhö. Die Toxine führen zu einer sekretorischen, meist wässrigen Diarrhö, oft ohne ausgeprägtes Fieber oder Blutbeimengungen. Die Reise nach Mexiko und der Beginn um die Rückreise herum passen sehr gut zu diesem Pathovar.",
+          "term": "ETEC"
+        }
+      ]
+    },
+    "79": {
+      "topicLabel": "Bipolare Rezidivprophylaxe",
+      "explanation": "Für die Rezidivprophylaxe der bipolaren Störung werden stimmungsstabilisierende Substanzen beziehungsweise bestimmte atypische Antipsychotika eingesetzt. Lithium, Valproat, Lamotrigin und Quetiapin haben je nach Phasenprofil einen etablierten Stellenwert. Venlafaxin ist dagegen ein Antidepressivum und als rezidivprophylaktische Monotherapie bei bipolarer Störung ungeeignet. Antidepressiva können bei bipolarer Störung problematisch sein, weil sie manische oder hypomanische Episoden begünstigen können, wenn sie nicht sorgfältig eingebettet werden. Daher ist Venlafaxin unter den genannten Optionen am wenigsten geeignet.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Valproat ist ein klassischer Stimmungsstabilisierer und wird bei bipolarer Störung zur Phasenprophylaxe eingesetzt. Es ist besonders bei manischen Episoden und bestimmten Verlaufsformen relevant. Daher ist es nicht die am wenigsten geeignete Substanz.",
+          "term": "Valproat"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Lamotrigin hat einen Stellenwert in der Rezidivprophylaxe bipolarer Störungen, insbesondere mit Blick auf depressive Episoden. Es ist kein ungeeignetes Antidepressivum, sondern ein stimmungsstabilisierendes Antikonvulsivum. Deshalb ist diese Option nicht gesucht.",
+          "term": "Lamotrigin"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Venlafaxin ist ein Antidepressivum und nicht primär ein Phasenprophylaktikum der bipolaren Störung. Bei bipolar Erkrankten kann eine antidepressiv ausgerichtete Therapie ohne ausreichende Stimmungsstabilisierung einen Switch in Manie oder Hypomanie begünstigen. Unter den genannten Substanzen ist es daher für die Rezidivprophylaxe am wenigsten geeignet.",
+          "term": "Venlafaxin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Quetiapin ist ein atypisches Antipsychotikum mit Wirksamkeit in der Behandlung bipolarer Störungen. Es kann je nach Situation auch prophylaktisch eingesetzt werden. Damit ist es deutlich geeigneter als ein reines Antidepressivum.",
+          "term": "Quetiapin"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Lithium ist ein zentraler Klassiker der bipolaren Phasenprophylaxe. Es wirkt stimmungsstabilisierend und ist in der Langzeitbehandlung besonders etabliert. Diese Option ist daher nicht die am wenigsten geeignete.",
+          "term": "Lithium"
+        }
+      ]
+    },
+    "80": {
+      "topicLabel": "Blepharospasmus",
+      "explanation": "Die Patientin zeigt einen beidseitigen krampfartigen Lidschluss mit zusätzlichen oromandibulären Bewegungen. Das passt zu einer fokalen beziehungsweise segmentalen Dystonie, klassisch als Blepharospasmus mit oromandibulärer Beteiligung beziehungsweise Meige-Syndrom. Die wirksamste symptomatische Therapie bei fokalen Dystonien ist häufig die lokale Injektion von Botulinumtoxin in die überaktiven Muskeln. Dadurch wird die neuromuskuläre Übertragung vorübergehend gehemmt und die krampfartige Muskelaktivität reduziert. Verhaltenstherapie, dopaminerge Substanzen, Antidepressiva oder Metoclopramid adressieren die Pathophysiologie hier nicht passend; Metoclopramid kann extrapyramidale Bewegungsstörungen sogar begünstigen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Habit reversal training ist vor allem bei Tic-Störungen und verwandten repetitiven Verhaltensmustern hilfreich. Die Patientin beschreibt aber nicht unterdrückbare dystonische Muskelkontraktionen. Für einen Blepharospasmus ist diese Maßnahme nicht die beste symptomatische Therapie.",
+          "term": "Habit Reversal"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Pramipexol ist ein Dopaminagonist, der unter anderem bei Parkinson-Syndrom oder Restless-Legs-Syndrom verwendet wird. Die geschilderte Störung ist jedoch eine fokale beziehungsweise segmentale Dystonie. Eine dopaminerge Therapie ist hier nicht die naheliegende symptomatische Option.",
+          "term": "Pramipexol"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Amitriptylin ist ein trizyklisches Antidepressivum und wird beispielsweise bei Depressionen oder bestimmten Schmerzsyndromen eingesetzt. Es behandelt die überaktiven Augen- und Mundmuskeln einer Dystonie nicht gezielt. Daher ist es nicht die beste Wahl.",
+          "term": "Amitriptylin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Metoclopramid ist ein Dopaminantagonist und kann extrapyramidale Nebenwirkungen wie akute Dystonien oder tardive Bewegungsstörungen verursachen. Bei einer bestehenden dystonen Bewegungsstörung wäre es daher nicht therapeutisch sinnvoll. Es könnte die Problematik eher verschlechtern.",
+          "term": "Metoclopramid"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Botulinumtoxin ist die wichtigste symptomatische Therapie bei fokalen Dystonien wie dem Blepharospasmus. Die lokale Injektion schwächt gezielt die überaktiven Muskeln, etwa den M. orbicularis oculi und bei Bedarf weitere beteiligte Muskeln. Dadurch können Lidschlusskrämpfe und funktionelle Einschränkungen deutlich reduziert werden.",
+          "term": "Botulinumtoxin"
+        }
+      ]
+    }
+  }
+}

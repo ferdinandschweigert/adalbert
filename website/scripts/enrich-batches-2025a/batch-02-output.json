@@ -1,0 +1,745 @@
+{
+  "examId": "m2-2025a-staatsexamen",
+  "questions": {
+    "41": {
+      "topicLabel": "Bradykardie und Antihypertensiva",
+      "explanation": "Der Patient hat rezidivierende Synkopen mit ausgeprägter Bradykardie; im Vorkontext war daher das Absetzen bradykardisierender Medikamente naheliegend. Entwickelt er nun eine hypertensive Entgleisung, darf die Blutdrucksenkung die bestehende Erregungsleitungsstörung nicht zusätzlich verschlechtern. Verapamil ist ein Nicht-Dihydropyridin-Calciumantagonist mit negativ chronotroper und dromotroper Wirkung am AV-Knoten. Bei Bradykardie oder höhergradigem AV-Block kann es Synkopen, Hypotonie oder einen kritischen Leitungsblock verstärken und ist deshalb unter diesen Bedingungen möglichst zu vermeiden. Die übrigen genannten Antihypertensiva wirken primär vasodilatierend oder über das Renin-Angiotensin-System und bremsen die kardiale Erregungsleitung nicht in gleicher Weise.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Glyceroltrinitrat senkt den Blutdruck vor allem über eine venöse und, dosisabhängig, arterielle Vasodilatation. Es wirkt nicht relevant negativ dromotrop am AV-Knoten und verschlechtert eine Bradykardie daher nicht typischerweise direkt. Bei akuter Blutdruckentgleisung kann es je nach klinischem Kontext eingesetzt werden, auch wenn Blutdruck und Volumenstatus eng überwacht werden müssen.",
+          "term": "Nitrat"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Nifedipin gehört zu den Dihydropyridin-Calciumantagonisten und wirkt überwiegend peripher vasodilatierend. Anders als Verapamil bremst es den AV-Knoten nicht wesentlich und ist deshalb bei einer vorbestehenden Bradykardie nicht das zentrale Problem dieser Auswahl. Für die Akuttherapie gelten zwar praktische Einschränkungen je nach Präparat und Situation, die Frage zielt aber auf die bradykardisierende Wirkung.",
+          "term": "Dihydropyridin"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Verapamil ist hier die ungünstigste Wahl, weil es die Herzfrequenz senkt und die AV-Überleitung verzögert. Bei einem Patienten mit Synkopen, Herzfrequenz um 35/min und Verdacht auf eine relevante Bradyarrhythmie kann dies die hämodynamische Situation deutlich verschlechtern. Zur Blutdrucksenkung sollte ein Mittel gewählt werden, das die kardiale Erregungsleitung nicht zusätzlich hemmt.",
+          "term": "Verapamil"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Urapidil senkt den Blutdruck hauptsächlich über eine periphere alpha-1-antagonistische Vasodilatation und zentrale serotonerge Effekte. Eine relevante Hemmung der AV-Überleitung gehört nicht zu seinen Leiteffekten. Es passt daher besser zu einer hypertensiven Entgleisung bei Bradykardie als ein AV-Knoten-blockierendes Medikament.",
+          "term": "Urapidil"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ramipril ist ein ACE-Hemmer und senkt den Blutdruck über Hemmung des Renin-Angiotensin-Aldosteron-Systems. Es hat keine direkte negativ chronotrope oder dromotrope Wirkung. Für die akute Notfallsenkung ist es nicht das typische intravenöse Mittel, aber im Sinne der Frage ist es nicht wegen Bradykardie oder AV-Block besonders kontraindiziert.",
+          "term": "ACE-Hemmer"
+        }
+      ]
+    },
+    "42": {
+      "topicLabel": "Berufskrankheitenanzeige",
+      "explanation": "Bei chronischer Dyspnoe, trockenem Husten, interstitieller Zeichnungsvermehrung und umfangreicher Asbestexposition besteht der begründete Verdacht auf eine asbestbedingte Berufskrankheit. Für die Anzeige genügt ein ärztlicher Verdacht; eine gesicherte Diagnose oder vollständige Spezialdiagnostik ist dafür nicht erforderlich. Ärztinnen und Ärzte sind zur Erstattung einer Verdachtsanzeige an den zuständigen Unfallversicherungsträger oder die zuständige Stelle verpflichtet beziehungsweise berechtigt. Die Berentung ändert daran nichts, weil Anerkennung, Prävention, Entschädigung und weitere Begutachtung weiterhin relevant sein können. Am ehesten ist daher die Anzeige auf Verdacht einer Berufskrankheit zu erstatten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Dass Herr S. bereits berentet ist, hebt den Verdacht auf eine Berufskrankheit nicht auf. Auch nach Ende der Erwerbstätigkeit können beruflich verursachte Erkrankungen anerkannt und entschädigungsrechtlich relevant werden. Ein Verzicht auf die Anzeige wäre bei begründetem Verdacht daher falsch.",
+          "term": "Berentung"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die Kombination aus langjähriger beruflicher Exposition gegenüber Asbest und passenden pulmonalen Beschwerden begründet eine Verdachtsanzeige. Es muss nicht erst bewiesen sein, dass die Erkrankung tatsächlich beruflich verursacht ist. Die weitere Prüfung und Anerkennung erfolgt anschließend durch den Unfallversicherungsträger.",
+          "term": "Verdachtsanzeige"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Nicht nur Fachärztinnen und Fachärzte für Arbeitsmedizin dürfen eine Berufskrankheit anzeigen. Jede Ärztin und jeder Arzt, die oder der den begründeten Verdacht erkennt, kann beziehungsweise soll eine entsprechende Anzeige erstatten. Eine Überweisung kann ergänzend sinnvoll sein, ersetzt aber nicht die Anzeige.",
+          "term": "Arbeitsmedizin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Versicherte können sich zwar auch selbst an den Unfallversicherungsträger wenden. Im vorliegenden Fall liegt der Verdacht aber in der ärztlichen Behandlungssituation vor, sodass die Hausärztin die Anzeige nicht einfach auf den Patienten abwälzen sollte. Die ärztliche Verdachtsanzeige ist der naheliegende nächste Schritt.",
+          "term": "Selbstanzeige"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine weiterführende Diagnostik kann für die medizinische Abklärung wichtig sein, ist aber keine Voraussetzung für eine Verdachtsanzeige. Gerade die Anzeige soll die berufsgenossenschaftliche Prüfung und gegebenenfalls weitere Begutachtung anstoßen. Abwarten bis zur endgültigen Sicherung würde den Zweck der Verdachtsmeldung verfehlen.",
+          "term": "Diagnostik"
+        }
+      ]
+    },
+    "43": {
+      "topicLabel": "Restriktive Ventilationsstörung",
+      "explanation": "Im Kontext der Frage sprechen Asbestexposition, Belastungsdyspnoe, trockener Husten und interstitielle Zeichnungsvermehrung für eine interstitielle Lungenerkrankung, etwa eine Asbestose. Interstitielle Lungenerkrankungen führen typischerweise zu einer restriktiven Ventilationsstörung mit verminderter Lungenkapazität. Im Unterschied zur Obstruktion steht dabei nicht die Verengung der Atemwege mit erschwerter Ausatmung im Vordergrund, sondern eine verminderte Dehnbarkeit des Lungenparenchyms. Die vorliegenden Lungenfunktionswerte sollen daher am deutlichsten als Restriktion eingeordnet werden. Die klinische Vorgeschichte stützt diese Interpretation zusätzlich, auch wenn die konkreten Zahlenwerte in der Textfassung nicht mitgegeben sind.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Obstruktion passt typischerweise zu Asthma oder COPD und zeigt sich vor allem durch eine Behinderung des exspiratorischen Flusses. Bei der asbestassoziierten interstitiellen Erkrankung steht dagegen die Einschränkung der Lungenvolumina im Vordergrund. Die Fallvignette lenkt deshalb nicht primär auf eine obstruktive Ventilationsstörung.",
+          "term": "Obstruktion"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Restriktion ist die passende Funktionsstörung bei interstitiellen Lungenerkrankungen. Die Lunge ist weniger dehnbar, die ventilierbaren Volumina sind vermindert und Belastungsdyspnoe sowie trockener Husten passen gut dazu. Die Asbestexposition macht eine pneumokoniotische, fibrosierende Ursache plausibel.",
+          "term": "Restriktion"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein altersentsprechender Normalwert wäre bei chronischer Belastungsdyspnoe, trockenem Husten und radiologisch interstitieller Zeichnungsvermehrung weniger wahrscheinlich. Die Frage formuliert zudem, dass die Lungenfunktion eine deutliche Funktionsstörung zeigt. Der berufliche Expositionskontext spricht gegen eine unauffällige Einordnung.",
+          "term": "Normalwert"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Fehlende Mitarbeit kann Lungenfunktionswerte verfälschen, würde aber nicht durch die berufliche Anamnese und die Röntgenbefunde erklärt. Ohne Hinweise auf unplausible Kurvenführung oder inkonsistente Messungen sollte man die Werte klinisch interpretieren. Hier passt das Muster zur restriktiven Erkrankung.",
+          "term": "Mitarbeit"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein gemischt allergisch-exogenes Asthma würde eine variable Atemwegsobstruktion und typischerweise anfallsartige Beschwerden nahelegen. Die geschilderte Asbestexposition und die interstitielle Zeichnungsvermehrung sprechen deutlich eher für eine fibrosierende interstitielle Lungenerkrankung. Asthma erklärt den Fall daher nicht am besten.",
+          "term": "Asthma"
+        }
+      ]
+    },
+    "44": {
+      "topicLabel": "Asbestose-Diagnostik",
+      "explanation": "Bei Verdacht auf eine asbestassoziierte interstitielle Lungenerkrankung ist die High-Resolution-Computertomografie des Thorax die geeignetste weiterführende Bildgebung. Sie stellt interstitielle Veränderungen, subpleurale Fibrosezeichen und pleurale Plaques wesentlich genauer dar als konventionelle Röntgenaufnahmen. Eine native HR-CT ist für die Beurteilung des Lungenparenchyms in der Regel ausreichend, weil es nicht primär um Gefäße oder Tumorstaging geht. Die vorherige Lungenfunktion mit Restriktion passt zu einer parenchymatösen, fibrosierenden Erkrankung. Daher ist die HR-CT nativ in der Zusammenschau von Anamnese und Funktion am sinnvollsten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die digitale Subtraktionsangiografie dient vor allem der Darstellung von Gefäßen und ist invasiver als eine CT. Bei Verdacht auf Asbestose oder eine andere interstitielle Lungenerkrankung beantwortet sie die zentrale Frage nach dem Lungenparenchym nicht. Sie wäre daher hier keine passende Erstwahl.",
+          "term": "DSA"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Röntgen-Schrägaufnahme kann einzelne thorakale Strukturen ergänzend darstellen, hat aber eine deutlich geringere Sensitivität für interstitielle Veränderungen. Der Patient hat bereits eine auffällige Röntgenthoraxaufnahme, sodass eine weitere Spezialprojektion wenig Zusatznutzen verspricht. Für die Differenzierung einer Asbestose ist die Schnittbildgebung überlegen.",
+          "term": "Schrägaufnahme"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Inhalationsszintigrafie untersucht vor allem ventilatorische Verteilungsstörungen. Sie ist nicht die Methode der Wahl, um fibrosierende interstitielle Veränderungen oder pleurale Asbestfolgen morphologisch zu erfassen. Der Befundkontext verlangt eine hochauflösende anatomische Bildgebung.",
+          "term": "Inhalationsszintigrafie"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die native HR-CT ist bei Verdacht auf eine interstitielle Lungenerkrankung die wichtigste weiterführende Thoraxbildgebung. Sie kann feine retikuläre Veränderungen, Honigwabenmuster, Traktionsbronchiektasen und pleurale Veränderungen besser erfassen als das Röntgen. Bei Asbestexposition liefert sie die entscheidenden morphologischen Zusatzinformationen.",
+          "term": "HR-CT"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die FDG-PET dient vor allem metabolischer Aktivitätsdiagnostik, etwa bei Tumorfragestellungen. Sie ist nicht die Standarduntersuchung zur Abklärung einer restriktiven Ventilationsstörung bei Asbestexposition. Ohne konkreten Tumorverdacht wäre sie für diese Fragestellung überdimensioniert und weniger zielgerichtet.",
+          "term": "FDG-PET"
+        }
+      ]
+    },
+    "45": {
+      "topicLabel": "Phlegmone",
+      "explanation": "Der Patient zeigt eine akut entzündliche Weichteilinfektion mit Schmerzen, Rötung, Überwärmung, Schwellung und systemischen Hinweisen wie Nachtschweiß. Sonografisch ist das Subkutangewebe ödematös gefeldert; zusätzlich findet sich ein abgekapselter Flüssigkeitsverhalt mit echoreichem, waberndem Binnenmaterial, passend zu eitrigem Material beziehungsweise abszedierender Komponente. Von den angebotenen Diagnosen passt eine Phlegmone als bakterielle, diffus ausbreitende Entzündung des Weichteilgewebes am besten. Die starke Schmerzhaftigkeit und der fehlende Effekt einer lokalen Steroid-Antibiotika-Salbe unterstützen eine relevante tiefe bakterielle Infektion. Differenzialdiagnosen wie Kontakt- oder Stauungsdermatitis erklären den sonografischen Flüssigkeitsverhalt und die systemischen Zeichen nicht ausreichend.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Erysipelas carcinomatosum bezeichnet eine karzinomatöse Hautinfiltration, die klinisch einem Erysipel ähneln kann. Der akute Verlauf nach Trauma, die Schmerzen, die Überwärmung und der eitrig wirkende Flüssigkeitsverhalt sprechen vielmehr für eine bakterielle Weichteilinfektion. Hinweise auf ein zugrunde liegendes Malignom der Haut oder Lymphbahnen fehlen.",
+          "term": "Erysipelas carcinomatosum"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Das Erythema induratum Bazin ist eine noduläre, meist chronisch-rezidivierende Entzündung des subkutanen Fettgewebes, klassisch an den Unterschenkeln. Es erklärt nicht gut einen scharf begrenzten, wabernden Flüssigkeitsverhalt mit akut starken Schmerzen und Infektzeichen. Die Fallbeschreibung passt deutlich eher zu einer eitrigen Weichteilinfektion.",
+          "term": "Erythema induratum"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Kontaktdermatitis verursacht Juckreiz, Rötung, Ekzemzeichen und gegebenenfalls Bläschen an Kontaktarealen. Sie führt nicht typischerweise zu einem tiefen, echoreichen Flüssigkeitsverhalt im Subkutangewebe. Auch die ausgeprägten Schmerzen und der Nachtschweiß sind für eine reine Kontaktdermatitis untypisch.",
+          "term": "Kontaktdermatitis"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die Phlegmone ist eine meist bakterielle, flächenhaft ausbreitende Entzündung des Weichteilgewebes und kann abszedieren. Rötung, Überwärmung, Schwellung, starke Druckschmerzen und entzündlich verändertes subkutanes Gewebe passen sehr gut dazu. Der sonografische Flüssigkeitsverhalt mit echoreichem Binnenmaterial stützt die Diagnose einer eitrigen Infektion.",
+          "term": "Phlegmone"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Stauungsdermatitis entsteht bei chronisch venöser Insuffizienz und zeigt eher chronische Hautveränderungen, Ödeme, Hyperpigmentierungen und Ekzeme. Ein akut schmerzhafter, eitrig imponierender Flüssigkeitsverhalt ist dafür nicht typisch. Die systemischen Beschwerden sprechen zusätzlich gegen eine reine Stauungsdermatitis.",
+          "term": "Stauungsdermatitis"
+        }
+      ]
+    },
+    "46": {
+      "topicLabel": "Sepsiszeichen",
+      "explanation": "Bei einer schweren Weichteilinfektion muss auf Zeichen einer Sepsis geachtet werden. Klinisch sind insbesondere Bewusstseinsveränderung, Hypotonie und Tachypnoe Warnzeichen einer infektbedingten Organdysfunktion. Die Antwortkombination aus Bewusstseinsstörung, Blutdruckabfall und Atemfrequenz über 22/min entspricht dem typischen qSOFA-orientierten Verdachtsmuster. Eine Sepsis ist nicht nur Fieber oder lokale Entzündung, sondern eine systemische Reaktion mit drohender Organschädigung. Deshalb ist diese Symptomkonstellation in der Notaufnahme besonders alarmierend und würde sofortige Diagnostik und Therapie auslösen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Bewusstseinsstörung, Blutdruckabfall und Tachypnoe sind klassische klinische Warnzeichen bei möglicher Sepsis. Sie weisen auf eine relevante Kreislauf- und Organbeteiligung hin. Bei einem Patienten mit vermuteter bakterieller Weichteilinfektion wäre diese Kombination hochverdächtig.",
+          "term": "qSOFA"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Desorientiertheit kann zwar bei Sepsis vorkommen, ein Blutdruckanstieg passt aber nicht zum typischen Schock- oder Organdysfunktionsmuster. Agitation allein ist unspezifisch und kann viele Ursachen haben. Die Kombination ist daher weniger sepsisweisend als Bewusstseinsstörung mit Hypotonie und Tachypnoe.",
+          "term": "Desorientiertheit"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Diarrhö, Magenkrämpfe und Übelkeit sprechen eher für eine gastrointestinale Erkrankung oder Nebenwirkung. Sie können bei Infektionen auftreten, zeigen aber nicht spezifisch eine sepsisbedingte Organdysfunktion an. Im Kontext der Beinphlegmone wären diese Symptome nicht die entscheidenden Warnzeichen.",
+          "term": "Gastrointestinalsymptome"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Lichtscheu, Kopfschmerzen und erhöhte Temperatur können an eine Meningitis oder einen anderen fieberhaften Infekt denken lassen. Eine Körpertemperatur knapp über 37,5 °C allein ist jedoch kein spezifisches Sepsiskriterium. Entscheidend wären zusätzlich Zeichen der Kreislauf- oder Organbeeinträchtigung.",
+          "term": "Meningismus"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Müdigkeit und Apathie sind unspezifisch und können bei vielen Erkrankungen auftreten. Eine niedrige Herzfrequenz ist bei Sepsis nicht das typische Leitsignal; häufiger findet sich eine kompensatorische Tachykardie, wobei Ausnahmen möglich sind. Diese Kombination ist daher weniger geeignet, den Verdacht zu wecken.",
+          "term": "Bradykardie"
+        }
+      ]
+    },
+    "47": {
+      "topicLabel": "Jodkontrastmittel-Aufklärung",
+      "explanation": "Bei einer CT von Thorax und Abdomen mit intravenösem Kontrastmittel wird in der Regel jodhaltiges Röntgenkontrastmittel verwendet. Zu den aufklärungsrelevanten Risiken gehört eine jodinduzierte Schilddrüsenfunktionsstörung, insbesondere eine Hyperthyreose bei entsprechender Prädisposition. Die eGFR ist im Fall unauffällig, sodass ein hohes nephrologisches Risiko nicht im Vordergrund steht. Gadolinium und nephrogene systemische Fibrose betreffen vor allem MRT-Kontrastmittel, nicht die geplante CT-Untersuchung. Ein Herzschrittmacher ist für eine CT normalerweise kein vergleichbares Problem wie bei einer MRT, sodass die Schilddrüsenüberfunktion hier das relevanteste genannte Risiko ist.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Jodhaltige CT-Kontrastmittel können bei prädisponierten Patientinnen und Patienten eine Hyperthyreose auslösen oder verstärken. Deshalb gehört die Schilddrüsenanamnese beziehungsweise das Risiko einer Schilddrüsenüberfunktion zur Risikoaufklärung. Dies ist in der konkreten CT mit intravenöser Kontrastmittelgabe der passendste Punkt.",
+          "term": "Hyperthyreose"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Gadoliniumspeicherung betrifft gadoliniumhaltige MRT-Kontrastmittel. Für eine Computertomografie von Thorax und Abdomen wird kein Gadoliniumkontrastmittel verwendet. Dieses Risiko ist daher für die konkret geplante Untersuchung nicht der zentrale Aufklärungsinhalt.",
+          "term": "Gadolinium"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Herzschrittmacher ist vor allem bei MRT-Untersuchungen wegen Magnetfeld und Hochfrequenzimpulsen aufklärungs- und managementrelevant. Eine diagnostische CT verursacht in der Regel keine klinisch relevante Schrittmacherfehlfunktion. Deshalb steht dieser Punkt hier nicht im Vordergrund.",
+          "term": "Herzschrittmacher"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die nephrogene systemische Fibrose ist eine gefürchtete Komplikation bestimmter gadoliniumhaltiger MRT-Kontrastmittel bei schwerer Niereninsuffizienz. Der Patient erhält jedoch jodhaltiges CT-Kontrastmittel und hat eine gute eGFR. Dieses Risiko passt deshalb nicht zur Untersuchung.",
+          "term": "NSF"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine CT mit intravenöser Kontrastmittelgabe ist zwar nicht operativ-invasiv, aber sie ist mit aufklärungsrelevanten Risiken verbunden. Dazu gehören unter anderem Kontrastmittelreaktionen und Schilddrüsenfunktionsstörungen. Eine Risikoaufklärung ist daher nicht entbehrlich.",
+          "term": "Risikoaufklärung"
+        }
+      ]
+    },
+    "48": {
+      "topicLabel": "CT-Kontrastmittelvorbereitung",
+      "explanation": "Trotz Nephrektomie hat der Patient eine normale beziehungsweise ausreichende Nierenfunktion mit eGFR 80 ml/min/1,73 m2. Für eine kontrastmittelverstärkte CT ergeben sich daraus keine besonderen prophylaktischen Maßnahmen wie eine spezifische Nierenschutzstrategie. Ein Herzschrittmacher erfordert bei einer CT im Gegensatz zur MRT üblicherweise keine spezielle Funktionskontrolle vor und nach der Untersuchung. Auch eine Perchloratgabe wäre nur bei relevanter Schilddrüsenproblematik angezeigt, die hier nicht berichtet wird. Daher sind angesichts der gegebenen Anamnese vor der Untersuchung am ehesten keine spezifischen vorbereitenden Maßnahmen erforderlich.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Perchlorat kann im Kontext jodhaltiger Kontrastmittel bei bestimmten Schilddrüsenrisiken erwogen werden. In der Fallbeschreibung finden sich aber keine Hyperthyreose, Autonomie oder auffällige Schilddrüsenwerte. Eine routinemäßige Prämedikation nur wegen der CT-Indikation ist daher nicht erforderlich.",
+          "term": "Perchlorat"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine intravenöse 5%-Glukoselösung ist keine spezifische Schutzmaßnahme vor jodhaltigem CT-Kontrastmittel. Wenn Flüssigkeitsmanagement erforderlich wäre, ginge es um eine geeignete Hydratation bei Nierenrisiko, das hier aufgrund der eGFR nicht im Vordergrund steht. Diese Maßnahme passt daher nicht zur Ausgangslage.",
+          "term": "Glukoselösung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Schrittmacherkontrolle vor und nach der Untersuchung ist für MRT-Fragestellungen typisch, nicht für eine normale CT. Die CT-Strahlung und das jodhaltige Kontrastmittel führen üblicherweise nicht zu einer relevanten Schrittmacherfehlfunktion. Daher ist diese Maßnahme hier nicht am ehesten erforderlich.",
+          "term": "Schrittmacherkontrolle"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "CO2 kann als Kontrastmittel in bestimmten angiografischen Gefäßdarstellungen genutzt werden. Für eine CT von Thorax und Abdomen zur Metastasensuche ist es kein Ersatz für intravenöses jodhaltiges Kontrastmittel. Zudem besteht bei der angegebenen Nierenfunktion kein Anlass für eine solche Ausweichstrategie.",
+          "term": "CO2-Kontrast"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Bei erhaltener Nierenfunktion, unauffälligen übrigen Laborwerten und fehlenden Hinweisen auf Schilddrüsenerkrankung sind keine besonderen vorbereitenden Maßnahmen erforderlich. Die alleinige Nephrektomie in der Vorgeschichte ist bei guter eGFR kein ausreichender Grund für spezielle Prophylaxen. Auch der Herzschrittmacher ändert das CT-Vorgehen normalerweise nicht.",
+          "term": "Keine Spezialmaßnahme"
+        }
+      ]
+    },
+    "49": {
+      "topicLabel": "Kontrastmittelreaktion",
+      "explanation": "Ein einmaliges Erbrechen wenige Minuten nach jodhaltiger Kontrastmittelgabe entspricht am ehesten einer milden akuten Kontrastmittelreaktion, solange keine Atemnot, Kreislaufinstabilität, Hautsymptome oder andere Warnzeichen hinzukommen. Bei milden, selbstlimitierenden Symptomen steht Überwachung und Dokumentation im Vordergrund. Eine Eskalation mit Adrenalin, Bronchodilatator oder Atropin wäre nur bei entsprechenden schweren Symptomen wie Anaphylaxie, Bronchospasmus oder relevanter Bradykardie angezeigt. Ein Protonenpumpenhemmer behandelt die vermutete Kontrastmittelreaktion nicht kausal. Daher ist die Dokumentation der Reaktion in der Patientenakte die angemessenste der angebotenen Maßnahmen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Protonenpumpenhemmer ist bei säureassoziierten gastrointestinalen Beschwerden sinnvoll, behandelt aber keine akute Kontrastmittelreaktion. Einmaliges Erbrechen nach Kontrastmittelgabe ist meist mild und erfordert nicht primär eine Säureblockade. Wichtiger sind Beobachtung und Dokumentation.",
+          "term": "PPI"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein beta-2-Adrenozeptor-Agonist ist bei Bronchospasmus oder asthmatischer Atemnot passend. Der Patient hat aber nur einmal erbrochen und keine respiratorischen Beschwerden. Ohne Bronchospasmus ist diese Maßnahme nicht indiziert.",
+          "term": "Bronchodilatator"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Adrenalin ist das zentrale Medikament bei schwerer anaphylaktischer Reaktion mit Atemwegs-, Kreislauf- oder schwerer systemischer Beteiligung. Ein isoliertes einmaliges Erbrechen ohne weitere Beschwerden erfüllt dieses Bild nicht. Eine unnötige Adrenalingabe wäre daher nicht angemessen.",
+          "term": "Adrenalin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Atropin wird bei symptomatischer Bradykardie eingesetzt. Im Fall wird keine Bradykardie oder vagale Kreislaufreaktion beschrieben, sondern nur einmaliges Erbrechen. Deshalb gibt es für Atropin hier keinen Anlass.",
+          "term": "Atropin"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Die Dokumentation der Kontrastmittelreaktion ist wichtig, auch wenn sie mild war. Sie ermöglicht bei künftigen Untersuchungen eine gezielte Risikoabschätzung und Aufklärung. Bei isoliertem Erbrechen ohne weitere Beschwerden ist dies die passendste der genannten Maßnahmen.",
+          "term": "Dokumentation"
+        }
+      ]
+    },
+    "50": {
+      "topicLabel": "Hartmann-Stoma",
+      "explanation": "Bei einer perforierten Sigmadivertikulitis mit Vier-Quadranten-Peritonitis wurde eine Diskontinuitätsresektion nach Hartmann durchgeführt. Dabei wird typischerweise das erkrankte Sigma reseziert, der rektale Stumpf blind verschlossen und das proximale Kolon als endständiges Kolostoma ausgeleitet. Da das Stoma im linken Unterbauch liegt, entspricht dies am ehesten einem endständigen Descendostoma. Ileostomata liegen eher rechtsseitig und betreffen den Dünndarm, nicht die typische Hartmann-Situation nach Sigmaresektion. Ein doppelläufiges Stoma passt ebenfalls nicht zum Prinzip der Hartmann-Operation, bei der keine durchgehende Darmpassage erhalten bleibt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein endständiges Ileostoma würde aus dem terminalen Ileum angelegt und liegt typischerweise im rechten Unterbauch. Nach Sigmadivertikulitis und Hartmann-Operation wird jedoch das proximale Kolon ausgeleitet. Die Lokalisation links und die Operationsart sprechen gegen ein Ileostoma.",
+          "term": "endständiges Ileostoma"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein doppelläufiges Ileostoma wird häufig protektiv bei tiefen kolorektalen Anastomosen angelegt. Es passt nicht zur Diskontinuitätsresektion nach Hartmann, bei der ein blind verschlossener Rektumstumpf und ein endständiges Kolostoma entstehen. Auch die Lage im linken Unterbauch spricht dagegen.",
+          "term": "doppelläufiges Ileostoma"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein doppelläufiges Transversostoma wird aus dem Querkolon ausgeleitet und dient eher der Umleitung bei anderen Indikationen. Nach Hartmann bei perforierter Sigmadivertikulitis ist ein endständiges linksseitiges Kolostoma typisch. Die Frage beschreibt keine doppelläufige Anlage.",
+          "term": "Transversostoma"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Das endständige Descendostoma entspricht dem typischen Stoma nach Hartmann-Operation bei Sigmadivertikulitis. Der orale Kolonanteil wird linksseitig ausgeleitet, während der distale Rektumstumpf verschlossen bleibt. Die Angabe des linken Unterbauchs stützt diese Zuordnung.",
+          "term": "Descendostoma"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Gastrostoma ist eine künstliche Öffnung des Magens, meist zur enteralen Ernährung. Es hat nichts mit der Darmkontinuität nach Sigmaresektion oder Hartmann-Operation zu tun. Die Lage und Indikation schließen diese Option praktisch aus.",
+          "term": "Gastrostoma"
+        }
+      ]
+    },
+    "51": {
+      "topicLabel": "Hartmann-Rückverlagerung",
+      "explanation": "Nach einer Hartmann-Operation ist ein Wiederanschluss grundsätzlich möglich, wenn Allgemeinzustand, Befunde und lokales Operationsrisiko dies erlauben. Die Rückverlagerung ist jedoch technisch anspruchsvoll, weil Verwachsungen nach Peritonitis und Voroperation häufig sind und der Rektumstumpf aufgesucht werden muss. Daher muss die Patientin realistisch darüber aufgeklärt werden, dass eine Laparotomie erforderlich werden kann beziehungsweise damit zu rechnen ist. Ein Schließmuskel wurde bei der Hartmann-Operation wegen Sigmadivertikulitis nicht regelhaft reseziert. Der Zeitpunkt nach knapp neun Monaten ist nicht per se zu früh, und ein Wiederanschluss ist nicht nur bei Stomaprolaps indiziert.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die Hartmann-Rückverlagerung ist häufig eine größere Reoperation im voroperierten, möglicherweise verwachsenen Abdomen. Auch wenn minimalinvasive Ansätze möglich sein können, muss mit einer offenen Operation beziehungsweise Laparotomie gerechnet werden. Diese Information ist für die präoperative Beratung besonders relevant.",
+          "term": "Laparotomie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Bei der Hartmann-Operation wegen perforierter Sigmadivertikulitis wird der Schließmuskel nicht regelhaft entfernt. Der distale Rektumstumpf bleibt erhalten und kann prinzipiell wieder mit dem proximalen Kolon verbunden werden. Diese Aussage würde die Patientin falsch über die anatomische Situation informieren.",
+          "term": "Schließmuskel"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Knapp neun Monate nach Anlage ist die Planung einer Rückverlagerung nicht grundsätzlich zu früh. Entscheidend sind Erholung, Entzündungsfreiheit, Allgemeinzustand und technische Machbarkeit. Eine pauschale Wiedervorstellung erst in einem weiteren Jahr ist daher nicht am ehesten richtig.",
+          "term": "Zeitpunkt"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Beim Wiederanschluss wird nicht routinemäßig jeder divertikeltragende Darmabschnitt entfernt. Ziel ist die Wiederherstellung der Kontinuität unter Berücksichtigung der bereits erfolgten Resektion und der sicheren Anastomose. Eine vollständige Entfernung aller divertikeltragenden Abschnitte wäre weder typisch noch notwendig.",
+          "term": "Divertikel"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Stomaprolaps kann ein Grund für eine Stomarevision sein, ist aber keine Voraussetzung für eine Hartmann-Rückverlagerung. Der Wunsch nach Wiederherstellung der Darmkontinuität und die medizinische Machbarkeit sind eigenständige Gründe. Die Aussage schränkt die Indikation daher falsch ein.",
+          "term": "Stomaprolaps"
+        }
+      ]
+    },
+    "52": {
+      "topicLabel": "Stomarückverlagerung Risiken",
+      "explanation": "Bei einer Wiederanschlussoperation nach Hartmann sind typische Operationsrisiken Wundinfektion, Ileus beziehungsweise Passagestörung, Anastomoseninsuffizienz und Narbenhernie. Diese Risiken ergeben sich aus der Reoperation im voroperierten Abdomen, der Darmnaht und dem Bauchdeckenzugang. Ein Rezidiv der Grunderkrankung ist im Vergleich dazu am wenigsten als unmittelbares Operationsrisiko oder Folgezustand der Rückverlagerung zu erwarten. Die ursprüngliche Erkrankung war eine perforierte Sigmadivertikulitis, deren akut betroffener Abschnitt bereits reseziert wurde. Zwar können Divertikel prinzipiell an anderen Kolonabschnitten bestehen, aber dies ist nicht das typische direkte Risiko der geplanten Operation.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Wundinfektionen gehören zu den typischen Risiken bei abdominalchirurgischen Eingriffen, insbesondere bei Darmoperationen. Die Patientin hat eine Reoperation nach entzündlicher Voroperation vor sich, was das Risiko nicht ungewöhnlich macht. Diese Komplikation ist daher durchaus zu erwarten.",
+          "term": "Wundinfektion"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Passagestörungen oder ein Ileus können nach Darmoperationen durch Darmmanipulation, Adhäsionen oder postoperative Motilitätsstörungen auftreten. Gerade nach Peritonitis und Voroperation sind Verwachsungen plausibel. Dieses Risiko ist somit ein klassisches perioperatives Problem.",
+          "term": "Ileus"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Bei der Rückverlagerung muss eine kolorektale Anastomose angelegt werden. Eine Anastomoseninsuffizienz ist daher eine spezifische und relevante Komplikation dieses Eingriffs. Sie gehört zu den Risiken, über die besonders sorgfältig aufgeklärt werden muss.",
+          "term": "Anastomoseninsuffizienz"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Narbenhernie kann nach Laparotomie oder an ehemaligen Stomastellen entstehen. Da bei der Hartmann-Rückverlagerung mit einem größeren Bauchdeckenzugang oder zumindest mit der Versorgung der Stomaöffnung zu rechnen ist, ist dieses Risiko plausibel. Es ist daher nicht die am wenigsten zu erwartende Folge.",
+          "term": "Narbenhernie"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Das Rezidiv der Grunderkrankung ist im Vergleich zu den genannten Operationskomplikationen am wenigsten als direkte Folge der Wiederanschlussoperation zu erwarten. Die perforierte Sigmadivertikulitis wurde durch Resektion des betroffenen Abschnitts behandelt. Für die konkrete Operation stehen vielmehr Naht-, Wund- und Passagerisiken im Vordergrund.",
+          "term": "Rezidiv"
+        }
+      ]
+    },
+    "53": {
+      "topicLabel": "Hämatochezie",
+      "explanation": "Der Befund beschreibt frisches, sichtbares Blut im Zusammenhang mit dem Stuhlgang. Dafür ist der Begriff Hämatochezie am passendsten, also die Abgabe von hellrotem Blut per anum beziehungsweise Blutauflagerungen auf dem Stuhl. Die Begleitsymptome mit Stuhlschmieren, analem Brennen und Jucken sprechen für eine anorektale Blutungsquelle wie Hämorrhoiden. Meläna wäre dagegen schwarzer, teerartiger Stuhl durch verdautes Blut, meist aus einer oberen gastrointestinalen Blutung. Hämaturie betrifft Blut im Urin und passt nicht zur auffälligen Verfärbung in der Toilettenschüssel beim Stuhlgang.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Hämorrhagie ist ein allgemeiner Begriff für Blutung. Er beschreibt nicht spezifisch, wo die Blutung sichtbar wird oder wie sie im Stuhl erscheint. Für den hier geschilderten Befund gibt es mit Hämatochezie den präziseren Begriff.",
+          "term": "Hämorrhagie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Hämaturie bedeutet Blut im Urin. Der Patient berichtet zwar über konzentrierten dunkelgelben Urin wegen geringer Trinkmenge, die auffällige Beobachtung betrifft aber den Stuhlgang. Analbeschwerden sprechen zusätzlich gegen eine primär urologische Blutungsquelle.",
+          "term": "Hämaturie"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Hämatochezie bezeichnet die Abgabe von frischem Blut über den After, häufig als hellrote Blutauflagerung oder Blut in der Toilettenschüssel. Das passt zu einer wahrscheinlichen unteren gastrointestinalen oder anorektalen Blutungsquelle. Jucken, Brennen und Stuhlschmieren machen Hämorrhoiden als Ursache plausibel.",
+          "term": "Hämatochezie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Hämobilie bedeutet Blutung in die Gallenwege. Sie kann mit Oberbauchbeschwerden, Ikterus oder gastrointestinaler Blutung einhergehen, ist aber hier nicht naheliegend. Die analen Beschwerden und die sichtbare Blutung beim Stuhlgang sprechen für eine anorektale Quelle.",
+          "term": "Hämobilie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Meläna ist schwarzer, übelriechender Teerstuhl durch verdautes Blut, meist bei Blutungen im oberen Gastrointestinaltrakt. Der Fall zielt auf frisches Blut beziehungsweise eine auffällige rote Verfärbung im Rahmen des Stuhlgangs. Damit passt Hämatochezie besser als Meläna.",
+          "term": "Meläna"
+        }
+      ]
+    },
+    "54": {
+      "topicLabel": "Proktoskopie",
+      "explanation": "Nach digital-rektaler Untersuchung ist bei vermuteter anorektaler Blutungsquelle die Proktoskopie der nächste sinnvolle diagnostische Schritt. Der Patient hat frische Blutbeimengungen beim Stuhlgang sowie Jucken, Brennen und Stuhlschmieren, was gut zu Hämorrhoiden oder anderen proktologischen Ursachen passt. Die Proktoskopie erlaubt die direkte Beurteilung des Analkanals und des distalen Rektums. Eine CT, ERCP, Gastroskopie oder Kapselendoskopie wäre bei dieser lokalisierten, unteren Blutungssymptomatik ohne Alarmsymptome nicht der naheliegende nächste Schritt. Wichtig ist, die wahrscheinliche Quelle zunächst einfach und zielgerichtet abzuklären.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die Proktoskopie ist die passende Untersuchung bei Verdacht auf Hämorrhoiden, Analfissuren oder andere distale anorektale Ursachen. Sie schließt sich sinnvoll an Inspektion und digital-rektale Untersuchung an. Bei frischer Blutung per anum mit analem Jucken und Brennen ist sie zielgerichtet und wenig aufwendig.",
+          "term": "Proktoskopie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein CT-Abdomen ist bei unkomplizierter Hämatochezie mit proktologischen Beschwerden nicht die nächste Untersuchung. Es zeigt Hämorrhoiden und viele Analkanalbefunde nicht so direkt wie eine Proktoskopie. Ohne Hinweise auf akutes Abdomen, Tumorkomplikation oder tieferliegende Pathologie wäre es nicht zielgerichtet.",
+          "term": "CT-Abdomen"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine ERCP untersucht und behandelt Erkrankungen der Gallen- und Pankreasgänge. Sie hat keinen Stellenwert in der primären Abklärung einer hellroten Blutung per anum mit analen Beschwerden. Hinweise auf Hämobilie, Ikterus oder biliäre Beschwerden fehlen.",
+          "term": "ERCP"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Ösophago-Gastro-Duodenoskopie ist bei Verdacht auf obere gastrointestinale Blutung sinnvoll, insbesondere bei Meläna oder Hämatemesis. Der Befund spricht aber für frisches Blut aus dem unteren beziehungsweise anorektalen Bereich. Daher ist zunächst die Proktoskopie passender.",
+          "term": "Gastroskopie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Kapselendoskopie dient vor allem der Dünndarmdiagnostik, etwa bei unklarer gastrointestinaler Blutung nach vorausgegangener Standardendoskopie. Sie ist nicht der erste Schritt bei naheliegender anorektaler Blutungsquelle. Der Fall liefert klare Hinweise auf eine proktologische Ursache.",
+          "term": "Kapselendoskopie"
+        }
+      ]
+    },
+    "55": {
+      "topicLabel": "Hämorrhoidalbeschwerden",
+      "explanation": "Die geschilderten Beschwerden mit frischer Blutung, Stuhlschmieren, analem Brennen und Jucken passen am ehesten zu einem Hämorrhoidalleiden ohne Hinweise auf akute Komplikationen. Primär stehen konservative Maßnahmen im Vordergrund: Stuhlregulierung, Vermeidung von Pressen, lokale symptomatische Behandlung und Beratung. Eine invasive Akutmaßnahme ist nicht angezeigt, da weder ein Analabszess noch ein maligner Befund oder ein Rektumprolaps beschrieben ist. Auch eine Thrombektomie wäre nur bei einer schmerzhaften perianalen Thrombose beziehungsweise passenden akuten Knotenbildung naheliegend. Daher ist Stuhlregulierung mit Salbenanwendung die passendste erste Therapie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Stuhlregulierung und lokale Salbenanwendung sind typische konservative Basismaßnahmen bei unkomplizierten Hämorrhoidalbeschwerden. Sie adressieren Reizung, Juckreiz, Brennen und Blutauflagerungen. Bei fehlenden Alarmsymptomen oder akuten Komplikationen ist dieses Vorgehen primär angemessen.",
+          "term": "Konservative Therapie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Inzision und Thrombektomie wären bei einer akuten, sehr schmerzhaften perianalen Thrombose zu erwägen. Der Fall beschreibt aber eher Jucken, Brennen, Stuhlschmieren und frische Blutung, nicht einen akuten lividen perianalen Knoten. Daher ist diese invasive Maßnahme nicht primär angezeigt.",
+          "term": "Thrombektomie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Darmresektion und Lymphadenektomie wären onkologische Maßnahmen bei gesichertem oder hochgradig verdächtigem malignem Tumor. Der Patient verneint Gewichtsverlust, Inappetenz und relevante Defäkationsschmerzen, und die Symptomkonstellation spricht für eine benigne anorektale Ursache. Eine solche Operation wäre völlig unverhältnismäßig.",
+          "term": "Onkologische Resektion"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Abszessspaltung und Drainage sind bei einem Anal- oder Perianalabszess erforderlich. Typisch wären starke lokale Schmerzen, Schwellung, Rötung und gegebenenfalls Fieber. Diese Befunde werden hier nicht beschrieben, sodass ein Abszess nicht im Vordergrund steht.",
+          "term": "Abszessdrainage"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Reposition und Rektopexie betreffen einen Rektumprolaps. Der Fall schildert keine vorfallende Rektumschleimhaut oder prolabierende Darmwand, sondern Blutung und irritative anale Beschwerden. Diese Therapie passt daher nicht zur wahrscheinlichsten Diagnose.",
+          "term": "Rektopexie"
+        }
+      ]
+    },
+    "56": {
+      "topicLabel": "Komplementärmedizin",
+      "explanation": "Komplementärmedizin bezeichnet ergänzende Verfahren, die zusätzlich zur evidenzbasierten konventionellen Therapie eingesetzt werden können. In der Onkologie zielt sie häufig darauf, Symptome, Nebenwirkungen und Belastungen durch Erkrankung oder Therapie zu lindern und die Lebensqualität zu unterstützen. Sie ersetzt nicht die Tumortherapie mit Operation, Strahlentherapie, Systemtherapie oder anderen etablierten Verfahren. Auch komplementäre Methoden können Nebenwirkungen, Wechselwirkungen oder falsche Erwartungen verursachen und sollten deshalb ärztlich besprochen werden. Die zutreffende Aussage ist daher, dass komplementärmedizinische Verfahren unter anderem symptom- und belastungsorientierte Ziele verfolgen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Komplementärmedizin ist nicht gleichbedeutend mit Alternativmedizin. Sie versteht sich als Ergänzung zur konventionellen Behandlung, nicht als deren Ersatz oder grundsätzliche Ablehnung. Die Gleichsetzung würde Patientinnen und Patienten in die falsche Richtung beraten.",
+          "term": "Alternativmedizin"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Komplementäre Verfahren können in der Onkologie helfen, Beschwerden, therapiebedingte Belastungen und psychosoziale Aspekte zu adressieren. Ziel ist eine ergänzende Unterstützung zur leitliniengerechten Tumorbehandlung. Damit beschreibt diese Antwort den Begriff am treffendsten.",
+          "term": "Symptomlinderung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Komplementärmedizin soll konventionelle Therapien wie Zytostatika, Bestrahlung oder Operation nicht vorwiegend ersetzen. Wenn Verfahren anstelle wirksamer Tumortherapien eingesetzt werden, spricht man eher von alternativer Medizin mit potenziell erheblichem Risiko. Diese Aussage widerspricht dem komplementären Ansatz.",
+          "term": "Therapieersatz"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Nicht alle komplementären Verfahren wirken ausschließlich über Placeboeffekte. Einige Maßnahmen können je nach Indikation symptomatisch nützlich sein, andere sind unzureichend belegt oder problematisch. Eine pauschale Placebo-Zuschreibung ist daher fachlich zu grob.",
+          "term": "Placeboeffekt"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Auch pflanzliche Präparate, Nahrungsergänzungsmittel oder andere komplementäre Verfahren können Nebenwirkungen und Wechselwirkungen haben. Gerade in der Onkologie sind Interaktionen mit Systemtherapien relevant. Deshalb sollten solche Maßnahmen ausdrücklich mit dem Behandlungsteam abgesprochen werden.",
+          "term": "Wechselwirkungen"
+        }
+      ]
+    },
+    "57": {
+      "topicLabel": "Komplementärverfahren Abgrenzung",
+      "explanation": "Gefragt ist, welches Verfahren bei fortgeschrittener onkologischer Erkrankung nicht zu den komplementärmedizinischen Verfahren gehört. Homöopathie, Meditation, Ohrakupunktur und moderate Ganzkörper-Hyperthermie werden typischerweise im Spektrum komplementärmedizinischer Angebote diskutiert, unabhängig von der jeweils unterschiedlichen Evidenz. Methadonsubstitution ist dagegen eine suchtmedizinische Behandlung bei Opioidabhängigkeit. Sie ist nicht als komplementärmedizinisches onkologisches Verfahren einzuordnen. Wichtig ist die Abgrenzung zwischen komplementärer Symptomunterstützung und etablierten Behandlungen aus anderen medizinischen Fachbereichen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Homöopathische Arzneimittel werden häufig dem komplementärmedizinischen Spektrum zugerechnet. Das bedeutet nicht automatisch, dass sie als Tumortherapie wirksam sind. Für die Einordnungsfrage gehören sie aber zu den komplementärmedizinischen Verfahren.",
+          "term": "Homöopathie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Meditation ist ein mind-body-orientiertes Verfahren und wird in der Onkologie häufig ergänzend zur Stressreduktion oder Krankheitsbewältigung eingesetzt. Sie ersetzt keine Tumortherapie, kann aber komplementär angeboten werden. Daher ist sie nicht die gesuchte Ausnahme.",
+          "term": "Meditation"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Methadonsubstitution ist eine Behandlung der Opioidabhängigkeit und gehört zur Suchtmedizin. Sie ist nicht primär ein komplementärmedizinisches Verfahren bei fortgeschrittener Krebserkrankung. Deshalb ist sie in dieser Auswahl die richtige Ausnahme.",
+          "term": "Methadonsubstitution"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ohrakupunktur nach dem NADA-Protokoll wird im komplementärmedizinischen beziehungsweise integrativen Kontext angewendet. Sie kann beispielsweise zur Symptom- oder Belastungsreduktion diskutiert werden. Damit gehört sie eher zum komplementären Spektrum als die Methadonsubstitution.",
+          "term": "Ohrakupunktur"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Moderate Ganzkörper-Hyperthermie wird in komplementärmedizinischen Zusammenhängen onkologischer Versorgung diskutiert. Ihre Einordnung als komplementäres Verfahren ist von der Frage nach Nutzen und Evidenz zu trennen. Sie ist daher nicht die gesuchte Nicht-Komplementärmethode.",
+          "term": "Hyperthermie"
+        }
+      ]
+    },
+    "58": {
+      "topicLabel": "Komplementärmedizin-Beratung",
+      "explanation": "Komplementärmedizinische Beratung in der Onkologie soll patientenzentriert, offen und entscheidungsunterstützend erfolgen. Sie umfasst nicht nur Nahrungsergänzungsmittel, sondern ein breites Spektrum aus Lebensstil, Bewegung, Mind-Body-Verfahren, symptomorientierten Maßnahmen, Präparaten und Sicherheitsaspekten. Zu Beginn sollte das Verständnis der Patientin von Erkrankung und Therapie erfragt werden, damit Beratung an Wissen, Erwartungen und Sorgen anknüpfen kann. Begleitpersonen können auf Wunsch früh einbezogen werden, weil sie Entscheidungen und Anwendung im Alltag mittragen. Die Aussage, die Beratung beziehe sich in der Regel schwerpunktmäßig auf Nahrungsergänzungsmittel, ist daher am ehesten nicht zutreffend.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Beratung zu komplementären Maßnahmen kann interprofessionell erfolgen, etwa durch ärztliche, pflegerische, psychoonkologische oder therapeutische Berufsgruppen mit entsprechender Kompetenz. Wichtig sind abgestimmte Informationen und Sicherheitsbewertung. Diese Aussage ist daher zutreffend und nicht die gesuchte falsche Aussage.",
+          "term": "Interprofessionelle Beratung"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Komplementärmedizinische Beratung sollte nicht auf Nahrungsergänzungsmittel verengt werden. Gerade Präparate bergen Interaktionsrisiken und sind nur ein Teil eines viel breiteren Beratungsfeldes. Schwerpunkt ist die informierte, sichere und bedürfnisorientierte Entscheidungsfindung zu verschiedenen ergänzenden Maßnahmen.",
+          "term": "Nahrungsergänzung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Das Vorwissen und Krankheitsverständnis der Patientin zu erfragen ist ein zentraler Gesprächseinstieg. Nur so lassen sich Fehlvorstellungen, Hoffnungen und Informationsbedürfnisse angemessen adressieren. Diese Aussage beschreibt gute Beratungspraxis.",
+          "term": "Krankheitsverständnis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Begleitpersonen können eine wichtige Rolle bei Verarbeitung, Entscheidungen und Umsetzung von Maßnahmen spielen. Wenn die Patientin dies wünscht, ist eine frühe Einbeziehung sinnvoll. Diese Aussage ist daher grundsätzlich zutreffend.",
+          "term": "Begleitpersonen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein wesentliches Ziel der Beratung ist es, Patientinnen und Patienten zu informierten und selbstbestimmten Entscheidungen zu befähigen. Dazu gehören Nutzen, Grenzen, Risiken und Wechselwirkungen komplementärer Maßnahmen. Die Förderung der Entscheidungsfähigkeit ist daher ein passendes Beratungsziel.",
+          "term": "Entscheidungsfähigkeit"
+        }
+      ]
+    },
+    "59": {
+      "topicLabel": "Salmonellenquelle",
+      "explanation": "Die Erkrankungen treten nach einem gemeinsamen Essen auf, und die labordiagnostisch bestätigte Salmonella-enterica-Infektion spricht für eine lebensmittelassoziierte Ausbruchsquelle. Auffällig ist, dass alle Erkrankten das Tiramisu gegessen haben: fünf über das Menü und eine weitere Person trotz anderer Hauptspeise ebenfalls als Nachspeise. Hausgemachtes Tiramisu enthält klassischerweise rohes Ei oder nicht ausreichend erhitzte Eibestandteile, die eine typische Salmonellenquelle darstellen können. Das Schnitzel erklärt die sechste erkrankte Person weniger gut, weil sie ein anderes Hauptgericht hatte. Daher ist rohes Ei in der Nachspeise die wahrscheinlichste gemeinsame Infektionsquelle.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Verunreinigtes Wasser könnte grundsätzlich Ausbrüche verursachen, erklärt aber die Verteilung der Erkrankten hier weniger gut. Die gemeinsame Limonade wurde offenbar von mehreren Teilnehmenden getrunken, ohne dass alle erkrankten. Der stärkere epidemiologische Hinweis liegt auf der gemeinsamen Nachspeise.",
+          "term": "Wasser"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Übertragung durch einen erkrankten Teilnehmer wäre bei bestimmten Erregern denkbar, ist bei diesem zeitlichen Zusammenhang nach einem gemeinsamen Essen aber weniger wahrscheinlich. Der Fall nennt keine vorbestehend erkrankte Person. Die Häufung nach einer gemeinsamen Speise spricht für eine Lebensmittelquelle.",
+          "term": "Mensch-zu-Mensch"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Rohes Ei in hausgemachtem Tiramisu ist eine klassische Quelle für Salmonellen. Epidemiologisch passt es, weil sowohl die meisten Menüteilnehmer als auch die erkrankte Person mit anderem Hauptgericht das Tiramisu gegessen hatten. Damit ist die Nachspeise die plausibelste gemeinsame Exposition.",
+          "term": "Rohes Ei"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Nicht ausreichend erhitztes Fleisch kann Salmonellen übertragen, besonders bei Geflügel oder Hackfleisch; auch Schweinefleisch ist prinzipiell möglich. Hier erklärt das Schnitzel jedoch nicht gut, warum eine Person ohne Menü, aber mit Tiramisu ebenfalls erkrankte. Die gemeinsame Schnittmenge der Erkrankten ist eher die Nachspeise.",
+          "term": "Fleisch"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Vergorener Fruchtsaft verursacht nicht typischerweise eine Salmonellenenteritis. Zudem tranken offenbar mehrere Personen die hausgemachte Limonade, ohne dass die Erkrankungsverteilung dadurch besser erklärt wird. Die bestätigten Salmonellenbefunde passen deutlich eher zu kontaminiertem Ei.",
+          "term": "Fruchtsaft"
+        }
+      ]
+    },
+    "60": {
+      "topicLabel": "Salmonellen-Ausscheidung",
+      "explanation": "Nach einer Salmonellenenteritis können Betroffene den Erreger noch über den Stuhl ausscheiden, auch wenn die akuten Beschwerden bereits abgeklungen sind. Bei Erwachsenen dauert diese Ausscheidung im Mittel etwa mehrere Wochen und wird in der Prüfungsantwort als durchschnittlich ein Monat eingeordnet. Das ist epidemiologisch relevant, weil dadurch weiterhin eine Infektionsquelle bestehen kann, besonders bei mangelhafter Hygiene oder Tätigkeiten mit Lebensmitteln. Einfrieren tötet Salmonellen nicht zuverlässig ab, und Handschuhe schützen nur bei korrekter Anwendung und Händehygiene. Für eine Erkrankung ist in der Regel eine deutlich höhere Keimzahl erforderlich als nur wenige Dutzend Keime, auch wenn individuelle Faktoren eine Rolle spielen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Erwachsene können Salmonellen nach der akuten Erkrankung noch für einige Wochen ausscheiden. Die Angabe einer durchschnittlichen Ausscheidungsdauer von etwa einem Monat ist daher im Sinne der Frage korrekt. Diese fortbestehende Ausscheidung ist für Hygienemaßnahmen und Tätigkeitsverbote in sensiblen Bereichen wichtig.",
+          "term": "Ausscheidungsdauer"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Einfrieren hemmt die Vermehrung von Salmonellen, beseitigt sie aber nicht zuverlässig. Nach dem Auftauen können überlebende Keime wieder relevant werden, wenn Lebensmittel nicht ausreichend erhitzt werden. Einfrieren ist daher kein sicherer Weg zur Minimierung einer Kontamination.",
+          "term": "Einfrieren"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Kinder, insbesondere kleine Kinder, können Salmonellen eher länger als kürzer ausscheiden als Erwachsene. Die Aussage einer deutlich kürzeren Ausscheidungszeit bei Kindergartenkindern ist deshalb nicht korrekt. Gerade Gemeinschaftseinrichtungen erfordern sorgfältige Hygieneregeln.",
+          "term": "Kindergartenkinder"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Handschuhe verhindern eine Weiterverbreitung nur, wenn sie korrekt verwendet und regelmäßig gewechselt werden. Sie ersetzen keine Händehygiene und können bei falscher Anwendung sogar eine Scheinsicherheit erzeugen. Ein sicherer Schutz sind sie daher nicht.",
+          "term": "Handschuhe"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Für gesunde Erwachsene ist zur Auslösung einer Salmonellenenteritis in der Regel eine höhere Infektionsdosis erforderlich als 10 bis 100 Keime. Die genaue Erkrankungswahrscheinlichkeit hängt zwar von Wirt, Lebensmittelmatrix und Erreger ab, aber die genannte niedrige Dosis ist für Salmonellen nicht typisch. Daher ist diese Aussage nicht korrekt.",
+          "term": "Infektionsdosis"
+        }
+      ]
+    }
+  }
+}

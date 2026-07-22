@@ -1,0 +1,745 @@
+{
+  "examId": "m2-2025a-staatsexamen",
+  "questions": {
+    "21": {
+      "topicLabel": "Entzündlicher Rückenschmerz",
+      "explanation": "Bei Verdacht auf Spondylitis ankylosans ist die typische Qualität des Rückenschmerzes entscheidend: Es handelt sich um entzündlichen Rückenschmerz. Charakteristisch sind ein Beginn in jüngerem Alter, chronischer Verlauf, Beschwerden in Ruhe und nachts sowie eine Besserung durch Bewegung. Besonders wegweisend sind Schmerzen in der zweiten Nachthälfte und Morgensteifigkeit, weil sie auf entzündliche Aktivität im Achsenskelett hinweisen. Mechanische oder radikuläre Schmerzen werden dagegen eher durch Haltung, Belastung oder Nervenwurzelreizung geprägt. In diesem Fall erhärtet daher die Angabe nächtlicher Beschwerden mit Besserung bei Bewegung am besten die Verdachtsdiagnose Morbus Bechterew.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ausstrahlung in den Unterschenkel mit Taubheitsgefühl am seitlichen Fußrand passt eher zu einer radikulären Symptomatik, zum Beispiel bei S1-Reizung. Das spricht für eine Nervenwurzelkompression und nicht typisch für entzündlichen Rückenschmerz bei axialer Spondyloarthritis.",
+          "term": "Radikulopathie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein einschießender, elektrisierender und lageabhängiger Schmerz ist typisch neuropathisch oder mechanisch. Bei Morbus Bechterew stehen hingegen Ruheschmerz, nächtliche Beschwerden und Besserung durch Bewegung im Vordergrund.",
+          "term": "Mechanischer Rückenschmerz"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Unerträgliche Rückenschmerzen mit Fieber und Schüttelfrost sind Warnzeichen für eine infektiöse Ursache wie Spondylodiszitis oder epiduralen Abszess. Solche systemischen Infektzeichen erhärten nicht die Verdachtsdiagnose einer Spondylitis ankylosans.",
+          "term": "Spondylodiszitis"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Rückenschmerzen in der zweiten Nachthälfte mit Besserung bei Bewegung sind klassisch für entzündlichen Rückenschmerz. Dieses Muster passt sehr gut zur axialen Spondyloarthritis beziehungsweise Spondylitis ankylosans.",
+          "term": "Spondylitis ankylosans"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein erstmaliges Akutereignis mit kurzen, attackenartigen Schmerzepisoden in größeren Abständen ist nicht typisch für Morbus Bechterew. Die Erkrankung verläuft meist chronisch-entzündlich und zeigt kein solches paroxysmales Attackenmuster.",
+          "term": "Attackenartiger Rückenschmerz"
+        }
+      ]
+    },
+    "22": {
+      "topicLabel": "Spondyloarthritis-Begleiterkrankungen",
+      "explanation": "Bei Spondylitis ankylosans sind extraartikuläre Manifestationen ein wichtiger diagnostischer Hinweis. Besonders typisch ist eine akute anteriore Uveitis, die rezidivierend auftreten kann und eng mit der HLA-B27-assoziierten Spondyloarthritisgruppe verbunden ist. Auch andere Manifestationen wie entzündliche Darmerkrankungen oder Psoriasis können die Wahrscheinlichkeit einer Spondyloarthritis erhöhen. Die übrigen Antwortmöglichkeiten gehören eher zu anderen internistisch-rheumatologischen Krankheitsbildern oder sind nicht charakteristisch für Morbus Bechterew. Deshalb steigert die Uveitis anterior in dieser Folgefrage die Verdachtsdiagnose am ehesten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine Uveitis anterior ist eine klassische extraartikuläre Manifestation der axialen Spondyloarthritis. Ihr Vorliegen passt besonders gut zu einem jungen Patienten mit chronisch-entzündlichem Rückenschmerz.",
+          "term": "Uveitis anterior"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine chronisch rezidivierende Parotitis weist eher in Richtung Speicheldrüsenerkrankung oder anderer entzündlicher Differenzialdiagnosen. Sie ist keine typische Begleiterkrankung der Spondylitis ankylosans.",
+          "term": "Parotitis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein ausgeprägtes Sicca-Syndrom passt vor allem zu Erkrankungen wie dem Sjögren-Syndrom. Für Morbus Bechterew ist Sicca-Symptomatik kein typischer diagnostischer Verstärker.",
+          "term": "Sicca-Syndrom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Thromboembolische Ereignisse können bei verschiedenen Risikokonstellationen auftreten, etwa bei Malignomen, Immobilisation oder Antiphospholipid-Syndrom. Sie sind aber keine charakteristische Begleiterkrankung, die eine Spondylitis ankylosans besonders wahrscheinlich macht.",
+          "term": "Thromboembolie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein akuter Gichtanfall ist Ausdruck einer Kristallarthropathie und betrifft typischerweise periphere Gelenke. Er erklärt die Verdachtsdiagnose einer axialen Spondyloarthritis nicht.",
+          "term": "Gichtanfall"
+        }
+      ]
+    },
+    "23": {
+      "topicLabel": "HLA-B27",
+      "explanation": "Die Spondylitis ankylosans gehört zu den HLA-B27-assoziierten Spondyloarthritiden. Ein positiver HLA-B27-Befund beweist die Erkrankung allein nicht, kann die klinische Verdachtsdiagnose aber deutlich stützen. Entscheidend bleibt die Gesamtschau aus entzündlichem Rückenschmerz, Begleitmanifestationen und Bildgebung der Iliosakralgelenke. Die anderen genannten Labor- oder Genbefunde passen zu anderen Erkrankungsgruppen und haben keinen typischen Bezug zur axialen Spondyloarthritis. Deshalb ist HLA-B27 positiv der am ehesten bestätigende Analysebefund.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Erniedrigtes Komplement spricht eher für Immunkomplex-vermittelte Erkrankungen, etwa bestimmte Formen des Lupus erythematodes. Für die Spondylitis ankylosans ist ein erniedrigtes Komplement kein typischer Bestätigungsbefund.",
+          "term": "Komplementverbrauch"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die Blutgruppe 0 Rhesus negativ hat keinen diagnostischen Stellenwert bei Morbus Bechterew. Blutgruppenmerkmale erhärten die Verdachtsdiagnose einer axialen Spondyloarthritis nicht.",
+          "term": "Blutgruppe"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "HLA-B27 ist stark mit der Spondylitis ankylosans und anderen Spondyloarthritiden assoziiert. Ein positiver Befund unterstützt die Verdachtsdiagnose im passenden klinischen Kontext.",
+          "term": "HLA-B27"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Mutationen im Cryopyrin-Gen sind mit autoinflammatorischen Cryopyrin-assoziierten periodischen Syndromen verbunden. Diese Erkrankungen erklären die typische Konstellation einer Spondylitis ankylosans nicht.",
+          "term": "Cryopyrin"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine K-Ras-Mutation ist vor allem in der Tumordiagnostik relevant. Sie hat keinen sinnvollen diagnostischen Bezug zu Morbus Bechterew.",
+          "term": "K-Ras-Mutation"
+        }
+      ]
+    },
+    "24": {
+      "topicLabel": "Sakroiliitis im MRT",
+      "explanation": "Bei Verdacht auf axiale Spondyloarthritis ist der Nachweis einer Sakroiliitis zentral. Besonders in frühen oder aktiven Stadien kann das MRT entzündliche Veränderungen wie Knochenmarködem im Bereich der Iliosakralgelenke zeigen. Ein solcher Befund passt zur klinischen Konstellation aus chronisch-entzündlichem Rückenschmerz, Uveitis-Anamnese und HLA-B27-Assoziation. Konventionelles Röntgen kann strukturelle Spätveränderungen zeigen, ist aber für aktive frühe Entzündung weniger sensitiv. Daher bestätigt ein ausgedehntes Knochenmarködem an den Iliosakralgelenken die Verdachtsdiagnose am ehesten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine dreiecksförmige Sklerosierung im Os ilium passt eher zu einer Osteitis condensans ilii. Dieser Befund kann Rückenschmerzen machen, ist aber nicht der typische Nachweis einer entzündlichen Sakroiliitis bei Morbus Bechterew.",
+          "term": "Osteitis condensans ilii"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Multiple fokale Tracer-Aussparungen in der Skelettszintigraphie sind kein typischer Leitsatz der axialen Spondyloarthritis. Wenn Szintigraphie entzündliche Aktivität zeigt, wären eher Mehranreicherungen zu erwarten, zudem ist die Methode unspezifisch.",
+          "term": "Skelettszintigraphie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Iliosakralgelenke sind sonografisch nur eingeschränkt beurteilbar. Massive Ergüsse im Gelenkultraschall sind deshalb kein geeigneter oder typischer Bestätigungsbefund für Morbus Bechterew.",
+          "term": "Gelenkultraschall"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Verkalkungen des Nucleus pulposus der LWS sprechen nicht für eine Sakroiliitis. Sie betreffen degenerative oder andere Bandscheibenprozesse und erklären die Verdachtsdiagnose nicht.",
+          "term": "Bandscheibenverkalkung"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Ein Knochenmarködem im Bereich der Iliosakralgelenke im MRT ist ein typischer Hinweis auf aktive Sakroiliitis. Dieser Befund passt sehr gut zur axialen Spondyloarthritis.",
+          "term": "Aktive Sakroiliitis"
+        }
+      ]
+    },
+    "25": {
+      "topicLabel": "Zerebrale Malaria",
+      "explanation": "Die Patientin kommt aus Tansania zurück und entwickelt Fieber, schwere neurologische Symptome, Verwirrtheit und Koma. Diese Konstellation ist hochverdächtig auf schwere Malaria tropica mit zerebraler Beteiligung. Der wichtigste Erreger der Malaria tropica ist Plasmodium falciparum. Diese Art ist besonders mit schweren Verläufen, hoher Parasitämie und zerebralen Komplikationen verbunden. Andere Plasmodienarten können ebenfalls Malaria verursachen, sind aber anhand von Reisegebiet und klinischer Schwere hier weniger wahrscheinlich.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Plasmodium falciparum verursacht die Malaria tropica und ist der klassische Erreger schwerer, auch zerebraler Verläufe. Die Reise nach Tansania und das rasche Auftreten von Koma nach Fieber passen hierzu am besten.",
+          "term": "Plasmodium falciparum"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Plasmodium knowlesi ist vor allem als zoonotischer Malariaerreger in Teilen Südostasiens relevant. Die Reiseanamnese nach Tansania und die typische zerebrale Malaria sprechen nicht primär für diesen Erreger.",
+          "term": "Plasmodium knowlesi"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Plasmodium malariae kann eine Malaria verursachen, ist aber typischerweise nicht der Haupterreger schwerer zerebraler Malaria. Die fulminante neurologische Präsentation passt deutlich besser zu Plasmodium falciparum.",
+          "term": "Plasmodium malariae"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Plasmodium ovale kann rezidivierende Malariaformen verursachen. Schwere zerebrale Malaria nach Aufenthalt in Ostafrika wird jedoch klassisch Plasmodium falciparum zugeschrieben.",
+          "term": "Plasmodium ovale"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Plasmodium vivax ist für Rückfälle durch Leberhypnozoiten bekannt. Die geschilderte komatöse, zerebrale Malaria ist aber am ehesten eine Malaria tropica durch Plasmodium falciparum.",
+          "term": "Plasmodium vivax"
+        }
+      ]
+    },
+    "26": {
+      "topicLabel": "Plasmodien-Systematik",
+      "explanation": "Plasmodien sind einzellige eukaryotische Parasiten und gehören systematisch zu den Apicomplexa, die klassisch auch als Sporozoen bezeichnet werden. Diese Einordnung passt zu ihrem komplexen Entwicklungszyklus mit Sporozoiten und weiteren Stadien im Menschen und in der Anopheles-Mücke. Für die Prüfung ist wichtig, Plasmodien von Flagellaten, Ciliaten, Amöben und Würmern abzugrenzen. Die in der Vorfrage vermutete Malaria wird also durch Protozoen aus der Gruppe der Sporozoen verursacht. Deshalb ist Sporozoen die richtige Parasitenkategorie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ciliaten sind Protozoen mit charakteristischen Wimpern beziehungsweise Zilien. Plasmodien besitzen diese Einordnung nicht und gehören nicht zu den Ciliaten.",
+          "term": "Ciliaten"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Flagellaten sind geißeltragende Protozoen, zu denen beispielsweise bestimmte Darm- oder Blutparasiten gehören. Plasmodien werden nicht als Flagellaten klassifiziert.",
+          "term": "Flagellaten"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Rhizopoden umfassen amöboide Protozoen mit Scheinfüßchen. Diese Bewegungs- und Systematikgruppe passt nicht zu Plasmodien.",
+          "term": "Rhizopoden"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Plasmodien gehören zu den Apicomplexa, die in älterer Nomenklatur als Sporozoen bezeichnet werden. Diese Gruppe umfasst wichtige intrazelluläre Parasiten mit komplexem Entwicklungszyklus.",
+          "term": "Sporozoen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Trematoden sind Saugwürmer und damit mehrzellige Helminthen. Plasmodien sind dagegen einzellige Protozoen und keine Würmer.",
+          "term": "Trematoden"
+        }
+      ]
+    },
+    "27": {
+      "topicLabel": "Malariadiagnostik",
+      "explanation": "Bei akuter Malaria, insbesondere bei Verdacht auf eine schwere oder zerebrale Verlaufsform, muss der Erreger rasch im Blut nachgewiesen werden. Der klassische diagnostische Standard ist die mikroskopische Untersuchung von Blutausstrich beziehungsweise dickem Tropfen. Damit können Plasmodien direkt erkannt und die Parasitämie sowie die Speziesbeurteilung unterstützt werden. Blutkulturen oder Liquoruntersuchungen sind für Malaria nicht der richtige primäre diagnostische Weg, weil Plasmodien Blutparasiten sind. In der beschriebenen Notfallsituation ist daher die Mikroskopie eines Blutausstrichs am ehesten angezeigt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Blutkultur dient vor allem dem Nachweis bakterieller oder bestimmter fungaler Erreger. Plasmodien werden bei akuter Malaria nicht über eine Anzucht aus der Blutkultur diagnostiziert.",
+          "term": "Blutkultur"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die Mikroskopie von Blutpräparaten ist die zentrale Methode zum direkten Nachweis von Plasmodien. Sie passt zur akuten zerebralen Malaria, weil der Erreger im Blut und nicht primär im Liquor gesucht wird.",
+          "term": "Blutausstrich"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Anzucht aus Liquor ist bei Malaria nicht zielführend. Die neurologischen Symptome entstehen im Rahmen der systemischen Blutparasiteninfektion, nicht durch eine kultivierbare Liquorinfektion.",
+          "term": "Liquorkultur"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Antigennachweis kann bei Malaria als Schnelltest im Blut eine Rolle spielen, nicht aber als klassischer Urintest. Für die akute Diagnosesicherung ist hier die Blutmikroskopie die passendste Antwort.",
+          "term": "Antigennachweis im Urin"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Erregerspezifisches IgM im Liquor ist kein geeignetes Verfahren zur Diagnostik der akuten Malaria. Serologie wäre zudem für die unmittelbare Notfalldiagnostik zu indirekt.",
+          "term": "Liquor-IgM"
+        }
+      ]
+    },
+    "28": {
+      "topicLabel": "Thrombose in Schwangerschaft",
+      "explanation": "Eine akute einseitige Beinschwellung in der Schwangerschaft ist bis zum Beweis des Gegenteils verdächtig auf eine tiefe Venenthrombose. Die Schwangerschaft und die Kinderwunschbehandlung erhöhen zusätzlich die thromboembolische Risikokonstellation. Zur Sicherung der naheliegenden Diagnose ist die Kompressionssonografie der Beinvenen die Untersuchung der ersten Wahl. Sie ist nicht invasiv, ohne Strahlenbelastung und für die Beurteilung einer Beinvenenthrombose gut geeignet. Andere bildgebende Verfahren sind entweder nicht primär indiziert oder mit unnötigen Nachteilen verbunden.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Computertomografie ist zur primären Abklärung einer Beinvenenthrombose in der Schwangerschaft nicht die Methode der Wahl. Sie würde Strahlenexposition bedeuten und beantwortet die Frage nach einer Beinvenenthrombose schlechter als die Sonografie.",
+          "term": "Computertomografie"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die Kompressionssonografie ist die Standarduntersuchung bei Verdacht auf tiefe Venenthrombose der Beinvenen. Sie ist in der Schwangerschaft besonders geeignet, weil sie ohne ionisierende Strahlung auskommt.",
+          "term": "Kompressionssonografie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Kontrastmittelsonografie ist für diese Fragestellung nicht die übliche Erstlinientestung. Bei Verdacht auf Beinvenenthrombose reicht in der Regel die Kompressionssonografie als naheliegende Sicherungsuntersuchung.",
+          "term": "Kontrastmittelsonografie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Magnetresonanztomografie kann in speziellen Situationen ergänzend sinnvoll sein, etwa bei unklaren Beckenvenenbefunden. Für die erste Sicherung der naheliegenden Beinvenenthrombose ist sie aber nicht am ehesten indiziert.",
+          "term": "Magnetresonanztomografie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Messung des Knöcheldrucks dient der Beurteilung der arteriellen Durchblutung, etwa bei peripherer arterieller Verschlusskrankheit. Sie sichert keine venöse Thrombose bei akuter einseitiger Beinschwellung.",
+          "term": "Knöcheldruck"
+        }
+      ]
+    },
+    "29": {
+      "topicLabel": "Antikoagulation Schwangerschaft",
+      "explanation": "Bei tiefer Venenthrombose in der Schwangerschaft ist niedermolekulares Heparin subkutan die bevorzugte gerinnungshemmende Therapie. Es wirkt antikoagulatorisch, wird nicht oral gegeben und ist in der Schwangerschaft etabliert. Orale direkte Antikoagulanzien und Vitamin-K-Antagonisten sind in der Schwangerschaft für diese Situation nicht die naheliegende Wahl. Thrombozytenaggregationshemmer behandeln keine akute venöse Thrombose adäquat. Daher ist niedermolekulares Heparin subkutan bei dieser Patientin am ehesten indiziert.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Niedermolekulares Heparin subkutan ist die Standardtherapie einer venösen Thromboembolie in der Schwangerschaft. Es passt zur Verdachtsdiagnose aus der Vorfrage und zur frühen Schwangerschaft.",
+          "term": "Niedermolekulares Heparin"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein oraler Thrombinantagonist wie Dabigatran ist in der Schwangerschaft nicht die bevorzugte Therapie der akuten Venenthrombose. Für diese Patientin ist ein Heparinpräparat die passendere und etablierte Wahl.",
+          "term": "Thrombinantagonist"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Vitamin-K-Antagonisten sind in der Schwangerschaft problematisch und nicht die Standardtherapie einer akuten Beinvenenthrombose in dieser Konstellation. Sie werden hier durch niedermolekulares Heparin ersetzt.",
+          "term": "Vitamin-K-Antagonist"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Thrombozytenaggregationshemmer wirken primär auf die arterielle Plättchenthrombose. Eine akute venöse Thrombose in der Schwangerschaft erfordert eine Antikoagulation, nicht nur eine Plättchenhemmung.",
+          "term": "Thrombozytenhemmung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Orale Faktor-Xa-Antagonisten sind für diese schwangere Patientin nicht die naheliegende Therapieoption. Bei Schwangerschaft und venöser Thrombose wird niedermolekulares Heparin bevorzugt.",
+          "term": "Faktor-Xa-Antagonist"
+        }
+      ]
+    },
+    "30": {
+      "topicLabel": "Ileus-Entlastung über PEG",
+      "explanation": "Der Patient zeigt mit krampfartigen periumbilikalen Schmerzen, Übelkeit, geblähtem Abdomen und Voroperationen eine Konstellation, die an einen mechanischen Ileus denken lässt. Bei Ileus führt die Magen-Darm-Stase häufig zu quälender Übelkeit, die durch Dekompression rasch gebessert werden kann. Da bereits eine PEG-Sonde im Magen liegt, kann sie unkompliziert zum Ablauf in einen Beutel genutzt werden. Das entspricht funktionell einer Magendekompression und ist hier naheliegender als eine zusätzliche nasogastrale Sonde. Säurehemmung, Opioide oder Sedativa behandeln die Ursache der Übelkeit nicht und können teils sogar ungünstig sein.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Pantoprazol senkt die Magensäureproduktion, entlastet aber keinen gestauten Magen-Darm-Trakt. Bei ileusbedingter Übelkeit ist eine Dekompression wesentlich wirksamer als eine orale Säurehemmung.",
+          "term": "Pantoprazol"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Fentanyl kann Schmerzen lindern, ist aber keine gezielte Therapie der Übelkeit bei vermutetem Ileus. Opioide können die Darmmotilität zusätzlich hemmen und die Situation dadurch verschlechtern.",
+          "term": "Fentanyl"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine nasogastrale Sonde kann grundsätzlich zur Magendekompression eingesetzt werden. Hier liegt jedoch bereits eine funktionstüchtige PEG-Sonde im Magen, sodass der Ablauf über diese Sonde die naheliegendere schnelle Entlastung ist.",
+          "term": "Nasogastrale Sonde"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Der Ablauf über die PEG in einen Beutel ermöglicht eine rasche gastrale Dekompression. Bei vermutetem Ileus kann dies die quälende Übelkeit schnell lindern.",
+          "term": "PEG-Ablauf"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Clomethiazol wird nicht zur Behandlung ileusbedingter Übelkeit eingesetzt. Es passt eher in andere klinische Zusammenhänge und würde die mechanische Stase nicht beheben.",
+          "term": "Clomethiazol"
+        }
+      ]
+    },
+    "31": {
+      "topicLabel": "Bridenileus",
+      "explanation": "Der CT-Befund zeigt erweiterte Dünndarmschlingen und einen Kalibersprung im kleinen Becken. Zusammen mit den krampfartigen Schmerzen, Übelkeit, geringer Stuhlentleerung und zunehmendem Peritonismus spricht dies für einen mechanischen Dünndarmileus. Die frühere Medianlaparotomie mit Darmresektion ist ein wichtiger Risikofaktor für intraabdominelle Verwachsungen. Solche Briden können den Dünndarm abknicken oder einschnüren und dadurch einen Bridenileus verursachen. Freie Luft fehlt, sodass eine Perforation anhand der Beschreibung nicht im Vordergrund steht.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ein Bridenileus passt sehr gut zu Voroperationen, dilatierten Dünndarmschlingen und einem Kalibersprung. Verwachsungen nach Laparotomie sind eine häufige Ursache eines mechanischen Dünndarmileus.",
+          "term": "Bridenileus"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein peptisches Ulkus verursacht typischerweise epigastrische Beschwerden oder Blutung, bei Perforation freie Luft. Die beschriebenen dilatierten Dünndarmschlingen mit Kalibersprung sprechen deutlich eher für einen Ileus.",
+          "term": "Peptisches Ulkus"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Angiodysplasien im Dünndarm machen vor allem gastrointestinale Blutungen oder Anämie. Sie erklären keinen mechanischen Kalibersprung mit aufgestauten Dünndarmschlingen.",
+          "term": "Angiodysplasien"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Bei einer Hohlorganperforation wäre freie intraabdominelle Luft ein zentraler Hinweis. Da im CT keine freie Luft gesehen wird und stattdessen ein Kalibersprung beschrieben ist, steht diese Diagnose nicht im Vordergrund.",
+          "term": "Hohlorganperforation"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein verschluckter Fremdkörper ist anhand der Anamnese und CT-Beschreibung nicht naheliegend. Die Voroperationen liefern eine viel plausiblere Ursache für einen mechanischen Dünndarmileus.",
+          "term": "Fremdkörper"
+        }
+      ]
+    },
+    "32": {
+      "topicLabel": "Nachsorge Bridenileus",
+      "explanation": "Nach erfolgreicher Therapie eines Bridenileus und guter Rekonvaleszenz ist nicht automatisch ein spezielles dauerhaftes Ernährungsregime erforderlich. Die Ursache waren am ehesten postoperative Verwachsungen, nicht eine primäre Ernährungsstörung oder ein Dumpingproblem. Eine PEG-Sonde, die zuvor gut funktioniert hat, muss deshalb nicht allein wegen des Ileus entfernt werden. Auch eine Flüssigkeitsrestriktion oder spezielle Kohlenhydrat- und Ballaststoffvorgaben sind hier nicht die naheliegende Standardmaßnahme. Am ehesten ist daher kein spezielles Ernährungsregime indiziert.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die PEG-Sonde lag im Magen und war nicht als Ursache des Kalibersprungs beschrieben. Eine Entfernung ist nach erfolgreicher Ileustherapie daher nicht automatisch indiziert.",
+          "term": "PEG-Entfernung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Restriktion der Flüssigkeitszufuhr ist nach einem behandelten mechanischen Ileus nicht die naheliegende Nachsorgemaßnahme. Im Gegenteil muss der Flüssigkeitshaushalt klinisch angemessen ausgeglichen werden.",
+          "term": "Flüssigkeitsrestriktion"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Diät mit speziellen langkettigen Kohlenhydraten und Ballaststoffen ist für einen abgeheilten Bridenileus nicht als Standard indiziert. Die Ursache sind Verwachsungen, nicht ein primär diätetisch steuerbares Malabsorptionsproblem.",
+          "term": "Spezialdiät"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Insulintherapie zur Prävention eines Dumpingsyndroms passt nicht zur beschriebenen Erkrankung. Ein Dumpingsyndrom betrifft andere postoperative Situationen und wird nicht durch prophylaktisches Insulin nach Bridenileus verhindert.",
+          "term": "Dumpingsyndrom"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Nach erfolgreicher Behandlung und Rekonvaleszenz besteht hier am ehesten kein spezielles Ernährungsregime. Entscheidend ist die klinische Erholung, nicht eine routinemäßige dauerhafte Diätvorgabe.",
+          "term": "Keine Spezialdiät"
+        }
+      ]
+    },
+    "33": {
+      "topicLabel": "Duke-Kriterien",
+      "explanation": "Bei Verdacht auf infektiöse Endokarditis werden klinische, mikrobiologische und bildgebende Kriterien strukturiert bewertet. Typische Erreger in Blutkulturen und typische Echokardiografiebefunde gehören zu den besonders wichtigen diagnostischen Kriterien. Fieber und eine Prädisposition wie ein Klappenersatz sind unterstützende Nebenkriterien. Eine typische Vegetation im Kardio-MRT ist dagegen kein klassisches zentrales Duke-Kriterium und hat in diesem Vergleich die untergeordnetste Bedeutung. Deshalb ist diese Antwort trotz der prinzipiellen Bedeutung moderner Bildgebung die gesuchte Ausnahme.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Typische Erreger in der Blutkultur sind ein zentrales diagnostisches Kriterium der infektiösen Endokarditis. Dieser Befund hat daher keine untergeordnete Bedeutung.",
+          "term": "Positive Blutkultur"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Fieber ist ein klassisches Nebenkriterium bei der Endokarditisdiagnostik. Es ist unspezifisch, gehört aber dennoch zur strukturierten Bewertung.",
+          "term": "Fieber"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Typische Befunde in der Echokardiografie, etwa Vegetationen oder Prothesenkomplikationen, sind für die Endokarditisdiagnose sehr wichtig. Die Echokardiografie ist daher keineswegs untergeordnet.",
+          "term": "Echokardiografie"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Eine typische Vegetation im Kardio-MRT ist im Vergleich zu Blutkultur, Fieber, Echokardiografie und Prädisposition nicht das etablierte Duke-Kriterium. Deshalb ist sie hier am ehesten von untergeordneter diagnostischer Bedeutung.",
+          "term": "Kardio-MRT"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Klappenersatz ist eine klare Prädisposition für eine Endokarditis. Er zählt als unterstützender Risikofaktor und ist daher diagnostisch relevant.",
+          "term": "Klappenprothese"
+        }
+      ]
+    },
+    "34": {
+      "topicLabel": "Endokarditisprophylaxe",
+      "explanation": "Die Patientin hat eine Mitralklappenbioprothese und damit ein hohes Risiko für eine infektiöse Endokarditis mit potenziell schwerem Verlauf. Zahnärztliche Eingriffe mit Manipulation am Zahnfleisch oder periapikalen Gewebe gelten bei solchen Hochrisikopatienten als Indikation zur Endokarditisprophylaxe. Ohne bekannte Allergie ist Amoxicillin die naheliegende prophylaktische Substanz. Rifampicin, Levofloxacin oder Heparin sind dafür nicht die Standardantwort. Deshalb wäre bei dem zahnärztlichen Risikoeingriff eine Endokarditisprophylaxe mit Amoxicillin am ehesten indiziert gewesen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Bei einer Patientin mit Klappenbioprothese besteht ein hohes Endokarditisrisiko. Bei einem zahnärztlichen Risikoeingriff ist daher nicht einfach auf Prophylaxe zu verzichten.",
+          "term": "Keine Prophylaxe"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Amoxicillin ist bei fehlender Allergie die typische Wahl zur Endokarditisprophylaxe vor zahnärztlichen Risikoeingriffen. Die Klappenbioprothese macht die Patientin zu einer Hochrisikopatientin.",
+          "term": "Amoxicillin"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Rifampicin ist nicht die Standardsubstanz für die zahnärztliche Endokarditisprophylaxe in dieser Situation. Es wird in anderen infektiologischen Kontexten eingesetzt, passt hier aber nicht als erste Wahl.",
+          "term": "Rifampicin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Levofloxacin ist kein übliches Mittel der Wahl für die Endokarditisprophylaxe bei zahnärztlichen Eingriffen ohne Allergie. Die naheliegende Antwort ist Amoxicillin.",
+          "term": "Levofloxacin"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Heparin verhindert thrombotische Ereignisse, aber keine bakterielle Endokarditis nach zahnärztlicher Manipulation. Eine antimikrobielle Prophylaxe ist hier der relevante Ansatz.",
+          "term": "Heparin"
+        }
+      ]
+    },
+    "35": {
+      "topicLabel": "Endokarditis-Operation",
+      "explanation": "Bei infektiöser Mitralklappenendokarditis unter adäquater antibiotischer Therapie sind weiterhin positive Blutkulturen und eine progrediente Vegetation alarmierend. Hinzu kommt in der Vorgeschichte der embolische Schlaganfallverdacht, was die Bedeutung der Vegetation zusätzlich erhöht. Eine solche Konstellation spricht für unkontrollierte Infektion beziehungsweise hohes Embolierisiko trotz Therapie. Dann muss eine operative Sanierung der betroffenen Klappe interdisziplinär und mit der Patientin besprochen werden. Reine Fortführung oder Ergänzung unspezifischer Medikamente würde das zentrale Problem nicht lösen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Keine Änderung der Therapie wäre bei persistierend positiven Blutkulturen und zunehmender Vegetationsgröße riskant. Die Befunde zeigen ein Therapieversagen beziehungsweise eine weiterhin gefährliche Endokarditisaktivität.",
+          "term": "Therapie unverändert"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Glukokortikoide behandeln keine bakterielle Endokarditis und können Infektionen ungünstig beeinflussen. Sie adressieren weder die persistierenden Blutkulturen noch die progrediente Klappenvegetation.",
+          "term": "Glukokortikoid"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Der Erreger wurde mit Streptococcus dysgalactiae identifiziert und als penicillinempfindlich getestet. Eine pauschale Abdeckung atypischer Erreger mit Clarithromycin löst das Problem der progredienten Endokarditis nicht.",
+          "term": "Clarithromycin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Colchicin wird bei entzündlichen Erkrankungen wie Gicht oder Perikarditis eingesetzt. Es hat keinen Stellenwert zur Sanierung einer bakteriellen Mitralklappenendokarditis mit persistierender Bakteriämie.",
+          "term": "Colchicin"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Eine operative Sanierung der Mitralklappe ist bei progredienter Vegetation und fortbestehenden positiven Blutkulturen trotz Therapie naheliegend. Sie adressiert die infizierte Klappenstruktur und das Embolierisiko.",
+          "term": "Klappenoperation"
+        }
+      ]
+    },
+    "36": {
+      "topicLabel": "Sarkoidose-Röntgen",
+      "explanation": "Der trockene Husten, die chronische Belastungsdyspnoe und das Röntgenbild werden in der Folgekonstellation auf eine Sarkoidose hin ausgerichtet. Im Thoraxröntgen ist bei einer frühen pulmonalen Sarkoidose besonders typisch eine beidseitige, symmetrische hiläre Lymphknotenvergrößerung. Wenn noch keine sichtbaren Lungenparenchymveränderungen bestehen, entspricht das einem klassischen Befundmuster. Ein Pneumothorax, ein fibrotischer Umbau oder isolierte interstitielle Veränderungen ohne Lymphknotenvergrößerung würden andere Stadien oder Differenzialdiagnosen nahelegen. Deshalb ist die symmetrische hiläre Lymphknotenvergrößerung ohne sichtbare Lungengewebsveränderung am ehesten zu erheben.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein rechtsseitiger Pneumothorax würde akutere Beschwerden mit typischen radiologischen Zeichen wie fehlender peripherer Lungenzeichnung erwarten lassen. Die Fallkonstellation zielt jedoch auf eine chronische granulomatöse Erkrankung.",
+          "term": "Pneumothorax"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein interstitieller Lungenbefall ohne Lymphknotenvergrößerung passt nicht zum klassischen frühen Sarkoidosebefund. Gerade die beidseitige hiläre Lymphadenopathie ist hier der zentrale Hinweis.",
+          "term": "Interstitieller Befall"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein vollständiger Normalbefund der intrathorakalen Weichgewebsstrukturen würde die gesuchte radiologische Verdachtsdiagnose nicht stützen. Bei Sarkoidose ist die hiläre Lymphknotenvergrößerung ein typischer Befund.",
+          "term": "Normalbefund"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein fibrotischer Umbau des Lungengewebes kann bei fortgeschrittener Sarkoidose vorkommen. In dieser Frage ist jedoch der typische Befund der symmetrischen hilären Lymphknotenvergrößerung ohne sichtbare Parenchymveränderung gefragt.",
+          "term": "Lungenfibrose"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Symmetrische hiläre Lymphknotenvergrößerungen ohne sichtbare Lungenparenchymveränderung sind klassisch für eine frühe thorakale Sarkoidose. Dieser Befund passt zum trockenen Husten und zur chronischen Dyspnoe.",
+          "term": "Bilaterale Hilusadenopathie"
+        }
+      ]
+    },
+    "37": {
+      "topicLabel": "Sarkoidose-Lungenfunktion",
+      "explanation": "Die Frage bezieht sich auf die Lungenfunktionsprüfung in derselben Sarkoidose-Konstellation. Nach dem vorgegebenen Antwortschlüssel ist der dargestellte Befund am ehesten als Normalbefund zu interpretieren. Das ist bei einer frühen oder milden thorakalen Sarkoidose gut möglich, insbesondere wenn radiologisch vor allem hiläre Lymphknotenvergrößerungen ohne Parenchymbefall vorliegen. Eine normale Lungenfunktion schließt Sarkoidose nicht aus, sondern passt zu einem frühen Stadium oder geringer funktioneller Relevanz. Obstruktion, Restriktion oder gemischte Störung würden jeweils spezifische pathologische Messmuster voraussetzen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Fehlmessung wäre nur anzunehmen, wenn Kurvenform, Reproduzierbarkeit oder Messwerte offensichtlich unplausibel wären. Der Antwortschlüssel weist den Befund jedoch als interpretierbaren Normalbefund aus.",
+          "term": "Fehlmessung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine gemischtförmige Ventilationsstörung erfordert Hinweise sowohl auf Obstruktion als auch auf Restriktion. Das ist hier nicht die passendste Interpretation des dargestellten Untersuchungsergebnisses.",
+          "term": "Gemischte Ventilationsstörung"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Ein Normalbefund der Lungenfunktion ist bei früher Sarkoidose möglich. Er passt insbesondere zu einem radiologischen Stadium mit hilärer Lymphadenopathie ohne sichtbaren Parenchymschaden.",
+          "term": "Normalbefund"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine obstruktive Ventilationsstörung wäre durch eine relevante Flusslimitierung charakterisiert. Das ist nicht die hier gesuchte Interpretation.",
+          "term": "Obstruktion"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine restriktive Ventilationsstörung würde zu verminderten Lungenvolumina passen, etwa bei ausgeprägtem interstitiellem oder fibrotischem Befall. In dieser frühen Sarkoidose-Konstellation ist nach Antwortschlüssel der Normalbefund zutreffend.",
+          "term": "Restriktion"
+        }
+      ]
+    },
+    "38": {
+      "topicLabel": "Sarkoidose-Labor",
+      "explanation": "Bei Verdacht auf Sarkoidose kann das Angiotensin Converting Enzyme als unterstützender Laborparameter bestimmt werden. Es ist nicht beweisend, kann aber bei granulomatöser Aktivität erhöht sein und die Verdachtsdiagnose im passenden klinisch-radiologischen Kontext stützen. Die Diagnose der Sarkoidose bleibt dennoch eine Gesamtdiagnose aus Klinik, Bildgebung, Ausschluss wichtiger Differenzialdiagnosen und gegebenenfalls Histologie. Die übrigen Laborparameter zielen eher auf Tumoren, Tuberkulose, rheumatoide Erkrankungen oder Herzinsuffizienz. Daher ist ACE hier der am ehesten passende Parameter zur weiteren Erhärtung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Carcinoembryonales Antigen ist ein Tumormarker und nicht typisch zur Abklärung einer Sarkoidose. Es würde die granulomatöse Verdachtsdiagnose nicht spezifisch erhärten.",
+          "term": "CEA"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Interferon-Gamma-Release Assay dient vor allem der immunologischen Abklärung einer Tuberkuloseinfektion. Tuberkulose ist zwar eine wichtige Differenzialdiagnose, der Parameter erhärtet aber nicht primär die Sarkoidose.",
+          "term": "IGRA"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Rheumafaktor wird vor allem im Kontext der rheumatoiden Arthritis interpretiert. Für die vermutete Sarkoidose ist er nicht der passendste unterstützende Laborparameter.",
+          "term": "Rheumafaktor"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Angiotensin Converting Enzyme kann bei Sarkoidose erhöht sein und die Diagnose unterstützend plausibilisieren. Es ist nicht allein beweisend, passt aber am besten zu dieser Fragestellung.",
+          "term": "ACE"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Natriuretisches Peptid Typ B ist ein Marker für kardiale Belastung beziehungsweise Herzinsuffizienz. Es ist kein typischer Laborparameter zur Erhärtung einer pulmonalen Sarkoidose.",
+          "term": "BNP"
+        }
+      ]
+    },
+    "39": {
+      "topicLabel": "Medikamentöse Bradykardie",
+      "explanation": "Der Patient hat Synkopen, Hypotonie und eine ausgeprägte Bradykardie. In einer solchen Situation muss immer nach bradykardisierenden Medikamenten gefragt werden. Bisoprolol ist ein Betablocker und kann über die Hemmung sympathischer Effekte Herzfrequenz und AV-Überleitung senken. Dadurch kann es zu symptomatischer Bradykardie oder zur Verstärkung vorbestehender Leitungsstörungen kommen. Die anderen genannten Medikamente haben diese typische direkte bradykardisierende Wirkung nicht in vergleichbarer Weise. Deshalb ist Bisoprolol am ehesten als auslösendes oder verstärkendes Medikament anzusehen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Acetylsalicylsäure hemmt die Thrombozytenaggregation und verursacht nicht typischerweise eine ausgeprägte Bradykardie. Sie erklärt die Herzfrequenz von 35/min daher nicht am ehesten.",
+          "term": "ASS"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Amlodipin ist ein Dihydropyridin-Calciumantagonist und wirkt vor allem vasodilatatorisch. Es ist im Gegensatz zu Verapamil oder Diltiazem nicht typisch für relevante AV-Überleitungshemmung und Bradykardie.",
+          "term": "Amlodipin"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Simvastatin senkt Cholesterin und hat keinen typischen direkten bradykardisierenden Effekt. Es passt nicht als Ursache einer symptomatischen Rhythmusstörung mit sehr langsamer Herzfrequenz.",
+          "term": "Simvastatin"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Bisoprolol ist ein Betablocker und kann Sinusknotenfrequenz sowie AV-Überleitung bremsen. Dadurch kann es eine symptomatische Bradykardie auslösen oder eine bestehende Leitungsstörung klinisch relevant machen.",
+          "term": "Bisoprolol"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Pantoprazol ist ein Protonenpumpenhemmer und wirkt nicht primär auf Herzfrequenz oder Reizleitung. Es ist daher keine naheliegende Erklärung für die beschriebene Bradykardie.",
+          "term": "Pantoprazol"
+        }
+      ]
+    },
+    "40": {
+      "topicLabel": "Therapie Bradykardie",
+      "explanation": "Die Folgefrage baut auf der symptomatischen Bradykardie auf, bei der Bisoprolol als möglicher Auslöser identifiziert wurde. Wenn eine Rhythmusstörung durch bradykardisierende Medikamente verursacht oder verstärkt sein kann, ist zunächst das Absetzen dieser Medikamente eine zentrale Maßnahme. Reversible Ursachen müssen geklärt und behandelt werden, bevor eine definitive invasive Therapie wie ein permanenter Schrittmacher festgelegt wird. Kardioversion und Defibrillation passen zu tachykarden oder lebensbedrohlichen Rhythmusstörungen, nicht zu dieser medikamentös erklärbaren Bradykardie. Digitalis würde die Überleitung eher weiter bremsen und ist daher unpassend.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Das Absetzen bradykardisierender Medikamente ist bei möglicher medikamentöser Bradykardie die naheliegende erste Maßnahme. Hier passt das besonders, weil in der Vorfrage Bisoprolol als möglicher Auslöser identifiziert wurde.",
+          "term": "Medikamente absetzen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Kardioversion wird typischerweise zur Beendigung bestimmter Tachyarrhythmien eingesetzt. Bei einer Bradykardie durch bradykardisierende Medikation ist sie nicht die passende Therapie.",
+          "term": "Kardioversion"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Defibrillation ist für Kammerflimmern oder pulselose ventrikuläre Tachykardie vorgesehen. Die geschilderte Problematik ist eine langsame Rhythmusstörung, nicht eine defibrillationspflichtige Tachyarrhythmie.",
+          "term": "Defibrillation"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine akute permanente Schrittmacherimplantation ist nicht die erste Antwort, wenn eine reversible Medikamentenwirkung plausibel ist. Zunächst sollten bradykardisierende Medikamente abgesetzt und der Verlauf überwacht werden.",
+          "term": "Permanenter Schrittmacher"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Digitalis kann die AV-Überleitung bremsen und Bradykardien oder AV-Blockierungen verschlechtern. Eine Aufsättigung wäre in dieser Situation daher nicht sinnvoll.",
+          "term": "Digitalis"
+        }
+      ]
+    }
+  }
+}

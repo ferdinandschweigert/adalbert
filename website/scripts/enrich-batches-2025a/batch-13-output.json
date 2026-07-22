@@ -1,0 +1,745 @@
+{
+  "examId": "m2-2025a-staatsexamen",
+  "questions": {
+    "261": {
+      "topicLabel": "Makrohämaturie",
+      "explanation": "Eine schmerzlose Makrohämaturie ist in der Urologie ein Warnsymptom, bis ein Tumor des Harntrakts sicher ausgeschlossen ist. Besonders bei einem langjährigen Raucher muss an ein Urothelkarzinom der Harnblase oder des oberen Harntrakts gedacht werden. Auch fortgeschrittene Nierentumoren können durch Einbruch in das ableitende System mit sichtbarer Hämaturie auffallen. Blutungen aus prostatischen Varizen oder einer benignen Prostatahyperplasie können ebenfalls schmerzlos sein. Eine Zystitis verursacht dagegen typischerweise dysurische Beschwerden, Pollakisurie, Unterbauchschmerz oder Brennen beim Wasserlassen und passt deshalb am ehesten nicht zum Leitsymptom der schmerzlosen Makrohämaturie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Varizenblutungen im Bereich der Prostata können eine Makrohämaturie verursachen und müssen daher in der Differenzialdiagnose berücksichtigt werden. Sie sind nicht die klassische Tumorursache, können aber durchaus schmerzlos auftreten und passen somit nicht zur gesuchten Ausnahme.",
+          "term": "Prostatavarizen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein fortgeschrittener Nierentumor kann sichtbares Blut im Urin verursachen, insbesondere wenn Tumoranteile oder Gefäße Anschluss an das Kelchsystem bekommen. Die Hämaturie kann dabei schmerzlos sein und ist ein typisches urologisches Alarmsymptom.",
+          "term": "Nierentumor"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Eine Zystitis geht meist mit irritativen Miktionsbeschwerden wie Dysurie, Pollakisurie und suprapubischem Schmerz einher. Eine Hämaturie ist möglich, aber das Leitsymptom ist typischerweise nicht die isolierte schmerzlose Makrohämaturie. Deshalb ist sie unter den genannten Optionen am ehesten nicht damit assoziiert.",
+          "term": "Zystitis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Das Urothelkarzinom der Harnblase präsentiert sich klassischerweise mit schmerzloser Makrohämaturie. Rauchen ist ein wichtiger Risikofaktor, sodass diese Diagnose im geschilderten Fall besonders ernst genommen werden muss.",
+          "term": "Harnblasenkarzinom"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Auch ein Urothelkarzinom des oberen Harntrakts kann eine schmerzlose Makrohämaturie auslösen. Es gehört daher zur Tumordifferenzialdiagnostik bei sichtbarer Hämaturie und ist nicht die gesuchte untypische Erkrankung.",
+          "term": "oberes Urothelkarzinom"
+        }
+      ]
+    },
+    "262": {
+      "topicLabel": "Hämaturieabklärung",
+      "explanation": "Der Patient hat eine Makrohämaturie beziehungsweise im Verlauf weiterhin Erythrozyten im Urinsediment und relevante Risikofaktoren, insbesondere langjähriges Rauchen. Eine unauffällige Sonografie der Nieren schließt ein Harnblasenkarzinom nicht aus, zumal die Blase nur gering gefüllt war und kleine Schleimhautläsionen sonografisch leicht übersehen werden. Bei schmerzloser Makrohämaturie ist deshalb die endoskopische Beurteilung der Harnblase zentral. Die Zystoskopie ist der nächste naheliegende Schritt, um ein Urothelkarzinom der Harnblase auszuschließen oder zu sichern. Reine Verlaufskontrollen oder Staginguntersuchungen ohne Tumornachweis würden die notwendige Basisdiagnostik verzögern.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Keine weitere Diagnostik wäre bei schmerzloser Makrohämaturie riskant. Gerade beim älteren Raucher muss ein Urothelkarzinom aktiv ausgeschlossen werden, auch wenn die Erstsonografie keine Raumforderung zeigt.",
+          "term": "Diagnostikverzicht"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein FDG-PET-CT ist keine initiale Standarduntersuchung zur Abklärung einer isolierten Hämaturie. Es würde eher in ausgewählten onkologischen Situationen nach gesicherter Diagnose und konkreter Fragestellung eingesetzt.",
+          "term": "FDG-PET-CT"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Kontrolle des Urinsediments in drei Monaten wäre bei asymptomatischer Mikrohämaturie je nach Risikoprofil denkbar, passt aber nicht zur berichteten Makrohämaturie. Hier besteht ein unmittelbarer Abklärungsbedarf, insbesondere wegen des Rauchens.",
+          "term": "Urinkontrolle"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die Zystoskopie erlaubt die direkte Inspektion der Harnblasenschleimhaut und ist bei schmerzloser Makrohämaturie entscheidend. Sie kann Tumoren, Blutungsquellen oder andere intravesikale Ursachen erkennen, die in der Sonografie übersehen werden können.",
+          "term": "Zystoskopie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein CT-Thorax dient nicht der Primärabklärung einer Hämaturie. Es wäre eher als Staging bei gesichertem malignem Tumor relevant, aber hier fehlt zunächst die urologische Lokaldiagnostik.",
+          "term": "CT-Thorax"
+        }
+      ]
+    },
+    "263": {
+      "topicLabel": "Statin-Nebenwirkung",
+      "explanation": "Statine sind zentrale Medikamente zur Senkung des LDL-Cholesterins und zur Reduktion kardiovaskulärer Ereignisse, insbesondere bei Verdacht auf familiäre Hypercholesterinämie. Zu den bekannten unerwünschten Wirkungen zählen muskuläre Beschwerden, Transaminasenerhöhungen und ein erhöhtes Risiko für eine diabetische Stoffwechsellage. Dieses Diabetesrisiko ist klinisch relevant, wird aber bei klarer kardiovaskulärer Indikation meist durch den Nutzen der Statintherapie übertroffen. Für Kolonkarzinome, Demenz, Spielsucht oder Azoospermie besteht keine typische kausale Zuordnung zur Statineinnahme. Die korrekte Beratung sollte deshalb das reale Risiko benennen, ohne unbelegte Langzeitfolgen zu behaupten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Kolonkarzinome sind keine typische unerwünschte Wirkung von Statinen. Bei der Aufklärung sollte diese Sorge nicht als erwartbare Folge der Therapie dargestellt werden.",
+          "term": "Kolonkarzinom"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Demenz ist nicht als typische statinbedingte Langzeitnebenwirkung einzuordnen. Kognitive Beschwerden werden zwar gelegentlich diskutiert, eine Demenzentwicklung ist aber nicht die naheliegende Prüfungsantwort.",
+          "term": "Demenz"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Spielsucht ist eine Impulskontrollstörung, die klassisch eher bei dopaminergen Medikamenten eine Rolle spielen kann. Für Statine ist sie keine typische unerwünschte Arzneimittelwirkung.",
+          "term": "Spielsucht"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Statine können das Risiko für einen Diabetes mellitus beziehungsweise eine Verschlechterung der Glukosestoffwechsellage erhöhen. Dieses Risiko ist bei der Langzeittherapie bekannt, steht aber dem kardiovaskulären Nutzen bei entsprechender Indikation meist nicht entgegen.",
+          "term": "Diabetes mellitus"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Azoospermie oder Infertilität gehören nicht zu den typischen, klinisch relevanten Nebenwirkungen einer Statintherapie. Eine solche Behauptung wäre in der Beratung ohne konkrete andere Ursache nicht gerechtfertigt.",
+          "term": "Infertilität"
+        }
+      ]
+    },
+    "264": {
+      "topicLabel": "Statin-Monitoring",
+      "explanation": "Unter Statinen können Leberenzymwerte ansteigen, weshalb Transaminasen bei entsprechender klinischer Situation beziehungsweise im Verlauf kontrolliert werden. Die Frage zielt auf eine gelegentlich bis häufig auftretende unerwünschte Arzneimittelwirkung, nicht auf seltene oder fachfremde Komplikationen. Muskuläre Beschwerden wären zusätzlich klinisch wichtig und würden eher eine CK-Bestimmung nahelegen, diese steht aber nicht zur Auswahl. Testosteron, Harnstoff, Kreatinin und Leukozyten erfassen keine typische Statin-Nebenwirkung als Verlaufsparameter. Daher sind AST und ALT beziehungsweise die Transaminasen die passendste Laboroption.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Testosteron dient nicht der Erkennung einer typischen Statin-Nebenwirkung. Statine führen nicht regelhaft zu einem klinisch relevanten Hypogonadismus, der durch Verlaufskontrollen des Testosterons überwacht werden müsste.",
+          "term": "Testosteron"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Harnstoff ist ein unspezifischer Parameter des Eiweißstoffwechsels und der Nierenfunktion. Eine Erhöhung ist nicht die typische Statin-assoziierte Nebenwirkung, nach der hier gefragt wird.",
+          "term": "Harnstoff"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Transaminasenerhöhungen sind eine bekannte unerwünschte Wirkung von Statinen. Die Kontrolle von AST und ALT kann helfen, eine relevante hepatische Reaktion im Verlauf zu erkennen.",
+          "term": "Transaminasen"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Kreatinin ist wichtig zur Beurteilung der Nierenfunktion, aber nicht der typische Verlaufsparameter für eine häufigere Statin-Nebenwirkung. Bei schwerer Rhabdomyolyse könnte die Niere sekundär betroffen sein, das ist hier jedoch nicht die naheliegende Routineantwort.",
+          "term": "Kreatinin"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Leukozytenkontrollen dienen der Erkennung von Blutbildveränderungen oder Infektionen. Eine Leukopenie ist keine typische gelegentlich bis häufige Nebenwirkung von Simvastatin.",
+          "term": "Leukozyten"
+        }
+      ]
+    },
+    "265": {
+      "topicLabel": "EKG-Rhythmus",
+      "explanation": "Das aktuelle EKG wird nach dem vorgegebenen Lösungsschlüssel als Sinusrhythmus eingeordnet. Entscheidend sind regelmäßige atriale Erregungen mit P-Wellen vor den QRS-Komplexen und konstanter AV-Überleitung. Auch wenn im weiteren Fall Elektrolytstörungen eine wichtige Rolle spielen, beschreibt die Rhythmusdiagnose zunächst nicht die Ursache der EKG-Veränderungen, sondern den Grundrhythmus. Vorhofflimmern, AV-Block III, Sinusarrest und AV-Knoten-Reentrytachykardie hätten jeweils charakteristische Rhythmusmuster, die mit einem Sinusrhythmus nicht vereinbar sind. Die klinischen Kollapsereignisse können somit nicht allein aus einer dieser Rhythmusdiagnosen abgeleitet werden.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ein Sinusrhythmus liegt vor, wenn die elektrische Erregung regelmäßig aus dem Sinusknoten kommt und jede P-Welle regelrecht auf die Kammern übergeleitet wird. Der Lösungsschlüssel weist diese Option als zutreffenden Rhythmusbefund aus.",
+          "term": "Sinusrhythmus"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Vorhofflimmern wäre durch eine absolute Arrhythmie und fehlende geordnete P-Wellen gekennzeichnet. Das passt nicht zu einem als Sinusrhythmus beurteilten EKG mit geordneter atrialer Aktivität.",
+          "term": "Vorhofflimmern"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein AV-Block III zeigt eine vollständige Dissoziation von Vorhof- und Kammeraktion. Bei Sinusrhythmus mit erhaltener Überleitung liegt gerade keine komplette AV-Blockierung vor.",
+          "term": "AV-Block III"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Sinusarrest bedeutet ein Aussetzen der Sinusknotenaktivität mit fehlenden erwarteten P-Wellen und Pausen. Diese Diagnose widerspricht der Einordnung als durchgehender Sinusrhythmus.",
+          "term": "Sinusarrest"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine AV-Knoten-Reentrytachykardie ist typischerweise eine regelmäßige supraventrikuläre Tachykardie mit abruptem Beginn und meist schmalen QRS-Komplexen. Sie ist kein normaler Sinusrhythmus und passt nicht zum angegebenen Rhythmusbefund.",
+          "term": "AVNRT"
+        }
+      ]
+    },
+    "266": {
+      "topicLabel": "Hyperkaliämie-EKG",
+      "explanation": "Die Patientin hat eine hohe flüssige Stomafördermenge mit Kreislaufproblemen und laborchemisch relevante Veränderungen, im Folgekontext wird zudem nach der Ursache der EKG-Veränderungen gefragt. Nach dem Lösungsschlüssel sind diese am ehesten durch eine Hyperkaliämie bedingt. Hyperkaliämie kann im EKG typische Repolarisations- und Leitungsveränderungen verursachen und ist potenziell akut lebensbedrohlich. In der Zusammenschau passt das besonders zu einer Situation mit Volumenmangel, eingeschränkter renaler Ausscheidung oder kaliumsparender Medikation, was in der Folgefrage mit Spironolacton aufgegriffen wird. Hyperglykämie oder Hypernatriämie erklären solche EKG-Veränderungen weniger direkt; STEMI und Lungenembolie wären anhand anderer Befundmuster und klinischer Zeichen zu begründen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Hyperglykämie kann bei Diabetes klinisch relevant sein und zu Dehydratation beitragen. Typische akute EKG-Veränderungen wie bei der gesuchten Konstellation erklärt sie jedoch nicht am besten.",
+          "term": "Hyperglykämie"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Eine Hyperkaliämie kann charakteristische EKG-Veränderungen bis hin zu gefährlichen Leitungsstörungen auslösen. Im Fallkontext mit akut kranker Patientin und späterer Frage nach kaliumsparender Medikation ist sie die naheliegende Ursache.",
+          "term": "Hyperkaliämie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Hypernatriämie kann neurologische Symptome und Zeichen einer Hyperosmolarität verursachen. Sie ist aber nicht die klassische Ursache ausgeprägter EKG-Veränderungen im Sinne der hier gesuchten Antwort.",
+          "term": "Hypernatriämie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein ST-Hebungsinfarkt würde regionale ischämietypische ST-Hebungen und ein passendes klinisches Bild erwarten lassen. Der Fall steuert jedoch auf eine metabolisch-elektrolytbedingte EKG-Veränderung zu, nicht primär auf einen akuten Koronarverschluss.",
+          "term": "ST-Hebungsinfarkt"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine akute Lungenembolie kann Tachykardie, Rechtsherzbelastungszeichen oder unspezifische EKG-Veränderungen verursachen. Die vorliegende Konstellation mit Stomaverlusten und kaliumbezogenem Medikamentenrisiko spricht aber deutlich eher für eine Hyperkaliämie.",
+          "term": "Lungenembolie"
+        }
+      ]
+    },
+    "267": {
+      "topicLabel": "Spironolacton-Risiko",
+      "explanation": "Aus der vorherigen Frage ergibt sich, dass die aktuellen EKG-Veränderungen am ehesten auf eine Hyperkaliämie zurückzuführen sind. In dieser Situation sind Medikamente besonders gefährlich, die die Kaliumausscheidung vermindern oder den Serumkaliumspiegel erhöhen. Spironolacton ist ein Aldosteronantagonist und kaliumsparendes Diuretikum; bei Dehydratation, möglicher Nierenfunktionsverschlechterung oder bestehender Hyperkaliämie kann es lebensbedrohliche Arrhythmien begünstigen. Es muss daher in der akuten Situation abgesetzt werden. Die anderen genannten Medikamente haben zwar eigene Nebenwirkungsprofile, erklären aber nicht so unmittelbar die gefährliche Kaliumproblematik.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Torasemid ist ein Schleifendiuretikum und fördert eher die Kaliumausscheidung. Es kann bei Volumenmangel problematisch sein, ist aber nicht das typische Medikament, das eine Hyperkaliämie akut verschärft.",
+          "term": "Torasemid"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Spironolacton wirkt kaliumsparend und kann insbesondere bei eingeschränkter renaler Kaliumausscheidung eine Hyperkaliämie verstärken. Bei hyperkaliämiebedingten EKG-Veränderungen ist das potenziell lebensbedrohlich und erfordert das Absetzen.",
+          "term": "Spironolacton"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Hydrochlorothiazid führt eher zu Kaliumverlusten als zu Hyperkaliämie. Zwar kann es Elektrolytstörungen und Volumenprobleme verursachen, ist aber nicht die naheliegende Ursache der lebensbedrohlichen kaliumbedingten Situation.",
+          "term": "Hydrochlorothiazid"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Acetylsalicylsäure kann Blutungsrisiken und gastrointestinale Nebenwirkungen verursachen. In der hier akuten Hyperkaliämie-Konstellation ist sie aber nicht das am ehesten gefährliche Medikament.",
+          "term": "Acetylsalicylsäure"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Simvastatin kann unter anderem muskuläre und hepatische Nebenwirkungen verursachen. Es ist jedoch kein typischer Auslöser einer akut lebensbedrohlichen Hyperkaliämie mit EKG-Veränderungen.",
+          "term": "Simvastatin"
+        }
+      ]
+    },
+    "268": {
+      "topicLabel": "Mediainfarkt",
+      "explanation": "Eleonore zeigt eine Kraftminderung des rechten Arms und eine Aphasie. Motorische Ausfälle des Arms und Sprachstörungen sprechen am ehesten für eine Läsion im Versorgungsgebiet der linken A. cerebri media, da die linke Hemisphäre bei den meisten Menschen sprachdominant ist. Die kontralaterale Motorik erklärt den rechten Armausfall durch eine linkshemisphärische Ischämie. Die A. cerebri anterior betrifft eher beinbetonte motorische Ausfälle, während die A. cerebri posterior eher visuelle Defizite verursacht. Eine rechtsseitige Mediainfarktlokalisation würde die Aphasie deutlich weniger plausibel erklären.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Ischämie der linken A. cerebri anterior würde eher eine beinbetonte kontralaterale Schwäche und frontale Symptome erwarten lassen. Der rechte Armausfall und die Aphasie passen besser zur linken A. cerebri media.",
+          "term": "A. cerebri anterior links"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine rechtsseitige A.-cerebri-anterior-Ischämie würde eher linksseitige, beinbetonte Ausfälle verursachen. Sie erklärt weder die rechtsseitige Armschwäche noch die Aphasie überzeugend.",
+          "term": "A. cerebri anterior rechts"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die linke A. cerebri media versorgt wichtige motorische Areale für Gesicht und Arm sowie in der dominanten Hemisphäre Sprachareale. Eine Ischämie dort erklärt die rechtsseitige Armschwäche und die Aphasie am besten.",
+          "term": "A. cerebri media links"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Ischämie der rechten A. cerebri media würde typischerweise linksseitige motorische und sensible Defizite verursachen. Eine Aphasie ist bei rechtshemisphärischer Läsion nur in Sonderkonstellationen zu erwarten und hier nicht am naheliegendsten.",
+          "term": "A. cerebri media rechts"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die linke A. cerebri posterior versorgt vor allem okzipitale und inferotemporale Areale. Typisch wären visuelle Störungen, nicht primär die Kombination aus rechtsseitiger Armschwäche und Aphasie.",
+          "term": "A. cerebri posterior links"
+        }
+      ]
+    },
+    "269": {
+      "topicLabel": "MRT-Kontrastmittel",
+      "explanation": "Bei einer kranialen MRT mit Gefäßwandbeurteilung wird gadoliniumhaltiges Kontrastmittel üblicherweise intravenös appliziert. Wie bei jeder intravenösen Gabe kann es zu einem Paravasat kommen, auch wenn dies bei korrekter Venenlage vermieden werden soll. Eine intrathekale Gabe ist für diese Fragestellung nicht Standard und wäre mit eigenen Risiken verbunden. Moderne MRT-Kontrastmittel werden im Regelfall renal eliminiert; die Nierenfunktion ist daher relevant, was in der Folgefrage aufgegriffen wird. Lineare gadoliniumhaltige Mittel werden nicht bevorzugt, und schwere allergieähnliche Reaktionen sind bei gadoliniumhaltigen MRT-Kontrastmitteln insgesamt nicht wahrscheinlicher als bei iodhaltigen CT-Kontrastmitteln.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine intrathekale Kontrastmittelgabe ist für eine kontrastmittelgestützte kraniale MRT zur Gefäßwandbeurteilung nicht zu empfehlen. Standard ist die intravenöse Applikation eines geeigneten gadoliniumhaltigen Kontrastmittels.",
+          "term": "intrathekale Gabe"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Bei jeder intravenösen Kontrastmittelapplikation kann ein Paravasat auftreten, wenn Kontrastmittel ins Gewebe statt in die Vene gelangt. Das ist ein praktischer Aufklärungs- und Überwachungspunkt bei der Untersuchung.",
+          "term": "Paravasat"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Lineare gadoliniumhaltige Kontrastmittel gelten wegen Stabilitäts- und Ablagerungsaspekten nicht als bevorzugte Wahl, wenn geeignetere makrozyklische Präparate verfügbar sind. Die Aussage, ein lineares Mittel sollte eingesetzt werden, ist daher nicht korrekt.",
+          "term": "lineares Gadolinium"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Gadoliniumhaltige MRT-Kontrastmittel werden überwiegend renal ausgeschieden. Eine hauptsächlich hepatische Elimination wäre für die üblichen Präparate nicht die passende Einordnung.",
+          "term": "Elimination"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Anaphylaktoide Reaktionen sind auch bei MRT-Kontrastmitteln möglich. Sie sind jedoch nicht typischerweise wahrscheinlicher als bei einer CT mit iodhaltigem Kontrastmittel, sodass diese Aussage nicht die beste Antwort ist.",
+          "term": "Kontrastmittelreaktion"
+        }
+      ]
+    },
+    "270": {
+      "topicLabel": "Kontrastmittel-Niere",
+      "explanation": "Vor der Gabe gadoliniumhaltiger MRT-Kontrastmittel ist die Nierenfunktion der entscheidende Laboraspekt. Kreatinin dient als Basisparameter zur Abschätzung der glomerulären Filtrationsrate und damit des Risikos bei eingeschränkter renaler Elimination. Das ist besonders relevant, weil die Kontrastmittel im Regelfall überwiegend renal ausgeschieden werden. TSH ist vor iodhaltigem CT-Kontrastmittel in bestimmten Situationen wichtiger, nicht aber bei gadoliniumhaltiger MRT-Kontrastierung. Leberwerte oder D-Dimere beantworten die Sicherheitsfrage der Kontrastmittelgabe hier nicht am besten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Kreatinin erlaubt die Einschätzung der Nierenfunktion und damit der renalen Ausscheidung des gadoliniumhaltigen Kontrastmittels. Bei relevanter Niereninsuffizienz können Kontrastmittelwahl und Indikation besonders sorgfältig geprüft werden müssen.",
+          "term": "Kreatinin"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "TSH ist vor allem bei iodhaltigen Kontrastmitteln und möglicher Schilddrüsenerkrankung relevant. Für eine gadoliniumhaltige MRT ist es nicht der wichtigste Laborparameter vor der Applikation.",
+          "term": "TSH"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Bilirubin beurteilt die hepatische Ausscheidungs- und Stoffwechselfunktion. Da übliche MRT-Kontrastmittel überwiegend renal eliminiert werden, ist Bilirubin nicht der zentrale Sicherheitsparameter.",
+          "term": "Bilirubin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die alkalische Phosphatase kann bei cholestatischen oder knöchernen Prozessen erhöht sein. Sie hilft hier nicht primär bei der Entscheidung zur gadoliniumhaltigen Kontrastmittelgabe.",
+          "term": "alkalische Phosphatase"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "D-Dimere können bei der Abklärung thromboembolischer Ereignisse eine Rolle spielen. Sie sind jedoch kein Laborparameter zur Sicherheitsbeurteilung vor einer Kontrastmittel-MRT.",
+          "term": "D-Dimere"
+        }
+      ]
+    },
+    "271": {
+      "topicLabel": "Rückenschmerz-Red-Flags",
+      "explanation": "Bei neu vorgestellten Rückenschmerzen dienen Red Flags dazu, Hinweise auf potenziell gefährliche Ursachen wie Tumor, Infektion, Fraktur oder entzündliche/systemische Erkrankungen zu erkennen. Starker nächtlicher Schmerz ist ein Warnhinweis, weil er weniger gut zu einfachen mechanischen Rückenschmerzen passt und an ernstere Ursachen denken lässt. Der frühere Morbus Scheuermann oder eine frühere Adipositas erklären zwar orthopädische Vorbelastungen, sind aber für sich keine akute Red Flag. Auch fehlende Besserung durch Bewegung oder NSAR kann diagnostisch relevant sein, ist aber in dieser Auswahl nicht der stärkste klassische Warnhinweis. Deshalb ist der starke nächtliche Schmerz am ehesten als Red Flag zu werten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Adipositas Grad 3 in der Vorgeschichte kann Rückenschmerzen begünstigen und degenerative Belastungen fördern. Als isolierte frühere Angabe ist sie aber keine klassische Red Flag für eine gefährliche akute Ursache.",
+          "term": "Adipositas"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Morbus Scheuermann kann mit Fehlstatik und Rückenschmerzen assoziiert sein. Eine bekannte Erkrankung in der Jugend ist jedoch kein akuter Warnhinweis im Sinne von Tumor, Infektion, Fraktur oder neurologischer Notfallsituation.",
+          "term": "Morbus Scheuermann"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Starker nächtlicher Schmerz ist eine typische Red Flag bei Rückenschmerzen. Er kann auf eine nichtmechanische Ursache hinweisen und sollte gezielt weiter abgeklärt werden.",
+          "term": "nächtlicher Schmerz"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Keine Linderung durch Bewegung kann zu unterschiedlichen Rückenschmerzmustern passen und ist allein weniger spezifisch. Bei entzündlichem Rückenschmerz wäre eher eine Besserung durch Bewegung typisch, aber die Angabe ist hier nicht die beste Red Flag.",
+          "term": "Bewegung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein fehlendes Ansprechen auf nichtselektive COX-Hemmer ist klinisch relevant, beweist aber keine gefährliche Ursache. Viele unspezifische Rückenschmerzen sprechen unzureichend auf einzelne Analgetika an, sodass dies nicht der stärkste Warnhinweis der Auswahl ist.",
+          "term": "NSAR-Ansprechen"
+        }
+      ]
+    },
+    "272": {
+      "topicLabel": "Yellow Flags",
+      "explanation": "Yellow Flags bei Rückenschmerzen bezeichnen psychosoziale Faktoren, die eine Chronifizierung, Arbeitsunfähigkeit oder ungünstige Krankheitsverarbeitung begünstigen können. Dazu gehören unter anderem depressive Symptome, Angst-Vermeidungs-Verhalten, Katastrophisieren, berufliche Unzufriedenheit oder passive Bewältigungsstrategien. Eine Depression ist deshalb ein klassischer yellow flag. Diabetes und arterielle Hypertonie sind somatische Begleiterkrankungen, aber keine psychosozialen Chronifizierungsfaktoren. Gewichtsverlust ist eher eine Red Flag, Psoriasis kann an eine entzündlich-rheumatische Ursache denken lassen, zählt aber nicht primär zu den yellow flags.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Diabetes mellitus kann für allgemeine Gesundheit und Komplikationsrisiken wichtig sein. Er ist jedoch kein typischer psychosozialer Risikofaktor für die Chronifizierung von Rückenschmerzen.",
+          "term": "Diabetes mellitus"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Arterielle Hypertonie ist eine häufige internistische Begleiterkrankung. Sie gehört nicht zu den yellow flags, die vor allem psychosoziale und verhaltensbezogene Chronifizierungsrisiken beschreiben.",
+          "term": "Hypertonie"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Eine Depression ist ein typischer yellow flag bei Rückenschmerzen. Sie kann Schmerzverarbeitung, Aktivitätsniveau, Therapietreue und Rückkehr in Alltag oder Beruf ungünstig beeinflussen.",
+          "term": "Depression"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Gewichtsverlust ist bei Rückenschmerzen eher als Red Flag zu verstehen, weil er an maligne, infektiöse oder systemische Erkrankungen denken lässt. Er beschreibt keinen psychosozialen Chronifizierungsfaktor.",
+          "term": "Gewichtsverlust"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Psoriasis kann ein Hinweis auf eine Psoriasisarthritis oder axiale Spondyloarthritis sein. Das ist differenzialdiagnostisch wichtig, fällt aber nicht unter die psychosozialen yellow flags.",
+          "term": "Psoriasis"
+        }
+      ]
+    },
+    "273": {
+      "topicLabel": "Tetanus-Auffrischung",
+      "explanation": "Nach vollständiger Grundimmunisierung wird die Tetanusschutzimpfung im Erwachsenenalter regelmäßig aufgefrischt. Die STIKO empfiehlt hierfür grundsätzlich Auffrischimpfungen in zehnjährigen Abständen, meist als Kombinationsimpfung mit Diphtherie und gegebenenfalls Pertussisanteil je nach Impfstatus. Eine akute Verletzung kann Anlass sein, den Impfstatus zu prüfen und bei unklarem oder nicht ausreichendem Schutz zu impfen. Die Frage zielt aber ausdrücklich auf das generelle Intervall ohne akute Verletzung. Jährliche, zweijährliche oder fünfjährige Routineintervalle sind zu eng, und ein lebenslanger Schutz ohne weitere Auffrischung besteht nicht.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine jährliche Tetanusauffrischung ist nach Grundimmunisierung nicht empfohlen. Sie würde keinen regelhaften Zusatznutzen bieten und entspricht nicht dem üblichen Impfintervall.",
+          "term": "jährliche Auffrischung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Alle zwei Jahre ist für die routinemäßige Tetanusauffrischung zu häufig. Dieses Intervall passt nicht zur allgemeinen STIKO-Empfehlung für Erwachsene.",
+          "term": "zweijährlich"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein fünfjähriger Abstand kann bei bestimmten Verletzungskonstellationen und Impfstatusbewertungen relevant werden. Für die generelle Auffrischung ohne akute Verletzung ist jedoch ein längeres Intervall vorgesehen.",
+          "term": "fünfjährlich"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die Tetanusschutzimpfung soll im Erwachsenenalter grundsätzlich alle zehn Jahre aufgefrischt werden. Dieses Intervall entspricht der Routineempfehlung nach abgeschlossener Grundimmunisierung.",
+          "term": "zehnjährlich"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Grundimmunisierung im Kindesalter vermittelt keinen sicheren lebenslangen Schutz ohne Auffrischungen. Deshalb bleiben regelmäßige Boosterimpfungen auch im Erwachsenenalter notwendig.",
+          "term": "keine Auffrischung"
+        }
+      ]
+    },
+    "274": {
+      "topicLabel": "Weber-B-Fraktur",
+      "explanation": "Bei der Patientin liegt eine nicht dislozierte Weber-B-Fraktur vor, zusätzlich bestehen eine ausgeprägte Schwellung und Druckschmerz über der Syndesmose. Nach dem Lösungsschlüssel ist hier eine Ruhigstellung mit abschwellenden Maßnahmen und eine Plattenosteosynthese im Verlauf angezeigt. Das passt zu einer Fraktur, bei der eine operative Stabilisierung geplant wird, aber wegen der Weichteilsituation zunächst keine sofortige definitive Operation erfolgen muss. Ein Tape-Verband wäre bei einer knöchernen Malleolarfraktur zu wenig stabil. Reposition, Fixateur externe oder geschlossener Cast passen nur bei anderen Konstellationen wie Luxation, hochgradiger Instabilität, offenem Schaden oder konservativ stabiler Fraktur besser.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Tape-Verband mit schmerzadaptierter Vollbelastung ist bei einer Weber-B-Fraktur nicht ausreichend, wenn eine relevante knöcherne Verletzung mit möglicher Instabilität vorliegt. Diese Maßnahme passt eher zu leichten Bandverletzungen ohne Fraktur.",
+          "term": "Tape-Verband"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein notfallmäßiger Fixateur externe ist typischerweise bei schwerem Weichteilschaden, offener Fraktur, Polytrauma oder instabiler Luxationsfraktur zu erwägen. Die beschriebene nicht dislozierte Fraktur ohne Durchblutungs- oder Sensibilitätsstörung erfordert das nicht am ehesten.",
+          "term": "Fixateur externe"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Ruhigstellung und abschwellende Maßnahmen sind bei starker Schwellung zunächst sinnvoll, bevor eine definitive operative Versorgung erfolgt. Die Plattenosteosynthese stabilisiert die Fibulafraktur im Verlauf und entspricht der gefragten Therapieoption.",
+          "term": "Plattenosteosynthese"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Reposition unter Analgosedierung ist vor allem bei Luxation oder Fehlstellung des oberen Sprunggelenks erforderlich. Hier wird ausdrücklich eine regelrechte Stellung ohne Sub- oder Luxation beschrieben.",
+          "term": "Reposition"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein geschlossener Kunststoff-Cast kann bei bestimmten stabilen Frakturen eine konservative Option sein. Bei starker Schwellung ist ein geschlossener Cast akut zudem problematisch, und laut Lösung ist die operative Stabilisierung im Verlauf vorgesehen.",
+          "term": "Kunststoff-Cast"
+        }
+      ]
+    },
+    "275": {
+      "topicLabel": "Kompartmentsyndrom",
+      "explanation": "Nach Tibiaspiralfraktur entwickelt die Patientin stärkste Schmerzen, die trotz hochpotentem Opioid nicht nachlassen, eine deutliche Schwellung und zunehmende Sensibilitätsstörungen am Fuß. Diese Kombination ist hochverdächtig auf ein akutes Kompartmentsyndrom des Unterschenkels. Typisch sind Schmerzen außer Verhältnis zum Befund, Schmerz bei passiver Dehnung, gespannte Kompartimente und frühe neurologische Symptome. Tastbare Fußpulse schließen ein Kompartmentsyndrom nicht aus, weil der Gewebedruck bereits Nerven und Mikrozirkulation gefährden kann, bevor große Arterien nicht mehr tastbar sind. Es handelt sich um einen chirurgischen Notfall, bei dem eine rasche Entlastung entscheidend sein kann.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein traumatischer Bandscheibenprolaps würde radikuläre Schmerzen und neurologische Ausfälle entlang einer Nervenwurzel erklären. Die massive lokale Unterschenkelschwellung nach Tibiafraktur mit opioidrefraktären Schmerzen passt dazu nicht.",
+          "term": "Bandscheibenprolaps"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Das Kompartmentsyndrom ist nach Unterschenkelfrakturen eine klassische und gefährliche Komplikation. Starke, analgetikarefraktäre Schmerzen, Schwellung und zunehmendes Taubheitsgefühl sind typische Warnzeichen.",
+          "term": "Kompartmentsyndrom"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine hintere Beckenringfraktur mit N.-ischiadicus-Affektion würde eher Becken- beziehungsweise dorsale Beinbeschwerden und ein anderes Verletzungsmuster erwarten lassen. Die Bildgebung zeigt hier eine Tibiaspiralfraktur, und die lokale Unterschenkelproblematik steht im Vordergrund.",
+          "term": "Beckenringfraktur"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein akuter arterieller Verschluss würde typischerweise mit Ischämiezeichen wie Pulslosigkeit, Blässe, Kälte und starken Schmerzen einhergehen. Die Fußpulse sind jedoch tastbar, und das Muster nach Fraktur spricht eher für ein Kompartmentsyndrom.",
+          "term": "arterieller Verschluss"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine nekrotisierende Fasziitis verursacht sehr starke Schmerzen und systemische Infektzeichen, entsteht aber typischerweise infektiös und nicht unmittelbar als klassische Folge einer geschlossenen Tibiafraktur. Die geschilderte akute Schwellung mit neurologischen Symptomen passt besser zum Kompartmentsyndrom.",
+          "term": "nekrotisierende Fasziitis"
+        }
+      ]
+    },
+    "276": {
+      "topicLabel": "Akute Cholangitis",
+      "explanation": "Der Patient erfüllt klinisch die typische Konstellation einer akuten Cholangitis mit Fieber, rechtsseitigem Oberbauchschmerz und Ikteruszeichen. Laborchemisch finden sich Entzündungszeichen und Cholestase beziehungsweise Leberwertanstieg, während Organfunktionsstörungen wie Gerinnungsstörung, Nierenversagen, Bewusstseinsstörung oder Schock nicht beschrieben sind. Damit handelt es sich am ehesten um eine milde bis moderate akute Cholangitis, die stationär behandelt werden sollte. Eine ambulante Behandlung wäre wegen Infektions- und Progressionsrisiko nicht angemessen. Eine schwere Cholangitis mit sofortiger Intervention oder Intensivpflicht setzt stärker ausgeprägte Organfunktionsstörungen beziehungsweise Sepsiszeichen voraus, die hier nicht vorliegen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine ambulante Behandlung mit bloßer Wiedervorstellung wäre bei Cholangitisverdacht zu riskant. Fieber, Ikterus und deutlich reduzierter Allgemeinzustand sprechen für eine stationäre Überwachung und Therapie.",
+          "term": "ambulante Behandlung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ambulante Pflege adressiert nicht das infektiöse biliäre Problem und ersetzt keine stationäre Diagnostik und Therapie. Die Cholangitis kann rasch progredient verlaufen und benötigt engmaschige Behandlung.",
+          "term": "ambulante Pflege"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Eine milde bis moderate akute Cholangitis passt zu Fieber, Oberbauchschmerz, Ikteruszeichen und Laborveränderungen ohne klare Organinsuffizienz. Stationäre Aufnahme mit antibiotischer Therapie und weiterer Abklärung ist daher angemessen.",
+          "term": "stationäre Cholangitis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine schwere akute Cholangitis mit umgehender endoskopischer Intervention wäre vor allem bei Organfunktionsstörung oder schwerer klinischer Instabilität zu erwarten. Der Patient ist wach, normoton und hat normale Gerinnung sowie normales Kreatinin.",
+          "term": "schwere Cholangitis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Cholangiosepsis mit Intensivpflicht würde Zeichen einer Sepsis mit Organversagen oder hämodynamischer Instabilität nahelegen. Diese Befunde sind in der Vignette nicht beschrieben, sodass die Einstufung zu schwer wäre.",
+          "term": "Cholangiosepsis"
+        }
+      ]
+    },
+    "277": {
+      "topicLabel": "Cholangitis-Sonografie",
+      "explanation": "Bei Verdacht auf akute Cholangitis ist die initiale Bildgebung typischerweise die transabdominelle B-Bild-Sonografie des Oberbauchs. Sie ist rasch verfügbar, nicht invasiv und kann Gallenblasensteine, Gallengangserweiterung, Cholezystitiszeichen oder andere Ursachen der Cholestase erfassen. Gerade in der Notaufnahmesituation liefert sie die erste wegweisende Information für das weitere Vorgehen. MRCP, CT oder Endosonografie können bei unklaren Befunden oder speziellen Fragestellungen folgen, sind aber nicht die erste Standarduntersuchung. Kontrastmittelsonografie ist für diese Basisfrage nicht erforderlich.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die MRCP stellt die Gallenwege sehr gut dar und ist bei unklarer Choledocholithiasis hilfreich. Als initiale Untersuchung in der akuten Situation ist jedoch die schnell verfügbare Oberbauchsonografie naheliegender.",
+          "term": "MRCP"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die B-Bild-Sonografie des Oberbauchs ist die geeignete Erstbildgebung bei Verdacht auf Cholangitis. Sie kann Gallengangsdilatationen und Konkremente beziehungsweise indirekte Hinweise auf eine biliäre Obstruktion erkennen.",
+          "term": "Oberbauchsonografie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Kontrastmittelsonografie ist für die initiale Abklärung der vermuteten biliären Obstruktion nicht erforderlich. Die Basisdiagnostik erfolgt zunächst mit der konventionellen B-Bild-Sonografie.",
+          "term": "Kontrastmittelsonografie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine abdominelle CT kann bei Komplikationen, unklarer Differenzialdiagnose oder schlechter Sonografierbarkeit sinnvoll sein. Sie ist aber nicht die erste Wahl für die initiale Abklärung einer typischen Cholangitis.",
+          "term": "CT-Abdomen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Endosonografie kann kleine distale Gallengangssteine sehr sensitiv nachweisen. Sie ist jedoch invasiver und nicht die initiale Basisbildgebung in der Notaufnahme.",
+          "term": "Endosonografie"
+        }
+      ]
+    },
+    "278": {
+      "topicLabel": "ERCP bei Cholangitis",
+      "explanation": "Bei akuter Cholangitis mit erweitertem Ductus choledochus und nachweisbaren Gallensteinen ist eine biliäre Abflussstörung wahrscheinlich. Die Methode der ersten Wahl zur Dekompression der Gallenwege ist in dieser Situation die ERCP. Sie verbindet Diagnostik und Therapie, da Steine entfernt, eine Papillotomie durchgeführt oder ein Stent eingelegt werden kann. Perkutane oder endosonografische Drainageverfahren sind wichtige Alternativen, wenn die ERCP nicht möglich oder erfolglos ist. Eine laparoskopische Revision oder Stoßwellenlithotrypsie sind nicht die primären Dekompressionsverfahren bei akuter Cholangitis.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine endosonografisch gesteuerte Gallengangsableitung kann in spezialisierten Situationen eine Alternative sein, insbesondere nach fehlgeschlagener ERCP. Sie ist aber nicht die Standardmethode der ersten Wahl zur Dekompression.",
+          "term": "EUS-Drainage"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die PTCD kann die Gallenwege effektiv drainieren, wird aber eher eingesetzt, wenn eine ERCP nicht möglich, nicht verfügbar oder erfolglos ist. Als primäres Verfahren ist bei erreichbarer Papille die ERCP vorzuziehen.",
+          "term": "PTCD"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die ERCP ist bei obstruktiver Cholangitis die Methode der ersten Wahl zur biliären Dekompression. Sie ermöglicht zugleich Steinextraktion, Sphinkterotomie und gegebenenfalls Stenteinlage.",
+          "term": "ERCP"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine laparoskopische Revision der Gallenwege ist deutlich invasiver und nicht das primäre Notfallverfahren zur Dekompression. Zunächst wird endoskopisch über die ERCP behandelt, wenn dies möglich ist.",
+          "term": "laparoskopische Revision"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Stoßwellenlithotrypsie ist keine Standardmethode zur akuten Dekompression der Gallenwege bei Cholangitis. Sie beseitigt nicht zuverlässig und rasch die infektiöse Obstruktion.",
+          "term": "Stoßwellenlithotrypsie"
+        }
+      ]
+    },
+    "279": {
+      "topicLabel": "ERCP-Komplikation",
+      "explanation": "Die relevante Aufklärung vor einer ERCP umfasst typische Komplikationen des endoskopisch-papillären Eingriffs. Eine akute post-ERCP-Pankreatitis ist eine bekannte und wichtige Nebenwirkung beziehungsweise Komplikation. Sie entsteht durch mechanische, hydrostatische, chemische oder thermische Reizung im Bereich der Papille und des Pankreasgangs. Im Fall ist die ERCP zudem die Methode der ersten Wahl zur Dekompression, sodass genau diese Komplikation besonders prüfungsrelevant ist. Die übrigen Antwortoptionen verknüpfen Komplikationen weniger typisch oder weniger passend mit den jeweiligen Verfahren.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine akute Pankreatitis nach ERCP ist eine klassische und klinisch relevante Komplikation. Sie muss bei der Aufklärung zur endoskopischen Dekompression der Gallenwege berücksichtigt werden.",
+          "term": "post-ERCP-Pankreatitis"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Blutungen oder Hämatome der Leber passen typischer eher zu perkutan-transhepatischen Zugängen als zu einer laparoskopischen Revision als typische Aufklärungskomplikation. Die Zuordnung in dieser Antwort ist daher nicht die beste.",
+          "term": "Leberhämatom"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Leberabszess kann als infektiöse Komplikation grundsätzlich vorkommen, ist aber nicht die typische Leitschädigung der endosonografisch gesteuerten Gallengangsableitung in dieser Prüfungsfrage. Relevanter sind verfahrensabhängig Blutung, Perforation, Stentprobleme oder Infektionen.",
+          "term": "Leberabszess"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Bei PTCD stehen Komplikationen wie Blutung, Galleleck, Cholangitis oder Katheterprobleme im Vordergrund. Eine Gallengangsstenose ist nicht die typischste unmittelbare Aufklärungskomplikation dieser Dekompressionsmethode.",
+          "term": "PTCD-Komplikation"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Ruptur der Gallenblase ist nicht die klassische typische Nebenwirkung, die hier zur Stoßwellenlithotrypsie bei biliärer Dekompression abgefragt wird. Zudem ist die Stoßwellenlithotrypsie nicht die Methode der ersten Wahl in dieser akuten Cholangitis-Konstellation.",
+          "term": "Gallenblasenruptur"
+        }
+      ]
+    },
+    "280": {
+      "topicLabel": "Cholangitis-Antibiose",
+      "explanation": "Bei akuter Cholangitis sollte die empirische Antibiotikatherapie typische biliäre Erreger abdecken, insbesondere gramnegative Enterobakterien und je nach Situation auch weitere Darmflora. Unter den angebotenen Monotherapeutika ist Ceftriaxon am ehesten geeignet, weil es eine relevante gramnegative Abdeckung besitzt und häufig bei biliären Infektionen eingesetzt werden kann. Die endgültige Therapie richtet sich nach Schweregrad, lokalen Resistenzdaten, Vorbehandlung, Allergien und mikrobiologischen Befunden. Erythromycin, Clindamycin, Vancomycin und Daptomycin decken das erwartete Erregerspektrum einer Cholangitis als Monotherapie nicht ausreichend ab. Daher ist Ceftriaxon die beste Antwort der Auswahl.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Erythromycin ist ein Makrolid und deckt typische biliäre gramnegative Enterobakterien nicht zuverlässig als Monotherapie ab. Für eine empirische Cholangitistherapie ist es daher ungeeignet.",
+          "term": "Erythromycin"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Clindamycin wirkt vor allem gegen grampositive Erreger und Anaerobier, aber nicht ausreichend gegen viele gramnegative Darmbakterien. Als alleinige empirische Therapie einer Cholangitis wäre diese Abdeckung zu schmal.",
+          "term": "Clindamycin"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Vancomycin richtet sich vor allem gegen grampositive Erreger einschließlich bestimmter resistenter Staphylokokken und Enterokokken. Es erfasst gramnegative Enterobakterien nicht und ist deshalb als Monotherapie bei Cholangitis nicht geeignet.",
+          "term": "Vancomycin"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Ceftriaxon deckt viele relevante gramnegative Erreger ab und ist unter den genannten Optionen das am besten geeignete empirische Monotherapeutikum. Bei schwereren oder speziellen Konstellationen kann eine breitere oder kombinierte Therapie erforderlich sein, aber die Frage fragt nach der besten Option aus der Liste.",
+          "term": "Ceftriaxon"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Daptomycin wirkt gegen grampositive Erreger und ist für pneumonische Infektionen nicht geeignet, aber vor allem fehlt ihm hier die gramnegative Abdeckung. Als empirische Monotherapie einer biliären Infektion ist es daher nicht passend.",
+          "term": "Daptomycin"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,745 @@
+{
+  "examId": "m2-2025a-staatsexamen",
+  "questions": {
+    "281": {
+      "topicLabel": "Rezidivprophylaxe Cholangitis",
+      "explanation": "Die akute Cholangitis entsteht häufig auf dem Boden einer Choledocholithiasis, also durch einen Gallensteinabgang aus der Gallenblase mit Abflussbehinderung im Ductus choledochus. Nach antibiotischer Behandlung und endoskopischer Dekompression ist die akute Episode zwar beherrscht, die Steinquelle bleibt bei belassener Gallenblase jedoch bestehen. Eine Cholezystektomie senkt daher am ehesten das Risiko weiterer Steinereignisse und damit weiterer Cholangitiden. Allgemeine kardiometabolische Maßnahmen können langfristig sinnvoll sein, verhindern aber das konkrete biliäre Rezidiv nicht zuverlässig. Ein dauerhaft belassener Choledochusstent ist ohne entsprechende Indikation keine kausale Rezidivprophylaxe und kann selbst Komplikationen begünstigen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Gewichtsreduktion kann das Gallensteinrisiko grundsätzlich beeinflussen und ist bei Übergewicht gesundheitlich sinnvoll. Für den Patienten nach durchgemachter Cholangitis beseitigt sie aber nicht die vorhandene Gallenblase als Quelle weiterer Steine. Als unmittelbare Rezidivprophylaxe ist sie daher nicht die beste Maßnahme.",
+          "term": "Gewichtsabnahme"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Erhöhte Cholesterinwerte sind kein geeigneter kurzfristiger therapeutischer Angriffspunkt zur Verhinderung einer erneuten Cholangitis. Eine Lipidsenkung kann kardiovaskulär indiziert sein, entfernt aber keine Gallensteine und verhindert keinen erneuten Steinabgang aus der Gallenblase. Sie ist deshalb nicht die naheliegende Rezidivprophylaxe.",
+          "term": "Cholesterinsenkung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine antihypertensive Therapie ist bei arterieller Hypertonie wichtig, hat aber keinen direkten Bezug zur Pathogenese der Cholangitis. Die Erkrankung wird durch biliäre Obstruktion und bakterielle Infektion getrieben, nicht durch den Blutdruck. Damit adressiert diese Maßnahme nicht die Rezidivursache.",
+          "term": "Blutdrucktherapie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Stent im Ductus choledochus kann bei Abflussstörung oder als überbrückende Maßnahme sinnvoll sein. Zur dauerhaften Rezidivvermeidung bei steinbedingter Cholangitis ist er jedoch nicht kausal, weil die Gallenblase weiterhin Steine liefern kann. Zudem kann ein Stent verstopfen oder selbst Ausgangspunkt erneuter Infektionen werden.",
+          "term": "Choledochusstent"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Die Cholezystektomie entfernt die Gallenblase als typische Quelle von Konkrementen, die erneut in den Hauptgallengang gelangen können. Nach erfolgreicher Akuttherapie und Gallengangsdekompression ist sie daher die sinnvollste Maßnahme zur Verhinderung weiterer biliärer Ereignisse. Sie passt direkt zur vermuteten steinbedingten Ursache der Cholangitis.",
+          "term": "Cholezystektomie"
+        }
+      ]
+    },
+    "282": {
+      "topicLabel": "Diabetesdiagnostik",
+      "explanation": "Bei Polyurie, Polydipsie und Leistungsminderung besteht klinisch ein starker Verdacht auf Diabetes mellitus. Ein Nüchtern-Plasmaglukosewert von 8,5 mmol/L liegt im diabetischen Bereich und erhärtet die Diagnose unter den angebotenen Befunden am besten. Ein Gelegenheitswert von 8 mmol/L ist für sich genommen zu niedrig, um bei einmaliger Messung diagnostisch überzeugend zu sein. Auch der angegebene 2-Stunden-Wert im oralen Glukosetoleranztest erreicht nicht den diabetischen Bereich. HbA1c und fehlende Glukosurie sprechen in den genannten Ausprägungen eher nicht für einen manifesten Diabetes.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Gelegenheits-Plasmaglukosewert von 8 mmol/L ist erhöht, aber nicht ausreichend typisch für die Diagnose eines Diabetes mellitus. Gerade bei einer Einzelmessung muss der Wert klar im diabetischen Bereich liegen oder durch weitere Befunde bestätigt werden. Dieser Befund erklärt die Beschwerden daher weniger überzeugend als der Nüchternwert.",
+          "term": "Gelegenheitsglukose"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Ein Nüchtern-Plasmaglukosewert von 8,5 mmol/L liegt oberhalb des diagnostischen Schwellenbereichs für Diabetes mellitus. In Kombination mit Polyurie, Polydipsie und Leistungsknick passt dies sehr gut zur Verdachtsdiagnose. Unter den Antwortmöglichkeiten ist dies der stärkste diagnostische Hinweis.",
+          "term": "Nüchternglukose"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Der 2-Stunden-Wert von 9,5 mmol/L im oralen Glukosetoleranztest ist pathologisch möglich, liegt aber nicht im diabetischen Bereich. Er kann auf eine gestörte Glukosetoleranz hinweisen, erhärtet den Diabetesverdacht jedoch nicht am ehesten. Gegenüber dem klar erhöhten Nüchternwert ist er weniger beweisend.",
+          "term": "oGTT"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein HbA1c-Wert von 5,4 % liegt nicht im diabetischen Bereich. Er passt eher zu einer normalen mittleren Glukosestoffwechsellage in den zurückliegenden Wochen. Als Befund zur Erhärtung der Verdachtsdiagnose ist er daher ungeeignet.",
+          "term": "HbA1c"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine nicht nachweisbare Glukose im Urin stützt die Diagnose Diabetes mellitus nicht. Glukosurie kann bei Hyperglykämie auftreten, ihr Fehlen schließt Diabetes zwar nicht sicher aus, ist aber kein positiver Diagnosehinweis. Dieser Befund erhärtet den Verdacht deshalb am wenigsten.",
+          "term": "Glukosurie"
+        }
+      ]
+    },
+    "283": {
+      "topicLabel": "Pseudomonas-Ausbruch",
+      "explanation": "Mehrere postoperative Wundinfektionen mit einem Carbapenemase-bildenden Pseudomonas aeruginosa innerhalb kurzer Zeit sprechen für ein relevantes nosokomiales Ausbruchsgeschehen. Vordringlich ist zunächst, die Weiterübertragung von bereits positiv getesteten Patientinnen auf andere Patientinnen zu verhindern. Dafür sind Isolierung beziehungsweise Kohortierung mit konsequenter Umsetzung von Kontakt- und Basishygiene die naheliegende Sofortmaßnahme. Allgemeine Maskenpflicht oder ein pauschaler Schutzkittel für die gesamte Station zielen weniger präzise auf den typischen Übertragungsweg. Personal- oder Desinfektionsmittelfragen können im Ausbruchsmanagement geprüft werden, stehen aber nicht vor der unmittelbaren Unterbrechung der Transmission.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Maskenpflicht ist bei aerogen oder tröpfchenübertragenen Erregern besonders relevant. Pseudomonas aeruginosa wird im Krankenhauskontext bei Wundinfektionen vor allem über Kontakt, feuchte Reservoire oder kontaminierte Hände beziehungsweise Materialien weitergegeben. Deshalb ist eine generelle Maskenpflicht nicht die vordringlichste Maßnahme.",
+          "term": "Maskenpflicht"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die Isolierung oder Kohortierung positiv getesteter Patientinnen reduziert direkte und indirekte Kontakte zu nicht betroffenen Patientinnen. Bei einem multiresistenten beziehungsweise Carbapenemase-bildenden Erreger ist die schnelle Unterbrechung von Übertragungsketten zentral. Diese Maßnahme ist daher im akuten Ausbruch am ehesten vordringlich.",
+          "term": "Kohortierung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Personalscreening kann in besonderen Ausbruchssituationen erwogen werden, ist aber bei Pseudomonas aeruginosa nicht automatisch die erste Maßnahme. Häufiger sind Umwelt-, Wasser- oder Kontaktübertragungen sowie Defizite in der Basishygiene relevant. Zunächst müssen bekannte positive Patientinnen isoliert und weitere Übertragungen verhindert werden.",
+          "term": "Personalscreening"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Wechsel auf ein phenolhaltiges Flächendesinfektionsmittel ist nicht die naheliegende Standardreaktion auf diesen Ausbruch. Entscheidend sind die korrekte Anwendung geeigneter Desinfektionsverfahren und die Suche nach möglichen Reservoiren. Ein bloßer Produktwechsel ohne klare Ursache adressiert das akute Transmissionsproblem nicht gezielt.",
+          "term": "Flächendesinfektion"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Schutzkittel können Teil von Kontaktisolierungsmaßnahmen bei betroffenen Patientinnen sein. Ein pauschales Anlegen eines Schutzkittels beim Betreten der gesamten Station ist jedoch weniger zielgerichtet als die Isolierung oder Kohortierung der nachgewiesen positiven Fälle. Die Maßnahme muss risikobasiert an den Patientenkontakt gekoppelt werden.",
+          "term": "Schutzkittel"
+        }
+      ]
+    },
+    "284": {
+      "topicLabel": "Vorhofflimmern",
+      "explanation": "Der unregelmäßige Puls bei einem älteren Patienten mit Belastungsdyspnoe und diskreten Ödemen passt am ehesten zu einer absoluten Arrhythmie, typischerweise im Rahmen von Vorhofflimmern. Im EKG zeigt sich dabei ein unregelmäßig-unregelmäßiger Kammerabstand ohne geordnete Sinusp-Wellen. Die klinische Verschlechterung kann durch die Rhythmusstörung und eine dadurch begünstigte kardiale Dekompensation mitbedingt sein. Eine Sinusarrhythmie wäre meist physiologisch oder atemabhängig und weniger passend zum Gesamtbild. AV-Blockierungen und Vorhofflattern haben charakteristischere Leitungs- beziehungsweise Flattermuster und erklären die angegebene absolute Unregelmäßigkeit weniger gut.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Sinusarrhythmie ist eine Rhythmusvariation aus dem Sinusknoten, oft atemabhängig und besonders bei jüngeren Menschen physiologisch. Dabei bleiben Sinusp-Wellen grundsätzlich vorhanden und der Rhythmus folgt einem erkennbaren Muster. Das passt schlechter zu einem älteren Patienten mit auffällig unregelmäßigem Puls und klinischer Belastungsminderung.",
+          "term": "Sinusarrhythmie"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Eine absolute Arrhythmie beschreibt einen völlig unregelmäßigen Kammerhythmus und ist klassisch bei Vorhofflimmern. Der in der Praxis bemerkte unregelmäßige Puls passt dazu sehr gut. Bei älteren Patienten kann neu aufgetretenes Vorhofflimmern Leistungsabfall, Belastungsdyspnoe und Zeichen einer beginnenden Stauung begünstigen.",
+          "term": "absolute Arrhythmie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Beim AV-Block II Typ Wenckebach verlängert sich die PQ-Zeit typischerweise schrittweise, bis eine Überleitung ausfällt. Dadurch entsteht zwar eine Unregelmäßigkeit, aber ein charakteristisches periodisches Muster. Die Fallbeschreibung zielt eher auf eine absolute, nicht periodische Arrhythmie.",
+          "term": "Wenckebach-Block"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein AV-Block III führt zu einer vollständigen Dissoziation von Vorhof- und Kammererregung. Klinisch stünden häufig Bradykardie, Schwindel oder Synkopen im Vordergrund, abhängig vom Ersatzrhythmus. Ein bloß unregelmäßiger Puls mit dem naheliegenden Bild von Vorhofflimmern passt besser zur absoluten Arrhythmie.",
+          "term": "AV-Block III"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Vorhofflattern zeigt im EKG typischerweise regelmäßige Flatterwellen und häufig eine regelmäßige oder nur regelhaft wechselnde Überleitung. Es kann unregelmäßig wirken, ist aber nicht der klassische Befund einer absoluten Arrhythmie. Ohne Hinweis auf typische Flatterwellen ist Vorhofflimmern beziehungsweise absolute Arrhythmie wahrscheinlicher.",
+          "term": "Vorhofflattern"
+        }
+      ]
+    },
+    "285": {
+      "topicLabel": "Epiduralhämatom",
+      "explanation": "Der junge Patient stürzt mit dem Kopf auf Asphalt, ist zunächst wieder handlungsfähig und verliert dann nach einem freien Intervall plötzlich das Bewusstsein. Dieses sogenannte luzide Intervall ist klassisch für ein epidurales Hämatom, häufig nach arterieller Blutung zwischen Schädelknochen und Dura. Bei raumforderndem epiduralem Hämatom ist die rasche operative Entlastung über eine Kraniotomie die Therapie der Wahl. Ein akutes Subduralhämatom hat einen anderen typischen Mechanismus und wird nicht primär durch einfache Bohrlochtrepanation behandelt. Chronische Subduralhämatome, traumatische Subarachnoidalblutungen und nicht raumfordernde Kontusionen passen weder zur Dynamik noch zur angegebenen Therapiezuordnung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ein Epiduralhämatom zeigt klassisch ein freies Intervall nach initialem Trauma, gefolgt von rascher Bewusstseinseintrübung. Bei jungen Patienten nach Schädeltrauma ist dies eine besonders wichtige Differenzialdiagnose. Die operative Entlastung über Kraniotomie ist bei relevantem raumforderndem Befund die passende Therapie.",
+          "term": "Epiduralhämatom"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein akutes Subduralhämatom entsteht typischerweise durch venöse Brückenvenenverletzungen oder schwere Schädel-Hirn-Traumata. Es zeigt nicht klassisch das kurze luzide Intervall eines epiduralen Hämatoms. Zudem ist die einfache Bohrlochtrepanation eher typisch für chronische Subduralhämatome als für ein akutes raumforderndes Subduralhämatom.",
+          "term": "akutes Subduralhämatom"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein chronisches Subduralhämatom entwickelt sich verzögert über Tage bis Wochen, häufig bei älteren oder antikoagulierten Patienten. Der plötzliche Bewusstseinsverlust kurz nach dem Trauma passt dazu nicht. Eine dekompressive Hemikraniektomie ist außerdem nicht die typische Standardtherapie eines chronischen Subduralhämatoms.",
+          "term": "chronisches Subduralhämatom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine traumatische Subarachnoidalblutung kann nach Kopfverletzung auftreten, erklärt aber das klassische freie Intervall weniger gut. Clipping ist vor allem eine Therapie bei rupturiertem intrakraniellem Aneurysma, nicht bei traumatischer Subarachnoidalblutung. Die Diagnose-Therapie-Kombination ist daher nicht stimmig.",
+          "term": "traumatische SAB"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine nicht raumfordernde Kontusionsblutung würde typischerweise nicht die sofortige operative Entlastung über Bohrlochtrepanation erfordern. Bei fehlender Raumforderung steht meist Überwachung und konservatives Vorgehen im Vordergrund. Die akute Verschlechterung nach luzidem Intervall spricht deutlich eher für ein epidurales Hämatom.",
+          "term": "Kontusionsblutung"
+        }
+      ]
+    },
+    "286": {
+      "topicLabel": "Postoperatives Ödem",
+      "explanation": "Nach Hüft-TEP-Implantation können ausgeprägte Schwellungen der operierten Extremität durch postoperative Weichteilreaktion und gestörten Lymphabfluss entstehen. Da Duplexsonografie, Beinachse, Hüftfunktion und Prothesenlage unauffällig sind, stehen Thrombose, Luxation oder Prothesenproblem hier nicht im Vordergrund. Unter physikalisch-rehabilitativen Gesichtspunkten kann die manuelle Lymphdrainage den Lymphabfluss fördern und die Schwellung lindern. Wärmetherapie und Immobilisation wären bei einer frischen postoperativen Schwellung eher ungünstig. Diuretika oder Heparinsalbe adressieren die lokale postoperative Lymph- und Weichteilschwellung nicht gezielt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Heparinsalbe wird gelegentlich bei oberflächlichen Hämatomen oder Venenbeschwerden eingesetzt. Eine ausgedehnte postoperative Schwellung nach Hüft-TEP mit unauffälliger Venendiagnostik wird dadurch aber nicht ursächlich behandelt. Rehabilitativ ist sie der Lymphdrainage unterlegen.",
+          "term": "Heparinsalbe"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Manuelle Lymphdrainage ist eine physikalische Maßnahme zur Förderung des Lymphabflusses. Nach Operationen kann sie bei lokaler Schwellung und Weichteilödem hilfreich sein, wenn gefährliche Ursachen wie Thrombose oder Prothesenfehllage ausgeschlossen sind. Damit passt sie am besten zur geschilderten Situation.",
+          "term": "Lymphdrainage"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Wärmetherapie kann Durchblutung und Entzündungsreaktion steigern und ist bei frischer postoperativer Schwellung nicht die naheliegende Maßnahme. Sie kann Schmerzen in anderen Kontexten lindern, adressiert aber das Ödem nicht gezielt. Bei postoperativer Weichteilschwellung ist Entstauung sinnvoller.",
+          "term": "Wärmetherapie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Furosemid wirkt systemisch diuretisch und ist bei generalisierten Flüssigkeitsretentionen oder kardiorenalen Ursachen relevant. Die Patientin hat jedoch ein lokales postoperatives Bein- und Hüftödem ohne Hinweis auf eine systemische Volumenüberladung. Eine Diuretikatherapie wäre daher nicht die passende rehabilitative Maßnahme.",
+          "term": "Furosemid"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Immobilisation kann nach Hüft-TEP Muskelabbau, Gelenksteife und thromboembolische Risiken fördern. Bei korrekter Prothesenlage und regelrechter Funktion besteht kein Grund, die Patientin wegen der Schwellung zu immobilisieren. Frühfunktionelle Rehabilitation und Entstauung sind hier sinnvoller.",
+          "term": "Immobilisation"
+        }
+      ]
+    },
+    "287": {
+      "topicLabel": "Ovarialkarzinom-Chemotherapie",
+      "explanation": "Beim fortgeschrittenen Ovarialkarzinom nach erfolgreicher Operation ist eine platinbasierte Kombinationschemotherapie Standard. Die klassische Kombination besteht aus Carboplatin und Paclitaxel. Paclitaxel ergänzt das Platinpräparat als Taxan und ist in dieser Situation die passende Substanz unter den angebotenen Optionen. Die übrigen Substanzen können in anderen onkologischen Situationen relevant sein, bilden hier aber nicht den therapeutischen Goldstandard mit Carboplatin. Entscheidend ist die adjuvante Systemtherapie nach operativer Tumorreduktion beim fortgeschrittenen epithelialen Ovarialkarzinom.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Doxorubicin ist ein Anthrazyklin und wird in verschiedenen Tumorentitäten eingesetzt. Beim fortgeschrittenen Ovarialkarzinom ist es jedoch nicht der klassische Standardpartner von Carboplatin in der adjuvanten Erstlinientherapie. Die Kombination Carboplatin plus Paclitaxel ist hier typischer.",
+          "term": "Doxorubicin"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Tamoxifen ist ein Antiöstrogen und vor allem aus der Hormontherapie hormonrezeptorpositiver Mammakarzinome bekannt. Es ist nicht der Standardkombinationspartner zu Carboplatin nach Operation eines fortgeschrittenen Ovarialkarzinoms. Eine zytotoxische platin-taxanbasierte Therapie ist in diesem Kontext entscheidend.",
+          "term": "Tamoxifen"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Bleomycin spielt eher bei bestimmten Keimzelltumoren oder anderen speziellen Protokollen eine Rolle. Für die adjuvante Standardtherapie des fortgeschrittenen epithelialen Ovarialkarzinoms in Kombination mit Carboplatin ist es nicht die gesuchte Substanz. Hier ist ein Taxan gefragt.",
+          "term": "Bleomycin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Cyclophosphamid ist ein Alkylans und historisch in vielen Chemotherapiekonzepten verwendet worden. Es ist aber nicht der heutige typische Goldstandardpartner zu Carboplatin beim fortgeschrittenen Ovarialkarzinom. Paclitaxel passt deutlich besser zur gängigen Erstlinienkombination.",
+          "term": "Cyclophosphamid"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Paclitaxel ist ein Taxan und bildet zusammen mit Carboplatin die etablierte platin-taxanbasierte Standardchemotherapie beim fortgeschrittenen Ovarialkarzinom. Nach operativer Behandlung wird diese Kombination häufig adjuvant eingesetzt. Damit ist Paclitaxel die gesuchte Substanz.",
+          "term": "Paclitaxel"
+        }
+      ]
+    },
+    "288": {
+      "topicLabel": "GI-Tumorprävention",
+      "explanation": "Gefragt ist die am wenigsten geeignete Maßnahme zur evidenzbasierten Risikominimierung von Tumoren des Verdauungssystems. Für die Allgemeinbevölkerung gibt es keine reguläre Bauchspeicheldrüsenkrebsvorsorge mittels Endosonografie; ein solches Vorgehen bleibt besonderen Hochrisikokonstellationen vorbehalten. Nikotinkarenz, Darmkrebsvorsorge und die Abklärung beziehungsweise Behandlung relevanter Infektionsrisiken haben dagegen eine plausible und evidenzbasierte präventive Bedeutung. Bei einem kürzlich aus der Türkei zugezogenen Patienten kann auch die Hepatitis-B-Serologie sinnvoll sein, weil daraus Impf-, Kontroll- oder Therapieentscheidungen zur Reduktion des Leberkrebsrisikos folgen können. Die Endosonografie des Pankreas wäre ohne spezielle familiäre oder genetische Risikokonstellation am wenigsten geeignet.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Nikotinkarenz senkt das Risiko verschiedener Tumorerkrankungen, darunter auch Tumoren des oberen Gastrointestinaltrakts. Sie ist zudem breit gesundheitsförderlich und evidenzbasiert. Damit ist sie nicht die am wenigsten geeignete Maßnahme.",
+          "term": "Nikotinkarenz"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Helicobacter pylori ist ein relevanter Risikofaktor für Magenkarzinome. Bei Nachweis kann eine Eradikationstherapie das weitere Risiko senken und ist daher eine sinnvolle präventive Maßnahme. Diese Option ist deutlich plausibler als ein allgemeines Pankreasscreening.",
+          "term": "H.-pylori-Eradikation"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Koloskopie ist eine etablierte Maßnahme der Darmkrebsvorsorge. Sie kann Vorläuferläsionen erkennen und entfernen sowie Karzinome früher diagnostizieren. Bei einem 56-jährigen Patienten ist dies grundsätzlich eine geeignete Vorsorgemaßnahme.",
+          "term": "Koloskopie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Hepatitis-B-Abklärung kann bei entsprechender Herkunfts- oder Risikokonstellation sinnvoll sein. Aus dem Ergebnis können Impfung, weitere Diagnostik oder Behandlung folgen, wodurch das Risiko eines hepatozellulären Karzinoms beeinflusst werden kann. Sie ist daher nicht die am wenigsten geeignete Option.",
+          "term": "HBV-Serologie"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Eine Vorsorge auf Pankreaskarzinom mittels Endosonografie ist für Personen ohne definierte Hochrisikosituation nicht als allgemeines Screening etabliert. Der Fall nennt keine familiäre Belastung, kein genetisches Syndrom und keine sonstige spezielle Hochrisikokonstellation. Deshalb ist diese Maßnahme zur evidenzbasierten Risikominimierung am wenigsten geeignet.",
+          "term": "Pankreasscreening"
+        }
+      ]
+    },
+    "289": {
+      "topicLabel": "Präeklampsierisiko",
+      "explanation": "Mehrere der genannten Faktoren sind bekannte Risikofaktoren für eine Präeklampsie. Dazu gehören insbesondere Antiphospholipid-Syndrom, höheres mütterliches Alter, Erstgravidität und Adipositas. Eine mehrjährige Kontrazeptiva-Einnahme in der Jugend ist dagegen kein typischer relevanter Risikofaktor für die spätere Entwicklung einer Präeklampsie. Die Frage fragt nach dem Faktor, der am wenigsten beiträgt, sodass gerade dieser anamnestische Punkt gesucht ist. Die übrigen Angaben erhöhen die klinische Aufmerksamkeit und würden in der Risikoeinschätzung berücksichtigt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Antiphospholipid-Syndrom ist mit plazentaren Komplikationen und hypertensiven Schwangerschaftserkrankungen assoziiert. Es zählt zu den relevanten Risikofaktoren für Präeklampsie. Deshalb trägt dieser Faktor nicht am wenigsten zum Risiko bei.",
+          "term": "Antiphospholipid-Syndrom"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein mütterliches Alter über 35 Jahre gilt als Risikofaktor für Schwangerschaftskomplikationen einschließlich Präeklampsie. Bei der 43-jährigen Patientin ist dieser Punkt daher klinisch relevant. Er ist nicht der am wenigsten beitragende Faktor.",
+          "term": "mütterliches Alter"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Erstgravidität ist ein klassischer Risikofaktor für Präeklampsie. Immunologische Anpassungsprozesse in der ersten Schwangerschaft werden dabei als ein Teil der Erklärung angesehen. Dieser Faktor würde also in der Risikoanamnese berücksichtigt.",
+          "term": "Erstgravidität"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Adipositas mit deutlich erhöhtem Body-Mass-Index steigert das Risiko für Präeklampsie. Sie ist außerdem mit weiteren metabolischen und vaskulären Schwangerschaftsrisiken verbunden. Daher ist dieser Befund für die Risikoeinschätzung relevant.",
+          "term": "Adipositas"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Eine mehrjährige Kontrazeptiva-Einnahme in der Jugend ist kein typischer eigenständiger Risikofaktor für Präeklampsie in der aktuellen Schwangerschaft. Sie erklärt weder die plazentare Dysfunktion noch das maternale vaskuläre Risiko in relevanter Weise. Unter den genannten Faktoren trägt sie daher am wenigsten bei.",
+          "term": "frühere Kontrazeption"
+        }
+      ]
+    },
+    "290": {
+      "topicLabel": "Trisomie 21",
+      "explanation": "Die klinischen Zeichen mit ansteigenden Lidachsen, flachem Mittelgesicht, Vierfingerfurchen und Sandalenlücke sprechen für ein Down-Syndrom. Bei einem männlichen Säugling ist die klassische freie Trisomie 21 zytogenetisch als 47,XY,+21 formuliert. Die Gesamtchromosomenzahl beträgt dabei 47, weil ein zusätzliches Chromosom 21 vorhanden ist. Die Formel muss außerdem zum männlichen Geschlecht passen. Robertson-Translokationen oder unplausible Chromosomenzahlen erklären die vorliegende Standardkonstellation nicht so passend wie 47,XY,+21.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "45,XY,der(21;21)(q10;q10) beschreibt eine Robertson-Translokation unter Beteiligung von Chromosom 21, aber nicht die klassische freie Trisomieformel. In dieser Schreibweise ist die Gesamtchromosomenzahl nicht die für eine freie Trisomie 21 erwartete 47. Für die klinische Verdachtsdiagnose beim männlichen Säugling ist 47,XY,+21 stimmiger.",
+          "term": "der(21;21)"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "45,XY,der(13;21)(q10;q10) weist auf eine Robertson-Translokation zwischen den Chromosomen 13 und 21 hin. Diese Formel entspricht nicht der typischen freien Trisomie 21 mit zusätzlichem Chromosom 21. Sie ist daher nicht die beste Bestätigung des klinisch vermuteten Down-Syndroms in diesem Fall.",
+          "term": "der(13;21)"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Angabe 46,XY,+21 ist als freie Trisomie 21 nicht schlüssig, weil ein zusätzliches Chromosom die Gesamtzahl auf 47 erhöhen würde. Eine korrekte Standardformel muss Chromosomenzahl, Geschlecht und Zusatzchromosom konsistent abbilden. Deshalb ist diese Option nicht am ehesten zutreffend.",
+          "term": "inkonsistente Formel"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "47,XY,+21 bedeutet männlicher Karyotyp mit einem zusätzlichen Chromosom 21. Das entspricht der klassischen freien Trisomie 21 und passt zur klinischen Verdachtsdiagnose Down-Syndrom. Diese Formel ist daher die gesuchte zytogenetische Bestätigung.",
+          "term": "47,XY,+21"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "47,XX,+21 beschreibt zwar eine freie Trisomie 21, aber bei weiblichem chromosomalem Geschlecht. Der Säugling wird im Fall als Sohn vorgestellt, sodass ein XY-Karyotyp erwartet wird. Die Formel passt deshalb nicht zu Maxim.",
+          "term": "47,XX,+21"
+        }
+      ]
+    },
+    "291": {
+      "topicLabel": "Zoster-Impfung",
+      "explanation": "Bei einer 71-jährigen Patientin ist die Impfung gegen Herpes zoster grundsätzlich sinnvoll, sofern keine akute Gegenanzeige besteht. Ein akuter fieberhafter Infekt mit Fieber über 38,5 °C ist ein Grund, eine Impfung zunächst zu verschieben. Es handelt sich dabei nicht unbedingt um ein dauerhaftes Impfverbot, aber am Vorstellungstag sollte am ehesten keine Impfung erfolgen. Neurodermitis, frühere Fieberkrämpfe, eine Lungenteilresektion oder ein zurückliegender Herpes zoster sprechen nicht grundsätzlich gegen die Zoster-Impfung. Entscheidend ist also die akute fieberhafte Erkrankung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein atopisches Ekzem beziehungsweise eine Neurodermitis ist keine generelle Kontraindikation gegen die Zoster-Impfung. Bei stabilem Hautbefund kann in der Regel geimpft werden. Diese Anamnese wäre daher kein Grund, am ehesten auf die Impfung zu verzichten.",
+          "term": "Neurodermitis"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Fieber über 38,5 °C spricht für eine akute relevante Erkrankung. In dieser Situation sollte eine Impfung üblicherweise verschoben werden, bis die Patientin wieder gesund ist. Deshalb ist dies die Angabe, bei der am ehesten keine Impfung erfolgen sollte.",
+          "term": "akutes Fieber"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Fieberkrämpfe in der Anamnese sind vor allem in der Pädiatrie bei bestimmten Impfentscheidungen zu bedenken, stellen aber bei einer 71-jährigen Patientin keine typische Kontraindikation gegen die Zoster-Impfung dar. Eine sorgfältige Aufklärung ist möglich, ein genereller Verzicht jedoch nicht angezeigt. Damit ist diese Option nicht gesucht.",
+          "term": "Fieberkrämpfe"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Zustand nach Lungenteilresektion ist keine spezifische Kontraindikation gegen die Herpes-zoster-Impfung. Je nach Grunderkrankung kann Impfschutz sogar besonders wichtig sein. Aus dieser Angabe folgt daher nicht, dass keine Impfung erfolgen sollte.",
+          "term": "Lungenteilresektion"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine bereits durchgemachte Herpes-Zoster-Erkrankung schließt eine spätere Impfung nicht grundsätzlich aus. Rezidive sind möglich, und die Impfung kann weiterhin präventiv sinnvoll sein, wenn die akute Erkrankung abgeklungen ist. Ein Zoster vor 2 Jahren ist daher kein naheliegender Ausschlussgrund.",
+          "term": "früherer Zoster"
+        }
+      ]
+    },
+    "292": {
+      "topicLabel": "Sekundärprävention",
+      "explanation": "Krebsfrüherkennungsuntersuchungen dienen dazu, eine Erkrankung oder ihre Vorstufen in einem frühen, meist noch asymptomatischen Stadium zu entdecken. Damit handelt es sich klassisch um Sekundärprävention. Beim Zervixkarzinom sollen Screeningverfahren pathologische Veränderungen früh identifizieren, bevor ein fortgeschrittenes Karzinom entsteht oder symptomatisch wird. Primärprävention würde die Entstehung einer Erkrankung verhindern, etwa durch Risikoreduktion oder Impfung. Tertiärprävention setzt dagegen nach bereits manifester Erkrankung an, um Folgen, Progression oder Rezidive zu vermindern.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Primärprävention verhindert das Entstehen einer Erkrankung, bevor sie vorhanden ist. Beispiele wären Risikovermeidung oder Impfungen gegen krankheitsauslösende Faktoren. Eine Krebsfrüherkennung sucht dagegen bereits entstandene Vorstufen oder frühe Erkrankungen.",
+          "term": "Primärprävention"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Sekundärprävention bedeutet Früherkennung einer Erkrankung oder ihrer Vorstufen. Genau dies leisten Krebsfrüherkennungsuntersuchungen wie das Zervixkarzinom-Screening. Ziel ist die frühzeitige Diagnose und Behandlung vor fortgeschrittener Manifestation.",
+          "term": "Sekundärprävention"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Tertiärprävention richtet sich an Menschen mit bereits manifester Erkrankung. Sie soll Komplikationen, Folgeschäden, Chronifizierung oder Rezidive vermindern. Eine Screeninguntersuchung bei Gesunden oder asymptomatischen Personen gehört nicht in diese Kategorie.",
+          "term": "Tertiärprävention"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Verhaltensprävention zielt auf individuelles Verhalten, etwa Ernährung, Bewegung oder Tabakkonsum. Krebsfrüherkennung beschreibt jedoch primär den Zeitpunkt und Zweck der Maßnahme im Präventionsschema. Sie ist daher nicht die beste Einordnung.",
+          "term": "Verhaltensprävention"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Verhältnisprävention verändert Rahmenbedingungen, etwa Arbeits-, Umwelt- oder Lebensbedingungen. Ein individuelles Screeningprogramm zur Früherkennung wird dadurch nicht treffend beschrieben. Die korrekte präventionsmedizinische Kategorie ist Sekundärprävention.",
+          "term": "Verhältnisprävention"
+        }
+      ]
+    },
+    "293": {
+      "topicLabel": "Hirnmetastase",
+      "explanation": "Ein erstmaliger generalisierter epileptischer Anfall bei einem 67-jährigen starken Raucher ist verdächtig auf eine strukturelle intrakranielle Läsion, insbesondere eine Hirnmetastase. Die rechtsseitige Gesichtsfeldeinschränkung spricht neuroanatomisch für eine links okzipitale Läsion, da die Sehrinde beziehungsweise Sehbahnanteile kontralaterale Gesichtsfeldanteile repräsentieren. Unter Berücksichtigung der angegebenen MRT-Bildgebung ist daher eine Hirnmetastase links okzipital am wahrscheinlichsten. Ein Hirninfarkt könnte zwar ein okzipitales Gesichtsfelddefizit verursachen, erklärt aber den tumorverdächtigen Kontext und die Bildkonstellation weniger gut. Hirnabszesse wären eher bei infektiösen Zeichen oder passender Anamnese zu erwarten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Hirnabszess kann epileptische Anfälle und fokale Defizite verursachen. Im Fall fehlen jedoch Fieber, Kopfschmerzen, Meningismus oder eine naheliegende Infektionsquelle. Bei starkem Raucher und passender MRT-Konstellation ist eine Metastase wahrscheinlicher.",
+          "term": "Hirnabszess okzipital"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Eine links okzipitale Hirnmetastase erklärt die rechtsseitige Gesichtsfeldeinschränkung sehr gut. Metastasen können sich durch erstmalige epileptische Anfälle präsentieren, besonders bei älteren Patienten mit Tumorrisiko wie starkem Nikotinkonsum. Diese Lokalisation und Diagnose passen daher am besten zum Gesamtbild.",
+          "term": "Metastase okzipital"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein links okzipitaler Hirninfarkt kann ebenfalls eine rechtsseitige homonyme Gesichtsfeldstörung verursachen. Die Präsentation mit generalisiertem Krampfanfall und die im Fall angeführte MRT-Konstellation sprechen jedoch eher für eine raumfordernde Läsion. Zudem fehlen typische Angaben zu einem akuten vaskulären Syndrom als führender Diagnose.",
+          "term": "Hirninfarkt"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine links parietale Hirnmetastase könnte fokal-neurologische Symptome und Anfälle verursachen. Die Gesichtsfeldeinschränkung nach rechts passt aber am unmittelbarsten zu einer links okzipitalen Läsion. Daher ist die parietale Lokalisation weniger stimmig.",
+          "term": "Metastase parietal"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein links parietaler Hirnabszess ist aus zwei Gründen weniger wahrscheinlich: Die infektiöse Klinik fehlt, und die Lokalisation passt schlechter zur beschriebenen Gesichtsfeldstörung. Ein Abscess wäre außerdem anamnestisch häufig durch Entzündungszeichen oder eine Infektionsquelle gestützt. Die Metastase links okzipital ist daher plausibler.",
+          "term": "Abszess parietal"
+        }
+      ]
+    },
+    "294": {
+      "topicLabel": "Leichenschau",
+      "explanation": "Bei einem mutmaßlichen Erhängen liegt ein Hinweis auf eine nicht natürliche Todesart vor, auch wenn die Vorgeschichte Suizidalität plausibel macht. In dieser Situation darf die Ärztin die Leichenschau nicht routinemäßig weiterführen, sondern muss sie unterbrechen und die zuständigen Behörden beziehungsweise Polizei informieren. Die sicheren Todeszeichen belegen den Tod, ersetzen aber nicht die rechtliche Einordnung der Todesart. Das Muster der Totenflecken mit betonten abhängigen Körperpartien passt eher zu einer hängenden Position als zu einem Tod im Sitzen. Die zeitlichen Angaben des Sohnes sind mit vollständig ausgebildeter Totenstarre und nicht wegdrückbaren Totenflecken grundsätzlich vereinbar.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Bei Anhaltspunkten für eine nicht natürliche Todesart, wie hier dem Erhängen, ist die Leichenschau zu unterbrechen. Die Ärztin soll den Fundort nicht weiter verändern und die zuständigen Stellen einschalten. Dies gilt auch dann, wenn ein Suizid aufgrund der Vorgeschichte wahrscheinlich erscheint.",
+          "term": "Unterbrechung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die Todesart ist nicht deshalb ungeklärt, weil konkrete Hinweise auf ein Fremdverschulden bestehen. Die Angaben und Befunde sprechen zunächst eher für ein Erhängen bei suizidaler Vorgeschichte. Entscheidend ist aber, dass schon der Verdacht auf eine nicht natürliche Todesart die Unterbrechung der Leichenschau erforderlich macht.",
+          "term": "ungeklärte Todesart"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Handschuh- und strumpfhosenartige Totenflecke mit Aussparung des Rumpfes passen zu abhängigen Extremitäten, wie sie bei hängender Körperposition auftreten können. Bei einem Tod in sitzender Position wäre ein anderes Verteilungsmuster zu erwarten. Die Befundbeschreibung stützt daher nicht primär einen sitzenden Tod.",
+          "term": "Totenflecken"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Nicht wegdrückbare Totenflecke und vollständig ausgebildete Totenstarre können mit einer Liege- beziehungsweise Todeszeit von mehr als 24 Stunden vereinbar sein. Die Angaben des Sohnes sind daher nicht offensichtlich durch die sicheren Todeszeichen widerlegt. Aus diesem Grund ist diese Aussage nicht am ehesten zutreffend.",
+          "term": "Todeszeit"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Atypisches Erhängen bezieht sich insbesondere auf ungewöhnliche Lage des Aufhängepunktes oder Teilaufhängung. Die geschilderte frei hängende Auffindesituation und die symmetrisch ansteigende Strangmarke mit freiem Nacken passen eher zu einem typischen Erhängungsbild. Deshalb ist diese Aussage nicht die beste Antwort.",
+          "term": "atypisches Erhängen"
+        }
+      ]
+    },
+    "295": {
+      "topicLabel": "Akuter Schlaganfall",
+      "explanation": "Der Patient hat ein schweres linkshemisphärisches Schlaganfallsyndrom mit globaler Aphasie, Blickwendung nach links und rechtsbetonter brachiofazialer Hemiparese. Die Nativ-CT zeigt keine Blutung und nur frühe ischämische Zeichen, sodass unmittelbar die Frage nach einem großen arteriellen Verschluss geklärt werden muss. Eine CT-Angiografie ist hierfür schnell verfügbar und entscheidend für die weitere Akuttherapieplanung, insbesondere die Prüfung einer endovaskulären Rekanalisation. Da der Symptombeginn bekannt und sehr kurz zurückliegt, steht nicht primär eine MRT-basierte Wake-up- oder Mismatch-Diagnostik im Vordergrund. Duplexsonografie und kontrastmittelgestützte Tumordiagnostik wären in dieser Notfallsituation zu langsam beziehungsweise nicht zielführend.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Perfusions-Diffusions-Mismatch in der MRT kann bei bestimmten Schlaganfallkonstellationen hilfreich sein, vor allem wenn das Zeitfenster oder die Gewebesituation unklar ist. Hier liegt jedoch ein akutes schweres Syndrom mit bekanntem kurzem Zeitverlauf vor. Die unmittelbar entscheidende Frage ist der Nachweis eines großen Gefäßverschlusses per CT-Angiografie.",
+          "term": "Perfusions-MRT"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Diffusions-FLAIR-Mismatch wird besonders bei unklarem Symptombeginn, etwa Wake-up-Stroke, genutzt. In diesem Fall ist der Beginn um 4 Uhr angegeben und die Vorstellung erfolgt kurz danach. Daher ist diese MRT-Frage nicht die vordringlichste Untersuchung.",
+          "term": "DWI-FLAIR-Mismatch"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die CT-Angiografie kann rasch zeigen, ob ein intra- oder extrakranieller arterieller Verschluss vorliegt. Bei schwerem linkshemisphärischem Defizit ist der Nachweis eines großen Gefäßverschlusses therapeutisch hoch relevant. Deshalb ist sie nach Nativ-CT unmittelbar vordringlich.",
+          "term": "CT-Angiografie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine kontrastmittelgestützte CT mit der Frage nach pathologischem Enhancement dient eher der Abklärung von Tumoren, Entzündungen oder anderen strukturellen Läsionen. Beim akuten Schlaganfall mit typischer Klinik und unauffälliger Blutungsdiagnostik beantwortet sie nicht die dringendste therapeutische Frage. Ein Gefäßverschluss muss zuerst gesucht werden.",
+          "term": "Kontrastmittel-CT"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Duplexsonografie der extrakraniellen hirnversorgenden Arterien kann im Verlauf wichtige Informationen liefern. Sie erfasst aber nicht zuverlässig und schnell genug alle relevanten intrakraniellen Verschlüsse und ist in der Akutentscheidung der CT-Angiografie unterlegen. Daher ist sie nicht unmittelbar vordringlich.",
+          "term": "Karotisduplex"
+        }
+      ]
+    },
+    "296": {
+      "topicLabel": "Akuter Winkelblock",
+      "explanation": "Das klinische Bild ist hochtypisch für einen akuten Winkelblock, also einen Glaukomanfall. Starke Sehverschlechterung, Halos, Kopfschmerzen, Übelkeit, gerötetes Auge, mittelweite lichtstarre Pupille, flache Vorderkammer und ein palpatorisch harter Bulbus sprechen für einen akut erhöhten Augeninnendruck. Die vergrößernden Brillengläser deuten zudem auf Hyperopie hin, die anatomisch mit einer flacheren Vorderkammer und Winkelblockneigung einhergehen kann. Die übrigen Glaukomformen verlaufen meist chronischer oder haben andere Risikoprofile und Befundmuster. In dieser Situation ist der akute Winkelblock die dringliche Verdachtsdiagnose.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ein akuter Winkelblock verursacht einen plötzlichen starken Anstieg des Augeninnendrucks. Typisch sind rotes schmerzhaftes Auge, Sehverschlechterung mit Halos, Kopfschmerzen, Übelkeit, mittelweite lichtstarre Pupille und flache Vorderkammer. Diese Konstellation wird im Fall nahezu klassisch beschrieben.",
+          "term": "Winkelblock"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Das Normaldruckglaukom ist eine chronische Optikusneuropathie trotz statistisch normalem Augeninnendruck. Es führt nicht typischerweise zu akutem roten Auge, Übelkeit, harter Bulbuspalpation und lichtstarrer mittelweiter Pupille. Daher passt es nicht zur Notfallsituation.",
+          "term": "Normaldruckglaukom"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Das Pigmentdispersionsglaukom betrifft eher jüngere, oft myope Patienten und entsteht durch Pigmentablagerungen im Kammerwinkel. Der Fall beschreibt dagegen eine flache Vorderkammer und Hinweise auf Hyperopie. Die akute Symptomatik passt deutlich besser zum Winkelblock.",
+          "term": "Pigmentglaukom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Das primäre Offenwinkelglaukom verläuft meist schleichend und lange asymptomatisch. Akute starke Schmerzen, Halos, Übelkeit und ein sehr harter Bulbus sind dafür nicht typisch. Die abgeflachte Vorderkammer spricht zudem gegen ein Offenwinkelproblem.",
+          "term": "Offenwinkelglaukom"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Das Pseudoexfoliationsglaukom ist häufig eine sekundäre Offenwinkelglaukomform bei älteren Menschen. Es kann den Augeninnendruck erhöhen, präsentiert sich aber nicht klassisch mit flacher Vorderkammer und akutem Winkelblockbild. Die geschilderten Symptome sprechen stärker für den Glaukomanfall.",
+          "term": "Pseudoexfoliation"
+        }
+      ]
+    },
+    "297": {
+      "topicLabel": "Brown-Séquard-Syndrom",
+      "explanation": "Die Patientin zeigt Zeichen einer spinalen Halbseitenläsion: rechts eine pyramidenbahnartige Parese mit gesteigerten Reflexen und positivem Babinski-Zeichen, dazu links eine Störung des Schmerzempfindens unterhalb der Mamille. Dieses Muster entspricht einem Brown-Séquard-Syndrom, bei dem motorische und Hinterstrangfunktionen ipsilateral sowie Schmerz- und Temperaturempfinden kontralateral betroffen sein können. Der frühere vorübergehende Visusverlust mit afferenter Pupillenstörung passt zusätzlich zu einer demyelinisierenden Erkrankung als möglicher Ursache, gefragt ist aber das klinische Syndrom. Wallenberg-, Spinalis-anterior-, Elsberg- und Bing-Neel-Syndrom erklären die gekreuzte spinale Symptomatik nicht so gut. Entscheidend ist die Kombination aus ipsilateraler Pyramidenbahnläsion und kontralateraler Schmerzstörung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Das Wallenberg-Syndrom ist ein laterales Medullärsyndrom im Hirnstamm. Typisch wären Hirnnervenbefunde, Ataxie, Horner-Syndrom und gekreuzte sensible Ausfälle im Gesicht und Körper. Die hier beschriebene Rückenmarkshalbseiten-Symptomatik passt dazu nicht.",
+          "term": "Wallenberg-Syndrom"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Beim Brown-Séquard-Syndrom liegt eine Halbseitenläsion des Rückenmarks vor. Ipsilateral treten Pyramidenbahnzeichen und motorische Ausfälle auf, während kontralateral Schmerz- und Temperaturempfinden unterhalb der Läsion gestört sein können. Genau diese Konstellation zeigt die Patientin.",
+          "term": "Brown-Séquard"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Das Spinalis-anterior-Syndrom betrifft vor allem die vorderen zwei Drittel des Rückenmarks. Erwartet werden bilaterale motorische Ausfälle sowie Schmerz- und Temperaturstörungen, während Hinterstrangqualitäten eher geschont bleiben. Die einseitige Brown-Séquard-Verteilung passt nicht dazu.",
+          "term": "Spinalis anterior"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Das Elsberg-Syndrom ist eine lumbosakrale Radikulomyelitis, häufig mit Blasenstörung, radikulären Schmerzen und sakralen Ausfällen. Eine thorakale Halbseitenläsion mit Pyramidenbahnzeichen und kontralateraler Schmerzstörung ist dafür nicht typisch. Diese Option erklärt den Befund daher schlechter.",
+          "term": "Elsberg-Syndrom"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Das Bing-Neel-Syndrom bezeichnet eine ZNS-Beteiligung bei Morbus Waldenström. Es ist selten und würde nicht primär das klassische Muster einer Rückenmarkshalbseitenläsion beschreiben. Für die klinische Syndromdiagnose ist Brown-Séquard wesentlich passender.",
+          "term": "Bing-Neel-Syndrom"
+        }
+      ]
+    },
+    "298": {
+      "topicLabel": "Alzheimer-Therapie",
+      "explanation": "Bei einer Alzheimer-Erkrankung mit einem Mini-Mental-Status von 24 Punkten liegt eine leichte Demenz nahe. Für leichte bis mittelschwere Alzheimer-Demenz sind Cholinesterasehemmer wie Donepezil zugelassen und typischerweise indiziert. Donepezil kann kognitive Symptome stabilisieren oder deren Fortschreiten verlangsamen, ohne die Erkrankung zu heilen. Die anderen genannten Medikamente behandeln keine Alzheimer-Demenz und einige haben anticholinerge oder sedierende Effekte, die die Kognition verschlechtern können. Daher ist Donepezil die passende Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Promethazin wirkt sedierend und antihistaminerg und kann anticholinerge Nebenwirkungen haben. Bei Demenz kann dies Verwirrtheit und kognitive Einschränkungen verstärken. Es ist nicht zur Behandlung der Alzheimer-Kernsymptomatik indiziert.",
+          "term": "Promethazin"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Biperiden ist ein Anticholinergikum, das beispielsweise bei Parkinson-Symptomen oder extrapyramidalen Störungen eingesetzt werden kann. Anticholinerge Wirkungen sind bei Alzheimer-Demenz ungünstig, weil cholinerge Defizite bereits zur Symptomatik beitragen. Es ist daher nicht indiziert.",
+          "term": "Biperiden"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Amitriptylin ist ein trizyklisches Antidepressivum mit ausgeprägten anticholinergen und sedierenden Eigenschaften. Gerade bei älteren Menschen mit Demenz kann es Kognition, Sturzrisiko und Delirneigung verschlechtern. Es ist keine zugelassene Alzheimer-Therapie.",
+          "term": "Amitriptylin"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Donepezil ist ein Cholinesterasehemmer und zur symptomatischen Behandlung der leichten bis mittelschweren Alzheimer-Demenz zugelassen. Bei einem MMST von 24 Punkten passt die Patientin in den Bereich, in dem diese Therapie typischerweise erwogen wird. Damit ist Donepezil hier am ehesten indiziert.",
+          "term": "Donepezil"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Amlodipin ist ein Kalziumkanalblocker zur Behandlung arterieller Hypertonie und anderer kardiovaskulärer Indikationen. Es hat keine spezifische Zulassung zur Behandlung der Alzheimer-Demenz. Eine Blutdrucktherapie ersetzt keine antidementive Therapie.",
+          "term": "Amlodipin"
+        }
+      ]
+    },
+    "299": {
+      "topicLabel": "Evidenzgrad A",
+      "explanation": "Ein Empfehlungsgrad A steht in der evidenzbasierten Medizin für eine starke Empfehlung und beruht typischerweise auf hochwertiger Evidenz. Am besten passt dazu ein gut durchgeführter systematischer Review randomisierter klinischer Studien mit Meta-Analyse. Randomisierte Studien minimieren viele Verzerrungen besser als Beobachtungsstudien, und systematische Reviews bündeln die Evidenz methodisch nachvollziehbar. Kohorten- und Fall-Kontroll-Studien können wichtig sein, erreichen aber für Therapieempfehlungen meist eine niedrigere Evidenzstufe. Expertenkonsens und Fallberichte sind deutlich schwächer und begründen allein keinen Empfehlungsgrad A.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Systematische Reviews von Kohortenstudien können wertvolle Evidenz liefern, bleiben aber beobachtend. Für therapeutische Wirksamkeitsfragen gelten randomisierte kontrollierte Studien in der Regel als belastbarer. Daher ist diese Option nicht die beste Grundlage für Empfehlungsgrad A.",
+          "term": "Kohortenreviews"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Fall-Kontroll-Studien sind beobachtende Studien und besonders anfällig für bestimmte Verzerrungen, auch wenn sie gut durchgeführt sind. Sie können Assoziationen untersuchen, liefern aber meist keine höchste Evidenz für Therapieempfehlungen. Für Empfehlungsgrad A sind RCT-Reviews stimmiger.",
+          "term": "Fall-Kontroll-Studien"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Systematische Reviews randomisierter klinischer Studien mit Meta-Analyse stellen eine sehr hochwertige Evidenzbasis für therapeutische Empfehlungen dar. Sie bündeln kontrollierte Studiendaten und erhöhen die Aussagekraft, sofern methodisch sauber durchgeführt. Das passt am ehesten zu einem Empfehlungsgrad A.",
+          "term": "RCT-Metaanalyse"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Expertenkonsens kann hilfreich sein, wenn direkte Evidenz fehlt oder Empfehlungen eingeordnet werden müssen. Er ersetzt jedoch keine hochwertige empirische Evidenz aus randomisierten Studien. Alleiniger Konsens begründet typischerweise keine A-Empfehlung.",
+          "term": "Expertenkonsens"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Fallberichte stehen in der Evidenzhierarchie weit unten, auch wenn sie in renommierten Zeitschriften erscheinen. Sie können Hypothesen erzeugen, aber keine belastbare Wirksamkeitsbeurteilung liefern. Für einen Empfehlungsgrad A sind sie ungeeignet.",
+          "term": "Fallberichte"
+        }
+      ]
+    },
+    "300": {
+      "topicLabel": "Vulvakarzinom-Therapie",
+      "explanation": "Bei einem histologisch bestätigten Vulvakarzinom mit 3 cm Ausdehnung ohne Fernmetastasierung ist eine operative Therapie mit ausreichender lokaler Radikalität zentral. Da die Läsion an der Labia minora bis nahe an die Klitoris reicht, ist wegen der möglichen beidseitigen lymphatischen Drainage ein inguinofemorales Lymphknotenstaging beidseits naheliegend. Die radikale lokale Exzision kombiniert die lokale Tumorkontrolle mit der notwendigen Stadienklärung der Leistenlymphknoten. Laserablation oder lokale 5-Fluorouracil-Therapie wären eher bei präinvasiven Läsionen beziehungsweise nicht für ein invasives Karzinom dieser Größe geeignet. Primäre Radio- oder Radiochemotherapie ist hier ohne Hinweis auf Inoperabilität oder sehr fortgeschrittene lokale Situation nicht die Therapie der Wahl.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Laserenukleation ist für ein invasives Vulvakarzinom mit 3 cm Ausdehnung keine ausreichende Standardtherapie. Sie würde insbesondere das notwendige Lymphknotenstaging nicht abbilden. Bei invasivem Tumor ist eine onkologisch radikale Operation erforderlich.",
+          "term": "Laserenukleation"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Topisches 5-Fluorouracil kann bei bestimmten intraepithelialen oder oberflächlichen Läsionen eine Rolle spielen. Ein histologisch gesichertes invasives Vulvakarzinom dieser Größe wird damit nicht adäquat behandelt. Zudem bliebe das regionäre Lymphknotenrisiko unberücksichtigt.",
+          "term": "5-Fluorouracil"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die radikale lokale Exzision entfernt den Tumor mit onkologischer Zielsetzung und erhält nach Möglichkeit Funktion und Anatomie. Wegen der Nähe zur Mittellinie beziehungsweise Klitorisregion ist ein beidseitiges inguinofemorales Lymphknotenstaging sinnvoll. Diese Kombination entspricht hier am ehesten der Therapie der Wahl.",
+          "term": "Exzision mit Staging"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine primäre Radiochemotherapie wird eher bei nicht primär operablen, sehr ausgedehnten oder speziellen Situationen erwogen. Der Fall beschreibt ein 3 cm großes Vulvakarzinom ohne Fernmetastasierung, bei dem eine operative Strategie naheliegt. Bleomycin ist zudem nicht der typische Standardanker dieser Situation.",
+          "term": "Radiochemotherapie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine alleinige lokale Radiotherapie würde weder die histologische Resektion noch das operative Lymphknotenstaging ersetzen. Sie ist nicht die primäre Therapie der Wahl für das hier beschriebene operable invasive Vulvakarzinom. Die chirurgische Behandlung ist daher vorzuziehen.",
+          "term": "Radiotherapie"
+        }
+      ]
+    }
+  }
+}

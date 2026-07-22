@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Merge enrich-batches/batch-*-output.json into altfragen-bank.json."""
+"""Merge enrich-batches-*/batch-*-output.json into altfragen-bank.json."""
 from __future__ import annotations
 
+import argparse
 import json
 import sys
 from datetime import datetime, timezone
@@ -10,8 +11,6 @@ from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parents[2]
 BANK = ROOT / 'website' / 'data' / 'altfragen-bank.json'
-BATCH_DIR = ROOT / 'website' / 'scripts' / 'enrich-batches'
-EXAM_ID = 'm2-ss26-f26-gedaechtnisprotokoll'
 
 
 def links(term: str):
@@ -24,13 +23,24 @@ def links(term: str):
 
 
 def main() -> int:
-    outputs = sorted(BATCH_DIR.glob('batch-*-output.json'))
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--exam-id', required=True)
+    ap.add_argument('--batch-dir', required=True, help='Directory with batch-*-output.json')
+    args = ap.parse_args()
+
+    batch_dir = Path(args.batch_dir)
+    if not batch_dir.is_absolute():
+        batch_dir = ROOT / batch_dir
+    outputs = sorted(batch_dir.glob('batch-*-output.json'))
     if not outputs:
-        print('No output batches found', file=sys.stderr)
+        print(f'No output batches in {batch_dir}', file=sys.stderr)
         return 1
 
     data = json.loads(BANK.read_text())
-    exam = next(e for e in data['exams'] if e['id'] == EXAM_ID)
+    exam = next((e for e in data['exams'] if e['id'] == args.exam_id), None)
+    if not exam:
+        print(f'Exam not found: {args.exam_id}', file=sys.stderr)
+        return 1
     by_num = {q['number']: q for q in exam['questions']}
     now = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
 
@@ -39,13 +49,12 @@ def main() -> int:
     for path in outputs:
         payload = json.loads(path.read_text())
         questions = payload.get('questions') or {}
-        # allow list or dict
         if isinstance(questions, list):
             items = {str(q['number']): q for q in questions}
         else:
             items = questions
         for num_str, row in items.items():
-            num = int(num_str if not isinstance(row, dict) or 'number' not in row else row.get('number', num_str))
+            num = int(row.get('number', num_str) if isinstance(row, dict) else num_str)
             if num not in by_num:
                 errors.append(f'{path.name}: missing Q{num}')
                 continue
@@ -75,7 +84,6 @@ def main() -> int:
             if not ok:
                 continue
             if len(rats) != len(q['options']):
-                # fill missing with short stubs
                 have = {r['index'] for r in rats}
                 for i, opt in enumerate(q['options']):
                     if i in have:
@@ -85,9 +93,9 @@ def main() -> int:
                         'index': i,
                         'correct': correct,
                         'text': (
-                            f"Richtig ({chr(65+i)}): {opt}."
+                            f'Richtig ({chr(65+i)}): {opt}.'
                             if correct
-                            else f"Falsch ({chr(65+i)}): {opt} — nicht die markierte Lösung."
+                            else f'Falsch ({chr(65+i)}): {opt} — nicht die markierte Lösung.'
                         ),
                         'links': links(opt if str(opt).strip() not in ('?', '') else (row.get('topicLabel') or 'M2')),
                     })
@@ -110,18 +118,18 @@ def main() -> int:
     exam['updatedAt'] = now
     data['updatedAt'] = now
     BANK.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
-    print(f'updated {len(updated)} questions from {len(outputs)} batches')
+    print(f'updated {len(updated)} questions from {len(outputs)} batches for {args.exam_id}')
     if errors:
         print(f'{len(errors)} issues:')
-        for e in errors[:40]:
+        for e in errors[:50]:
             print(' -', e)
-        if len(errors) > 40:
-            print(f' ... +{len(errors)-40} more')
-    missing = [q['number'] for q in exam['questions'] if (q.get('explanationMeta') or {}).get('source') != 'cursor']
+    missing = [
+        q['number']
+        for q in exam['questions']
+        if (q.get('explanationMeta') or {}).get('source') != 'cursor'
+    ]
     print('still not cursor-enriched:', len(missing))
-    if missing[:20]:
-        print(' examples:', missing[:20])
-    return 0 if updated else 1
+    return 0 if len(updated) else 1
 
 
 if __name__ == '__main__':

@@ -1,0 +1,745 @@
+{
+  "examId": "m2-2025a-staatsexamen",
+  "questions": {
+    "181": {
+      "topicLabel": "SSRI-Absetzen",
+      "explanation": "Escitalopram gehört zu den SSRI und kann beim Absetzen unangenehme Absetzsymptome verursachen, etwa Schwindel, Schlafstörungen, Reizbarkeit oder grippeähnliche Beschwerden. Diese Symptome bedeuten aber nicht automatisch, dass nach ICD-10 eine Abhängigkeit vorliegt. Für eine Abhängigkeit müssten mehrere Kriterien wie Kontrollverlust, starker Substanzdrang, Toleranzentwicklung, fortgesetzter Gebrauch trotz Schaden und Entzugssymptome in einem entsprechenden Muster erfüllt sein. Antidepressiva werden nicht wegen eines Rauscheffekts eingenommen und führen typischerweise nicht zu suchtartigem Konsumverhalten. Daher ist die korrekte Beratung: Absetzsymptome können auftreten, reichen allein aber nicht für die Diagnose einer Abhängigkeit aus.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine ZNS-Wirkung allein begründet keine Abhängigkeit. Viele Psychopharmaka wirken zentralnervös, aber die ICD-10-Abhängigkeitsdiagnose erfordert ein spezifisches Verhaltens- und Symptomcluster, nicht nur eine pharmakologische Wirkung im Gehirn.",
+          "term": "ZNS-Wirkung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Das Alter bis 25 Jahre ist kein Kriterium, das eine Antidepressiva-Abhängigkeit definiert. Bei jüngeren Patienten können unter Antidepressiva andere Risiken besonders beachtet werden, dies macht Abhängigkeit aber weder wahrscheinlich noch auf diese Altersgruppe beschränkt.",
+          "term": "Altersabhängigkeit"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Angabe eines Abhängigkeitsrisikos von etwa 50 % ist für SSRI nicht zutreffend. Sie verwechselt vermutlich häufige Absetzbeschwerden mit einer Abhängigkeit im diagnostischen Sinn.",
+          "term": "falsche Risikoangabe"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein längerfristiger Eingriff in die serotonerge Neurotransmission erklärt mögliche Anpassungsreaktionen und Absetzsymptome, aber nicht automatisch eine Suchterkrankung. Gerade bei SSRI fehlen typische Merkmale wie euphorisierende Wirkung, Dosissteigerungsdrang und suchtartiger Kontrollverlust.",
+          "term": "serotonerge Anpassung"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Absetzsymptome allein reichen für die Diagnose einer Abhängigkeit nicht aus. Entscheidend ist, ob weitere ICD-10-Kriterien wie Craving, Kontrollverlust, Toleranzentwicklung und fortgesetzter Konsum trotz schädlicher Folgen erfüllt sind; das ist bei SSRI in der Regel nicht der Fall.",
+          "term": "Absetzsymptome"
+        }
+      ]
+    },
+    "182": {
+      "topicLabel": "Maligne Katatonie",
+      "explanation": "Die maligne Katatonie ist ein psychiatrisch-neurologischer Notfall mit katatoner Symptomatik, Fieber und vegetativer Entgleisung. Benzodiazepine, insbesondere Lorazepam, sind ein zentraler erster Therapieschritt, können aber bei schweren Verläufen unzureichend wirken. Nach erfolgloser hochdosierter Benzodiazepinbehandlung ist die Elektrokonvulsionstherapie die wichtigste und am besten etablierte Eskalationsbehandlung. Bei vital bedrohlicher Katatonie wird sie rasch durchgeführt, häufig bitemporal, weil ein schneller und zuverlässiger Effekt angestrebt wird. Die anderen genannten Verfahren sind für diese Situation nicht etabliert oder pharmakologisch nicht plausibel.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Tiefenhirnstimulation des Nucleus accumbens ist keine Akuttherapie der malignen Katatonie. Sie wird in anderen neuropsychiatrischen Spezialindikationen diskutiert, ist aber für ein fieberhaft-vegetativ entgleistes katatones Zustandsbild nicht die naheliegende Behandlung.",
+          "term": "Tiefenhirnstimulation"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Transkranielle Magnetstimulation ist nicht die Standardeskalation bei maligner Katatonie. Sie kann bei ausgewählten psychiatrischen Störungen eine Rolle spielen, erreicht aber nicht die therapeutische Bedeutung und Akutwirksamkeit der Elektrokonvulsionstherapie in dieser Notfallsituation.",
+          "term": "TMS"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Promethazin ist ein sedierendes Antihistaminikum mit anticholinergen Eigenschaften und keine spezifische Therapie der malignen Katatonie. Eine hochdosierte intravenöse Gabe würde die Ursache des Zustandsbildes nicht behandeln und könnte Nebenwirkungen zusätzlich verstärken.",
+          "term": "Promethazin"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die bitemporale Elektrokonvulsionstherapie ist nach unzureichendem Ansprechen auf Benzodiazepine die am ehesten indizierte Therapie. Sie ist besonders bei schwerer, lebensbedrohlicher oder maligner Katatonie etabliert, weil eine rasche Remission angestrebt wird.",
+          "term": "Elektrokonvulsionstherapie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine intrathekale Mirtazapininfusion ist kein etabliertes oder plausibles Verfahren zur Behandlung einer Katatonie. Mirtazapin ist ein Antidepressivum und wird nicht intrathekal zur Akuttherapie katatoner Zustände eingesetzt.",
+          "term": "Mirtazapin intrathekal"
+        }
+      ]
+    },
+    "183": {
+      "topicLabel": "Suizidalität Jugendlicher",
+      "explanation": "Nach Stabilisierung einer möglichen Medikamentenintoxikation muss bei Jugendlichen aktiv an einen Suizidversuch gedacht werden. Suizidalität soll direkt, ruhig und konkret erfragt werden; dadurch werden suizidale Gedanken nicht induziert, sondern das Risiko wird besser einschätzbar. Bei geäußerter Suizidalität oder auch begründetem Verdacht ist ein kinder- und jugendpsychiatrisches Konsil erforderlich. Die weitere Versorgung hängt dann von Risiko, Schutzfaktoren, familiärem Umfeld und Behandlungsbereitschaft ab. Eine bloße Entlassung mit Beobachtungsauftrag oder nur eine Elternberatung wäre nach einem potenziellen Suizidversuch nicht ausreichend.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Suizidalität nicht direkt anzusprechen ist ein häufiger, aber gefährlicher Irrtum. Das direkte Erfragen erhöht das Risiko nicht, sondern ermöglicht eine strukturierte Gefährdungseinschätzung und passende Hilfen.",
+          "term": "direktes Fragen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Das Jugendamt kann bei Hinweisen auf Kindeswohlgefährdung wichtig sein, ersetzt aber keine akute psychiatrische Einschätzung nach möglichem Suizidversuch. Vorrangig ist hier die Abklärung der Suizidalität und des unmittelbaren Selbstgefährdungsrisikos.",
+          "term": "Jugendamt"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine alleinige Beobachtung durch Sorgeberechtigte und eine hausärztliche Vorstellung in der nächsten Woche wären zu niedrigschwellig. Nach Medikamentenintoxikation mit möglicher suizidaler Absicht muss das Risiko zeitnah fachpsychiatrisch eingeordnet werden.",
+          "term": "ambulante Verzögerung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Das sichere Verwahren von Medikamenten ist eine sinnvolle präventive Maßnahme, aber keine ausreichende Intervention nach einem möglichen Suizidversuch. Es fehlt dabei die diagnostische Klärung der Suizidalität und die Planung weiterer Schutzmaßnahmen.",
+          "term": "Medikamentensicherung"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Suizidalität soll direkt erfragt werden, sobald die somatische Stabilisierung erfolgt ist. Bei Vorliegen oder Verdacht ist ein kinder- und jugendpsychiatrisches Konsil angezeigt, um Gefährdung, Behandlungsbedarf und Schutzkonzept zu beurteilen.",
+          "term": "KJP-Konsil"
+        }
+      ]
+    },
+    "184": {
+      "topicLabel": "Todesursachenkaskade",
+      "explanation": "Im Leichenschauschein soll die Todesursachenkaskade logisch vom unmittelbaren Todeseintritt über Zwischenursachen bis zum Grundleiden dargestellt werden. Im Fall ist der Patient unter dem Bild einer dekompensierten Herzinsuffizienz verstorben, die Folge der bekannten dilatativen Kardiomyopathie ist. Da eine genauere Ätiologie der Kardiomyopathie nicht gesichert ist, kann die Genese als unklar angegeben werden. Unspezifische Begriffe wie Multiorganversagen, Altersschwäche oder zentrales Regulationsversagen sind als Kausalkette weniger geeignet, wenn ein konkretes kardiales Grundleiden bekannt ist. Auch das fehlende Spenderorgan ist kein medizinisches Grundleiden, sondern eine Versorgungs- bzw. Therapiesituation.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Multiorganversagen ist häufig eine unspezifische Endstrecke und beschreibt nicht ausreichend die eigentliche Kausalkette. Zudem ist die intensivmedizinische Behandlung keine plausible Krankheitsursache der Herzinsuffizienz in diesem Fall.",
+          "term": "Multiorganversagen"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die Kette aus dekompensierter Herzinsuffizienz als unmittelbarer Todesursache, dilatativer Kardiomyopathie als zugrunde liegender Erkrankung und unklarer Genese als Ätiologie ist am schlüssigsten. Sie bildet die bekannte klinische Vorgeschichte ohne unbewiesene Zusatzannahmen ab.",
+          "term": "kardiale Kausalkette"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein fehlendes Spenderorgan ist keine Todesursache im medizinisch-kausalen Sinn. Es erklärt die ausgebliebene kurative Therapieoption, ersetzt aber nicht die Angabe der zugrunde liegenden Kardiomyopathie und Herzinsuffizienz.",
+          "term": "fehlendes Spenderorgan"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Zentrales Regulationsversagen und zerebrale Minderdurchblutung sind hier unnötig indirekte und nicht belegte Angaben. Der klinisch beschriebene Tod durch dekompensierte Herzinsuffizienz bei dilatativer Kardiomyopathie sollte direkt benannt werden.",
+          "term": "Regulationsversagen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Altersschwäche ist bei bekannter schwerer Herzerkrankung keine geeignete Todesursache. Die Todesursachenkaskade soll konkrete Krankheiten aufführen und nicht unspezifische Altersbegriffe verwenden.",
+          "term": "Altersschwäche"
+        }
+      ]
+    },
+    "185": {
+      "topicLabel": "Väterliches Alter",
+      "explanation": "Mit zunehmendem väterlichem Alter steigt vor allem die Wahrscheinlichkeit für de-novo-Mutationen, weil männliche Keimzellen lebenslang durch fortlaufende Zellteilungen entstehen. Dadurch können neue autosomal-dominante Erkrankungen beim Kind etwas wahrscheinlicher werden, auch wenn beide Eltern gesund sind und die Familienanamnese unauffällig ist. Trisomie 21 und andere numerische Chromosomenstörungen sind demgegenüber klassisch stärker mit dem mütterlichen Alter verbunden. Imprintingstörungen oder uniparentale Disomien sind nicht der typische Beratungsinhalt allein aufgrund fortgeschrittenen väterlichen Alters. Das Turner-Syndrom wird durch diese Konstellation ebenfalls nicht sinnvoll als sinkendes Risiko beschrieben.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Das Risiko für Trisomie 21 ist vor allem mit dem mütterlichen Alter assoziiert. Ein fortgeschrittenes väterliches Alter steht in der Beratung eher für de-novo-Punktmutationen als für klassische Aneuploidien.",
+          "term": "Trisomie 21"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Imprintingstörungen können komplexe elterliche Herkunftseffekte betreffen, sind aber nicht die typische Hauptaussage bei isoliert hohem väterlichem Alter. Der prüfungsrelevante Zusammenhang ist die Zunahme dominanter Neumutationen.",
+          "term": "Imprintingstörung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein sinkendes Risiko für ein Turner-Syndrom durch höheres väterliches Alter ist nicht der relevante Beratungsinhalt. Das Turner-Syndrom beruht auf einer X-chromosomalen numerischen Aberration und passt nicht zur typischen paternalen Altersassoziation.",
+          "term": "Turner-Syndrom"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Dominante Neumutationen nehmen mit steigendem väterlichem Alter zu, weil Spermatogonien wiederholt Zellteilungen durchlaufen. Eine neu entstandene Mutation kann beim Kind eine autosomal-dominante Erkrankung verursachen, obwohl die Eltern selbst gesund sind.",
+          "term": "dominante Neumutation"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Uniparentale Disomien sind seltene Konstellationen, bei denen beide homologen Chromosomen von einem Elternteil stammen. Sie sind nicht der zentrale oder typische Effekt eines hohen väterlichen Alters in der humangenetischen Beratung.",
+          "term": "uniparentale Disomie"
+        }
+      ]
+    },
+    "186": {
+      "topicLabel": "Alzheimer-Demenz",
+      "explanation": "Die geschilderte ältere Patientin zeigt eine länger bestehende progrediente Wesens- und Kommunikationsveränderung mit Verlangsamung, Spracharmut und offenbar eingeschränktem Verstehen. Zusammen mit einem pathologischen Wach-EEG, das bei fortgeschrittener Demenz typischerweise eine diffuse Verlangsamung zeigen kann, passt dies am ehesten zu einer fortgeschrittenen Alzheimer-Erkrankung. Primäre Persönlichkeits- oder hypochondrische Störungen erklären eine solche globale kognitive und sprachliche Einschränkung im höheren Lebensalter nicht überzeugend. Ein dissoziativer Stupor oder Ganser-Syndrom wären psychogene bzw. dissoziative Störungsbilder und würden nicht primär eine chronisch progrediente demenzielle Entwicklung erklären. Die richtige Antwort ist daher die fortgeschrittene Alzheimer-Erkrankung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine kombinierte Persönlichkeitsstörung beginnt typischerweise nicht erstmals im hohen Alter mit progredienter kognitiver Verlangsamung und Spracharmut. Sie würde auch einen demenztypischen EEG-Kontext nicht erklären.",
+          "term": "Persönlichkeitsstörung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine hypochondrische Störung ist durch Krankheitsängste und übermäßige Beschäftigung mit körperlichen Beschwerden geprägt. Die hier beschriebene Abwesenheit, verzögerte Reaktion und Verständnisschwierigkeit sprechen eher für eine organisch-kognitive Störung.",
+          "term": "Hypochondrie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein dissoziativer Stupor ist ein akutes psychogenes Zustandsbild mit erheblicher Bewegungs- und Reaktionsminderung. Der Fall beschreibt jedoch eine länger zunehmende Veränderung bei einer älteren Patientin, was besser zu einer Demenz passt.",
+          "term": "dissoziativer Stupor"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Eine fortgeschrittene Alzheimer-Erkrankung kann mit progredienter Spracharmut, verlangsamter Reaktion, Verständnisschwierigkeiten und allgemeiner kognitiver Einschränkung einhergehen. Ein im Wachzustand pathologisches EEG mit diffuser Verlangsamung wäre damit vereinbar.",
+          "term": "Alzheimer-Erkrankung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Das Ganser-Syndrom ist durch Vorbeireden und dissoziative Symptome gekennzeichnet. Es erklärt die länger progrediente Symptomatik einer älteren Patientin mit demenziellem Eindruck nicht am wahrscheinlichsten.",
+          "term": "Ganser-Syndrom"
+        }
+      ]
+    },
+    "187": {
+      "topicLabel": "Riesenzellarteriitis",
+      "explanation": "Neue starke Schläfenkopfschmerzen bei einer 65-jährigen Patientin mit Sehstörung sind hochverdächtig auf eine Riesenzellarteriitis. Typisch ist eine druckschmerzhafte, verdickte oder pulslos tastbare Arteria temporalis. Die Sehstörung ist besonders relevant, weil eine ischämische Optikusneuropathie drohen kann und rasches therapeutisches Handeln erforderlich ist. Die fehlenden Halbseitensymptome, Sprach- oder Schluckstörungen machen einen fokal-neurologischen Schlaganfallbefund weniger wahrscheinlich. Deshalb passt die druckdolente Arteria temporalis rechts am besten zum Fall.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Miosis, Ptosis und Enophthalmus entsprechen einem Horner-Syndrom. Dieses kann bei sympathischer Läsion auftreten, erklärt aber die Kombination aus neuem Schläfenkopfschmerz und Sehstörung im höheren Alter nicht am wahrscheinlichsten.",
+          "term": "Horner-Syndrom"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Eine druckdolente Arteria temporalis ist ein klassischer Untersuchungsbefund bei Riesenzellarteriitis. Die Kombination aus Alter, neuem temporalem Kopfschmerz und okulärer Symptomatik passt sehr gut dazu.",
+          "term": "druckdolente Temporalarterie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Abweichen der Zunge nach rechts würde auf eine Läsion des rechten Nervus hypoglossus oder seiner zentralen Bahnen hinweisen. Dazu passen die isolierten Schläfenkopfschmerzen mit Sehstörung nicht.",
+          "term": "Hypoglossusparese"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Ataxie im Finger-Nase-Versuch spricht für eine zerebelläre Störung oder entsprechende Bahnläsion. Der Fall nennt keine Koordinationsstörung, sondern eine Gefäßentzündung der Schläfenregion ist naheliegender.",
+          "term": "zerebelläre Ataxie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine internukleäre Ophthalmoplegie ist eine Hirnstamm-Okulomotorikstörung, häufig durch Läsion des Fasciculus longitudinalis medialis. Sie erklärt nicht den klassischen Verdacht auf Riesenzellarteriitis bei neuem Schläfenkopfschmerz und Visusstörung.",
+          "term": "internukleäre Ophthalmoplegie"
+        }
+      ]
+    },
+    "188": {
+      "topicLabel": "Pneumonie-Deeskalation",
+      "explanation": "Der Patient hat eine ambulant erworbene Pneumonie mit rascher klinischer Besserung, Entfieberung und rückläufigen Entzündungsparametern. In der Sputumkultur wurde Streptococcus pneumoniae ohne Resistenzen nachgewiesen, sodass eine Deeskalation auf ein schmaleres, gezieltes Antibiotikum sinnvoll ist. Bei klinischer Stabilität ist zudem die Umstellung von intravenöser auf orale Therapie angemessen. Amoxicillin oral deckt den empfindlichen Pneumokokken ab und passt zur Fortführung über eine Gesamtdauer von 5-7 Tagen. Eine unnötig lange intravenöse oder zu breite Therapie erhöht Nebenwirkungs- und Resistenzdruck ohne erkennbaren Zusatznutzen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Fortführung der intravenösen Kombination über insgesamt 10 Tage ist bei rascher Stabilisierung und bekanntem empfindlichem Erreger zu breit und zu lang. Die Befunde sprechen für eine gezielte orale Deeskalation.",
+          "term": "i.v.-Fortführung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein vollständiges Absetzen nach nur 48 Stunden wäre trotz Besserung zu früh, da eine bakterielle Pneumonie gesichert ist. Die Therapie sollte deeskaliert und abgeschlossen, nicht abrupt beendet werden.",
+          "term": "zu frühes Absetzen"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die Umstellung auf Amoxicillin oral ist bei klinischer Stabilität und nachgewiesenem empfindlichem Streptococcus pneumoniae passend. Eine Gesamtdauer von 5-7 Tagen entspricht der im Antwortvorschlag genannten angemessenen Fortführung.",
+          "term": "orales Amoxicillin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Vancomycin oral wirkt lokal im Darmlumen und ist nicht zur Behandlung einer Pneumokokkenpneumonie geeignet. Zudem ist bei fehlenden Resistenzen keine glykopeptidbasierte Eskalation erforderlich.",
+          "term": "Vancomycin oral"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Clarithromycin allein ist nach Nachweis eines empfindlichen Pneumokokken nicht die bevorzugte gezielte Monotherapie. Außerdem wäre eine Fortführung über insgesamt 10 Tage bei unkomplizierter klinischer Besserung nicht die naheliegende Option.",
+          "term": "Makrolid-Monotherapie"
+        }
+      ]
+    },
+    "189": {
+      "topicLabel": "RSV-Bronchiolitis",
+      "explanation": "Bei dem Säugling ist RSV nachgewiesen und die Klinik mit obstruktiver Atmung, Einziehungen, Rasselgeräuschen und zeitweisem Sauerstoffbedarf passt zu einer RSV-Infektion der unteren Atemwege. Die Therapie ist in der Regel supportiv, also etwa Sauerstoffgabe nach Bedarf, Flüssigkeitsmanagement und symptomatische Maßnahmen. Ein erhöhtes CRP allein beweist keine bakterielle Superinfektion und begründet bei passender viraler Klinik und rascher Besserung keine antimikrobielle Behandlung. Ribavirin oder Antibiotika sind hier nicht routinemäßig indiziert. Entscheidend ist die klinische Entwicklung, nicht eine Behandlung bis zur vollständigen Normalisierung eines Laborwertes.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine antimikrobielle Therapie ist bei der beschriebenen RSV-Infektion ohne Hinweise auf bakterielle Superinfektion nicht notwendig. Die rasche Besserung unter symptomatischer Therapie stützt ein supportives Vorgehen.",
+          "term": "supportive RSV-Therapie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ribavirin ist keine Standardtherapie für die typische RSV-Bronchiolitis bzw. RSV-Bronchitis bei einem sich bessernden Säugling. Ein erhöhtes CRP allein macht keine parenterale virustatische Therapie erforderlich.",
+          "term": "Ribavirin"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Cotrimoxazol ist nicht die leitende Therapie einer RSV-Infektion. Ohne klinische Zeichen einer bakteriellen Pneumonie oder anderen bakteriellen Komplikation wäre eine intravenöse Antibiotikatherapie nicht begründet.",
+          "term": "Cotrimoxazol"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Sauerstoffbedarf zeigt die Schwere der Atemwegsobstruktion und rechtfertigt supportive stationäre Überwachung, ist aber kein alleiniges Kriterium für Antibiotika. Antimikrobielle Therapie richtet sich nach Hinweisen auf bakterielle Infektion, nicht nur nach O2-Bedarf.",
+          "term": "O2-Bedarf"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine stationäre Behandlung bis zur kompletten CRP-Normalisierung ist nicht erforderlich, wenn das Kind klinisch stabil ist. Laborwerte dürfen die Therapieentscheidung nicht isoliert bestimmen, besonders bei gesicherter viraler Ursache und Besserung.",
+          "term": "CRP-Normalisierung"
+        }
+      ]
+    },
+    "190": {
+      "topicLabel": "Tollwut-PEP",
+      "explanation": "Ein Biss durch einen streunenden Hund in einem Tollwutrisikogebiet bei unklarem Tierstatus ist eine relevante Exposition. Da die Studentin nicht vorgeimpft ist und eine tiefe Bisswunde vorliegt, ist eine postexpositionelle Immunprophylaxe mit aktiver Impfung und passiver Gabe von Tollwut-Immunglobulin angezeigt. Dass die Wunde reizlos ist und die Patientin nach vier Tagen noch symptomfrei ist, schließt Tollwut nicht aus. Eine Tollwutinfektion kann eine variable Inkubationszeit haben und ist nach Symptombeginn fast immer tödlich, weshalb die Prophylaxe nicht verzögert werden darf. Kontaktpersonen benötigen keine Immunglobulingabe, solange sie nicht selbst exponiert wurden.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Infektiöse Tiere müssen nicht zwingend bereits eindeutig krank wirken. Bei einem streunenden Hund mit unklarem Status darf daher nicht aus fehlenden beobachteten Symptomen auf fehlende Infektiosität geschlossen werden.",
+          "term": "asymptomatisches Tier"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Vier Tage Symptomfreiheit schließen Tollwut nicht aus. Die Inkubationszeit ist variabel, sodass die postexpositionelle Prophylaxe auch nach einigen Tagen noch dringlich ist.",
+          "term": "Inkubationszeit"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Bei ungeimpfter Patientin nach potenziell tollwutgefährlichem Biss ist eine aktive Impfung plus passive Immunisierung mit Tollwut-Immunglobulin indiziert. Die bereits erfolgte Wundreinigung war richtig, ersetzt aber die Immunprophylaxe nicht.",
+          "term": "aktive und passive Impfung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Kontaktpersonen der Studentin sind nicht automatisch tollwutexponiert. Tollwut-Immunglobulin wird bei relevanter eigener Exposition eingesetzt, nicht prophylaktisch für enge Kontakte ohne Biss- oder Schleimhautexposition.",
+          "term": "Kontaktpersonen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine einzelne PCR aus Speichel kann eine Tollwutinfektion nicht sicher ausschließen, insbesondere vor Symptombeginn. Die Diagnostik darf die indizierte postexpositionelle Prophylaxe nicht ersetzen.",
+          "term": "Speichel-PCR"
+        }
+      ]
+    },
+    "191": {
+      "topicLabel": "Kindliche Pneumonie",
+      "explanation": "Sophia hat seit einigen Tagen Husten und Fieber und zeigt nun eine zunehmende Tachypnoe mit reduziertem Allgemeinzustand. Bei Kindern kann eine Pneumonie auch ohne deutlich auffälligen Auskultationsbefund vorliegen; Tachypnoe ist ein wichtiges klinisches Warnzeichen. Blässe, Trinkschwäche und verminderte Aktivität sprechen zusätzlich für eine relevante systemische Erkrankung. Eine obstruktive Bronchitis würde eher durch Giemen oder verlängertes Exspirium auffallen. Otitis media, Tuberkulose oder akute Leukämie erklären den akuten Verlauf mit Husten, Fieber und schneller Atmung weniger wahrscheinlich.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine akute myeloische Leukämie kann Blässe und reduzierten Allgemeinzustand verursachen, erklärt aber den akuten Infektverlauf mit Husten, Fieber und Tachypnoe nicht am ehesten. Es fehlen typische Hinweise wie Blutungszeichen, ausgeprägte Infektanfälligkeit oder auffällige Blutbildbefunde.",
+          "term": "akute Leukämie"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Pneumonie ist bei Fieber, Husten, schlechtem Trinken, reduzierter Aktivität und Tachypnoe die naheliegendste Verdachtsdiagnose. Ein unauffälliger Auskultationsbefund schließt eine Pneumonie bei Kindern nicht sicher aus.",
+          "term": "Pneumonie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine obstruktive Bronchitis wäre typischerweise mit obstruktiven Atemgeräuschen, verlängertem Exspirium oder Giemen verbunden. Der Fall betont stattdessen Tachypnoe bei Fieber und Husten ohne auffällige Auskultation.",
+          "term": "obstruktive Bronchitis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Tuberkulose verläuft meist nicht als wenige Tage dauernder akuter fieberhafter Infekt mit plötzlicher Tachypnoe. Ohne Expositionshinweis, chronische Symptome oder typische Zusatzbefunde ist sie weniger wahrscheinlich.",
+          "term": "Tuberkulose"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Otitis media kann Fieber und reduziertes Befinden verursachen, erklärt aber die zunehmende schnelle Atmung nicht. Husten und Tachypnoe lenken den Verdacht eher auf eine untere Atemwegsinfektion.",
+          "term": "Otitis media"
+        }
+      ]
+    },
+    "192": {
+      "topicLabel": "Bridenileus",
+      "explanation": "Die Patientin hat krampfartige Oberbauchschmerzen, Erbrechen, ein geblähtes druckschmerzhaftes Abdomen und sonografisch dilatierte Dünndarmschlingen mit Pendelperistaltik. Das spricht für einen mechanischen Ileus des Dünndarms. Mehrere zurückliegende Bauchoperationen sind ein klassischer Risikofaktor für Verwachsungen, also Briden. Ein Bridenileus passt daher deutlich besser als ein paralytischer Ileus, bei dem die Darmmotorik eher erloschen wäre. Die fehlende Abwehrspannung spricht gegen eine akute Peritonitis, schließt einen mechanischen Ileus aber nicht aus.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Beim paralytischen Ileus steht eine Darmlähmung ohne mechanisches Hindernis im Vordergrund. Pendelperistaltik und krampfartige Schmerzen sprechen eher für einen mechanischen Obstruktionsileus.",
+          "term": "paralytischer Ileus"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Ein Bridenileus ist nach früheren abdominellen Operationen eine häufige Ursache eines mechanischen Dünndarmileus. Die dilatierten Dünndarmschlingen mit Pendelperistaltik und die kolikartigen Beschwerden passen dazu.",
+          "term": "Bridenileus"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Norovirusinfektion verursacht typischerweise akute Gastroenteritis mit Übelkeit, Erbrechen und Durchfällen. Sie erklärt die sonografischen Zeichen einer mechanischen Dünndarmobstruktion und die Operationsnarben als Risikokontext nicht.",
+          "term": "Norovirus"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Das Ogilvie-Syndrom ist eine akute Pseudoobstruktion vor allem des Kolons ohne mechanisches Hindernis. Hier werden dilatierte Dünndarmschlingen und Pendelperistaltik beschrieben, was besser zum mechanischen Dünndarmileus passt.",
+          "term": "Ogilvie-Syndrom"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Invagination ist bei Erwachsenen deutlich seltener und hätte häufig einen anderen Auslöser, etwa einen führenden pathologischen Darmabschnitt. Die Vorgeschichte mit mehreren Bauchoperationen macht Verwachsungen als Ursache wahrscheinlicher.",
+          "term": "Invagination"
+        }
+      ]
+    },
+    "193": {
+      "topicLabel": "Duodenalobstruktion",
+      "explanation": "Galliges Erbrechen beim Neugeborenen ist eine Red Flag für eine Obstruktion distal der Papille und muss rasch abgeklärt werden. Das Double-Bubble-Phänomen weist auf eine hoch sitzende duodenale Obstruktion hin. Entscheidend ist hier, dass weiter aboral noch Luft nachweisbar ist; das spricht gegen eine komplette Duodenalatresie und eher für eine partielle Obstruktion. Ein Pancreas anulare kann das Duodenum ringförmig einengen und genau ein solches Bild mit Double Bubble plus distaler Luft verursachen. Pylorusstenose und Kardiaachalasie passen wegen des galligen Erbrechens nicht, eine tiefe Ileumatresie würde nicht primär das klassische Double-Bubble-Muster erklären.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Kardiaachalasie betrifft den gastroösophagealen Übergang und verursacht keine typische duodenale Double-Bubble-Konstellation. Galliges Erbrechen spricht zudem für eine Obstruktion distal des Magenausgangs bzw. distal der Papille.",
+          "term": "Kardiaachalasie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Pylorusstenose führt klassisch zu nicht-galligem Erbrechen, weil die Obstruktion vor der Einmündung der Galle liegt. Das im Fall betonte gallige Erbrechen passt daher nicht zu dieser Diagnose.",
+          "term": "Pylorusstenose"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Duodenalatresie Typ III wäre eine komplette Unterbrechung des Duodenallumens. Beim klassischen vollständigen Verschluss wäre distal typischerweise keine Luft zu erwarten, während hier ausdrücklich aboral Luft nachweisbar ist.",
+          "term": "Duodenalatresie"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Ein Pancreas anulare kann eine partielle duodenale Obstruktion verursachen. Double Bubble bei gleichzeitig vorhandener distaler Darmluft passt gut zu einer Einengung statt zu einer kompletten Atresie.",
+          "term": "Pancreas anulare"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine tiefe Ileumatresie würde eher Zeichen einer distaleren Dünndarmobstruktion mit anderem Gasverteilungsmuster erwarten lassen. Das beschriebene Double-Bubble-Phänomen lokalisiert die Problematik vorrangig in den Bereich von Magen und Duodenum.",
+          "term": "Ileumatresie"
+        }
+      ]
+    },
+    "194": {
+      "topicLabel": "Post-COVID-Fibrose",
+      "explanation": "Der Patient hatte eine schwere SARS-CoV-2-Infektion mit langem intensivmedizinischem Verlauf und zeigt neun Monate später weiterhin Dyspnoe sowie interstitielle Verdichtungen im CT. Damit besteht eine plausible Kausalkette zwischen der Infektion, dem schweren Lungenschaden und persistierenden postinflammatorischen bzw. fibrotischen Veränderungen. Virale Pneumonien können das Interstitium und die Alveolen betreffen; eine interstitielle Beteiligung ist daher nicht atypisch. Die Pathogenese ist nicht nur direkte Viruszytotoxizität, sondern beinhaltet auch Entzündung, Immunreaktionen, diffuse Alveolarschädigung und Reparaturprozesse. Aus dem Spätverlauf allein folgt keine Viruspersistenz und keine Indikation zu antiviraler Therapie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Emphysem ist durch irreversible Überblähung und Destruktion von Alveolarsepten geprägt. Inhomogene interstitielle Verdichtungen nach schwerer COVID-19-Erkrankung sprechen eher für postinflammatorische bzw. fibrotische Veränderungen.",
+          "term": "Emphysem"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Der Verlauf bildet eine plausible Kausalkette: SARS-CoV-2-Infektion, schwere pulmonale Erkrankung und persistierende interstitielle Veränderungen mit Dyspnoe. Die Infektion kann daher als Ätiologie der Beschwerden angesehen werden.",
+          "term": "COVID-19-Folge"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Viren können auch interstitielle Entzündungs- und Schädigungsmuster hervorrufen. Die Aussage, das Interstitium werde in der Regel ausgespart, ist daher zu schematisch und für COVID-19 nicht passend.",
+          "term": "interstitielle Beteiligung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Immunologische und entzündliche Faktoren spielen bei schwerer COVID-19-Lungenschädigung eine wichtige Rolle. Die spätere Vernarbung entsteht nicht ausschließlich durch direkte Viruswirkung am Parenchym.",
+          "term": "Immunpathogenese"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Persistierende Dyspnoe und interstitielle CT-Veränderungen Monate nach der Erkrankung beweisen keine Viruspersistenz. Eine antivirale Therapie ist aus diesem chronischen postinfektiösen Bild allein nicht abzuleiten.",
+          "term": "Viruspersistenz"
+        }
+      ]
+    },
+    "195": {
+      "topicLabel": "Endometriumkarzinom",
+      "explanation": "Die moderne Risikostratifizierung des Endometriumkarzinoms berücksichtigt neben histologischen Faktoren auch molekulare Gruppen. Besonders relevant sind POLE-Mutationsstatus, Mismatch-Repair-Status und p53-Status, da sie Prognose und Therapieplanung beeinflussen können. Auch die Lymphgefäßinfiltration ist ein klassischer histopathologischer Risikofaktor. Der RAD51-Status ist demgegenüber kein zentraler Standardparameter der Risikostratifizierung beim Endometriumkarzinom. Deshalb spielt er unter den genannten Optionen am wenigsten eine Rolle.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "p53 ist ein wichtiger molekularpathologischer Marker beim Endometriumkarzinom. Eine abnorme p53-Expression ist prognostisch relevant und gehört zu den etablierten Klassifikationsmerkmalen.",
+          "term": "p53"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "MMR-Proteine sind für die Einordnung einer Mismatch-Repair-Defizienz relevant. Dieser Status hat Bedeutung für molekulare Klassifikation, Prognoseeinschätzung und teils auch therapeutische Überlegungen.",
+          "term": "MMR-Status"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Der RAD51-Status ist beim Endometriumkarzinom kein zentraler Standardparameter der üblichen Risikostratifizierung. Im Vergleich zu p53, MMR, POLE und Lymphgefäßinfiltration spielt er daher am wenigsten eine Rolle.",
+          "term": "RAD51-Status"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Der POLE-Status ist ein wichtiger molekularer Faktor beim Endometriumkarzinom. POLE-mutierte Tumoren bilden eine eigene prognostisch relevante Gruppe und sind deshalb nicht die am wenigsten relevante Option.",
+          "term": "POLE-Status"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Lymphgefäßinfiltration ist ein klassischer histopathologischer Risikofaktor. Sie beeinflusst die Einschätzung von Ausbreitungs- und Rezidivrisiko und gehört daher zur Risikostratifizierung.",
+          "term": "Lymphgefäßinfiltration"
+        }
+      ]
+    },
+    "196": {
+      "topicLabel": "Primärprävention",
+      "explanation": "Eine Tetanus-Auffrischimpfung soll eine Erkrankung verhindern, bevor sie auftritt. Damit handelt es sich um Primärprävention, also die Vermeidung einer Krankheitsentstehung durch Schutzmaßnahmen bei noch Gesunden. Dass der Patient im Rahmen eines Gesundheits-Check-ups vorgestellt wird, ändert die Einordnung der Impfung nicht. Sekundärprävention wäre Früherkennung einer bereits bestehenden, noch asymptomatischen Erkrankung. Tertiärprävention zielt auf Folgenminderung einer bestehenden Erkrankung, während Primordialprävention stärker auf vorgelagerte gesellschaftliche Risikobedingungen abzielt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Primordialprävention setzt noch vor individuellen Risikofaktoren an und betrifft eher die Verhinderung gesundheitsgefährdender Lebensbedingungen. Eine konkrete Impfung einer einzelnen Person ist nicht das typische Beispiel dafür.",
+          "term": "Primordialprävention"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Verhaltensprävention zielt auf gesundheitsbezogenes Verhalten, etwa Bewegung, Ernährung oder Rauchverzicht. Eine Tetanus-Auffrischimpfung ist primär eine medizinische Schutzmaßnahme und wird klassisch als Primärprävention eingeordnet.",
+          "term": "Verhaltensprävention"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die Tetanus-Auffrischimpfung verhindert eine Erkrankung, bevor sie entsteht. Genau dies ist Primärprävention bei einer aktuell nicht an Tetanus erkrankten Person.",
+          "term": "Primärprävention"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Sekundärprävention bedeutet Früherkennung oder frühe Behandlung einer bereits bestehenden Erkrankung. Eine Auffrischimpfung sucht keine Erkrankung, sondern verhindert sie.",
+          "term": "Sekundärprävention"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Tertiärprävention soll Komplikationen, Folgeschäden oder Rückfälle bei bestehender Erkrankung vermindern. Bei der Tetanusimpfung liegt keine bestehende Tetanuserkrankung vor.",
+          "term": "Tertiärprävention"
+        }
+      ]
+    },
+    "197": {
+      "topicLabel": "CGM bei Typ-1-Diabetes",
+      "explanation": "Kontinuierliche Glukosemessung misst die Glukose im interstitiellen Gewebe und gibt dadurch Trends, Alarme und Verlaufsinformationen. Bei raschen Blutglukoseänderungen kann ein zeitlicher Unterschied zwischen Blut und Interstitium bestehen, sodass CGM-Werte verzögert reagieren können. CGM kann allein oder in Kombination mit Insulinpumpen genutzt werden, und viele Sensoren können von geschulten Patienten selbst gewechselt werden. Nicht zutreffend ist jedoch, dass durch CGM die Berechnung der Mahlzeiteninsulindosis entbehrlich wird. Auch mit CGM müssen Kohlenhydratmenge, aktueller Glukosewert, Trend, Insulinsensitivität und Therapieplan berücksichtigt werden.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Diese Aussage trifft zu: CGM-Sensoren messen Glukose typischerweise im interstitiellen Gewebe. Da nach der am wenigsten zutreffenden Aussage gefragt ist, ist diese Option nicht richtig auszuwählen.",
+          "term": "interstitielle Messung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Auch diese Aussage trifft zu, weil interstitielle Glukosewerte raschen Blutglukoseänderungen zeitlich hinterherlaufen können. Besonders bei steilem Anstieg oder Abfall muss der Trendkontext beachtet werden.",
+          "term": "Messverzögerung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "CGM kann mit einer kontinuierlichen subkutanen Insulininfusion kombiniert werden. Solche Systeme können je nach Ausführung Glukosedaten für Alarme oder automatisierte Insulinanpassungen nutzen.",
+          "term": "Insulinpumpe"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Der Sensorwechsel kann bei vielen kommerziellen CGM-Systemen durch den Patienten selbst erfolgen. Voraussetzung ist eine entsprechende Einweisung, aber die Aussage ist grundsätzlich zutreffend.",
+          "term": "Sensorwechsel"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Diese Aussage trifft am wenigsten zu: CGM ersetzt nicht die Berechnung des Essensinsulins. Der Patient muss weiterhin Mahlzeiten, Kohlenhydrate, Glukoseverlauf und individuelle Faktoren in die Insulindosis einbeziehen.",
+          "term": "Bolusberechnung"
+        }
+      ]
+    },
+    "198": {
+      "topicLabel": "Centor-Score",
+      "explanation": "Der Patient hat Fieber, starke Halsschmerzen, fehlenden Husten, zervikale Lymphadenopathie und Tonsillenauflagerungen. Diese Konstellation wird zur Abschätzung der Wahrscheinlichkeit einer A-Streptokokken-Tonsillopharyngitis klassisch mit dem Centor-Score bzw. modifizierten Varianten bewertet. Der Score hilft, die Indikation für weitere Diagnostik oder eine antibiotische Therapie einzuordnen. Die anderen genannten Scores beziehen sich auf andere klinische Situationen wie Lungenembolie, Pneumonie-Schweregrad, Sepsis/Organversagen oder Tonsillektomie-Indikation. Deshalb ist hier der Centor-Score die passende medizinische Entscheidungshilfe.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Paradise-Kriterien werden zur Beurteilung wiederkehrender Tonsillitiden und einer möglichen Tonsillektomie verwendet. Sie dienen nicht der akuten Wahrscheinlichkeitsschätzung einer A-Streptokokken-Pharyngitis.",
+          "term": "Paradise-Kriterien"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Der Wells-Score wird vor allem zur klinischen Wahrscheinlichkeit einer Lungenembolie oder tiefen Venenthrombose genutzt. Halsschmerzen, Tonsillenauflagerungen und fehlender Husten gehören nicht zu seinem Anwendungsbereich.",
+          "term": "Wells-Score"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Der CRB-Index schätzt die Schwere einer ambulant erworbenen Pneumonie ab. Er passt nicht zur Fragestellung einer möglichen A-Streptokokken-Tonsillopharyngitis.",
+          "term": "CRB-Index"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Der Centor-Score bewertet klinische Zeichen wie Fieber, fehlenden Husten, Lymphknotenschwellung und Tonsillenexsudate. Damit ist er die passende Entscheidungshilfe zur Abschätzung einer A-Streptokokken-Pharyngitis.",
+          "term": "Centor-Score"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Der SOFA-Score dient der Einschätzung von Organfunktionsstörungen, insbesondere im Kontext von Sepsis und Intensivmedizin. Für die ambulante Abklärung einer Streptokokken-Pharyngitis ist er nicht geeignet.",
+          "term": "SOFA-Score"
+        }
+      ]
+    },
+    "199": {
+      "topicLabel": "Ureterolithiasis",
+      "explanation": "Wiederkehrende starke Flankenschmerzen mit Hämaturie im Urinteststreifen sprechen klassisch für eine Ureterolithiasis. Fieber, erhöhte Entzündungsparameter und Kreatininanstieg fehlen, sodass keine komplizierte infektiöse oder relevante obstruktive Nierenschädigung im Vordergrund steht. Sonografisch kann ein Harnaufstau oder ein indirekter Befund im Flankenschnitt den Verdacht zusätzlich stützen. Das unauffällige Abdomen ohne Abwehrspannung macht akute intraabdominelle Entzündungen weniger wahrscheinlich. Cholezystolithiasis, Pankreatitis, Appendizitis und Adnexitis erklären die Kombination aus Flankenkolik und Erythrozyturie deutlich schlechter.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine Ureterolithiasis verursacht typischerweise kolikartige Flankenschmerzen und häufig eine Mikrohämaturie. Der fehlende Flankenklopfschmerz schließt sie nicht aus, besonders wenn die übrige Konstellation und der sonografische Befund dafür sprechen.",
+          "term": "Ureterstein"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Cholezystolithiasis verursacht eher rechtsseitige Oberbauchschmerzen, oft nahrungsabhängig, und keine isolierte Erythrozyturie. Der Flankenschmerz und der Urinbefund sprechen stärker für den Harntrakt.",
+          "term": "Gallensteine"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Pankreatitis würde typischerweise Oberbauchschmerzen, oft mit Ausstrahlung in den Rücken, und passende Laborveränderungen erwarten lassen. Die normale Entzündungskonstellation und Hämaturie passen dazu nicht gut.",
+          "term": "Pankreatitis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Appendizitis verursacht meist rechtsseitige Unterbauchschmerzen und oft lokale Druckschmerzen oder Entzündungszeichen. Der Fall beschreibt ein adipöses, aber nicht druckschmerzhaftes Abdomen und eine Erythrozyturie.",
+          "term": "Appendizitis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Adnexitis würde eher Unterbauchschmerzen, gynäkologische Beschwerden, Fieber oder Entzündungszeichen erwarten lassen. Die starke Flankenkolik mit Erythrozyten im Urin ist für eine Ureterolithiasis typischer.",
+          "term": "Adnexitis"
+        }
+      ]
+    },
+    "200": {
+      "topicLabel": "Postoperativer Pneumothorax",
+      "explanation": "Nach Klavikulafraktur und Plattenosteosynthese entwickelt der Patient am ersten postoperativen Tag Atemnot mit seitendifferentem Atemgeräusch. In dieser Konstellation ist ein Pneumothorax naheliegend, etwa verletzungs- oder eingriffsassoziiert im Bereich der Lungenspitze. Da Blutdruck und Sauerstoffsättigung stabil sind, liegt kein unmittelbarer Hinweis auf einen Spannungspneumothorax mit Schock vor, sodass zunächst eine rasche konventionelle Bildgebung angemessen ist. Die Röntgenaufnahme des Thorax ist die erste geeignete diagnostische Maßnahme zur Bestätigung. D-Dimere, MR-Angiografie oder Laryngoskopie passen nicht zum Leitsymptom der einseitig verminderten Atemgeräusche in diesem postoperativen Kontext.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "D-Dimere helfen bei der Abklärung einer Lungenembolie in geeigneter Vortestwahrscheinlichkeit. Die Seitendifferenz des Atemgeräuschs nach Klavikulaoperation spricht jedoch zunächst eher für einen Pneumothorax.",
+          "term": "D-Dimere"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine CT des Thorax kann einen Pneumothorax sehr sensitiv darstellen, ist aber bei stabilem Patienten nicht die erste Standardmaßnahme. Zunächst ist die schnell verfügbare Röntgenaufnahme ausreichend und angemessen.",
+          "term": "Thorax-CT"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die Röntgenaufnahme des Thorax ist bei Verdacht auf Pneumothorax nach Trauma oder Operation die naheliegende erste Diagnostik, wenn der Patient kreislaufstabil ist. Sie kann die Seitendifferenz des Atemgeräuschs bildgebend einordnen.",
+          "term": "Thoraxröntgen"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine MR-Angiografie der Lungengefäße wäre auf eine vaskuläre Fragestellung wie Lungenembolie ausgerichtet. Die klinische Konstellation mit seitendifferentem Atemgeräusch legt primär eine pleurale Luftansammlung nahe.",
+          "term": "MR-Angiografie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Laryngoskopie untersucht den Kehlkopf und obere Atemwege. Ein einseitig abgeschwächtes Atemgeräusch nach Klavikulaeingriff wird damit nicht sinnvoll als Erstes abgeklärt.",
+          "term": "Laryngoskopie"
+        }
+      ]
+    }
+  }
+}
