@@ -61,6 +61,67 @@ function letter(index: number): string {
   return String.fromCharCode(65 + index);
 }
 
+function OptionRationaleBlock({
+  question,
+  optIndex,
+  isRight,
+}: {
+  question: ParsedQuestion;
+  optIndex: number;
+  isRight: boolean;
+}) {
+  const rationale =
+    question.optionRationales?.find((r) => r.index === optIndex) ||
+    (() => {
+      const correctLetters = (question.correctAnswers || '')
+        .split('')
+        .map((b, i) => (b === '1' ? letter(i) : null))
+        .filter(Boolean)
+        .join(', ');
+      const opt = question.options[optIndex];
+      return {
+        index: optIndex,
+        correct: isRight,
+        text: isRight
+          ? `Richtig: ${opt} — markierte Lösung${correctLetters ? ` (${correctLetters})` : ''}.`
+          : `Falsch: ${opt} — nicht die markierte Lösung${correctLetters ? ` (richtig: ${correctLetters})` : ''}.`,
+        links: [
+          {
+            label: 'Amboss suchen',
+            url: `https://www.amboss.com/de/search?q=${encodeURIComponent(opt.slice(0, 80))}`,
+          },
+        ],
+      };
+    })();
+
+  return (
+    <div
+      className={cn(
+        'mt-1.5 ml-9 rounded-md border px-3 py-2 text-xs leading-relaxed',
+        isRight ? 'border-emerald-200 bg-emerald-50/80 text-emerald-950' : 'border-zinc-200 bg-zinc-50 text-zinc-700'
+      )}
+    >
+      <p className="font-medium">{isRight ? 'Warum richtig' : 'Warum nicht'}</p>
+      <p className="mt-0.5">{rationale.text}</p>
+      {rationale.links && rationale.links.length > 0 && (
+        <p className="mt-1.5 flex flex-wrap gap-2">
+          {rationale.links.map((link) => (
+            <a
+              key={link.url}
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#002F5D] underline-offset-2 hover:underline"
+            >
+              {link.label} ↗
+            </a>
+          ))}
+        </p>
+      )}
+    </div>
+  );
+}
+
 type NavStatus = 'current' | 'unseen' | 'correct' | 'wrong' | 'done';
 
 export function AltfragenPractice({ examId }: { examId: string }) {
@@ -93,7 +154,19 @@ export function AltfragenPractice({ examId }: { examId: string }) {
 
         if (statsRes.ok) {
           const statsData = await statsRes.json();
-          setCommunityStats(statsData.questionStats || {});
+          const serverStats = (statsData.questionStats || {}) as Record<string, QuestionStat>;
+          // Merge with local cache (survives Vercel ephemeral FS)
+          try {
+            const raw = localStorage.getItem(`adalbert-altfragen-stats-${examId}`);
+            const local = raw ? (JSON.parse(raw) as Record<string, QuestionStat>) : {};
+            const merged: Record<string, QuestionStat> = { ...serverStats };
+            for (const [k, v] of Object.entries(local)) {
+              if (!merged[k] || v.attempts > merged[k].attempts) merged[k] = v;
+            }
+            setCommunityStats(merged);
+          } catch {
+            setCommunityStats(serverStats);
+          }
         }
       } catch (e) {
         if (!cancelled) {
@@ -184,7 +257,15 @@ export function AltfragenPractice({ examId }: { examId: string }) {
       });
       const data = await res.json();
       if (res.ok && data.stat) {
-        setCommunityStats((prev) => ({ ...prev, [String(q.number)]: data.stat }));
+        setCommunityStats((prev) => {
+          const next = { ...prev, [String(q.number)]: data.stat as QuestionStat };
+          try {
+            localStorage.setItem(`adalbert-altfragen-stats-${examId}`, JSON.stringify(next));
+          } catch {
+            // ignore
+          }
+          return next;
+        });
       }
     } catch {
       // non-blocking
@@ -490,7 +571,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                       </span>
                       <span className="flex-1 text-zinc-800">
                         {opt}
-                        {isChecked && optPct !== null && currentStat && currentStat.attempts >= 2 && (
+                        {isChecked && optPct !== null && currentStat && currentStat.attempts >= 1 && (
                           <span className="mt-1 block text-xs text-zinc-500">
                             {optPct}% der Nutzer haben das gewählt ({optStat}/{currentStat.attempts})
                           </span>
@@ -503,6 +584,13 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                         <XCircle className="mt-0.5 h-4 w-4 shrink-0 text-red-500" />
                       )}
                     </button>
+                    {isChecked && (
+                      <OptionRationaleBlock
+                        question={question}
+                        optIndex={optIndex}
+                        isRight={isRight}
+                      />
+                    )}
                   </li>
                 );
               })}
@@ -542,7 +630,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                 {question.explanation && (
                   <p className="mt-1.5 leading-relaxed text-zinc-700">{question.explanation}</p>
                 )}
-                {currentStat && currentStat.attempts >= 2 && (
+                {currentStat && currentStat.attempts >= 1 && (
                   <p className="mt-2 text-xs text-zinc-600">
                     Community-Statistik: {Math.round((currentStat.correct / currentStat.attempts) * 100)}%
                     richtig bei {currentStat.attempts} Versuchen

@@ -1,11 +1,18 @@
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 import { listPublishedExams } from '@/lib/altfragenServerStore';
+import { hasAccessCookie, isAccessControlEnabled } from '@/lib/altfragenAccess';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
-export async function GET() {
+export async function GET(request: NextRequest) {
   try {
+    if (isAccessControlEnabled() && !hasAccessCookie(request)) {
+      return NextResponse.json(
+        { error: 'Zugangscode erforderlich', codeRequired: true },
+        { status: 401 }
+      );
+    }
     const exams = await listPublishedExams();
     return NextResponse.json({ success: true, exams });
   } catch (e) {

@@ -27,17 +27,116 @@ function emptyStats(): ExamStatsFile {
 
 let memoryStats: ExamStatsFile | null = null;
 
+function githubConfig(): { token: string; repo: string; filePath: string; branch: string } | null {
+  const token = process.env.ALTFRAGEN_GITHUB_TOKEN || process.env.GITHUB_TOKEN || '';
+  if (!token) return null;
+  let repo = process.env.ALTFRAGEN_GITHUB_REPO || '';
+  if (!repo && process.env.VERCEL_GIT_REPO_OWNER && process.env.VERCEL_GIT_REPO_SLUG) {
+    repo = `${process.env.VERCEL_GIT_REPO_OWNER}/${process.env.VERCEL_GIT_REPO_SLUG}`;
+  }
+  if (!repo) repo = 'ferdinandschweigert/adalbert';
+  return {
+    token,
+    repo,
+    filePath: process.env.ALTFRAGEN_STATS_GITHUB_PATH || 'website/data/altfragen-stats.json',
+    branch: process.env.ALTFRAGEN_GITHUB_BRANCH || 'main',
+  };
+}
+
+async function readStatsFromGithub(): Promise<ExamStatsFile | null> {
+  const cfg = githubConfig();
+  if (!cfg) return null;
+  const url = `https://api.github.com/repos/${cfg.repo}/contents/${cfg.filePath}?ref=${encodeURIComponent(cfg.branch)}`;
+  const res = await fetch(url, {
+    headers: {
+      Accept: 'application/vnd.github+json',
+      Authorization: `Bearer ${cfg.token}`,
+      'X-GitHub-Api-Version': '2022-11-28',
+    },
+    cache: 'no-store',
+  });
+  if (!res.ok) return null;
+  const data = (await res.json()) as { content?: string };
+  if (!data.content) return null;
+  const parsed = JSON.parse(Buffer.from(data.content, 'base64').toString('utf8')) as ExamStatsFile;
+  return parsed?.exams ? parsed : emptyStats();
+}
+
+async function writeStatsToGithub(stats: ExamStatsFile): Promise<boolean> {
+  const cfg = githubConfig();
+  if (!cfg) return false;
+  const getUrl = `https://api.github.com/repos/${cfg.repo}/contents/${cfg.filePath}?ref=${encodeURIComponent(cfg.branch)}`;
+  const getRes = await fetch(getUrl, {
+    headers: {
+      Accept: 'application/vnd.github+json',
+      Authorization: `Bearer ${cfg.token}`,
+      'X-GitHub-Api-Version': '2022-11-28',
+    },
+  });
+  let sha: string | undefined;
+  if (getRes.ok) {
+    const existing = (await getRes.json()) as { sha?: string };
+    sha = existing.sha;
+  }
+  const content = Buffer.from(JSON.stringify(stats, null, 2) + '\n', 'utf8').toString('base64');
+  const putRes = await fetch(`https://api.github.com/repos/${cfg.repo}/contents/${cfg.filePath}`, {
+    method: 'PUT',
+    headers: {
+      Accept: 'application/vnd.github+json',
+      Authorization: `Bearer ${cfg.token}`,
+      'X-GitHub-Api-Version': '2022-11-28',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      message: 'chore(altfragen): update community kreuzen stats',
+      content,
+      branch: cfg.branch,
+      ...(sha ? { sha } : {}),
+    }),
+  });
+  return putRes.ok;
+}
+
+function mergeStats(a: ExamStatsFile, b: ExamStatsFile): ExamStatsFile {
+  const out: ExamStatsFile = {
+    version: 1,
+    updatedAt: new Date().toISOString(),
+    exams: { ...a.exams },
+  };
+  for (const [examId, examB] of Object.entries(b.exams || {})) {
+    if (!out.exams[examId]) {
+      out.exams[examId] = { questionStats: { ...examB.questionStats } };
+      continue;
+    }
+    const merged = { ...out.exams[examId].questionStats };
+    for (const [qKey, statB] of Object.entries(examB.questionStats || {})) {
+      const statA = merged[qKey];
+      if (!statA) {
+        merged[qKey] = statB;
+        continue;
+      }
+      // Prefer higher attempt count (more complete)
+      merged[qKey] = statA.attempts >= statB.attempts ? statA : statB;
+    }
+    out.exams[examId] = { questionStats: merged };
+  }
+  return out;
+}
+
 async function readStats(): Promise<ExamStatsFile> {
+  let disk = emptyStats();
   try {
     const raw = await fs.readFile(statsPath(), 'utf8');
     const parsed = JSON.parse(raw) as ExamStatsFile;
-    if (!parsed?.exams) return emptyStats();
-    memoryStats = parsed;
-    return parsed;
+    if (parsed?.exams) disk = parsed;
   } catch {
-    if (!memoryStats) memoryStats = emptyStats();
-    return memoryStats;
+    // ignore
   }
+  const gh = await readStatsFromGithub();
+  let combined = gh ? mergeStats(disk, gh) : disk;
+  if (memoryStats) combined = mergeStats(combined, memoryStats);
+  memoryStats = combined;
+  return combined;
 }
 
 async function writeStats(stats: ExamStatsFile): Promise<void> {
@@ -47,8 +146,9 @@ async function writeStats(stats: ExamStatsFile): Promise<void> {
     await fs.mkdir(path.dirname(statsPath()), { recursive: true });
     await fs.writeFile(statsPath(), JSON.stringify(stats, null, 2) + '\n', 'utf8');
   } catch {
-    // Vercel ephemeral FS — keep in memory for this instance
+    // ephemeral FS
   }
+  await writeStatsToGithub(stats);
 }
 
 export async function getExamStats(examId: string): Promise<Record<string, QuestionStat>> {
