@@ -3,11 +3,13 @@ import Link from 'next/link';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
 import { HomeStats } from '@/components/HomeStats';
+import { CanonicalHostBanner } from '@/components/CanonicalHostBanner';
 import { Brain, ChevronRight, PenLine } from 'lucide-react';
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
+      <CanonicalHostBanner />
       <SiteHeader active="home" />
 
       <section className="border-b border-[#e2e8f0] bg-white">

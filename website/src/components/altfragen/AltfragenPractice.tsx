@@ -20,6 +20,11 @@ import {
 } from '@/lib/altfragenStore';
 import { recordLocalKreuzung } from '@/lib/altfragenLocalActivity';
 import {
+  formatOptionLabel,
+  mergeQuestionStatsMaps,
+  migrateExamLocalData,
+} from '@/lib/altfragenLocalMigrate';
+import {
   AlertCircle,
   BarChart3,
   BookOpen,
@@ -130,16 +135,14 @@ export function AltfragenPractice({ examId }: { examId: string }) {
         if (statsRes.ok) {
           const statsData = await statsRes.json();
           const serverStats = (statsData.questionStats || {}) as Record<string, QuestionStat>;
-          // Local cache only fills gaps when the server lost ephemeral writes.
-          // Server values always win on conflict (so a reset is not overridden by old demos).
+          // Prefer richer attempt history — never let empty/ephemeral server stats wipe local.
           const cacheKey = `adalbert-altfragen-stats-v2-${examId}`;
           try {
+            migrateExamLocalData(examId);
             const raw = localStorage.getItem(cacheKey);
             const local = raw ? (JSON.parse(raw) as Record<string, QuestionStat>) : {};
-            const merged: Record<string, QuestionStat> = { ...local, ...serverStats };
+            const merged = mergeQuestionStatsMaps(local, serverStats);
             localStorage.setItem(cacheKey, JSON.stringify(merged));
-            // Drop legacy demo cache
-            localStorage.removeItem(`adalbert-altfragen-stats-${examId}`);
             setCommunityStats(merged);
           } catch {
             setCommunityStats(serverStats);
@@ -822,6 +825,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
               {question.options.map((opt, optIndex) => {
                 const selected = selection[optIndex] === '1';
                 const isRight = correctBits[optIndex] === '1';
+                const optionLabel = formatOptionLabel(opt);
                 let stateClass = 'border-[#e2e8f0] hover:border-[#002F5D]/40 hover:bg-[#f8fafc]';
                 if (isChecked) {
                   if (isRight) stateClass = 'border-emerald-400 bg-emerald-50';
@@ -865,7 +869,16 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                       >
                         {letter(optIndex)}
                       </span>
-                      <span className="min-w-0 flex-1 text-zinc-800">{opt}</span>
+                      <span
+                        className={cn(
+                          'min-w-0 flex-1',
+                          optionLabel.missing
+                            ? 'italic text-zinc-400'
+                            : 'text-zinc-800'
+                        )}
+                      >
+                        {optionLabel.text}
+                      </span>
                       <span className="mt-0.5 flex shrink-0 items-center gap-2">
                         {isChecked && optPct !== null && currentStat && currentStat.attempts >= 1 && (
                           <span

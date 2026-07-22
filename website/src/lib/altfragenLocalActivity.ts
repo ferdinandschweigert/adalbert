@@ -1,7 +1,10 @@
 import type { QuestionStat } from '@/lib/altfragenTypes';
+import {
+  ACTIVITY_KEY,
+  EXAM_STATS_PREFIX,
+} from '@/lib/altfragenLocalMigrate';
 
-const ACTIVITY_KEY = 'adalbert-kreuzen-activity-v1';
-const EXAM_STATS_PREFIX = 'adalbert-altfragen-stats-v2-';
+export { ACTIVITY_KEY, EXAM_STATS_PREFIX };
 
 export type LocalDailyActivity = Record<string, number>;
 

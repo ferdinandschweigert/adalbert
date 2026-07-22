@@ -9,6 +9,8 @@ import {
   mergeDaily,
   readLocalExamAggregates,
 } from '@/lib/altfragenLocalActivity';
+import { migrateLegacyExamKeys } from '@/lib/altfragenLocalMigrate';
+import { KreuzDataBackupControls } from '@/components/KreuzDataBackupControls';
 
 type ExamBar = {
   examId: string;
@@ -96,6 +98,7 @@ export function HomeStats() {
 
         const serverExams: ExamBar[] = json.exams || [];
         const examIds = serverExams.map((e) => e.examId);
+        migrateLegacyExamKeys(examIds);
         const localAggs = readLocalExamAggregates(examIds);
         const localById = Object.fromEntries(localAggs.map((a) => [a.examId, a]));
         const localAct = ensureLocalActivityFromExamCaches(examIds);
@@ -270,13 +273,17 @@ export function HomeStats() {
           <p className="mb-4 text-xs text-zinc-500">Kreuzungen pro Tag</p>
           <div className="flex h-40 items-end gap-1.5 sm:gap-2">
             {last14.map((day) => {
-              // Pixel heights — % height collapses inside flex-col children.
+              // Pixel heights — % height collapses inside flex-col children
+              // (only the day count label stayed visible, bars looked empty).
               const barPx =
                 loading || day.count <= 0
                   ? 4
                   : Math.max(10, Math.round((day.count / max14) * 112));
               return (
-                <div key={day.date} className="flex h-full min-w-0 flex-1 flex-col items-center justify-end gap-1">
+                <div
+                  key={day.date}
+                  className="flex h-full min-w-0 flex-1 flex-col items-center justify-end gap-1"
+                >
                   <span className="h-3 text-[10px] tabular-nums leading-none text-zinc-500">
                     {loading ? '·' : day.count > 0 ? day.count : ''}
                   </span>
@@ -392,6 +399,19 @@ export function HomeStats() {
               <span>mehr</span>
             </div>
           </div>
+        </div>
+
+        <div className="mx-auto mt-6 max-w-5xl">
+          <KreuzDataBackupControls examIds={display.exams.map((e) => e.examId)} />
+          <p className="mt-3 text-center text-xs text-zinc-500">
+            Aktivität wird lokal im Browser gespeichert · Live-URL:{' '}
+            <a
+              href="https://adalbert.vercel.app"
+              className="font-medium text-[#002F5D] underline"
+            >
+              adalbert.vercel.app
+            </a>
+          </p>
         </div>
       </div>
     </section>
