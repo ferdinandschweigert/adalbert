@@ -25,7 +25,7 @@ export default function Home() {
               Adalbert
             </h1>
             <p className="mt-2 max-w-md text-sm text-zinc-600">
-              Altklausuren kreuzen oder Anki-Decks anreichern — schnell starten.
+              Altklausuren kreuzen (Fachschaft) oder Anki-Decks lokal anreichern.
             </p>
           </div>
 
@@ -42,7 +42,7 @@ export default function Home() {
                   Altklausuren
                   <ChevronRight className="h-4 w-4 opacity-60 transition group-hover:translate-x-0.5" />
                 </span>
-                <span className="mt-0.5 block text-sm text-zinc-500">Kreuzen · ohne Login</span>
+                <span className="mt-0.5 block text-sm text-zinc-500">Kreuzen · Fachschafts-Code</span>
               </span>
             </Link>
 
@@ -58,7 +58,7 @@ export default function Home() {
                   Anki
                   <ChevronRight className="h-4 w-4 opacity-60 transition group-hover:translate-x-0.5" />
                 </span>
-                <span className="mt-0.5 block text-sm text-zinc-500">Decks anreichern</span>
+                <span className="mt-0.5 block text-sm text-zinc-500">Nur lokal · Anki Desktop</span>
               </span>
             </Link>
           </div>

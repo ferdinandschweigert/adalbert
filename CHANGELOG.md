@@ -6,6 +6,12 @@ Kurze Übersicht der wichtigsten Änderungen.
 
 ## 07/2026
 
+### Share-Readiness (Fachschaft)
+- **Admin:** kein Default-Passwort mehr; Session-Token statt Klartext-Passwort in Cookie/Session
+- **Stats-API** pro Klausur hinter demselben Zugangscode wie die Fragen
+- **Anki** auf Startseite/`/anki` klar als lokal (AnkiConnect); Host-Banner verbessert
+- Doku: Checkliste „Teilen mit der Fachschaft“ in SETUP/README
+
 ### Website-Struktur & Doku
 - **Startseite:** Module Kreuzen + Anki; Hero mit Figur/Text; **kein** Header-Logo auf `/`
 - **Anki-Subpage** `/anki`; Header-Logo (Figur + „Adalbert“) nur auf Kreuzen- & Anki-Seiten

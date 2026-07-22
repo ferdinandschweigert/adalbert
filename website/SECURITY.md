@@ -2,41 +2,34 @@
 
 ## Current Security Status
 
-### ✅ Good Practices
+### Good Practices
 - API keys are server-side only (not exposed to client)
 - `.env` files are in `.gitignore`
-- No sensitive data in client-side code
+- Admin password only via `ALTFRAGEN_ADMIN_PASSWORD` (no hardcoded default)
+- Admin session uses an HMAC token (cookie / `sessionStorage`), not the raw password
+- Altfragen exam + per-exam stats APIs respect `ALTFRAGEN_ACCESS_CODE` when set
+- Altfragen + admin pages use `noindex`
 
-### ⚠️ Security Issues to Address
+### Remaining Issues
 
-1. **Hardcoded localhost URL**
-   - API routes connect to `localhost:8765` which won't work on Vercel
-   - Should use environment variable
+1. **AnkiConnect is localhost-only**
+   - Hosted `/anki` correctly disables enrichment; MCP/Anki routes assume local Anki Desktop
 
-2. **No input validation**
-   - `deckName` parameter not sanitized
-   - Could allow injection attacks
+2. **No rate limiting**
+   - Login, access-code, and stats POST can still be abused under load — add limits for hard production
 
-3. **No rate limiting**
-   - API routes can be abused
-   - Should add rate limiting for production
+3. **Verbose errors**
+   - Some API routes still return raw exception messages
 
-4. **Error messages expose details**
-   - Error messages might reveal internal structure
-   - Should sanitize error responses
-
-5. **No CORS protection**
-   - Should configure CORS for production deployment
+4. **Public repo**
+   - Exam bank is in the public GitHub repo; access code only protects the live site
 
 ## Recommendations
 
-### For Local Development
-- Current setup is acceptable for local use
-- AnkiConnect only accessible on localhost (secure)
+### Fachschaft sharing
+- Set `ALTFRAGEN_ACCESS_CODE` + strong `ALTFRAGEN_ADMIN_PASSWORD` on Vercel
+- Share live URL + code privately; Anki stays local-only
 
-### For Vercel Deployment
-- Disable API routes or add proper authentication
-- Use environment variables for configuration
-- Add rate limiting
-- Sanitize all inputs
-- Configure CORS properly
+### Local development
+- Copy `website/.env.example` → `.env.local` and replace placeholder passwords
+- AnkiConnect only on localhost remains the intended security boundary for Anki

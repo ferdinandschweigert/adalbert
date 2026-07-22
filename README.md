@@ -8,30 +8,43 @@ Lernplattform für Medizinstudierende mit **zwei klaren Modulen**:
 
 | Modul | Was es tut | Wo |
 |-------|------------|-----|
-| **Kreuzen** | Freigegebene Staatsexamen-/Gedächtnisprotokoll-Fragen üben | [`/altfragen`](https://adalbert.vercel.app/altfragen) |
-| **Anki** | Decks mit deutschen Erklärungen anreichern & nach Anki synchen | [`/anki`](https://adalbert.vercel.app/anki) + MCP in Cursor |
+| **Kreuzen** | Freigegebene Staatsexamen-/Gedächtnisprotokoll-Fragen üben (Fachschafts-Code) | [`/altfragen`](https://adalbert.vercel.app/altfragen) |
+| **Anki** | Decks **lokal** anreichern & nach Anki Desktop synchen | lokal `/anki` + MCP in Cursor |
 
 🌐 **Live:** [https://adalbert.vercel.app](https://adalbert.vercel.app)
 
+> **Wichtig:** Nur diese URL nutzen. `adalbertanki.vercel.app` ist ein Duplikat — Fortschritt liegt im Browser und ist an die Domain gebunden.
+
 > „Adalbert“ ist ein persönlicher Projektname — Open-Source-Lernhilfe ohne kommerziellen Namensanspruch.
+
+---
+
+## Teilen (Fachschaft)
+
+Das **Repo ist öffentlich** (Code + Fragenbank in Git). Der Zugangscode schützt nur die **Live-Site** (`/altfragen`), nicht den GitHub-Clone.
+
+- Mitstudierende: Live-URL + `ALTFRAGEN_ACCESS_CODE`
+- Admin: `ALTFRAGEN_ADMIN_PASSWORD` (Pflicht, kein Default) — siehe [SETUP.md](SETUP.md)
+
+**Anki** auf dem Live-Host nur lokal nutzbar (AnkiConnect).
 
 ---
 
 ## Schnellüberblick
 
 ### Kreuzen (Website)
-- Öffentliche Klausur-Liste und Amboss-Style Übungsmodus
+- Klausur-Liste und Amboss-Style Übungsmodus hinter optionalem Fachschafts-Code
 - Sofort-Feedback bei SC, Übersicht, Auswertung (richtig/falsch/Zeit)
 - Admin (`/altfragen/admin`): Upload, Konvertierung, Freigabe
-- Optionaler Fachschafts-Zugangscode (`ALTFRAGEN_ACCESS_CODE`)
+- Community-Stats nur mit gültigem Zugang (wenn Code aktiv)
 
 Aktuell u. a.:
 - **M2 SS26** Gedächtnisprotokoll (~319 Fragen)
 - **M2 2025-A** Staatsexamen (320 Fragen aus 3 PDF-Teilen)
 
-### Anki (Website + MCP)
+### Anki (lokal + MCP)
 - MCP-Server in Cursor: Decks lesen, anreichern, zu Anki Desktop synchen
-- Website-Dashboard für Anreicherung (lokal mit AnkiConnect + LLM-Key)
+- Website-Dashboard unter `/anki` **nur lokal** (AnkiConnect + LLM-Key)
 - Pro Karte: **Lösung · Erklärung · Eselsbrücke · Referenz**
 - Fragetypen: SC, MC, KPRIM
 
@@ -41,7 +54,7 @@ Aktuell u. a.:
 
 | Datei | Inhalt |
 |-------|--------|
-| [SETUP.md](SETUP.md) | Installation MCP, Website, Altfragen-Env |
+| [SETUP.md](SETUP.md) | Installation, Fachschafts-Teilen, Env |
 | [FEATURES.md](FEATURES.md) | Status & Roadmap |
 | [CHANGELOG.md](CHANGELOG.md) | Änderungsverlauf |
 
@@ -66,10 +79,11 @@ Beispiel-Prompts in Cursor:
 ```bash
 cd website
 npm install
+cp .env.example .env.local   # Admin + Zugangscode setzen
 npm run dev
 ```
 
-→ http://localhost:3000 — Startseite mit **Kreuzen** und **Anki**.
+→ http://localhost:3000 — Startseite mit **Kreuzen** und **Anki (lokal)**.
 
 ---
 

@@ -636,9 +636,11 @@ export default function Dashboard() {
 
           {isHosted && (
             <div className="mb-4 p-3 bg-[#eef5fb] border border-[#2C94CC]/40 rounded-lg flex items-center gap-2 text-[#002F5D]">
-              <AlertCircle className="h-4 w-4" />
+              <AlertCircle className="h-4 w-4 shrink-0" />
               <span className="text-sm">
-                AnkiConnect funktioniert nur lokal mit Anki Desktop. Diese Funktionen sind auf Vercel deaktiviert.
+                Anki läuft nur lokal (Anki Desktop + AnkiConnect). Auf diesem Host sind Anreicherung,
+                Sync und PDF-Import deaktiviert — starte die Website mit{' '}
+                <code className="rounded bg-white/70 px-1">npm run dev</code> auf deinem Rechner.
               </span>
             </div>
           )}

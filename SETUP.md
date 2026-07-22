@@ -3,8 +3,8 @@
 ## 1. Voraussetzungen
 
 1. **Node.js** 18+
-2. **Anki Desktop** + Add-on **AnkiConnect** (`2055492159`)
-3. **LLM API-Key** (Gemini / TogetherAI / OpenAI-kompatibel)
+2. **Anki Desktop** + Add-on **AnkiConnect** (`2055492159`) — nur für das Anki-Modul
+3. **LLM API-Key** (Gemini / TogetherAI / OpenAI-kompatibel) — Anki-Anreicherung / Admin-Konvertierung
 
 ---
 
@@ -53,43 +53,53 @@ Pfad auf dein lokales Clone anpassen. Cursor neu starten.
 ```bash
 cd website
 npm install
-cp .env.example .env.local   # falls vorhanden
+cp .env.example .env.local
 npm run dev
 ```
 
 http://localhost:3000
 
-- **Kreuzen:** `/altfragen`
-- **Anki-Dashboard:** `/anki` (braucht laufendes Anki + Key in `.env.local`)
+- **Kreuzen:** `/altfragen` (Fachschafts-Code, wenn gesetzt)
+- **Anki-Dashboard:** `/anki` — **nur lokal** mit AnkiConnect + LLM-Key; auf dem Live-Host deaktiviert
 
 Beispiel `.env.local`:
 
 ```
+ALTFRAGEN_ADMIN_PASSWORD=dein-starkes-admin-passwort
+ALTFRAGEN_ACCESS_CODE=dein-fachschafts-code
 LLM_PROVIDER=gemini
 GEMINI_API_KEY=dein-api-key
 ```
 
-Im Dashboard: Deck wählen → Karten anreichern → nach Anki synchen.
-
 ---
 
-## 4. Altfragen / Kreuzen
+## 4. Altfragen / Kreuzen — Teilen mit der Fachschaft
+
+Ziel: Mitstudierende üben freigegebene Klausuren unter einem gemeinsamen Zugangscode. Anki bleibt Companion für den eigenen Rechner.
 
 | Rolle | URL | Zugang |
 |-------|-----|--------|
-| Studierende | `/altfragen` | optional `ALTFRAGEN_ACCESS_CODE` |
-| Admin | `/altfragen/admin` | `ALTFRAGEN_ADMIN_PASSWORD` (lokal Default: `adalbert-admin`) |
+| Studierende | `/altfragen` | `ALTFRAGEN_ACCESS_CODE` |
+| Admin | `/altfragen/admin` | `ALTFRAGEN_ADMIN_PASSWORD` (**Pflicht**, kein Default) |
 
-### Rechtlicher Rahmen
+### Checkliste vor dem Teilen
 
-Offizielle IMPP-Fragen nicht öffentlich indexieren. Sinnvoll: Fachschafts-/Forum-Verteilung + optionaler Zugangscode; Seiten sind `noindex`.
+1. Auf Vercel **`ALTFRAGEN_ACCESS_CODE`** setzen (ohne Code ist Kreuzen offen).
+2. **`ALTFRAGEN_ADMIN_PASSWORD`** setzen (stark, einzigartig; ohne Variable ist Admin deaktiviert).
+3. Link teilen: Live-URL + Zugangscode (nicht öffentlich posten, wo Suchmaschinen/Indexer mitlesen).
+4. Altfragen-Seiten sind `noindex`; Admin ebenfalls.
+5. Anki auf dem Live-Host klar als lokal kennzeichnen — kein Versprechen, dass Anreicherung online geht.
+
+### Öffentliches Repo
+
+Das GitHub-Repo ist öffentlich — inkl. `website/data/altfragen-bank.json`. Der Zugangscode gilt nur für die Live-Site, nicht für den Clone. Altfragen-Seiten sind `noindex`; IMPP-Inhalt nicht zusätzlich öffentlich bewerben.
 
 ### Umgebungsvariablen (Vercel / Website)
 
 | Variable | Zweck |
 |----------|--------|
-| `ALTFRAGEN_ADMIN_PASSWORD` | Admin-Login |
-| `ALTFRAGEN_ACCESS_CODE` | Optionaler Fachschafts-Code |
+| `ALTFRAGEN_ADMIN_PASSWORD` | Admin-Login (**erforderlich**) |
+| `ALTFRAGEN_ACCESS_CODE` | Fachschafts-Code (**empfohlen vor Teilen**) |
 | `GEMINI_API_KEY` / LLM-Keys | PDF/Text-Konvertierung, Erklärungen |
 | `ALTFRAGEN_GITHUB_TOKEN` | Persistente Bank + Stats auf Vercel |
 | `ALTFRAGEN_GITHUB_REPO` | Default `ferdinandschweigert/adalbert` |
@@ -112,7 +122,11 @@ node scripts/import-m2-gedaechtnisprotokoll.mjs path/to/protocol.pdf
 
 ## 5. Troubleshooting
 
-**Cannot connect to Anki Desktop** — Anki läuft? AnkiConnect aktiv?
+**Cannot connect to Anki Desktop** — Anki läuft? AnkiConnect aktiv? Nur lokal, nicht auf Vercel.
+
+**Admin: „nicht konfiguriert“** — `ALTFRAGEN_ADMIN_PASSWORD` in Vercel / `.env.local` setzen und neu deployen.
+
+**Zugangscode erforderlich** — `ALTFRAGEN_ACCESS_CODE` teilen bzw. Cookie nach Login am Gate.
 
 **LLM API key not set** — Key in MCP-Config oder `website/.env.local`, dann neu starten.
 

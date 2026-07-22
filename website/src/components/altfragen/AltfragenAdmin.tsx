@@ -117,8 +117,10 @@ export function AltfragenAdmin() {
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || 'Login fehlgeschlagen');
-      sessionStorage.setItem(ADMIN_TOKEN_KEY, password);
-      setAdminToken(password);
+      const token = typeof data.token === 'string' ? data.token : '';
+      if (!token) throw new Error('Kein Session-Token vom Server');
+      sessionStorage.setItem(ADMIN_TOKEN_KEY, token);
+      setAdminToken(token);
       setAuthed(true);
       setPassword('');
       await refresh();
@@ -343,8 +345,7 @@ export function AltfragenAdmin() {
                 <p className="text-sm text-red-700">{error}</p>
               )}
               <p className="text-xs text-zinc-500">
-                Passwort: Umgebungsvariable <code>ALTFRAGEN_ADMIN_PASSWORD</code> (sonst Standard{' '}
-                <code>adalbert-admin</code>).
+                Passwort über Server-Env <code>ALTFRAGEN_ADMIN_PASSWORD</code> (kein Default).
               </p>
               <Button type="button" variant="ghost" size="sm" asChild>
                 <Link href="/altfragen">Zurück zum Kreuzen</Link>

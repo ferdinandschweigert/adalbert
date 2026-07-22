@@ -1,14 +1,18 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { accessUnauthorizedIfNeeded } from '@/lib/altfragenAccess';
 import { getExamStats, recordAnswer } from '@/lib/altfragenStatsStore';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
 export async function GET(
-  _request: NextRequest,
+  request: NextRequest,
   context: { params: Promise<{ id: string }> }
 ) {
   try {
+    const denied = accessUnauthorizedIfNeeded(request);
+    if (denied) return denied;
+
     const { id } = await context.params;
     const questionStats = await getExamStats(id);
     return NextResponse.json({ success: true, examId: id, questionStats });
@@ -23,6 +27,9 @@ export async function POST(
   context: { params: Promise<{ id: string }> }
 ) {
   try {
+    const denied = accessUnauthorizedIfNeeded(request);
+    if (denied) return denied;
+
     const { id } = await context.params;
     const body = (await request.json()) as {
       questionNumber?: number;
