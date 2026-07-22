@@ -94,14 +94,16 @@ export function AltfragenPractice({ examId }: { examId: string }) {
         if (statsRes.ok) {
           const statsData = await statsRes.json();
           const serverStats = (statsData.questionStats || {}) as Record<string, QuestionStat>;
-          // Merge with local cache (survives Vercel ephemeral FS)
+          // Local cache only fills gaps when the server lost ephemeral writes.
+          // Server values always win on conflict (so a reset is not overridden by old demos).
+          const cacheKey = `adalbert-altfragen-stats-v2-${examId}`;
           try {
-            const raw = localStorage.getItem(`adalbert-altfragen-stats-${examId}`);
+            const raw = localStorage.getItem(cacheKey);
             const local = raw ? (JSON.parse(raw) as Record<string, QuestionStat>) : {};
-            const merged: Record<string, QuestionStat> = { ...serverStats };
-            for (const [k, v] of Object.entries(local)) {
-              if (!merged[k] || v.attempts > merged[k].attempts) merged[k] = v;
-            }
+            const merged: Record<string, QuestionStat> = { ...local, ...serverStats };
+            localStorage.setItem(cacheKey, JSON.stringify(merged));
+            // Drop legacy demo cache
+            localStorage.removeItem(`adalbert-altfragen-stats-${examId}`);
             setCommunityStats(merged);
           } catch {
             setCommunityStats(serverStats);
@@ -220,7 +222,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
         setCommunityStats((prev) => {
           const next = { ...prev, [String(q.number)]: data.stat as QuestionStat };
           try {
-            localStorage.setItem(`adalbert-altfragen-stats-${examId}`, JSON.stringify(next));
+            localStorage.setItem(`adalbert-altfragen-stats-v2-${examId}`, JSON.stringify(next));
           } catch {
             // ignore
           }
