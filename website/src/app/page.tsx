@@ -1,8 +1,8 @@
 import Image from "next/image";
+import dynamic from "next/dynamic";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import Dashboard from "@/components/Dashboard";
 import Link from "next/link";
 import { 
   BookOpen, 
@@ -14,6 +14,15 @@ import {
   PenLine
 } from "lucide-react";
 
+const Dashboard = dynamic(() => import("@/components/Dashboard"), {
+  ssr: false,
+  loading: () => (
+    <div className="rounded-xl border border-[#e2e8f0] bg-white p-8 text-center text-sm text-zinc-500">
+      Dashboard wird geladen…
+    </div>
+  ),
+});
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-white">
@@ -24,12 +33,12 @@ export default function Home() {
           <div className="flex flex-col items-center text-center">
             <div className="mb-8">
               <Image
-                src="/adalbert.png"
+                src="/adalbert-mark.webp"
                 alt="Adalbert"
                 width={150}
                 height={150}
                 priority
-                className="rounded-full shadow-2xl ring-4 ring-[#002F5D]/30"
+                className="h-[150px] w-[150px] object-contain drop-shadow-xl"
               />
             </div>
             <Badge variant="secondary" className="mb-4">
@@ -196,11 +205,11 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <Image
-                src="/adalbert.png"
+                src="/adalbert-mark.webp"
                 alt="Adalbert"
                 width={40}
                 height={40}
-                className="rounded-full"
+                className="h-10 w-10 object-contain"
               />
               <span className="font-semibold text-[#002F5D]">Adalbert</span>
             </div>

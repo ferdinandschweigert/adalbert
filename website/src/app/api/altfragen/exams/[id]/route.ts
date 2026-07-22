@@ -2,10 +2,18 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getExamById } from '@/lib/altfragenServerStore';
 import { isAdminRequest } from '@/lib/altfragenAuth';
 import { hasAccessCookie, isAccessControlEnabled } from '@/lib/altfragenAccess';
-import { withEnsuredRationales } from '@/lib/altfragenRationales';
+import type { StoredExam } from '@/lib/altfragenTypes';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
+
+/** Practice payload: drop heavy rationale blobs (~0.9MB) that the UI does not render. */
+function toPracticeExam(exam: StoredExam): StoredExam {
+  return {
+    ...exam,
+    questions: exam.questions.map(({ optionRationales, explanation, ...rest }) => rest),
+  };
+}
 
 export async function GET(
   request: NextRequest,
@@ -26,12 +34,16 @@ export async function GET(
       return NextResponse.json({ error: 'Klausur nicht gefunden' }, { status: 404 });
     }
 
-    const withRationales = {
-      ...exam,
-      questions: withEnsuredRationales(exam.questions),
-    };
+    const lean = admin && request.nextUrl.searchParams.get('full') === '1' ? exam : toPracticeExam(exam);
 
-    return NextResponse.json({ success: true, exam: withRationales });
+    return NextResponse.json(
+      { success: true, exam: lean },
+      {
+        headers: {
+          'Cache-Control': 'private, max-age=60',
+        },
+      }
+    );
   } catch (e) {
     const msg = e instanceof Error ? e.message : String(e);
     return NextResponse.json({ error: msg }, { status: 500 });

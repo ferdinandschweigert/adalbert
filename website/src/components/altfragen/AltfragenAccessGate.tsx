@@ -28,18 +28,17 @@ export function AltfragenAccessGate({ children }: { children: React.ReactNode })
           return;
         }
         setRequired(true);
-        // Cookie may already unlock via subsequent API calls; try empty verify by listing exams
-        const examRes = await fetch('/api/altfragen/exams', { cache: 'no-store' });
-        if (examRes.ok) {
+        if (data.unlocked) {
           setUnlocked(true);
           localStorage.setItem(LOCAL_KEY, '1');
         } else if (localStorage.getItem(LOCAL_KEY) === '1') {
-          // stale local flag — require re-entry
           localStorage.removeItem(LOCAL_KEY);
         }
       } catch {
-        if (!cancelled) setRequired(false);
-        if (!cancelled) setUnlocked(true);
+        if (!cancelled) {
+          setRequired(false);
+          setUnlocked(true);
+        }
       } finally {
         if (!cancelled) setChecking(false);
       }

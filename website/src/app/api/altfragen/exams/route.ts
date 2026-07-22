@@ -14,7 +14,10 @@ export async function GET(request: NextRequest) {
       );
     }
     const exams = await listPublishedExams();
-    return NextResponse.json({ success: true, exams });
+    return NextResponse.json(
+      { success: true, exams },
+      { headers: { 'Cache-Control': 'private, max-age=30' } }
+    );
   } catch (e) {
     const msg = e instanceof Error ? e.message : String(e);
     return NextResponse.json({ error: msg }, { status: 500 });
