@@ -65,34 +65,45 @@ function OptionRationaleBlock({
   question,
   optIndex,
   isRight,
+  loading,
 }: {
   question: ParsedQuestion;
   optIndex: number;
   isRight: boolean;
+  loading?: boolean;
 }) {
-  const rationale =
-    question.optionRationales?.find((r) => r.index === optIndex) ||
-    (() => {
-      const correctLetters = (question.correctAnswers || '')
-        .split('')
-        .map((b, i) => (b === '1' ? letter(i) : null))
-        .filter(Boolean)
-        .join(', ');
-      const opt = question.options[optIndex];
-      return {
-        index: optIndex,
-        correct: isRight,
-        text: isRight
-          ? `Richtig: ${opt} — markierte Lösung${correctLetters ? ` (${correctLetters})` : ''}.`
-          : `Falsch: ${opt} — nicht die markierte Lösung${correctLetters ? ` (richtig: ${correctLetters})` : ''}.`,
-        links: [
-          {
-            label: 'Amboss suchen',
-            url: `https://www.amboss.com/de/search?q=${encodeURIComponent(opt.slice(0, 80))}`,
-          },
-        ],
-      };
-    })();
+  const rationale = question.optionRationales?.find((r) => r.index === optIndex);
+  const opt = question.options[optIndex];
+  const correctLetters = (question.correctAnswers || '')
+    .split('')
+    .map((b, i) => (b === '1' ? letter(i) : null))
+    .filter(Boolean)
+    .join(', ');
+
+  const text =
+    rationale?.text ||
+    (loading
+      ? 'Erklärung wird geladen…'
+      : isRight
+        ? `Richtig: ${opt} — markierte Lösung${correctLetters ? ` (${correctLetters})` : ''}.`
+        : `Falsch: ${opt} — nicht die markierte Lösung${correctLetters ? ` (richtig: ${correctLetters})` : ''}.`);
+
+  const links = rationale?.links?.length
+    ? rationale.links
+    : [
+        {
+          label: 'Amboss (Login)',
+          url: `https://next.amboss.com/de/search?q=${encodeURIComponent(opt.slice(0, 80))}`,
+        },
+        {
+          label: 'DocCheck Flexikon',
+          url: `https://flexikon.doccheck.com/de/Spezial:Suche?search=${encodeURIComponent(opt.slice(0, 80))}`,
+        },
+        {
+          label: 'Wikipedia',
+          url: `https://de.wikipedia.org/w/index.php?search=${encodeURIComponent(opt.slice(0, 80))}`,
+        },
+      ];
 
   return (
     <div
@@ -102,22 +113,29 @@ function OptionRationaleBlock({
       )}
     >
       <p className="font-medium">{isRight ? 'Warum richtig' : 'Warum nicht'}</p>
-      <p className="mt-0.5">{rationale.text}</p>
-      {rationale.links && rationale.links.length > 0 && (
-        <p className="mt-1.5 flex flex-wrap gap-2">
-          {rationale.links.map((link) => (
-            <a
-              key={link.url}
-              href={link.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#002F5D] underline-offset-2 hover:underline"
-            >
-              {link.label} ↗
-            </a>
-          ))}
-        </p>
-      )}
+      <p className="mt-0.5">
+        {loading && !rationale?.text ? (
+          <span className="inline-flex items-center gap-1.5 text-zinc-500">
+            <Loader2 className="h-3 w-3 animate-spin" />
+            Lade medizinische Erklärung…
+          </span>
+        ) : (
+          text
+        )}
+      </p>
+      <p className="mt-1.5 flex flex-wrap gap-x-3 gap-y-1">
+        {links.map((link) => (
+          <a
+            key={link.url + link.label}
+            href={link.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium text-[#002F5D] underline underline-offset-2 hover:text-[#003d7a]"
+          >
+            {link.label} ↗
+          </a>
+        ))}
+      </p>
     </div>
   );
 }
@@ -133,6 +151,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
   const [showResult, setShowResult] = useState(false);
   const [communityStats, setCommunityStats] = useState<Record<string, QuestionStat>>({});
   const [reporting, setReporting] = useState(false);
+  const [explaining, setExplaining] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -274,6 +293,33 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     }
   };
 
+  const loadExplanations = async (q: ParsedQuestion, qIndex: number) => {
+    setExplaining(true);
+    try {
+      const res = await fetch('/api/altfragen/explain', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question: q }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'Erklärungen fehlgeschlagen');
+      if (!data.optionRationales) return;
+      setExam((prev) => {
+        if (!prev) return prev;
+        const questions = [...prev.questions];
+        questions[qIndex] = {
+          ...questions[qIndex],
+          optionRationales: data.optionRationales,
+        };
+        return { ...prev, questions };
+      });
+    } catch {
+      // keep fallback rationales
+    } finally {
+      setExplaining(false);
+    }
+  };
+
   const handleCheck = async () => {
     if (!progress || !question || !selection.includes('1')) return;
     const checked = progress.checked.includes(index)
@@ -286,6 +332,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
       completedAt: allDone ? new Date().toISOString() : progress.completedAt,
     });
     void reportStats(question, selection);
+    void loadExplanations(question, index);
     if (allDone) setShowResult(true);
   };
 
@@ -589,6 +636,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                         question={question}
                         optIndex={optIndex}
                         isRight={isRight}
+                        loading={explaining}
                       />
                     )}
                   </li>
