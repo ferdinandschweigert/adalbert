@@ -237,7 +237,7 @@ export function HomeStats() {
             Aktivität beim Kreuzen
           </h2>
           <p className="mt-1 text-sm text-zinc-500">
-            Server + lokale Kreuzungen (bleiben auch ohne Persistenz auf Vercel sichtbar)
+            Kreuzungen, Trefferquote, Tagesbalken und Heatmap
           </p>
         </div>
 
