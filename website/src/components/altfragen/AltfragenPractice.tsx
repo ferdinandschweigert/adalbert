@@ -24,6 +24,7 @@ import {
   BarChart3,
   BookOpen,
   CheckCircle,
+  ChevronDown,
   ChevronLeft,
   ChevronRight,
   LayoutGrid,
@@ -99,6 +100,8 @@ export function AltfragenPractice({ examId }: { examId: string }) {
   const [explanations, setExplanations] = useState<Record<number, QuestionExplanation>>({});
   const [explanationLoading, setExplanationLoading] = useState(false);
   const explanationFetchRef = useRef<Set<number>>(new Set());
+  /** Expanded distractor rationales: `${questionNumber}:${optionIndex}` */
+  const [expandedDistractors, setExpandedDistractors] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
     let cancelled = false;
@@ -809,6 +812,11 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                 const rationale = currentExplanation?.optionRationales?.find(
                   (r) => r.index === optIndex
                 );
+                const distractorKey =
+                  question && `${question.number}:${optIndex}`;
+                const distractorOpen = distractorKey
+                  ? Boolean(expandedDistractors[distractorKey])
+                  : false;
 
                 return (
                   <li key={optIndex} className="space-y-1.5">
@@ -848,17 +856,38 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                         )}
                       </span>
                     </button>
-                    {isChecked && rationale?.text && (
-                      <p
-                        className={cn(
-                          'border-l-2 px-3 py-1.5 text-sm leading-relaxed',
-                          isRight
-                            ? 'border-emerald-400 text-emerald-950'
-                            : 'border-red-300 text-zinc-700'
-                        )}
-                      >
+                    {isChecked && rationale?.text && isRight && (
+                      <p className="border-l-2 border-emerald-400 px-3 py-1.5 text-sm leading-relaxed text-emerald-950">
                         {rationale.text}
                       </p>
+                    )}
+                    {isChecked && rationale?.text && !isRight && distractorKey && (
+                      <div className="border-l-2 border-red-300">
+                        <button
+                          type="button"
+                          onClick={() =>
+                            setExpandedDistractors((prev) => ({
+                              ...prev,
+                              [distractorKey]: !prev[distractorKey],
+                            }))
+                          }
+                          className="flex w-full items-center gap-1.5 px-3 py-1.5 text-left text-xs font-medium text-zinc-600 transition hover:text-zinc-900"
+                          aria-expanded={distractorOpen}
+                        >
+                          <ChevronDown
+                            className={cn(
+                              'h-3.5 w-3.5 shrink-0 transition-transform',
+                              distractorOpen && 'rotate-180'
+                            )}
+                          />
+                          {distractorOpen ? 'Erklärung ausblenden' : 'Warum falsch?'}
+                        </button>
+                        {distractorOpen && (
+                          <p className="px-3 pb-1.5 text-sm leading-relaxed text-zinc-700">
+                            {rationale.text}
+                          </p>
+                        )}
+                      </div>
                     )}
                   </li>
                 );
