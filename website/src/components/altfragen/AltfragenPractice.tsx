@@ -240,8 +240,20 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     commitAnswer(selection);
   };
 
-  const handleRestart = () => {
-    if (!confirm('Fortschritt für diese Klausur zurücksetzen? Alle Antworten werden gelöscht.')) {
+  const handleResetQuestion = () => {
+    if (!progress || !isChecked) return;
+    const nextSelections = { ...progress.selections };
+    delete nextSelections[index];
+    persist({
+      ...progress,
+      selections: nextSelections,
+      checked: progress.checked.filter((i) => i !== index),
+      completedAt: undefined,
+    });
+  };
+
+  const handleRestartAll = () => {
+    if (!confirm('Gesamten Fortschritt dieser Klausur zurücksetzen? Alle Antworten werden gelöscht.')) {
       return;
     }
     clearProgress(examId);
@@ -334,7 +346,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
             </div>
           </div>
           <div className="flex flex-wrap gap-2">
-            <Button type="button" onClick={handleRestart}>
+            <Button type="button" onClick={handleRestartAll}>
               <RotateCcw className="mr-2 h-4 w-4" />
               Neu starten
             </Button>
@@ -523,20 +535,23 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                       >
                         {letter(optIndex)}
                       </span>
-                      <span className="flex-1 text-zinc-800">
-                        {opt}
+                      <span className="min-w-0 flex-1 text-zinc-800">{opt}</span>
+                      <span className="mt-0.5 flex shrink-0 items-center gap-2">
                         {isChecked && optPct !== null && currentStat && currentStat.attempts >= 1 && (
-                          <span className="mt-1 block text-xs text-zinc-500">
-                            {optPct}% der Nutzer haben das gewählt ({optStat}/{currentStat.attempts})
+                          <span
+                            className="tabular-nums text-xs font-medium text-zinc-500"
+                            title={`${optStat} von ${currentStat.attempts} Nutzern`}
+                          >
+                            {optPct}%
                           </span>
                         )}
+                        {isChecked && isRight && (
+                          <CheckCircle className="h-4 w-4 text-emerald-600" />
+                        )}
+                        {isChecked && selected && !isRight && (
+                          <XCircle className="h-4 w-4 text-red-500" />
+                        )}
                       </span>
-                      {isChecked && isRight && (
-                        <CheckCircle className="mt-0.5 h-4 w-4 shrink-0 text-emerald-600" />
-                      )}
-                      {isChecked && selected && !isRight && (
-                        <XCircle className="mt-0.5 h-4 w-4 shrink-0 text-red-500" />
-                      )}
                     </button>
                   </li>
                 );
@@ -605,9 +620,10 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                 variant="ghost"
                 size="icon"
                 className="h-8 w-8 text-zinc-500 hover:text-zinc-900"
-                onClick={handleRestart}
-                title="Fortschritt zurücksetzen"
-                aria-label="Fortschritt zurücksetzen"
+                onClick={handleResetQuestion}
+                disabled={!isChecked}
+                title="Diese Frage zurücksetzen"
+                aria-label="Diese Frage zurücksetzen"
               >
                 <RotateCcw className="h-4 w-4" />
               </Button>
