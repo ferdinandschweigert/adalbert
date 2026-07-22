@@ -14,11 +14,12 @@ export function AltfragenShell({
         <div className="container mx-auto flex items-center justify-between gap-4 px-6 py-4">
           <Link href="/altfragen" className="flex items-center gap-3 min-w-0">
             <Image
-              src="/adalbert.png"
+              src="/adalbert-mark.webp"
               alt="Adalbert"
               width={40}
               height={40}
-              className="rounded-full ring-2 ring-[#002F5D]/25"
+              priority
+              className="h-10 w-10 shrink-0 object-contain"
             />
             <div className="min-w-0">
               <p className="text-sm font-semibold text-[#002F5D] tracking-tight">Adalbert</p>

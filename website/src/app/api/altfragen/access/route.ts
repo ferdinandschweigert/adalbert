@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import {
   ACCESS_COOKIE,
+  hasAccessCookie,
   isAccessControlEnabled,
   verifyAccessCode,
 } from '@/lib/altfragenAccess';
@@ -8,23 +9,25 @@ import {
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
-export async function GET() {
+export async function GET(request: NextRequest) {
+  const required = isAccessControlEnabled();
   return NextResponse.json({
     success: true,
-    required: isAccessControlEnabled(),
+    required,
+    unlocked: !required || hasAccessCookie(request),
   });
 }
 
 export async function POST(request: NextRequest) {
   try {
     if (!isAccessControlEnabled()) {
-      return NextResponse.json({ success: true, required: false });
+      return NextResponse.json({ success: true, required: false, unlocked: true });
     }
     const body = (await request.json()) as { code?: string };
     if (!verifyAccessCode(body.code)) {
       return NextResponse.json({ error: 'Falscher Zugangscode' }, { status: 401 });
     }
-    const res = NextResponse.json({ success: true });
+    const res = NextResponse.json({ success: true, unlocked: true });
     res.cookies.set(ACCESS_COOKIE, body.code || '', {
       httpOnly: true,
       sameSite: 'lax',

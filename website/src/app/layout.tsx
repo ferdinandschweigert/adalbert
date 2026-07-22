@@ -10,6 +10,13 @@ const sourceSans = Source_Sans_3({
 export const metadata: Metadata = {
   title: "Adalbert - Anki MCP Server",
   description: "AI-powered Anki card enrichment with German explanations. Organize decks, manage tags, and enhance your flashcards with intelligent features.",
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png", sizes: "48x48" },
+      { url: "/adalbert-mark.png", type: "image/png", sizes: "128x128" },
+    ],
+    apple: [{ url: "/apple-icon.png", type: "image/png", sizes: "180x180" }],
+  },
 };
 
 export default function RootLayout({

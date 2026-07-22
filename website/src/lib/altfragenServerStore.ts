@@ -144,17 +144,29 @@ async function writeBankToGithub(bank: AltfragenBankFile): Promise<boolean> {
 export type BankBackend = 'github' | 'filesystem' | 'memory';
 
 let memoryBank: AltfragenBankFile | null = null;
+let cachedBank: { bank: AltfragenBankFile; backend: BankBackend; loadedAt: number } | null = null;
+const BANK_CACHE_MS = 60_000;
 
 export async function loadBank(): Promise<{ bank: AltfragenBankFile; backend: BankBackend }> {
+  if (cachedBank && Date.now() - cachedBank.loadedAt < BANK_CACHE_MS) {
+    return { bank: cachedBank.bank, backend: cachedBank.backend };
+  }
+
   const fromGh = await readBankFromGithub();
-  if (fromGh) return { bank: fromGh, backend: 'github' };
+  if (fromGh) {
+    memoryBank = fromGh;
+    cachedBank = { bank: fromGh, backend: 'github', loadedAt: Date.now() };
+    return { bank: fromGh, backend: 'github' };
+  }
 
   try {
     const fromDisk = await readBankFromDisk();
     memoryBank = fromDisk;
+    cachedBank = { bank: fromDisk, backend: 'filesystem', loadedAt: Date.now() };
     return { bank: fromDisk, backend: 'filesystem' };
   } catch {
     if (!memoryBank) memoryBank = emptyBank();
+    cachedBank = { bank: memoryBank, backend: 'memory', loadedAt: Date.now() };
     return { bank: memoryBank, backend: 'memory' };
   }
 }
@@ -163,15 +175,18 @@ export async function saveBank(bank: AltfragenBankFile): Promise<{ backend: Bank
   const wroteGh = await writeBankToGithub(bank);
   if (wroteGh) {
     memoryBank = bank;
+    cachedBank = { bank, backend: 'github', loadedAt: Date.now() };
     return { backend: 'github' };
   }
 
   try {
     await writeBankToDisk(bank);
     memoryBank = bank;
+    cachedBank = { bank, backend: 'filesystem', loadedAt: Date.now() };
     return { backend: 'filesystem' };
   } catch {
     memoryBank = bank;
+    cachedBank = { bank, backend: 'memory', loadedAt: Date.now() };
     return { backend: 'memory' };
   }
 }
