@@ -1,0 +1,745 @@
+{
+  "examId": "m2-2025a-staatsexamen",
+  "questions": {
+    "221": {
+      "topicLabel": "Kindesmisshandlung Hämatome",
+      "explanation": "Bei mobilen Kindern entstehen akzidentelle Hämatome typischerweise an exponierten Streckseiten, etwa an Schienbeinen oder Knien. Hämatome an Ohren, Hals, Stamm, Gesäß oder weichen, geschützten Körperregionen sind dagegen deutlich verdächtiger auf eine nicht-akzidentelle Genese. Im Fall passt die großflächige, teils scharf begrenzte und geformte Läsion am Oberschenkel zusätzlich zu einer möglichen Fremdeinwirkung. Für die Lokalisationsfrage ist unter den genannten Antwortmöglichkeiten das Ohr am ehesten suspekt. Solche Befunde sollten sorgfältig dokumentiert, mit der Gesamtsituation abgeglichen und bei Verdacht auf Kindeswohlgefährdung strukturiert weiterverfolgt werden.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Hämatome an den Ohren sind bei bereits mobilen Kindern ungewöhnlich, weil diese Region bei normalen Stürzen und Spielverletzungen weniger häufig getroffen wird. Sie zählen zu den typischen Warnlokalisationen für eine mögliche Misshandlung, besonders wenn die Erklärung unklar ist oder die Verletzung geformt wirkt.",
+          "term": "Ohrhämatom Kindesmisshandlung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die Nase ist im Kindesalter eine prominente, exponierte Struktur und kann bei Stürzen, Zusammenstößen oder Spielen akzidentell verletzt werden. Ein Nasenhämatom kann zwar je nach Begleitumständen auffällig sein, ist unter den angebotenen Lokalisationen aber nicht am ehesten beweisend oder typisch für eine misshandlungsbedingte Genese.",
+          "term": "Nasenverletzung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Der Hinterkopf kann bei Stürzen betroffen sein, insbesondere wenn ein Kind rückwärts fällt. Bei nicht mobilen Säuglingen wären Kopfverletzungen besonders kritisch zu bewerten; die Frage bezieht sich aber ausdrücklich auf bereits mobile Kinder und fragt nach der am ehesten suspekten Lokalisation unter den Optionen.",
+          "term": "Hinterkopfhämatom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Kniehämatome sind bei mobilen Kindern sehr häufig akzidentell, weil die Knie beim Laufen, Spielen und Stürzen exponiert sind. Solche Hämatome passen eher zu alltäglichen Bagatelltraumen als zu einer spezifischen Misshandlungslokalisation.",
+          "term": "Kniehämatom"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Streckseiten der Unterschenkel gehören zu den klassischen Lokalisationen zufälliger Hämatome bei mobilen Kindern. Gerade dort stoßen sich Kinder beim Spielen oder Fallen besonders oft, weshalb diese Region für sich allein weniger suspekt ist.",
+          "term": "Unterschenkelstreckseite"
+        }
+      ]
+    },
+    "222": {
+      "topicLabel": "Schweigepflicht Kindeswohl",
+      "explanation": "Ärztinnen und Ärzte unterliegen grundsätzlich der Schweigepflicht, dürfen diese aber in eng begrenzten Situationen durchbrechen. Beim Verdacht auf eine erhebliche Kindeswohlgefährdung kann neben den kinderschutzrechtlichen Regelungen der rechtfertigende Notstand nach dem Strafgesetzbuch relevant sein. Er erlaubt eine Offenbarung, wenn dadurch eine gegenwärtige Gefahr für ein höherwertiges Rechtsgut abgewendet werden soll und die Interessenabwägung dies rechtfertigt. Im vorliegenden Fall geht es um den Schutz des Kindes vor möglicher weiterer Gewalt. Daher ist der rechtfertigende Notstand die passende gesetzliche Grundlage unter den Antwortmöglichkeiten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein fremdes Verschulden nach Bürgerlichem Gesetzbuch beschreibt keine Befugnisnorm zum Bruch der ärztlichen Schweigepflicht. Zivilrechtliche Haftungsfragen ersetzen nicht die strafrechtliche oder kinderschutzrechtliche Interessenabwägung bei einer Offenbarung.",
+          "term": "Bürgerliches Gesetzbuch"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Das Personenstandsgesetz regelt Personenstandsfälle wie Geburt, Ehe und Tod. Eine Kategorie der primären Traumatisierung bietet dort keine tragfähige Grundlage, um ärztliche Schweigepflicht bei Kindeswohlgefährdung zu durchbrechen.",
+          "term": "Personenstandsgesetz"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Der rechtfertigende Notstand nach dem Strafgesetzbuch kann eine Offenbarung rechtfertigen, wenn dadurch eine erhebliche Gefahr für Leib, Leben oder andere Rechtsgüter des Kindes abgewendet wird. Entscheidend ist eine sorgfältige Abwägung, bei der der Schutz des Kindes die Geheimhaltungspflicht überwiegen kann.",
+          "term": "rechtfertigender Notstand"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Gewaltfreie Erziehung ist ein zivilrechtlich verankerter Anspruch des Kindes, wird aber nicht durch die Strafprozessordnung als Offenbarungsbefugnis ausgestaltet. Diese Option vermischt inhaltlich richtige Kinderschutzgedanken mit einer unpassenden gesetzlichen Grundlage.",
+          "term": "gewaltfreie Erziehung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Kindliche Schutzgüter sind zwar materiell betroffen, die Zivilprozessordnung regelt jedoch zivilgerichtliche Verfahren und keine allgemeine ärztliche Offenbarungsbefugnis. Für den Bruch der Schweigepflicht ist diese Antwort daher nicht einschlägig.",
+          "term": "Zivilprozessordnung"
+        }
+      ]
+    },
+    "223": {
+      "topicLabel": "Kohlenmonoxid Letalität",
+      "explanation": "Kohlenmonoxid bindet mit sehr hoher Affinität an Hämoglobin und bildet Kohlenmonoxid-Hämoglobin, wodurch Sauerstofftransport und Sauerstoffabgabe im Gewebe massiv beeinträchtigt werden. Klinische Beschwerden können bereits bei deutlich niedrigeren CO-Hb-Anteilen auftreten, insbesondere Kopfschmerz, Schwindel und neurologische Symptome. Für gesunde, nicht zusätzlich intoxikierte Personen ist bei kurzer Einwirkzeit aber erst bei sehr hohen CO-Hb-Anteilen mit einem tödlichen Ausgang zu rechnen. Unter den genannten Werten entspricht 65 Prozent dieser Größenordnung. Die niedrigeren Promille- und Prozentangaben liegen weit unterhalb einer typischen letalen Schwelle.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "0,3 Promille entsprechen einem extrem niedrigen Anteil und wären nicht geeignet, bei gesunden Personen nach kurzer Exposition einen tödlichen Ausgang zu erklären. Solche Werte liegen weit entfernt von den schweren Vergiftungsbereichen.",
+          "term": "CO-Hb Promille"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Auch 1,1 Promille sind noch eine sehr geringe CO-Hb-Fraktion. Eine letale Kohlenmonoxidvergiftung erfordert in der Regel deutlich höhere prozentuale Anteile, sodass diese Antwort nicht zur Frage nach tödlicher Kurzexposition passt.",
+          "term": "niedriges CO-Hb"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "1,6 Prozent können je nach Hintergrundexposition messbar sein, liegen aber weit unter dem Bereich schwerer oder letaler Vergiftungen. Damit lässt sich der beschriebene tödliche Ausgang bei einer ansonsten gesunden Person nicht am ehesten erklären.",
+          "term": "CO-Hb 1,6 Prozent"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "12 Prozent können bereits Symptome verursachen oder bei vulnerablen Personen klinisch relevant sein. Für einen tödlichen Ausgang nach kurzer Einwirkzeit bei gesunden, nicht anderweitig intoxikierten Personen ist dieser Wert aber nicht hoch genug.",
+          "term": "CO-Hb 12 Prozent"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Ein CO-Hb-Anteil von 65 Prozent liegt im Bereich schwerster Kohlenmonoxidintoxikationen und ist mit Bewusstlosigkeit, Kreislaufversagen und Tod vereinbar. Unter den Antwortmöglichkeiten ist dies der Wert, ab dem auch bei kurzer Einwirkzeit am ehesten mit Letalität zu rechnen ist.",
+          "term": "letale CO-Vergiftung"
+        }
+      ]
+    },
+    "224": {
+      "topicLabel": "Kohlenmonoxid Symptome",
+      "explanation": "Kohlenmonoxid verursacht eine hypoxische Gewebeschädigung, ohne die Atmung notwendigerweise früh als Erstickungsgefühl bemerkbar zu machen. Typisch sind zunächst unspezifische neurologische Beschwerden wie Kopfschmerzen, Schwindel, Übelkeit, Sehstörungen und Benommenheit. Bei höherer Exposition können Bewusstseinsstörungen, Krampfanfälle, Herzrhythmusstörungen und Kreislaufversagen hinzukommen. Im Kontext des Schwelbrands in einem Wohnwagen passt die Kombination aus Kopfschmerzen, Sehstörungen und Schwindel daher am besten. Die übrigen Symptomkombinationen erinnern eher an andere Intoxikationen oder sind zu unspezifisch beziehungsweise untypisch gebündelt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Kopfschmerzen, Sehstörungen und Schwindel sind klassische Früh- und Leitsymptome einer Kohlenmonoxidvergiftung. Sie entstehen durch die gestörte Sauerstoffversorgung des zentralen Nervensystems und passen sehr gut zur Exposition bei einem Schwelbrand.",
+          "term": "CO-Intoxikation Symptome"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Bradykardie, Angstgefühl und Schwäche sind insgesamt zu unspezifisch und ergeben keine typische Symptomtrias der Kohlenmonoxidvergiftung. Kreislauf- und Rhythmusstörungen können bei schwerer Intoxikation auftreten, stehen aber nicht so charakteristisch im Vordergrund wie neurologische Beschwerden.",
+          "term": "Bradykardie Schwäche"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Speichelfluss, Tränenfluss und Schweißausbruch sprechen eher für ein cholinerges Syndrom, etwa bei Organophosphat- oder Parasympathomimetika-Exposition. Diese Sekretionssymptomatik ist nicht typisch für Kohlenmonoxid.",
+          "term": "cholinerges Syndrom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Krämpfe können bei schwerer CO-Intoxikation vorkommen, die Kombination mit Erstickungsgefühl und Miosis ist jedoch nicht typisch. Eine Miosis lenkt eher an Opioide oder cholinerge Substanzen als an Kohlenmonoxid.",
+          "term": "Miosis Krämpfe"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Dyspnoe und Zittern sind unspezifisch, Hautblutungen gehören nicht zum typischen klinischen Bild einer Kohlenmonoxidvergiftung. Die CO-Vergiftung ist primär eine innere Hypoxie durch Hämoglobinbindung und keine Erkrankung mit petechialer Blutungsneigung.",
+          "term": "Dyspnoe Hautblutungen"
+        }
+      ]
+    },
+    "225": {
+      "topicLabel": "Zystoides Makulaödem",
+      "explanation": "Die Beschwerden treten wenige Wochen nach Kataraktoperation auf und bestehen aus neuem verzerrtem Sehen, was zur Makulabeteiligung passt. Nach Kataraktoperation ist ein zystoides Makulaödem, auch Irvine-Gass-Syndrom, eine typische Ursache für Visusminderung oder Metamorphopsien. In der OCT zeigen sich dabei intraretinale zystische Flüssigkeitsräume im Bereich der Makula. Das vorausgegangene Absetzen der antientzündlichen Lokaltherapie und der postoperative Zeitpunkt stützen diese Diagnose zusätzlich. Die anderen Makulaforamen- oder Gliose-Diagnosen würden in der OCT andere strukturelle Muster erwarten lassen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine epiretinale Gliose ist eine Membranbildung an der Netzhautoberfläche und kann Metamorphopsien verursachen. Sie erklärt den typischen postoperativen Verlauf mit zystischen Makulaveränderungen nach Kataraktoperation jedoch weniger gut als ein zystoides Makulaödem.",
+          "term": "epiretinale Gliose"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Makulapseudoforamen entsteht meist durch tangentiale Traktion, häufig im Zusammenhang mit epiretinalen Membranen. Es imitiert klinisch ein Makulaloch, zeigt aber nicht die für ein postoperatives zystoides Makulaödem charakteristischen intraretinalen Flüssigkeitszysten.",
+          "term": "Makulapseudoforamen"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Das zystoide Makulaödem ist eine typische postoperative Komplikation nach Kataraktoperation und kann einige Wochen nach initial guter Sehverbesserung auftreten. Die OCT-Diagnose beruht auf zystischen Flüssigkeitsansammlungen in der Makula, die Metamorphopsien und Visusminderung verursachen.",
+          "term": "Irvine-Gass-Syndrom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Makulaschichtforamen ist ein lamelläres, nicht durchgreifendes Defektmuster der Fovea. Es ist strukturell von einem ödematösen, zystischen Makulabefund zu unterscheiden und passt weniger gut zur zeitlichen Nähe der Kataraktoperation.",
+          "term": "lamelläres Makulaforamen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein durchgreifendes Makulaforamen zeigt einen vollschichtigen Defekt der fovealen Netzhaut. Die vorliegende postoperative Konstellation zielt dagegen auf Flüssigkeitsansammlungen in der Makula und nicht auf ein komplettes Makulaloch.",
+          "term": "durchgreifendes Makulaforamen"
+        }
+      ]
+    },
+    "226": {
+      "topicLabel": "Makulaödem Therapie",
+      "explanation": "Die Vorfrage weist auf ein zystoides Makulaödem nach Kataraktoperation hin. Therapeutisch kommen antientzündliche Maßnahmen infrage, insbesondere lokale oder gegebenenfalls weiterführende Glucocorticoid-Therapie, häufig auch in Kombination mit nichtsteroidalen Antiphlogistika. Der Fall beschreibt zudem, dass Dexamethason-Augentropfen nach der Operation abgesetzt wurden und danach Beschwerden auftraten. Unter den angebotenen Arzneistoffgruppen ist daher ein Glucocorticoid am ehesten passend. Die übrigen Substanzgruppen behandeln andere ophthalmologische Probleme oder waren nur perioperativ-prophylaktisch relevant.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Aminoglykoside wie Gentamicin wirken antibakteriell und werden perioperativ zur Infektionsprophylaxe oder -therapie eingesetzt. Ein zystoides Makulaödem ist jedoch primär entzündlich-ödematös und nicht durch eine bakterielle Infektion der Makula bedingt.",
+          "term": "Aminoglykosid Augentropfen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Beta-Adrenozeptor-Antagonisten werden ophthalmologisch vor allem zur Senkung des Augeninnendrucks beim Glaukom eingesetzt. Sie behandeln nicht die postoperative makuläre Flüssigkeitsansammlung und sind daher für diese Fragestellung nicht die passende Gruppe.",
+          "term": "Betablocker Glaukom"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Glucocorticoide hemmen die postoperative Entzündungsreaktion und können die Gefäßpermeabilität reduzieren, die zum zystoiden Makulaödem beiträgt. Deshalb sind sie unter den angebotenen Gruppen die naheliegendste Therapieoption für den beschriebenen Befund.",
+          "term": "Glucocorticoid Makulaödem"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Muskarinrezeptor-Antagonisten wirken parasympatholytisch und werden etwa zur Mydriasis oder Zykloplegie verwendet. Sie adressieren aber weder die entzündliche Komponente noch das Makulaödem selbst.",
+          "term": "Parasympatholytikum Auge"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Prostaglandin-F-Rezeptor-Agonisten senken den Augeninnendruck und sind typische Glaukommedikamente. Beim zystoiden Makulaödem nach Kataraktoperation sind sie nicht die gesuchte antientzündliche Therapie und können in dieser Konstellation sogar problematisch sein.",
+          "term": "Prostaglandinanalogon"
+        }
+      ]
+    },
+    "227": {
+      "topicLabel": "Katarakt-OP Komplikationen",
+      "explanation": "Kataraktoperationen sind häufig und meist sicher, können aber intra- und postoperative Komplikationen verursachen. Zu den bekannten Folgen gehören unter anderem Hornhautödem, Druckanstieg, Endophthalmitis, zystoides Makulaödem und in seltenen Fällen eine Netzhautablösung. Eine Neuritis nervi optici ist dagegen keine typische direkte Komplikation der Kataraktoperation. Sie ist eher eine entzündliche Erkrankung des Sehnerven mit anderen Ursachen und klinischem Kontext. Deshalb ist sie unter den genannten Optionen am wenigsten wahrscheinlich.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine Neuritis nervi optici gehört nicht zu den typischen Komplikationen einer Kataraktoperation. Sie betrifft den Sehnerven entzündlich und hat meist einen anderen pathogenetischen Hintergrund als operative Eingriffe an Linse und Vorderabschnitt.",
+          "term": "Optikusneuritis"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Endophthalmitis ist eine seltene, aber gefürchtete postoperative Infektion nach intraokularen Eingriffen. Gerade nach Kataraktoperation muss bei Schmerzen, Rötung und Visusabfall daran gedacht werden.",
+          "term": "Endophthalmitis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Hornhautödem kann nach Kataraktoperation auftreten, etwa durch Endothelstress oder intraoperative Manipulation. Es ist daher eine plausible postoperative Komplikation und nicht die am wenigsten wahrscheinliche Antwort.",
+          "term": "Hornhautödem"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Netzhautablösung ist eine seltene, aber bekannte Komplikation nach Kataraktoperation, insbesondere bei prädisponierten Augen. Sie ist deshalb wahrscheinlicher als eine operationsbedingte Optikusneuritis.",
+          "term": "Netzhautablösung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Augeninnendrucksteigerung kann peri- oder postoperativ auftreten, zum Beispiel durch viskoelastische Substanzen, Entzündung oder andere Abflussprobleme. Sie gehört damit zu den realistischen Komplikationen einer Kataraktoperation.",
+          "term": "Augeninnendruckanstieg"
+        }
+      ]
+    },
+    "228": {
+      "topicLabel": "Akuter Rückenschmerz",
+      "explanation": "Der 35-jährige Patient hat akut aufgetretene lumbosakrale Schmerzen mit Ausstrahlung bis zum Knie, aber keine neurologischen Ausfälle, keine Blasen- oder Mastdarmstörung und ein negatives Lasègue-Zeichen. Fieber, Tumorhinweise, Trauma oder andere Red Flags werden nicht genannt. Damit handelt es sich am ehesten um unkomplizierte akute lumbale beziehungsweise pseudoradikuläre Beschwerden mit Muskelverspannung. In dieser Situation ist zunächst keine apparative oder laborchemische Zusatzdiagnostik erforderlich. Entscheidend sind Aufklärung, symptomatische Therapie und Verlaufskontrolle mit erneuter Abklärung bei Warnzeichen oder Persistenz.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Röntgenaufnahme der Lendenwirbelsäule ist bei akutem Rückenschmerz ohne Trauma, Red Flags oder neurologische Defizite nicht indiziert. Sie würde degenerative Zufallsbefunde liefern können, aber die akute, unkomplizierte Beschwerdesituation meist nicht sinnvoll klären.",
+          "term": "LWS-Röntgen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine CT der Lendenwirbelsäule ist mit Strahlenexposition verbunden und sollte bei unkomplizierten akuten Rückenschmerzen nicht routinemäßig erfolgen. Ohne Hinweise auf Fraktur, relevante neurologische Kompression oder andere Warnzeichen besteht dafür keine unmittelbare Indikation.",
+          "term": "LWS-CT"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die MRT ist besonders nützlich bei Verdacht auf Bandscheibenvorfall mit neurologischem Defizit, Infektion, Tumor oder Cauda-equina-Syndrom. Diese Hinweise fehlen hier ausdrücklich, sodass eine sofortige MRT nicht angezeigt ist.",
+          "term": "LWS-MRT"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Bestimmung des C-reaktiven Proteins wäre vor allem bei Verdacht auf Infektion, entzündliche Systemerkrankung oder andere systemische Ursache sinnvoll. Der Patient hat keine Fieberangabe, keine Infektzeichen und keine sonstigen Warnsymptome.",
+          "term": "CRP Rückenschmerz"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Bei akutem unkompliziertem Rückenschmerz ohne Red Flags ist zunächst keine weitere Diagnostik erforderlich. Die Befunde sprechen für eine muskulär beziehungsweise funktionell bedingte Beschwerdesituation, die primär konservativ behandelt und beobachtet wird.",
+          "term": "unkomplizierter Rückenschmerz"
+        }
+      ]
+    },
+    "229": {
+      "topicLabel": "Rückenschmerz Analgesie",
+      "explanation": "Beim Patienten aus der Vorfrage liegt am ehesten ein akuter unkomplizierter lumbaler Rückenschmerz ohne neurologische Ausfälle oder Red Flags vor. In dieser Situation steht eine konservative Behandlung mit Aktivitätserhalt, Aufklärung und symptomatischer Analgesie im Vordergrund. Nichtselektive Cyclooxygenase-Inhibitoren, also klassische NSAR, sind dafür unter den genannten Arzneistoffgruppen die passendste Option. Sie wirken analgetisch und antiphlogistisch und werden bei akuten muskuloskelettalen Schmerzen häufig eingesetzt, sofern keine Kontraindikationen bestehen. Die anderen Gruppen sind entweder nicht indiziert, zu invasiv oder für andere Krankheitsbilder reserviert.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Nichtselektive Cyclooxygenase-Inhibitoren entsprechen klassischen NSAR und sind eine naheliegende medikamentöse Option bei akutem unkompliziertem Rückenschmerz. Sie können Schmerzen und entzündliche Begleitreaktionen reduzieren und passen zur konservativen Erstbehandlung.",
+          "term": "NSAR Rückenschmerz"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Natriumkanalblocker im Sinne von Lokalanästhetika werden nicht routinemäßig als systemische Ersttherapie bei akutem unkompliziertem Rückenschmerz verordnet. Sie spielen eher bei lokalen Anästhesieverfahren oder speziellen Schmerzinterventionen eine Rolle.",
+          "term": "Lokalanästhetika"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Opioid-Rezeptor-Agonisten können bei starken Schmerzen in ausgewählten Situationen eingesetzt werden, sind aber nicht die bevorzugte Erstlinientherapie bei unkompliziertem akutem Rückenschmerz. Angesichts fehlender Warnzeichen und fehlender schwerer neurologischer Symptomatik wäre diese Eskalation nicht am ehesten angezeigt.",
+          "term": "Opioide Rückenschmerz"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Nichtselektive Monoamin-Wiederaufnahme-Inhibitoren werden eher bei chronischen Schmerzsyndromen oder neuropathischen Schmerzkomponenten erwogen. Der Fall beschreibt jedoch akute Beschwerden ohne Hinweise auf eine solche Indikation.",
+          "term": "Antidepressiva Schmerz"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Monoklonale Antikörper gegen TNF-alpha sind Biologika für entzündlich-rheumatische oder chronisch-entzündliche Erkrankungen, nicht für akuten mechanisch-muskulären Rückenschmerz. Es fehlen Hinweise auf Spondyloarthritis oder eine andere TNF-vermittelte Erkrankung.",
+          "term": "TNF-alpha-Inhibitor"
+        }
+      ]
+    },
+    "230": {
+      "topicLabel": "CED Diagnostik",
+      "explanation": "Elena zeigt mit Gewichtsverlust, Wachstumsstillstand, chronischer Müdigkeit, Bauchschmerzen und häufigen Durchfällen typische Warnzeichen einer chronisch-entzündlichen Darmerkrankung im Kindes- und Jugendalter. Bei aktiver intestinaler Entzündung ist Calprotectin im Stuhl meist erhöht, weil es eine neutrophile Entzündungsaktivität im Darm widerspiegelt. Der Marker ist nicht spezifisch für Morbus Crohn oder Colitis ulcerosa, unterstützt aber die Abgrenzung zu funktionellen Beschwerden und die Indikation zur weiteren Diagnostik. Blutbildveränderungen können bei CED auftreten, typischer sind jedoch Entzündungszeichen, Anämie oder Thrombozytose und nicht zwingend Leuko- oder Thrombozytopenie. Unter den Antwortmöglichkeiten ist daher die erhöhte Calprotectinkonzentration am wahrscheinlichsten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine erhöhte Calprotectinkonzentration im Stuhl ist ein typischer Hinweis auf eine entzündliche Darmerkrankung. Bei der geschilderten Kombination aus Durchfällen, Bauchschmerzen, Gewichtsverlust und Wachstumsstagnation wäre dieser Befund besonders plausibel.",
+          "term": "fäkales Calprotectin"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Leukozytopenie ist kein typischer diagnostischer Leitbefund einer unbehandelten CED. Bei aktiver Entzündung wären eher normale bis erhöhte Leukozyten oder andere Entzündungs- und Mangelzeichen zu erwarten.",
+          "term": "Leukozytopenie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Perlschnurartige Lufteinschlüsse in der Darmwand entsprechen eher einer Pneumatosis intestinalis oder anderen speziellen Darmwandluft-Befunden. Das ist kein wahrscheinlicher Standardbefund zur Bestätigung einer CED bei einer stabilen Jugendlichen.",
+          "term": "Pneumatosis intestinalis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Thrombozytopenie ist bei CED nicht der typische Begleitbefund. Entzündliche Aktivität kann im Gegenteil mit einer Thrombozytose einhergehen, sodass diese Antwort nicht zur wahrscheinlichsten Bestätigung passt.",
+          "term": "Thrombozytopenie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Zottenhyperplasie ist nicht der charakteristische histologische Befund einer CED. Bei Dünndarmerkrankungen wie Zöliakie denkt man eher an Zottenatrophie mit Kryptenhyperplasie, während Morbus Crohn andere entzündliche Muster zeigen kann.",
+          "term": "Dünndarmbiopsie"
+        }
+      ]
+    },
+    "231": {
+      "topicLabel": "Morbus Crohn Induktion",
+      "explanation": "Bei Elena wurde im Verlauf ein Morbus Crohn mit hoher Krankheitsaktivität diagnostiziert. Zur Induktion einer Remission kommen im Kindes- und Jugendalter je nach Schweregrad und Lokalisation unter anderem exklusive enterale Ernährung, Glucocorticoide und bei schwerem oder kompliziertem Verlauf auch Biologika wie TNF-alpha-Inhibitoren infrage. Topische Steroide können bei geeigneter ileozökaler oder rechtskolischer Lokalisation eine Rolle spielen. Interferon-gamma gehört dagegen nicht zur etablierten Induktionstherapie des Morbus Crohn. Deshalb ist diese Maßnahme unter den genannten Optionen am wenigsten passend.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die exklusive enterale Ernährungstherapie ist gerade bei pädiatrischem Morbus Crohn eine wichtige Option zur Remissionsinduktion. Sie kann Entzündungsaktivität reduzieren und hat zusätzlich Bedeutung für Ernährung und Wachstum.",
+          "term": "exklusive enterale Ernährung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "TNF-alpha-Inhibitoren können bei hoher Krankheitsaktivität, schwerem Verlauf oder unzureichendem Ansprechen auf andere Therapien eingesetzt werden. Sie sind damit grundsätzlich eine mögliche Induktionstherapie und nicht die am wenigsten geeignete Option.",
+          "term": "TNF-alpha-Inhibitor Crohn"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Interferon-gamma ist keine etablierte Standardtherapie zur Remissionsinduktion bei Morbus Crohn. Die Behandlung zielt auf enterale Ernährung, Steroide, Immunsuppression oder Biologika gegen geeignete Entzündungsmediatoren, nicht auf Interferon-gamma-Gabe.",
+          "term": "Interferon-gamma"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Systemische Glucocorticoide sind eine klassische Option zur raschen Entzündungskontrolle bei akut aktivem Morbus Crohn. Wegen Nebenwirkungen sind sie nicht für die Dauertherapie geeignet, aber für die Induktion grundsätzlich passend.",
+          "term": "systemische Steroide"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Topische Glucocorticoide können bei geeigneter Lokalisation, vor allem im ileozökalen Bereich, zur Induktion eingesetzt werden. Sie sind daher nicht grundsätzlich ausgeschlossen, auch wenn ihre Wirkung lokalisationsabhängig ist.",
+          "term": "topische Steroide Crohn"
+        }
+      ]
+    },
+    "232": {
+      "topicLabel": "Ulkus Schmerztherapie",
+      "explanation": "Der Patient hat starke epigastrische und retrosternale Schmerzen mit saurem Aufstoßen, frühem Sättigungsgefühl und Gewichtsverlust. Bereits initial muss an eine gastroduodenale Ulkuserkrankung oder eine andere relevante obere gastrointestinale Pathologie gedacht werden. Nichtsteroidale Antirheumatika wie Diclofenac können die Magenschleimhaut schädigen, Ulzera begünstigen und Blutungs- oder Perforationsrisiken erhöhen. Deshalb sollten sie bei diesem Beschwerdebild zunächst gemieden werden. Protonenpumpeninhibitoren, Antiemetika und geeignete Analgetika sind demgegenüber in der initialen symptomatischen Behandlung eher plausibel.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Pantoprazol ist ein Protonenpumpeninhibitor und reduziert die Magensäuresekretion. Bei Verdacht auf eine säureassoziierte gastroduodenale Erkrankung ist es gerade nicht zu meiden, sondern therapeutisch naheliegend.",
+          "term": "Pantoprazol"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Metamizol ist ein starkes Analgetikum und hat im Vergleich zu NSAR keine typische ulzerogene Wirkung über Cyclooxygenasehemmung an der Magenschleimhaut. Es kann daher zur Schmerztherapie eher in Betracht kommen als Diclofenac.",
+          "term": "Metamizol"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Metoclopramid wirkt prokinetisch und antiemetisch und kann bei Übelkeit oder funktionellen oberen gastrointestinalen Beschwerden eingesetzt werden. Es ist nicht der Arzneistoff, der wegen Ulkus- oder Perforationsrisiko am ehesten gemieden werden muss.",
+          "term": "Metoclopramid"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Piritramid ist ein Opioidanalgetikum und kann bei starken Schmerzen im Notfallkontext verwendet werden. Es ist nicht primär magenschleimhautschädigend wie ein NSAR, auch wenn Nebenwirkungen und klinische Überwachung zu beachten sind.",
+          "term": "Piritramid"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Diclofenac ist ein NSAR und kann gastroduodenale Schleimhautschäden, Ulzera, Blutungen und Perforationen begünstigen oder verschlechtern. Bei Verdacht auf eine ulzeröse obere gastrointestinale Ursache sollte es initial am ehesten vermieden werden.",
+          "term": "Diclofenac Ulkus"
+        }
+      ]
+    },
+    "233": {
+      "topicLabel": "Ulkusperforation",
+      "explanation": "Die CT zeigt eine ödematös wandverdickte und hypervaskularisierte postpylorische Duodenalregion mit freier Flüssigkeit und geringer freier Luft. Zusammen mit den starken epigastrischen Schmerzen, saurem Aufstoßen und den vorausgehenden dyspeptischen Beschwerden passt dies am besten zu einem perforierten peptischen Ulkus. Duodenalulzera können in der Region des Bulbus beziehungsweise postpylorisch auftreten und bei Perforation freie Luft und peritoneale Reizung verursachen. Die Warnsymptome mit Gewichtsverlust und frühem Sättigungsgefühl rechtfertigen zusätzlich eine dringliche weiterführende Abklärung, ändern aber die wahrscheinlichste akute Ursache des CT-Befunds nicht. Andere Optionen betreffen andere Lokalisationen oder verursachen eher Blutung als Perforation.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Das Boerhaave-Syndrom ist eine spontane transmurale Ösophagusruptur, typischerweise nach heftigem Erbrechen. Der CT-Befund lokalisiert die entzündlich-perforative Veränderung aber postpylorisch am Duodenum, nicht am Ösophagus.",
+          "term": "Boerhaave-Syndrom"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Ein peptisches Ulkus im Duodenum passt sehr gut zu epigastrischen Schmerzen, saurem Aufstoßen und einer postpylorischen Wandverdickung. Bei Perforation können freie Luft und freie Flüssigkeit in der Umgebung auftreten, wie im CT beschrieben.",
+          "term": "perforiertes Duodenalulkus"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Angiodysplasien im Dünndarm verursachen vor allem gastrointestinale Blutungen, oft okkult oder intermittierend. Sie erklären keine fokale duodenale Wandverdickung mit freier Luft als Zeichen einer Hohlorganperforation.",
+          "term": "Dünndarmangiodysplasie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Sigmadivertikulitis betrifft typischerweise das linke Unterbauch- beziehungsweise Sigmoidareal. Die beschriebenen CT-Veränderungen liegen jedoch im postpylorischen Duodenum und in der Nähe von Leberhilus und kleiner Magenkurvatur.",
+          "term": "Sigmadivertikulitis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein verschluckter Fremdkörper kann selten perforieren, würde aber meist durch Anamnese, direkten Nachweis oder eine passende Lokalisation auffallen. Die Kombination aus dyspeptischen Beschwerden und duodenalem Perforationsbefund spricht deutlich eher für ein peptisches Ulkus.",
+          "term": "Fremdkörperperforation"
+        }
+      ]
+    },
+    "234": {
+      "topicLabel": "Alpha-1-Antitrypsin Genotyp",
+      "explanation": "Die Patientin ist jung, nichtrauchend und hat eine zunehmende Belastungsdyspnoe mit sehr niedriger Alpha-1-Antitrypsin-Konzentration. Ein Wert deutlich unter dem Referenzbereich spricht für einen schweren Alpha-1-Antitrypsin-Mangel. Der klassische schwere Genotyp bei mitteleuropäischer Herkunft ist PI*ZZ, der mit deutlich verminderten Serumspiegeln und Emphysemrisiko verbunden ist. PI*MM wäre der Normalbefund, während heterozygote oder kombinierte Varianten meist weniger ausgeprägte Spiegelabsenkungen verursachen. Daher ist PI*ZZ am ehesten zu erwarten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "PI*MM ist der normale Genotyp und führt nicht zu einem schweren Alpha-1-Antitrypsin-Mangel. Der sehr niedrige Serumwert und die frühe emphysemverdächtige Symptomatik sprechen klar dagegen.",
+          "term": "PI*MM"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "PI*ZZ ist der klassische schwere Mangelgenotyp und passt zu stark erniedrigten Alpha-1-Antitrypsin-Spiegeln. Bei jungen oder mittelalten Nichtrauchenden mit Emphysemzeichen sollte genau an diese Konstellation gedacht werden.",
+          "term": "PI*ZZ"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "PI*MS ist eine heterozygote Konstellation mit in der Regel keinem schweren Alpha-1-Antitrypsin-Mangel. Sie erklärt den ausgeprägten Serumabfall und die klinische Verdachtslage deutlich schlechter als PI*ZZ.",
+          "term": "PI*MS"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "PI*SZ kann mit einem relevanten Mangel verbunden sein, ist aber typischerweise weniger schwer als PI*ZZ. Bei dem sehr niedrigen Wert in der Fallbeschreibung ist PI*ZZ unter den Optionen am wahrscheinlichsten.",
+          "term": "PI*SZ"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "PI*MZ ist heterozygot und kann bei zusätzlichen Risikofaktoren ein erhöhtes Risiko bedeuten. Es führt aber meist nicht zu einer so ausgeprägten Konzentrationsminderung wie die homozygote ZZ-Konstellation.",
+          "term": "PI*MZ"
+        }
+      ]
+    },
+    "235": {
+      "topicLabel": "Alpha-1-Antitrypsin Risiko",
+      "explanation": "Beim Alpha-1-Antitrypsin-Mangel hängt die klinische Ausprägung stark vom Genotyp und von zusätzlichen Risikofaktoren ab. Schwere homozygote Formen können zu Lungenemphysem und Lebererkrankung führen, jedoch nicht zwingend bereits im Kindesalter mit symptomatischem Emphysem. Heterozygote Personen haben meist mildere Veränderungen, können aber bei zusätzlichen Belastungen wie inhalativen Noxen ein relevantes Emphysemrisiko entwickeln. Außerdem unterscheiden sich Leber- und Lungenmanifestation pathogenetisch: In der Lunge steht der Protease-Antiprotease-Ungleichgewichtsschaden im Vordergrund, in der Leber die Akkumulation fehlgefalteter Proteine. Daher ist die Aussage zum Risiko heterozygoter Personen bei Risikofaktoren am ehesten zutreffend.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Genetisch weibliche Personen sind nicht grundsätzlich vor einem Lungenemphysem bei Alpha-1-Antitrypsin-Mangel geschützt. Das Risiko wird vor allem durch Genotyp, Serumspiegel und Expositionen wie Rauchen oder andere inhalative Noxen bestimmt.",
+          "term": "Geschlecht Emphysemrisiko"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Homozygote Personen können zwar schwer betroffen sein, entwickeln aber nicht in der Regel schon im Kindes- und Jugendalter ein klinisch symptomatisches Lungenemphysem. Pulmonale Manifestationen treten typischerweise später auf, während Lebermanifestationen auch früh relevant sein können.",
+          "term": "homozygoter AAT-Mangel"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die defekten Allele sind klinisch nicht gleichwertig. Z- und S-Varianten unterscheiden sich in Ausmaß der Serumspiegelminderung und im Risiko für Lungen- und Leberbeteiligung.",
+          "term": "SERPINA1 Allele"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Heterozygote Personen können bei zusätzlichen Risikofaktoren ein relevantes Risiko für ein Lungenemphysem tragen. Besonders inhalative Schädigungen können das ohnehin reduzierte antiproteolytische Schutzsystem der Lunge weiter belasten.",
+          "term": "heterozygoter AAT-Mangel"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Leber- und Lungenbeteiligung beruhen nicht auf exakt demselben Mechanismus. In der Leber steht die intrazelluläre Akkumulation fehlgefalteten Alpha-1-Antitrypsins im Vordergrund, in der Lunge der unzureichende Schutz vor proteolytischer Gewebedestruktion.",
+          "term": "AAT Pathophysiologie"
+        }
+      ]
+    },
+    "236": {
+      "topicLabel": "Alpha-1-Antitrypsin Haut",
+      "explanation": "Alpha-1-Antitrypsin-Mangel ist vor allem mit Lungenemphysem und Leberbeteiligung assoziiert, kann aber auch dermatologische Manifestationen haben. Eine wichtige, wenn auch seltene Hautmanifestation ist die Pannikulitis. Dabei kommt es zu schmerzhaften entzündlichen Knoten im subkutanen Fettgewebe, teils mit Ulzerationen. Bei einer entsprechenden Pannikulitis, insbesondere bei rezidivierendem oder ungewöhnlichem Verlauf, sollte daher an eine Bestimmung der Alpha-1-Antitrypsin-Konzentration gedacht werden. Die anderen Hauterkrankungen sind nicht in gleicher Weise klassische Hinweise auf diesen Mangel.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Lupus erythematodes ist eine Autoimmunerkrankung mit kutanen und systemischen Manifestationen. Er ist nicht die typische Hauterkrankung, bei der gezielt an einen Alpha-1-Antitrypsin-Mangel gedacht werden sollte.",
+          "term": "Lupus erythematodes"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Pannikulitis ist eine bekannte seltene Manifestation des Alpha-1-Antitrypsin-Mangels. Die Entzündung des subkutanen Fettgewebes kann schmerzhaft und rezidivierend verlaufen und sollte Anlass zur entsprechenden Diagnostik geben.",
+          "term": "Pannikulitis AAT-Mangel"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Sklerodermie ist durch Fibrose, Gefäßveränderungen und Autoimmunmechanismen geprägt. Sie ist keine klassische Indikation zur Alpha-1-Antitrypsin-Bestimmung aufgrund einer typischen Assoziation.",
+          "term": "Sklerodermie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Kontaktdermatitis entsteht durch irritative oder allergische Reaktionen auf externe Stoffe. Sie hat keinen spezifischen Zusammenhang mit einem Alpha-1-Antitrypsin-Mangel.",
+          "term": "Kontaktdermatitis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Das Basalzellkarzinom ist ein häufiger epithelialer Hauttumor, vor allem im Zusammenhang mit UV-Exposition und weiteren Risikofaktoren. Es ist keine typische dermatologische Manifestation des Alpha-1-Antitrypsin-Mangels.",
+          "term": "Basalzellkarzinom"
+        }
+      ]
+    },
+    "237": {
+      "topicLabel": "Akutes Koronarsyndrom",
+      "explanation": "Der Patient hat rezidivierenden thorakalen Druck und Luftnot nach einer ersten Episode vor etwa zehn Stunden, sodass präklinisch ein akutes Koronarsyndrom angenommen werden muss. In dieser Situation gehört die frühe Thrombozytenaggregationshemmung zu den wichtigsten Sofortmaßnahmen, sofern keine Kontraindikationen bestehen. Acetylsalicylsäure ist dafür der geeignete Arzneistoff unter den Antwortmöglichkeiten. Andere Medikamente können im weiteren Verlauf eine Rolle spielen, sind aber nicht die naheliegendste präklinische Gabe in der geschilderten Situation. Eine Rhythmustherapie ist ohne entsprechende Rhythmusstörung nicht indiziert.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Acetylsalicylsäure hemmt die Thrombozytenaggregation und ist bei Verdacht auf akutes Koronarsyndrom eine zentrale frühe Maßnahme. Sie adressiert die thrombotische Komponente einer möglichen Koronarokklusion.",
+          "term": "ASS ACS"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Bivalirudin ist ein direktes Antikoagulans, das im Kontext interventioneller Koronartherapie eingesetzt werden kann. Für die unmittelbare Gabe vor Ort durch den Notarzt ist es unter den genannten Optionen nicht die naheliegendste Standardmaßnahme.",
+          "term": "Bivalirudin"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ibuprofen ist ein NSAR und behandelt Schmerzen, verbessert aber nicht die Prognose beim akuten Koronarsyndrom. Zudem ist es im ACS-Kontext nicht die gesuchte antithrombozytäre Akuttherapie.",
+          "term": "Ibuprofen ACS"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Statine sind wichtig in der Sekundärprävention und im stationären Management koronarer Herzerkrankung. Präklinisch bei akutem Thoraxdruck ist Simvastatin jedoch nicht die am ehesten vor Ort zu gebende Sofortmedikation.",
+          "term": "Statin Sekundärprävention"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Amiodaron ist ein Antiarrhythmikum, vor allem bei bestimmten tachykarden Rhythmusstörungen relevant. Der Fall beschreibt aber kein Kammerflimmern, keine ventrikuläre Tachykardie und keine andere Indikation für eine sofortige Amiodarongabe.",
+          "term": "Amiodaron"
+        }
+      ]
+    },
+    "238": {
+      "topicLabel": "EKG Myokardinfarkt",
+      "explanation": "Der Patient wurde wegen eines akuten Koronarsyndroms katheterinterventionell behandelt. Am Folgetag können im EKG Zeichen einer durchgemachten Myokardschädigung beziehungsweise Myokardnekrose sichtbar sein, insbesondere pathologische Q-Zacken oder entsprechende Infarktzeichen. Die vorgegebene richtige Antwort ordnet den Bildbefund dieser Diagnose zu. Eine reine Rhythmusdiagnose wie Vorhofflimmern oder ventrikuläre Tachykardie würde primär über Rhythmus und Frequenz auffallen, nicht über Nekrosezeichen. Auch Hypertrophie- oder Schenkelblockmuster sind eigene EKG-Kategorien und passen nicht zur hier gesuchten wahrscheinlichsten Diagnose.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine ventrikuläre Tachykardie würde sich im EKG als schnelle breitkomplexige Rhythmusstörung zeigen. Die Frage zielt nach der Intervention am Folgetag jedoch auf Nekrosezeichen und nicht auf eine akute tachykarde Rhythmusdiagnose.",
+          "term": "ventrikuläre Tachykardie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Vorhofflimmern ist durch absolute Arrhythmie und fehlende regelhafte P-Wellen gekennzeichnet. Diese Rhythmusstörung erklärt nicht die als wahrscheinlichste EKG-Diagnose gefragten Infarktfolgezeichen.",
+          "term": "Vorhofflimmern"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Myokardnekrose kann sich im EKG nach einem Infarkt durch typische Nekrosezeichen wie pathologische Q-Zacken manifestieren. Im Kontext des akuten Koronarsyndroms mit Katheterintervention am Vortag ist dies die plausibelste Zuordnung.",
+          "term": "Myokardnekrose EKG"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine linksventrikuläre Hypertrophie zeigt typische Spannungs- und Repolarisationskriterien. Sie wäre bei langjähriger Druckbelastung plausibel, passt aber weniger zur akuten postinfarktbezogenen Fragestellung.",
+          "term": "linksventrikuläre Hypertrophie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Linksschenkelblock ist ein Erregungsleitungsblock mit verbreiterten QRS-Komplexen und charakteristischen Ableitungsmustern. Die gesuchte Diagnose ist hier jedoch die Myokardnekrose als Infarktfolge, nicht ein Schenkelblock.",
+          "term": "Linksschenkelblock"
+        }
+      ]
+    },
+    "239": {
+      "topicLabel": "Postinfarkt Mitralinsuffizienz",
+      "explanation": "Fünf Tage nach einem Myokardinfarkt entwickelt der Patient einen Schockzustand mit Lungenstauung und neuem lautem Systolikum. Diese Kombination ist klassisch verdächtig auf eine mechanische Infarktkomplikation. Ein Papillarmuskelabriss oder eine schwere Papillarmuskeldysfunktion kann eine akute Mitralinsuffizienz auslösen. Dadurch kommt es abrupt zu pulmonaler Stauung, Hypotonie und einem neuen systolischen Geräusch, häufig am Apex beziehungsweise links thorakal. Deshalb ist die akute Mitralinsuffizienz die wahrscheinlichste Diagnose.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine ventrikuläre Tachykardie kann nach Myokardinfarkt auftreten und hämodynamisch bedrohlich sein. Sie würde aber vor allem durch eine tachykarde Rhythmusstörung auffallen und erklärt das neu aufgetretene laute Systolikum nicht.",
+          "term": "ventrikuläre Tachykardie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein AV-Block III kann insbesondere bei bestimmten Infarktlokalisationen vorkommen und zu Bradykardie oder Synkopen führen. Die Herzfrequenz von 90/min und das neue Systolikum mit Lungenödem sprechen jedoch stärker für eine akute Klappeninsuffizienz.",
+          "term": "AV-Block III"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Eine akute Mitralinsuffizienz nach Infarkt entsteht typischerweise durch Papillarmuskeldysfunktion oder -ruptur. Sie verursacht plötzlich pulmonale Stauung, Hypotonie und ein neues systolisches Herzgeräusch, genau wie im Fall beschrieben.",
+          "term": "Papillarmuskelruptur"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Pneumonie kann Rasselgeräusche und Verschlechterung verursachen, würde aber eher mit Fieber, Infektzeichen und fokalen pulmonalen Befunden einhergehen. Ein neues lautes Systolikum und Schock wenige Tage nach Infarkt sprechen dagegen für eine mechanische Komplikation.",
+          "term": "Pneumonie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine hypertensive Entgleisung würde einen stark erhöhten Blutdruck erwarten lassen. Der Patient ist jedoch hypoton und zeigt Zeichen einer akuten kardialen Dekompensation mit neuem Geräusch, sodass diese Option nicht passt.",
+          "term": "hypertensive Entgleisung"
+        }
+      ]
+    },
+    "240": {
+      "topicLabel": "Lungenkarzinom Diagnostik",
+      "explanation": "Der Patient hat eine unklare Gewichtsabnahme, Belastungsdyspnoe und eine relevante Raucheranamnese, sodass der Verdacht auf ein Lungenkarzinom abgeklärt werden muss. Die nächste geeignete Bildgebung ist eine kontrastmittelgestützte CT von Thorax und Oberbauch. Sie kann einen Primärtumor, mediastinale Lymphknoten, Pleura- oder Lungenbefunde sowie wichtige extrathorakale Manifestationen im Oberbauch erfassen. Ein normales Röntgen, Labor oder eine unauffällige Lungenfunktion würden den Verdacht nicht ausreichend entkräften. Andere Verfahren sind entweder für andere Fragestellungen gedacht oder erst nach CT-Befund im Staging gezielt einzusetzen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Lungenperfusionsszintigrafie dient vor allem der Abklärung von Perfusionsstörungen, klassisch im Kontext einer Lungenembolie. Für die Primärdiagnostik eines vermuteten Lungenkarzinoms ist sie nicht das nächste geeignete Verfahren.",
+          "term": "Perfusionsszintigrafie"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die kontrastmittelgestützte CT von Thorax und Oberbauch ist die zentrale nächste Bildgebung bei Verdacht auf Lungenkarzinom. Sie erlaubt Tumorsuche, Beurteilung der thorakalen Ausbreitung und erste Einschätzung häufiger extrathorakaler Befallsmuster im Oberbauch.",
+          "term": "CT Thorax Oberbauch"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine MRT des Thorax ist nicht die routinemäßige erste Bildgebung bei Verdacht auf Lungenkarzinom. Sie kann für spezielle Fragestellungen hilfreich sein, ersetzt aber die kontrastmittelgestützte CT als nächster diagnostischer Schritt nicht.",
+          "term": "MRT Thorax"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Thoraxsonografie kann Pleuraergüsse oder thoraxwandnahe Befunde darstellen, ist aber für zentrale oder intrapulmonale Tumoren deutlich limitiert. Sie ist daher nicht ausreichend als nächster Schritt zur Karzinomabklärung.",
+          "term": "Thoraxsonografie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Knochenszintigrafie kann im Staging bei Verdacht auf ossäre Metastasen eine Rolle spielen. Ohne gesicherten Primärtumor und ohne spezifische Knochenbeschwerden ist sie nicht der nächste diagnostische Schritt.",
+          "term": "Knochenszintigrafie"
+        }
+      ]
+    }
+  }
+}

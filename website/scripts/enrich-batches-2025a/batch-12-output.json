@@ -1,0 +1,745 @@
+{
+  "examId": "m2-2025a-staatsexamen",
+  "questions": {
+    "241": {
+      "topicLabel": "Lungenkarzinom-Staging",
+      "explanation": "Ein 18FDG-PET-CT ist beim Staging eines vermuteten Lungenkarzinoms sehr hilfreich, aber für mediastinale Lymphknotenmetastasen allein nicht beweisend. FDG reichert sich in metabolisch aktivem Gewebe an und kann daher auch bei entzündlichen oder granulomatösen Lymphknoten positiv sein. Ein positives mediastinales Signal sollte deshalb in der Regel histologisch oder zytologisch gesichert werden, wenn es therapeutische Konsequenzen hat. Gerade beim nicht kleinzelligen Lungenkarzinom beeinflusst der mediastinale Nodalstatus wesentlich Operabilität, Strahlentherapieplanung und systemische Therapie. Die richtige Aussage ist daher, dass ein alleiniges PET-CT wegen möglicher falsch positiver Lymphknotenbefunde nicht verlässlich genug ist.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Diese Aussage trifft zu: FDG-positive mediastinale Lymphknoten können durch Metastasen, aber auch durch Entzündung, Infektion oder granulomatöse Reaktionen bedingt sein. Deshalb reicht ein alleiniges 18FDG-PET-CT nicht aus, um den mediastinalen Lymphknotenbefall sicher zu diagnostizieren.",
+          "term": "falsch positives FDG-PET"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Okkulte Lymphknotenmetastasen können beim Lungenkarzinom vorkommen, treten aber keineswegs bei allen Patienten auf. Die fehlende absolute Verlässlichkeit des PET-CT beruht vor allem auf falsch positiven und falsch negativen Befunden, nicht auf einer obligaten okkulten Metastasierung.",
+          "term": "okkulte Lymphknotenmetastasen"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Das 18FDG-PET-CT detektiert metabolische Aktivität und nicht spezifisch maligne Metastasen. Auch benigne Prozesse können FDG-avid sein, sodass diese Begründung die diagnostische Aussagekraft überschätzt.",
+          "term": "FDG-Aufnahme"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein DOTATOC-PET wird vor allem bei neuroendokrinen Tumoren zur Darstellung von Somatostatinrezeptoren eingesetzt. Für das übliche Staging eines vermuteten Lungenkarzinoms ist 18FDG-PET-CT das relevante nuklearmedizinische Verfahren, nicht DOTATOC-PET.",
+          "term": "DOTATOC-PET"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Der mediastinale Lymphknotenbefall ist beim Lungenkarzinom therapeutisch sehr bedeutsam. Er kann darüber entscheiden, ob eine Operation sinnvoll ist oder ob multimodale beziehungsweise systemische Konzepte im Vordergrund stehen.",
+          "term": "mediastinaler Nodalstatus"
+        }
+      ]
+    },
+    "242": {
+      "topicLabel": "NSCLC-Molekularpathologie",
+      "explanation": "Bei einem metastasierten nicht kleinzelligen Lungenkarzinom steuern molekulare Marker und immunhistologische Befunde die Systemtherapie wesentlich. PD-L1 ist relevant für die Einschätzung einer Immuncheckpoint-Therapie, EGFR und andere Treibermutationen können zielgerichtete Therapien ermöglichen. Auch KRAS und HER2 können therapeutisch oder prognostisch bedeutsam sein und gehören in vielen diagnostischen Algorithmen zu den zu prüfenden Aberrationen. TRPM8 ist dagegen kein etablierter Standardmarker für Therapieentscheidungen beim NSCLC. Da nach der am wenigsten bedeutsamen Untersuchung gefragt wird, ist TRPM8 die richtige Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "PD-L1 ist beim metastasierten NSCLC ein zentraler immunhistologischer Marker. Die Expression kann die Wahl und Gewichtung einer Immuncheckpoint-Inhibition beeinflussen und ist daher therapeutisch bedeutsam.",
+          "term": "PD-L1"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "EGFR-Mutationen sind klassische therapieentscheidende Treiberalterationen beim nicht kleinzelligen Lungenkarzinom. Bei Nachweis kann eine zielgerichtete Therapie mit EGFR-Inhibition gegenüber einer unspezifischen Chemotherapie im Vordergrund stehen.",
+          "term": "EGFR"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "HER2-Alterationen können beim NSCLC vorkommen und zunehmend therapeutische Konsequenzen haben. Damit ist HER2 deutlich relevanter als ein nicht etablierter Ionenkanalmarker.",
+          "term": "HER2"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "KRAS gehört zu den häufigen Treiberveränderungen beim Lungenadenokarzinom. Bestimmte KRAS-Alterationen können für zielgerichtete Therapien oder klinische Studien relevant sein, sodass die Untersuchung nicht am wenigsten bedeutsam ist.",
+          "term": "KRAS"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "TRPM8 ist kein Standardmarker für die Therapieplanung beim metastasierten NSCLC. Im Vergleich zu PD-L1, EGFR, HER2 und KRAS hat diese Untersuchung für die unmittelbare onkologische Entscheidung am wenigsten Bedeutung.",
+          "term": "TRPM8"
+        }
+      ]
+    },
+    "243": {
+      "topicLabel": "Glioblastom",
+      "explanation": "Die Patientin zeigt eine subakut progrediente fokale Symptomatik mit Kopfschmerzen, Sprachstörungen und erstem generalisierten Krampfanfall. In der MRT sprechen eine unscharf begrenzte intrazerebrale Raumforderung, zentrale Nekrose und ringförmiges Kontrastmittelenhancement besonders für einen hochmalignen glialen Tumor. Beim Erwachsenen ist das Glioblastom die typische Diagnose bei infiltrativem Wachstum, Nekrosen und randständiger Kontrastmittelaufnahme. Niedriggradigere oder pädiatrisch geprägte Tumoren passen weniger gut zu Alter, Lokalisation und Bildmorphologie. Daher ist das Glioblastoma multiforme die wahrscheinlichste Diagnose.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Oligodendrogliome können bei Erwachsenen epileptische Anfälle verursachen und supratentoriell liegen. Typisch sind jedoch eher langsameres Wachstum und häufig Verkalkungen; zentrale Nekrose mit ringförmigem Enhancement spricht stärker für ein Glioblastom.",
+          "term": "Oligodendrogliom"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Gangliogliome sind meist langsam wachsende, epileptogene Tumoren, häufig bei jüngeren Patienten. Die raschere klinische Verschlechterung und die nekrotisch-ringförmige MRT-Morphologie passen nicht am besten dazu.",
+          "term": "Gangliogliom"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Das Glioblastom ist ein hochmaligner, infiltrativ wachsender Hirntumor des Erwachsenenalters. Zentrale Nekrose und ringförmige Kontrastmittelaufnahme sind klassische bildmorphologische Hinweise.",
+          "term": "Glioblastoma multiforme"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ependymome entstehen typischerweise aus dem Ependym des Ventrikelsystems oder im Spinalkanal. Eine einzelne unscharf begrenzte temporale Raumforderung mit Nekrose ist für ein Ependymom deutlich weniger typisch.",
+          "term": "Ependymom"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Das pilozytische Astrozytom ist ein eher umschriebener, niedrigmaligner Tumor und tritt vor allem bei Kindern und Jugendlichen auf. Alter, infiltratives Erscheinungsbild und Nekrose sprechen hier klar dagegen.",
+          "term": "pilozytisches Astrozytom"
+        }
+      ]
+    },
+    "244": {
+      "topicLabel": "Glioblastom-Therapie",
+      "explanation": "Aus der Vorfrage ergibt sich als wahrscheinlichste Diagnose ein Glioblastom, also ein hochmaligner glialer Tumor. Bei operabler, symptomatischer Läsion ist eine möglichst sichere maximale Resektion ein zentraler Bestandteil des Vorgehens, weil sie Diagnosesicherung, Massenreduktion und prognostischen Nutzen verbindet. Danach schließt sich in der Regel eine kombinierte Radio-Chemotherapie an, sofern der Allgemeinzustand dies erlaubt. Ein rein abwartendes Vorgehen wäre bei Nekrose, Kontrastmittelaufnahme und neurologischen Symptomen unangemessen. Auch die Aussage, eine Resektion verbessere die Überlebenszeit nicht, trifft für das übliche Glioblastom-Management nicht zu.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Watch and Wait passt nicht zu einer symptomatischen, kontrastmittelaufnehmenden Raumforderung mit Nekrose. Ein Missbildungstumor wäre eher langsam wachsend und würde die Bildzeichen eines hochmalignen Glioms nicht erklären.",
+          "term": "Watch and Wait"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine alleinige Resektion mit anschließender Beobachtung wäre bei einem Glioblastom nicht ausreichend. Der Tumor ist hochmaligne und rezidivfreudig, weshalb adjuvante Therapie ein wesentlicher Bestandteil des Standards ist.",
+          "term": "alleinige Resektion"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Operative Resektion mit anschließender kombinierter Radio-Chemotherapie entspricht dem typischen Vorgehen bei einem operablen Glioblastom. Die Formulierung benennt korrekt die Hochmalignität und die multimodale Therapie.",
+          "term": "multimodale Glioblastomtherapie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine histologische Sicherung ist zwar notwendig, aber die Aussage zur fehlenden Bedeutung der Resektion ist falsch. Eine maximale sichere Resektion kann Symptome bessern, Tumorlast reduzieren und ist bei resektablen Glioblastomen prognostisch relevant.",
+          "term": "Resektionsnutzen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Operation nur wegen therapierefraktärer Epilepsie passt eher zu bestimmten epileptogenen, langsam wachsenden Läsionen. In diesem Fall steht die Therapie eines hochmalignen Hirntumors im Vordergrund, nicht allein eine Epilepsiechirurgie.",
+          "term": "Epilepsiechirurgie"
+        }
+      ]
+    },
+    "245": {
+      "topicLabel": "Serratia auf NICU",
+      "explanation": "Serratia marcescens ist ein gramnegatives Stäbchen und kann auf neonatologischen Intensivstationen relevante nosokomiale Ausbrüche verursachen. Besonders gefährdet sind sehr unreife Frühgeborene mit invasiven Maßnahmen, unreifem Immunsystem und langer stationärer Versorgung. Der Nachweis bei Marie in der Blutkultur zeigt eine Infektion, der Nachweis bei Lena ohne Symptome eine Kolonisation. In diesem Umfeld ist Kolonisationsscreening wichtig, weil kolonisierte Kinder als Reservoir erkannt und hygienisch berücksichtigt werden müssen. Serratia ist nicht der häufigste Erreger der Late-onset-Sepsis und gehört nicht einfach zur physiologischen Neugeborenenflora.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Serratia marcescens kann eine Late-onset-Sepsis verursachen, ist aber nicht der häufigste Erreger. Auf NICUs spielen unter anderem koagulasenegative Staphylokokken und andere nosokomiale Erreger eine große Rolle.",
+          "term": "Late-onset-Sepsis"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Serratia marcescens ist kein grampositives, sondern ein gramnegatives Stäbchen aus der Gruppe der Enterobacterales. Diese mikrobiologische Einordnung ist für Resistenzmechanismen und Hygienemanagement relevant.",
+          "term": "gramnegatives Stäbchen"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine vorwiegende Übertragung durch Muttermilch beim Stillen ist für Serratia-Ausbrüche auf NICUs nicht die typische Kernaussage. Häufiger stehen Kontaktübertragung, kontaminierte Produkte, Hände oder Umgebungsreservoire im Fokus der Ausbruchsanalyse.",
+          "term": "Übertragungsweg"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Serratia kann den Darm kolonisieren, gilt aber bei Frühgeborenen auf einer NICU nicht als harmlose physiologische Darmflora. Ein Nachweis muss im Ausbruchskontext ernst genommen und hygienisch bewertet werden.",
+          "term": "Kolonisation"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Serratia marcescens ist auf neonatologischen Intensivstationen ein relevanter Screening-Erreger, insbesondere bei Ausbrüchen oder Risikosituationen. Das Screening hilft, asymptomatisch kolonisierte Kinder wie Lena zu erkennen und Übertragungen zu verhindern.",
+          "term": "Kolonisationsscreening"
+        }
+      ]
+    },
+    "246": {
+      "topicLabel": "NICU-Kohortenisolierung",
+      "explanation": "Lena ist asymptomatisch, aber im Screening mit Serratia marcescens kolonisiert; Marie hatte eine nachgewiesene Infektion mit demselben Erreger. Bei kolonisierter oder infizierter Besiedlung mit einem relevanten nosokomialen Erreger auf der NICU steht das Hygienemanagement im Vordergrund. Eine Kohortenisolierung gemeinsam positiv getesteter Kinder kann Übertragungen auf negative Frühgeborene reduzieren. Ohne klinische Infektionszeichen besteht bei Lena keine Indikation zur Blutkulturdiagnostik oder systemischen Antibiotikatherapie allein wegen Kolonisation. Auch Dekolonisationsversuche sind bei gramnegativen Darm- oder Schleimhautkolonisationen in dieser Situation nicht das Standardvorgehen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Blutkulturen sind bei Verdacht auf eine Sepsis sinnvoll. Lena zeigt jedoch keine Infektionszeichen, sodass der reine Kolonisationsnachweis keine sofortige Entnahme mehrerer Blutkulturen erforderlich macht.",
+          "term": "Blutkulturen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine antimikrobielle Therapie wird bei klinischer Infektion und passendem Erregernachweis eingesetzt. Bei asymptomatischer Kolonisation würde eine Therapie unnötigen Selektionsdruck erzeugen und die Kolonisation nicht verlässlich sanieren.",
+          "term": "Antibiotikatherapie bei Kolonisation"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die Kohortenisolierung der positiv getesteten Kinder ist eine geeignete krankenhaushygienische Maßnahme. Sie trennt kolonisiert oder infiziert nachgewiesene Kinder von nicht betroffenen Patienten und erleichtert gezielte Schutzmaßnahmen.",
+          "term": "Kohortenisolierung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Das Wechseln aller intravenösen Zugänge ist ohne Hinweis auf eine Katheterinfektion bei Lena nicht die naheliegendste Maßnahme. Der Fall beschreibt einen Kolonisationsnachweis aus Magensaft, nicht eine Blutstrominfektion oder Kathetersepsis bei Lena.",
+          "term": "intravenöse Zugänge"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Dekolonisation mit Cotrimoxazol ist bei Serratia-Kolonisation auf der NICU kein Standard. Solche Antibiotikagaben könnten Resistenzen fördern und ersetzen keine konsequente Isolation und Basishygiene.",
+          "term": "Dekolonisation"
+        }
+      ]
+    },
+    "247": {
+      "topicLabel": "Serratia-Ausbruch",
+      "explanation": "Bei mehreren Serratia-Nachweisen auf einer NICU muss an eine gemeinsame Quelle oder Kontaktübertragung gedacht werden. Serratia marcescens kann in feuchten Milieus und kontaminierten Produkten überleben und bei Frühgeborenen schwere nosokomiale Infektionen verursachen. Gemeinschaftlich genutzte Hautpflegeprodukte sind in diesem Kontext ein plausibles Reservoir, weil sie direkt an besonders vulnerablen Patienten angewendet werden und bei Mehrfachnutzung Keime übertragen können. Lufttechnische Anlagen oder Nasenvorhöfe des Personals sind für Serratia weniger typische Primärquellen in dieser Konstellation. Auch ein Trinkbrunnen oder Händedesinfektionsmittel an Inkubatoren ist im Vergleich weniger wahrscheinlich, zumal Desinfektionsmittel nicht regelhaft als Serratia-Reservoir anzunehmen ist.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Gemeinschaftlich genutzte Cremes oder Salben können bei unsachgemäßer Anwendung kontaminiert werden und anschließend als Übertragungsvehikel dienen. Bei Frühgeborenen ist die direkte Anwendung auf der Haut besonders relevant, weil die Barrierefunktion reduziert sein kann.",
+          "term": "kontaminierte Pflegeprodukte"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Filter raumlufttechnischer Anlagen sind für Serratia marcescens nicht die naheliegendste Quelle eines solchen NICU-Ausbruchs. Der Erreger wird eher über Kontakt, feuchte Reservoirs oder kontaminierte patientennahe Produkte übertragen.",
+          "term": "raumlufttechnische Anlage"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Nasenvorhöfe des Personals sind ein klassisches Reservoir für Staphylococcus aureus, aber nicht der typische Suchort für Serratia marcescens. Bei gramnegativen Feuchtkeimen sind patientennahe Produkte und Umgebung plausibler.",
+          "term": "Personal-Screening"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Wasser kann grundsätzlich bei manchen gramnegativen Erregern eine Rolle spielen, ein Trinkbrunnen auf der Station ist hier aber weniger direkt mit Frühgeborenenversorgung verbunden. Die gemeinschaftlich genutzten Hautpflegeprodukte haben den deutlich engeren Patientenkontakt.",
+          "term": "Wasserreservoir"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Händedesinfektionsmittel soll gerade eine Keimübertragung verhindern und ist nicht der wahrscheinlichste Nachweisort. Eine Kontamination wäre außergewöhnlich; im Ausbruchskontext sind gemeinsam genutzte Pflegeprodukte plausibler.",
+          "term": "Händedesinfektionsmittel"
+        }
+      ]
+    },
+    "248": {
+      "topicLabel": "Ausbruchsmanagement NICU",
+      "explanation": "Bei einem Serratia-Ausbruch auf einer neonatologischen Intensivstation müssen Expositionen reduziert und Übertragungsketten unterbrochen werden. Neben Meldung, Linelist und epidemiologischer Analyse sind kohortierende Maßnahmen besonders wichtig. Dazu gehört, positiv getestete Kinder möglichst durch eigens zugeordnetes Pflegepersonal zu versorgen, damit Kontakte zwischen positiven und negativen Patienten minimiert werden. Ein generelles Elternscreening, FFP2-Maskenpflicht oder Stillverbot adressieren den wahrscheinlichen Kontakt- und Schmierübertragungsweg nicht gezielt. Auch ein Wechsel auf phenolhaltige Flächendesinfektion ist nicht die vorrangige Maßnahme im Vergleich zu Personal- und Patientenkohortierung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Screening aller Eltern per Rektalabstrich ist nicht die vorrangige Standardmaßnahme bei diesem beschriebenen Ausbruch. Zunächst sind Patientenstatus, Kohortierung, Kontaktwege und patientennahe Quellen entscheidend.",
+          "term": "Elternscreening"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Serratia marcescens wird in dieser Situation nicht primär aerogen übertragen. Eine FFP2-Maskenpflicht für alle Eltern würde den relevanten Kontaktübertragungsweg nicht angemessen adressieren.",
+          "term": "FFP2-Maskenpflicht"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die bloße Umstellung auf ein phenolhaltiges Flächendesinfektionsmittel ist nicht die naheliegendste Kernmaßnahme. Entscheidend sind konsequente Basishygiene, Kontaktisolierung, Kohortierung und Unterbrechung patientennaher Übertragungswege.",
+          "term": "Flächendesinfektion"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Eigens zugeordnetes Pflegepersonal für positiv getestete Kinder reduziert Kreuzkontakte zu nicht betroffenen Frühgeborenen. Diese Kohortierung ist eine zentrale Maßnahme des Ausbruchsmanagements auf einer NICU.",
+          "term": "zugeordnetes Pflegepersonal"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein vorübergehendes Stillverbot für Mütter negativ getesteter Kinder ist ohne Hinweis auf Muttermilch als Quelle nicht gerechtfertigt. Es würde die wahrscheinlichsten Übertragungswege nicht gezielt unterbrechen und hätte relevante Nachteile.",
+          "term": "Stillverbot"
+        }
+      ]
+    },
+    "249": {
+      "topicLabel": "Effloreszenzen",
+      "explanation": "Die Frage zielt auf die morphologische Beschreibung einer langsam wachsenden, erhabenen und derb palpablen Hautläsion an der Schläfe. Eine Macula ist definitionsgemäß eine umschriebene Farbveränderung auf Hautniveau ohne tastbare Erhabenheit oder Substanzvermehrung. Damit passt sie am wenigsten zu einer ungleichmäßig erhabenen, derb palpablen Läsion. Krusten, Schuppen, knotige Anteile und Teleangiektasien können bei solchen tumorösen Hautveränderungen durchaus vorkommen. Da ausdrücklich nach dem am wenigsten wahrscheinlichen Effloreszenz-Typ gefragt ist, ist die Macula korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Kruste kann bei oberflächlicher Erosion, Blutung oder Sekretauflagerung auf einer Hautläsion entstehen. Sie ist bei langsam wachsenden, tumorösen oder ulzerierten Befunden nicht der am wenigsten wahrscheinliche Effloreszenztyp.",
+          "term": "Kruste"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Eine Macula ist flach und nur durch eine Farbänderung gekennzeichnet. Da der Befund ungleichmäßig erhaben und derb palpabel beschrieben wird, passt eine Macula definitionsgemäß am schlechtesten.",
+          "term": "Macula"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Nodulus ist ein tastbarer, knotiger Hautbefund und passt gut zu einer derb palpablen, erhabenen Läsion. Gerade bei nodulären Hauttumoren ist diese Morphologie plausibel.",
+          "term": "Nodulus"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Squama bezeichnet eine Schuppe und kann auf oder an chronischen Hautveränderungen auftreten. Eine schuppende Komponente ist daher nicht so unwahrscheinlich wie eine völlig flache Macula.",
+          "term": "Squama"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Teleangiektasien sind erweiterte oberflächliche Gefäße und können insbesondere bei bestimmten nichtmelanozytären Hauttumoren sichtbar sein. Sie sind bei einem langsam wachsenden Befund im Gesicht deutlich plausibler als eine Macula.",
+          "term": "Teleangiektasie"
+        }
+      ]
+    },
+    "250": {
+      "topicLabel": "Basalzellkarzinom",
+      "explanation": "Ein langsam wachsender, derb palpabler, nicht schmerzhafter, erhabener Hautbefund im Gesichtsbereich einer älteren Patientin spricht am ehesten für ein Basalzellkarzinom. Typisch sind knotige oder plaqueförmige Läsionen, häufig mit Teleangiektasien, perlschnurartigem Rand, Krusten oder zentraler Ulzeration. Die Schläfenregion ist eine sonnenexponierte Lokalisation und damit ein plausibler Ort für nichtmelanozytären Hautkrebs. Ein Merkelzellkarzinom wächst meist aggressiver, während Ekzem und Tinea primär entzündlich beziehungsweise infektiös imponieren. Pyoderma gangraenosum wäre typischerweise schmerzhaft ulzerierend und passt nicht zu dem langsamen, derben Befund.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Das Basalzellkarzinom passt zu einer langsam wachsenden, derben, erhabenen Läsion im sonnenexponierten Gesicht. Teleangiektasien, Krusten und noduläre Anteile würden die Diagnose zusätzlich stützen.",
+          "term": "Basalzellkarzinom"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Das Merkelzellkarzinom ist ein seltener, hochmaligner neuroendokriner Hauttumor, der häufig rasch wächst. Der langsam progrediente, typische Gesichtsbefund passt besser zu einem Basalzellkarzinom.",
+          "term": "Merkelzellkarzinom"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Pyoderma gangraenosum zeigt meist schmerzhafte, rasch progrediente Ulzerationen mit entzündlichem Rand. Ein über längere Zeit langsam wachsender, nicht schmerzhafter derber Hauttumor ist dafür untypisch.",
+          "term": "Pyoderma gangraenosum"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein seborrhoisches Ekzem verursacht erythematöse, fettig-schuppende Areale, häufig in seborrhoischen Regionen. Eine derb palpable, einzelne und langsam wachsende Läsion von 1,5 cm entspricht eher einem Tumorbefund.",
+          "term": "seborrhoisches Ekzem"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Tinea zeigt oft randbetonte, schuppende, entzündliche Plaques mit Ausbreitungsmuster. Der beschriebene feste, ungleichmäßig erhabene, nicht schmerzhafte Befund an der Schläfe ist dafür weniger typisch.",
+          "term": "Tinea"
+        }
+      ]
+    },
+    "251": {
+      "topicLabel": "Basaliom-Therapie",
+      "explanation": "Aus dem Kontext der Vorfrage ist die wahrscheinlichste Diagnose ein Basalzellkarzinom. Bei einem soliden, derb palpablen und umschriebenen Befund im Gesicht ist die vollständige Exzision primär die naheliegendste Therapie, weil sie zugleich histologische Sicherung und kurative Entfernung ermöglicht. Gerade im Gesicht ist eine kontrollierte, gewebeschonende Entfernung mit ausreichender Randkontrolle wichtig. Reines Beobachten wäre bei einem malignen Hauttumor nicht adäquat. Laser, photodynamische Verfahren oder systemische Immuntherapie sind für diese primäre Standardsituation nicht die passendste Wahl.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Kontrolle in drei Monaten würde die Therapie eines wahrscheinlich malignen Hauttumors verzögern. Bei Verdacht auf Basalzellkarzinom ist eine definitive Diagnostik und Behandlung angezeigt.",
+          "term": "Kontrolluntersuchung"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die Exzision ist bei einem resektablen Basalzellkarzinom die primär indizierte Maßnahme. Sie entfernt den Tumor und erlaubt die histopathologische Beurteilung von Diagnose und Resektionsrändern.",
+          "term": "Exzision"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Laserbehandlung liefert keine verlässliche histologische Randkontrolle und ist bei einem derb palpablen Tumor nicht die primäre Standardtherapie. Sie kann die sichere Beurteilung der vollständigen Entfernung erschweren.",
+          "term": "Laserbehandlung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Photodynamische Therapie kann bei ausgewählten oberflächlichen Basalzellkarzinomen eine Rolle spielen. Der beschriebene derbe, erhabene Befund an der Schläfe spricht jedoch eher für ein Vorgehen mit Exzision.",
+          "term": "photodynamische Therapie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Pembrolizumab ist keine primäre Therapie für ein lokal resektables Basalzellkarzinom in dieser Prüfungskonstellation. Systemische Therapien sind fortgeschrittenen oder speziellen Situationen vorbehalten und ersetzen hier nicht die Exzision.",
+          "term": "Pembrolizumab"
+        }
+      ]
+    },
+    "252": {
+      "topicLabel": "Aortennotfall",
+      "explanation": "Die Kombination aus starken Brust- und Bauchschmerzen und dem CT-Befund der Bildbeilage spricht in dieser Frage für einen akuten, operationspflichtigen Aortennotfall. Unter den angebotenen Maßnahmen ist die sofortige Notoperation deshalb am ehesten essenziell. Eine reine Intensivaufnahme wäre zwar organisatorisch relevant, würde aber die lebensbedrohliche Ursache nicht beheben. Koronarangiografie, Thoraxdrainage oder Lyse der Pulmonalarterien passen nur zu anderen Akutdiagnosen und würden hier Zeit verlieren. Entscheidend ist, die potenziell rupturgefährdete oder bereits komplizierte Aortenpathologie umgehend chirurgisch zu versorgen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Intensivtherapiestation kann prä- oder postoperativ notwendig sein, ist aber nicht die essenzielle definitive Therapie. Bei einem operationspflichtigen Aortennotfall darf sie die chirurgische Versorgung nicht ersetzen.",
+          "term": "Intensivaufnahme"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Koronarangiografie wäre bei primärem Verdacht auf akutes Koronarsyndrom zentral. Der CT-Befund und die Schmerzkonstellation lenken hier jedoch auf eine Aortenpathologie, sodass eine Koronarangiografie nicht vorrangig ist.",
+          "term": "Koronarangiografie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Thoraxdrainage ist bei Pneumothorax oder relevantem Hämatothorax indiziert. Die Fallfrage zielt dagegen auf einen CT-diagnostizierten Aortennotfall, für den eine Drainage nicht die kausale Therapie ist.",
+          "term": "Thoraxdrainage"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die sofortige Notoperation ist bei einem akuten, komplizierten Aortenbefund die entscheidende Maßnahme. Sie adressiert die lebensbedrohliche Ursache direkt und hat Vorrang vor rein diagnostischen oder unterstützenden Maßnahmen.",
+          "term": "Notoperation"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Lysetherapie der Pulmonalarterien wäre bei ausgewählten schweren Lungenembolien zu erwägen. Bei einer Aortenpathologie wäre Lyse gefährlich und nicht zielgerichtet.",
+          "term": "Pulmonalislyse"
+        }
+      ]
+    },
+    "253": {
+      "topicLabel": "Perikardtamponade",
+      "explanation": "Der Patient mit akutem Aortennotfall entwickelt plötzlich Tachykardie, Hypotonie, Schwitzen, Unruhe und Desorientiertheit. In diesem Kontext muss primär an eine akute hämodynamische Verschlechterung durch Perikarderguss beziehungsweise Perikardtamponade gedacht werden, etwa bei Einblutung in den Perikardraum. Die Symptome passen zu einem beginnenden Schock mit eingeschränkter kardialer Füllung. Andere Differenzialdiagnosen wie Hypoglykämie oder Kontrastmittelallergie können Unruhe oder Kreislaufprobleme verursachen, erklären den Zusammenhang mit dem CT-gesicherten Aortennotfall aber weniger gut. Ein akutes Cor pulmonale wäre eher bei massiver Lungenembolie zu erwarten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ein Perikarderguss kann bei Aortenpathologien rasch zur Tamponade führen. Die akute Kombination aus Hypotonie, Tachykardie und Unruhe passt zu einer lebensbedrohlichen Einschränkung der kardialen Füllung.",
+          "term": "Perikarderguss"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Alkoholentzugsdelir entwickelt sich typischerweise nicht abrupt im unmittelbaren Zusammenhang mit einem CT-diagnostizierten Aortennotfall. Die Hypotonie spricht stärker für eine akute hämodynamische Komplikation.",
+          "term": "Alkoholentzugsdelir"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Kontrastmittelallergie kann nach CT-Kontrastmittelgabe Kreislaufreaktionen verursachen. Im gegebenen Aortenkontext ist aber ein Perikarderguss als primäre Verdachtsdiagnose besonders naheliegend und gefährlich.",
+          "term": "Kontrastmittelallergie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Hypoglykämie kann Schwitzen, Unruhe und Bewusstseinsstörungen verursachen. Sie erklärt jedoch die akute Hypotonie im Kontext eines Aortennotfalls nicht am besten und wäre rasch als Begleitdiagnose zu prüfen.",
+          "term": "Hypoglykämie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein akutes Cor pulmonale entsteht typischerweise durch eine akute Rechtsherzbelastung, etwa bei massiver Lungenembolie. Der Fallkontext spricht primär für eine Aortenkomplikation mit möglichem Perikarderguss.",
+          "term": "akutes Cor pulmonale"
+        }
+      ]
+    },
+    "254": {
+      "topicLabel": "Mediasklerose",
+      "explanation": "Bei Diabetes mellitus und terminaler Niereninsuffizienz ist eine Mediasklerose der Beinarterien sehr typisch. Dabei sind die Arterien durch Verkalkung der Media schlecht komprimierbar, sodass bei der Knöcheldruckmessung trotz sehr hoher Manschettendrücke weiterhin ein Dopplersignal hörbar bleibt. Der gemessene Knöcheldruck und der daraus berechnete ABI können dadurch falsch hoch sein und die pAVK unterschätzen. Der klinische Befund mit fehlenden Fußpulsen, kühlem Fuß und nicht heilender Fersenwunde spricht dennoch für eine relevante arterielle Durchblutungsstörung. Die anderen genannten Diagnosen erklären die Nichtkomprimierbarkeit der Knöchelarterien in dieser Risikokonstellation deutlich schlechter.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Kalziphylaxie kann bei terminaler Niereninsuffizienz schmerzhafte Hautnekrosen und Gefäßverkalkungen verursachen. Der spezifische Messbefund der nicht komprimierbaren Knöchelarterie wird jedoch klassisch durch Mediasklerose erklärt.",
+          "term": "Kalziphylaxie"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Mediasklerose führt zu steifen, schlecht komprimierbaren Arterien, besonders bei Diabetes und Niereninsuffizienz. Deshalb bleibt das Dopplersignal trotz sehr hoher Manschettendrücke erhalten und der Knöcheldruck erscheint falsch erhöht.",
+          "term": "Mediasklerose"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die zystische Adventitiadegeneration ist eine seltene Ursache lokaler Gefäßstenosen, häufig im Bereich der Poplitealarterie. Sie erklärt nicht typisch einen diffus nicht komprimierbaren Gefäßstatus bei Diabetes und Dialysepflicht.",
+          "term": "zystische Adventitiadegeneration"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Nephrogene systemische Fibrose ist mit schwerer Niereninsuffizienz und bestimmten Kontrastmittelexpositionen assoziiert, betrifft aber vor allem Haut und Bindegewebe. Sie ist keine typische Ursache eines falsch hohen Knöcheldrucks.",
+          "term": "nephrogene systemische Fibrose"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Fibromuskuläre Dysplasie betrifft eher mittelgroße Arterien wie Nieren- oder Karotisarterien und verursacht Stenosen. Der beschriebene Messbefund passt viel besser zur medialen Verkalkung der Unterschenkelarterien.",
+          "term": "fibromuskuläre Dysplasie"
+        }
+      ]
+    },
+    "255": {
+      "topicLabel": "Diabetische Neuropathie",
+      "explanation": "Die Patientin hat einen langjährigen Diabetes mellitus und eine chronische Wunde an der Ferse, ohne Schmerzen angeben zu können. Bei Diabetes ist eine distal-symmetrische sensomotorische Polyneuropathie eine sehr häufige Ursache für vermindertes Schmerz- und Druckempfinden an den Füßen. Dadurch können Druckulzera oder ischämische Läsionen lange unbemerkt bleiben und spät auffallen. Der fehlende Schmerz bedeutet also nicht, dass die Wunde harmlos ist; er spricht vielmehr für eine diabetische Neuropathie. Die gleichzeitig bestehende arterielle Durchblutungsstörung erklärt die Wundheilungsstörung, aber nicht am besten die Schmerzlosigkeit.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine frühere stumme Apoplexie könnte neurologische Defizite verursachen, würde aber nicht typischerweise isoliert das Schmerzempfinden an einem diabetischen Fuß aufheben. Der Fall liefert keine Hinweise auf fokale zentrale Ausfälle.",
+          "term": "stumme Apoplexie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Multiple Sklerose kann sensible Störungen verursachen, ist bei einer 77-jährigen Patientin mit diabetischem Fußbefund aber nicht die wahrscheinlichste Erklärung. Die Anamnese und Lokalisation sprechen deutlich für eine diabetische Polyneuropathie.",
+          "term": "Multiple Sklerose"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die diabetische Polyneuropathie vermindert Schmerz-, Druck- und Temperaturempfinden an den Füßen. Dadurch können Druckulzera und ischämische Wunden schmerzarm oder schmerzlos bleiben.",
+          "term": "diabetische Polyneuropathie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine chronische venöse Insuffizienz kann Ulzera und Schwellungen verursachen, typischerweise eher im Unterschenkelbereich. Sie erklärt das fehlende Schmerzempfinden bei dieser diabetischen Patientin nicht am besten.",
+          "term": "chronische venöse Insuffizienz"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Sympathikolyse kann Durchblutung und Schmerzverarbeitung beeinflussen, wird im Fall aber nicht beschrieben. Ohne entsprechenden Eingriff oder Therapiehinweis ist sie keine plausible Ursache der Schmerzlosigkeit.",
+          "term": "Sympathikolyse"
+        }
+      ]
+    },
+    "256": {
+      "topicLabel": "Bauchaortenaneurysma",
+      "explanation": "Der ältere Patient mit Kollaps, akuten Bauchschmerzen und pulsatiler druckdolenter Resistenz hat hochgradig verdächtige Zeichen eines symptomatischen Bauchaortenaneurysmas. Bei stabilem Kreislauf nach CT-Diagnostik ist eine rasche definitive Gefäßversorgung vorzubereiten, aber unter den genannten Erstmaßnahmen ist eine intravenöse Analgesie unmittelbar am sinnvollsten. Eine ausreichende Schmerztherapie reduziert Stress, Katecholaminantwort und Blutdruckspitzen und ist Teil der Akutversorgung. Erythrozytentransfusion ist bei hämodynamischer Stabilität ohne beschriebenen relevanten Blutverlust nicht die erste Maßnahme. Schutzintubation, Magensonde oder Wärmezufuhr adressieren die akute Schmerz- und Gefäßsituation nicht primär.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Wärmezufuhr kann bei Hypothermie oder Schockprophylaxe unterstützend sein. Sie ist jedoch nicht die vorrangige Erstmaßnahme bei einem wachen, kreislaufstabilen Patienten mit stark schmerzhaftem Aortensyndrom.",
+          "term": "Wärmezufuhr"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Erythrozytenkonzentrate sind bei relevanter Blutung, Schock oder ausgeprägter Anämie indiziert. Der Patient ist initial hypertensiv und kreislaufstabil, sodass Transfusion nicht als Erstes im Vordergrund steht.",
+          "term": "Erythrozytentransfusion"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Magensonde kann perioperativ in bestimmten Situationen erforderlich sein. Sie behandelt aber weder die akuten Schmerzen noch die drohende Gefäßkomplikation und ist daher nicht die erste Maßnahme.",
+          "term": "Magensonde"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Intravenöse Analgesie ist bei einem symptomatischen Aortenaneurysma unmittelbar angezeigt. Sie stabilisiert die Akutsituation symptomatisch und verhindert eine unnötige Schmerz- und Stressreaktion, während die definitive Versorgung vorbereitet wird.",
+          "term": "intravenöse Analgesie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Schutzintubation ist bei fehlenden Schutzreflexen, schwerer respiratorischer Insuffizienz oder notwendiger Narkoseeinleitung relevant. Der Patient ist wach und kreislaufstabil, sodass sie nicht als erste Maßnahme genannt ist.",
+          "term": "Schutzintubation"
+        }
+      ]
+    },
+    "257": {
+      "topicLabel": "EVAR",
+      "explanation": "Der Fall beschreibt weiterhin einen älteren Patienten mit symptomatischem Bauchaortenaneurysma und CT-gesichertem Befund. Bei geeigneter Anatomie ist die endovaskuläre Stentgraft-Implantation ein wichtiges und häufig bevorzugtes Verfahren, besonders bei älteren Patienten mit erhöhtem Operationsrisiko. Sie schaltet das Aneurysma von innen aus und vermeidet im Vergleich zur offenen Operation eine größere Laparotomie. Die anderen Optionen passen anatomisch oder pathophysiologisch nicht zum vermuteten Aneurysma. Daher ist die endovaskuläre Stentimplantation unter den genannten Verfahren am ehesten indiziert.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Hämatomausräumung und Gefäßübernähung wäre keine Standardtherapie eines Bauchaortenaneurysmas. Sie würde die aneurysmatische Gefäßstrecke nicht adäquat rekonstruieren oder ausschalten.",
+          "term": "Gefäßübernähung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine offene Nephrostomie dient der Harnableitung bei urologischer Obstruktion oder bestimmten Nierenproblemen. Sie hat keinen kausalen Bezug zu einem symptomatischen Bauchaortenaneurysma.",
+          "term": "Nephrostomie"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die endovaskuläre Stentimplantation kann ein infrarenales Aneurysma durch einen Stentgraft ausschalten. Bei passender Morphologie ist sie gerade bei älteren Patienten eine naheliegende Therapieoption.",
+          "term": "endovaskuläre Stentimplantation"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Operative Revaskularisation ist ein unspezifischer Begriff und passt eher zu peripheren Verschlüssen oder Ischämien. Beim Aneurysma geht es nicht primär um Wiedereröffnung, sondern um Ausschaltung der aneurysmatischen Gefäßwand.",
+          "term": "Revaskularisation"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Marsupialisation und Drainage sind Verfahren für bestimmte Zysten, Abszesse oder Hohlräume. Sie haben bei einem Bauchaortenaneurysma keine therapeutische Rolle.",
+          "term": "Marsupialisation"
+        }
+      ]
+    },
+    "258": {
+      "topicLabel": "Phenprocoumon-Blutung",
+      "explanation": "Die Patientin hat eine untere gastrointestinale Blutung bei deutlich supratherapeutischer Phenprocoumon-Wirkung, ist aber kreislaufstabil und hat keinen massiv erniedrigten Hämoglobinwert. Vorrangig ist daher die Antagonisierung der Vitamin-K-Antagonisten-Wirkung mit Phytomenadion, um die Gerinnung wieder zu stabilisieren. Gerinnungsaktive Plasmapräparate oder Konzentrate sind vor allem bei lebensbedrohlicher Blutung, schwerer Instabilität oder dringlicher sofortiger Intervention im Vordergrund. Eine Erythrozytentransfusion ist bei diesem Hämoglobinwert und stabiler Kreislaufsituation nicht unmittelbar vorrangig. Diagnostik wie Endoskopie ist wichtig, sollte aber nach initialer Stabilisierung der Gerinnung erfolgen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Gerinnungsaktive Plasmapräparate können bei schweren Blutungen oder dringlicher rascher Gerinnungskorrektur relevant sein. Bei stabiler Patientin steht hier zunächst die Antagonisierung des Vitamin-K-Antagonisten im Vordergrund.",
+          "term": "Plasmapräparate"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Transfusion von Erythrozytenkonzentraten ist bei hämodynamischer Instabilität oder stärkerer Anämie indiziert. Der angegebene Hämoglobinwert und die stabile Kreislaufsituation machen sie nicht zur vorrangigen Sofortmaßnahme.",
+          "term": "Erythrozytenkonzentrate"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Phytomenadion antagonisiert die Wirkung von Phenprocoumon, indem es die Vitamin-K-abhängige Gerinnungsfaktorsynthese wieder ermöglicht. Bei supratherapeutischem INR und Blutung ist dies unmittelbar angezeigt.",
+          "term": "Vitamin K1"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Gastroskopie passt diagnostisch eher zur oberen gastrointestinalen Blutung. Zudem ist bei der Verdachtsdiagnose einer unteren Blutung und entgleister Antikoagulation die Gerinnungskorrektur zunächst vorrangig.",
+          "term": "Gastroskopie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Röntgenaufnahme des Abdomens klärt eine untere gastrointestinale Blutung in der Regel nicht zielführend ab. Sie behebt weder die Blutung noch die supratherapeutische Antikoagulation.",
+          "term": "Abdomen-Röntgen"
+        }
+      ]
+    },
+    "259": {
+      "topicLabel": "Perioperatives Bridging",
+      "explanation": "Die Patientin hat Vorhofflimmern bei Mitralklappenstenose und damit ein hohes thromboembolisches Risiko, während die Phenprocoumon-Therapie wegen Blutung und geplanter Operation unterbrochen werden muss. Bridging bedeutet in dieser Situation typischerweise, den Vitamin-K-Antagonisten erst bei ausreichend gefallenem INR durch Heparin zu ersetzen. Wegen des hohen Risikos ist eine therapeutische Dosierung des niedermolekularen Heparins plausibel, nicht nur eine Prophylaxedosis. Vor der Operation muss das Heparin rechtzeitig pausiert werden, um das Blutungsrisiko zu begrenzen. Direkte Faktor-Xa-Inhibitoren sind bei Vorhofflimmern im Kontext einer relevanten Mitralklappenstenose nicht die passende Bridging-Strategie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein sofortiger Beginn mit niedermolekularem Heparin bei noch deutlich erhöhtem INR würde das Blutungsrisiko erhöhen. Außerdem reicht eine reine Prophylaxedosis bei hohem thromboembolischem Risiko nicht als adäquates Bridging.",
+          "term": "NMH-Prophylaxedosis"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Unfraktioniertes Heparin in Prophylaxedosis wäre ebenfalls keine ausreichende Bridging-Antikoagulation für diese Hochrisikosituation. Zudem sollte zunächst die übermäßige Wirkung des Vitamin-K-Antagonisten abklingen.",
+          "term": "UFH-Prophylaxedosis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Direkte Faktor-Xa-Inhibitoren sind für Vorhofflimmern bei relevanter Mitralklappenstenose nicht die geeignete Umstellung. Außerdem lösen sie das perioperative Bridging-Problem in dieser Konstellation nicht leitliniengerecht.",
+          "term": "Faktor-Xa-Inhibitor"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Das Abwarten bis zu einem ausreichend gesunkenen INR und anschließende therapeutische niedermolekulare Heparinisierung entspricht dem Prinzip des Bridgings bei hohem Thromboembolierisiko. Die präoperative Pause reduziert anschließend das Operationsblutungsrisiko.",
+          "term": "therapeutisches NMH-Bridging"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Faktor-Xa-Inhibitor ist bei dieser Patientin mit Mitralklappenstenose nicht die passende Alternative zum Vitamin-K-Antagonisten. Für das perioperative Management ist Heparin die geeignetere Bridging-Substanz.",
+          "term": "DOAK-Bridging"
+        }
+      ]
+    },
+    "260": {
+      "topicLabel": "Perioperatives Monitoring",
+      "explanation": "Bei der älteren Patientin mit geplanter kolorektaler Operation, relevanter Antikoagulationsproblematik und Komorbidität ist ein erweitertes perioperatives Monitoring und Zugangskonzept sinnvoll. Ein peripherer Venenzugang ist Basis, ein arterieller Zugang ermöglicht kontinuierliche Blutdruckmessung und Blutgas- beziehungsweise Laborkontrollen, und ein zentralvenöser Zugang kann bei größerer Operation und Volumen-/Medikamentenmanagement hilfreich sein. Eine Epiduralanästhesie kann bei abdominalchirurgischen Eingriffen zur Analgesie eingesetzt werden, sofern Gerinnung und Antikoagulationspausen sicher passen. Ein Blasenkatheter ist bei größerer Operation und Flüssigkeitssteuerung ebenfalls sinnvoll. Eine routinemäßige Gabe von Erythrozyten- oder Thrombozytenkonzentraten ist ohne entsprechende Befunde nicht indiziert, und eine Magensonde ist nicht zwingend Teil der besten Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Peripherer, arterieller und zentralvenöser Zugang sind bei einer größeren Operation plausibel. Die Antwort lässt jedoch wichtige perioperative Maßnahmen wie Epiduralanalgesie und Blasenkatheter aus, die in der korrekten Kombination enthalten sind.",
+          "term": "Gefäßzugänge"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Diese Kombination ergänzt die Zugänge um eine Epiduralanästhesie und ist damit näher an der geeigneten Versorgung. Bei größerer abdominaler Operation ist aber auch ein Blasenkatheter zur Bilanzierung und perioperativen Steuerung naheliegend.",
+          "term": "Epiduralanästhesie ohne Blasenkatheter"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Gabe von Erythrozytenkonzentraten ist bei der beschriebenen Patientin nicht routinemäßig indiziert. Der Hämoglobinwert ist nicht so dargestellt, dass eine präoperative Transfusion zwingend Bestandteil des Standardmanagements wäre.",
+          "term": "Erythrozytengabe"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Diese Kombination enthält die wesentlichen Zugänge, erweitertes Monitoring, eine mögliche Epiduralanalgesie und den Blasenkatheter. Sie passt am besten zu einer größeren abdominalchirurgischen Operation mit perioperativ relevantem Risiko.",
+          "term": "erweitertes perioperatives Management"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die zusätzliche routinemäßige Gabe von Thrombozytenkonzentraten ist ohne Thrombozytopenie oder Thrombozytenfunktionsstörung nicht begründet. Auch die Magensonde macht diese Maximalvariante nicht automatisch zur besten Standardmaßnahme.",
+          "term": "Thrombozytenkonzentrate"
+        }
+      ]
+    }
+  }
+}

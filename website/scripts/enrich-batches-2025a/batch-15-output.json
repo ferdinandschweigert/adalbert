@@ -1,0 +1,745 @@
+{
+  "examId": "m2-2025a-staatsexamen",
+  "questions": {
+    "301": {
+      "topicLabel": "Analkarzinom",
+      "explanation": "Bei einem Plattenepithelkarzinom des Analkanals im Stadium cT2 cN0 cM0 ist die organerhaltende definitive Radiochemotherapie die Standardtherapie. Das gilt besonders für p16-positive, HPV-assoziierte Tumoren, bei denen die lokale Kontrolle durch kombinierte Bestrahlung und systemische Therapie häufig möglich ist. Eine primäre radikale Operation würde die Sphinkterfunktion unnötig gefährden und ist typischerweise Reservetherapie bei Persistenz oder Rezidiv. Eine alleinige lokale oder alleinige systemische Therapie ist bei einem invasiven T2-Tumor nicht ausreichend kurativ. Die gesuchte Option ist daher die primäre definitive Radiochemotherapie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die abdominoperineale Resektion ist beim Analkarzinom heute nicht die primäre Standardtherapie. Sie kommt vor allem als Salvage-Operation bei Tumorpersistenz oder Rezidiv nach Radiochemotherapie infrage. Für einen cT2 cN0 cM0-Tumor wäre sie initial zu mutilierend.",
+          "term": "Abdominoperineale Resektion"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine neoadjuvante Radiochemotherapie mit anschließender Resektion entspricht eher Konzepten beim lokal fortgeschrittenen Rektumkarzinom. Beim Plattenepithelkarzinom des Analkanals ist die definitive Radiochemotherapie selbst die kurative Behandlung. Eine geplante Resektion danach ist bei gutem Ansprechen nicht vorgesehen.",
+          "term": "Neoadjuvante Radiochemotherapie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Neodym-YAG-Laser-Behandlung kann lokale oberflächliche oder palliative Situationen adressieren, behandelt aber kein invasives Analkanalkarzinom kurativ. Sie würde weder die regionale Tumorausbreitung noch mikroskopische Tumorreste sicher erfassen. Für cT2 ist sie deshalb unzureichend.",
+          "term": "Nd:YAG-Laser"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die primäre definitive Radiochemotherapie ist beim Plattenepithelkarzinom des Analkanals die Therapie der Wahl. Sie kombiniert lokale Tumorkontrolle mit Organ- und Sphinktererhalt. Eine Operation bleibt in der Regel der Situation eines unzureichenden Ansprechens oder Rezidivs vorbehalten.",
+          "term": "Definitive Radiochemotherapie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Cisplatin-haltige Chemotherapie allein wäre keine ausreichende lokale Therapie. Beim Analkarzinom ist die Bestrahlung ein wesentlicher Bestandteil des kurativen Konzepts. Systemische Therapie ohne Radiotherapie würde den lokoregionären Tumor nicht adäquat kontrollieren.",
+          "term": "Alleinige Chemotherapie"
+        }
+      ]
+    },
+    "302": {
+      "topicLabel": "Asbestose",
+      "explanation": "Der Bildbefund in Kombination mit Belastungsdyspnoe und Knisterrasseln spricht am ehesten für eine beruflich verursachte asbestassoziierte Lungenerkrankung. Solche Veränderungen können sich erst im höheren Lebensalter bemerkbar machen und fallen radiologisch oft durch typische pleurale oder interstitielle Befunde auf. Auch wenn Amiodaron als Differenzialdiagnose eine medikamentös induzierte Lungenveränderung nahelegen kann, ist laut Befundkonstellation hier die Berufserkrankung die beste Antwort. Entscheidend ist, dass nicht der frühere Rippenbruch selbst, sondern eine arbeitsbedingte inhalative Schädigung die Beschwerden erklärt. Damit ist die Einordnung als Berufserkrankung am plausibelsten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Lungenfibrose ist als Oberbegriff zu unspezifisch und erklärt den als typisch gewerteten CT-Befund nicht am besten. Bei Amiodaron-Einnahme muss man zwar an eine medikamentöse Lungenbeteiligung denken. Die Prüfungsantwort zielt hier jedoch auf die beruflich bedingte Genese der Veränderungen.",
+          "term": "Lungenfibrose"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Eine asbestassoziierte Lungenerkrankung ist klassisch als Berufserkrankung einzuordnen. Expositionsbedingte pleurale oder interstitielle Veränderungen können zu Belastungsdyspnoe und feinblasigem Knisterrasseln führen. Der CT-Befund macht diese Einordnung gegenüber den anderen Optionen am wahrscheinlichsten.",
+          "term": "Berufserkrankung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Zustand nach Rippenserienfraktur verursacht typischerweise keine progrediente Belastungsdyspnoe mit Knisterrasseln und charakteristischem CT-Befund Jahre später. Narben oder Pleuraschwarten wären allenfalls lokal erklärend. Die geschilderte Symptomatik wird dadurch nicht am besten erfasst.",
+          "term": "Rippenfrakturfolge"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine spezifische Pleuritis, etwa tuberkulöser Genese, kann pleurale Residuen hinterlassen. Im Fall wird aber kein entsprechender Infekt, keine typische Vorgeschichte und kein darauf fokussierter Befund genannt. Die arbeitsbedingte Ursache ist deshalb wahrscheinlicher.",
+          "term": "Spezifische Pleuritis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Rezidivierende Lungenarterienembolien verursachen eher eine pulmonale Hypertonie mit Belastungsdyspnoe, aber kein Knisterrasseln als Leitsymptom. Auch der CT-Befund der Frage passt nicht primär zu chronisch thromboembolischen Veränderungen. Diese Option erklärt die Konstellation daher schlechter.",
+          "term": "Rezidivierende Lungenembolien"
+        }
+      ]
+    },
+    "303": {
+      "topicLabel": "Aortendissektion",
+      "explanation": "Plötzlich einsetzender starker Thoraxschmerz, Schmerz zwischen den Schulterblättern, neurologische Symptome am Bein und ein abgeschwächter Leistenpuls sprechen hochgradig für eine akute Aortendissektion mit Malperfusion. Bei hämodynamisch ausreichend stabilem Patienten ist die kontrastmittelgestützte CT-Angiografie die vordringliche Untersuchung, weil sie Aorta, Ausdehnung, Entry und Organperfusion rasch darstellt. Die Diagnostik muss notfallmäßig erfolgen, da sich Therapie und Dringlichkeit nach Dissektionstyp und Komplikationen richten. Andere Verfahren können in Einzelfällen ergänzen, sind hier aber nicht die primäre Untersuchung. Daher ist die Computertomografie mit Kontrastmittelgabe am ehesten indiziert.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die kontrastmittelgestützte CT ist bei Verdacht auf Aortendissektion die rasche und breit verfügbare Methode der Wahl. Sie zeigt die Dissektionsmembran, die Ausdehnung und mögliche Perfusionsstörungen. Die Beinsymptome und der abgeschwächte Puls machen diese Abklärung besonders dringlich.",
+          "term": "CT-Angiografie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Koronarangiografie wäre bei akutem Koronarsyndrom zentral. Die Kombination aus Rücken-/Schulterblattschmerz und Pulsdefizit passt jedoch besser zur Aortendissektion. Eine invasive Koronarangiografie würde die entscheidende Aortendiagnostik verzögern.",
+          "term": "Koronarangiografie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die MRT kann Aortenerkrankungen sehr gut darstellen, ist im akuten Notfall aber meist weniger schnell verfügbar und aufwendiger. Bei einer potenziell lebensbedrohlichen Dissektion zählt die sofortige Diagnostik. Deshalb ist sie hier nicht vordringlich.",
+          "term": "Magnetresonanztomografie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die transösophageale Echokardiografie kann bei instabilen Patienten oder eingeschränkter CT-Möglichkeit hilfreich sein. Sie zeigt jedoch nicht immer die gesamte Aorta und die peripheren Malperfusionszeichen so umfassend wie die CT-Angiografie. Für den beschriebenen Transport in die Klinik ist CT am naheliegendsten.",
+          "term": "TEE"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Ventilations-Perfusionsszintigrafie dient der Abklärung einer Lungenembolie. Der Fall zeigt aber Warnzeichen einer Aortendissektion, insbesondere wandernden Schmerz und Pulsdefizit. Diese Untersuchung würde die falsche Verdachtsdiagnose verfolgen.",
+          "term": "V/Q-Szintigrafie"
+        }
+      ]
+    },
+    "304": {
+      "topicLabel": "Magenkarzinom",
+      "explanation": "Ein T3 N+ Adenokarzinom des proximalen Magendrittels ohne Fernmetastasen ist ein lokal fortgeschrittenes, aber potenziell kurativ behandelbares Magenkarzinom. Bei proximaler Lokalisation ist in der Regel eine totale Gastrektomie mit systemischer perioperativer Therapie das passende multimodale Konzept. Die alleinige lokale Entfernung reicht bei T3 und nodalem Befall nicht aus. Eine definitive Radiochemotherapie ist beim Magenkarzinom nicht das Standardvorgehen in dieser kurativen Situation. Da keine Fernmetastasierung vorliegt, ist ein palliatives Vorgehen nicht primär angezeigt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine endoskopische Exzision ist nur bei sehr frühen, oberflächlichen und risikoarmen Magenkarzinomen kurativ geeignet. Ein T3-Tumor infiltriert deutlich tiefer und zeigt bereits nodalen Befall. Damit wäre eine endoskopische Therapie klar untertherapiert.",
+          "term": "Endoskopische Exzision"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine proximale Magenteilresektion allein würde dem lokal fortgeschrittenen Stadium mit Nodalbefall nicht gerecht. Außerdem ist bei proximalen Magenkarzinomen häufig eine onkologisch sichere Resektion mit entsprechender Lymphadenektomie erforderlich. Die systemische Therapie fehlt in dieser Option.",
+          "term": "Proximale Magenteilresektion"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Totale Gastrektomie plus perioperative antineoplastische Therapie entspricht dem kurativen Standardkonzept bei lokal fortgeschrittenem, nicht metastasiertem Magenkarzinom. Die Operation behandelt den Primärtumor und die Lymphabflusswege. Die systemische Therapie adressiert mikrometastatische Erkrankung und verbessert die onkologische Kontrolle.",
+          "term": "Gastrektomie mit perioperativer Chemotherapie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine definitive Radiochemotherapie ist eher bei bestimmten nicht operablen oder anderen gastrointestinalen Tumorkonstellationen ein zentrales Konzept. Bei einem operablen Magenkarzinom T3 N+ M0 ist die Resektion Bestandteil der kurativen Behandlung. Diese Option lässt die notwendige Operation aus.",
+          "term": "Definitive Radiochemotherapie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine palliative Chemoimmuntherapie wäre bei nicht kurativ behandelbarer oder metastasierter Erkrankung naheliegend. Im Staging wurde aber keine Fernmetastasierung gefunden. Daher sollte die Patientin nicht primär palliativ behandelt werden.",
+          "term": "Palliative Systemtherapie"
+        }
+      ]
+    },
+    "305": {
+      "topicLabel": "Othämatom",
+      "explanation": "Nach Sturz und Antikoagulation ist eine akut aufgefallene Veränderung der Ohrmuschel am ehesten als Othämatom zu verstehen. Blut zwischen Perichondrium und Knorpel stört die Ernährung des Ohrknorpels. Ohne Entlastung und Kompression kann es zu Knorpelnekrose, Organisation des Hämatoms und narbiger Umformung kommen. Die klassische Langzeitfolge ist eine deformierte Ohrmuschel, häufig im Sinne eines Blumenkohl- oder Ringerohrs beschrieben. Deshalb ist langfristig am ehesten eine Deformierung der Ohrmuschel zu erwarten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Tassenohr ist eine Form angeborener Ohrmuscheldysplasie. Es entsteht nicht typischerweise akut nach Trauma und Hämatom. Die hier gefürchtete Folge ist eine erworbene knorpelige Deformierung.",
+          "term": "Tassenohr"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Osteomyelitis des Felsenbeins ist eine schwere knöcherne Infektion im Bereich der Schädelbasis. Ein unbehandeltes Othämatom führt primär zu Knorpelschädigung der Ohrmuschel, nicht zu einer Felsenbeininfektion. Dafür fehlen auch Hinweise auf eine ausgedehnte Otitis oder systemische Infektion.",
+          "term": "Felsenbeinosteomyelitis"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die Deformierung der Ohrmuschel ist die typische Spätfolge eines unbehandelten Othämatoms. Durch Abhebung des Perichondriums wird der Knorpel schlechter versorgt, sodass Vernarbung und unregelmäßiger Knorpelumbau entstehen. Deshalb muss ein Othämatom frühzeitig behandelt werden.",
+          "term": "Ohrmuscheldeformierung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Otosklerose betrifft den knöchernen Umbau im Bereich der Gehörknöchelchenkette, insbesondere am Steigbügel. Sie verursacht eine Schallleitungsschwerhörigkeit und hat keinen Zusammenhang mit einem akuten Ohrmuscheltrauma. Als Folge eines Othämatoms ist sie nicht zu erwarten.",
+          "term": "Otosklerose"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Makrotie bezeichnet eine ungewöhnlich große Ohrmuschel. Ein Hämatom kann die Ohrmuschel akut anschwellen lassen, verursacht aber langfristig keine echte Größenzunahme im Sinne einer Makrotie. Entscheidend ist die Formveränderung durch Knorpelschaden.",
+          "term": "Makrotie"
+        }
+      ]
+    },
+    "306": {
+      "topicLabel": "Hämangiom",
+      "explanation": "Eine seit dem Neugeborenenalter vorhandene, erhabene, weiche und in den ersten Lebensmonaten deutlich wachsende Hautveränderung passt am besten zu einem infantilen Hämangiom. Diese vaskulären Tumoren zeigen typischerweise eine frühe Proliferationsphase und können danach spontan rückläufig sein. Die Lokalisation am Abdomen und die geringe Größe schließen diese Diagnose nicht aus. Andere pigmentierte oder flache Gefäßmalformationen passen weniger gut zur weichen Erhabenheit und Größenzunahme. Daher ist das Hämangiom die wahrscheinlichste Diagnose.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ein infantiles Hämangiom ist typischerweise weich, erhaben und wächst in den ersten Lebensmonaten. Dass die Veränderung bereits früh bemerkt wurde und nun deutlich größer geworden ist, stützt diese Diagnose. Viele unkomplizierte Hämangiome werden zunächst beobachtet.",
+          "term": "Hämangiom"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein kongenitaler Nävus ist meist pigmentiert und zeigt nicht die typische weiche vaskuläre Proliferation eines Hämangioms. Er kann mit dem Körper mitwachsen, nimmt aber nicht klassisch in den ersten Lebensmonaten rasch tumorartig zu. Die Beschreibung passt daher schlechter.",
+          "term": "Kongenitaler Nävus"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein malignes Melanom ist bei einem Säugling extrem selten und wäre eher durch verdächtige Pigmentierung, Ulzeration oder unregelmäßige Begrenzung charakterisiert. Die weiche, schon früh vorhandene und proliferierende Läsion spricht für eine gutartige vaskuläre Veränderung. Diese Option wäre deshalb nicht am wahrscheinlichsten.",
+          "term": "Malignes Melanom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Mastozytom ist häufig gelblich-bräunlich und kann bei Reibung urtikariell anschwellen. Die geschilderte weiche erhabene Läsion mit deutlicher Größenzunahme im Säuglingsalter ist typischer für ein Hämangiom. Hinweise auf Darier-Zeichen oder mastzelltypische Beschwerden fehlen.",
+          "term": "Mastozytom"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Naevus flammeus ist eine flache kapilläre Malformation und wächst meist proportional mit dem Kind. Er ist nicht typischerweise weich palpabel oder knotig erhaben. Die Proliferation in den ersten Lebensmonaten passt daher nicht gut.",
+          "term": "Naevus flammeus"
+        }
+      ]
+    },
+    "307": {
+      "topicLabel": "Sinusthrombose",
+      "explanation": "Die Patientin zeigt einen über Tage zunehmenden, sehr starken Kopfschmerz mit Übelkeit, Konzentrationsstörung und Sehstörung als Zeichen eines erhöhten intrakraniellen Drucks oder venöser Stauung. Zusammen mit dem nativen CT-Befund spricht dies am ehesten für eine zerebrale Sinus- bzw. Venenthrombose. Diese kann subakut verlaufen und mit Kopfschmerz, fokalen Symptomen, epileptischen Anfällen oder Bewusstseinsstörungen einhergehen. Eine Migräne erklärt die Bildgebung und die neue Schmerzqualität nicht ausreichend. Eine Subarachnoidalblutung wäre eher als schlagartig maximaler Vernichtungskopfschmerz mit typischer Blutverteilung zu erwarten. Die wahrscheinlichste Diagnose ist daher die Sinusthrombose.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine Sinusthrombose verursacht häufig starke, progrediente Kopfschmerzen und Zeichen erhöhten intrakraniellen Drucks wie Übelkeit und Sehstörungen. Im CT können indirekte oder direkte Zeichen einer venösen Abflussstörung sichtbar sein. Der subakute Verlauf über mehrere Tage passt gut.",
+          "term": "Sinusthrombose"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine schwere Migräneattacke kann starke Kopfschmerzen, Übelkeit und Sehstörungen verursachen. Gegen Migräne sprechen aber die ungewohnte maximale Schmerzintensität, die progrediente Verschlechterung und der pathologische CT-Kontext. Eine neue sekundäre Kopfschmerzursache muss hier angenommen werden.",
+          "term": "Migräneattacke"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Subarachnoidalblutung äußert sich klassisch durch abrupt einsetzenden Vernichtungskopfschmerz. Der Fall beschreibt eher eine über drei Tage zunehmende Symptomatik. Der vorgegebene CT-Befund wird hier nicht als typische Subarachnoidalblutung gewertet.",
+          "term": "Subarachnoidalblutung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine chronische Subduralblutung tritt typischerweise bei älteren Patienten oder nach Trauma auf und verläuft langsam mit Kopfschmerz, Wesensänderung oder fokalen Defiziten. Die 25-jährige Patientin und der geschilderte CT-Kontext sprechen dagegen. Zudem passt die akute starke Kopfschmerzdynamik weniger gut.",
+          "term": "Chronische Subduralblutung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Hirnhautentzündung kann Kopfschmerz, Übelkeit und Konzentrationsstörungen verursachen. Typische Hinweise wie Fieber, Meningismus oder infektiöse Begleitsymptome werden aber nicht genannt. Der CT-Befund lenkt hier eher auf eine vaskuläre Ursache.",
+          "term": "Meningitis"
+        }
+      ]
+    },
+    "308": {
+      "topicLabel": "Nabelhernie",
+      "explanation": "Eine seit längerem bestehende Nabelvorwölbung mit akutem Schmerz, livider Hautverfärbung, praller Schwellung und fehlender Reponibilität ist hochverdächtig auf eine inkarzerierte Nabelhernie. Die livide Verfärbung weist zusätzlich auf eine drohende oder bestehende Durchblutungsstörung des Bruchinhalts hin. Eine Inkarzeration ist eine absolute Operationsindikation, weil Strangulation, Nekrose und Peritonitis drohen können. Eine rein konservative oder elektive Abklärung wäre in dieser Situation gefährlich. Die korrekte Kombination ist daher inkarzerierte Nabelhernie mit sofortiger operativer Behandlung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Nabelabszess kann schmerzhaft und gerötet sein, erklärt aber eine länger bestehende Vorwölbung mit akuter Nichtreponibilität nicht so gut. Die livide, pralle Schwellung am Ort einer bekannten Hernie spricht für Inkarzeration. Eine bloße Inzision wäre bei eingeklemmtem Bruchinhalt falsch.",
+          "term": "Nabelabszess"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein präperitoneales Lipom verursacht meist eine eher weiche, nicht akut livide verfärbte Schwellung. Es erklärt die plötzlich schmerzhafte Nichtreponibilität nicht ausreichend. Selbst wenn es elektiv operiert werden könnte, beschreibt der Fall eine Notfallsituation.",
+          "term": "Präperitoneales Lipom"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Bauchwandmetastase am Nabel kann als Sister-Mary-Joseph-Knoten auftreten, ist aber typischerweise derb und nicht akut inkarzeriert. Die akute Schmerzhaftigkeit, livide Haut und fehlende Reponibilität passen besser zur Hernie. Primär Histologie und Staging würden die notwendige Notfalltherapie verzögern.",
+          "term": "Bauchwandmetastase"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Caput medusae entsteht durch venöse Kollateralen bei portaler Hypertension und zeigt keine isolierte nicht reponible Bruchgeschwulst. Eine Thrombose könnte schmerzhaft sein, erklärt aber den klassischen Hernienbefund nicht. Antikoagulation wäre bei drohender Strangulation nicht die richtige Maßnahme.",
+          "term": "Thrombosiertes Caput medusae"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Die inkarzerierte Nabelhernie ist durch schmerzhafte, nicht reponible Vorwölbung und livide Hautveränderung sehr wahrscheinlich. Wegen Strangulationsgefahr besteht eine absolute Operationsindikation. Die Behandlung muss zügig chirurgisch erfolgen.",
+          "term": "Inkarzerierte Nabelhernie"
+        }
+      ]
+    },
+    "309": {
+      "topicLabel": "Pseudothrombozytopenie",
+      "explanation": "Eine extrem niedrige Thrombozytenzahl ohne Blutungszeichen ist verdächtig auf eine Pseudothrombozytopenie. Am häufigsten entsteht sie in vitro durch EDTA-abhängige Thrombozytenagglutination im Probenröhrchen. Der Automat zählt die verklumpten Thrombozyten dann nicht korrekt, obwohl die Thrombozytenzahl im Körper nicht entsprechend vermindert ist. Die Abklärung erfolgt typischerweise durch Blutausstrich und erneute Messung mit geeignetem Alternativantikoagulans. Das verursachende Röhrchenantikoagulans ist hier EDTA.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Lithium-Heparin ist nicht der klassische Auslöser der EDTA-abhängigen Pseudothrombozytopenie. Heparinröhrchen können bei der Abklärung als Alternative genutzt werden. Der typische Prüfungsmechanismus ist die Verklumpung im EDTA-Blut.",
+          "term": "Lithium-Heparin"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Natrium-Heparin ist ebenfalls nicht die typische Ursache dieser Laborartefakt-Konstellation. Die schwere Thrombozytopenie ohne klinische Blutung sollte an ein EDTA-Artefakt denken lassen. Heparin ist daher nicht die beste Antwort.",
+          "term": "Natrium-Heparin"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Citrat wird häufig verwendet, um eine EDTA-abhängige Pseudothrombozytopenie zu überprüfen. Es ist daher eher ein alternatives Probenmaterial als der klassische Auslöser. Die gesuchte Ursache liegt im EDTA-Röhrchen.",
+          "term": "Citrat"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "EDTA kann bei manchen Patienten in vitro eine antikörpervermittelte Thrombozytenagglutination auslösen. Dadurch misst das Labor fälschlich sehr niedrige Thrombozytenwerte. Die fehlenden Blutungszeichen trotz 2/nL passen sehr gut zu diesem Artefakt.",
+          "term": "EDTA"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Fondaparinux ist ein Antikoagulans zur Therapie oder Prophylaxe thromboembolischer Ereignisse, nicht das typische Antikoagulans eines Standard-Blutbildröhrchens. Es erklärt die EDTA-abhängige Plättchenverklumpung nicht. Als Ursache der Pseudothrombozytopenie ist es daher falsch.",
+          "term": "Fondaparinux"
+        }
+      ]
+    },
+    "310": {
+      "topicLabel": "Impetigo",
+      "explanation": "Unter den genannten Haut- und Weichgewebeinfektionen ist die Impetigo die Erkrankung, die meist allein antiinfektiv behandelt werden kann. Sie ist eine oberflächliche bakterielle Hautinfektion, bei der je nach Ausdehnung lokale oder systemische Antibiotika ausreichen können. Demgegenüber benötigen Abszesse, nekrotisierende Infektionen und tiefe Protheseninfektionen in der Regel chirurgische Sanierung oder zumindest Drainage bzw. Debridement. Die Einschlusskörperchenmyositis ist keine bakterielle Infektion und passt deshalb nicht in das Konzept einer antiinfektiven Therapie. Damit ist Impetigo die richtige Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Impetigo ist eine oberflächliche bakterielle Hautinfektion. Sie kann bei begrenztem Befall lokal antiinfektiv und bei ausgedehntem Befall systemisch antiinfektiv behandelt werden. Eine chirurgische Herdsanierung ist typischerweise nicht erforderlich.",
+          "term": "Impetigo"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein subkutaner Abszess enthält eine abgekapselte Eiteransammlung. Antibiotika erreichen den Abszess oft nicht ausreichend, sodass Inzision und Drainage entscheidend sind. Eine alleinige antiinfektive Therapie wäre meist unzureichend.",
+          "term": "Subkutaner Abszess"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die nekrotisierende Fasziitis ist ein chirurgischer Notfall. Neben breiter antiinfektiver Therapie ist ein rasches und häufig wiederholtes Debridement notwendig. Eine alleinige Antibiotikatherapie wäre lebensgefährlich.",
+          "term": "Nekrotisierende Fasziitis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine tiefe Infektion im Bereich einer Hüftendoprothese erfordert meist operative Maßnahmen wie Debridement, Spülung oder Prothesenmanagement. Biofilm und nekrotisches Gewebe lassen sich mit Antibiotika allein oft nicht sanieren. Deshalb genügt eine rein antiinfektive Behandlung nicht.",
+          "term": "Prothesenassoziierte Muskelinfektion"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Einschlusskörperchenmyositis ist keine bakterielle Weichgewebeinfektion. Es handelt sich um eine chronisch entzündlich-degenerative Muskelerkrankung. Eine antiinfektive Therapie wäre daher nicht kausal.",
+          "term": "Einschlusskörperchenmyositis"
+        }
+      ]
+    },
+    "311": {
+      "topicLabel": "3MRGN",
+      "explanation": "Die MRGN-Klassifikation bewertet bei gramnegativen Erregern die Resistenz gegen zentrale Antibiotikagruppen. Beim vorliegenden E. coli bestehen Resistenzen gegen Piperacillin, die aufgeführten Cephalosporine und Ciprofloxacin, während Carbapeneme sensibel getestet sind. Damit sind drei der vier relevanten Gruppen betroffen, die Carbapenemgruppe aber nicht. Das entspricht am ehesten einem 3MRGN-Erreger. VRE und LRE betreffen Enterokokken bzw. deren spezifische Resistenzen und passen nicht zu E. coli.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "2MRGN ist in der klinischen MRGN-Systematik für Enterobacterales nicht die passende Zielkategorie der Frage. Der Erreger ist gegen mehr als zwei zentrale Gruppen resistent. Die erhaltene Carbapenem-Sensibilität macht ihn aber nicht automatisch niedriggradig resistent.",
+          "term": "2MRGN"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "3MRGN passt, weil Resistenzen gegen Piperacillin, Drittgenerations-Cephalosporine und Fluorchinolone vorliegen. Carbapeneme sind dagegen sensibel. Damit sind drei der vier Leitantibiotikagruppen betroffen.",
+          "term": "3MRGN"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "4MRGN würde zusätzlich eine relevante Carbapenem-Resistenz bedeuten. Im Antibiogramm sind Ertapenem, Imipenem/Cilastatin und Meropenem jedoch sensibel. Deshalb ist 4MRGN nicht korrekt.",
+          "term": "4MRGN"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "VRE steht für Vancomycin-resistente Enterokokken. Der nachgewiesene Erreger ist Escherichia coli und damit ein gramnegatives Stäbchenbakterium, kein Enterokokkus. Diese Klassifikation ist hier nicht anwendbar.",
+          "term": "VRE"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "LRE bezieht sich auf Linezolid-resistente Enterokokken und nicht auf E. coli. Im Antibiogramm werden zudem keine enterokokkenspezifischen Glykopeptid- oder Linezolid-Resistenzen beschrieben. Die Option ist daher kategorial falsch.",
+          "term": "LRE"
+        }
+      ]
+    },
+    "312": {
+      "topicLabel": "Meningeom",
+      "explanation": "Ein rechts frontales Falxmeningeom kann bei Wachstum die angrenzende Hirnrinde reizen. Das häufigste klinische Erstsymptom supratentorieller Meningeome sind epileptische Anfälle, die auch generalisiert als Grand-Mal-Anfall imponieren können. Die aktuell fehlende Raumforderung erklärt, warum zunächst kein akuter Handlungsbedarf besteht. Bei zunehmender Größe wäre aber eine kortikale Irritation wahrscheinlicher als eine isolierte Hirnnerven- oder Gesichtsfeldsymptomatik. Deshalb ist der Grand-Mal-Anfall die beste Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Gangataxie spricht eher für eine Kleinhirn- oder sensible Bahnbeteiligung. Ein rechts frontales Falxmeningeom verursacht diese Symptomatik nicht typischerweise als häufigstes Zeichen. Frontal können eher Anfälle oder frontalhirnbezogene Veränderungen auftreten.",
+          "term": "Gangataxie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine motorische Sprachstörung wäre bei Läsionen des dominanten inferioren Frontallappens zu erwarten. Die Raumforderung ist rechts frontal beschrieben, sodass dies nicht die wahrscheinlichste Folge ist. Außerdem sind Anfälle bei supratentoriellen Meningeomen häufiger.",
+          "term": "Motorische Aphasie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Gesichtsfeldstörungen passen eher zu Läsionen der Sehbahn, des Okzipitallappens oder der Sellaregion. Ein frontales Falxmeningeom liegt dafür ungünstig. Diese Option ist deshalb nicht die naheliegendste klinische Manifestation.",
+          "term": "Gesichtsfeldstörung"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Epileptische Anfälle sind ein häufiges Symptom supratentorieller Meningeome. Ein frontales Meningeom kann die Kortikalis reizen und fokale Anfälle auslösen, die sekundär generalisieren können. Daher ist ein Grand-Mal-Anfall bei Wachstum am ehesten zu erwarten.",
+          "term": "Grand-Mal-Anfall"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Augenbewegungsstörungen entstehen typischerweise bei Hirnnervenbeteiligung im Bereich von Hirnstamm, Sinus cavernosus oder Orbita. Ein rechts frontales Falxmeningeom erklärt sie nicht als häufigstes Symptom. Dafür fehlen topografische Hinweise.",
+          "term": "Augenbewegungsstörung"
+        }
+      ]
+    },
+    "313": {
+      "topicLabel": "Korsakow-Syndrom",
+      "explanation": "Orientierungsstörungen, Gedächtnisstörungen und Konfabulationen bei jahrzehntelanger Alkoholanamnese sprechen für ein Korsakow-Syndrom. Pathophysiologisch steht ein Thiaminmangel im Vordergrund, häufig im Zusammenhang mit Wernicke-Enzephalopathie und chronischem Alkoholgebrauch. Deshalb muss Vitamin B1 vordringlich substituiert werden. Andere Vitamine können bei Alkoholabhängigkeit ebenfalls mangelhaft sein, erklären aber das klassische amnestische Syndrom mit Konfabulationen nicht primär. Die richtige Substitution ist daher Thiamin, also Vitamin B1.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Folsäuremangel ist bei Alkoholabhängigkeit häufig und kann zu hämatologischen Auffälligkeiten beitragen. Er verursacht aber nicht klassisch das Korsakow-Syndrom. Bei der geschilderten Symptomtrias ist Thiamin entscheidend.",
+          "term": "Folsäure"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Vitamin B1, also Thiamin, ist die vordringliche Substitution bei Verdacht auf Wernicke-Korsakow-Spektrum. Thiaminmangel führt zu Störungen des Energiestoffwechsels im Gehirn und kann irreversible Gedächtnisstörungen hinterlassen. Konfabulationen sind hierfür sehr typisch.",
+          "term": "Vitamin B1"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Vitamin B6-Mangel kann neurologische Symptome begünstigen, ist aber nicht die Leitsubstitution beim Korsakow-Syndrom. Die klassische alkoholassoziierte amnestische Störung ist durch Thiaminmangel bedingt. Daher ist B6 nicht vordringlich.",
+          "term": "Vitamin B6"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Vitamin-B12-Mangel kann Polyneuropathie, funikuläre Myelose und kognitive Veränderungen verursachen. Konfabulationen bei chronischer Alkoholanamnese sprechen jedoch deutlich für ein Korsakow-Syndrom durch Thiaminmangel. B12 ist daher nicht die primäre Antwort.",
+          "term": "Vitamin B12"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Vitamin D ist vor allem für Knochenstoffwechsel und Muskelfunktion relevant. Es erklärt keine akute oder chronische amnestische Störung mit Konfabulationen. Für das Korsakow-Syndrom ist Vitamin B1 zentral.",
+          "term": "Vitamin D"
+        }
+      ]
+    },
+    "314": {
+      "topicLabel": "Verhaltensaktivierung",
+      "explanation": "Verhaltensaktivierung bei Depression zielt darauf, Rückzug, Inaktivität und Verlust positiver Verstärkung systematisch zu durchbrechen. Ein zentrales Instrument sind Tages- oder Wochenpläne, in denen Aktivitäten strukturiert geplant, durchgeführt und anschließend ausgewertet werden. Dadurch werden alltagsnahe Schritte, angenehme Aktivitäten und Erfolgserlebnisse wieder aufgebaut. Andere psychotherapeutische Techniken können hilfreich sein, stehen aber nicht so direkt für Aktivierung. Daher passen Tagespläne am besten in dieses Konzept.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Diskriminationsübungen sind eher aus anderen verhaltenstherapeutischen Kontexten bekannt, etwa zum Unterscheiden von Reizen oder Zuständen. Sie bilden nicht das Kerninstrument der Verhaltensaktivierung bei Depression. Der Fokus liegt hier stärker auf geplantem Handeln.",
+          "term": "Diskriminationsübungen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Situationsanalysen können in der kognitiven Verhaltenstherapie nützlich sein, um Auslöser, Gedanken, Gefühle und Verhalten zu verstehen. Sie ersetzen aber nicht die konkrete Aktivitätsplanung. Für Verhaltensaktivierung ist der Tagesplan unmittelbarer passend.",
+          "term": "Situationsanalysen"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Tagespläne sind ein typisches Werkzeug der Verhaltensaktivierung. Mit ihnen werden Aktivitäten verbindlich geplant, schrittweise umgesetzt und hinsichtlich Stimmung und Verstärkung reflektiert. Sie helfen, depressive Passivität praktisch zu überwinden.",
+          "term": "Tagespläne"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Rollenspiele können soziale Kompetenzen, Kommunikation oder Problemlöseverhalten trainieren. Sie sind aber nicht das zentrale Instrument, um depressive Inaktivität im Alltag direkt zu verändern. Dafür eignen sich strukturierte Aktivitätspläne besser.",
+          "term": "Rollenspiele"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Anti-Grübelstrategien sind bei Depression sinnvoll, zielen aber primär auf perseveratives Denken. Verhaltensaktivierung setzt stärker am Aufbau konkreter Aktivitäten an. Deshalb sind Tagespläne für das genannte Konzept passender.",
+          "term": "Anti-Grübelstrategien"
+        }
+      ]
+    },
+    "315": {
+      "topicLabel": "Somatisierungsstörung",
+      "explanation": "Juliane berichtet seit Jahren über zahlreiche körperliche und gastrointestinale Beschwerden, ohne dass trotz wiederholter fachärztlicher Abklärung eine organische Ursache gefunden wurde. Die Beschwerden führen zu ausgeprägtem Vermeidungsverhalten bei der Ernährung und mittlerweile zu relevantem Untergewicht. Entscheidend ist, dass keine primäre Körperbildstörung oder Angst vor Gewichtszunahme beschrieben wird, wie sie für Anorexia nervosa typisch wäre. Auch eine gesicherte Nahrungsmittelallergie oder -unverträglichkeit wurde ausgeschlossen. In der vorgegebenen Antwortauswahl passt daher eine Somatisierungsstörung am besten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Anorexia nervosa erfordert typischerweise eine überwertige Angst vor Gewichtszunahme und eine Störung der Körperwahrnehmung. Hier wird das restriktive Essen mit vermeintlichen Unverträglichkeiten und körperlichen Beschwerden begründet. Das Untergewicht allein macht die Diagnose daher nicht am wahrscheinlichsten.",
+          "term": "Anorexia nervosa"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine generalisierte Angststörung ist durch anhaltende, schwer kontrollierbare Sorgen in verschiedenen Lebensbereichen gekennzeichnet. Der Fall fokussiert auf multiple körperliche Symptome und medizinische Abklärungen. Eine breit generalisierte Sorgenproblematik wird nicht beschrieben.",
+          "term": "Generalisierte Angststörung"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die Somatisierungsstörung passt zu langjährigen, wechselnden körperlichen Beschwerden ohne ausreichenden organischen Befund. Die wiederholten Arztkontakte und die starke funktionelle Beeinträchtigung stützen diese Einordnung. Die Ernährungsrestriktion erscheint als Folge der somatischen Krankheitsüberzeugungen.",
+          "term": "Somatisierungsstörung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine induzierte wahnhafte Störung setzt eine wahnhafte Überzeugung voraus, die von einer nahestehenden Person übernommen wird. Die Vermutung von Unverträglichkeiten ist hier zwar gemeinsam mit der Mutter vorhanden, wird aber nicht als bizarrer oder unkorrigierbarer Wahn geschildert. Die körperlichen Beschwerden stehen stärker im Vordergrund.",
+          "term": "Induzierte wahnhafte Störung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Bulimia nervosa ist durch Essanfälle und kompensatorische Maßnahmen wie Erbrechen, Abführmittelmissbrauch oder exzessiven Sport geprägt. Solche Episoden werden nicht beschrieben. Das Problem ist vielmehr eine ausgeprägte Vermeidung bestimmter Nahrungsmittel wegen körperlicher Beschwerden.",
+          "term": "Bulimia nervosa"
+        }
+      ]
+    },
+    "316": {
+      "topicLabel": "Urosepsis",
+      "explanation": "Die Patientin hat Fieber, Schüttelfrost, Hypotonie, Tachykardie, stark erhöhte Entzündungswerte, Flankenklopfschmerz und eine drittgradige Harntransportstörung. Das entspricht einer obstruktiven Pyelonephritis mit Urosepsis bzw. drohender septischer Entgleisung. Neben sofortiger antiinfektiver und intensivmedizinischer Behandlung muss die Obstruktion rasch entlastet werden. Eine perkutane Nephrostomie ist hierfür eine schnelle und effektive Notfallmaßnahme. Weitere Bildgebung darf die dringliche Drainage bei klarer Obstruktion und Sepsis nicht verzögern.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die perkutane Nephrostomie entlastet den gestauten, infizierten Harntrakt unmittelbar. Bei obstruktiver Pyelonephritis mit Sepsiszeichen ist die Drainage neben Antibiotika entscheidend. Sie reduziert den septischen Fokus und ist daher möglichst zügig durchzuführen.",
+          "term": "Perkutane Nephrostomie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine kontrastmittelgestützte CT kann später helfen, Ursache und Ausmaß der Obstruktion genauer zu klären. In der akuten septischen Situation mit sonografisch nachgewiesener hochgradiger Harntransportstörung darf sie die Entlastung aber nicht verzögern. Zudem ist das Kreatinin erhöht.",
+          "term": "Kontrastmittel-CT"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Forcierte Diurese beseitigt die Abflussstörung nicht. Bei einem obstruierten, infizierten Harntrakt kann zusätzlicher Druck sogar problematisch sein. Die kausale Maßnahme ist die Drainage.",
+          "term": "Forcierte Diurese"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine orale antimikrobielle Therapie ist bei Urosepsis und reduziertem Allgemeinzustand unzureichend. Es braucht eine rasche parenterale Therapie und vor allem die Beseitigung der Obstruktion. Ohne Drainage bleibt der septische Fokus bestehen.",
+          "term": "Orale Antibiotikatherapie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Nephrektomie ist nicht die initiale Standardmaßnahme bei obstruktiver Pyelonephritis. Zunächst wird der Harntrakt entlastet und antiinfektiv behandelt. Eine Organentfernung käme nur in besonderen, therapierefraktären oder zerstörenden Situationen in Betracht.",
+          "term": "Nephrektomie"
+        }
+      ]
+    },
+    "317": {
+      "topicLabel": "Prädiktiver Wert",
+      "explanation": "Der positive prädiktive Wert hängt nicht nur von Sensitivität und Spezifität, sondern stark von der Prävalenz ab. Bei 10 % Prävalenz unter 1000 vergleichbaren Patienten hätten 100 eine KHK; mit 53 % Sensitivität wären 53 richtig positiv. Von 900 Patienten ohne KHK wären bei 96 % Spezifität 4 % falsch positiv, also 36. Unter allen positiv Getesteten wären damit 53 von 89 tatsächlich krank. Das ergibt rund 60 % und entspricht der Antwort 60 %.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "15 % ist zu niedrig, weil die hohe Spezifität die Zahl falsch positiver Befunde deutlich begrenzt. Bei den gegebenen Zahlen entstehen 53 richtig positive und 36 falsch positive Befunde. Der positive prädiktive Wert liegt daher deutlich höher.",
+          "term": "15 %"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "30 % unterschätzt den positiven prädiktiven Wert ebenfalls. Zwar senkt die niedrige Prävalenz den Wert gegenüber einer Hochrisikopopulation, aber die Spezifität von 96 % sorgt für relativ wenige falsch positive Tests. Die Rechnung ergibt etwa 60 %.",
+          "term": "30 %"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "45 % liegt näher, bleibt aber unter dem rechnerischen Ergebnis. Aus 53 richtig positiven und 36 falsch positiven Ergebnissen folgt 53 geteilt durch 89. Das sind etwa 60 %, nicht 45 %.",
+          "term": "45 %"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "60 % ist der am besten passende positive prädiktive Wert. Bei 1000 Patienten ergeben sich 53 richtig positive und 36 falsch positive Tests. 53/(53+36) entspricht gerundet etwa 60 %.",
+          "term": "60 %"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "75 % ist zu hoch, weil die KHK-Prävalenz in der hausärztlichen Brustschmerzpopulation nur 10 % beträgt. Auch eine hohe Spezifität kann bei niedriger Prävalenz falsch positive Ergebnisse nicht vollständig vermeiden. Deshalb bleibt der positive prädiktive Wert unter 75 %.",
+          "term": "75 %"
+        }
+      ]
+    },
+    "318": {
+      "topicLabel": "Panikstörung",
+      "explanation": "Die Patientin erlebt anfallsartige intensive Angst mit vegetativen Symptomen wie Schwindel und starkem Schwitzen sowie Todesangst. Die körperliche Notfalldiagnostik ist unauffällig, und ein ähnliches Ereignis trat bereits zuvor auf. Diese wiederholten Panikattacken sprechen am ehesten für eine Panikstörung. Das Auftreten in einem vollen Kino kann agoraphobische Anteile nahelegen, ändert aber an der wahrscheinlichsten Diagnose in der Auswahl nichts. Chronische Sorgen, psychotische Körpermissempfindungen oder hypochondrische Krankheitsüberzeugungen werden nicht beschrieben.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Somatisierungsstörung ist durch multiple, länger bestehende körperliche Beschwerden und wiederholte medizinische Abklärungen gekennzeichnet. Hier stehen akute, episodische Angstattacken mit vegetativer Symptomatik im Vordergrund. Das passt besser zur Panikstörung.",
+          "term": "Somatisierungsstörung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine zönästhetische Schizophrenie wäre mit bizarren Körpermissempfindungen und psychotischen Symptomen verbunden. Halluzinationen, Wahn oder formale Denkstörungen werden nicht beschrieben. Die Symptomatik ist vielmehr attackenartig-angstbezogen.",
+          "term": "Zönästhetische Schizophrenie"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Panikstörung ist bei wiederholten Panikattacken mit Todesangst und autonomen Symptomen sehr wahrscheinlich. Die unauffällige organische Notfalldiagnostik unterstützt eine Angststörung als Erklärung. Der vorausgegangene ähnliche Anfall spricht gegen ein einmaliges situatives Ereignis.",
+          "term": "Panikstörung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die generalisierte Angststörung zeigt anhaltende Sorgen und Anspannung über viele Themen und über längere Zeit. Die Beschwerden treten hier plötzlich und attackenartig auf. Damit ist sie weniger passend als die Panikstörung.",
+          "term": "Generalisierte Angststörung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Bei einer hypochondrischen Störung steht die übermäßige Sorge, an einer schweren Krankheit zu leiden, im Vordergrund. Im Fall dominiert eine akute Panikattacke mit vegetativen Symptomen und Todesangst. Eine dauerhafte Krankheitsüberzeugung wird nicht geschildert.",
+          "term": "Hypochondrische Störung"
+        }
+      ]
+    },
+    "319": {
+      "topicLabel": "Chorea Huntington",
+      "explanation": "Die Wesensänderung mit Enthemmung, Konzentrationsproblemen, Gewichtsverlust und unwillkürlichen Bewegungen im Gesicht passt sehr gut zu einer Chorea Huntington. Typisch sind choreatische und dystone Bewegungsstörungen, okulomotorische Auffälligkeiten wie verzögerte Sakkadeninitiierung sowie motorische Impersistenz. Eine spastische Paraparese steht dagegen für eine beidseitige Pyramidenbahnsymptomatik der Beine und gehört nicht zu den typischen Leitsymptomen dieser Konstellation. Da nach dem am wenigsten wahrscheinlichen Befund gefragt wird, ist die spastische Paraparese die richtige Antwort. Die übrigen Befunde können bei Huntington-Erkrankung auftreten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine spastische Paraparese ist bei der beschriebenen Huntington-typischen Symptomatik am wenigsten wahrscheinlich. Sie würde auf eine vorherrschende beidseitige Pyramidenbahnläsion hinweisen. Das passt schlechter als hyperkinetische, okulomotorische oder motorisch-impersistente Zeichen.",
+          "term": "Spastische Paraparese"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die Unfähigkeit, die Zunge längere Zeit herausgestreckt zu halten, ist ein Beispiel motorischer Impersistenz. Dieses Zeichen passt gut zur Chorea Huntington. Da nach dem am wenigsten wahrscheinlichen Befund gefragt wird, ist diese Option nicht korrekt.",
+          "term": "Motorische Impersistenz"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Abweichen im Seiltänzergang kann bei Bewegungskoordination, Chorea und Gleichgewichtsproblemen auftreten. Gangauffälligkeiten sind bei Huntington-Erkrankung plausibel. Diese Option ist daher nicht der am wenigsten wahrscheinliche Befund.",
+          "term": "Gangabweichung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Verzögerte Sakkadeninitiierung ist ein bekannter okulomotorischer Befund bei Chorea Huntington. Sie kann bereits früh auffallen und passt zur Basalganglienbeteiligung. Deshalb ist diese Antwort nicht die gesuchte Ausnahme.",
+          "term": "Sakkadenstörung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Dystone Bewegungsstörungen der Extremitäten können im Verlauf einer Huntington-Erkrankung vorkommen. Neben Chorea sind auch andere Hyperkinesien und Haltungsstörungen möglich. Diese Option ist daher wahrscheinlicher als eine spastische Paraparese.",
+          "term": "Dystonie"
+        }
+      ]
+    },
+    "320": {
+      "topicLabel": "CML",
+      "explanation": "Die Befunde mit extremer Leukozytose, Splenomegalie und Thrombozytose passen zur chronischen myeloischen Leukämie. Pathogenetisch liegt typischerweise das Philadelphia-Chromosom mit BCR-ABL1-Fusionsgen zugrunde. Dieses Fusionsgen kodiert eine konstitutiv aktive Tyrosinkinase und ist damit sowohl krankheitsauslösend als auch therapeutisch und diagnostisch zentral. Das Therapie-Monitoring erfolgt wesentlich über den Nachweis bzw. die Quantifizierung von BCR-ABL1, nicht primär über wiederholte Knochenmarkpunktionen nach gutem Ansprechen. Die korrekte Überlegung ist daher die Bildung eines Fusionsproteins mit Tyrosinkinaseaktivität.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die Translokation t(15;17) ist typisch für die akute Promyelozytenleukämie. Bei CML ist dagegen das Philadelphia-Chromosom mit BCR-ABL1 charakteristisch. Diese Option verwechselt daher zwei unterschiedliche Leukämieentitäten.",
+          "term": "t(15;17)"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Bei CML entsteht typischerweise ein BCR-ABL1-Fusionsgen. Das daraus entstehende Fusionsprotein besitzt konstitutive Tyrosinkinaseaktivität und treibt die myeloproliferative Erkrankung an. Genau daran setzen Tyrosinkinaseinhibitoren therapeutisch an.",
+          "term": "BCR-ABL1-Tyrosinkinase"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine komplette hämatologische Remission ist wichtig, beschreibt aber nicht das zentrale langfristige Therapieziel und Monitoring der CML. Entscheidend ist insbesondere das zytogenetische und molekulare Ansprechen auf die BCR-ABL1-gerichtete Therapie. Die Formulierung als primäres Ziel nach spätestens 12 Monaten ist daher nicht am treffendsten.",
+          "term": "Hämatologische Remission"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Nach gutem zytogenetischem Ansprechen erfolgt das weitere Monitoring üblicherweise nicht durch regelmäßige Knochenmarkpunktionen alle wenigen Monate. Praktisch zentral ist die molekulare Verlaufskontrolle von BCR-ABL1 aus dem Blut. Diese Option ist deshalb zu invasiv und nicht passend.",
+          "term": "Knochenmarkmonitoring"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Interphasen-FISH kann zytogenetische Informationen liefern, ist aber nicht die bevorzugte Methode für das quantitative Verlaufmonitoring nach Therapieansprechen. Für die CML ist die quantitative BCR-ABL1-Messung maßgeblich. Daher ist diese Aussage nicht am ehesten richtig.",
+          "term": "Interphasen-FISH"
+        }
+      ]
+    }
+  }
+}

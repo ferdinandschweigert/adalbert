@@ -1,0 +1,745 @@
+{
+  "examId": "m2-2025a-staatsexamen",
+  "questions": {
+    "201": {
+      "topicLabel": "Blutalkohol im Straßenverkehr",
+      "explanation": "Der gemessene Blutalkoholwert liegt mit 0,49 Promille knapp unter der ordnungswidrigkeitsrechtlich relevanten Grenze von 0,5 Promille. Eine sichere Rückrechnung auf einen höheren Tatzeitwert ist hier nicht ohne Weiteres möglich, wenn der Patient noch in der Resorptionsphase gewesen sein kann, also nach 18:55 Uhr noch Alkohol getrunken hat. Ohne alkoholtypische Fahrfehler oder Ausfallerscheinungen ist außerdem keine relative Fahruntüchtigkeit belegbar. Die Schwelle von 0,3 Promille allein reicht dafür nicht; sie gewinnt erst zusammen mit alkoholbedingten Auffälligkeiten Bedeutung. Eine MPU ist bei diesem Wert und ohne weitere Umstände nicht die naheliegende unmittelbare Folge.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Mindest-Blutalkoholkonzentration von 0,64 Promille zur Tatzeit lässt sich aus dem Befund nicht sicher ableiten. Gerade bei möglicher fortdauernder Resorption darf nicht einfach zulasten des Betroffenen hochgerechnet werden. Zudem liegt der gemessene Wert nur bei 0,49 Promille.",
+          "term": "Rückrechnung der Blutalkoholkonzentration"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Diese Aussage trifft am ehesten zu: Wenn der Patient noch nach 18:55 Uhr Alkohol aufgenommen hat, kann eine belastbare Rückrechnung auf mindestens 0,5 Promille zur Tatzeit scheitern. Ohne Fahrfehler oder sonstige alkoholbedingte Ausfallerscheinungen ist auch eine relative Fahruntüchtigkeit nicht belegt. Damit ergeben sich aus dem geschilderten Sachverhalt keine sicheren Rechtsfolgen.",
+          "term": "Resorptionsphase"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Blutalkoholkonzentration ab 0,3 Promille begründet nicht automatisch Fahruntüchtigkeit. Sie ist nur im Zusammenhang mit alkoholtypischen Ausfallerscheinungen oder Fahrfehlern relevant. Solche Auffälligkeiten werden hier ausdrücklich nicht beschrieben.",
+          "term": "relative Fahruntüchtigkeit"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Institute für Rechtsmedizin sind gerade auf beweissichere Blutalkoholbestimmungen ausgerichtet. Eine pauschal größere Unsicherheit gegenüber einem klinisch-chemischen Labor ist daher nicht anzunehmen. Für die Falllösung ist die rechtliche Bewertung des Messwerts wichtiger als ein behaupteter Laborunterschied.",
+          "term": "forensische Blutalkoholbestimmung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine medizinisch-psychologische Untersuchung ist bei dem genannten Wert nicht automatisch zu erwarten. Typischerweise spielen deutlich höhere Blutalkoholwerte, wiederholte Auffälligkeiten oder besondere Eignungszweifel eine Rolle. Aus 0,49 Promille ohne gesicherte Fahruntüchtigkeit folgt dies hier nicht.",
+          "term": "medizinisch-psychologische Untersuchung"
+        }
+      ]
+    },
+    "202": {
+      "topicLabel": "Gastroenteritis",
+      "explanation": "Die Beschwerden mit kolikartigen periumbilikalen und rechtsunterbauchbetonten Schmerzen, Übelkeit, Appetitlosigkeit und Durchfällen passen am besten zu einer Gastroenteritis. Entscheidend sind die lebhaften Darmgeräusche und die Diarrhö als Ausdruck einer gesteigerten Darmmotilität. Eine akute Appendizitis bleibt differenzialdiagnostisch wichtig, würde aber typischerweise eher mit zunehmendem lokalem Druckschmerz, Schonzeichen und oft weniger dominanter Diarrhö einhergehen. Die normale Körpertemperatur schließt eine Appendizitis zwar nicht aus, macht im Gesamtbild aber eine unkomplizierte infektiöse Darmerkrankung plausibler. Chronische Appendizitis, Ulkus und Pankreatitis erklären die akute Symptomkombination deutlich schlechter.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine Gastroenteritis erklärt die Kombination aus kolikartigen Bauchschmerzen, Übelkeit, Appetitlosigkeit, Durchfällen und lebhaften Darmgeräuschen am besten. Schmerzen können dabei auch periumbilikal oder im rechten Unterbauch wahrgenommen werden. Die fehlende Fieberreaktion passt zu einem eher milden oder frühen Verlauf.",
+          "term": "Gastroenteritis"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine akute Appendizitis kann initial periumbilikale Schmerzen und Übelkeit verursachen und später rechts unten schmerzhaft werden. In diesem Fall sprechen jedoch die Diarrhö und die lebhaften Darmgeräusche stärker für eine enteritische Genese. Zudem fehlen typische Hinweise wie deutliche peritoneale Reizung oder Fieber.",
+          "term": "akute Appendizitis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Der Begriff chronische Appendizitis passt nicht gut zu einem seit 48 Stunden bestehenden akuten Beschwerdebild. Die geschilderten Durchfälle und kolikartigen Schmerzen sprechen eher für eine akute Darminfektion. Eine chronische Appendixproblematik wäre klinisch weniger naheliegend.",
+          "term": "chronische Appendizitis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein peptisches Ulkus verursacht typischerweise epigastrische Schmerzen und dyspeptische Beschwerden. Diarrhö und lebhafte Darmgeräusche sind dafür nicht charakteristisch. Die Lokalisation im Bereich des Bauchnabels und rechten Unterbauchs passt ebenfalls nicht am besten.",
+          "term": "peptisches Ulkus"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine akute Pankreatitis äußert sich meist mit starken Oberbauchschmerzen, häufig gürtelförmiger Ausstrahlung und ausgeprägtem Krankheitsgefühl. Die hier beschriebenen rechtsunterbauchbetonten Koliken mit Durchfällen und lebhaften Darmgeräuschen sprechen nicht primär dafür. Es fehlen zudem Hinweise auf eine schwere systemische Entzündungsreaktion.",
+          "term": "akute Pankreatitis"
+        }
+      ]
+    },
+    "203": {
+      "topicLabel": "Leukokorie beim Säugling",
+      "explanation": "Eine weißliche Pupille entspricht einer Leukokorie und muss im Säuglingsalter immer zügig abgeklärt werden. Häufige oder wichtige Ursachen sind kongenitale Katarakt, Retinoblastom, Kolobome und auch harmlose fundusnahe Veränderungen wie markhaltige Nervenfasern. Eine Retinopathia praematurorum setzt typischerweise Frühgeburtlichkeit oder eine entsprechende neonatologische Risikokonstellation voraus. Im Fall wird ein sonst gesunder Säugling mit unauffälliger Schwangerschaft und Geburt beschrieben, sodass diese Ursache am wenigsten wahrscheinlich ist. Gerade die Beidseitigkeit schließt andere Ursachen nicht aus, macht aber die fehlende Frühgeborenenanamnese für die ROP besonders relevant.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Funduskolobom kann durch Reflexveränderungen eine auffällige Pupille beziehungsweise Leukokorie verursachen. Als angeborene Fehlbildung ist es bei einem Säugling grundsätzlich denkbar. Es ist daher nicht die am wenigsten wahrscheinliche Option.",
+          "term": "Funduskolobom"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine kongenitale Katarakt ist eine klassische Ursache einer Leukokorie im Säuglingsalter. Sie kann ein- oder beidseitig auftreten und muss wegen der Gefahr einer Amblyopie rasch erkannt werden. Diese Diagnose ist im beschriebenen Befund daher plausibel.",
+          "term": "kongenitale Katarakt"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Markhaltige Nervenfasern können ophthalmoskopisch weißlich erscheinen und den roten Fundusreflex verändern. Sie sind häufig harmlos, können aber als Differenzialdiagnose einer Leukokorie in Betracht kommen. Damit sind sie nicht die unwahrscheinlichste Ursache.",
+          "term": "myelinisierte Nervenfasern"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die Retinopathia praematurorum ist hier am wenigsten wahrscheinlich, weil Schwangerschaft und Geburt unauffällig waren und keine Frühgeburtlichkeit beschrieben wird. Die Erkrankung betrifft vor allem unreife Frühgeborene mit entsprechender neonataler Risikokonstellation. Ohne diesen Kontext passt sie schlechter als die anderen Ursachen einer Leukokorie.",
+          "term": "Retinopathia praematurorum"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Retinoblastom ist eine der wichtigsten gefährlichen Ursachen einer Leukokorie im Kindesalter. Es kann auch beidseitig auftreten und darf bei weißlicher Pupille keinesfalls übersehen werden. Deshalb ist es nicht die am wenigsten wahrscheinliche Antwort.",
+          "term": "Retinoblastom"
+        }
+      ]
+    },
+    "204": {
+      "topicLabel": "Alzheimer-Demenz",
+      "explanation": "Der Patient zeigt eine langsam progrediente demenzielle Entwicklung mit episodischer Gedächtnisstörung, Orientierungsstörung, visuokonstruktiven Defiziten und Sprachverschlechterung. Das Muster passt am ehesten zu einer Alzheimer-Demenz. Bildgebend ist dafür besonders eine Atrophie der medialen Temporallappen mit Hippokampusbeteiligung typisch, weil diese Strukturen für Gedächtnisbildung zentral sind. Der unauffällige neurologische Status und das normale Gangbild sprechen gegen primär extrapyramidale oder vaskuläre Syndrome als wahrscheinlichste Diagnose. Andere MRT-Befunde würden eher zu vaskulärer Demenz, frontotemporaler Degeneration, limbischer Enzephalitis oder progressiver supranukleärer Blickparese passen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Bilateral-symmetrische subkortikale Marklagerhyperintensitäten sprechen eher für eine zerebrale Mikroangiopathie beziehungsweise vaskuläre Demenzkomponente. Der Fall betont jedoch eine langsam progrediente amnestische und kortikale Symptomatik ohne fokal-neurologische Ausfälle. Dieser Befund wäre daher nicht die beste Bestätigung der wahrscheinlichsten Diagnose.",
+          "term": "Marklagerhyperintensitäten"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine laterale, neokortikale Temporallappenatrophie linksbetont passt eher zu Varianten der frontotemporalen Demenz oder primär progressiven Aphasie. Zwar hat der Patient Sprachprobleme, im Vordergrund stehen aber Gedächtnis, Orientierung und Visuokonstruktion. Für die typische Alzheimer-Demenz ist die mediale Temporallappenatrophie charakteristischer.",
+          "term": "laterale Temporallappenatrophie"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Eine beidseitige Atrophie der medialen Temporallappen passt sehr gut zur Alzheimer-Demenz. Dort liegen Hippokampus und angrenzende Gedächtnisstrukturen, deren Degeneration die frühe Merkfähigkeits- und Orientierungsstörung erklärt. Dieser MRT-Befund würde die klinisch wahrscheinlichste Diagnose am ehesten stützen.",
+          "term": "mediale Temporallappenatrophie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Volumenvermehrung und FLAIR-Hyperintensität der medialen Temporallappen spricht eher für eine entzündliche oder ödematöse Veränderung, etwa eine limbische Enzephalitis. Eine Alzheimer-Demenz führt hingegen zu Atrophie, nicht zu Schwellung. Der chronisch-progrediente Verlauf passt ebenfalls nicht gut zu einem akuten entzündlichen Prozess.",
+          "term": "limbische Enzephalitis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein verringerter anteroposteriorer Mittelhirndurchmesser ist ein Hinweis auf eine Mittelhirnatrophie, wie sie bei progressiver supranukleärer Blickparese vorkommen kann. Dazu würden frühe Stürze, Blickparese und extrapyramidale Zeichen erwartet. Der Patient hat aber ein normales Gangbild und keine entsprechenden neurologischen Auffälligkeiten.",
+          "term": "Mittelhirnatrophie"
+        }
+      ]
+    },
+    "205": {
+      "topicLabel": "Karpaltunnelsyndrom",
+      "explanation": "Die Sensibilitätsstörung palmar und an den dorsalen Endgliedern der Finger 1 bis 3 sowie die Schwäche der Daumenabduktion und -beugung sprechen für eine Medianusläsion im Bereich des Karpaltunnels. Die motorische Untersuchung zielt dabei besonders auf die Thenarmuskulatur, die vom N. medianus innervierte Anteile enthält. Elektromyografisch ist deshalb die Thenarregion am geeignetsten, um eine Denervierung oder neurogene Veränderung zu erfassen. Hypothenar und erster Interosseusraum sind eher ulnarisinnerviert. Ellenbeuge und Loge de Guyon passen anatomisch nicht zum typischen distalen Medianuskompressionssyndrom.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Der Hypothenar wird überwiegend vom N. ulnaris versorgt. Eine Untersuchung dort wäre sinnvoller bei Verdacht auf eine Ulnarisläsion. Die beschriebenen sensiblen Ausfälle und die Daumenparese sprechen aber für den N. medianus.",
+          "term": "Hypothenar"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die Thenarmuskulatur ist bei einer distalen Medianusläsion, insbesondere beim Karpaltunnelsyndrom, der passende Zielbereich für die Elektromyografie. Die Daumenabduktionsschwäche und die sensiblen Ausfälle an den Fingern 1 bis 3 weisen auf den N. medianus. Dadurch lässt sich die motorische Beteiligung objektivieren.",
+          "term": "Thenar"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Das Spatium interosseum I enthält vor allem den M. interosseus dorsalis I, der vom N. ulnaris innerviert wird. Dieser Muskel ist ein klassischer Untersuchungsort bei Ulnarisläsionen. Für die hier naheliegende Medianusneuropathie ist er nicht die beste Wahl.",
+          "term": "erster dorsaler Interosseus"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Loge de Guyon ist ein Engpass des N. ulnaris am Handgelenk. Eine Läsion dort würde eher Hypothenar- und Interosseusmuskeln sowie ulnare Sensibilitätsareale betreffen. Die Finger 1 bis 3 und die Thenarparese passen nicht zu dieser Lokalisation.",
+          "term": "Loge de Guyon"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Ellenbeuge kann bei proximaleren Nervenläsionen oder speziellen Medianuskompressionssyndromen relevant sein. Die geschilderte Symptomatik ist aber typisch distal im Karpaltunnel lokalisiert. Für den elektromyografischen Nachweis der betroffenen Muskulatur ist der Thenar geeigneter.",
+          "term": "Ellenbeuge"
+        }
+      ]
+    },
+    "206": {
+      "topicLabel": "Okuläre Toxoplasmose",
+      "explanation": "Die Kombination aus rezidivierender einseitiger Sehtrübung, Glaskörperzellinfiltration, aktivem weißlichem retinochorioidalem Herd und benachbarter alter Narbe ist typisch für eine Toxoplasmose-Retinochorioiditis. Klassisch ist ein neuer entzündlicher Fokus nahe einer alten retinochorioidalen Narbe. Dass die Patientin jung und sonst gesund ist, passt ebenfalls besser zur okulären Toxoplasmose als zu opportunistischen Retinitiden. Candida- und CMV-Retinitis werden vor allem bei passender Immunsuppression oder systemischem Kontext erwartet. Eine akute Retinanekrose durch Herpesviren verläuft meist aggressiver und schmerzhafter beziehungsweise mit anderem Netzhautbefall, während Pflastersteindegenerationen keine vitritische Entzündung erklären.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Candida-Retinitis tritt typischerweise im Kontext einer Fungämie, Immunsuppression, intravenöser Katheter oder anderer systemischer Risikofaktoren auf. Die Patientin ist ansonsten gesund und zeigt einen fokalen Herd neben alter Narbe. Dieses Muster spricht deutlich eher für Toxoplasmose.",
+          "term": "Candida-Retinitis"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine CMV-Retinitis ist vor allem eine opportunistische Infektion bei schwerer Immunsuppression. Sie zeigt häufig ausgedehnte nekrotisierende Netzhautveränderungen entlang der Gefäße. Bei einer jungen, immunkompetenten Patientin mit Herd neben alter Narbe ist sie weniger wahrscheinlich.",
+          "term": "CMV-Retinitis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Herpes-zoster-Retinitis mit akuter Retinanekrose ist meist ein schweres, rasch progredientes Krankheitsbild. Erwartbar wären ausgedehntere periphere Nekrosen, stärkere Entzündungszeichen und häufig ein anderer klinischer Kontext. Die rezidivierende retinochorioidale Läsion neben einer alten Narbe passt besser zu Toxoplasmose.",
+          "term": "akute Retinanekrose"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Pflasterstein-Degenerationen sind degenerative periphere Netzhautveränderungen und verursachen keine aktive Retinochorioiditis mit Glaskörperzellinfiltration. Sie erklären auch keine rezidivierenden entzündlichen Sehtrübungen. Der aktive weiße Herd neben einer alten Narbe ist dafür untypisch.",
+          "term": "Pflasterstein-Degeneration"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Die Toxoplasmose-Retinochorioiditis ist die stimmigste Diagnose. Typisch ist ein aktiver weißlicher retinochorioidaler Entzündungsherd in Nachbarschaft zu einer alten inaktiven Narbe, oft mit Vitritis und Visusminderung. Rezidive können bei ansonsten gesunden jungen Menschen auftreten.",
+          "term": "Toxoplasmose-Retinochorioiditis"
+        }
+      ]
+    },
+    "207": {
+      "topicLabel": "Multiples Testen",
+      "explanation": "Bei vielen sekundären Endpunkten und zahlreichen Subgruppenanalysen steigt die Wahrscheinlichkeit zufällig signifikanter Ergebnisse, wenn jeder Test mit derselben Fehlergrenze bewertet wird. Das zentrale Problem ist die Inflation des Fehlers 1. Art: Mindestens eine Nullhypothese kann fälschlich verworfen werden, obwohl in Wahrheit kein Effekt besteht. Deshalb sind explorative Analysen vorsichtig zu interpretieren und gegebenenfalls durch Adjustierungen oder bestätigende Studien abzusichern. Das Problem betrifft nicht primär Messfehler oder Belastungen der Studienteilnehmer. Auch werden Hypothesen nicht automatisch untrennbar, sondern die statistische Irrtumswahrscheinlichkeit verändert sich durch die Vielzahl der Tests.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Diese Aussage beschreibt die Alpha-Fehler-Inflation beim multiplen Testen korrekt. Je mehr Signifikanztests durchgeführt werden, desto größer wird bei unveränderter Einzeltestgrenze die Chance, mindestens ein falsch-positives Ergebnis zu erhalten. Das ist besonders bei explorativen sekundären Endpunkten und Subgruppenanalysen relevant.",
+          "term": "Alpha-Fehler-Inflation"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Multiples Testen erhöht nicht automatisch das Risiko für Messfehler. Messfehler betreffen die Qualität der Datenerhebung oder Messinstrumente. Das hier gemeinte Problem ist ein statistisches Fehlurteil trotz korrekt gemessener Daten.",
+          "term": "Messfehler"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Das fälschliche Beibehalten einer falschen Nullhypothese entspricht einem Fehler 2. Art. Beim multiplen Testen mit unveränderter Einzeltestgrenze steht jedoch vor allem der Fehler 1. Art im Vordergrund. Es geht also um falsch-positive, nicht um falsch-negative Ergebnisse.",
+          "term": "Beta-Fehler"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Auswertung vieler Endpunkte belastet Studienteilnehmer nicht zusätzlich, wenn die Daten ohnehin erhoben wurden. Das Problem entsteht bei der Interpretation der vielen Signifikanztests. Eine Verzerrung durch zusätzliche Teilnehmerbelastung ist hier nicht der Kern.",
+          "term": "Studienbelastung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Multiple Tests können zwar explorativ viele Fragestellungen berühren, sie machen die Hypothesen aber nicht untrennbar. Jede Hypothese kann formal getrennt getestet werden. Die Schwierigkeit besteht darin, die erhöhte Wahrscheinlichkeit zufälliger Signifikanz angemessen zu berücksichtigen.",
+          "term": "explorative Hypothesen"
+        }
+      ]
+    },
+    "208": {
+      "topicLabel": "Postoperative Traumaversorgung",
+      "explanation": "Nach der Splenektomie ist der Patient auf Intensivstation kreislaufstabiler, die Tachykardie hat sich gebessert und das Laktat ist deutlich rückläufig. Obwohl der Hämoglobinwert niedrig ist, sprechen die aktuellen Vitalparameter und die Laktatdynamik nicht zwingend für eine anhaltende unkontrollierte Blutung. In dieser Situation ist eine engmaschige Überwachung mit serieller Beurteilung von Kreislauf, Drainagen, Labor und Laktat am ehesten angemessen. Eine sofortige Reoperation oder CT-Diagnostik wäre bei Zeichen fortgesetzter Blutung oder erneuter Instabilität indiziert, die hier nicht im Vordergrund stehen. Eine Transfusion nur mit dem Ziel eines Hämoglobins über 100 g/L wäre bei stabilisiertem Patienten nicht automatisch angezeigt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine sofortige Rückkehr in den OP wäre bei persistierender hämodynamischer Instabilität, steigendem Laktat oder klaren Blutungszeichen plausibel. Der Patient ist nach der Operation jedoch stabiler, und das Laktat ist deutlich gefallen. Damit ist eine anhaltende Blutung nicht die naheliegendste Annahme.",
+          "term": "Re-Laparotomie"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Engmaschige intensivmedizinische Überwachung ist hier am ehesten indiziert. Der Kreislauf hat sich stabilisiert und der Laktatwert zeigt eine Erholung nach dem hämorrhagischen Schock. Unter Monitoring können erneute Blutung, Gerinnungsstörung oder Organhypoperfusion früh erkannt werden.",
+          "term": "intensivmedizinische Überwachung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Transfusion allein mit dem Ziel, den Hämoglobinwert über 100 g/L zu bringen, ist nicht automatisch erforderlich. Bei stabilisierten Intensivpatienten wird die Transfusionsentscheidung am klinischen Gesamtzustand, Blutungszeichen und Sauerstofftransport orientiert. Eine fixe hohe Zielmarke ohne weitere Indikation wäre zu liberal.",
+          "term": "Erythrozytentransfusion"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Computertomografie kann bei unklarer Blutungsquelle oder erneuter Verschlechterung hilfreich sein. Direkt nach operativ versorgter Milzruptur und bei stabileren Vitalparametern ist sie aber nicht die erste Maßnahme. Zunächst ist die engmaschige Überwachung entscheidend.",
+          "term": "postoperative CT-Diagnostik"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Packing ist eine Damage-Control-Maßnahme bei nicht kontrollierbarer Blutung oder schwerer Instabilität. Im vorliegenden Verlauf wurde die Blutungsquelle operativ behandelt, und die Zeichen der Hypoperfusion bessern sich. Eine geplante Rückkehr in den OP zum Packing ist deshalb nicht am ehesten angezeigt.",
+          "term": "intraabdominelles Packing"
+        }
+      ]
+    },
+    "209": {
+      "topicLabel": "Statin nach Myokardinfarkt",
+      "explanation": "Nach einem akuten Myokardinfarkt besteht unabhängig von zuvor fehlender Medikation eine klare Indikation zur lipidsenkenden Sekundärprävention. Unter den angebotenen Optionen ist ein Statin die primäre medikamentöse Basistherapie, hier also Simvastatin. Fibrate, Fischöl und Bempedoinsäure sind nicht die erste Standardmaßnahme zur primären Einleitung während des stationären Aufenthalts nach Infarkt. Auch ein hohes Alter allein ist kein Grund, auf eine medikamentöse Cholesterinsenkung zu verzichten, wenn keine Kontraindikationen genannt werden. Die nicht dargestellten Lipidwerte ändern im Prüfungskontext nicht daran, dass die korrekte Option ein Statin ist.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Nach einem akuten Vorderwandinfarkt ist eine medikamentöse Sekundärprävention nötig. Eine cholesterinsenkende Therapie wird nicht allein deshalb weggelassen, weil der Patient zuvor gesund war oder älter ist. Unter den Optionen ist ein Statin die naheliegende Basistherapie.",
+          "term": "Sekundärprävention"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Simvastatin ist unter den genannten Antworten die passende primäre Cholesterinsenkung nach Myokardinfarkt. Statine senken LDL-Cholesterin und gehören zur Basis der kardiovaskulären Sekundärprävention. Die Therapie sollte bereits im stationären Verlauf begonnen werden, sofern keine Gegenargumente bestehen.",
+          "term": "Statintherapie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Fenofibrat richtet sich vor allem gegen Hypertriglyzeridämie und ist nicht die Standard-Erstlinientherapie zur Sekundärprävention nach Myokardinfarkt. Für die LDL-Senkung und Ereignisprävention stehen Statine im Vordergrund. Deshalb ist Fenofibrat hier nicht die beste primäre Wahl.",
+          "term": "Fenofibrat"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Fischöl ist keine primäre Standardtherapie zur Cholesterinsenkung nach akutem Myokardinfarkt. Es ersetzt keine Statintherapie und adressiert nicht in gleicher Weise die LDL-orientierte Sekundärprävention. Als alleinige initiale Maßnahme wäre es ungeeignet.",
+          "term": "Omega-3-Fettsäuren"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Bempedoinsäure kann in bestimmten Situationen eine Rolle spielen, etwa wenn Statine nicht ausreichen oder nicht vertragen werden. Als primär zu beginnende Standardtherapie im stationären Aufenthalt nach Infarkt ist sie den Statinen nicht gleichgestellt. Da keine Statinintoleranz genannt ist, ist diese Option nicht am ehesten richtig.",
+          "term": "Bempedoinsäure"
+        }
+      ]
+    },
+    "210": {
+      "topicLabel": "Depressive Episode",
+      "explanation": "Die geschilderten Beschwerden sprechen am ehesten für eine depressive Episode mit Konzentrationsstörungen, Schlafstörung, Appetit- und Gewichtsverlust, Antriebsminderung, gedrückter Stimmung und sozialem Rückzug. Die Sorge vor einer Demenz kann bei Depression als subjektive kognitive Beeinträchtigung auftreten und muss differenzialdiagnostisch abgeklärt werden. Geeignet sind psychotherapeutische Maßnahmen, Entspannungsverfahren als unterstützender Baustein, eine antidepressive Pharmakotherapie und in ausgewählten Fällen auch Wachtherapie. Eine intramuskuläre Haloperidol-Depotgabe ist dagegen eine antipsychotische Langzeitbehandlung und passt nicht zu einer erstmaligen depressiven Episode ohne Psychose oder schwere Erregung. Sie wäre unter den genannten Maßnahmen am wenigsten geeignet.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine psychotherapeutische Behandlung ist bei depressiver Symptomatik grundsätzlich geeignet. Sie kann helfen, depressive Denkmuster, Rückzug und Belastungsfaktoren zu bearbeiten. Daher ist diese Maßnahme nicht die am wenigsten geeignete.",
+          "term": "Psychotherapie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Entspannungsverfahren kann Schlafstörungen, innere Anspannung und Stressbewältigung unterstützend verbessern. Es ist meist nicht allein ausreichend bei einer relevanten depressiven Episode, aber als ergänzende Maßnahme plausibel. Deshalb ist es nicht die schlechteste Option.",
+          "term": "Entspannungsverfahren"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Haloperidol als Depot ist bei diesem Beschwerdebild am wenigsten geeignet. Es handelt sich um ein Antipsychotikum zur längerfristigen Behandlung psychotischer Störungen oder spezieller schwerer Verhaltenssymptome, nicht um eine Standardtherapie der Depression. Psychotische Symptome oder eine Indikation für eine Depotgabe werden nicht beschrieben.",
+          "term": "Haloperidol-Depot"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Venlafaxin ist ein Antidepressivum und kann bei einer depressiven Episode therapeutisch sinnvoll sein. Die Symptomkonstellation mit Schlafstörung, Appetitverlust, gedrückter Stimmung und Antriebsmangel passt zu einer antidepressiven Behandlungsindikation. Somit ist diese Option nicht am wenigsten geeignet.",
+          "term": "Venlafaxin"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Wachtherapie kann bei depressiven Episoden kurzfristig antidepressiv wirken und wird in geeigneten Behandlungssettings eingesetzt. Sie ist nicht die alltägliche erste Maßnahme, aber fachlich plausibel. Im Vergleich zur Haloperidol-Depotgabe passt sie deutlich besser zur vermuteten Depression.",
+          "term": "Wachtherapie"
+        }
+      ]
+    },
+    "211": {
+      "topicLabel": "Meningitisdiagnostik",
+      "explanation": "Der Junge hat Fieber, anhaltende Kopfschmerzen und schmerzhafte Kopfbewegung beziehungsweise Kopfbeugung; damit bestehen klinische Hinweise auf eine mögliche Meningitis auch ohne ausgeprägte Nackensteife. Bei Verdacht ist eine stationäre Abklärung mit Lumbalpunktion angezeigt, sofern keine Kontraindikationen vorliegen. Im Liquor sollten Zellzahl, Laktat und eine mikrobiologische Diagnostik veranlasst werden, um Erregernachweis und Therapieentscheidung zu ermöglichen. Ein normales oder nur mäßig auffälliges Blutbild schließt eine Meningitis nicht aus. Eine cCT ist nicht routinemäßig die erste Maßnahme bei jedem Kind, sondern abhängig von Zeichen erhöhten intrakraniellen Drucks, fokalen Defiziten oder Bewusstseinsstörung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Bei Verdacht auf Meningitis reicht fehlende Somnolenz nicht aus, um eine häusliche symptomatische Behandlung zu rechtfertigen. Kopfschmerzen, Fieber und schmerzhafte Kopfbeugung sind Warnzeichen. Eine verzögerte Diagnostik kann gefährlich sein.",
+          "term": "stationäre Abklärung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Klinische Zeichen einer Meningitis können auch ohne klassische Nackensteife vorliegen. Die schmerzhafte Kopfbewegung und Kopfbeugung bei Fieber und Kopfschmerzen sind verdächtig. Daher ist die Aussage, es gebe keine klinischen Zeichen, zu stark und falsch.",
+          "term": "Meningismus"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine cCT ist nicht bei jedem Verdacht auf Meningitis die Untersuchung der ersten Wahl. Sie wird vor einer Lumbalpunktion vor allem bei Hinweisen auf erhöhten Hirndruck, fokal-neurologische Defizite oder relevante Bewusstseinsstörung benötigt. Solche Zeichen werden hier nicht beschrieben.",
+          "term": "kraniale Computertomografie"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Bei Lumbalpunktion sollten neben Zellzahl und Laktat auch mikrobiologische Untersuchungen angefordert werden. Diese dienen dem Erregernachweis und der gezielten antiinfektiven Therapie. Der klinische Verdacht ist trotz fehlender Nackensteife ausreichend ernst zu nehmen.",
+          "term": "Liquordiagnostik"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Entscheidung zur Lumbalpunktion sollte nicht vom weiteren CRP-Verlauf abhängig gemacht werden, wenn klinisch eine Meningitis vermutet wird. CRP und Leukozyten können zu Beginn oder je nach Erreger nur mäßig verändert sein. Entscheidend ist die zeitnahe Liquordiagnostik.",
+          "term": "CRP-Verlauf"
+        }
+      ]
+    },
+    "212": {
+      "topicLabel": "Pulmonalvenöse Stauung",
+      "explanation": "Bei einer 80-jährigen Patientin mit zunehmender Luftnot und Immobilisation ist ein kardial bedingtes Lungenödem beziehungsweise eine pulmonalvenöse Stauung eine wichtige Differenzialdiagnose. Die in der Frage referenzierte Röntgenaufnahme soll nach der vorgegebenen Lösung am ehesten eine massive pulmonalvenöse Stauung zeigen. Dazu passen radiologische Zeichen einer zentralen Gefäßstauung, interstitieller oder alveolärer Flüssigkeitseinlagerung und gegebenenfalls lageabhängiger Verteilung im Liegen. Andere Optionen wie tiefe Beinvenenthrombose oder hypertrophe obstruktive Kardiomyopathie lassen sich aus einem Thoraxröntgenbild nicht in dieser Weise direkt ableiten. Auch ein Schrittmacherbefund oder eine Fibrose würden eine andere Bildmorphologie erwarten lassen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Schrittmacher wäre auf dem Röntgenbild als Aggregat mit Elektroden erkennbar, erklärt aber nicht automatisch die Luftnot. Die Frage zielt nach der korrekten Zuordnung auf eine Lungenstauung. Eine Funktionsprüfung wäre nur bei entsprechendem sichtbarem Gerät oder Rhythmusproblem naheliegend.",
+          "term": "Schrittmacher"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine tiefe Beinvenenthrombose kann indirekt zu Dyspnoe über eine Lungenembolie führen, ist aber im Thoraxröntgen nicht zuverlässig anzunehmen. Der beschriebene Befund soll radiologisch eine pulmonalvenöse Stauung zeigen. Für eine Beinvenenthrombose bräuchte man klinische Beinbefunde oder gezielte Gefäßdiagnostik.",
+          "term": "tiefe Beinvenenthrombose"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Lungenfibrose zeigt eher retikuläre, chronische interstitielle Zeichnungsvermehrungen und Volumenminderungen. Eine massive pulmonalvenöse Stauung wirkt dagegen wie ein akutes oder subakutes Flüssigkeitsproblem im Lungenkreislauf. Die akute zunehmende Luftnot passt besser zur Stauung als zur primär fibrotischen Veränderung.",
+          "term": "Lungenfibrose"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine hypertrophe obstruktive Kardiomyopathie wird nicht primär anhand eines Thoraxröntgenbildes diagnostiziert. Dafür wären Echokardiografie und typische klinische Befunde entscheidend. Die radiologische Aussage des Falles betrifft vielmehr die pulmonalvenöse Stauung.",
+          "term": "hypertrophe obstruktive Kardiomyopathie"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Die massive pulmonalvenöse Stauung ist nach dem geschilderten Röntgenkontext am ehesten zutreffend. Sie erklärt zunehmende Luftnot und kann im Liegen auf der Thoraxaufnahme durch Stauungszeichen und Flüssigkeitseinlagerungen auffallen. Der Befund passt zu einer kardialen Dekompensation.",
+          "term": "pulmonalvenöse Stauung"
+        }
+      ]
+    },
+    "213": {
+      "topicLabel": "Weber-Syndrom",
+      "explanation": "Die Kombination aus ipsilateraler Okulomotoriusparese rechts und kontralateraler Hemiparese links lokalisiert die Läsion klassisch in das rechte Mittelhirn. Dort verlaufen die Fasern des N. oculomotorius in Nachbarschaft zu den Pyramidenbahnfasern. Ein akuter Beginn mit unauffälligem cCT passt zu einem frühen ischämischen Schlaganfall, der im CT initial noch nicht sichtbar sein kann. Das gekreuzte Hirnstammsyndrom ist für die Lokalisation wichtiger als die vaskulären Risikofaktoren allein. Thalamus, Medulla, Okzipital- und Frontalhirn erklären die spezifische Kombination aus III-Hirnnervenparese und kontralateraler Hemiparese nicht am besten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Das Mittelhirn ist die passende Lokalisation. Eine rechtsseitige Okulomotoriusparese zusammen mit linksseitiger Hemiparese entspricht einem gekreuzten Hirnstammsyndrom im Bereich des rechten Mesencephalons. Dies passt zu einer akuten ischämischen Läsion trotz initial unauffälligem CT.",
+          "term": "Mittelhirn"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Thalamusläsionen können sensible, motorische oder Bewusstseins- und Blickstörungen verursachen. Eine isoliert passende ipsilaterale Okulomotoriusparese mit kontralateraler Pyramidenbahnsymptomatik ist jedoch typischer für das Mittelhirn. Der Thalamus erklärt die Hirnnervenbeteiligung nicht am besten.",
+          "term": "Thalamus"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Medulla oblongata ist anatomisch zu kaudal für den N. oculomotorius. Läsionen dort betreffen eher bulbäre Funktionen, Pyramidenbahn, sensible Bahnen oder andere Hirnnervenkerne. Die rechtsseitige III-Hirnnervenparese lokalisiert die Läsion höher.",
+          "term": "Medulla oblongata"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Das Okzipitalhirn verursacht vor allem visuelle Ausfälle wie homonyme Gesichtsfelddefekte. Eine Okulomotoriusparese entsteht dort nicht. Auch die Kombination mit einer ausgeprägten kontralateralen Hemiparese ist dadurch nicht ausreichend erklärt.",
+          "term": "Okzipitalhirn"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Frontalhirnläsion kann eine kontralaterale Hemiparese verursachen, insbesondere bei Beteiligung des motorischen Kortex. Sie erklärt aber keine ipsilaterale Okulomotoriusparese. Das gekreuzte Muster spricht klarer für eine Hirnstammläsion.",
+          "term": "Frontalhirn"
+        }
+      ]
+    },
+    "214": {
+      "topicLabel": "Biologische Herzklappe",
+      "explanation": "Biologische Herzklappenprothesen können im Verlauf strukturell degenerieren, besonders nach längerer Implantationsdauer. Deshalb sind regelmäßige echokardiografische Verlaufskontrollen wichtig; zehn Jahre nach Implantation ist eine engmaschigere Kontrolle plausibel, hier halbjährlich. Eine neue Antikoagulation ist bei biologischer Prothese nicht allein wegen des Alters der Klappe indiziert, sofern keine andere Indikation besteht. Endokarditisprophylaxe bleibt bei Klappenprothesen in Risikosituationen relevant. Ein AV-Block III ist vor allem ein perioperatives oder leitungsbahnbezogenes Problem und nimmt nicht typisch mit der Prothesenalterung zu.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Dass nach zehn Jahren noch keine Degeneration vorliegt, schließt eine spätere Degeneration nicht aus. Bioprothesen unterliegen strukturellem Verschleiß. Gerade im Langzeitverlauf bleibt daher Kontrolle notwendig.",
+          "term": "Bioprothesendegeneration"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine biologische Klappenprothese erfordert nicht allein aufgrund ihres Alters den Beginn einer dauerhaften Antikoagulation. Eine Antikoagulation wäre bei zusätzlichen Indikationen wie Vorhofflimmern zu prüfen. Solche Angaben fehlen im Fall.",
+          "term": "Antikoagulation"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Bei Herzklappenprothesen bleibt eine Endokarditisprophylaxe für definierte Hochrisikosituationen relevant. Die Prothese verliert diesen Risikostatus nicht einfach nach einigen Jahren. Deshalb ist die Aussage, sie sei nicht mehr erforderlich, nicht zutreffend.",
+          "term": "Endokarditisprophylaxe"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Halbjährliche echokardiografische Kontrollen sind bei einer zehn Jahre alten biologischen Aortenklappenprothese am ehesten plausibel. Sie dienen dem Erkennen struktureller Degeneration, Stenose oder Insuffizienz der Prothese. Das ist besonders wichtig, weil Bioprothesen im Verlauf verschleißen können.",
+          "term": "Echokardiografische Kontrolle"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein AV-Block III ist nicht die typische Spätfolge einer alternden biologischen Klappenprothese. Leitungsstörungen können perioperativ oder bei spezifischen kardialen Erkrankungen auftreten. Die Degeneration einer Bioprothese betrifft primär die Klappenfunktion, nicht regelhaft das Reizleitungssystem.",
+          "term": "AV-Block III"
+        }
+      ]
+    },
+    "215": {
+      "topicLabel": "Hämolyse-Labor",
+      "explanation": "Bei einer autoimmunen Hämolyse werden Erythrozyten vermehrt abgebaut, was zu Anämie und Ikterus führen kann. Typischerweise steigen LDH, indirektes Bilirubin, freies Hämoglobin und die Retikulozytenzahl als Zeichen von Zellzerfall und kompensatorischer Erythropoese an. Haptoglobin bindet freies Hämoglobin im Plasma und wird bei intravasaler beziehungsweise ausgeprägter Hämolyse verbraucht. Deshalb ist Haptoglobin typischerweise erniedrigt und gilt als wichtiger Hämolysemarker. Ferritin ist dagegen kein typischer primär erniedrigter Marker einer autoimmunen Hämolyse.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "LDH ist bei Hämolyse typischerweise erhöht, weil es aus zerstörten Erythrozyten freigesetzt wird. Ein erniedrigter LDH-Wert würde die Hämolyse nicht stützen. Daher ist diese Antwort nicht passend.",
+          "term": "LDH"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Haptoglobin ist bei Hämolyse typischerweise erniedrigt. Es bindet freies Hämoglobin, wird dabei verbraucht und aus dem Blut entfernt. Zusammen mit Anämie und Ikterus passt dies gut zum Verdacht auf autoimmune Hämolyse.",
+          "term": "Haptoglobin"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Freies Hämoglobin im Plasma nimmt bei Hämolyse eher zu, insbesondere wenn Hämoglobin intravasal freigesetzt wird. Es ist daher kein typischerweise erniedrigter Laborwert. Die Bindung durch Haptoglobin erklärt vielmehr dessen Abfall.",
+          "term": "freies Hämoglobin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ferritin spiegelt vor allem Eisenspeicher und Entzündungsaktivität wider. Eine autoimmune Hämolyse führt nicht typischerweise zu einem erniedrigten Ferritin als Leitsignal. Für den Hämolyseverdacht ist Haptoglobin deutlich spezifischer.",
+          "term": "Ferritin"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Retikulozyten sind bei Hämolyse in der Regel erhöht, weil das Knochenmark den Erythrozytenverlust kompensiert. Eine erniedrigte Retikulozytenzahl würde eher für eine gestörte Erythropoese sprechen. Sie ist daher nicht der typische Befund der autoimmunen Hämolyse.",
+          "term": "Retikulozyten"
+        }
+      ]
+    },
+    "216": {
+      "topicLabel": "Coombs-Test",
+      "explanation": "Die Folgefrage knüpft an den Verdacht auf autoimmune Hämolyse an. Zum Nachweis einer Antikörper-vermittelten Hämolyse ist der direkte Coombs-Test die zentrale Untersuchung, weil er Immunglobuline oder Komplement auf der Erythrozytenoberfläche nachweist. Damit kann eine autoimmunhämolytische Anämie immunologisch gestützt werden. Die anderen Tests gehören in die Gerinnungsdiagnostik oder zu anderen hämatologischen Fragestellungen. Ein PNH-Test untersucht eine komplementvermittelte Hämolyse durch fehlende GPI-verankerte Schutzproteine, aber nicht primär eine Antikörperbeladung der Erythrozyten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Der Coombs-Test ist die richtige Untersuchung bei Verdacht auf Antikörper-vermittelte Hämolyse. Der direkte Test weist Antikörper oder Komplement auf Erythrozyten nach. Dadurch passt er unmittelbar zur vermuteten autoimmunhämolytischen Anämie.",
+          "term": "direkter Coombs-Test"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Der Bethesda-Test dient der Quantifizierung von Inhibitoren gegen Gerinnungsfaktoren, klassisch bei Hemmkörpern gegen Faktor VIII. Er weist keine Antikörperbeladung von Erythrozyten nach. Für autoimmune Hämolyse ist er daher ungeeignet.",
+          "term": "Bethesda-Test"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Plasmamischversuch wird in der Gerinnungsdiagnostik genutzt, um Faktorenmangel von Inhibitoren zu unterscheiden. Er beantwortet nicht die Frage nach Antikörpern auf Erythrozyten. Damit passt er nicht zum Nachweis einer autoimmunen Hämolyse.",
+          "term": "Plasmamischversuch"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Thrombinzeit prüft einen Abschnitt der plasmatischen Gerinnung, insbesondere die Umwandlung von Fibrinogen zu Fibrin. Sie hat keinen diagnostischen Schwerpunkt bei autoimmunhämolytischer Anämie. Ein pathologisches Ergebnis würde die Antikörper-vermittelte Erythrozytenzerstörung nicht belegen.",
+          "term": "Thrombinzeit"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein PNH-Test untersucht auf paroxysmale nächtliche Hämoglobinurie, typischerweise mittels Nachweis fehlender Oberflächenproteine auf Blutzellen. Diese Erkrankung kann Hämolyse verursachen, ist aber nicht der Nachweis einer Antikörper-vermittelten Hämolyse. Der Coombs-Test ist dafür direkter.",
+          "term": "PNH-Test"
+        }
+      ]
+    },
+    "217": {
+      "topicLabel": "Ventrale Halsschwellung",
+      "explanation": "Eine schmerzlose, langsam zunehmende Raumforderung ventral am Hals kaudal des Zungenbeins lässt an Schilddrüsenerkrankungen, mediane Halszyste oder andere oberflächliche Weichteilprozesse denken. Eine mediane Halszyste liegt typischerweise in der Mittellinie und hat Bezug zum Ductus thyreoglossus. Struma, Schilddrüsenkarzinom und Lipom können ebenfalls als ventrale Halsraumforderung imponieren. Eine Tornwaldt-Zyste sitzt dagegen im Nasopharynx, also im Bereich des Rachendachs beziehungsweise der Rachenhinterwand, und verursacht keine tastbare ventrale Halsschwellung kaudal des Zungenbeins. Sie ist deshalb am wenigsten wahrscheinlich.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Struma kann als ventrale Halsschwellung auffallen und Schluckbeschwerden verursachen. Die Lokalisation im Halsbereich macht sie differenzialdiagnostisch plausibel. Deshalb ist sie nicht am wenigsten wahrscheinlich.",
+          "term": "Struma"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine mediane Halszyste ist bei einer mittigen Raumforderung nahe dem Zungenbein eine klassische Differenzialdiagnose. Sie kann schmerzlos sein und beim Schlucken stören. Der Fallkontext passt sogar besonders gut zu dieser Möglichkeit.",
+          "term": "mediane Halszyste"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Eine Tornwaldt-Zyste liegt im Nasopharynx und nicht als tastbare ventrale Halsraumforderung kaudal des Zungenbeins. Sie würde eher nasopharyngeale Beschwerden verursachen. Daher kommt sie unter den genannten Optionen am wenigsten in Frage.",
+          "term": "Tornwaldt-Zyste"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Schilddrüsenkarzinom kann als Knoten oder Raumforderung im ventralen Halsbereich auffallen. Auch bei unauffälligem Basislabor lässt sich eine Schilddrüsenneoplasie nicht allein ausschließen. Daher bleibt es differenzialdiagnostisch relevanter als eine Tornwaldt-Zyste.",
+          "term": "Schilddrüsenkarzinom"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Lipom kann als langsam wachsende, schmerzlose Weichteilraumforderung am Hals auftreten. Es wäre zwar nicht die spezifischste Diagnose, ist aber anatomisch grundsätzlich möglich. Damit ist es nicht die am wenigsten wahrscheinliche Option.",
+          "term": "Lipom"
+        }
+      ]
+    },
+    "218": {
+      "topicLabel": "Sistrunk-Operation",
+      "explanation": "Die Folgefrage beschreibt dieselbe ventrale, mittige Halsraumforderung und ergänzt eine sonografisch mittige Formation kranial des Kehlkopfs. Zusammen mit der vorherigen Differenzialdiagnose spricht dies am ehesten für eine mediane Halszyste aus Resten des Ductus thyreoglossus. Zur Rezidivvermeidung wird bei der operativen Entfernung typischerweise der mittlere Anteil des Zungenbeins mitreseziert, weil der Gang beziehungsweise seine Reste engen Bezug zum Os hyoideum haben. Eine reine Zystenexzision ohne diesen Anteil hätte ein höheres Rezidivrisiko. Schild-, Ringknorpel und benachbarte Membranen oder Bänder sind nicht die entscheidende anatomische Struktur für diese Operation.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die Cartilago thyroidea ist der Schildknorpel des Kehlkopfs. Sie hat nicht den typischen entwicklungsbiologischen Bezug zur medianen Halszyste. Eine Mitentfernung wäre zur Rezidivprophylaxe nicht die Standardstruktur.",
+          "term": "Cartilago thyroidea"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Das Os hyoideum ist die richtige Struktur. Bei der Sistrunk-Operation wird neben der Zyste der mittlere Anteil des Zungenbeins entfernt, weil der Ductus thyreoglossus dort entlangzieht. Dadurch wird das Rezidivrisiko deutlich reduziert.",
+          "term": "Os hyoideum"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Cartilago cricoidea liegt kaudaler als Ringknorpel des Kehlkopfs. Sie ist nicht die typische Struktur, die bei medianer Halszyste zur Rezidivvermeidung entfernt wird. Der entscheidende Bezug besteht zum Zungenbein.",
+          "term": "Cartilago cricoidea"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Membrana thyrohyoidea liegt zwischen Schildknorpel und Zungenbein, ist aber nicht der zentrale Resektionsanteil der Standardoperation. Entscheidend ist die Entfernung des zystischen Gangs samt mittlerem Hyoidanteil. Eine isolierte Entfernung der Membran würde den embryologischen Gangrest nicht ausreichend adressieren.",
+          "term": "Membrana thyrohyoidea"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Das Ligamentum cricothyroideum liegt zwischen Schild- und Ringknorpel. Es hat keinen wesentlichen Bezug zur Entstehung der medianen Halszyste. Für die Rezidivprophylaxe ist es daher nicht die passende anatomische Zielstruktur.",
+          "term": "Ligamentum cricothyroideum"
+        }
+      ]
+    },
+    "219": {
+      "topicLabel": "Ductus thyreoglossus",
+      "explanation": "Die wiederholte Fallbeschreibung einer mittigen ventralen Halsschwellung kaudal des Zungenbeins passt am besten zu einer medianen Halszyste. Diese entsteht aus persistierenden Resten des Ductus thyreoglossus, des embryonalen Abstiegsgangs der Schilddrüsenanlage. Deshalb erklärt gerade diese Struktur die Lokalisation in der Mittellinie und den Bezug zum Zungenbein. Speichelgänge wie Wharton- oder Stenon-Gang liegen anatomisch an anderen Orten und führen nicht zu einer solchen mittigen Halszyste. Lymphgang und Ductus sublingualis major passen ebenfalls nicht zur beschriebenen ventralen Raumforderung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Der Wharton-Gang ist der Ausführungsgang der Glandula submandibularis. Eine Pathologie dort würde eher im Mundboden oder submandibulär auffallen. Eine mittige Halszyste kaudal des Zungenbeins entsteht dadurch nicht.",
+          "term": "Wharton-Gang"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Der Ductus lymphaticus dexter ist ein Lymphabflussweg im venösen Winkelbereich. Er erklärt keine langsam wachsende mittige ventrale Halszyste mit Bezug zum Zungenbein. Der embryologische Ursprung liegt hier nicht im Lymphsystem.",
+          "term": "Ductus lymphaticus dexter"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Der Stenon-Gang ist der Ausführungsgang der Glandula parotis und mündet in die Mundhöhle gegenüber den oberen Molaren. Erkrankungen dieses Gangs betreffen die Parotisregion oder Wange. Die ventrale Mittellinienläsion am Hals passt dazu nicht.",
+          "term": "Stenon-Gang"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Der Ductus sublingualis major gehört zum Ausführungssystem der Unterzungenspeicheldrüse. Seine Pathologien liegen im Mundbodenbereich. Er ist nicht Ursprung einer medianen Halszyste kaudal des Zungenbeins.",
+          "term": "Ductus sublingualis major"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Der Ductus thyreoglossus ist der Ursprung der medianen Halszyste. Persistierende Gangreste entlang des embryonalen Schilddrüsenabstiegs können eine mittige zystische Raumforderung am Hals bilden. Der Bezug zum Zungenbein ist dafür typisch.",
+          "term": "Ductus thyreoglossus"
+        }
+      ]
+    },
+    "220": {
+      "topicLabel": "Kindesmisshandlung",
+      "explanation": "Eine großflächige rötlich-violette, druckschmerzhafte und zumindest teilweise scharf abgegrenzte geformte Hautverfärbung am rückseitigen Oberschenkel ist hochverdächtig auf eine geformte Hämatomverletzung. Bei Verdacht auf Kindeswohlgefährdung sind Musterverletzungen besonders wichtig, weil sie auf einen einwirkenden Gegenstand oder Körperteil hinweisen können. Ein Schuhsohlenabdruck durch Tritt erklärt die geformte, scharf begrenzte Hämatomzeichnung an einer untypischen Sturzstelle am besten. Verbrennungen oder Verbrühungen hätten eher thermische Hautschäden mit anderem Muster, Kratzspuren wären linear und oberflächlich. Ein banaler Sturz auf den Fußboden passt nicht gut zu einer geformten, großflächigen, druckschmerzhaften Verfärbung an der Oberschenkelrückseite.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Bügeleisenverbrennung kann zwar scharf begrenzte, geformte Hautschäden verursachen. Typischerweise wären jedoch Verbrennungszeichen wie Blasen, Erosionen oder ein klar thermisches Muster zu erwarten. Die rötlich-violette druckschmerzhafte Verfärbung spricht eher für ein Hämatom.",
+          "term": "Bügeleisenverbrennung"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Ein Schuhsohlenabdruck durch einen Tritt passt am besten zu einer geformten, scharf abgegrenzten rötlich-violetten Hämatomverfärbung. Die Rückseite des Oberschenkels ist für zufällige Stürze weniger typisch und ein Musterabdruck ist ein Warnzeichen für Misshandlung. Die Druck- und Berührungsempfindlichkeit unterstützt eine frische Kontusionsverletzung.",
+          "term": "Schuhsohlenabdruck"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Kratzspuren nach Juckreiz wären eher lineare, oberflächliche Exkoriationen. Sie erklären keine großflächige rötlich-violette, geformte und druckschmerzhafte Hautverfärbung. Auch der Bezug zu einer Verbrühung wird im Befund nicht gestützt.",
+          "term": "Kratzspuren"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Schlag mit einem Teppichklopfer kann geformte Striemen oder parallele Abdruckmuster verursachen. Der beschriebene Befund wird jedoch als großflächige, zumindest teilweise scharf abgegrenzte geformte Verfärbung beschrieben, was besser zu einer Schuhsohle passt. Striemen wären meist bandförmiger und anders verteilt.",
+          "term": "Striemenmuster"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Sturz auf den Fußboden verursacht meist ungeformte Hämatome an prominenten, exponierten Körperstellen. Eine scharf begrenzte, geformte Verfärbung an der Oberschenkelrückseite ist dafür untypisch. Der Kontext mit unklarer Erklärung und zurückhaltendem Kind verstärkt den Misshandlungsverdacht.",
+          "term": "Sturzverletzung"
+        }
+      ]
+    }
+  }
+}

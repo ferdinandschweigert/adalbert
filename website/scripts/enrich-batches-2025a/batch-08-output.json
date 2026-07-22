@@ -1,0 +1,745 @@
+{
+  "examId": "m2-2025a-staatsexamen",
+  "questions": {
+    "161": {
+      "topicLabel": "Lymphödem-Therapie",
+      "explanation": "Nach Operation, Chemotherapie und Bestrahlung eines nodal-positiven Mammakarzinoms besteht bei der Patientin ein sekundäres Armlymphödem. Die komplexe physikalische Entstauungstherapie umfasst typischerweise Hautpflege, manuelle Lymphdrainage, Kompression und entstauende Bewegungstherapie. Bewegung ist dabei gerade unter Kompression wichtig, weil die Muskelpumpe den Lymphabfluss unterstützt und Schulterbeweglichkeit erhalten beziehungsweise verbessert werden soll. Eine Immobilisierung würde dagegen Ödem, Funktionseinschränkung und Kontrakturen eher verschlechtern. Da nach der am wenigsten passenden Maßnahme gefragt ist, ist die Immobilisierung korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Hautpflege ist ein fester Bestandteil der komplexen Entstauungstherapie. Eine intakte Hautbarriere senkt das Risiko für Rhagaden, Eintrittspforten und Erysipele, die ein Lymphödem weiter verschlechtern können. Daher passt diese Maßnahme gerade gut zur Behandlung.",
+          "term": "Hautpflege"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die manuelle Lymphdrainage soll den Abtransport eiweißreicher Lymphflüssigkeit fördern und wird häufig mit Kompression kombiniert. Beim sekundären Armlymphödem nach Mammakarzinomtherapie ist sie eine klassische entstauende Maßnahme. Sie ist deshalb nicht die am wenigsten geeignete Antwort.",
+          "term": "manuelle Lymphdrainage"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Bewegungstherapie gehört zur Entstauung, weil aktive Muskelarbeit den Lymphtransport unterstützt. Zusätzlich ist sie bei der beschriebenen Schulterbewegungseinschränkung rehabilitativ sinnvoll. Eine vollständige Schonung wäre dem Therapieziel entgegengesetzt.",
+          "term": "Bewegungstherapie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Kompressionsbehandlung ist eine zentrale Säule der Lymphödemtherapie. Sie verhindert ein rasches Wiederauffüllen des entstauten Gewebes und unterstützt die Wirkung der Muskelpumpe. Deshalb gehört sie klar zur komplexen Entstauungstherapie.",
+          "term": "Kompression"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Immobilisierung gehört am wenigsten zur Lymphödemtherapie. Sie reduziert die Muskelpumpe, begünstigt weitere Bewegungseinschränkungen und kann den Lymphstau verstärken. Gerade bei eingeschränkter Schulterbeweglichkeit soll kontrollierte Aktivität gefördert werden.",
+          "term": "Immobilisierung"
+        }
+      ]
+    },
+    "162": {
+      "topicLabel": "Krankengeldanspruch",
+      "explanation": "Bei gesetzlich Versicherten besteht Krankengeld wegen derselben Krankheit grundsätzlich für höchstens 78 Wochen innerhalb des maßgeblichen Zeitraums. Die Patientin ist bereits 32 Wochen arbeitsunfähig; eine stufenweise Wiedereingliederung setzt fortbestehende Arbeitsunfähigkeit voraus und wird daher in dieser Konstellation auf den Krankengeldanspruch angerechnet. Nach weiteren 26 Wochen sind insgesamt 58 Wochen verbraucht. Von 78 Wochen bleiben somit 20 Wochen übrig. Deshalb ist die Antwort 20 Wochen richtig.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "20 Wochen ergeben sich aus 78 Wochen maximalem Krankengeldanspruch minus 32 Wochen bisheriger Arbeitsunfähigkeit minus 26 Wochen stufenweiser Wiedereingliederung. Während der Wiedereingliederung gilt die Patientin weiterhin als arbeitsunfähig. Diese Option entspricht daher der rechnerisch und sozialmedizinisch passenden Lösung.",
+          "term": "20 Wochen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "30 Wochen würden voraussetzen, dass weniger Zeit auf den Krankengeldanspruch angerechnet wird. Die 26 Wochen Wiedereingliederung sind aber bei fortbestehender Arbeitsunfähigkeit mitzuzählen. Damit bleiben nicht 30 Wochen.",
+          "term": "30 Wochen"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "40 Wochen ignorieren einen erheblichen Teil der bereits bestehenden Arbeitsunfähigkeit oder der Wiedereingliederungsphase. Nach 32 plus 26 Wochen sind bereits 58 Wochen verbraucht. Diese Restdauer ist daher zu lang.",
+          "term": "40 Wochen"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "50 Wochen wären nur plausibel, wenn nahezu ausschließlich die bisherige Arbeitsunfähigkeit berücksichtigt würde. Die stufenweise Wiedereingliederung ist jedoch kein regulärer voller Arbeitsbeginn, sondern erfolgt unter fortbestehender Arbeitsunfähigkeit. Daher wird sie nicht ausgeklammert.",
+          "term": "50 Wochen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "60 Wochen würden den maximalen Krankengeldanspruch praktisch neu beginnen lassen. Das ist bei derselben Erkrankung nicht der Fall. Die bereits verbrauchten Wochen bleiben maßgeblich.",
+          "term": "60 Wochen"
+        }
+      ]
+    },
+    "163": {
+      "topicLabel": "Erysipel-Folge",
+      "explanation": "Die scharf begrenzte, schmerzhafte Rötung des Unterschenkels mit Fieber, inguinaler Lymphknotenschwellung und Eintrittspforten durch Interdigitalmazerationen spricht am ehesten für ein Erysipel. Akute Erysipele können die Lymphgefäße entzündlich schädigen. Besonders bei wiederholten oder ausgedehnten Episoden kann daraus eine chronische Lymphabflussstörung entstehen. Diese zeigt sich klinisch als persistierendes oder rezidivierendes Lymphödem. Unter den Antwortoptionen ist deshalb das Lymphödem die wahrscheinlichste chronische Komplikation des aktuellen Anlasses.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Coxarthritis ist keine typische chronische Folge eines Erysipels am Unterschenkel. Zwar können Infektionen Gelenke betreffen, dafür fehlen hier aber Hinweise auf eine hämatogene Gelenkinfektion oder Hüftbeschwerden. Diese Option passt nicht zum beschriebenen Mechanismus.",
+          "term": "Coxarthritis"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Polymyositis ist eine entzündliche Muskelerkrankung mit meist symmetrischer proximaler Muskelschwäche. Sie entsteht nicht typischerweise als Spätkomplikation eines bakteriellen Erysipels. Die Beschwerden und Befunde weisen vielmehr auf Haut- und Lymphgefäßbeteiligung hin.",
+          "term": "Polymyositis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Uveitis ist eine intraokulare Entzündung und passt nicht als chronische Komplikation der geschilderten Weichteilinfektion. Sie kann bei bestimmten systemischen Entzündungs- oder Infektionserkrankungen auftreten, ist aber nicht die typische Folge eines Erysipels. Daher ist diese Option nicht naheliegend.",
+          "term": "Uveitis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Acrodermatitis chronica atrophicans ist eine Spätmanifestation der Lyme-Borreliose. Der Fall beschreibt keine Zeckenexposition oder Borrelieninfektion, sondern ein akutes Erysipel mit Eintrittspforten an den Füßen. Diese Antwort gehört daher zu einem anderen Krankheitsbild.",
+          "term": "Acrodermatitis chronica atrophicans"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Ein Lymphödem kann nach Erysipel entstehen, weil die Entzündung Lymphbahnen schädigt und den Abfluss dauerhaft beeinträchtigen kann. Umgekehrt begünstigt ein Lymphödem weitere Erysipele, sodass ein Teufelskreis möglich ist. Deshalb ist diese chronische Komplikation am wahrscheinlichsten.",
+          "term": "Lymphödem"
+        }
+      ]
+    },
+    "164": {
+      "topicLabel": "Onychomykose-Erreger",
+      "explanation": "Bei Herrn M. bestehen mehrere vollständig betroffene Zehennägel und begleitende Fußmykosezeichen mit Interdigitalmazerationen und Hyperkeratosen. Die häufigsten Erreger der Onychomykose der Zehennägel sind Dermatophyten. Unter ihnen ist Trichophyton rubrum der wichtigste und am ehesten zu erwartende Erreger. Candida spielt eher bei bestimmten Nagel- und Hautsituationen eine Rolle, ist aber nicht die typische Hauptursache der klassischen Zehennagelonychomykose. Deshalb ist Trichophyton rubrum korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Candida albicans kann Nägel befallen, insbesondere in speziellen Situationen wie chronischer Paronychie oder feuchtem Milieu. Bei der typischen Zehennagelonychomykose mit Tinea-pedis-Zeichen sind jedoch Dermatophyten wahrscheinlicher. Daher ist Candida hier nicht der am ehesten erwartete Erreger.",
+          "term": "Candida albicans"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Trichophyton rubrum ist ein Dermatophyt und der klassische häufige Erreger der Tinea pedis und Onychomykose der Zehennägel. Die Kombination aus Interdigitalmazerationen, Hyperkeratosen und mehreren betroffenen Zehennägeln passt sehr gut dazu. Diese Option ist daher am ehesten richtig.",
+          "term": "Trichophyton rubrum"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Microsporum canis ist ein Dermatophyt, wird aber typischerweise mit zoophilen Infektionen von Haut und Haaren assoziiert. Für die chronische Zehennagelonychomykose beim älteren Patienten ist er deutlich weniger typisch als Trichophyton rubrum. Deshalb ist diese Option nicht die beste Antwort.",
+          "term": "Microsporum canis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Malassezia furfur ist ein lipophiler Hefepilz und klassischer Erreger der Pityriasis versicolor. Er ist nicht der typische Erreger einer Zehennagelonychomykose. Die Befundkonstellation spricht daher nicht für Malassezia.",
+          "term": "Malassezia furfur"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Aspergillus fumigatus kann selten als Schimmelpilz an Nagelinfektionen beteiligt sein. Bei der üblichen Onychomykose der Zehennägel ist jedoch ein Dermatophyt wesentlich wahrscheinlicher. Daher ist Aspergillus hier nicht am ehesten zu erwarten.",
+          "term": "Aspergillus fumigatus"
+        }
+      ]
+    },
+    "165": {
+      "topicLabel": "Onychomykose-Therapie",
+      "explanation": "Bei Herrn M. sind insgesamt sechs Zehennägel betroffen, jeweils mit Befall der gesamten Nagelplatte. Ein solcher ausgedehnter Nagelbefall spricht gegen eine rein unterstützende oder ausschließlich topische Behandlung. Sinnvoll ist die Kombination aus lokaler mechanischer Reduktion des befallenen Nagelmaterials, topischer Therapie und systemischer antimykotischer Behandlung. Die lokale Therapie verbessert die Wirkstoffpenetration, während die systemische Therapie bei ausgedehntem oder matrixnahem Befall erforderlich wird. Daher ist die kombinierte lokale und systemische antimykotische Therapie korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Strenge Fußhygiene ist wichtig, behandelt aber eine ausgedehnte Onychomykose nicht ausreichend. Sie kann Reinfektionen und Tinea pedis reduzieren, ersetzt aber keine antimykotische Therapie. Als alleinige Maßnahme ist sie hier zu schwach.",
+          "term": "Fußhygiene"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Medizinische Fußpflege kann verdickte Nägel abtragen und die lokale Behandlung unterstützen. Bei sechs vollständig betroffenen Nagelplatten reicht sie jedoch nicht als eigentliche Therapie aus. Eine antimykotische Behandlung bleibt erforderlich.",
+          "term": "medizinische Fußpflege"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Fußbäder mit Kaliumpermanganat können bei nässenden oder bakteriell superinfizierten Hautveränderungen eine Rolle spielen. Sie sind aber keine gezielte Standardtherapie der Onychomykose. Auch mit anschließender mechanischer Behandlung fehlt hier die notwendige antimykotische Strategie.",
+          "term": "Kaliumpermanganat"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Lokale mechanische Behandlung plus topisches Antimykotikum kann bei begrenztem Nagelbefall ausreichend sein. Der Fall beschreibt jedoch einen ausgedehnten Befall mehrerer Zehennägel über die gesamte Nagelplatte. Eine rein topische Therapie wäre daher voraussichtlich unzureichend.",
+          "term": "topische Therapie"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Die Kombination aus mechanischer Behandlung, topischem Antimykotikum und systemischer Therapie passt zum ausgedehnten Befall von sechs kompletten Nagelplatten. Die mechanische Reduktion unterstützt die lokale Behandlung, während die systemische Therapie den tiefen beziehungsweise ausgedehnten Befall adressiert. Deshalb ist diese Maßnahme am ehesten indiziert.",
+          "term": "Kombinationstherapie"
+        }
+      ]
+    },
+    "166": {
+      "topicLabel": "Aortenstenose-Geräusch",
+      "explanation": "Bei hochgradiger Aortenklappenstenose ist auskultatorisch ein raues, spindelförmiges Systolikum typisch. Das Punctum maximum liegt klassisch im zweiten Interkostalraum rechts parasternal über der Aortenklappe. Das Geräusch kann in die Karotiden fortgeleitet werden und passt zur belastungsabhängigen Angina-ähnlichen Symptomatik des Patienten. Diastolische Geräusche oder apikale Mitralgeräusche würden andere Klappenvitien nahelegen. Daher ist das spindelförmige Systolikum im 2. ICR rechts korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein präsystolisches Crescendo über der Herzspitze ist typisch für eine Mitralstenose bei erhaltenem Sinusrhythmus. Die Frage beschreibt jedoch den Verdacht auf eine hochgradige Aortenklappenstenose. Lokalisation und Zeitphase passen daher nicht.",
+          "term": "Mitralstenose-Geräusch"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Pansystolikum über der Herzspitze spricht eher für eine Mitralinsuffizienz. Bei der Aortenstenose erwartet man ein systolisches Austreibungsgeräusch mit Crescendo-Decrescendo-Charakter. Diese Option beschreibt somit ein anderes Vitium.",
+          "term": "Mitralinsuffizienz"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Ein spindelförmiges Systolikum im 2. ICR rechts ist das klassische Geräusch der Aortenklappenstenose. Es entsteht während der Auswurfphase über der verengten Aortenklappe. Diese Antwort passt direkt zur Verdachtsdiagnose.",
+          "term": "Aortenstenose"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein spindelförmiges Systolikum im 2. ICR links passt eher zu pulmonalklappennahen Auskultationsbefunden. Bei der Aortenklappe liegt das Punctum maximum typischerweise rechts parasternal im zweiten Interkostalraum. Die Geräuschqualität ist ähnlich, die Lokalisation aber falsch.",
+          "term": "Pulmonalareal"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein diastolisches Geräusch im 2. ICR rechts würde eher an eine Aortenklappeninsuffizienz denken lassen. Die Aortenstenose verursacht hingegen ein systolisches Austreibungsgeräusch. Außerdem ist ein Crescendo in der Diastole nicht der typische Befund dieser Stenose.",
+          "term": "Aorteninsuffizienz"
+        }
+      ]
+    },
+    "167": {
+      "topicLabel": "EKG-LVH",
+      "explanation": "Die Frage bezieht sich auf ein EKG aus der Bildbeilage, das hier nicht direkt vorliegt; der Antwortschlüssel markiert Zeichen der linksventrikulären Hypertrophie als korrekt. Das passt grundsätzlich zum Fall, weil der Patient eine hypertensive Herzerkrankung und eine Aortenklappenstenose als Druckbelastungen des linken Ventrikels hat. Im EKG können sich bei linksventrikulärer Hypertrophie hohe linkspräkordiale R-Zacken, tiefe S-Zacken rechtspräkordial und Repolarisationsveränderungen zeigen. Ein Schrittmacher oder ein alter AV-Block schließt eigene QRS-Komplexe und Hypertrophiezeichen nicht automatisch aus. Da die konkrete Abbildung fehlt, bleibt die inhaltliche Einordnung bildabhängig, aber die korrekte Antwort ist nach Schlüssel die linksventrikuläre Hypertrophie.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Wenn alle Schläge schrittmacherstimuliert wären, würde man durchgehend passende Stimulationsspikes mit nachfolgenden breiten Kammerkomplexen erwarten. Der Antwortschlüssel markiert diese Aussage nicht als zutreffend. Offenbar zeigt das EKG nicht ausschließlich Schrittmacheraktionen.",
+          "term": "Schrittmacherstimulation"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Vorhofflimmern wäre durch fehlende geordnete P-Wellen und eine absolut arrhythmische Kammeraktion gekennzeichnet, sofern nicht vollständig stimuliert. Laut Antwortschlüssel ist dies nicht die passende Interpretation. Die Fallangaben allein erzwingen Vorhofflimmern ebenfalls nicht.",
+          "term": "Vorhofflimmern"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Zeichen der linksventrikulären Hypertrophie passen zu chronischer Druckbelastung durch Aortenstenose und hypertensive Herzerkrankung. Typische EKG-Hinweise sind hohe Spannungen und gegebenenfalls sekundäre Repolarisationsstörungen. Diese Aussage ist nach Antwortschlüssel korrekt.",
+          "term": "linksventrikuläre Hypertrophie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Steiltyp beschreibt die elektrische Lagetypbestimmung und wäre im Alter eher nicht der zentrale erwartete Befund bei Aortenstenose und hypertensiver Herzerkrankung. Der Schlüssel nennt diese Aussage nicht als korrekt. Sie erklärt die klinische Konstellation weniger gut als Hypertrophiezeichen.",
+          "term": "Steiltyp"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein AV-Block III° ist vorbekannt und war Anlass für die Schrittmacheranlage, muss aber im aktuellen EKG nicht als bestehender kompletter AV-Block sichtbar sein. Der Antwortschlüssel markiert ihn nicht als zutreffende aktuelle EKG-Aussage. Entscheidend ist hier die Bildinterpretation, nicht allein die Vorgeschichte.",
+          "term": "AV-Block III°"
+        }
+      ]
+    },
+    "168": {
+      "topicLabel": "Schilddrüsenszintigrafie",
+      "explanation": "Bei manifester Hyperthyreose und sonografisch nachgewiesenem Schilddrüsenknoten muss funktionell geklärt werden, ob der Knoten autonom hormonproduzierend ist. Dafür ist die Schilddrüsenszintigrafie das zentrale diagnostische Verfahren. Sie unterscheidet heiße, warme und kalte Knoten und kann die Ursache der Hyperthyreose einordnen. CT oder MRT sind für diese erste funktionelle Abklärung nicht geeignet und eine Punktion ist bei manifester Hyperthyreose nicht der erste Schritt. Deshalb sollte primär eine Schilddrüsenszintigrafie veranlasst werden.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Low-Dose-CT ohne Kontrastmittel kann anatomische Strukturen darstellen, beantwortet aber nicht die funktionelle Frage nach Autonomie. Bei Hyperthyreose und Knoten ist gerade die Hormonproduktion beziehungsweise Radionuklidaufnahme entscheidend. Daher ist es nicht das Verfahren erster Wahl.",
+          "term": "Low-Dose-CT"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine kontrastmittelgestützte CT des Halses ist für die initiale Abklärung des hyperthyreoten Knotens nicht indiziert. Jodhaltiges Kontrastmittel kann die Schilddrüsensituation zusätzlich beeinflussen und die Szintigrafie stören. Die funktionelle Nuklearmedizin ist hier vorrangig.",
+          "term": "Kontrastmittel-CT"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine MRT kann Weichteile anatomisch gut abbilden, zeigt aber nicht die funktionelle Aktivität eines Schilddrüsenknotens. Die Frage ist nicht primär eine Raumforderungsausdehnung, sondern die Ursache der manifesten Hyperthyreose. Deshalb ist die MRT nicht in erster Linie angezeigt.",
+          "term": "MRT Hals"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Punktion dient der zytologischen Abklärung suspekter Knoten, steht bei manifester Hyperthyreose aber nicht am Anfang. Zunächst muss szintigrafisch geklärt werden, ob es sich um einen heißen autonomen Knoten handelt, der selten malignitätsverdächtig ist. Daher ist die Punktion hier nicht der erste Schritt.",
+          "term": "Knotenpunktion"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Die Schilddrüsenszintigrafie zeigt die funktionelle Aktivität des Knotens. Bei manifester Hyperthyreose kann damit ein autonomes Adenom als heiße Läsion erkannt werden. Sie ist deshalb die passende nächste Diagnostik.",
+          "term": "Schilddrüsenszintigrafie"
+        }
+      ]
+    },
+    "169": {
+      "topicLabel": "Hyperthyreose-Beratung",
+      "explanation": "Bei manifester Hyperthyreose mit knotiger Schilddrüse besteht der Verdacht auf eine funktionelle Autonomie. In dieser Situation kann eine hohe Jodzufuhr die Hormonproduktion verstärken oder eine thyreotoxische Entgleisung begünstigen. Deshalb sollte der Patient ausdrücklich darauf achten, hohe Jodmengen zu vermeiden, insbesondere bevor die Ursache gesichert und behandelt ist. Körperliche Mehrbelastung ist bei Symptomen wie Herzrasen nicht sinnvoll, und Betablocker können symptomatisch gerade hilfreich sein. Damit ist die Vermeidung hoher Jodaufnahme die richtige Empfehlung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine hohe Jodaufnahme kann bei funktioneller Autonomie die Schilddrüsenhormonproduktion weiter ankurbeln. Bei manifester Hyperthyreose ist deshalb Jodexzess zu vermeiden. Diese Beratung ist in der aktuellen Situation ausdrücklich sinnvoll.",
+          "term": "Jodvermeidung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Magnesiumreiche Ernährung behandelt die Hyperthyreose nicht ursächlich und ist keine zentrale Beratung bei autonomem Schilddrüsenknoten. Herzrasen und Nervosität entstehen hier durch überschüssige Schilddrüsenhormone, nicht durch einen primären Magnesiummangel. Diese Option lenkt am Problem vorbei.",
+          "term": "Magnesium"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Mehr körperliche Aktivität ist bei manifester Hyperthyreose mit Herzrasen und Nervosität nicht die vorrangige Empfehlung. Belastung kann die kardiale Symptomatik verstärken. Zunächst stehen Diagnosesicherung, Vermeidung von Triggern und Therapieplanung im Vordergrund.",
+          "term": "körperliche Aktivität"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Flüssigkeitsrestriktion gehört nicht zur Standardberatung bei Hyperthyreose. Es gibt im Fall keine Zeichen einer Wasserretention oder Herzdekompensation, die eine solche Maßnahme nahelegen würden. Sie adressiert die Schilddrüsenautonomie nicht.",
+          "term": "Flüssigkeitsrestriktion"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Betablocker sind bei symptomatischer Hyperthyreose häufig hilfreich, um adrenerge Beschwerden wie Tachykardie und Tremor zu lindern. Eine pauschale Empfehlung, keine Beta-Adrenozeptor-Antagonisten einzunehmen, wäre daher falsch. Sie widerspricht der üblichen symptomorientierten Behandlung.",
+          "term": "Betablocker-Verzicht"
+        }
+      ]
+    },
+    "170": {
+      "topicLabel": "Autonomes Adenom",
+      "explanation": "Die weitere Diagnostik hat ein autonomes Adenom des rechten Schilddrüsenlappens ergeben, also eine fokale funktionelle Autonomie mit Hyperthyreose. Definitive Therapien sind Verfahren, die autonomes Schilddrüsengewebe ausschalten, insbesondere Radiojodtherapie oder Operation je nach individueller Situation. Unter den Antwortoptionen ist die Radiojodtherapie die am ehesten passende Standardempfehlung. Eine Hormonsubstitution würde die Hyperthyreose verschlechtern, und Abwarten ist bei manifester Symptomatik nicht angemessen. Eine Neck Dissection oder externe Bestrahlung gehören nicht zur Therapie eines benignen autonomen Adenoms.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die Radiojodtherapie zerstört funktionell autonomes Schilddrüsengewebe gezielt und ist eine etablierte definitive Therapie beim autonomen Adenom. Sie passt besonders, wenn keine malignitätsverdächtige Situation im Vordergrund steht. Daher ist sie hier am ehesten zu empfehlen.",
+          "term": "Radiojodtherapie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Thyreoidektomie kann bei bestimmten Konstellationen eine Option sein, aber eine Neck Dissection ist eine onkologische Lymphknotenoperation. Beim diagnostizierten autonomen Adenom gibt es keinen Hinweis auf ein Schilddrüsenkarzinom mit Lymphknotenmetastasen. Diese Option ist deshalb zu invasiv und falsch ausgerichtet.",
+          "term": "Neck Dissection"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Watch and wait passt nicht zu manifester Hyperthyreose durch ein autonomes Adenom mit Beschwerden. Autonomes Gewebe normalisiert sich nicht verlässlich durch Beobachtung. Es sollte eine definitive oder zumindest gezielte Therapie geplant werden.",
+          "term": "watch and wait"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Schilddrüsenhormonsubstitution ist bei Hypothyreose angezeigt, nicht bei manifester Hyperthyreose. Zusätzliche Hormonzufuhr würde die Symptome und Stoffwechsellage verschlechtern. Diese Option ist daher kontraintuitiv und falsch.",
+          "term": "Hormonsubstitution"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine externe Radiatio ist keine Standardtherapie eines autonomen Schilddrüsenadenoms. Radiojod wirkt von innen über die Aufnahme in Schilddrüsengewebe und unterscheidet sich grundlegend von äußerer Bestrahlung. Daher ist diese Option nicht geeignet.",
+          "term": "externe Radiatio"
+        }
+      ]
+    },
+    "171": {
+      "topicLabel": "D-Arzt-Verfahren",
+      "explanation": "Der Patient stürzt während einer von der Deutschen Rentenversicherung zugewiesenen Rehabilitationsmaßnahme auf dem Weg zwischen Behandlungsterminen. Solche Ereignisse können als Versicherungsfall der gesetzlichen Unfallversicherung einzuordnen sein, sodass das Durchgangsarztverfahren relevant wird. Bei behandlungsbedürftigen Unfallfolgen ist dann ein D-Arzt für die unfallmedizinische Erstbeurteilung und Steuerung der weiteren Behandlung zuständig. Der Stationsarzt kann akut helfen, ist aber nicht der zuständige Vertreter für die berufsgenossenschaftliche beziehungsweise unfallversicherungsrechtliche Behandlung. Daher ist ein D-Arzt in der Stadt am ehesten zuständig.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Der Stationsarzt der Rehabilitationsmaßnahme betreut den Patienten zwar im Rahmen der Reha. Bei einem versicherten Unfallereignis mit möglicher Unfallversicherungszuständigkeit muss jedoch das D-Arzt-Verfahren beachtet werden. Daher ist er nicht die am ehesten zuständige Stelle für die Unfallbehandlung.",
+          "term": "Stationsarzt"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Der D-Arzt ist für die Erstbeurteilung und Steuerung der Behandlung nach Arbeits- beziehungsweise Wege- und vergleichbaren versicherten Unfällen zuständig. Der Sturz während der Rehabilitationsmaßnahme auf dem Weg zwischen Therapieeinheiten passt in diesen Kontext. Auch wenn die Stadt entfernt liegt, ist der D-Arzt die richtige Anlaufstelle.",
+          "term": "D-Arzt"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Der Hausarzt kennt den Patienten möglicherweise, ist aber nicht für das Durchgangsarztverfahren zuständig. Bei unfallversicherungsrechtlich relevanten Ereignissen soll die Behandlung entsprechend gesteuert werden. Deshalb ist der Hausarzt hier nicht die beste Antwort.",
+          "term": "Hausarzt"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Der Operateur der Knieendoprothese wäre bei Komplikationen der Prothese oder einer elektiven orthopädischen Verlaufskontrolle naheliegend. Der Sturz betrifft jedoch das nicht operierte Knie und ist als neues Unfallereignis einzuordnen. Die frühere Operation begründet daher nicht die Zuständigkeit.",
+          "term": "Operateur"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Arbeitsmediziner beurteilt arbeitsplatzbezogene Gesundheitsfragen, Vorsorge und Prävention. Er ist nicht der zuständige Arzt für die akute Behandlung eines Sturztraumas in der Rehabilitation. Diese Option passt nicht zum D-Arzt-Verfahren.",
+          "term": "Arbeitsmediziner"
+        }
+      ]
+    },
+    "172": {
+      "topicLabel": "Unfallversicherung",
+      "explanation": "Der Sturz ereignet sich während einer Rehabilitationsmaßnahme und auf dem Weg zwischen veranlassten Behandlungsterminen. Für solche versicherten Tätigkeiten im Rahmen medizinischer Rehabilitation kommt als Kostenträger für Unfallfolgen die gesetzliche Unfallversicherung in Betracht. Das erklärt auch, warum in der vorherigen Frage der D-Arzt zuständig war. Die Deutsche Rentenversicherung kann zwar Träger der Rehabilitation sein, ist aber nicht automatisch Kostenträger der unfallbedingten Behandlung. Deshalb ist die gesetzliche Unfallversicherung die richtige Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die gesetzliche Krankenversicherung trägt allgemeine Krankheitsbehandlungen, wenn kein vorrangiger anderer Kostenträger zuständig ist. Bei einem versicherten Unfallereignis während der Rehabilitationsmaßnahme greift jedoch die Unfallversicherung. Deshalb ist sie hier nicht am ehesten zuständig.",
+          "term": "Krankenversicherung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die gesetzliche Rentenversicherung hat die Rehabilitationsmaßnahme zugewiesen und kann deren Träger sein. Die konkreten Folgen eines Unfalls während einer versicherten Tätigkeit werden jedoch unfallversicherungsrechtlich behandelt. Daher ist die Rentenversicherung nicht die beste Antwort.",
+          "term": "Rentenversicherung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Rehabilitationseinrichtung ist nicht typischer Kostenträger für die medizinische Behandlung von Unfallfolgen. Haftungsfragen wären von der Kostenübernahme im Sozialversicherungssystem zu unterscheiden. Als Institution ist sie daher nicht die naheliegende Antwort.",
+          "term": "Reha-Einrichtung"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die gesetzliche Unfallversicherung ist für Folgen versicherter Unfälle zuständig. Der Sturz während des Weges zwischen Reha-Therapieeinheiten erfüllt nach Antwortschlüssel diese Zuordnung. Damit passt diese Option am besten.",
+          "term": "Unfallversicherung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die private Haftpflichtversicherung des Patienten würde eigene Haftpflichtansprüche gegenüber Dritten betreffen. Hier geht es aber um seine eigenen Verletzungsfolgen nach einem Ereignis während der Rehabilitation. Sie ist daher kein passender Kostenträger.",
+          "term": "Haftpflichtversicherung"
+        }
+      ]
+    },
+    "173": {
+      "topicLabel": "Akute Cholezystitis",
+      "explanation": "Die Patientin hat klinisch, laborchemisch und sonografisch eine akute kalkulöse Cholezystitis: rechter Oberbauchschmerz, Entzündungszeichen, Konkremente und entzündlich verdickte Gallenblasenwand. Der Gallengang ist nicht erweitert und das Bilirubin ist unauffällig, sodass kein vorrangiger Hinweis auf eine Choledocholithiasis besteht. Bei operationsfähiger Patientin ist nach Beginn von Analgesie und Antibiotikatherapie die frühzeitige laparoskopische Cholezystektomie indiziert. Eine Intervalloperation oder primäre Drainage wäre eher bei anderer Risikolage beziehungsweise fehlender Operationsfähigkeit zu erwägen. Daher sind stationäre Aufnahme und Cholezystektomie innerhalb von 24 Stunden am ehesten richtig.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine ERC mit Stenteinlage ist bei Verdacht auf Gallengangsstein, Cholangitis oder Abflussstörung naheliegend. Hier sind Bilirubin und Gallengangsdurchmesser unauffällig, sodass diese Konstellation nicht im Vordergrund steht. Eine spätere Intervall-Cholezystektomie verzögert zudem unnötig die definitive Therapie.",
+          "term": "ERC mit Stent"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die frühzeitige Cholezystektomie ist bei akuter Cholezystitis und operationsfähiger Patientin die passende definitive Therapie. Die Patientin ist trotz Alter bisher aktiv und hat keine schwere Komorbidität, die gegen eine Operation spricht. Stationäre Aufnahme ist aufgrund der akuten Entzündung erforderlich.",
+          "term": "frühe Cholezystektomie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine operative Gallengangrevision ist bei gesichertem oder hochgradig vermutetem Gallengangsstein beziehungsweise Abflusshindernis relevant. Im Fall sprechen normaler Bilirubinwert und nicht erweiterter Gallengang dagegen. Daher wäre diese Maßnahme übertherapeutisch.",
+          "term": "Gallengangrevision"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine ambulante Behandlung passt nicht zu akuter Cholezystitis mit deutlichen Entzündungswerten und sonografischer Wandveränderung. Zudem ist eine Intervalloperation bei grundsätzlich operationsfähiger Patientin nicht das bevorzugte Vorgehen. Die Situation erfordert stationäre Überwachung und frühe Operation.",
+          "term": "ambulante Behandlung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine perkutane Gallenblasendrainage wird eher bei schwer kranken oder nicht operationsfähigen Patienten als Überbrückung beziehungsweise Alternative erwogen. Diese Patientin ist zwar älter, aber ansonsten gesund und aktiv. Daher ist die definitive Operation vorzuziehen.",
+          "term": "Gallenblasendrainage"
+        }
+      ]
+    },
+    "174": {
+      "topicLabel": "Otitis externa",
+      "explanation": "Bei Otitis externa diffusa ist die Haut des äußeren Gehörgangs entzündet. Typisch sind Schmerzen, insbesondere bei Zug an der Ohrmuschel oder Druck auf den Tragus, Rötung, Schwellung, Sekret beziehungsweise Beläge und durch Einengung des Gehörgangs auch Schallleitungsschwerhörigkeit. Das Trommelfell kann manchmal schwer einsehbar sein, ist aber nicht primär perforiert und entdifferenziert. Ein perforiertes, entdifferenziertes Trommelfell spricht eher für eine Erkrankung des Mittelohres oder chronische Trommelfellveränderungen. Da nach dem am wenigsten charakteristischen Befund gefragt ist, ist diese Trommelfellveränderung korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine zirkumferente Schwellung des Gehörgangs passt sehr gut zur diffusen Entzündung der Gehörgangshaut. Sie kann den Gehörgang einengen und die Untersuchung erschweren. Daher ist dieser Befund nicht am wenigsten charakteristisch.",
+          "term": "Gehörgangsschwellung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Rötung und putride Beläge der Gehörgangshaut sind typische Zeichen einer entzündlichen Otitis externa. Sie betreffen genau die anatomische Struktur, die bei dieser Erkrankung im Vordergrund steht. Diese Option ist deshalb charakteristisch.",
+          "term": "Gehörgangsbelag"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Ein perforiertes, entdifferenziertes Trommelfell ist für eine diffuse Otitis externa am wenigsten typisch. Die Erkrankung betrifft primär den äußeren Gehörgang, nicht das Trommelfell als primären Ort einer Perforation. Ein solcher Befund würde eher an eine Mittelohrpathologie denken lassen.",
+          "term": "Trommelfellperforation"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Schmerz bei Zug an der Ohrmuschel ist ein klassischer klinischer Hinweis auf Otitis externa. Durch Bewegung der Ohrmuschel wird die entzündete Gehörgangshaut mechanisch gereizt. Dieser Befund spricht daher deutlich für die Verdachtsdiagnose.",
+          "term": "Ohrmuschelzugschmerz"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Schallleitungsschwerhörigkeit kann bei Otitis externa entstehen, wenn Schwellung, Sekret oder Debris den äußeren Gehörgang verlegen. Sie ist deshalb als Begleitbefund plausibel. Sie ist nicht der am wenigsten charakteristische Befund.",
+          "term": "Schallleitungsschwerhörigkeit"
+        }
+      ]
+    },
+    "175": {
+      "topicLabel": "Opioidpotenz",
+      "explanation": "Gefragt ist nach der höchsten pharmakologischen analgetischen Potenz unter den genannten Opioiden. Buprenorphin ist ein sehr potentes Opioid und hat im Vergleich zu Morphin eine deutlich höhere analgetische Potenz. Dihydrocodein und Tramadol sind schwächer wirksame Opioide, Morphin dient häufig als Referenzsubstanz. Methadon ist ebenfalls ein starkes Opioid, wird in der relativen Potenz aber nicht über Buprenorphin eingeordnet. Daher ist Buprenorphin die richtige Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Buprenorphin besitzt eine sehr hohe Rezeptoraffinität und eine hohe analgetische Potenz. Unter den aufgeführten Substanzen ist es hinsichtlich der pharmakologischen Potenz am stärksten einzuordnen. Deshalb ist diese Option korrekt.",
+          "term": "Buprenorphin"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Dihydrocodein gehört zu den schwächer wirksamen Opioiden. Es hat eine deutlich geringere analgetische Potenz als Morphin und erst recht als Buprenorphin. Daher ist es nicht die stärkste Option.",
+          "term": "Dihydrocodein"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Methadon ist ein starkes Opioid und kann in der Schmerztherapie bedeutsam sein. Die Frage zielt jedoch auf die höchste pharmakologische Potenz unter den genannten Wirkstoffen. Diese liegt nach Antwortschlüssel bei Buprenorphin, nicht bei Methadon.",
+          "term": "Methadon"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Morphin ist ein klassisches starkes Opioid und dient oft als Referenz für Potenzvergleiche. Buprenorphin ist pharmakologisch potenter als Morphin. Morphin ist daher nicht die höchst potente Substanz in dieser Auswahl.",
+          "term": "Morphin"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Tramadol ist ein schwächeres Opioid mit zusätzlicher monoaminerger Wirkung. Es ist deutlich weniger potent als Morphin und Buprenorphin. Für Tumorschmerzen kann es je nach Situation verwendet werden, ist aber nicht die stärkste Substanz.",
+          "term": "Tramadol"
+        }
+      ]
+    },
+    "176": {
+      "topicLabel": "Stammganglienblutung",
+      "explanation": "Eine intraparenchymatöse Blutung in den Stammganglien ist klassisch für eine hypertensive Hirnblutung. Chronische arterielle Hypertonie schädigt kleine perforierende Arterien, insbesondere in Basalganglien, Thalamus, Pons und Kleinhirn. Die akute Hemiplegie rechts passt zur linksseitigen Blutung im Bereich der motorischen Bahnen. Andere Ursachen wie Amyloidangiopathie, Tumorblutung oder Gefäßmalformationen sind möglich, betreffen aber andere Muster oder sind insgesamt weniger wahrscheinlich. Daher ist arterielle Hypertonie die häufigste und hier wahrscheinlichste Ursache.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die Ruptur eines Aneurysmas führt typischerweise zu einer Subarachnoidalblutung, nicht primär zu einer tiefen Stammganglienblutung. Ein intraparenchymatöser Anteil kann vorkommen, ist aber nicht das häufigste Muster bei dieser Lokalisation. Daher ist diese Option weniger wahrscheinlich.",
+          "term": "Aneurysmaruptur"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Arterielle Hypertonie ist die klassische häufigste Ursache tiefer intrazerebraler Blutungen. Besonders betroffen sind die Stammganglien durch Schädigung kleiner perforierender Gefäße. Diese Option passt deshalb am besten zur Lokalisation.",
+          "term": "arterielle Hypertonie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die zerebrale Amyloidangiopathie verursacht eher lobäre, kortikal-subkortikale Blutungen bei älteren Menschen. Eine tiefe Blutung im Stammganglienbereich spricht eher für Hypertonie. Deshalb ist Amyloidangiopathie hier nicht die wahrscheinlichste Ursache.",
+          "term": "Amyloidangiopathie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Metastasen eines malignen Melanoms können bluten und intrazerebrale Blutungen verursachen. Dafür fehlen im Fall jedoch Hinweise auf ein bekanntes Malignom oder eine tumorverdächtige Läsion. Außerdem ist die Stammganglienlokalisation klassischer hypertensiv bedingt.",
+          "term": "Melanommetastase"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Arteriovenöse Malformationen können intrazerebrale Blutungen auslösen, vor allem bei jüngeren Patienten oder atypischer Lokalisation. Beim 63-jährigen Patienten mit tiefer Stammganglienblutung ist Hypertonie epidemiologisch und anatomisch naheliegender. Daher ist diese Option nicht am wahrscheinlichsten.",
+          "term": "AV-Malformation"
+        }
+      ]
+    },
+    "177": {
+      "topicLabel": "Morbus Crohn",
+      "explanation": "Die junge Patientin hat seit Wochen krampfartige Bauchschmerzen und Durchfälle, also einen subakut-chronischen Verlauf. Die tastbare Raumforderung im rechten Unterbauch und sonografisch verdickte Dünndarmschlingen bis zum Zäkum sprechen für eine entzündliche Beteiligung des terminalen Ileums. Dieses Befallsmuster ist typisch für Morbus Crohn beziehungsweise Ileitis terminalis. Die erhöhten Entzündungswerte stützen eine aktive entzündliche Darmerkrankung. Daher ist Ileitis terminalis bei Morbus Crohn am wahrscheinlichsten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Gastroenteritis verursacht meist akute Durchfälle und krampfartige Beschwerden, aber keine über Wochen tastbare Raumforderung im rechten Unterbauch. Auch ein Konglomerat wandverdickter Dünndarmschlingen bis zum Zäkum passt nicht typisch dazu. Diese Option erklärt die Befunde unzureichend.",
+          "term": "Gastroenteritis"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Morbus Crohn befällt häufig das terminale Ileum und kann segmentale Wandverdickungen, Konglomerate und eine schmerzhafte Resistenz im rechten Unterbauch verursachen. Chronische Durchfälle und Entzündungswerte passen ebenfalls. Deshalb ist die Ileitis terminalis die beste Diagnose.",
+          "term": "Ileitis terminalis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Colitis ulcerosa beginnt typischerweise im Rektum und betrifft kontinuierlich den Dickdarm. Ein isoliert ileozäkales Dünndarmkonglomerat ist dafür nicht charakteristisch. Die Lokalisation spricht eher für Morbus Crohn.",
+          "term": "Colitis ulcerosa"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Appendizitis mit perityphlitischem Abszess kann eine schmerzhafte Raumforderung im rechten Unterbauch verursachen. Der wochenlange Verlauf mit Durchfällen und wandverdickten Dünndarmschlingen bis zum Zäkum passt jedoch besser zu einer chronisch-entzündlichen Ileitis. Daher ist sie nicht die wahrscheinlichste Diagnose.",
+          "term": "Appendizitisabszess"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Invagination kann kolikartige Schmerzen verursachen, ist bei Erwachsenen aber deutlich seltener und hätte meist ein anderes akutes oder obstruktives Bild. Die sonografische Beschreibung eines entzündlichen Dünndarmkonglomerats passt nicht typisch zur Invagination. Diese Option ist daher weniger plausibel.",
+          "term": "Invagination"
+        }
+      ]
+    },
+    "178": {
+      "topicLabel": "Kontrazeptionsring",
+      "explanation": "Die Patientin wünscht eine sichere hormonelle Methode, möchte aber nicht täglich an eine Einnahme denken und zunächst etwas schnell Absetzbares. Der vaginale hormonelle Verhütungsring erfüllt diese Kriterien gut: Er ist anwenderkontrolliert, nicht täglich einzunehmen und nach Entfernen rasch beendet. Kondome bleiben zusätzlich zum Schutz vor sexuell übertragbaren Infektionen sinnvoll, ersetzen aber bei gewünschter hoher kontrazeptiver Sicherheit nicht zwingend eine hormonelle Methode. Eine Spirale ist zwar sehr sicher, aber weniger schnell und unkompliziert absetzbar im Sinne des Patientenwunsches. Daher ist der vaginale hormonelle Verhütungsring am ehesten zu empfehlen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Minipille kann wirksam sein, erfordert aber eine regelmäßige tägliche Einnahme. Genau das möchte die Patientin vermeiden. Sie erfüllt daher den zentralen Wunsch nicht gut.",
+          "term": "Minipille"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Gestagen-freisetzende intrauterine Spirale ist sehr sicher und langfristig wirksam. Sie muss jedoch ärztlich eingelegt und entfernt werden und ist für den Wunsch nach einer schnell selbst absetzbaren Methode weniger passend. Bei noch keinem Geschlechtsverkehr kann die Einlage zusätzlich eine größere Hürde sein.",
+          "term": "Hormonspirale"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein kombiniertes orales Kontrazeptivum ist eine sichere hormonelle Methode, erfordert aber tägliche Einnahme. Damit passt es nicht zum Wunsch, nicht jeden Tag daran denken zu müssen. Es ist deshalb weniger geeignet als der Ring.",
+          "term": "kombinierte Pille"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Der vaginale hormonelle Verhütungsring ist eine sichere kombinierte hormonelle Methode ohne tägliche Tabletteneinnahme. Die Anwenderin kann ihn entfernen und die Methode damit rasch beenden. Er passt deshalb am besten zu den genannten Wünschen.",
+          "term": "Vaginalring"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Hormonelle Kontrazeption ist bei Jugendlichen nicht grundsätzlich kontraindiziert. Entscheidend sind individuelle Kontraindikationen, Beratung und informierte Entscheidung. Diese pauschale Aussage ist daher falsch.",
+          "term": "Kontraindikation"
+        }
+      ]
+    },
+    "179": {
+      "topicLabel": "Endoskop-Sterilisation",
+      "explanation": "Das verwendete ERCP-Endoskop ist thermolabil und kann daher nicht mit klassischen Hochtemperaturverfahren sterilisiert werden. Nach maschineller Reinigung und Desinfektion kommt für hitzeempfindliche Medizinprodukte ein Niedertemperaturverfahren infrage. H2O2-Plasma ist ein solches Sterilisationsverfahren und eignet sich für viele thermolabile Instrumente, sofern Material- und Gerätefreigaben bestehen. Dampfsterilisation und Heißluft sind wegen Hitze ungeeignet, UV-A ist kein Standard-Sterilisationsverfahren für solche Endoskope. Deshalb ist die H2O2-Plasma-Sterilisation korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Gammastrahlung wird vor allem industriell zur Sterilisation von Einmalprodukten eingesetzt. Sie ist nicht das vorzugsweise Verfahren zur Aufbereitung eines thermolabilen Endoskops im klinischen Ablauf. Daher passt diese Option nicht am besten.",
+          "term": "Gammastrahlung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "UV-A-Strahlung ist kein zuverlässiges Standardverfahren zur Sterilisation komplexer lumenhaltiger Medizinprodukte. Schattenbildung und begrenzte Eindringtiefe machen sie für Endoskope ungeeignet. Diese Option ist deshalb falsch.",
+          "term": "UV-A-Strahlung"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "H2O2-Plasma ist ein Niedertemperatur-Sterilisationsverfahren. Es wird für hitzeempfindliche Medizinprodukte eingesetzt, wenn das Material und die Bauart dafür geeignet sind. Für ein thermolabiles Endoskop ist es unter den Optionen am passendsten.",
+          "term": "H2O2-Plasma"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Dampfsterilisation arbeitet mit hoher Temperatur und Feuchtigkeit. Thermolabile Endoskope können dadurch beschädigt werden. Deshalb ist Dampf hier nicht das vorzugsweise Verfahren.",
+          "term": "Dampfsterilisation"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Heißluftsterilisation benötigt ebenfalls hohe Temperaturen und ist für thermolabile Endoskope ungeeignet. Außerdem ist sie für komplexe, empfindliche Instrumente im klinischen Alltag nicht das bevorzugte Verfahren. Diese Antwort scheidet daher aus.",
+          "term": "Heißluft"
+        }
+      ]
+    },
+    "180": {
+      "topicLabel": "Kauda-Syndrom",
+      "explanation": "Reithosenanästhesie, Harnblaseninkontinenz und schlaffe Paresen der unteren Extremität sind hochverdächtig auf ein akutes Konus- beziehungsweise Kauda-equina-Syndrom. Bei erst seit zwei Stunden bestehender Symptomatik handelt es sich um einen neurochirurgischen Notfall, bei dem die Ursache rasch bildgebend gesichert werden muss. Der nächste Schritt ist die notfallmäßige MRT der spinalen Achse, um Kompression, Blutung, Tumor, Abszess oder Bandscheibenvorfall zu erkennen und die operative Planung zu ermöglichen. Eine Dekompression kann danach dringend erforderlich sein, setzt aber in der Regel die Lokalisation und Ursache voraus. Deshalb ist zunächst die notfallmäßige MRT der spinalen Achse indiziert.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Angiografie von Aorta und Beinarterien wäre bei Verdacht auf akute arterielle Extremitätenischämie zu erwägen. Reithosenanästhesie und Blasenstörung sprechen jedoch für eine neurale Läsion im unteren Rückenmark beziehungsweise der Kauda. Diese Option adressiert die falsche Ursache.",
+          "term": "Angiografie"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die notfallmäßige MRT der spinalen Achse ist die entscheidende Diagnostik beim Verdacht auf Konus- oder Kauda-equina-Syndrom. Sie lokalisiert eine mögliche Kompression und zeigt die Ursache. Damit ermöglicht sie die rasche weitere neurochirurgische Therapie.",
+          "term": "spinale MRT"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Zystoskopie untersucht Harnblase und Harnröhre, erklärt aber keine Reithosenanästhesie oder schlaffe Paresen. Die Inkontinenz ist hier neurologisch zu verstehen, bis das Gegenteil bewiesen ist. Daher wäre eine Zystoskopie gefährlich verzögernd.",
+          "term": "Zystoskopie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine operative Dekompression kann bei nachgewiesener Kompression des Conus medullaris oder der Kauda dringend notwendig sein. Als nächster Schritt muss jedoch zunächst die spinale Bildgebung die Diagnose sichern und die Höhe der Läsion zeigen. Ohne diese Information wäre die Operation nicht gezielt planbar.",
+          "term": "Dekompression"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine MRT des Neurokraniums wäre bei Verdacht auf zerebrale Ursache sinnvoll. Die Kombination aus Reithosenanästhesie, Blasenstörung und schlaffer Beinparese lokalisiert jedoch spinal beziehungsweise kaudal. Deshalb ist die spinale Achse und nicht das Neurokranium prioritär.",
+          "term": "kraniale MRT"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,745 @@
+{
+  "examId": "m2-2025a-staatsexamen",
+  "questions": {
+    "1": {
+      "topicLabel": "Lungenembolie",
+      "explanation": "Die akute Dyspnoe nach vorangegangener Immobilisation des rechten Sprunggelenks und neu aufgetretener einseitiger Unterschenkelschwellung spricht am ehesten für eine tiefe Beinvenenthrombose mit konsekutiver Lungenembolie. Der unauffällige EKG-Befund schließt eine Lungenembolie nicht aus, insbesondere bei hämodynamisch nicht fulminanter Präsentation. Der Blutdruck ist zwar erhöht, erklärt aber die Kombination aus Beinbefund und akuter Luftnot nicht ausreichend. In der Erstbewertung ist deshalb die Lungenembolie die wahrscheinlichste Verdachtsdiagnose.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine Lungenembolie ist hier durch die klassische Risikokonstellation plausibel: Immobilisation/Orthese nach Sprunggelenkverletzung, einseitige Unterschenkelschwellung als Hinweis auf tiefe Venenthrombose und plötzlich auftretende Dyspnoe. Ein normales EKG kann bei Lungenembolie vorkommen und darf die Verdachtsdiagnose nicht entkräften.",
+          "term": "Lungenembolie tiefe Venenthrombose"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine hypertensive Entgleisung würde eine deutlich stärker ausgeprägte Blutdruckerhöhung oder Zeichen akuter Endorganschädigung erwarten lassen. Der gemessene Blutdruck von 160/90 mmHg ist erhöht, erklärt aber weder die einseitige Beinschwellung noch die akute Dyspnoe im zeitlichen Zusammenhang mit Immobilisation. Diese Option passt daher schlechter als eine Lungenembolie.",
+          "term": "hypertensive Entgleisung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Linksherzdekompensation kann akute Dyspnoe verursachen, typischerweise mit Zeichen der pulmonalen Stauung, kardialer Vorerkrankung oder auffälligen Befunden in Auskultation, Bildgebung oder EKG. Die Fallvignette betont dagegen Beinimmobilisation und einseitige Schwellung. Das lenkt die Verdachtsdiagnose klar auf ein thromboembolisches Ereignis.",
+          "term": "Linksherzinsuffizienz Dekompensation"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein akuter Myokardinfarkt kann sich mit Dyspnoe präsentieren, besonders bei älteren Patienten. Gegen diese Option sprechen hier jedoch das unauffällige unmittelbar abgeleitete EKG und das Fehlen typischer ischämischer Beschwerden in der Beschreibung. Vor allem erklärt der Infarkt die einseitige Unterschenkelschwellung nicht.",
+          "term": "akuter Myokardinfarkt"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Aortendissektion verursacht meist plötzlich stärkste thorakale oder interskapuläre Schmerzen, Puls- oder Blutdruckdifferenzen und kann neurologische oder Organischämiezeichen hervorrufen. Solche Leitsymptome fehlen in der Fallbeschreibung. Die Beinvenenthrombose-Konstellation macht eine Lungenembolie deutlich wahrscheinlicher.",
+          "term": "Aortendissektion"
+        }
+      ]
+    },
+    "2": {
+      "topicLabel": "Lungenembolie Diagnostik",
+      "explanation": "Bei dem Patienten aus der Vorfrage besteht aufgrund der Immobilisation, einseitigen Beinschwellung und akuten Dyspnoe ein klinischer Verdacht auf Lungenembolie. Zur direkten Abklärung einer Lungenarterienembolie ist die Computertomografie, praktisch als CT-Pulmonalisangiografie, die naheliegendste Methode unter den Antwortmöglichkeiten. Sie kann intraluminale Kontrastmittelaussparungen in den Pulmonalarterien nachweisen und zugleich wichtige Differenzialdiagnosen im Thorax erfassen. Sonografie der Beinvenen kann eine Thrombose belegen, klärt die Lungenembolie selbst aber nur indirekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die Sonografie der Unterschenkelvenen kann eine tiefe Venenthrombose nachweisen und damit die thromboembolische Genese unterstützen. Sie beantwortet die Frage nach einer Lungenarterienembolie aber nur indirekt und kann bei negativem Befund eine Embolie nicht sicher ausschließen. Zur unmittelbaren Klärung der Lungenembolie ist daher die CT geeigneter.",
+          "term": "Kompressionssonografie Beinvenen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Röntgen-Thorax kann bei Dyspnoe Differenzialdiagnosen wie Pneumonie, Pneumothorax oder Stauungshinweise zeigen. Für den Nachweis oder Ausschluss einer Lungenembolie ist es jedoch nicht ausreichend sensitiv oder spezifisch. Es ist deshalb nicht die zielführendste Untersuchung in dieser Fragestellung.",
+          "term": "Röntgen-Thorax Lungenembolie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die körperliche Untersuchung ist für die Ersteinschätzung unverzichtbar, etwa zur Beurteilung von Kreislauf, Beinbefund und Differenzialdiagnosen. Sie kann eine Lungenembolie aber weder zuverlässig bestätigen noch ausschließen. Nach bereits bestehendem klinischem Verdacht ist eine bildgebende Klärung erforderlich.",
+          "term": "klinische Untersuchung Dyspnoe"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Magnetresonanztomografie kann in speziellen Situationen vaskuläre Fragestellungen bearbeiten, ist aber in der akuten Lungenembolie-Diagnostik nicht die Standardmethode. Verfügbarkeit, Untersuchungsdauer und Robustheit sprechen in der Notfallsituation meist gegen diese Option. Unter den genannten Verfahren ist die CT am ehesten geeignet.",
+          "term": "MRT Lungenembolie"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Die Computertomografie des Thorax mit Darstellung der Pulmonalarterien ist die passende Untersuchung zur Klärung einer vermuteten Lungenembolie. Sie kann Emboli direkt nachweisen und gleichzeitig andere thorakale Ursachen akuter Dyspnoe miterfassen. Bei der geschilderten klinischen Konstellation ist sie daher die beste Antwort.",
+          "term": "CT-Pulmonalisangiografie"
+        }
+      ]
+    },
+    "3": {
+      "topicLabel": "Lungenembolie Prognose",
+      "explanation": "Bei nachgewiesener Lungenarterienembolie ist die rechtsventrikuläre Belastung ein zentraler prognostischer Faktor. Eine Vergrößerung des rechten Ventrikels zeigt, dass der akute Druckanstieg im pulmonalen Kreislauf bereits hämodynamisch relevante Auswirkungen auf das rechte Herz hat. Dieser Befund ist mit einem höheren Risiko für Kreislaufinstabilität und einen komplizierten Verlauf verbunden. Die übrigen echokardiografischen Befunde können kardiovaskulär bedeutsam sein, sind für die Risikostratifizierung der akuten Lungenembolie aber nicht vorrangig.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine Vergrößerung des rechten Ventrikels weist bei Lungenembolie auf eine akute Rechtsherzbelastung hin. Dieser Befund ist prognostisch relevant, weil er eine relevante Druckbelastung durch den pulmonalarteriellen Verschluss widerspiegelt. Er fließt daher in die Einschätzung des Schweregrads ein.",
+          "term": "rechtsventrikuläre Dilatation"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Ektasie der Aorta ascendens kann unabhängig von der Lungenembolie klinisch relevant sein, etwa im Hinblick auf aortale Erkrankungen. Sie sagt jedoch nicht aus, wie stark die Lungenembolie das rechte Herz belastet. Für die Prognose der akuten Embolie ist sie deshalb nicht der wichtigste Echobefund.",
+          "term": "Aorta-ascendens-Ektasie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine diastolische Dysfunktion betrifft primär die Füllungseigenschaften des linken Ventrikels und ist häufig bei Hypertonie oder Alterungsprozessen zu finden. Sie erklärt nicht unmittelbar die akute pulmonalarterielle Druckbelastung durch eine Embolie. Prognostisch entscheidender ist in diesem Kontext die Rechtsherzbelastung.",
+          "term": "diastolische Dysfunktion"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine sklerosierte Aortenklappe ist ein häufiger degenerativer Befund und kann bei ausgeprägter Stenose hämodynamisch bedeutsam werden. In der Frage geht es aber um prognostische Zeichen bei Lungenarterienembolie. Dafür ist die Aortenklappensklerose nicht der relevante Marker.",
+          "term": "Aortenklappensklerose"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Verdickung des interventrikulären Septums passt eher zu länger bestehender Druckbelastung, etwa bei arterieller Hypertonie, oder zu anderen kardialen Erkrankungen. Sie ist kein typischer Parameter der akuten Risikostratifizierung bei Lungenembolie. Die akute Rechtsherzdilatation ist hier aussagekräftiger.",
+          "term": "Septumhypertrophie"
+        }
+      ]
+    },
+    "4": {
+      "topicLabel": "Submakuläre Blutung",
+      "explanation": "Die plötzlich aufgetretene schmerzlose zentrale Gesichtsfeldverdunklung bei bekannter Drusenmakulopathie und Antikoagulation passt am ehesten zu einer akuten makulären beziehungsweise submakulären Blutung, etwa im Rahmen einer neovaskulären AMD. Richtungsweisend ist zunächst der direkte Blick auf Netzhaut und Makula. Die Funduskopie kann Blutungen, Exsudate, Drusen und makuläre Veränderungen erfassen und damit die Verdachtsdiagnose unmittelbar stützen. Andere Verfahren prüfen vordere Augenabschnitte, Kammerwinkel, Augeninnendruck oder Sehschärfe, sichern den makulären Befund aber nicht vergleichbar.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die Endothelmikroskopie beurteilt vor allem das Hornhautendothel. Sie ist bei Hornhauterkrankungen oder vor intraokularen Eingriffen hilfreich, erklärt aber kein plötzliches zentrales Skotom durch einen makulären Prozess. Für die Diagnosesicherung in dieser Vignette ist sie daher nicht richtungsweisend.",
+          "term": "Endothelmikroskopie"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die Funduskopie erlaubt die direkte Beurteilung von Netzhaut, Makula und Papille. Bei plötzlichem schmerzlosem zentralem Skotom und vorbestehender Drusenmakulopathie kann sie eine makuläre Blutung oder andere AMD-typische Veränderungen sichtbar machen. Damit ist sie in der Erstdiagnostik am ehesten richtungsweisend.",
+          "term": "Funduskopie Makulabefund"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Gonioskopie dient der Beurteilung des Kammerwinkels, insbesondere bei Glaukomfragestellungen. Die Patientin hat jedoch ein schmerzloses zentrales Skotom, nicht Leitsymptome eines Winkelblockgeschehens. Ein makulärer Netzhautbefund wird damit nicht gesichert.",
+          "term": "Gonioskopie Kammerwinkel"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Tonometrie misst den Augeninnendruck und ist für Glaukomdiagnostik oder akute Druckkrisen wichtig. Ein erhöhter Augeninnendruck steht hier klinisch nicht im Vordergrund, da das Auge schmerzfrei ist und das Skotom zentral beschrieben wird. Die Methode klärt die vermutete Makulapathologie nicht ausreichend.",
+          "term": "Tonometrie Augeninnendruck"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Visusbestimmung quantifiziert die funktionelle Sehbeeinträchtigung und ist bei Augenbeschwerden grundsätzlich sinnvoll. Sie zeigt aber nicht die zugrunde liegende Strukturveränderung an Makula oder Netzhaut. Zur Sicherung der Diagnose ist der morphologische Fundusbefund entscheidender.",
+          "term": "Visusbestimmung"
+        }
+      ]
+    },
+    "5": {
+      "topicLabel": "Makulaverlauf Diagnostik",
+      "explanation": "Bei der Patientin besteht der Verdacht auf eine makuläre Erkrankung mit akuter zentraler Symptomatik, etwa eine submakuläre Blutung bei neovaskulärer AMD. Für Verlaufskontrollen eignen sich Verfahren, die Makulaanatomie, Blutungs-/Gefäßaktivität, fotografische Befunde oder funktionelle Sehschärfe beurteilen. Eine Ganzfeld-Elektroretinografie misst dagegen die globale retinale Funktion und ist für fokale Makulaveränderungen wenig geeignet. Deshalb ist sie unter den genannten Verfahren am wenigsten passend.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die Fluoreszenzangiografie der Makularegion kann Leckagen, neovaskuläre Aktivität und Durchblutungsphänomene im Bereich der Makula darstellen. Bei Verdacht auf eine exsudative oder blutungsassoziierte AMD-Komponente kann sie für Diagnostik und Verlauf hilfreich sein. Sie ist daher nicht die am wenigsten geeignete Option.",
+          "term": "Fluoreszenzangiografie Makula"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die Fundusfotografie dokumentiert makuläre und retinale Veränderungen bildlich. Gerade bei Blutungen, Drusen oder exsudativen Veränderungen kann sie den Verlauf gut vergleichbar machen. Für eine fokale Makulaerkrankung ist sie deutlich geeigneter als eine Ganzfeld-Funktionsmessung.",
+          "term": "Fundusfotografie Verlauf"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die Ganzfeld-Elektroretinografie erfasst die Summenantwort großer Netzhautareale und dient eher der Beurteilung diffuser retinaler Funktionsstörungen. Eine lokale Makulaveränderung kann trotz erheblicher zentraler Sehbeeinträchtigung im Ganzfeld-ERG unauffällig oder wenig aussagekräftig bleiben. Deshalb ist dieses Verfahren zur Verlaufskontrolle der makulären Erkrankung am wenigsten geeignet.",
+          "term": "Ganzfeld-ERG Makula"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die optische Kohärenztomografie der Makularegion zeigt Netzhaut- und subretinale Strukturen hochauflösend. Flüssigkeit, Blutungsfolgen, Pigmentepithelveränderungen und morphologische Therapieeffekte lassen sich damit besonders gut verfolgen. Sie ist deshalb ein sehr geeignetes Verlaufsverfahren.",
+          "term": "OCT Makula"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Visusbestimmung liefert eine einfache funktionelle Verlaufskontrolle der zentralen Sehfähigkeit. Sie ersetzt keine morphologische Bildgebung, ist aber bei Makulaerkrankungen klinisch relevant. Als am wenigsten geeignetes Verfahren kommt sie daher nicht in Betracht.",
+          "term": "Visus Verlaufskontrolle"
+        }
+      ]
+    },
+    "6": {
+      "topicLabel": "Submakuläre Blutung Therapie",
+      "explanation": "Die Konstellation aus plötzlichem schmerzlosem zentralem Skotom, bekannter Drusenmakulopathie und Antikoagulation spricht für eine submakuläre Blutung im Rahmen einer neovaskulären AMD oder einer verwandten makulären Blutungsursache. Nach Diagnosesicherung ist eine intravitreale Therapie mit Blutverflüssigung und pneumatischer Verdrängung, hier Alteplase plus SF6/Luft, am ehesten sinnvoll. Ziel ist, das Blut aus der Fovearegion zu verdrängen und toxische sowie mechanische Schäden an der zentralen Netzhaut zu begrenzen. Die anderen Maßnahmen betreffen völlig andere ophthalmologische Krankheitsbilder.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine chirurgische basale oder periphere Iridektomie wird bei bestimmten Glaukomsituationen eingesetzt, insbesondere zur Behandlung oder Prophylaxe eines Pupillarblocks. Die Patientin zeigt aber ein schmerzloses zentrales Skotom durch einen hinterabschnittsbezogenen Prozess. Eine Iridektomie behandelt die Makulablutung nicht.",
+          "term": "periphere Iridektomie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Keratoplastik à chaud ist eine dringliche Hornhauttransplantation bei schweren Hornhautprozessen, etwa nicht beherrschbarer infektiöser Einschmelzung. Die Symptomatik und Vorgeschichte sprechen nicht für eine Hornhauterkrankung. Der zentrale Visusverlust entsteht hier am ehesten durch einen Makulabefund.",
+          "term": "Keratoplastik à chaud"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die intravitreale Gabe von Alteplase kombiniert mit Gas oder Luft kann bei submakulärer Blutung eingesetzt werden, um das Blut zu verflüssigen und pneumatisch von der Fovea wegzuverlagern. Das passt zur akuten zentralen Symptomatik bei Drusenmakulopathie und Blutungsrisiko unter Antikoagulation. Unter den genannten Maßnahmen ist dies die zielgerichtete Therapie.",
+          "term": "Alteplase Gas submakuläre Blutung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Kataraktoperation im Intervall behandelt eine Linsentrübung mit allmählicher Visusminderung. Die Patientin berichtet jedoch über eine plötzlich aufgetretene zentrale Verdunklung und hat einen makulären Risikokontext. Eine Kataraktoperation wäre dafür nicht ursächlich therapeutisch.",
+          "term": "Kataraktoperation"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Kryokoagulation des Ziliarkörpers dient der Senkung der Kammerwasserproduktion bei schweren Glaukomen. Sie adressiert den Augeninnendruck, nicht eine submakuläre Blutung. Da ein Glaukomanfall klinisch nicht im Vordergrund steht, ist diese Option unpassend.",
+          "term": "Zyklokryokoagulation"
+        }
+      ]
+    },
+    "7": {
+      "topicLabel": "Syphilis Therapie",
+      "explanation": "Bei einer Syphilis im Stadium II ohne Hinweise auf Neurosyphilis oder okuläre Beteiligung ist ein parenterales Depot-Penicillin die Therapie der ersten Wahl. Penicillin wirkt zuverlässig gegen Treponema pallidum und ist bei fehlender Allergie den genannten oralen Alternativen vorzuziehen. Eine spezielle Therapie der Neurosyphilis ist nicht gefragt, weil hierfür kein Anhalt besteht. Makrolide und andere Antibiotika sind wegen Resistenz-, Wirksamkeits- oder Indikationsproblemen nicht die beste Erstlinientherapie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Amoxicillin ist kein Standard der ersten Wahl für die unkomplizierte frühe Syphilis in dieser Prüfungskonstellation. Auch wenn Beta-Laktame grundsätzlich gegen Treponemen wirken können, wird die gesicherte und empfohlene Therapie hier als Depot-Penicillin intramuskulär abgebildet. Bei fehlender Penicillinallergie gibt es keinen Grund, auf Amoxicillin auszuweichen.",
+          "term": "Amoxicillin Syphilis"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Azithromycin ist wegen Resistenzentwicklung und unsicherer Eradikation keine verlässliche Therapie der ersten Wahl bei Syphilis. Gerade bei einer gesicherten Syphilis II soll eine bewährte treponemizide Therapie gewählt werden. Ohne Allergie spricht dies für Penicillin.",
+          "term": "Azithromycin Syphilis Resistenz"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ciprofloxacin ist ein Fluorchinolon und nicht die geeignete Therapie gegen Treponema pallidum. Es wird bei bestimmten bakteriellen Infektionen eingesetzt, deckt die Syphilis aber nicht leitliniengerecht ab. Eine intravenöse Gabe wäre zudem für die beschriebene unkomplizierte Situation nicht passend.",
+          "term": "Ciprofloxacin"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Depot-Penicillin intramuskulär ist bei früher Syphilis ohne neurologische oder okuläre Manifestation die Therapie der ersten Wahl. Der Patient hat keine bekannte Unverträglichkeit, sodass die Standardtherapie angewendet werden kann. Diese Antwort trifft die Indikation am besten.",
+          "term": "Benzathin-Penicillin Syphilis II"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Erythromycin ist kein bevorzugtes Mittel zur Behandlung der Syphilis und gilt als weniger zuverlässig als Penicillin. Es wäre allenfalls in besonderen Ausweichsituationen zu diskutieren, nicht aber bei fehlender Medikamentenunverträglichkeit. Für die Erstlinientherapie ist es daher falsch.",
+          "term": "Erythromycin Syphilis"
+        }
+      ]
+    },
+    "8": {
+      "topicLabel": "Sexuell übertragene Infektionen",
+      "explanation": "Syphilis wird sexuell übertragen, und bei einer diagnostizierten STI sollte gezielt nach weiteren sexuell übertragbaren Erregern gesucht werden. Neisseria gonorrhoeae wird ebenfalls überwiegend durch sexuelle Kontakte übertragen und kann asymptomatisch oder oligosymptomatisch verlaufen. Bei dem Patienten mit gleichgeschlechtlicher Partnerschaft ist deshalb ein Screening auf Gonorrhö naheliegend. Die anderen Erreger haben andere Hauptübertragungswege oder passen weniger spezifisch zu einem STI-Koinfektionsscreening.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Borrelia burgdorferi wird typischerweise durch Zecken übertragen. Dieser Übertragungsweg entspricht nicht dem der Syphilis und begründet kein routinemäßiges Koinfektionsscreening bei einer STI. Die Option ist daher nicht naheliegend.",
+          "term": "Borrelia burgdorferi Zecken"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Giardia lamblia wird vor allem fäkal-oral übertragen, beispielsweise über kontaminiertes Wasser oder engen Kontakt mit infektiösem Material. Sexuelle Praktiken können in Einzelfällen eine Rolle spielen, es ist aber nicht generell der gleiche Hauptübertragungsweg wie bei Syphilis. Für die typische STI-Abklärung ist diese Option weniger passend.",
+          "term": "Giardia lamblia"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Das Hepatitis-A-Virus wird primär fäkal-oral übertragen. Es kann in bestimmten sexuellen Netzwerken gehäuft auftreten, ist aber nicht generell derselbe vorwiegend sexuelle Übertragungsweg wie bei Treponema pallidum. Unter den Antwortmöglichkeiten passt Neisseria gonorrhoeae besser.",
+          "term": "Hepatitis A Übertragung"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Neisseria gonorrhoeae ist der Erreger der Gonorrhö und wird vorwiegend sexuell übertragen. Bei nachgewiesener Syphilis sollte an Koinfektionen mit anderen STI gedacht und entsprechend getestet werden. Diese Option trifft den gesuchten gemeinsamen Übertragungsweg am besten.",
+          "term": "Gonorrhö STI-Screening"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Staphylococcus aureus gehört häufig zur Haut- und Schleimhautflora und verursacht vor allem Haut-, Weichteil- oder invasive Infektionen. Eine vorwiegend sexuelle Übertragung wie bei Syphilis ist nicht typisch. Daher ist er hier nicht der gesuchte Erreger.",
+          "term": "Staphylococcus aureus"
+        }
+      ]
+    },
+    "9": {
+      "topicLabel": "Syphilis Partnermanagement",
+      "explanation": "Bei Syphilis ist die Untersuchung und gegebenenfalls Mitbehandlung von Sexualpartnern ein wesentlicher Bestandteil des Managements. Dadurch werden Reinfektionen verhindert, Infektionsketten unterbrochen und bisher unerkannte Infektionen erkannt. Maßnahmen im allgemeinen häuslichen Umfeld sind dagegen nicht angezeigt, weil Syphilis nicht durch übliche Haushaltskontakte, Wäsche oder Raumluft übertragen wird. Eine Impfung gegen Syphilis existiert nicht.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine antimikrobielle Prophylaxe für alle Personen im häuslichen Umfeld ist bei Syphilis nicht indiziert. Die relevante Exposition betrifft Sexualkontakte, nicht normales Zusammenleben. Eine pauschale Antibiotikagabe wäre weder zielgerichtet noch angemessen.",
+          "term": "Syphilis Haushaltskontakte"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Das Waschen von Bettwäsche und Kleidung bei 60 Grad ist bei Erkrankungen mit Umwelt- oder Kontaktübertragung gelegentlich relevant. Syphilis wird jedoch nicht über Textilien im häuslichen Alltag übertragen. Diese Maßnahme unterbricht die entscheidende Infektionskette nicht.",
+          "term": "Syphilis Textilien"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine häusliche Isolation ist bei Syphilis nicht erforderlich. Die Übertragung erfolgt vor allem bei direktem sexuellem Kontakt mit infektiösen Läsionen beziehungsweise Schleimhautkontakt. Alltagskontakte rechtfertigen keine Isolation.",
+          "term": "Syphilis Isolation"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Impfung gegen Syphilis steht nicht zur Verfügung. Kontaktpersonen können daher nicht durch eine Impfung geschützt werden. Entscheidend sind Diagnostik, Beratung und gegebenenfalls Therapie der Sexualpartner.",
+          "term": "Syphilis Impfung"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Sexualpartner sollen informiert, untersucht und bei entsprechender Konstellation mitbehandelt werden. Das ist bei Syphilis zentral, weil asymptomatische Infektionen vorkommen und Reinfektionen sonst wahrscheinlich bleiben. Diese Maßnahme adressiert den tatsächlichen Übertragungsweg.",
+          "term": "Partnerbehandlung Syphilis"
+        }
+      ]
+    },
+    "10": {
+      "topicLabel": "Gehörgangsexostosen",
+      "explanation": "Die beidseitigen, über Jahre progredienten Beschwerden mit Zerumenimpaktion, Schallleitungsschwerhörigkeit und ohrmikroskopisch offenbar knöchernen Einengungen passen am besten zu Gehörgangsexostosen. Diese entstehen typischerweise nach wiederholter Kaltwasserexposition und werden klassisch bei Wassersportlern beobachtet. Ein Tauchlehrer hat eine entsprechende Anamnese am ehesten. Die übrigen Berufe können andere HNO-Risiken mit sich bringen, erklären aber die typische beidseitige Gehörgangseinengung weniger gut.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Förster ist häufig Kälte, Witterung oder Lärm durch Arbeitsgeräte ausgesetzt, aber nicht typischerweise wiederholtem Kaltwasserkontakt im äußeren Gehörgang. Gehörgangsexostosen sind besonders mit Wassersport assoziiert. Diese Option passt daher weniger gut.",
+          "term": "Förster HNO-Anamnese"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Ein Tauchlehrer ist regelmäßig Wasser, häufig auch kaltem Wasser, ausgesetzt. Wiederholte Kaltwasserreize können knöcherne Exostosen im äußeren Gehörgang fördern, die zu Zerumenretention, Druckgefühl und Schallleitungsschwerhörigkeit führen. Deshalb ist diese Anamnese am wahrscheinlichsten.",
+          "term": "Surfer's Ear Gehörgangsexostosen"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Bauarbeiter kann Lärmexposition haben, was eher eine Innenohrschwerhörigkeit begünstigen würde. Die Frage beschreibt jedoch eine geringgradige Schallleitungsschwerhörigkeit nach Gehörgangsverlegung. Das spricht eher für ein mechanisches Problem im äußeren Gehörgang als für beruflichen Lärm.",
+          "term": "Lärmexposition Bauarbeiter"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Musiker können durch Lärm oder laute Musik eine cochleäre Schädigung entwickeln. Eine beidseitige knöcherne Einengung des äußeren Gehörgangs mit Zerumenimpaktion wird dadurch aber nicht erklärt. Die typische Exposition fehlt.",
+          "term": "Musiker Lärmschwerhörigkeit"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Piloten sind eher mit Druckausgleichsproblemen, Barotrauma oder Tubenfunktionsstörungen konfrontiert. Die ohrmikroskopisch sichtbaren beidseitigen Gehörgangsveränderungen und Zerumenretention passen dazu nicht primär. Ein Wassersportberuf ist deutlich plausibler.",
+          "term": "Pilot Barotrauma"
+        }
+      ]
+    },
+    "11": {
+      "topicLabel": "Gehörgangsexostosen CT",
+      "explanation": "Bei vermuteten Gehörgangsexostosen ist zur Therapieplanung eine Darstellung der knöchernen Anatomie entscheidend. Die Computertomografie zeigt Ausmaß, Lokalisation und Beziehung der knöchernen Einengungen zum Trommelfell und Mittelohr besonders gut. Das ist relevant, wenn operative Maßnahmen erwogen werden oder die Beurteilung unter ohrmikroskopischer Sicht eingeschränkt ist. Weichteil-, Infektions- oder Hörnervenverfahren beantworten diese Planungsfrage weniger gezielt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Magnetresonanztomografie ist besonders stark in der Weichteil- und Nervenbeurteilung. Für knöcherne Exostosen des äußeren Gehörgangs ist sie jedoch nicht die primäre Planungsuntersuchung. Die CT bildet Knochen deutlich geeigneter ab.",
+          "term": "MRT Gehörgang"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Abstrich wäre bei Verdacht auf eine infektiöse Otitis externa sinnvoll. Die geschilderten chronischen beidseitigen knöchernen Veränderungen mit Schallleitungsschwerhörigkeit benötigen aber eine anatomische Therapieplanung. Ein mikrobiologischer Abstrich liefert diese Information nicht.",
+          "term": "Ohrabstrich"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die Computertomografie ist zur Darstellung der knöchernen Strukturen des äußeren Gehörgangs am besten geeignet. Sie zeigt das Ausmaß der Exostosen und hilft, einen möglichen operativen Zugang zu planen. Damit ist sie hier die zielführendste Diagnostik.",
+          "term": "CT Felsenbein Gehörgang"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Biopsie mit Histologie ist bei unklaren, tumorverdächtigen oder entzündlich-infiltrativen Befunden zu erwägen. Exostosen sind jedoch gutartige knöcherne Umbauten mit typischer Anamnese und Morphologie. Für die Therapieplanung ist die Bildgebung wichtiger als eine Gewebeprobe.",
+          "term": "Biopsie Gehörgang"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Brainstem Evoked Response Audiometry prüft die Hörbahn bis zum Hirnstamm und wird etwa bei retrocochleären Fragestellungen eingesetzt. Bei einer mechanischen Schallleitungsschwerhörigkeit durch Gehörgangseinengung ist sie nicht die passende Planungsdiagnostik. Die knöcherne Anatomie wird damit nicht dargestellt.",
+          "term": "BERA"
+        }
+      ]
+    },
+    "12": {
+      "topicLabel": "Gehörgangsexostosen Komplikation",
+      "explanation": "Gehörgangsexostosen verengen den äußeren Gehörgang und begünstigen dadurch Wasser- und Zerumenretention. Diese Stauung kann rezidivierende Entzündungen des äußeren Gehörgangs auslösen, also eine Otitis externa. Die Schallleitungsschwerhörigkeit entsteht ebenfalls durch die mechanische Einengung und Retention. Komplikationen des Mittelohres oder der Tube sind demgegenüber nicht die typische Folge dieser Erkrankung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Mastoiditis ist meist eine Komplikation einer akuten oder chronischen Otitis media. Gehörgangsexostosen betreffen primär den äußeren Gehörgang und führen nicht typischerweise zu einer Entzündung des Mastoids. Diese Option passt daher nicht am besten.",
+          "term": "Mastoiditis"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Durch die Einengung des äußeren Gehörgangs können Wasser, Detritus und Zerumen schlechter abfließen. Das schafft ein Milieu, das Entzündungen des äußeren Gehörgangs begünstigt. Eine Otitis externa ist deshalb die naheliegende Komplikation.",
+          "term": "Otitis externa Exostosen"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Arrosion der Gehörknöchelchen ist eher bei chronisch destruktiven Mittelohrprozessen wie einem Cholesteatom zu erwarten. Exostosen liegen im äußeren Gehörgang und wachsen nicht typischerweise destruktiv in die Gehörknöchelchenkette ein. Daher ist diese Komplikation weniger plausibel.",
+          "term": "Gehörknöchelchenarrosion"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Trommelfellperforation kann durch Infektionen, Trauma oder Barotrauma entstehen. Gehörgangsexostosen verursachen vor allem eine Einengung vor dem Trommelfell mit Retentionsproblemen. Eine Perforation ist nicht die typische erwartete Komplikation.",
+          "term": "Trommelfellperforation"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Tubenbelüftungsstörung betrifft die Verbindung zwischen Nasopharynx und Mittelohr. Sie erklärt Mittelohrdruckprobleme, nicht primär die knöcherne Einengung des äußeren Gehörgangs. Der Mechanismus der Erkrankung führt eher zur Otitis externa.",
+          "term": "Tubenbelüftungsstörung"
+        }
+      ]
+    },
+    "13": {
+      "topicLabel": "NF1 Erbgang",
+      "explanation": "Neurofibromatose Typ 1 wird autosomal-dominant vererbt. Wenn bei der Patientin eine pathogene NF1-Variante nachgewiesen ist, trägt sie typischerweise eine krankheitsverursachende Variante in einem der beiden Allele. Jedes Kind erhält zufällig eines ihrer beiden NF1-Allele. Damit beträgt das Wiederholungsrisiko für die Vererbung der pathogenen Variante bei jedem Kind am ehesten 50 Prozent.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Risiko von 0 Prozent wäre nur plausibel, wenn die Patientin die pathogene Variante nicht in ihren Keimzellen weitergeben könnte oder keine genetische Ursache vorläge. Hier ist die NF1-Variante molekulargenetisch nachgewiesen. Daher besteht ein relevantes Vererbungsrisiko.",
+          "term": "NF1 Vererbungsrisiko"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Risiko von 1-3 Prozent entspricht eher bestimmten Keimzellmosaik- oder Wiederholungsrisiko-Konstellationen bei gesunden Eltern nach einem betroffenen Kind. Die Patientin selbst ist betroffen und trägt die pathogene Variante. Für ihre Kinder ist das Risiko daher deutlich höher.",
+          "term": "Keimzellmosaik Risiko"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Risiko von 12,5 Prozent passt nicht zum autosomal-dominanten Erbgang einer heterozygot betroffenen Person. Bei unabhängiger Weitergabe eines Allels liegt die Wahrscheinlichkeit pro Kind nicht bei einem Achtel. Diese Zahl würde den Erbgang falsch abbilden.",
+          "term": "autosomal-dominanter Erbgang"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Risiko von 25 Prozent ist typisch für viele autosomal-rezessive Konstellationen mit zwei heterozygoten Eltern. NF1 wird jedoch autosomal-dominant vererbt. Eine betroffene heterozygote Mutter gibt die Variante im Mittel mit einer Wahrscheinlichkeit von 50 Prozent weiter.",
+          "term": "autosomal-rezessiv 25 Prozent"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Bei autosomal-dominanter Neurofibromatose Typ 1 hat jedes Kind einer betroffenen Person ein 50-prozentiges Risiko, die pathogene NF1-Variante zu erben. Das gilt pro Schwangerschaft jeweils neu. Die klinische Ausprägung kann variabel sein, ändert aber nicht die Vererbungswahrscheinlichkeit.",
+          "term": "Neurofibromatose Typ 1 50 Prozent"
+        }
+      ]
+    },
+    "14": {
+      "topicLabel": "NF1 Klinik",
+      "explanation": "Zu den charakteristischen Zeichen der Neurofibromatose Typ 1 gehören Café-au-lait-Flecken, axilläres oder inguinales Freckling, kutane Neurofibrome und Lisch-Knötchen der Iris. Die Patientin zeigt bereits mehrere typische Kriterien, und die Frage sucht ein weiteres klassisches klinisches Zeichen. Lisch-Knötchen sind harmlose pigmentierte Irishamartome und passen genau zu NF1. Die übrigen Begriffe gehören eher zu anderen Syndromen oder sind keine Leitsymptome der NF1.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Lisch-Knötchen sind pigmentierte Hamartome der Iris und ein klassisches Zeichen der Neurofibromatose Typ 1. Sie sind diagnostisch hilfreich, verursachen meist keine relevante Sehbeeinträchtigung und passen gut zur beschriebenen klinischen Verdachtsdiagnose. Diese Option ist deshalb richtig.",
+          "term": "Lisch-Knötchen NF1"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Iris stellata bezeichnet eine auffällige sternförmige Irisstruktur, die klassisch mit anderen genetischen Syndromen assoziiert wird. Sie ist kein typisches diagnostisches Merkmal der Neurofibromatose Typ 1. Bei NF1 sind Lisch-Knötchen der relevante Irisbefund.",
+          "term": "Iris stellata"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Mikrozephalie ist kein charakteristisches Leitsymptom der NF1. Bei NF1 können neurologische, ophthalmologische und tumorassoziierte Manifestationen auftreten, aber die typische äußere Zeichenkombination ist eine andere. Daher ist diese Option nicht passend.",
+          "term": "Mikrozephalie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Fallot-Tetralogie ist ein angeborener Herzfehler und nicht typisch für Neurofibromatose Typ 1. Sie kann in anderen syndromalen Zusammenhängen vorkommen, erklärt aber die NF1-typische Haut- und Irismanifestation nicht. Als charakteristisches NF1-Zeichen ist sie falsch.",
+          "term": "Fallot-Tetralogie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Synophrys, also zusammengewachsene Augenbrauen, ist ein dysmorphologisches Zeichen, aber kein klassisches NF1-Kriterium. Die Patientin hat typische NF1-Hautbefunde; gesucht ist ein weiteres etabliertes Zeichen. Das sind hier die Lisch-Knötchen.",
+          "term": "Synophrys"
+        }
+      ]
+    },
+    "15": {
+      "topicLabel": "NF1 Tumorrisiko",
+      "explanation": "Neurofibromatose Typ 1 ist mit einem erhöhten Risiko für bestimmte Tumoren assoziiert, darunter Optikusgliome und maligne periphere Nervenscheidentumoren. Bei Kindern und jungen Patientinnen sind Optikusgliome ein besonders klassischer NF1-assoziierter Tumor. Die Frage sucht unter den genannten Optionen denjenigen Tumor mit dem stärksten Zusammenhang zur NF1. Harnblasen-, Pankreas-, Basalzellkarzinome oder Melanome sind keine typischen Leittumoren der NF1 in diesem Kontext.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Harnblasenkarzinom hat keinen typischen engen Zusammenhang mit Neurofibromatose Typ 1. Risikofaktoren und Pathogenese unterscheiden sich deutlich von den NF1-assoziierten Nervenscheiden- und Sehnerventumoren. Diese Option ist daher nicht die beste Antwort.",
+          "term": "Harnblasenkarzinom"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Melanome sind maligne Tumoren der Melanozyten und werden vor allem mit UV-Exposition, Hauttyp und bestimmten genetischen Prädispositionen verbunden. Sie sind nicht der klassische Tumor, nach dem bei NF1 in Prüfungsfragen gefragt wird. Der Zusammenhang ist für Optikusgliome wesentlich typischer.",
+          "term": "Melanom"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Optikusgliome gehören zu den typischen Tumormanifestationen der Neurofibromatose Typ 1. Sie können den Sehnerv oder das Chiasma betreffen und sind ein wichtiger Grund für ophthalmologische Aufmerksamkeit bei NF1. Unter den Optionen besteht hier der klarste Zusammenhang.",
+          "term": "Optikusgliom NF1"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Basalzellkarzinome sind häufige UV-assoziierte Hauttumoren und bei bestimmten anderen genetischen Syndromen besonders relevant. Sie gehören jedoch nicht zu den charakteristischen Tumorrisiken der NF1. Die vorhandenen Hautknoten bei NF1 entsprechen typischerweise Neurofibromen.",
+          "term": "Basalzellkarzinom"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Pankreaskarzinom ist kein klassischer NF1-assoziierter Tumor in dieser Fragestellung. Zwar können bei genetischen Erkrankungen verschiedenste Tumorrisiken diskutiert werden, prüfungsrelevant für NF1 sind aber vor allem Optikusgliome und Nervenscheidentumoren. Daher ist diese Option nicht am ehesten richtig.",
+          "term": "Pankreaskarzinom"
+        }
+      ]
+    },
+    "16": {
+      "topicLabel": "Carbamazepin Hyponatriämie",
+      "explanation": "Carbamazepin ist eine typische Therapieoption bei klassischer Trigeminusneuralgie, kann aber eine Hyponatriämie auslösen, häufig über eine SIADH-ähnliche Wirkung. Das Risiko ist bei älteren Patientinnen und unter zusätzlicher diuretischer Medikation wie Hydrochlorothiazid besonders relevant. Deshalb sollte der Natriumwert vor Beginn und kurz nach Therapiebeginn kontrolliert werden. Die anderen Laborwerte können in anderen Zusammenhängen wichtig sein, erfassen aber nicht die typische frühe relevante Nebenwirkung dieser Konstellation.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "TSH ist für Schilddrüsenfunktionsstörungen relevant. Carbamazepin kann zwar verschiedene Stoffwechsel- und Interaktionsphänomene beeinflussen, die in dieser Frage typische und akut zu überwachende Nebenwirkung ist jedoch die Hyponatriämie. TSH ist daher nicht der primäre Kontrollwert.",
+          "term": "TSH"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Natrium sollte kontrolliert werden, weil Carbamazepin eine Hyponatriämie verursachen kann. Bei gleichzeitiger Hydrochlorothiazid-Einnahme ist diese Überwachung besonders naheliegend, da Thiazide ebenfalls Hyponatriämien begünstigen. Der Wert passt genau zur gesuchten typischen unerwünschten Arzneimittelwirkung.",
+          "term": "Natrium Carbamazepin SIADH"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "CK dient vor allem der Beurteilung von Muskelschädigungen, etwa bei Myopathien, Rhabdomyolyse oder bestimmten Medikamentennebenwirkungen. Eine CK-Erhöhung ist nicht die typische Überwachungsproblematik bei Beginn einer Carbamazepintherapie. Die Elektrolytkontrolle ist hier wichtiger.",
+          "term": "Kreatinkinase"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Kalium ist bei ACE-Hemmer- und Diuretikatherapie grundsätzlich ein relevanter Elektrolyt. Die charakteristische Carbamazepin-Nebenwirkung in dieser Frage ist aber die Hyponatriämie, nicht primär eine Kaliumstörung. Deshalb ist Kalium nicht die beste Antwort.",
+          "term": "Kalium"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die alkalische Phosphatase kann bei Leber- oder Knochenerkrankungen erhöht sein. Carbamazepin kann zwar hepatische Effekte haben, die in der Vignette gezielt abgefragte typische frühe Nebenwirkung ist aber die Störung des Natriumhaushalts. Daher ist dieser Laborwert nicht vorrangig.",
+          "term": "alkalische Phosphatase"
+        }
+      ]
+    },
+    "17": {
+      "topicLabel": "Trigeminusneuralgie Warnzeichen",
+      "explanation": "Bei Trigeminusneuralgie sprechen neurologische Zusatzsymptome oder atypische Befallsmuster für eine symptomatische Ursache und sollten bildgebend abgeklärt werden. Dazu zählen sensible Defizite, Begleitzeichen anderer Hirnnerven oder Hirnstammfunktionen sowie bilaterale Schmerzattacken. Eine Manifestation im höheren Lebensalter passt dagegen eher zum üblichen Altersprofil einer klassischen Trigeminusneuralgie und ist für sich genommen kein typisches Zeichen einer symptomatischen Form. Deshalb ist die Manifestation nach dem 75. Lebensjahr hier die gesuchte Ausnahme.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein sensibles Defizit im Gesicht ist für eine rein klassische Trigeminusneuralgie untypisch. Es weist auf eine strukturelle Schädigung des Trigeminussystems hin und sollte Anlass zur Abklärung einer symptomatischen Ursache geben. Diese Option zählt daher eher zu Warnzeichen.",
+          "term": "sensibles Defizit Trigeminus"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine einseitige Hyperakusis kann auf eine Mitbeteiligung benachbarter Hirnnerven- oder Hirnstammstrukturen hinweisen. Solche neurologischen Begleitsymptome passen nicht zu einer unkomplizierten klassischen Trigeminusneuralgie. Sie sprechen deshalb eher für eine symptomatische Abklärung.",
+          "term": "Hyperakusis Hirnnerven"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Vestibuläre Störungen sind Begleitsymptome außerhalb des reinen Trigeminusschmerzsyndroms. Wenn Schwindel oder Gleichgewichtsstörungen zusammen mit trigeminalen Schmerzen auftreten, muss an eine Läsion im Kleinhirnbrückenwinkel oder Hirnstamm gedacht werden. Das ist ein typisches Warnsignal für eine symptomatische Form.",
+          "term": "vestibuläre Störung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Bilaterale Schmerzattacken sind bei der klassischen Trigeminusneuralgie ungewöhnlich. Sie können auf entzündliche, demyelinisierende oder andere strukturelle Ursachen hinweisen. Daher gehören sie eher zu den Zeichen, die eine Bildgebung nahelegen.",
+          "term": "bilaterale Trigeminusneuralgie"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Eine Manifestation nach dem 75. Lebensjahr ist nicht typisch verdächtig für eine symptomatische Trigeminusneuralgie. Die klassische Trigeminusneuralgie tritt eher im höheren Lebensalter auf, sodass Alter allein hier kein spezifisches Warnzeichen darstellt. Im Gegensatz zu neurologischen Defiziten oder bilateralem Befall ist dies die gesuchte Ausnahme.",
+          "term": "klassische Trigeminusneuralgie Alter"
+        }
+      ]
+    },
+    "18": {
+      "topicLabel": "EBV-Tonsillitis",
+      "explanation": "Ein junger Patient mit progredienten Schluckbeschwerden, Fieber, ausgeprägter Lymphadenopathie und tonsillärem Befund passt gut zu einer infektiösen Mononukleose durch EBV. Die EBV-Serologie ist zur labordiagnostischen Abklärung dieser Verdachtsdiagnose am ehesten geeignet. Gerade bei exsudativer Tonsillitis im Jugend- oder jungen Erwachsenenalter sollte EBV differenzialdiagnostisch berücksichtigt werden. Die übrigen Tests passen weniger zu der beschriebenen Klinik oder zu den typischen Differenzialdiagnosen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine RSV-PCR aus dem Rachenabstrich ist bei respiratorischen Infekten, insbesondere im Kindesalter oder bei vulnerablen Patienten, relevant. RSV verursacht aber nicht typischerweise das Bild einer ausgeprägten exsudativen Tonsillitis mit generalisierter zervikaler Lymphadenopathie beim jungen Erwachsenen. Diese Diagnostik ist daher nicht am ehesten indiziert.",
+          "term": "RSV-PCR"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die EBV-Serologie passt zur Verdachtsdiagnose einer infektiösen Mononukleose. Fieber, starke Schluckbeschwerden, Lymphknotenschwellungen und ein auffälliger Tonsillenbefund sind typische Hinweise. Sie ist daher die naheliegendste labordiagnostische Untersuchung.",
+          "term": "EBV-Serologie Mononukleose"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Lues-Serologie wäre bei Verdacht auf Syphilismanifestationen indiziert, etwa bei passenden Schleimhautläsionen oder Risikokonstellation. Die akute febrile Tonsillitis mit ausgeprägter Lymphadenopathie spricht hier aber eher für EBV. Deshalb ist diese Untersuchung nicht die beste erste Wahl.",
+          "term": "Lues-Serologie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine HSV-PCR aus einem Rachenabstrich wäre bei typischen schmerzhaften vesikulären oder ulzerierenden Läsionen sinnvoll. Die Vignette legt jedoch eher eine mononukleoseartige Tonsillitis nahe. HSV ist damit weniger wahrscheinlich als EBV.",
+          "term": "HSV-PCR Rachen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "CMV kann ein mononukleoseähnliches Krankheitsbild verursachen. Bei einem immunkompetenten jungen Erwachsenen mit ausgeprägter Tonsillitis ist EBV aber die klassischere und wahrscheinlichere Ursache. Deshalb ist die EBV-Serologie hier der CMV-Serologie vorzuziehen.",
+          "term": "CMV-Serologie"
+        }
+      ]
+    },
+    "19": {
+      "topicLabel": "Angina Plaut-Vincent",
+      "explanation": "Die Angina Plaut-Vincent ist typischerweise eine einseitige ulzerös-nekrotisierende Tonsillitis mit oft relativ geringer Allgemeinsymptomatik im Vergleich zum Lokalbefund. In der vorliegenden Vignette passen Alter, Schluckbeschwerden, Rötung und Belagsfarbe nicht so klar gegen diese Differenzialdiagnose. Am stärksten spricht jedoch die Beidseitigkeit der Beläge dagegen, weil Plaut-Vincent klassischerweise unilateral auftritt. Dieser Befund lenkt eher zu anderen Tonsillitiden wie einer EBV-assoziierten oder bakteriellen exsudativen Tonsillitis.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Schluckbeschwerden können bei vielen Tonsillitiden auftreten, auch bei einer Angina Plaut-Vincent. Sie sprechen daher nicht spezifisch gegen diese Erkrankung. Als Gegenargument ist die Verteilung der Beläge deutlich stärker.",
+          "term": "Schluckbeschwerden Tonsillitis"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Das junge Erwachsenenalter passt grundsätzlich zu infektiösen Tonsillitiden und schließt eine Angina Plaut-Vincent nicht aus. Das Alter des Patienten ist daher kein starkes Gegenargument. Entscheidend ist eher die typische Einseitigkeit der Plaut-Vincent-Angina.",
+          "term": "Plaut-Vincent Alter"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Beidseitige Beläge sprechen am ehesten gegen eine Angina Plaut-Vincent, da diese klassischerweise einseitig ulzerös-nekrotisierend auftritt. Ein bilaterales exsudatives Bild passt besser zu anderen Formen der Tonsillitis, insbesondere in der EBV-Differenzialdiagnose. Diese Option ist daher das stärkste Gegenargument.",
+          "term": "einseitige Plaut-Vincent-Angina"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Rötung der Gaumenbogenschleimhaut ist bei entzündlichen Rachen- und Tonsillenprozessen unspezifisch. Sie kann Begleitbefund verschiedener Tonsillitiden sein und spricht nicht gezielt gegen Plaut-Vincent. Für die Abgrenzung ist die bilaterale Ausdehnung wichtiger.",
+          "term": "Gaumenbogenrötung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Farbe des Tonsillenbelags kann bei der Plaut-Vincent-Angina auffällig schmutzig-grau oder grünlich imponieren und ist je nach Bildbefund nicht zwingend ein Gegenargument. Ohne die Abbildung ist aus den Optionen vor allem die Beidseitigkeit diagnostisch trennscharf. Daher ist diese Antwort nicht am ehesten richtig.",
+          "term": "Tonsillenbelag Plaut-Vincent"
+        }
+      ]
+    },
+    "20": {
+      "topicLabel": "EBV Ampicillinexanthem",
+      "explanation": "Bei vermuteter infektiöser Mononukleose durch EBV ist nach Gabe von Ampicillin oder Amoxicillin typischerweise ein morbilliformes Exanthem zu erwarten. Dieses Exanthem ist klassisch prüfungsrelevant und tritt im Zusammenhang mit Aminopenicillinen bei EBV-Infektion besonders häufig auf. Es ist nicht gleichbedeutend mit einer klassischen IgE-vermittelten Penicillinallergie, sollte aber klinisch erkannt werden. Die anderen genannten unerwünschten Wirkungen sind für diese Kombination aus vermuteter Erkrankung und Ampicillin nicht typisch.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine granulomatöse Vaskulitis ist keine typische häufige Reaktion auf Ampicillin bei EBV-Infektion. Vaskulitische Arzneimittelreaktionen sind möglich, aber in dieser klassischen Konstellation nicht die erwartete Nebenwirkung. Das morbilliforme Exanthem ist deutlich passender.",
+          "term": "granulomatöse Vaskulitis"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Alpha-1-Antitrypsin-Mangel ist eine genetische Erkrankung und keine unerwünschte Wirkung einer Ampicillintherapie. Er wird nicht durch ein Antibiotikum ausgelöst. Diese Option ist daher inhaltlich unplausibel.",
+          "term": "Alpha-1-Antitrypsin-Mangel"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Angioödem kann als allergische oder pseudoallergische Reaktion auf Medikamente auftreten. Im Zusammenhang mit EBV und Ampicillin ist aber nicht das Angioödem die typische häufige Reaktion, sondern ein makulopapulös-morbilliformes Exanthem. Daher ist diese Option nicht am wahrscheinlichsten.",
+          "term": "Angioödem"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Cholestasesyndrom kann bei bestimmten Arzneimitteln als Nebenwirkung vorkommen, ist aber nicht die klassische häufige Reaktion auf Ampicillin bei infektiöser Mononukleose. Die Fallfrage zielt auf den bekannten Hautausschlag nach Aminopenicillin-Gabe bei EBV. Deshalb ist diese Option nicht richtig.",
+          "term": "Cholestase Arzneimittel"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Ein morbilliformes Exanthem ist die typische unerwünschte Reaktion nach Ampicillin- oder Amoxicillingabe bei vermuteter EBV-Infektion. Die Vignette mit jungem Patienten, Fieber, Lymphadenopathie und Tonsillitis macht diese Diagnose wahrscheinlich. Daher ist diese Antwort am wahrscheinlichsten.",
+          "term": "Ampicillinexanthem EBV"
+        }
+      ]
+    }
+  }
+}

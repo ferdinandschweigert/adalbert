@@ -1,0 +1,745 @@
+{
+  "examId": "m2-2025a-staatsexamen",
+  "questions": {
+    "81": {
+      "topicLabel": "Primär progrediente Aphasie",
+      "explanation": "Der Fall beschreibt eine über Jahre langsam progrediente, zunächst isolierte Sprachstörung mit Wortfindungs- und Benennstörungen, später auch grammatikalischen Fehlern sowie Dyslexie und Dysgrafie. Andere kognitive Domänen wie Gedächtnis, Praxie sowie Raum- und Ortsorientierung sind im Alltag und im Mini-Mental-Status-Test weitgehend erhalten. Das Nachsprechen ist möglich und es besteht keine Dysarthrie, sodass die Störung nicht primär motorisch-artikulatorisch erklärt wird. Die linksbetonte anteriore Temporallappenatrophie passt besonders zu einer semantischen Variante der primär progredienten Aphasie im Spektrum der frontotemporalen Lobärdegeneration. Entscheidend ist die Kombination aus fokaler Sprachdegeneration, langsamem Verlauf und fehlender früh führender globaler Demenzsymptomatik.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Lewy-Körperchen-Demenz zeigt typischerweise fluktuierende Kognition, visuelle Halluzinationen, Parkinson-Symptome und häufig eine REM-Schlaf-Verhaltensstörung. Eine über Jahre isolierte Aphasie mit linksbetonter anteriorer Temporallappenatrophie steht dafür nicht im Vordergrund. Auch der unauffällige übrige neurologische und kognitive Befund spricht gegen diese Diagnose.",
+          "term": "Lewy-Körperchen-Demenz"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Bei der Alzheimer-Erkrankung ist meist früh das episodische Gedächtnis betroffen, später kommen weitere kognitive Einbußen hinzu. Zwar kann Alzheimer auch Sprachsymptome verursachen, die hier geschilderte langjährige, relativ isolierte Sprachstörung mit anterior-temporaler Atrophie ist jedoch typischer für eine primär progrediente Aphasie. Der Mini-Mental-Status-Test zeigt gerade keine breitere Demenzkonstellation.",
+          "term": "Alzheimer-Erkrankung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine limbische Enzephalitis verläuft meist subakut und geht häufig mit Gedächtnisstörungen, epileptischen Anfällen, psychiatrischen Symptomen oder Bewusstseinsveränderungen einher. Der über 3 Jahre langsam progrediente Verlauf ohne sonstige neurologische Auffälligkeiten passt nicht dazu. Auch die MRT-Beschreibung spricht eher für eine degenerative Atrophie als für eine entzündliche Enzephalitis.",
+          "term": "limbische Enzephalitis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Das kortikobasale Syndrom führt typischerweise zu asymmetrischer Rigidität, Apraxie, Dystonie, Myoklonien oder einem Alien-limb-Phänomen. Solche motorischen oder apraktischen Leitsymptome werden ausdrücklich nicht beschrieben. Die isolierte Sprachsymptomatik und die anteriore Temporallappenatrophie weisen in eine andere Richtung.",
+          "term": "kortikobasales Syndrom"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Die primär progrediente Aphasie ist eine neurodegenerative Erkrankung, bei der Sprachstörungen über längere Zeit das führende und oft zunächst isolierte Defizit sind. Benennstörungen, Fehler beim Schreiben und Lesen sowie eine linksbetonte temporale Atrophie passen gut zu diesem Krankheitsbild. Dass Gedächtnis, Orientierung und Praxie erhalten sind, stützt die Diagnose zusätzlich.",
+          "term": "primär progrediente Aphasie"
+        }
+      ]
+    },
+    "82": {
+      "topicLabel": "Serotonerges Syndrom",
+      "explanation": "Julia erhält seit einer Woche Sertralin, also einen selektiven Serotonin-Wiederaufnahmehemmer. Die plötzlich auftretende Desorientierung, Unruhe und Erregung zusammen mit Kopfschmerzen und Übelkeit ist in diesem Kontext verdächtig auf ein serotonerges Syndrom. Typischerweise handelt es sich um ein akutes, medikamentös ausgelöstes toxisches Syndrom mit psychischen Veränderungen, vegetativen Symptomen und neuromuskulären Auffälligkeiten. Auch wenn nicht alle klassischen Zeichen im Fragetext genannt sind, ist die zeitliche Beziehung zur SSRI-Einnahme der entscheidende Hinweis. Die Diagnose ist als Verdachtsdiagnose besonders wichtig, weil ein Fortschreiten potenziell gefährlich sein kann.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Panikattacke kann Unruhe, Angst, vegetative Beschwerden und körperliche Missempfindungen auslösen. Desorientierung kurz nach Beginn einer serotonergen Medikation ist dafür aber untypisch. Zudem erklärt eine Panikattacke die Kombination aus akuter Verwirrtheit, Übelkeit und Kopfschmerzen im SSRI-Kontext schlechter.",
+          "term": "Panikattacke"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine somatoforme Störung beschreibt anhaltende körperliche Beschwerden, die nicht ausreichend durch organische Befunde erklärt werden. Der akute Beginn mit Bewusstseins- bzw. Orientierungsstörung passt nicht zu einer primär somatoformen Erklärung. Die neue serotonerge Medikation liefert eine deutlich plausiblere Ursache.",
+          "term": "somatoforme Störung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Anpassungsstörung entsteht als psychische Reaktion auf belastende Lebensereignisse und zeigt typischerweise depressive, ängstliche oder Verhaltenssymptome. Eine plötzliche Desorientierung mit Übelkeit und Kopfschmerzen kurz nach Sertralinbeginn ist dadurch nicht ausreichend erklärt. Der klinische Verlauf spricht eher für ein medikamentös-toxisches Syndrom.",
+          "term": "Anpassungsstörung"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Das serotonerge Syndrom kann nach Beginn oder Dosisänderung serotonerger Medikamente auftreten. Typisch sind mentale Veränderungen wie Unruhe, Erregung oder Verwirrtheit, vegetative Beschwerden wie Übelkeit und Kopfschmerzen sowie häufig neuromuskuläre Zeichen. Die zeitliche Nähe zur Sertralintherapie macht diese Verdachtsdiagnose am wahrscheinlichsten.",
+          "term": "serotonerges Syndrom"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Hypertonie kann Kopfschmerzen begünstigen, erklärt aber die akute Desorientierung und Erregung nicht als eigenständige Verdachtsdiagnose. Im Fragetext wird kein erhöhter Blutdruck genannt. Der medikamentöse Kontext ist hier diagnostisch viel stärker.",
+          "term": "Hypertonie"
+        }
+      ]
+    },
+    "83": {
+      "topicLabel": "Gewalt gegen den Hals",
+      "explanation": "Petechien in den Augenbindehäuten und Lidhäuten sind klassische Stauungszeichen, die bei einer Behinderung des venösen Abflusses am Hals auftreten können. Vertrocknungen an der Halshaut können auf Druck- oder Kontaktspuren hinweisen und sind bei einer Leichenschau besonders ernst zu nehmen. Die Auffindesituation im Bett, der gute Pflegezustand und Vorerkrankungen schließen eine nichtnatürliche Todesart keineswegs aus. Da keine Reanimation stattgefunden hat, lassen sich die Befunde nicht durch entsprechende Maßnahmen erklären. Die Konstellation ist daher verdächtig auf todesursächliche Gewalt gegen den Hals und muss entsprechend als nicht natürlich bzw. ungeklärt behandelt werden.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Selbsterwürgen ist als Suizidmechanismus extrem untypisch, weil nach Bewusstseinsverlust die aktive Kraftanwendung nachlässt. Bei Stauungszeichen und Halshautveränderungen steht deshalb eher Fremdeinwirkung oder eine andere äußere Gewalteinwirkung im Vordergrund. Als naheliegendste Schlussfolgerung trägt diese Option die Befundkonstellation nicht.",
+          "term": "Selbsterwürgen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine natürliche Todesart darf nur angenommen werden, wenn sich ein Tod aus innerer krankhafter Ursache ohne Hinweise auf äußere Einwirkung plausibel ergibt. Petechien und Halshautveränderungen sind aber Warnbefunde. Zahlreiche Vorerkrankungen allein reichen daher nicht aus, um eine natürliche Todesart anzunehmen.",
+          "term": "natürliche Todesart"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Stauungspetechien an Konjunktiven und Lidern zusammen mit Veränderungen an der Halshaut sind verdächtig auf eine Halskompression. Solche Befunde können bei Strangulation, Würgen oder Drosseln vorkommen. Deshalb ist die Schlussfolgerung einer möglichen todesursächlichen Gewalt gegen den Hals am ehesten geboten.",
+          "term": "todesursächliche Gewalt gegen den Hals"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Suizid mit nachträglicher Spurenbeseitigung durch den Sohn ist eine spekulative Annahme ohne Befundgrundlage. Die Aufgabe fragt nach der naheliegenden Schlussfolgerung aus den objektiven Leichenschauzeichen. Diese Befunde verlangen vor allem die Abklärung einer Halsgewalt, nicht eine unbelegte Rekonstruktion eines Suizids.",
+          "term": "Suizid mit Spurenbeseitigung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine dekompensierte Herzinsuffizienz kann zu Luftnot, Ödemen oder Zeichen chronischer Stauung führen. Die beschriebenen Petechien an Augenbindehäuten und die Halshautveränderungen sind jedoch nicht typisch beweisend für einen Herztod. Sie sind vielmehr rechtsmedizinische Warnzeichen für eine mögliche Halskompression.",
+          "term": "dekompensierte Herzinsuffizienz"
+        }
+      ]
+    },
+    "84": {
+      "topicLabel": "Pemphigus vulgaris",
+      "explanation": "Schmerzhafte Erosionen der Mundschleimhaut zusammen mit positivem Desmoglein-3-Antikörper sprechen stark für einen Pemphigus vulgaris. Desmoglein 3 ist besonders für die Schleimhautadhäsion wichtig, weshalb mukosale Läsionen oft früh und prominent auftreten. Die negativen BP-180- und BP-230-Antikörper machen ein bullöses Pemphigoid bzw. Schleimhautpemphigoid weniger wahrscheinlich. Auch die übrigen Laborbefunde liefern keinen Hinweis auf infektiöse oder systemisch-autoimmune Alternativen. Entscheidend ist hier die autoantikörpervermittelte Akantholyse mit intraepidermaler Blasenbildung und daraus resultierenden Erosionen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Erythema exsudativum multiforme kann Schleimhauterosionen verursachen, typischerweise aber in einem akuten Kontext mit charakteristischen targetoiden Hautläsionen. Der positive Desmoglein-3-Antikörper passt nicht zu dieser Diagnose. Die vorliegende serologische Konstellation weist vielmehr auf Pemphigus vulgaris.",
+          "term": "Erythema exsudativum multiforme"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die Hand-Fuß-Mund-Erkrankung ist eine virale Erkrankung, die vor allem Kinder betrifft und mit oralen Läsionen sowie Exanthem an Händen und Füßen einhergeht. Eine 50-jährige Patientin mit spezifisch positivem Desmoglein-3-Antikörper passt dazu nicht. Der serologische Autoimmunbefund ist hier diagnostisch wegweisend.",
+          "term": "Hand-Fuß-Mund-Erkrankung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Herpes-simplex-Infektionen können schmerzhafte gruppierte Bläschen und Erosionen im Mund verursachen. Sie erklären jedoch keinen positiven Desmoglein-3-Antikörper. Auch die chronisch-autoimmune Differenzialdiagnose ist bei der geschilderten Antikörperkonstellation deutlich wahrscheinlicher.",
+          "term": "Herpes simplex"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Beim Pemphigus vulgaris richten sich Autoantikörper häufig gegen Desmoglein 3 und führen zu intraepithelialer Spaltbildung. Schleimhauterosionen sind deshalb ein typischer Befund. Die Kombination aus Mundschleimhautbefund, Desmoglein-3-Positivität und negativen Pemphigoid-Antikörpern macht diese Diagnose am wahrscheinlichsten.",
+          "term": "Pemphigus vulgaris"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Beim Schleimhautpemphigoid sind eher Antikörper gegen Bestandteile der Basalmembranzone, etwa BP180, nachweisbar. Im Fall sind BP-180- und BP-230-Antikörper negativ, während Desmoglein 3 positiv ist. Das spricht klar gegen ein Pemphigoid und für Pemphigus vulgaris.",
+          "term": "Schleimhautpemphigoid"
+        }
+      ]
+    },
+    "85": {
+      "topicLabel": "Positiver Vorhersagewert",
+      "explanation": "Gefragt ist der positive Vorhersagewert eines Tests bei niedriger Prävalenz. Von 10.000 vergleichbaren Personen wären bei einer Prävalenz von 1 % etwa 100 erkrankt und 9.900 nicht erkrankt. Bei 99 % Sensitivität ergeben sich etwa 99 richtig positive Testergebnisse unter den Erkrankten. Bei 98 % Spezifität sind 2 % der Nicht-Erkrankten falsch positiv, also etwa 198 Personen. Unter allen positiven Tests wären damit 99 von 297 tatsächlich erkrankt, also ungefähr ein Drittel. Deshalb beträgt die gesuchte Wahrscheinlichkeit am ehesten 33 %.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "1 % ist die Vortestwahrscheinlichkeit bzw. Prävalenz in der beschriebenen Population. Nach einem positiven Testergebnis steigt die Wahrscheinlichkeit deutlich an. Sie bleibt wegen der vielen falsch positiven Ergebnisse bei niedriger Prävalenz aber nicht bei 1 %.",
+          "term": "1 %"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "5 % unterschätzt den positiven Vorhersagewert bei den gegebenen Testgütekriterien. Die sehr hohe Sensitivität und Spezifität erhöhen die Wahrscheinlichkeit nach positivem Test stärker. Rechnet man mit einer Bezugsgruppe, ergibt sich etwa ein Drittel.",
+          "term": "5 %"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "20 % liegt näher als die sehr niedrigen Angaben, ist aber rechnerisch zu niedrig. Bei 10.000 Personen entstehen etwa 99 richtig positive und 198 falsch positive Ergebnisse. Der Anteil wahr Erkrankter unter den Positiven liegt damit bei 99/297 und nicht bei 20 %.",
+          "term": "20 %"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "33 % entspricht dem positiven Vorhersagewert: 99 richtig positive Tests stehen ungefähr 198 falsch positiven Tests gegenüber. Damit sind 99 von insgesamt 297 positiven Testergebnissen echte Erkrankungen. Dieser Wert zeigt den starken Einfluss der niedrigen Prävalenz trotz guter Testqualität.",
+          "term": "33 %"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "97 % verwechselt die hohe Testgüte mit der Wahrscheinlichkeit, nach positivem Test wirklich krank zu sein. Bei niedriger Prävalenz können falsch positive Ergebnisse zahlenmäßig viele positive Tests ausmachen. Deshalb ist der positive Vorhersagewert deutlich niedriger als Sensitivität oder Spezifität.",
+          "term": "97 %"
+        }
+      ]
+    },
+    "86": {
+      "topicLabel": "Myotone Dystrophie",
+      "explanation": "Die verzögerte Entspannung nach Faustschluss ist eine typische Myotonie. Dazu kommen distale Schwächen, Gesichtsmuskelschwäche und ein Beginn im Jugendalter, was gut zu einer myotonen Dystrophie passt. Diese Erkrankung ist genetisch bedingt und wird klassisch autosomal-dominant vererbt. Deshalb ist bei der Verdachtsdiagnose am ehesten ein ähnlich erkrankter Elternteil zu erwarten. Die übrigen Antwortmöglichkeiten verweisen auf andere Krankheitsbilder und erklären die Myotonie nicht überzeugend.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Diabetes mellitus kann zwar bei manchen neuromuskulären oder metabolischen Erkrankungen assoziiert sein, ein vorbestehender Typ-1-Diabetes ist aber kein Leithinweis auf die beschriebene Myotonie. Die zentrale Beobachtung ist die verzögerte Muskelrelaxation nach Kontraktion. Das spricht nicht primär für eine diabetische oder autoimmun-endokrine Ursache.",
+          "term": "Diabetes mellitus Typ 1"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Eine myotone Dystrophie wird typischerweise autosomal-dominant vererbt. Daher kann ein ähnlich betroffener Elternteil in der Familienanamnese auffallen. Die Kombination aus Myotonie, distaler Schwäche und Gesichtsmuskelschwäche macht diese Angabe am plausibelsten.",
+          "term": "ähnlich erkrankter Elternteil"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine abgelaufene Optikusneuritis wäre ein Hinweis auf eine entzündlich-demyelinisierende Erkrankung wie Multiple Sklerose. Die Beschwerden des Patienten sind jedoch peripher-muskulär mit klarer Myotonie. Eine Optikusneuritis erklärt weder die verzögerte Faustöffnung noch die symmetrischen Muskelschwächen.",
+          "term": "Optikusneuritis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Fieberkrämpfe in der Kindheit sind häufig gutartige, altersgebundene Ereignisse und passen nicht als erwarteter Befund zu einer myotonen Dystrophie. Die aktuelle Symptomatik betrifft Muskelrelaxation und Kraft. Ein epileptologischer Hinweis steht hier nicht im Vordergrund.",
+          "term": "Fieberkrämpfe"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Angiokeratome sind ein klassischer Hautbefund bei Morbus Fabry. Morbus Fabry verursacht typischerweise neuropathische Schmerzen, Organmanifestationen und andere systemische Zeichen, aber keine typische Myotonie mit verzögerter Faustöffnung. Daher passt diese Angabe nicht zur wahrscheinlichsten Diagnose.",
+          "term": "Angiokeratome"
+        }
+      ]
+    },
+    "87": {
+      "topicLabel": "Migräne",
+      "explanation": "Die Patientin beschreibt rezidivierende, familiär gehäufte Kopfschmerzen mit pochendem Charakter, hoher Schmerzintensität und meist einseitiger Lokalisation. Das passt am ehesten zu einer Migräne. Typische Begleitsymptome einer Migräneattacke sind Übelkeit, Erbrechen sowie Licht- und Geräuschempfindlichkeit. Körperliche Aktivität verschlechtert Migränekopfschmerzen häufig, weshalb Betroffene Ruhe suchen. Die Zunahme der Frequenz ist klinisch relevant, ändert aber nicht die typische Begleitsymptomatik der einzelnen Episode.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Obstipation ist kein typisches Leitsymptom einer Migräneattacke. Sie kann bei einzelnen Personen oder im Rahmen anderer Umstände vorkommen, erklärt aber die Kopfschmerzepisode nicht charakteristisch. Für die Prüfung ist die gastrointestinale Begleitung durch Übelkeit und Erbrechen wesentlich typischer.",
+          "term": "Obstipation"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Besserung durch moderate körperliche Belastung passt eher zu Spannungskopfschmerz als zu Migräne. Migräne wird durch körperliche Aktivität typischerweise verstärkt. Daher ist diese Antwort mit dem geschilderten pochenden, starken, einseitigen Kopfschmerz nicht vereinbar.",
+          "term": "Besserung bei Belastung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Diarrhoe ist kein klassisches diagnostisches Begleitsymptom einer Migräneattacke. Vegetative Beschwerden können zwar variieren, aber die typische Antwort in diesem Kontext ist Übelkeit mit Erbrechen. Diarrhoe würde eher an gastrointestinale Ursachen oder andere Begleitprozesse denken lassen.",
+          "term": "Diarrhoe"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Vermehrter Tränenfluss ist typisch für trigeminoautonome Kopfschmerzen, insbesondere Clusterkopfschmerz. Clusterkopfschmerz zeigt meist streng einseitige, sehr starke Attacken mit autonomen Zeichen und anderem Zeitmuster. Die familiär gehäuften, pochenden Kopfschmerzen seit Jahren sprechen hier eher für Migräne.",
+          "term": "vermehrter Tränenfluss"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Übelkeit und Erbrechen gehören zu den typischen Begleitsymptomen der Migräne. Zusammen mit einseitigem pochendem Schmerz und hoher Intensität stützt dies die Diagnose. Auch die familiäre Häufung passt gut zu Migräne.",
+          "term": "Übelkeit und Erbrechen"
+        }
+      ]
+    },
+    "88": {
+      "topicLabel": "RNA-Interferenz bei Porphyrie",
+      "explanation": "Bei akuten hepatischen Porphyrien entstehen neurotoxische Vorstufen der Hämsynthese vermehrt, wenn der hepatische Syntheseweg überaktiviert ist. Die therapeutisch eingesetzte synthetische RNA entspricht dem Prinzip der RNA-Interferenz. Sie führt zum Silencing bzw. Abbau der mRNA der Aminolävulinsäure-Synthase 1 in der Leber. Dadurch wird die Bildung der porphyrinogenen Vorstufen vermindert und die Häufigkeit akuter Attacken kann sinken. Der Mechanismus ist also keine Antikörperbildung und keine Steigerung der Enzymaktivität, sondern eine gezielte Reduktion der Enzymexpression.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Synthetische RNA wirkt nicht durch Bildung spezifischer Antikörper gegen ein Enzym. Antikörperbildung wäre ein immunologischer Mechanismus, nicht RNA-Interferenz. Bei der genannten Therapie wird die Ziel-mRNA abgebaut bzw. stillgelegt.",
+          "term": "Antikörper gegen ALAS"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Erhöhung der Aktivität der Aminolävulinsäure-Synthase wäre bei akuter hepatischer Porphyrie gerade ungünstig. Sie würde den Fluss durch den Hämsyntheseweg und damit die Bildung problematischer Vorstufen eher fördern. Therapeutisch wird die hepatische ALAS1-Expression reduziert.",
+          "term": "ALAS-Aktivierung"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die eingesetzte kleine interferierende RNA bewirkt ein Silencing der mRNA der Aminolävulinsäure-Synthase in der Leber. Dadurch wird weniger ALAS1 gebildet und die Synthese neurotoxischer Vorstufen nimmt ab. Das erklärt die Reduktion der Attacken bei akuter hepatischer Porphyrie.",
+          "term": "Silencing der ALAS-RNA"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Therapie zielt nicht primär darauf, Porphyrine über den Urin zu eliminieren. Entscheidend ist die Verminderung der Neubildung der pathologischen Vorstufen in der Leber. Eine reine Ausscheidungsinduktion würde den beschriebenen RNA-Mechanismus nicht erklären.",
+          "term": "Porphyrin-Elimination"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Repression der Hämsynthese über nukleäre Rezeptoren beschreibt nicht den spezifischen Wirkmechanismus synthetischer RNA in dieser Indikation. Der therapeutische Ansatz ist sequenzspezifisch gegen ALAS1-mRNA gerichtet. Daher ist RNA-Silencing die präzisere und richtige Antwort.",
+          "term": "nukleäre Rezeptoren"
+        }
+      ]
+    },
+    "89": {
+      "topicLabel": "Katzenkratzkrankheit",
+      "explanation": "Bartonella henselae ist der typische Erreger der Katzenkratzkrankheit. Die Übertragung auf Kinder erfolgt in Deutschland am ehesten durch Kontakt zu Katzen, insbesondere über Kratzer oder Bisse. Katzen können den Erreger tragen, ohne selbst schwer krank zu wirken. Klinisch kommt es häufig zu einer lokalen Läsion und regionaler Lymphadenopathie. Unter den genannten Tieren ist daher die Katze der entscheidende epidemiologische Hinweis.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ratten sind für andere Zoonosen bedeutsam, etwa Rattenbissfieber oder Leptospirose. Für die klassische Bartonellose bei Kindern in Deutschland steht jedoch der Katzenkontakt im Vordergrund. Ratten sind deshalb hier nicht die wahrscheinlichste Quelle.",
+          "term": "Ratten"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Schildkröten sind vor allem als mögliche Salmonellenquelle bekannt. Sie sind nicht der typische Überträger von Bartonella henselae. Die geschilderte Frage zielt auf die Katzenkratzkrankheit.",
+          "term": "Schildkröten"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Meerschweinchen können verschiedene Haut- oder Atemwegserreger übertragen, sind aber nicht die klassische Quelle einer Bartonella-henselae-Infektion. Bei Bartonellose im Kindesalter ist die Tieranamnese besonders auf Katzen ausgerichtet. Daher ist diese Antwort nicht am ehesten richtig.",
+          "term": "Meerschweinchen"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Katzen sind das wichtigste Reservoir für Bartonella henselae. Kinder infizieren sich typischerweise nach Kratzern, Bissen oder engem Kontakt. Deshalb ist Katzenkontakt die wahrscheinlichste Übertragungsquelle.",
+          "term": "Katzen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Igel können zwar Parasiten und einzelne Erreger tragen, sind aber nicht typisch für die Übertragung von Bartonella henselae auf Kinder. Die klassische Bezeichnung Katzenkratzkrankheit weist bereits auf das relevante Tier hin. Igelkontakt wäre daher deutlich weniger wahrscheinlich.",
+          "term": "Igel"
+        }
+      ]
+    },
+    "90": {
+      "topicLabel": "Dampfsterilisation",
+      "explanation": "Thermostabile kritische Medizinprodukte müssen steril aufbereitet werden, weil sie mit sterilen Körperbereichen oder Blut in Kontakt kommen können. Im Krankenhaus ist für hitze- und feuchtigkeitsbeständige Instrumente die Dampfsterilisation das Standardverfahren. Sie nutzt gesättigten Wasserdampf unter Druck und ist zuverlässig, gut validierbar und für viele chirurgische Instrumente geeignet. Gasverfahren werden eher für thermolabile Materialien verwendet. Heißluft und Strahlenverfahren haben im klinischen Alltag für diese Standardinstrumente eine geringere Bedeutung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ethylenoxid kann zur Sterilisation thermolabiler Medizinprodukte eingesetzt werden. Es ist aber wegen Toxizität, Belüftungsbedarf und Prozessaufwand nicht das häufigste Verfahren für thermostabile Krankenhausinstrumente. Für diese ist Dampf das Standardverfahren.",
+          "term": "Ethylenoxid"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Formaldehyd wird ebenfalls eher bei temperaturempfindlichen Materialien eingesetzt. Für thermostabile Instrumente ist es nicht das am häufigsten verwendete Standardverfahren. Dampfsterilisation ist hier einfacher etabliert und breiter anwendbar.",
+          "term": "Formaldehyd"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Heißluftsterilisation ist ein trockenes Hitzeverfahren und hat für viele moderne Krankenhausinstrumente nicht die gleiche praktische Bedeutung wie Dampfsterilisation. Sie ist langsamer und materialabhängig weniger günstig. Daher ist sie nicht die gesuchte Standardantwort.",
+          "term": "Heißluft"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die Dampfsterilisation ist das am häufigsten eingesetzte Verfahren für thermostabile Instrumente im Krankenhaus. Sie ist wirksam, standardisiert und für kritische Medizinprodukte wie chirurgische Instrumente geeignet. Deshalb ist sie hier die richtige Wahl.",
+          "term": "Dampf"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Gamma-Strahlung wird vor allem industriell zur Sterilisation von Einmalprodukten genutzt. Sie ist kein typisches Routineverfahren der Krankenhausaufbereitung für wiederverwendbare thermostabile Instrumente. Die Frage zielt auf das klinische Standardverfahren, also Dampf.",
+          "term": "Gamma-Strahlung"
+        }
+      ]
+    },
+    "91": {
+      "topicLabel": "Perianalvenenthrombose",
+      "explanation": "Akut einsetzende, innerhalb von Stunden bis Tagen zunehmende Schmerzen am After mit einer bläulich-lividen, prallen Schwellung am Analrand sind typisch für eine Perianalvenenthrombose. Blutabgänge werden verneint, was gegen eine blutende Fissur oder Hämorrhoidenerkrankung als Hauptursache spricht. Der Befund liegt bei 7 Uhr lokalisiert und erscheint äußerlich sichtbar, was gut zu einem thrombosierten perianalen Venenplexus passt. Die Diagnose ist klinisch zu stellen. Wichtige Differenzialdiagnosen sind Hämorrhoiden, Analfissur, Tumoren und Prolaps, sie passen aber weniger gut zum akuten lividen Knoten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Hämorrhoiden Grad 3 prolabieren beim Pressen und müssen meist manuell reponiert werden. Sie verursachen eher hellrote Blutungen und Druckgefühl als einen akut schmerzhaften, bläulich-lividen Analrandknoten. Der beschriebene Befund ist typischer für eine Perianalvenenthrombose.",
+          "term": "Hämorrhoiden Grad 3"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Analfissur verursacht starke Schmerzen beim Stuhlgang und häufig hellrote Blutspuren. Typisch wäre ein länglicher Einriss der Analschleimhaut, nicht eine livide Schwellung. Das Fehlen von Blut und der sichtbare bläuliche Knoten sprechen dagegen.",
+          "term": "Analfissur"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Analkarzinom präsentiert sich meist nicht als plötzlich innerhalb von 24 Stunden entstandene schmerzhafte livide Schwellung. Es wäre eher mit persistierenden Läsionen, Blutung, Ulzeration oder tastbarer Raumforderung assoziiert. Die akute Schmerz- und Farbkonstellation passt besser zu einer Thrombose.",
+          "term": "Analkarzinom"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die Perianalvenenthrombose zeigt sich als akut schmerzhafter, bläulich-livider Knoten am Analrand. Sie entsteht durch Thrombosierung einer perianalen Vene und wird klinisch erkannt. Genau diese Kombination wird im Fall beschrieben.",
+          "term": "Perianalvenenthrombose"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Rektumprolaps ist ein Vorfall von Rektumschleimhaut oder Rektumwand durch den Anus. Dabei wäre eher eine ringförmige, vorgefallene Schleimhautstruktur zu erwarten. Eine lokalisierte livide Schwellung bei 7 Uhr passt nicht dazu.",
+          "term": "Rektumprolaps"
+        }
+      ]
+    },
+    "92": {
+      "topicLabel": "Vaskuläre Neurodiagnostik",
+      "explanation": "Die Patientin hat einen erstmaligen Krampfanfall mit Bewusstseinsminderung, und das kraniale CT zeigt offenbar einen Befund, der eine vaskuläre Ursache weiter abklären lässt. Bei unklaren intrakraniellen Blutungen, venösen Stauungsinfarkten oder anderen vaskulären Läsionen ist eine arterielle und venöse Gefäßdarstellung der sinnvolle nächste Schritt. Damit können unter anderem Aneurysmen, arteriovenöse Malformationen oder zerebrale venöse Thrombosen erfasst bzw. ausgeschlossen werden. D-Dimere, Liquor oder Lymphgefäßdiagnostik würden den bildgebenden CT-Befund nicht zielgerichtet klären. Da die Abbildung selbst nicht vorliegt, stützt sich die Einordnung auf die vorgegebene richtige Antwort und die klinische Konstellation.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "D-Dimere können bei Verdacht auf thromboembolische Ereignisse hilfreich sein, sind aber unspezifisch. Bei einem auffälligen kranialen CT-Befund ist eine direkte Gefäßbildgebung deutlich aussagekräftiger. Sie ersetzt nicht die notwendige morphologische Abklärung im Gehirn.",
+          "term": "D-Dimere"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Staging-Untersuchungen wären sinnvoll, wenn der CT-Befund primär an eine Tumorerkrankung oder Metastasen denken lässt. Die gefragte nächste Maßnahme ist aber die arterielle und venöse Gefäßdarstellung. Damit wird eine vaskuläre Ursache des akuten neurologischen Ereignisses gezielt geprüft.",
+          "term": "Staging-Untersuchungen"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Eine arterielle und venöse Gefäßdarstellung ist der geeignete nächste Schritt, wenn nach CT eine vaskuläre Ursache eines Krampfanfalls bzw. einer intrakraniellen Läsion abgeklärt werden muss. Sie kann arterielle Blutungsquellen, Gefäßmalformationen und venöse Abflussstörungen erfassen. Damit passt sie am besten zur vorgegebenen Befundkonstellation.",
+          "term": "arterielle und venöse Gefäßdarstellung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Lymphgefäßdarstellung hat bei akuten neurologischen Symptomen und einem kranialen CT-Befund keinen diagnostischen Stellenwert. Lymphgefäße erklären weder Krampfanfall noch die üblichen intrakraniellen Akutbefunde. Diese Option ist daher thematisch unpassend.",
+          "term": "Lymphgefäßdarstellung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Liquordiagnostik kann bei Verdacht auf Meningitis, Enzephalitis oder bestimmte Blutungen hilfreich sein. Bei einem CT-Befund, der eine vaskuläre Abklärung nahelegt, ist sie jedoch nicht der nächste zielgerichtete Schritt. Zudem muss vor Liquorpunktion bei intrakraniellen Raumforderungen oder Blutungen besonders vorsichtig vorgegangen werden.",
+          "term": "Liquordiagnostik"
+        }
+      ]
+    },
+    "93": {
+      "topicLabel": "Ernährungsempfehlungen",
+      "explanation": "Gefragt ist die Empfehlung, die die Hausärztin nicht geben sollte. Eine gesundheitsförderliche Ernährung betont Vielfalt, überwiegend pflanzliche Lebensmittel und eine günstige Fettqualität. Ungesättigte Fettsäuren sollten gegenüber gesättigten Fettsäuren bevorzugt werden, weil eine hohe Aufnahme gesättigter Fette ungünstig für das kardiometabolische Risiko ist. Die Aussage, weniger ungesättigte und mehr gesättigte Fettsäuren wirkten positiv, ist daher falsch. Die übrigen Empfehlungen entsprechen gängigen ernährungsmedizinischen Grundsätzen, einschließlich Vorsicht bei Alkohol, Vitamin-B12-Supplementation bei veganer Ernährung und regelmäßigem Verzehr fettreicher Seefische, sofern tierische Lebensmittel konsumiert werden.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Abwechslungsreiche Ernährung mit überwiegend pflanzlichen Lebensmitteln ist eine sinnvolle Grundempfehlung. Sie fördert eine ausreichende Zufuhr von Ballaststoffen, Mikronährstoffen und günstigen Lebensmittelgruppen. Da nach der nicht zu gebenden Empfehlung gefragt ist, ist diese Antwort nicht richtig.",
+          "term": "Lebensmittelvielfalt"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Der Hinweis auf die Kalorienzufuhr und Krebsrisiken alkoholhaltiger Getränke ist sachlich korrekt. Alkohol ist ernährungsmedizinisch kein empfehlenswerter Gesundheitsfaktor. Diese Beratung sollte daher durchaus gegeben werden.",
+          "term": "Alkoholrisiken"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Diese Aussage kehrt die empfohlene Fettqualität um. Gesundheitlich günstiger ist in der Regel, gesättigte Fettsäuren zu begrenzen und ungesättigte Fettsäuren zu bevorzugen. Deshalb ist genau diese Empfehlung diejenige, die die Hausärztin nicht geben sollte.",
+          "term": "gesättigte Fettsäuren"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Bei sehr geringer oder fehlender Aufnahme tierischer Lebensmittel kann Vitamin B12 nicht zuverlässig über die übliche pflanzliche Ernährung gedeckt werden. Eine Supplementation ist dann wichtig, um Mangelzustände zu vermeiden. Diese Empfehlung ist daher korrekt.",
+          "term": "Vitamin B12"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Fettreiche Fische enthalten die langkettigen Omega-3-Fettsäuren DHA und EPA. Der regelmäßige Verzehr solcher Fische wird in vielen Ernährungsempfehlungen als günstige Quelle dieser Fettsäuren genannt. Diese Empfehlung ist deshalb nicht die falsche Aussage.",
+          "term": "Omega-3-Fettsäuren"
+        }
+      ]
+    },
+    "94": {
+      "topicLabel": "Frühes Mammakarzinom",
+      "explanation": "Die Patientin hat ein kleines, hormonrezeptorpositives, HER2-negatives Mammakarzinom mit niedrigem Grading und klinisch unauffälliger Axilla. Bei brusterhaltender Operabilität ist die lokale Tumorentfernung mit anschließender Bestrahlung der verbliebenen Brust ein etabliertes Vorgehen. Wegen der Hormonrezeptorpositivität ist zusätzlich eine endokrine bzw. antihormonelle Therapie indiziert. Eine neoadjuvante Chemotherapie oder Anti-HER2-Therapie passt bei diesem Tumorprofil nicht als Standard. Auch Kryotherapie, Misteltherapie oder primäre alleinige Bestrahlung sind nicht die leitliniengerechte Kerntherapie in dieser Situation.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Brusterhaltende Tumorentfernung, postoperative Bestrahlung und antihormonelle Therapie passen zum frühen hormonrezeptorpositiven, HER2-negativen Mammakarzinom. Der kleine Tumor und die unauffällige Axilla sprechen für ein primär operatives brusterhaltendes Vorgehen. Die endokrine Therapie adressiert die Hormonrezeptorpositivität.",
+          "term": "brusterhaltende Therapie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Mastektomie ist bei einem kleinen gut operablen Tumor nicht zwingend die naheliegendste Standardoption. Antineoplastische Chemotherapie ist bei niedrigem Risiko und Hormonrezeptorpositivität nicht automatisch indiziert. Kryotherapie gehört nicht zur regulären kurativen Standardtherapie des Mammakarzinoms.",
+          "term": "Mastektomie und Chemotherapie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine neoadjuvante Chemotherapie wird eher bei größeren, aggressiveren oder bestimmten biologischen Subtypen eingesetzt, wenn dadurch therapeutische Vorteile erwartet werden. Bei einem 1-cm-, G1-, HR-positiven, HER2-negativen Tumor ohne Axillabefall ist sie nicht am ehesten indiziert. Zudem ist eine Mastektomie nicht zwingend erforderlich.",
+          "term": "neoadjuvante Chemotherapie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Anti-HER2-Therapie ist nur bei HER2-positiven Tumoren sinnvoll. Der Tumor ist ausdrücklich HER2-negativ, sodass diese Komponente falsch ist. Auch lokale Brachytherapie ist hier nicht die Standardantwort gegenüber der Bestrahlung der verbliebenen Brust.",
+          "term": "Anti-HER2-Therapie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine primäre lokale Bestrahlung vor Tumorentfernung und eine neoadjuvante Hormontherapie sind in dieser Konstellation nicht die naheliegendste Standardsequenz. Misteltherapie ist keine kurative onkologische Standardtherapie. Die korrekte Vorgehensweise ist brusterhaltende Operation, Bestrahlung und endokrine Therapie.",
+          "term": "Misteltherapie"
+        }
+      ]
+    },
+    "95": {
+      "topicLabel": "Alkoholhalluzinose",
+      "explanation": "Die Alkoholhalluzinose tritt bei chronischer Alkoholabhängigkeit auf und ist typischerweise durch akustische Halluzinationen geprägt. Betroffene hören häufig Stimmen oder Geräusche, während die Bewusstseinsklarheit im Vergleich zum Delir eher erhalten sein kann. Optische Halluzinationen und vegetative Entgleisungen würden stärker an ein Alkoholdelir denken lassen. Haptische, gustatorische oder olfaktorische Halluzinationen sind in diesem Krankheitsbild nicht die Leitsymptomatik. Daher ist die akustische Modalität die wahrscheinlichste Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Optische Halluzinationen können bei Intoxikationen oder Delirien auftreten. Beim Alkoholentzugdelir sind sie bekannter als bei der Alkoholhalluzinose. Die Alkoholhalluzinose ist dagegen klassisch akustisch geprägt.",
+          "term": "optische Halluzinationen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Haptische Halluzinationen, etwa Kribbel- oder Krabbelerleben, können bei bestimmten Intoxikations- oder Entzugssituationen vorkommen. Sie sind aber nicht die typische Modalität der Alkoholhalluzinose. Die Frage zielt auf das Stimmenhören bzw. akustische Halluzinationen.",
+          "term": "haptische Halluzinationen"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Gustatorische Halluzinationen sind selten und nicht charakteristisch für die Alkoholhalluzinose. Sie spielen eher in anderen neurologischen oder psychiatrischen Differenzialdiagnosen eine Rolle. Für das alkoholassoziierte halluzinatorische Syndrom sind akustische Phänomene typisch.",
+          "term": "gustatorische Halluzinationen"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Akustische Halluzinationen sind die typische Halluzinationsmodalität der Alkoholhalluzinose. Häufig werden Stimmen wahrgenommen, teils kommentierend oder bedrohlich. Dies passt am besten zur vermuteten Diagnose bei langjähriger Alkoholabhängigkeit.",
+          "term": "akustische Halluzinationen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Olfaktorische Halluzinationen sind für Alkoholhalluzinose nicht typisch. Sie können beispielsweise bei bestimmten fokalen Anfällen oder anderen organischen Störungen vorkommen. In der vorliegenden Fragestellung ist die akustische Modalität entscheidend.",
+          "term": "olfaktorische Halluzinationen"
+        }
+      ]
+    },
+    "96": {
+      "topicLabel": "Anschlussrehabilitation",
+      "explanation": "Nach einer Knie-Totalendoprothese ist häufig eine Anschlussrehabilitation bzw. Anschlussheilbehandlung vorgesehen. Sie soll unmittelbar an die akutstationäre Behandlung anschließen und im Regelfall zeitnah, hier spätestens innerhalb von 14 Tagen nach Krankenhausentlassung, beginnen. Ziel ist die Wiederherstellung von Mobilität, Funktion und Alltagsfähigkeit nach dem operativen Eingriff. Andere Rehabilitationsformen beziehen sich auf andere Phasen, Zielgruppen oder längerfristige Nachsorge. Der zeitliche Bezug direkt nach stationärer Krankenhausbehandlung ist der Kernhinweis auf die Anschlussrehabilitation.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Leistungen zur Teilhabe am Arbeitsleben betreffen berufliche Wiedereingliederung, Umschulung oder Hilfen zum Erhalt der Erwerbsfähigkeit. Sie sind nicht die typische Maßnahme, die nach Knie-TEP spätestens 14 Tage nach Krankenhausbehandlung beginnen soll. Der unmittelbare postoperative Rehabilitationsbedarf spricht für Anschlussrehabilitation.",
+          "term": "Teilhabe am Arbeitsleben"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die stufenweise Wiedereingliederung dient der schrittweisen Rückkehr an den Arbeitsplatz nach Arbeitsunfähigkeit. Sie setzt eine gewisse Belastbarkeit voraus und ist nicht die unmittelbare Standardmaßnahme direkt nach Krankenhausentlassung wegen Knie-TEP. Die Frage beschreibt vielmehr die frühe medizinische Rehabilitation.",
+          "term": "stufenweise Wiedereingliederung"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die Anschlussrehabilitation bzw. Anschlussheilbehandlung schließt zeitnah an eine Krankenhausbehandlung an. Nach orthopädischen Eingriffen wie einer Knie-Totalendoprothese ist sie eine typische Maßnahme zur funktionellen Wiederherstellung. Der genannte Beginn spätestens innerhalb von 14 Tagen passt genau dazu.",
+          "term": "Anschlussrehabilitation"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Rehabilitationsnachsorge folgt üblicherweise auf eine bereits absolvierte Rehabilitation. Sie dient der Stabilisierung erreichter Reha-Ziele, nicht dem unmittelbaren Beginn nach akutstationärer Operation. Deshalb ist sie hier zeitlich und inhaltlich nicht am passendsten.",
+          "term": "Rehabilitationsnachsorge"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Frührehabilitation findet typischerweise bereits während der akutstationären Behandlung statt, etwa bei schwer betroffenen Patienten. Die Frage fragt jedoch nach einer Maßnahme nach Beendigung der Krankenhausbehandlung. Das spricht gegen Frührehabilitation und für Anschlussrehabilitation.",
+          "term": "Frührehabilitation"
+        }
+      ]
+    },
+    "97": {
+      "topicLabel": "Unspezifischer Rückenschmerz",
+      "explanation": "Herr L. hat wiederholte, mittlerweile länger anhaltende Rückenschmerzen ohne Hinweise auf eine spezifische Ursache, ohne radikuläre Ausstrahlung und ohne Nervenkompression im MRT. In dieser Situation sollen psychosoziale Risikofaktoren wie depressive Symptome oder Arbeitsplatzprobleme aktiv erfasst werden. Körperliche Aktivität und die Prüfung rehabilitativer Maßnahmen sind bei anhaltender Arbeitsunfähigkeit ebenfalls sinnvoll. Eine Laboruntersuchung auf rheumatologische Erkrankungen ist ohne klinische Hinweise auf entzündliche Rückenschmerzen oder systemische rheumatologische Zeichen am wenigsten indiziert. Die degenerativen MRT-Befunde allein begründen keine unspezifische Labordiagnostik.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Depressive Symptome können Chronifizierung und Funktionsbeeinträchtigung bei Rückenschmerzen fördern. Ihre Erfassung gehört zu einem leitlinienorientierten Management bei länger anhaltenden Beschwerden. Daher ist diese Maßnahme nicht am wenigsten indiziert.",
+          "term": "Depression erfassen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Arbeitsplatzprobleme sind wichtige psychosoziale bzw. arbeitsbezogene Risikofaktoren für Chronifizierung und lange Arbeitsunfähigkeit. Gerade bei einem Arbeiter im Landwirtschaftsbetrieb und vier Wochen Arbeitsunfähigkeit ist diese Anamnese relevant. Sie ist daher sinnvoll und nicht die gesuchte Ausnahme.",
+          "term": "Arbeitsplatzprobleme"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Eine rheumatologische Labordiagnostik ist bei unspezifischem Rückenschmerz ohne entsprechende klinische Hinweise nicht routinemäßig angezeigt. Es fehlen Zeichen wie entzündlicher Rückenschmerz, systemische Symptome oder andere richtungsweisende Befunde. Deshalb ist diese Maßnahme am wenigsten indiziert.",
+          "term": "rheumatologische Labordiagnostik"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Körperliche Bewegung ist bei unspezifischem Rückenschmerz ausdrücklich zu empfehlen. Schonung und Inaktivität begünstigen eher Chronifizierung und Funktionsverlust. Diese Maßnahme ist daher leitliniengerecht.",
+          "term": "körperliche Bewegung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Bei länger anhaltender Arbeitsunfähigkeit und fehlender Besserung kann eine Rehabilitation sinnvoll sein. Die Prüfung der Voraussetzungen passt daher zum weiteren Management. Sie ist nicht die am wenigsten indizierte Maßnahme.",
+          "term": "Rehabilitation prüfen"
+        }
+      ]
+    },
+    "98": {
+      "topicLabel": "Riesenzellarteriitis",
+      "explanation": "Die 73-jährige Patientin zeigt eine systemische Entzündungskonstellation mit Gewichtsverlust, Schmerzen im Schulter- und Beckengürtel, Anämie und Thrombozytose. Diese Symptomatik passt zu einer Polymyalgia-rheumatica-Konstellation, die eng mit der Riesenzellarteriitis assoziiert ist. In der PET kann eine Großgefäßvaskulitis mit entzündlicher Aktivität der Aorta und ihrer großen Abgänge sichtbar werden. Eine Riesenzellarteriitis betrifft ältere Menschen und kann auch ohne klassische Kopfschmerzen oder Kauschmerzen als Großgefäßvariante auftreten. Die Kombination aus Alter, Allgemeinsymptomen, proximalen Muskelschmerzen und PET-Fokussuche macht diese Diagnose am wahrscheinlichsten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Sarkoidose kann systemische Beschwerden und PET-positive Befunde verursachen, betrifft aber typischerweise Lunge, Lymphknoten und granulomatöse Organmanifestationen. Die Kombination aus hohem Alter, Schulter- und Beckengürtelschmerzen sowie Thrombozytose spricht stärker für eine Riesenzellarteriitis bzw. Polymyalgia-rheumatica-Assoziation. Ohne entsprechende Organhinweise ist Sarkoidose weniger wahrscheinlich.",
+          "term": "Sarkoidose"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine subakute Enzephalitis würde neurologische oder psychiatrische Symptome, Krampfanfälle, Bewusstseinsstörungen oder Liquor-/MRT-Hinweise erwarten lassen. Im Fall stehen Muskelschmerzen, Gewichtsverlust und systemische Entzündungszeichen im Vordergrund. Diese Konstellation passt nicht zu einer Enzephalitis.",
+          "term": "subakute Enzephalitis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Aortenaneurysma kann in einer Bildgebung auffallen, erklärt aber die polymyalgischen Beschwerden und die entzündliche Systemkonstellation nicht als Gesamtbild. Die PET-Fokussuche zielt hier auf entzündliche Aktivität, nicht primär auf eine isolierte Gefäßerweiterung. Deshalb ist die Vaskulitisdiagnose plausibler.",
+          "term": "Aortenaneurysma"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Riesenzellarteriitis ist eine Großgefäßvaskulitis älterer Menschen und kann mit Polymyalgia-rheumatica-Symptomen einhergehen. Gewichtsverlust, Anämie, Thrombozytose und PET-aktive große Gefäße passen gut dazu. Deshalb ist sie in dieser Konstellation die wahrscheinlichste Diagnose.",
+          "term": "Riesenzell-Arteriitis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Granulomatose mit Polyangiitis betrifft häufig obere und untere Atemwege sowie Nieren und kann granulomatöse Entzündungen verursachen. Der Urinstatus ist unauffällig, und entsprechende HNO- oder pulmonale Leitsymptome werden nicht beschrieben. Die proximalen Muskelschmerzen und Großgefäßkonstellation sprechen eher für Riesenzellarteriitis.",
+          "term": "Granulomatose mit Polyangiitis"
+        }
+      ]
+    },
+    "99": {
+      "topicLabel": "Mückenstiche und Tetanus",
+      "explanation": "Bei dem Kind stehen zahlreiche aufgekratzte und entzündete Mückenstiche im Vordergrund. Auch wenn die Asiatische Tigermücke als Vektor tropischer Viren bekannt ist, liegt hier zunächst keine konkrete meldepflichtige Infektion und kein Hinweis auf eine systemische Tropenerkrankung vor. Praktisch angezeigt ist daher die Versorgung der entzündeten Hautläsionen einschließlich Kontrolle des Impfstatus, insbesondere Tetanus, weil aufgekratzte Haut Eintrittspforten darstellen kann. Eine routinemäßige tropenmedizinische Vorstellung von Mutter und Kind ist ohne Krankheitszeichen nicht die naheliegendste Maßnahme. Ebenso gibt es kein spezifisches Antidot gegen Mückenstiche.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine tropenmedizinische Ambulanz wäre bei Fieber, systemischen Symptomen oder konkretem Verdacht auf eine importierte bzw. vektorübertragene Infektion sinnvoll. Im Fall werden aber nur lokale, aufgekratzte und entzündete Stiche beschrieben. Deshalb ist die unmittelbare Vorstellung von Kind und Mutter dort nicht am ehesten angezeigt.",
+          "term": "tropenmedizinische Ambulanz"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Bei zahlreichen aufgekratzten Hautläsionen sollte der Impfstatus überprüft werden, insbesondere der Tetanusschutz. Die Hautbarriere ist verletzt, und die Stiche sind entzündet. Diese pragmatische hausärztliche Maßnahme ist in der geschilderten Situation am naheliegendsten.",
+          "term": "Tetanus-Impfstatus"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine orale antimikrobielle Therapie ist nicht automatisch bei entzündeten Mückenstichen erforderlich. Sie wäre eher bei ausgeprägter bakterieller Superinfektion, Ausbreitung oder systemischen Zeichen zu erwägen. Der Fragetext liefert dafür keine ausreichenden Hinweise.",
+          "term": "orale Antibiotikatherapie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Der Nachweis einer Asiatischen Tigermücke oder viele Mückenstiche sind nicht gleichbedeutend mit einer meldepflichtigen Erkrankung nach IfSG. Es wird keine konkrete Infektion wie Dengue, Chikungunya oder Zika beim Kind beschrieben. Daher ist eine verpflichtende Meldung hier nicht die primäre Maßnahme.",
+          "term": "IfSG-Meldung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Für Mückenstiche oder den Kontakt mit einer Asiatischen Tigermücke gibt es kein spezifisches Antidot. Die Behandlung richtet sich nach lokalen Beschwerden, Hautpflege, Infektionszeichen und Prävention. Diese Option ist daher offensichtlich nicht passend.",
+          "term": "spezifisches Antidot"
+        }
+      ]
+    },
+    "100": {
+      "topicLabel": "Immunthrombozytopenie",
+      "explanation": "Die Patientin hat eine extrem niedrige Thrombozytenzahl mit Petechien und der Verdachtsdiagnose Immunthrombozytopenie. Bei ITP richtet sich die Primärtherapie bei schwerer Thrombozytopenie und Blutungszeichen typischerweise auf die rasche immunmodulierende Anhebung der Thrombozytenzahl. Glukokortikoide sind dafür eine zentrale Erstlinientherapie. Thrombozytentransfusionen werden bei ITP wegen des immunologischen Verbrauchs nicht routinemäßig primär eingesetzt, sondern vor allem bei lebensbedrohlicher Blutung oder dringenden Eingriffen. Eine Notfallsplenektomie, Antibiotikatherapie oder Vitamin-K-Gabe passt nicht zur primären Behandlung dieser Konstellation.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Thrombozytentransfusionen sind bei ITP nicht die Standard-Erstlinientherapie, weil transfundierte Thrombozyten ebenfalls immunologisch abgebaut werden können. Sie sind vor allem bei schweren oder lebensbedrohlichen Blutungen relevant. Da außer Petechien keine weiteren Blutungszeichen bestehen, ist primär eine Glukokortikoidtherapie angezeigt.",
+          "term": "Thrombozytentransfusion"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine empirische antimikrobielle Therapie behandelt Infektionen, nicht die immunvermittelte Thrombozytopenie selbst. Im Fall werden keine Fieber- oder Sepsiszeichen genannt. Die Verdachtsdiagnose ITP verlangt daher keine primäre Antibiotikagabe.",
+          "term": "antimikrobielle Therapie"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Glukokortikoide sind eine wichtige Erstlinientherapie der Immunthrombozytopenie. Sie vermindern die immunvermittelte Thrombozytendestruktion und können die Thrombozytenzahl rasch anheben. Bei schwerer Thrombozytopenie mit Petechien ist diese Maßnahme am ehesten primär indiziert.",
+          "term": "Glukokortikoid-Stoßtherapie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Splenektomie ist keine primäre Notfallmaßnahme bei neu diagnostizierter ITP ohne lebensbedrohliche Blutung. Sie kommt eher bei ausgewählten refraktären Verläufen in Betracht. Für die Akutsituation ist eine medikamentöse Immunmodulation angemessener.",
+          "term": "Notfallsplenektomie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Vitamin K hilft bei Gerinnungsstörungen durch Vitamin-K-Mangel oder Vitamin-K-Antagonisten, nicht bei isolierter immunvermittelter Thrombozytopenie. Die Blutungsneigung beruht hier auf dem extremen Thrombozytenmangel. Daher adressiert Vitamin K den Mechanismus nicht.",
+          "term": "Vitamin-K-Substitution"
+        }
+      ]
+    }
+  }
+}
