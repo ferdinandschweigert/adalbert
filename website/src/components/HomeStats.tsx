@@ -31,7 +31,8 @@ type Overview = {
 };
 
 function heatClass(count: number, max: number): string {
-  if (count <= 0) return 'bg-zinc-100';
+  // Empty days need visible contrast on the card background (#f8fafc).
+  if (count <= 0) return 'bg-zinc-200';
   const t = max > 0 ? count / max : 0;
   if (t < 0.25) return 'bg-[#c5d4e3]';
   if (t < 0.5) return 'bg-[#7ba3c4]';
@@ -267,25 +268,30 @@ export function HomeStats() {
         <div className="mx-auto mb-6 max-w-5xl rounded-xl border border-[#e2e8f0] bg-[#f8fafc] p-5 md:p-6">
           <p className="mb-1 text-sm font-medium text-zinc-800">Aktivität letzte 14 Tage</p>
           <p className="mb-4 text-xs text-zinc-500">Kreuzungen pro Tag</p>
-          <div className="flex h-36 items-end gap-1.5 sm:gap-2">
+          <div className="flex h-40 items-end gap-1.5 sm:gap-2">
             {last14.map((day) => {
-              const h =
-                loading || day.count <= 0 ? 4 : Math.max(8, Math.round((day.count / max14) * 100));
+              // Pixel heights — % height collapses inside flex-col children.
+              const barPx =
+                loading || day.count <= 0
+                  ? 4
+                  : Math.max(10, Math.round((day.count / max14) * 112));
               return (
-                <div key={day.date} className="flex min-w-0 flex-1 flex-col items-center gap-1">
-                  <span className="text-[10px] tabular-nums text-zinc-500">
+                <div key={day.date} className="flex h-full min-w-0 flex-1 flex-col items-center justify-end gap-1">
+                  <span className="h-3 text-[10px] tabular-nums leading-none text-zinc-500">
                     {loading ? '·' : day.count > 0 ? day.count : ''}
                   </span>
                   <div
                     title={`${day.date}: ${day.count}`}
                     className={cn(
-                      'w-full max-w-[28px] rounded-t-md transition-all duration-500',
+                      'w-full max-w-[28px] shrink-0 rounded-t-md transition-[height] duration-500',
                       loading ? 'animate-pulse bg-zinc-200' : 'bg-[#002F5D]',
                       day.count === 0 && !loading && 'bg-zinc-200'
                     )}
-                    style={{ height: `${h}%` }}
+                    style={{ height: `${barPx}px` }}
                   />
-                  <span className="truncate text-[10px] text-zinc-400">{weekdayLabel(day.date)}</span>
+                  <span className="truncate text-[10px] leading-none text-zinc-400">
+                    {weekdayLabel(day.date)}
+                  </span>
                 </div>
               );
             })}
@@ -378,7 +384,7 @@ export function HomeStats() {
             </div>
             <div className="mt-4 flex items-center gap-1.5 text-xs text-zinc-500">
               <span>weniger</span>
-              <span className="h-3 w-3 rounded-sm bg-zinc-100" />
+              <span className="h-3 w-3 rounded-sm bg-zinc-200" />
               <span className="h-3 w-3 rounded-sm bg-[#c5d4e3]" />
               <span className="h-3 w-3 rounded-sm bg-[#7ba3c4]" />
               <span className="h-3 w-3 rounded-sm bg-[#2C94CC]" />
