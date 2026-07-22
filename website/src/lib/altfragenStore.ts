@@ -33,5 +33,7 @@ export function createEmptyProgress(examId: string): ExamProgress {
     currentIndex: 0,
     selections: {},
     checked: [],
+    startedAt: new Date().toISOString(),
+    checkedAt: {},
   };
 }
