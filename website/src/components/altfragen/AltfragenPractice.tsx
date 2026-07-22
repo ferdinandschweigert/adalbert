@@ -136,7 +136,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
   const question = questions[index];
   const optionCount = question?.options.length ?? 0;
   const selection = normalizeBits(progress?.selections[index], optionCount);
-  const isChecked = progress?.checked.includes(index) ?? false;
+  const isChecked = progress?.checked.some((i) => Number(i) === index) ?? false;
   const currentStat = question ? communityStats[String(question.number)] : undefined;
 
   const navStatus = useCallback(
@@ -242,18 +242,34 @@ export function AltfragenPractice({ examId }: { examId: string }) {
 
   const handleResetQuestion = () => {
     if (!progress || !isChecked) return;
-    const nextSelections = { ...progress.selections };
+    if (
+      !confirm(
+        `Nur Frage ${index + 1} zurücksetzen?\n\nAndere Fragen bleiben unverändert.`
+      )
+    ) {
+      return;
+    }
+    const nextSelections: Record<number, string> = { ...progress.selections };
+    // Keys may be numbers or strings after localStorage round-trip
     delete nextSelections[index];
+    delete nextSelections[String(index) as unknown as number];
+    const nextChecked = progress.checked
+      .map((i) => Number(i))
+      .filter((i) => i !== index);
     persist({
-      ...progress,
+      examId: progress.examId,
+      currentIndex: progress.currentIndex,
       selections: nextSelections,
-      checked: progress.checked.filter((i) => i !== index),
-      completedAt: undefined,
+      checked: nextChecked,
     });
   };
 
   const handleRestartAll = () => {
-    if (!confirm('Gesamten Fortschritt dieser Klausur zurücksetzen? Alle Antworten werden gelöscht.')) {
+    if (
+      !confirm(
+        'Gesamten Fortschritt dieser Klausur zurücksetzen?\n\nAlle Antworten werden gelöscht.'
+      )
+    ) {
       return;
     }
     clearProgress(examId);
@@ -618,14 +634,15 @@ export function AltfragenPractice({ examId }: { examId: string }) {
               <Button
                 type="button"
                 variant="ghost"
-                size="icon"
-                className="h-8 w-8 text-zinc-500 hover:text-zinc-900"
+                size="sm"
+                className="h-8 gap-1.5 px-2 text-zinc-500 hover:text-zinc-900"
                 onClick={handleResetQuestion}
                 disabled={!isChecked}
-                title="Diese Frage zurücksetzen"
-                aria-label="Diese Frage zurücksetzen"
+                title="Nur diese eine Frage zurücksetzen"
+                aria-label="Nur diese Frage zurücksetzen"
               >
-                <RotateCcw className="h-4 w-4" />
+                <RotateCcw className="h-3.5 w-3.5" />
+                <span className="text-xs">Frage</span>
               </Button>
             </div>
             <div className="flex gap-2">
