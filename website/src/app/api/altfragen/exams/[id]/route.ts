@@ -7,12 +7,9 @@ import type { StoredExam } from '@/lib/altfragenTypes';
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
-/** Practice payload: drop heavy rationale blobs (~0.9MB) that the UI does not render. */
+/** Practice payload keeps Amboss explanations so they render after answering. */
 function toPracticeExam(exam: StoredExam): StoredExam {
-  return {
-    ...exam,
-    questions: exam.questions.map(({ optionRationales, explanation, ...rest }) => rest),
-  };
+  return exam;
 }
 
 export async function GET(
