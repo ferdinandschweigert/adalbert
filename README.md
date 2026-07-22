@@ -19,11 +19,12 @@ Lernplattform für Medizinstudierende mit **zwei klaren Modulen**:
 
 ## Teilen (Fachschaft)
 
-1. Live-URL + **Zugangscode** (`ALTFRAGEN_ACCESS_CODE`) weitergeben — nicht öffentlich ohne Gate.
-2. Admin-Passwort (`ALTFRAGEN_ADMIN_PASSWORD`) nur an Betreuende; **kein Default** mehr.
-3. Details: [SETUP.md](SETUP.md) → Abschnitt „Teilen mit der Fachschaft“.
+Das **Repo ist öffentlich** (Code + Fragenbank in Git). Der Zugangscode schützt nur die **Live-Site** (`/altfragen`), nicht den GitHub-Clone.
 
-**Anki** auf dem Live-Host ist bewusst eingeschränkt (AnkiConnect nur lokal).
+- Mitstudierende: Live-URL + `ALTFRAGEN_ACCESS_CODE`
+- Admin: `ALTFRAGEN_ADMIN_PASSWORD` (Pflicht, kein Default) — siehe [SETUP.md](SETUP.md)
+
+**Anki** auf dem Live-Host nur lokal nutzbar (AnkiConnect).
 
 ---
 

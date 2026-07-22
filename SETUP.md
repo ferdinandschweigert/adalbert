@@ -90,9 +90,9 @@ Ziel: Mitstudierende üben freigegebene Klausuren unter einem gemeinsamen Zugang
 4. Altfragen-Seiten sind `noindex`; Admin ebenfalls.
 5. Anki auf dem Live-Host klar als lokal kennzeichnen — kein Versprechen, dass Anreicherung online geht.
 
-### Rechtlicher Rahmen
+### Öffentliches Repo
 
-Offizielle IMPP-Fragen nicht öffentlich indexieren. Sinnvoll: Fachschafts-/Forum-Verteilung + Zugangscode; Seiten sind `noindex`.
+Das GitHub-Repo ist öffentlich — inkl. `website/data/altfragen-bank.json`. Der Zugangscode gilt nur für die Live-Site, nicht für den Clone. Altfragen-Seiten sind `noindex`; IMPP-Inhalt nicht zusätzlich öffentlich bewerben.
 
 ### Umgebungsvariablen (Vercel / Website)
 

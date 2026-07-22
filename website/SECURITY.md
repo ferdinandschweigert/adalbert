@@ -21,15 +21,14 @@
 3. **Verbose errors**
    - Some API routes still return raw exception messages
 
-4. **Exam bank in repo**
-   - Published question content lives in `website/data/altfragen-bank.json`; access code only protects the live site, not a public Git clone
+4. **Public repo**
+   - Exam bank is in the public GitHub repo; access code only protects the live site
 
 ## Recommendations
 
-### Fachschaft sharing (supported path)
-- Set `ALTFRAGEN_ACCESS_CODE` and a strong `ALTFRAGEN_ADMIN_PASSWORD` on Vercel before sharing the link
-- Share URL + code in private channels (Fachschaft), not on public indexed pages
-- Keep Anki as a local companion; do not promise hosted AnkiConnect
+### Fachschaft sharing
+- Set `ALTFRAGEN_ACCESS_CODE` + strong `ALTFRAGEN_ADMIN_PASSWORD` on Vercel
+- Share live URL + code privately; Anki stays local-only
 
 ### Local development
 - Copy `website/.env.example` → `.env.local` and replace placeholder passwords
