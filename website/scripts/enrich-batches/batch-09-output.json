@@ -1,0 +1,745 @@
+{
+  "examId": "m2-ss26-f26-gedaechtnisprotokoll",
+  "questions": {
+    "181": {
+      "topicLabel": "Bursitis olecrani",
+      "explanation": "Der geschilderte Befund passt am besten zu einer Bursitis olecrani. Typisch sind eine druckschmerzhafte, gerötete, überwärmte Schwellung direkt streckseitig über dem Olekranon, oft nach wiederholter mechanischer Belastung oder Druckexposition. Der Beruf als Maler kann eine solche lokale Reizung durch Aufstützen, repetitive Arbeit oder Mikrotraumata begünstigen, auch wenn kein einzelnes Trauma erinnerlich ist. Die Psoriasis in der Vorgeschichte ist ein wichtiger Distraktor, erklärt aber ohne typische Arthritiszeichen nicht die akut lokalisierte Schleimbeutelschwellung. Entscheidend ist die anatomische Lokalisation über der Streckseite des Ellenbogens und der lokale Entzündungscharakter.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine Bursitis olecrani verursacht klassisch eine schmerzhafte, gerötete und überwärmte Schwellung über der Streckseite des Ellenbogens. Wiederholte Druckbelastung oder Mikrotraumata sind typische Auslöser, was zum Beruf und zur Lokalisation passt. Diese Option ist daher laut Antwortschlüssel und klinischem Bild korrekt.",
+          "term": "Bursitis olecrani"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Sulcus-ulnaris-Syndrom ist eine Kompressionsneuropathie des Nervus ulnaris am Ellenbogen. Dabei stünden Parästhesien am Kleinfinger und Ringfinger, sensible Ausfälle oder motorische Schwäche der Hand im Vordergrund. Eine akut gerötete, überwärmte Schwellung über dem Olekranon wird dadurch nicht erklärt.",
+          "term": "Sulcus-ulnaris-Syndrom"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Psoriasisarthritis ist bei Psoriasis grundsätzlich eine wichtige Differenzialdiagnose. Erwartet würden aber eher Gelenkschwellungen, Daktylitiden, Enthesitiden, Nagelveränderungen oder ein typisches Befallsmuster mehrerer Gelenke. Der isolierte akute Befund direkt über dem Olekranon spricht stärker für eine Bursitis.",
+          "term": "Psoriasisarthritis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Gicht kann akut sehr schmerzhaft sein und auch gelenknahe Strukturen betreffen. Im Fall fehlen jedoch Hinweise wie bekannte Hyperurikämie, Tophi, typische Podagra oder eine klassische akute Monoarthritis. Die beruflich plausibel belastete Streckseite des Ellenbogens macht die Bursitis zur besseren Diagnose.",
+          "term": "Gicht"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll nicht rekonstruiert. Sie kann daher inhaltlich nicht sicher bewertet werden und ist nach Antwortschlüssel nicht korrekt.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "182": {
+      "topicLabel": "Verrucae vulgares",
+      "explanation": "Bei einer Patientin nach Nierentransplantation oder unter Immunsuppression sind ausgedehnte virale Hautveränderungen besonders plausibel. Verrucae vulgares werden durch humane Papillomviren verursacht und treten unter verminderter zellulärer Immunabwehr häufiger, zahlreicher und persistierender auf. Die Lokalisation an den Händen passt gut zu gewöhnlichen Warzen. Andere HPV-Manifestationen oder Hauttumoren müssen bei Transplantierten zwar mitbedacht werden, erklären die beschriebenen Handveränderungen aber weniger passend. Der Antwortschlüssel markiert daher die Verrucae vulgares als gesuchte Diagnose.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Verrucae vulgares sind gewöhnliche Warzen, meist an Händen und Fingern, und werden durch HPV ausgelöst. Unter Immunsuppression nach Transplantation können sie besonders ausgeprägt und therapieresistent sein. Damit passt diese Option am besten zur Fallbeschreibung und ist korrekt.",
+          "term": "Verrucae vulgares"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Condylomata acuminata sind ebenfalls HPV-assoziiert, treten aber typischerweise anogenital auf. Die Frage beschreibt Hautveränderungen an beiden Händen, nicht im Genital- oder Perianalbereich. Daher ist diese Diagnose hier nicht die passende Antwort.",
+          "term": "Condylomata acuminata"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Basalzellkarzinome können bei immunsupprimierten Patientinnen und Patienten häufiger auftreten. Sie zeigen jedoch typischerweise langsam wachsende, perlmuttartige, knotige oder ulzerierende Tumoren und nicht primär multiple typische Warzen an den Händen. Aus dem Protokollkontext ergibt sich daher keine bessere Erklärung als Verrucae vulgares.",
+          "term": "Basalzellkarzinome"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Antwortmöglichkeit ist im Protokoll nicht überliefert. Ohne Wortlaut lässt sie sich nicht inhaltlich einordnen und wird entsprechend dem Antwortschlüssel als nicht korrekt gewertet.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortmöglichkeit ist im Protokoll nicht überliefert. Daher ist nur festzuhalten, dass sie nach Antwortschlüssel nicht die gesuchte Diagnose war.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "183": {
+      "topicLabel": "PIMS-Differenzialdiagnose",
+      "explanation": "Beim pädiatrischen inflammatorischen Multisystem-Syndrom nach SARS-CoV-2-Infektion ist das Kawasaki-Syndrom die zentrale Differenzialdiagnose. Beide Erkrankungen können Fieber, Exanthem, Konjunktivitis, Schleimhautbeteiligung, Lymphadenopathie und kardiovaskuläre Komplikationen zeigen. PIMS betrifft oft mehrere Organsysteme und kann mit Schock oder ausgeprägter Entzündungsreaktion einhergehen, während Kawasaki klassisch als Vaskulitis kleiner und mittelgroßer Gefäße betrachtet wird. In der Prüfung ist die Nähe der klinischen Präsentation entscheidend. Deshalb ist Kawasaki die wichtige abzugrenzende Diagnose.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Das Kawasaki-Syndrom ist die wichtigste Differenzialdiagnose zu PIMS, weil sich die mukokutanen und kardiovaskulären Befunde überschneiden können. Beide Erkrankungen können eine systemische Entzündung im Kindesalter verursachen. Diese Option ist deshalb korrekt.",
+          "term": "Kawasaki-Syndrom"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Das Tourette-Syndrom ist eine neuropsychiatrische Störung mit motorischen und vokalen Tics. Es verursacht keine akute multisystemische Entzündungsreaktion nach Infektion. Es ist daher keine relevante Differenzialdiagnose zu PIMS.",
+          "term": "Tourette-Syndrom"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Das Waterhouse-Friderichsen-Syndrom beschreibt eine fulminante Sepsis mit Nebennierenblutung, klassisch bei Meningokokken. Es kann ebenfalls schwer akut verlaufen, hat aber eine andere Pathophysiologie und typische infektiös-septische Konstellation. Es ist nicht die charakteristische PIMS-Differenzialdiagnose in dieser Frage.",
+          "term": "Waterhouse-Friderichsen-Syndrom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Rheumatisches Fieber folgt typischerweise einer Streptokokkeninfektion und kann Karditis, Arthritis und choreatische Symptome verursachen. Es überschneidet sich nicht so spezifisch mit der mukokutanen PIMS-Präsentation wie das Kawasaki-Syndrom. Daher ist es hier nicht die gesuchte wichtigste Differenzialdiagnose.",
+          "term": "Rheumatisches Fieber"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Das Still-Syndrom kann Fieber, Exanthem und systemische Entzündung verursachen. Dennoch ist es nicht die klassische unmittelbare Differenzialdiagnose zu PIMS nach COVID-19, die in Prüfungen vor allem mit Kawasaki abgegrenzt wird. Deshalb ist diese Option nicht korrekt.",
+          "term": "Still-Syndrom"
+        }
+      ]
+    },
+    "184": {
+      "topicLabel": "Media-Verschluss",
+      "explanation": "Der Fall beschreibt einen akuten ischämischen Schlaganfall mit schwerem fokalneurologischem Defizit und angiografisch nachgewiesenem Media-Verschluss. Bei einem großen Gefäßverschluss innerhalb des Thrombolysefensters ist die Kombination aus intravenöser Thrombolyse und mechanischer Thrombektomie die akut indizierte Reperfusionsstrategie, sofern keine Kontraindikationen bestehen. Die Thrombolyse darf die Thrombektomie nicht unnötig verzögern, beide Verfahren werden in der Akutversorgung parallel organisiert. Hemiparese, Aphasie und Blickwendung sprechen für ein großes territoriales Ereignis mit hohem Nutzen einer raschen Rekanalisation. Daher ist die unverzügliche kombinierte Therapie die richtige Maßnahme.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Bei akutem Media-Verschluss im geeigneten Zeitfenster ist eine mechanische Thrombektomie indiziert. Besteht gleichzeitig eine Indikation zur intravenösen Thrombolyse, wird diese zusätzlich begonnen. Die Kombination entspricht der im Antwortschlüssel markierten Akutmaßnahme.",
+          "term": "Thrombolyse und Thrombektomie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll nicht erhalten. Für unbekannte Optionen kann nur festgehalten werden, dass sie laut Antwortschlüssel nicht korrekt waren.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll nicht erhalten. Sie wird daher nicht inhaltlich interpretiert und ist nach Antwortschlüssel falsch.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll nicht erhalten. Ohne genauen Wortlaut ist nur die Einordnung als nicht gesuchte Antwort möglich.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll nicht erhalten. Der rekonstruierte korrekte Handlungsweg bleibt die sofortige Reperfusion mit Thrombolyse und Thrombektomie.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "185": {
+      "topicLabel": "Thrombose in Schwangerschaft",
+      "explanation": "Bei einer Beinvenenthrombose in der Schwangerschaft ist niedermolekulares Heparin die Therapie der Wahl. Heparine passieren die Plazenta nicht in relevantem Ausmaß und sind deshalb für den Feten deutlich sicherer als Vitamin-K-Antagonisten. Direkte orale Antikoagulanzien werden in der Schwangerschaft nicht als Standardtherapie eingesetzt, weil Sicherheit und Wirksamkeit in dieser Situation nicht ausreichend abgesichert sind. Phenprocoumon kann plazentagängig sein und fetale Komplikationen verursachen. Vitamin K ist kein Antikoagulans, sondern wirkt einer Antikoagulation mit Vitamin-K-Antagonisten entgegen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Direkte Thrombininhibitoren gehören nicht zur Standardtherapie einer akuten Beinvenenthrombose in der Schwangerschaft. Für diese Wirkstoffe ist die Anwendung in der Schwangerschaft im Vergleich zu Heparinen deutlich problematischer. Daher ist diese Option nicht korrekt.",
+          "term": "Thrombininhibitor"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Faktor-Xa-Hemmer sind direkte orale Antikoagulanzien und werden in der Schwangerschaft nicht routinemäßig zur Thrombosebehandlung verwendet. Die plazentare Sicherheit ist nicht so etabliert wie bei niedermolekularem Heparin. Deshalb ist diese Option hier falsch.",
+          "term": "Faktor-Xa-Hemmer"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Phenprocoumon ist ein Vitamin-K-Antagonist und kann die Plazenta passieren. In der Schwangerschaft besteht dadurch ein relevantes Risiko fetaler Schäden und Blutungen. Es ist daher nicht die gesuchte Therapie der akuten Thrombose in der Schwangerschaft.",
+          "term": "Phenprocoumon"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Niedermolekulares Heparin ist bei schwangerschaftsassoziierter venöser Thromboembolie die bevorzugte Antikoagulation. Es ist nicht plazentagängig wie orale Vitamin-K-Antagonisten und hat eine etablierte Anwendung in dieser Situation. Diese Option ist daher korrekt.",
+          "term": "Niedermolekulares Heparin"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Vitamin K wird nicht zur Antikoagulation eingesetzt. Es wird vielmehr benötigt, um Vitamin-K-abhängige Gerinnungsfaktoren zu bilden, und kann die Wirkung von Vitamin-K-Antagonisten antagonisieren. Damit behandelt man keine akute Beinvenenthrombose.",
+          "term": "Vitamin K"
+        }
+      ]
+    },
+    "186": {
+      "topicLabel": "Peritonitis-Antibiose",
+      "explanation": "Ceftriaxon plus Metronidazol deckt viele typische Erreger einer intraabdominellen Infektion ab, aber Enterokokken werden durch Ceftriaxon nicht zuverlässig erfasst. Ceftriaxon wirkt gegen zahlreiche gramnegative Stäbchen und viele Streptokokken, während Metronidazol die anaerobe Lücke schließt. Enterococcus faecalis ist gegenüber Cephalosporinen intrinsisch problematisch und benötigt bei entsprechender Indikation eine gezielte enterokokkenwirksame Therapie. Bei der Frage wird genau nach dem nicht abgedeckten Erreger gefragt. Deshalb ist Enterococcus faecalis die richtige Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Streptococcus equinus gehört zur Streptococcus-bovis-Gruppe und ist grundsätzlich kein typischer Ceftriaxon-Wirkungslücken-Erreger. Ceftriaxon besitzt eine relevante Aktivität gegen viele Streptokokken. Diese Option ist deshalb nicht die gesuchte Lücke der Kombination.",
+          "term": "Streptococcus equinus"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Enterococcus faecalis wird durch Ceftriaxon nicht zuverlässig abgedeckt, da Enterokokken gegenüber Cephalosporinen eine typische Wirkungslücke darstellen. Metronidazol ergänzt die anaerobe Abdeckung, hilft aber nicht gegen Enterokokken. Damit ist diese Option korrekt.",
+          "term": "Enterococcus faecalis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Bacteroides-Arten sind obligate Anaerobier und werden durch Metronidazol typischerweise gut erfasst. Genau deshalb wird Metronidazol häufig mit einem Cephalosporin kombiniert, um intraabdominelle Anaerobier abzudecken. Diese Option ist daher nicht die gesuchte Lücke.",
+          "term": "Bacteroides"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Proteus mirabilis ist ein gramnegatives Stäbchen, das in der Regel in das Spektrum von Ceftriaxon fällt, sofern keine besonderen Resistenzmechanismen vorliegen. Die Frage zielt nicht auf individuelle Resistenztestung, sondern auf das Standardspektrum. Daher ist diese Option nicht korrekt.",
+          "term": "Proteus mirabilis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Escherichia coli ist ein häufiger intraabdomineller gramnegativer Erreger und wird im Standardspektrum von Ceftriaxon typischerweise berücksichtigt. Resistenzlagen können klinisch wichtig sein, ändern aber nicht die Prüfungslogik dieser Kombination. E. coli ist hier nicht die gesuchte Abdeckungslücke.",
+          "term": "Escherichia coli"
+        }
+      ]
+    },
+    "187": {
+      "topicLabel": "Rehabilitationsfähigkeit",
+      "explanation": "Für eine Rehabilitation reicht nicht allein aus, dass Beschwerden bestehen oder ambulante Maßnahmen erfolglos waren. Entscheidend ist neben Rehabilitationsbedürftigkeit und realistischer Rehabilitationsprognose auch die Rehabilitationsfähigkeit. Dazu gehören ausreichende körperliche und psychische Belastbarkeit sowie Motivation und Mitarbeit der Patientin. Die richtige Option beschreibt genau diese Voraussetzung für die tatsächliche Durchführbarkeit der Maßnahme. Die anderen Antworten vermischen eher Begründung, Zuständigkeit oder sozialmedizinische Aspekte mit der Frage nach Fähigkeit.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ausreichende Motivation und Belastbarkeit sind zentrale Bestandteile der Rehabilitationsfähigkeit. Eine Patientin muss an den Therapien teilnehmen und die Belastung des Reha-Programms bewältigen können. Deshalb ist diese Option korrekt.",
+          "term": "Motivation und Belastbarkeit"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Dass ambulante Maßnahmen nicht ausgereicht haben, kann eine Rehabilitationsbedürftigkeit begründen. Es sagt aber noch nicht, ob die Patientin körperlich und psychisch in der Lage ist, eine Reha durchzuführen. Daher beantwortet diese Option die Frage nach Rehafähigkeit nicht korrekt.",
+          "term": "Ambulante Maßnahmen ausgeschöpft"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein noch nicht gestellter Erwerbsminderungsantrag ist keine medizinische Voraussetzung für Rehabilitationsfähigkeit. Sozialrechtliche Verfahren können für Zuständigkeit und Leistungsgewährung relevant sein, ersetzen aber nicht die klinische Beurteilung von Belastbarkeit und Mitarbeit. Diese Option ist deshalb falsch.",
+          "term": "Erwerbsminderungsantrag"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Auch diese Formulierung beschreibt eher, warum eine Rehabilitation erwogen wird, nicht ob sie durchführbar ist. Rehabilitationsfähigkeit verlangt eine ausreichende körperliche, psychische und motivationale Teilnahmefähigkeit. Deshalb ist die Option nicht die gesuchte Voraussetzung.",
+          "term": "Ambulante Therapie erschöpft"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll nicht rekonstruiert. Sie kann nicht weiter inhaltlich geprüft werden und ist nach Antwortschlüssel nicht korrekt.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "188": {
+      "topicLabel": "Berufskrankheit HWS",
+      "explanation": "Bandscheibenbedingte Erkrankungen der Halswirbelsäule als Berufskrankheit werden klassisch mit langjährigem Tragen schwerer Lasten auf der Schulter in Verbindung gebracht. Dabei wirken hohe axiale und seitliche Belastungen auf die HWS, etwa bei wiederholtem Schultern schwerer Gegenstände. Ein zervikales Wurzelreizsyndrom im Bereich C6 bis C8 passt prinzipiell zu einer HWS-Problematik. Die anderen Tätigkeiten können belastend sein, entsprechen aber nicht so spezifisch der anerkannten Konstellation für eine HWS-Berufskrankheit. Deshalb ist das Tragen schwerer Lasten auf der Schulter die gesuchte Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Langjähriges Tragen schwerer Lasten auf der Schulter ist die typische berufliche Belastung, die mit bandscheibenbedingten Erkrankungen der Halswirbelsäule verknüpft wird. Die Lastübertragung über Schulter und Nacken kann die HWS erheblich beanspruchen. Diese Option ist daher korrekt.",
+          "term": "Schulterlasten"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Unergonomische Bildschirmarbeit kann Nackenbeschwerden und muskuläre Verspannungen fördern. Sie ist aber nicht die klassische Ursache einer anerkannten bandscheibenbedingten HWS-Berufskrankheit im Sinne der Frage. Daher ist diese Option nicht korrekt.",
+          "term": "Bildschirmarbeit"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Fahren im Tiefbau kann mit Ganzkörpervibrationen verbunden sein und ist eher bei bestimmten Wirbelsäulenbelastungen relevant. Für die hier abgefragte HWS-Konstellation ist es weniger spezifisch als das Schultern schwerer Lasten. Deshalb ist diese Option nicht die beste Antwort.",
+          "term": "Fahren im Tiefbau"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Arbeiten mit einem Presslufthammer führen vor allem zu Hand-Arm-Vibrationen und können andere berufliche Schädigungen begünstigen. Eine spezifische bandscheibenbedingte HWS-Erkrankung wird dadurch nicht so typisch erklärt. Diese Option ist daher falsch.",
+          "term": "Presslufthammer"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Arbeiten in gebeugter Körperhaltung in engen Verhältnissen belasten eher Rücken und Bewegungsapparat allgemein. Die anerkannte HWS-spezifische Belastung in dieser Fragestellung ist jedoch das Tragen schwerer Lasten auf der Schulter. Deshalb ist diese Option nicht korrekt.",
+          "term": "Gebückte Zwangshaltung"
+        }
+      ]
+    },
+    "189": {
+      "topicLabel": "Milien",
+      "explanation": "Milien sind kleine, feste, weißliche bis hautfarbene Keratinzysten der Haut. Morphologisch entsprechen sie am ehesten Papeln, also kleinen umschriebenen erhabenen Effloreszenzen. Sie sind nicht flüssigkeitsgefüllt, nicht eitrig und auch keine flächigen Plaques. Der Hinweis im Protokoll, dass Milien zu sehen waren, führt daher direkt zur Effloreszenz Papeln. Die monatelange, schmerzlose Persistenz passt ebenfalls besser zu Milien als zu akuten entzündlichen oder infektiösen Läsionen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Bläschen sind kleine flüssigkeitsgefüllte Hohlräume der Haut. Milien enthalten keratinöses Material und erscheinen fest, nicht klar flüssigkeitsgefüllt. Daher ist diese Effloreszenzbezeichnung nicht passend.",
+          "term": "Bläschen"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Papeln sind kleine, umschriebene, erhabene Hautveränderungen. Milien präsentieren sich klinisch als kleine feste weißliche Papeln. Deshalb ist diese Option korrekt.",
+          "term": "Papeln"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Pusteln enthalten Eiter und weisen meist auf eine entzündliche oder infektiöse Komponente hin. Milien sind dagegen kleine Keratinzysten ohne eitrigen Inhalt. Die Option ist deshalb nicht korrekt, auch wenn sie im Protokoll kommentiert wurde.",
+          "term": "Pusteln"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Narben sind Folge eines abgelaufenen Gewebeschadens mit bindegewebigem Umbau. Milien sind primäre kleine Zysten beziehungsweise papulöse Effloreszenzen und keine Narben. Daher passt diese Bezeichnung nicht.",
+          "term": "Narben"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Plaque ist eine flächige, erhabene Hautveränderung größerer Ausdehnung. Milien sind dagegen klein, punktförmig und papulös. Deshalb ist diese Option nicht korrekt.",
+          "term": "Plaque"
+        }
+      ]
+    },
+    "190": {
+      "topicLabel": "Zentralvenöse Sättigung",
+      "explanation": "Eine erniedrigte zentralvenöse Sauerstoffsättigung weist auf ein Missverhältnis zwischen Sauerstoffangebot und Sauerstoffverbrauch hin. Ein vermindertes Herzzeitvolumen senkt den systemischen Sauerstofftransport, sodass das Gewebe mehr Sauerstoff aus dem Blut extrahiert und die venöse Sättigung abfällt. Das ist bei einer Sepsis klinisch besonders relevant, weil Kreislaufversagen und myokardiale Dysfunktion die Sauerstofflieferung vermindern können. Faktoren, die den Sauerstoffverbrauch senken oder das arterielle Sauerstoffangebot erhöhen, würden die zentralvenöse Sättigung eher anheben. Daher ist das verminderte Herzzeitvolumen die passendste Ursache.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ein vermindertes Herzzeitvolumen reduziert die Sauerstofflieferung an die Gewebe. Um den Bedarf dennoch zu decken, steigt die Sauerstoffextraktion, wodurch die zentralvenöse Sauerstoffsättigung sinkt. Diese Option erklärt den Befund direkt und ist korrekt.",
+          "term": "Vermindertes Herzzeitvolumen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Verminderte Muskelaktivität oder Muskelrelaxierung senkt den Sauerstoffverbrauch der Muskulatur. Dadurch würde weniger Sauerstoff aus dem Blut extrahiert und die venöse Sättigung eher steigen. Diese Option erklärt die erniedrigte Sättigung daher nicht.",
+          "term": "Verminderte Muskelaktivität"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Inhalativer Sauerstoff erhöht in der Regel das arterielle Sauerstoffangebot, sofern Ventilation und Gasaustausch ausreichend sind. Das würde die zentralvenöse Sauerstoffsättigung nicht primär senken. Daher ist diese Antwort nicht die gesuchte Ursache.",
+          "term": "Sauerstoffgabe"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Hyperthyreose kann den Stoffwechsel und Sauerstoffverbrauch steigern, ist in diesem septischen Fall aber nicht als Ursache angegeben. Die Frage sucht die naheliegende hämodynamische Erklärung der erniedrigten zentralvenösen Sättigung. Im Antwortschlüssel ist diese Option daher nicht korrekt.",
+          "term": "Hyperthyreose"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Hypothermie senkt den metabolischen Sauerstoffverbrauch. Dadurch würde die venöse Sauerstoffsättigung eher höher ausfallen, weil weniger Sauerstoff extrahiert wird. Sie erklärt den erniedrigten Wert deshalb nicht.",
+          "term": "Hypothermie"
+        }
+      ]
+    },
+    "191": {
+      "topicLabel": "Tertiärprävention",
+      "explanation": "Das Kind hat bereits eine diagnostizierte Epilepsie mit wiederholten generalisierten Anfällen. Maßnahmen zur Verhinderung weiterer Anfälle und zur Begrenzung kognitiver Folgeschäden zielen daher nicht mehr auf die Verhinderung des erstmaligen Auftretens der Erkrankung. Es geht vielmehr darum, Komplikationen, Verschlechterung und Krankheitsfolgen einer bestehenden Erkrankung zu vermeiden. Das entspricht der tertiären Prävention. Auslösende Faktoren wie Schlafmangel oder Stress können dabei im Rahmen der Krankheitskontrolle mitadressiert werden.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Primärprävention soll das erstmalige Auftreten einer Erkrankung verhindern. Die Epilepsie ist bei dem Kind aber bereits diagnostiziert und hat sich durch mehrere Anfälle manifestiert. Deshalb ist diese Präventionsform nicht passend.",
+          "term": "Primärprävention"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Sekundärprävention meint Früherkennung oder frühes Eingreifen in einem möglichst asymptomatischen oder frühen Krankheitsstadium. Hier geht es nicht um Diagnosestellung oder Screening, sondern um die Kontrolle einer bekannten Epilepsie. Daher ist diese Option nicht korrekt.",
+          "term": "Sekundärprävention"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Tertiärprävention soll Folgen und Komplikationen einer bereits bestehenden Erkrankung begrenzen. Die Vermeidung weiterer epileptischer Anfälle und der Schutz der kognitiven Leistungsfähigkeit passen genau dazu. Diese Option ist deshalb korrekt.",
+          "term": "Tertiärprävention"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Quartärprävention richtet sich gegen Überdiagnostik und Übertherapie beziehungsweise unnötige medizinische Maßnahmen. Der Fall beschreibt jedoch sinnvolle Krankheitskontrolle bei gesicherter Epilepsie. Diese Option ist daher nicht passend.",
+          "term": "Quartärprävention"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine der klassischen Präventionsformen trifft sehr wohl zu. Bei bestehender Epilepsie mit dem Ziel, Anfallsfolgen und Verschlechterung zu verhindern, ist tertiäre Prävention gemeint. Daher ist diese Ausschlussoption falsch.",
+          "term": "Keine Präventionsform"
+        }
+      ]
+    },
+    "192": {
+      "topicLabel": "Metformin und Vitamin B12",
+      "explanation": "Eine langjährige Metformintherapie kann mit einem Vitamin-B12-Mangel assoziiert sein. Der Mechanismus betrifft vor allem die gestörte intestinale Aufnahme von Vitamin B12, sodass bei langfristiger Einnahme entsprechende Kontrollen klinisch relevant sein können. Ein Vitamin-B12-Mangel kann hämatologische und neurologische Folgen haben, etwa makrozytäre Anämie oder Neuropathie. Die anderen genannten Mikronährstoffe sind keine typische spezifische Mangelerscheinung durch Metformin. Daher ist Vitamin B12 die richtige Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Eisenmangel ist häufig, aber nicht die typische spezifische Folge einer langjährigen Metformintherapie. Er wäre eher durch Blutverlust, Mangelernährung oder Resorptionsstörungen anderer Ursache zu erklären. Deshalb ist diese Option nicht korrekt.",
+          "term": "Eisen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Vitamin-C-Mangel ist nicht typisch mit Metformin assoziiert. Er hängt eher mit stark eingeschränkter Zufuhr oder speziellen Ernährungsproblemen zusammen. Diese Option erklärt die bekannte Metformin-Nebenwirkung daher nicht.",
+          "term": "Vitamin C"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Vitamin-B12-Mangel ist eine bekannte mögliche Folge einer langfristigen Metformintherapie. Klinisch ist das wichtig, weil neurologische Beschwerden und eine makrozytäre Anämie auftreten können. Diese Option ist daher korrekt.",
+          "term": "Vitamin B12"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Kalziummangel ist nicht die klassische durch Metformin bedingte Mangelerscheinung. Auch wenn Kalzium im Stoffwechsel vieler Prozesse relevant ist, ergibt sich aus der Fallfrage kein entsprechender Zusammenhang. Diese Option ist falsch.",
+          "term": "Kalzium"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Folsäuremangel kann ebenfalls eine makrozytäre Anämie verursachen, ist aber nicht die typische Metformin-assoziierte Mangelerscheinung. Die Frage zielt auf Vitamin B12 ab. Daher ist diese Option nicht korrekt.",
+          "term": "Folsäure"
+        }
+      ]
+    },
+    "193": {
+      "topicLabel": "Präoxygenierung",
+      "explanation": "Bei normobarer Präoxygenierung mit 100 Prozent Sauerstoff wird vor allem der Stickstoff aus der funktionellen Residualkapazität ausgewaschen und durch Sauerstoff ersetzt. Dadurch steigt der alveoläre und arterielle Sauerstoffpartialdruck deutlich, während der Gesamt-Sauerstoffgehalt des Blutes wegen der bereits weitgehend gesättigten Hämoglobinbindung nur begrenzt zunimmt. Der Antwortschlüssel markiert die temporäre Erhöhung der arteriovenösen Sauerstoffdifferenz als gesuchten Effekt; plausibel ist dies als kurzfristige Veränderung durch den erhöhten arteriellen Sauerstoffanteil bei zunächst weniger stark verändertem venösem Sauerstoffgehalt. Eine Verdopplung des arteriellen Sauerstoffgehalts wäre wegen der Hämoglobinsättigung falsch. Sauerstofftoxizität und die vollständige Korrektur einer Shunt-Hypoxie sind ebenfalls nicht die erwarteten Effekte einer kurzen Präoxygenierung.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Resorptionsatelektasen können unter hoher inspiratorischer Sauerstofffraktion grundsätzlich begünstigt werden. In dieser Frage ist diese Option nach Antwortschlüssel jedoch nicht der gesuchte Haupteffekt der Präoxygenierung. Wegen der bekannten Nähe dieses Effekts zur Präoxygenierung bleibt die Sicherheit der rekonstruierten Frage geringer.",
+          "term": "Atelektasen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Sauerstoffintoxikation ist keine typische Folge einer kurzen normobaren Präoxygenierung zur Narkoseeinleitung. Toxische Effekte erfordern andere Expositionsbedingungen und sind hier nicht die Prüfungsantwort. Diese Option ist deshalb falsch.",
+          "term": "Sauerstoffintoxikation"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Der arterielle Sauerstoffgehalt verdoppelt sich durch 100 Prozent Sauerstoff nicht. Hämoglobin ist unter normalen Bedingungen bereits nahezu vollständig gesättigt, sodass vor allem der gelöste Sauerstoffanteil zunimmt. Dieser Anteil ist für den Gesamtgehalt zu klein, um eine Verdopplung zu erklären.",
+          "term": "Arterieller Sauerstoffgehalt"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die temporäre Erhöhung der arteriovenösen Sauerstoffdifferenz ist laut Antwortschlüssel der gesuchte Effekt. Sie lässt sich durch den kurzfristig erhöhten arteriellen Sauerstoffpartialdruck beziehungsweise gelösten Sauerstoff bei zunächst weniger verändertem venösem Sauerstoffgehalt erklären. Daher wird diese Option als korrekt gewertet.",
+          "term": "Arteriovenöse Sauerstoffdifferenz"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Hypoxie durch echten intrapulmonalen Shunt lässt sich durch Sauerstoffgabe nur begrenzt verbessern, weil ein Teil des Blutes nicht an belüfteten Alveolen oxygeniert wird. Eine kurze Präoxygenierung beseitigt den Shuntmechanismus nicht. Daher ist diese Option falsch.",
+          "term": "Shunt-Hypoxie"
+        }
+      ]
+    },
+    "194": {
+      "topicLabel": "Tinea pedis",
+      "explanation": "Der beschriebene juckende Interdigitalbefund an beiden Füßen passt zu einer Tinea pedis beziehungsweise Interdigitalmykose. Bei begrenztem Befall ohne Hinweise auf eine systemische Infektion ist eine lokale antimykotische Therapie die naheliegende Maßnahme. Gerade bei Diabetes ist eine konsequente Behandlung wichtig, weil Hautbarrierestörungen sekundäre bakterielle Infektionen begünstigen können. Eine primäre Kortikosteroidtherapie würde die Pilzinfektion eher verschleiern oder verschlechtern. Antibiotika oder eine angiologische Abklärung sind ohne Hinweise auf bakterielle Infektion oder Durchblutungsstörung nicht vorrangig.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Prednisoloncreme behandelt keine Dermatophyteninfektion. Lokale Steroide können bei Pilzinfektionen das klinische Bild abschwächen, die Erreger aber nicht beseitigen und den Verlauf ungünstig beeinflussen. Deshalb ist diese Option falsch.",
+          "term": "Topisches Kortikosteroid"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine angiologische Überweisung wäre bei Verdacht auf relevante Durchblutungsstörung, Ulzera oder diabetisches Fußsyndrom mit vaskulärem Problem zu erwägen. Der Fall beschreibt jedoch eine isolierte juckende Interdigitalmykose bei sonst symptomloser Haut. Daher ist dies nicht die erste Maßnahme.",
+          "term": "Angiologische Überweisung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Amoxicillin ist ein Antibiotikum und wirkt nicht gegen Dermatophyten. Es gibt im Fall keine Hinweise auf eine bakterielle Zellulitis oder systemische Infektion, die eine orale antibiotische Therapie begründen würden. Diese Option ist daher nicht korrekt.",
+          "term": "Amoxicillin"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Eine lokale antimykotische Therapie passt zu einer begrenzten Tinea pedis. Die im Antworttext genannte Fortführung nach klinischer Abheilung soll Rückfälle durch verbliebene Pilzerreger vermeiden. Diese Option ist daher korrekt.",
+          "term": "Lokale Antimykose"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Gentamicin ist antibakteriell wirksam und behandelt keine Pilzinfektion. Ohne bakterielle Superinfektion ist eine antimikrobielle Lokaltherapie mit einem Antibiotikum nicht zielführend. Daher ist diese Option falsch.",
+          "term": "Gentamicin lokal"
+        }
+      ]
+    },
+    "195": {
+      "topicLabel": "ZNS-Entzündung",
+      "explanation": "Die spastisch-ataktische Gangstörung mit gesteigerten Muskeleigenreflexen, positiven Pyramidenbahnzeichen und Blasenstörung spricht für eine zentrale Läsion. Das Alter, die subakute Verschlechterung über Monate und die Kombination aus motorischer Bahnzeichen-Symptomatik und Ataxie passen am ehesten zu einer chronisch entzündlichen Erkrankung des ZNS, insbesondere aus dem demyelinisierenden Formenkreis. Eine periphere Neuropathie würde eher schlaffe Paresen, abgeschwächte Reflexe und sensible Ausfälle erwarten lassen. Ein lumbaler Bandscheibenvorfall erklärt die beidseitige spastisch-ataktische Symptomatik und Dranginkontinenz ohne Schmerzen nicht gut. Raumforderungen frontal können Gang- und Blasenstörungen verursachen, passen aber in dieser Auswahl weniger gut zur beschriebenen Pyramidenbahn- und Ataxiekonstellation.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein lumbaler Bandscheibenvorfall verursacht typischerweise radikuläre Schmerzen, sensible Ausfälle oder periphere motorische Defizite. Gesteigerte Reflexe und Pyramidenbahnzeichen sprechen dagegen für eine zentrale Schädigung oberhalb des peripheren Motoneurons. Diese Option ist daher nicht passend.",
+          "term": "Lumbaler Bandscheibenvorfall"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die chronisch inflammatorische demyelinisierende Polyneuropathie betrifft das periphere Nervensystem. Erwartet wären eher distal betonte Schwäche, sensible Symptome und abgeschwächte oder fehlende Reflexe. Die gesteigerten Reflexe und Pyramidenbahnzeichen sprechen gegen diese Option.",
+          "term": "CIDP"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein beidseitiger frontaler Tumor könnte zwar Antriebs-, Gang- oder Blasenstörungen verursachen. Die Fallbeschreibung betont jedoch spastisch-ataktischen Gang, gesteigerte Reflexe und Pyramidenbahnzeichen bei jungem Patienten mit rascher Verschlechterung. Laut Antwortschlüssel ist diese Tumoroption nicht die beste Erklärung.",
+          "term": "Frontalhirntumor"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein beidseitiger raumfordernder Prozess im frontalen Cortex überschneidet sich inhaltlich mit der Tumoroption. Er erklärt die neurologische Konstellation nicht so typisch wie eine entzündlich-demyelinisierende ZNS-Erkrankung. Deshalb ist diese Option nicht korrekt.",
+          "term": "Frontaler raumfordernder Prozess"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Eine chronisch entzündliche Erkrankung im ZNS passt zu zentralen Pyramidenbahnzeichen, spastischer Gangstörung, Ataxie und Blasenbeteiligung. Der Verlauf über Monate bei einem jungen Erwachsenen unterstützt eine demyelinisierende ZNS-Erkrankung als Arbeitshypothese. Diese Option ist laut Antwortschlüssel korrekt.",
+          "term": "Chronisch entzündliche ZNS-Erkrankung"
+        }
+      ]
+    },
+    "196": {
+      "topicLabel": "Akute Pankreatitis",
+      "explanation": "Bei akuter ödematöser Pankreatitis wird heute keine routinemäßige längere Nahrungskarenz mehr angestrebt. Wenn der Patient orale Kost verträgt, ist eine orale Ernährung entsprechend der Verträglichkeit sinnvoll. Eine parenterale Ernährung ist nicht erste Wahl, solange der Gastrointestinaltrakt genutzt werden kann. Bei fehlender oraler Verträglichkeit wäre enterale Ernährung einer parenteralen Strategie vorzuziehen, aber der Antwortschlüssel fragt hier nach dem passendsten Ernährungsplan. Entscheidend ist der frühe, symptomadaptierte Kostaufbau statt unnötigem Fasten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine absolute Nahrungskarenz über eine Woche ist bei akuter ödematöser Pankreatitis nicht mehr die Standardstrategie. Längeres Fasten kann Mangelernährung und Komplikationen begünstigen. Daher ist diese Option falsch.",
+          "term": "Absolute Nahrungskarenz"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine initial parenterale Ernährung ist nicht erforderlich, wenn der Magen-Darm-Trakt nutzbar ist und orale Kost vertragen wird. Parenterale Ernährung ist eher eine Ausweichstrategie bei unzureichender enteraler Versorgung. Diese Option ist daher nicht die beste Wahl.",
+          "term": "Parenteral dann oral"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Auch diese Strategie beginnt unnötig mit parenteraler Ernährung. Bei akuter Pankreatitis wird, wenn orale Ernährung nicht möglich ist, bevorzugt enteral ernährt. Ein routinemäßiger parenteraler Start ist deshalb nicht korrekt.",
+          "term": "Parenteral dann enteral"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Enterale Sondenernährung kann bei schwerer Pankreatitis oder fehlender oraler Verträglichkeit sinnvoll sein. Der Fall fragt jedoch nach dem am ehesten anzuordnenden Plan bei ödematöser Pankreatitis, und die korrekte Option ist orale Ernährung nach Verträglichkeit. Daher ist diese Antwort nicht die beste.",
+          "term": "Enterale Sondenernährung"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Orale Ernährung nach Verträglichkeit entspricht dem modernen Vorgehen bei unkomplizierter oder ödematöser akuter Pankreatitis. Sie vermeidet unnötige Nahrungskarenz und nutzt die erhaltene Darmfunktion. Diese Option ist daher korrekt.",
+          "term": "Orale Ernährung nach Verträglichkeit"
+        }
+      ]
+    },
+    "197": {
+      "topicLabel": "Alkoholhalluzinose",
+      "explanation": "Der Patient mit Alkoholabhängigkeit zeigt psychotische Symptome in Form von Eifersuchtswahn beziehungsweise Verfolgungsbezug und offenbar halluzinatorischem Erleben. Das wiederholte hektische Umschauen ohne objektiven Anlass spricht für Wahrnehmungsstörungen oder Bedrohungserleben bei relativ erhaltener Gesprächsfähigkeit. Charakteristisch für die Alkoholhalluzinose sind vor allem akustische Halluzinationen und wahnhafte Verarbeitung im Zusammenhang mit chronischem Alkoholkonsum, ohne dass ein voll ausgeprägtes Delir mit Bewusstseinstrübung im Vordergrund stehen muss. Die hohe aktuelle Alkoholisierung schließt alkoholassoziierte psychotische Symptome nicht aus. Andere Alkoholfolgeerkrankungen haben jeweils andere Leitsymptome.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die Wernicke-Enzephalopathie ist klassisch durch Verwirrtheit, Okulomotorikstörungen und Ataxie geprägt. Der Fall beschreibt vor allem Wahn und halluzinatorisch anmutendes Verhalten. Daher ist diese Option nicht passend.",
+          "term": "Wernicke-Enzephalopathie"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Alkoholhalluzinose passt zu Halluzinationen und wahnhaftem Erleben bei Alkoholabhängigkeit. Das hektische Umschauen und die unbegründeten Betrugsvorwürfe lassen eine alkoholassoziierte psychotische Symptomatik vermuten. Diese Option ist laut Antwortschlüssel korrekt.",
+          "term": "Alkoholhalluzinose"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Das Korsakow-Syndrom ist vor allem durch schwere Gedächtnisstörungen, Konfabulationen und Desorientierung geprägt. Eine akute halluzinatorisch-wahnhafte Szene mit Eifersuchtsideen steht dabei nicht im Vordergrund. Daher ist diese Option falsch.",
+          "term": "Korsakow-Syndrom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Alkoholentzugsdelir zeigt typischerweise Bewusstseinstrübung, Desorientierung, vegetative Entzugssymptome und oft optische Halluzinationen im Entzug. Im Fall wird eine hohe aktuelle Alkoholisierung und kein klassisches Delirbild beschrieben. Deshalb ist diese Option nicht die beste Antwort.",
+          "term": "Alkoholentzugsdelir"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Schädlicher Gebrauch beschreibt ein Konsummuster mit gesundheitlichen Schäden, erklärt aber nicht spezifisch die psychotischen Symptome. Die Frage fragt nach einem charakteristischen Krankheitsbild mit Halluzinationen und Wahn. Diese Option ist daher zu unspezifisch.",
+          "term": "Schädlicher Gebrauch"
+        }
+      ]
+    },
+    "198": {
+      "topicLabel": "Clusterkopfschmerz",
+      "explanation": "Der junge Mann hat typische Zeichen eines Clusterkopfschmerzes: stärkste einseitige orbitale Schmerzen, ipsilaterales Tränen und Rötung des Auges sowie ausgeprägte motorische Unruhe. Clusterattacken werden akut nicht wie gewöhnliche Kopfschmerzen mit oralen Analgetika behandelt, da die Schmerzen sehr rasch und heftig einsetzen. Geeignet sind rasch wirksame spezifische Akuttherapien, zu denen subkutanes Sumatriptan zählt. Auch Sauerstoff wäre klassisch, ist aber in den Antwortoptionen nicht aufgeführt. Unter den genannten Möglichkeiten ist Sumatriptan subkutan daher die richtige Therapie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Metamizol intravenös kann bei verschiedenen Schmerzen eingesetzt werden, ist aber keine spezifische Akuttherapie des Clusterkopfschmerzes. Clusterattacken sprechen typischerweise besser auf spezifische, schnell wirksame Verfahren an. Diese Option ist daher nicht korrekt.",
+          "term": "Metamizol i.v."
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Subkutanes Sumatriptan wirkt schnell und ist eine etablierte Akuttherapie bei Clusterkopfschmerz. Die Applikationsform ist wichtig, weil orale Medikamente für die kurze, heftige Attacke meist zu langsam sind. Diese Option ist deshalb korrekt.",
+          "term": "Sumatriptan s.c."
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Paracetamol oral ist bei Clusterkopfschmerz in der Regel zu langsam und nicht ausreichend wirksam. Die Attacken sind extrem schmerzhaft und erreichen rasch ihr Maximum. Deshalb ist diese Option nicht geeignet.",
+          "term": "Paracetamol p.o."
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "ASS intravenös ist nicht die typische spezifische Akuttherapie des Clusterkopfschmerzes. Auch wenn es analgetisch wirken kann, adressiert es die Attacke nicht so zuverlässig wie Triptane oder Sauerstoff. Daher ist diese Option falsch.",
+          "term": "ASS i.v."
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Tilidin ist ein Opioidanalgetikum und für Clusterattacken nicht die empfohlene Akuttherapie. Opioide wirken nicht spezifisch, können Nebenwirkungen und Abhängigkeit fördern und sind für die kurze Attackendynamik ungeeignet. Diese Option ist daher nicht korrekt.",
+          "term": "Tilidin"
+        }
+      ]
+    },
+    "199": {
+      "topicLabel": "Multiple Sklerose",
+      "explanation": "Die geschilderte junge Patientin mit früheren Doppelbildern, aktueller Sensibilitätsstörung und MRT-Läsionen an mehreren typischen ZNS-Orten erfüllt klinisch den Verdacht auf Multiple Sklerose. Periventrikuläre Läsionen sowie Herde im Hirnstamm und Kleinhirn sprechen für eine räumliche Dissemination. Unterschiedliche klinische Ereignisse zu verschiedenen Zeitpunkten unterstützen zusätzlich eine zeitliche Dissemination. Kontrastmittelaufnahme kann auf entzündliche Aktivität einzelner Läsionen hinweisen. Insgesamt passt das Muster deutlich besser zu MS als zu einem einzelnen Tumor oder einer anderen isolierten Erkrankung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Multiple Sklerose ist bei jungen Erwachsenen mit schubartigen neurologischen Symptomen und typischen MRT-Läsionen sehr plausibel. Periventrikuläre, infratentorielle und Hirnstamm- oder Kleinhirnläsionen passen zur räumlichen Dissemination. Diese Option ist korrekt.",
+          "term": "Multiple Sklerose"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "NMOSD kann ebenfalls entzündliche ZNS-Symptome verursachen, ist aber typischerweise stärker mit Optikusneuritis und longitudinal ausgedehnter Myelitis assoziiert. Das hier beschriebene periventrikuläre und infratentorielle Läsionsmuster mit früheren und aktuellen Symptomen passt klassischer zu MS. Daher ist diese Option nicht die beste Antwort.",
+          "term": "NMOS-Erkrankung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Hirntumor verursacht meist eine raumfordernde Läsion mit entsprechendem fokalem oder progredientem Verlauf. Multiple periventrikuläre und infratentorielle Herde mit schubartiger Symptomatik sprechen deutlich eher für eine entzündlich-demyelinisierende Erkrankung. Diese Option ist daher falsch.",
+          "term": "Hirntumor"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll nicht überliefert. Ohne Wortlaut kann sie nicht weiter eingeordnet werden und ist nach Antwortschlüssel nicht korrekt.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll nicht überliefert. Die rekonstruierte Fallkonstellation spricht am stärksten für Multiple Sklerose.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "200": {
+      "topicLabel": "Hepatitis-B-Immunität",
+      "explanation": "Für die Beurteilung einer Immunität gegen Hepatitis B ist Anti-HBs der entscheidende serologische Marker. Anti-HBs entsteht nach erfolgreicher Impfung oder nach durchgemachter Infektion und zeigt eine Schutzantwort gegen das Hepatitis-B-Oberflächenantigen an. Bei medizinischem Personal ist dieser Parameter besonders relevant, um den Impferfolg beziehungsweise Schutzstatus zu beurteilen. Anti-HBc zeigt dagegen den Kontakt mit dem Virus an und ist nach reiner Impfung nicht positiv. HBsAg weist auf eine aktuelle Infektion hin und ist kein Immunitätsmarker.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Anti-HBs ist der zentrale Marker für eine Immunität gegen Hepatitis B. Er kann nach Impfung oder nach ausgeheilter Infektion nachweisbar sein und zeigt eine humorale Schutzantwort an. Diese Option ist daher korrekt.",
+          "term": "Anti-HBs"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Anti-HBc zeigt einen Kontakt mit dem Hepatitis-B-Core-Antigen und damit eine durchgemachte oder bestehende natürliche Infektion an. Nach reiner Impfung ist Anti-HBc nicht positiv. Es ist daher nicht der gesuchte Marker für Impfimmunität.",
+          "term": "Anti-HBc"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "HBsAg ist ein Marker einer aktuellen Hepatitis-B-Infektion beziehungsweise Viruspersistenz. Ein positives HBsAg spricht nicht für Immunität, sondern für das Vorhandensein von Virusantigen. Diese Option ist deshalb falsch.",
+          "term": "HBsAg"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Anti-HBe kann im Verlauf einer natürlichen HBV-Infektion auftreten und ist eher mit der Replikationsaktivität beziehungsweise Serokonversion im HBe-System verbunden. Es dient nicht zur Beurteilung des Schutzes nach Impfung. Daher ist diese Option nicht korrekt.",
+          "term": "Anti-HBe"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll nicht rekonstruiert. Für die Immunitätsfrage ist der überlieferte korrekte Marker Anti-HBs.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    }
+  }
+}

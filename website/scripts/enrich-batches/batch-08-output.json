@@ -1,0 +1,745 @@
+{
+  "examId": "m2-ss26-f26-gedaechtnisprotokoll",
+  "questions": {
+    "161": {
+      "topicLabel": "Adnextumor-Sonografie",
+      "explanation": "Bei der 55-jährigen Patientin geht es nach der transvaginalen Sonografie um die sonografische Malignitätsabschätzung einer Adnexraumforderung. Typische Malignitätszeichen sind unter anderem solide Anteile, irreguläre Begrenzung, Aszites, starke Vaskularisation und mehrere papilläre Projektionen. Eine Raumforderung mit mindestens vier papillären Strukturen ist deshalb in der IOTA-orientierten Beurteilung ein verdächtiger Befund. Dagegen sprechen glatte Begrenzung, kleine solide Anteile unterhalb einer kritischen Größe und Schallschatten eher für benigne Veränderungen. Der Antwortschlüssel markiert daher korrekt die papillären Strukturen als Malignitätshinweis.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Kleine solide Anteile unter 7 mm sprechen in den IOTA-Simple-Rules eher für einen benignen Befund. Entscheidend ist nicht jede minimale solide Komponente, sondern die Kombination aus Größe, Morphologie, Begrenzung und weiteren Zeichen. Diese Option ist deshalb kein Malignitätskriterium.",
+          "term": "kleine solide Anteile"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine glatt berandete Raumforderung unter 10 cm ist eher ein beruhigender als ein maligner sonografischer Befund. Malignität wird vor allem durch irreguläre solide Strukturen, papilläre Anteile, Aszites oder auffällige Durchblutung wahrscheinlicher. Diese Option passt daher nicht zur gesuchten Malignitätswahrscheinlichkeit.",
+          "term": "glatt begrenzte Raumforderung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Option ist im Gedächtnisprotokoll nicht überliefert. Da der Antwortschlüssel sie nicht als korrekt markiert, kann sie nicht als gesuchtes Malignitätszeichen gewertet werden.",
+          "term": "unvollständige Option"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Mehrere papilläre Strukturen innerhalb einer Adnexraumforderung sind ein klassisches sonografisches Warnzeichen. Insbesondere mindestens vier papilläre Projektionen werden in IOTA-orientierten Kriterien als maligne verdächtig gewertet. Diese Option entspricht deshalb dem im Antwortschlüssel markierten Malignitätskriterium.",
+          "term": "papilläre Strukturen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine glatt begrenzte Struktur mit Schallschatten ist eher typisch für benigne Befunde, etwa fibromatöse oder dermoidartige Veränderungen. Schallschatten gehören nicht zu den klassischen Malignitätszeichen einer Adnexraumforderung. Daher ist diese Option nicht die gesuchte Antwort.",
+          "term": "Schallschatten"
+        }
+      ]
+    },
+    "162": {
+      "topicLabel": "Adnextumor-Abklärung",
+      "explanation": "Im Anschluss an einen malignitätsverdächtigen Adnexbefund ist die weitere Abklärung so zu planen, dass eine Tumorverschleppung vermieden und gleichzeitig die definitive Diagnose gesichert wird. Bei Verdacht auf ein Ovarialkarzinom erfolgt die histologische Sicherung typischerweise operativ, häufig mit intraoperativer Schnellschnitt- beziehungsweise Malignitätsbeurteilung, wenn das Vorgehen davon abhängt. Eine transkutane oder sonografisch gesteuerte Biopsie einer potenziell malignen Adnexmasse wird in der Regel vermieden, weil sie die Tumorkapsel verletzen und eine Streuung begünstigen kann. Tumormarker oder genetische Diagnostik können je nach Gesamtsituation ergänzend relevant werden, ersetzen aber nicht die operative Abklärung des verdächtigen Befunds. Deshalb ist nach Antwortschlüssel die intraoperative Malignitätsabklärung am ehesten richtig.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die intraoperative Malignitätsabklärung passt zur Situation einer verdächtigen Adnexraumforderung. Sie erlaubt eine histologische Einschätzung, ohne eine präoperative Punktion der Raumforderung vornehmen zu müssen. Davon kann das operative Ausmaß unmittelbar abhängig gemacht werden.",
+          "term": "intraoperative Malignitätsabklärung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine sonografisch gesteuerte Biopsie ist bei Verdacht auf ein primäres Ovarialkarzinom problematisch. Durch Punktion einer potenziell malignen Adnexmasse kann es zur Kapselverletzung oder Tumorzellverschleppung kommen. Daher ist sie hier nicht das Standardvorgehen.",
+          "term": "sonografisch gesteuerte Biopsie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine humangenetische Untersuchung kann bei bestätigtem Ovarialkarzinom für Risikoeinschätzung, Angehörigenberatung und Therapieplanung wichtig sein. Sie ist aber nicht die obligate nächste diagnostische Maßnahme zur Klärung einer verdächtigen Adnexraumforderung. Zunächst muss die Malignität gesichert und eingeordnet werden.",
+          "term": "humangenetische Untersuchung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "CA 15-3 ist vor allem als Marker im Kontext des Mammakarzinoms bekannt und nicht der zentrale präoperative Marker bei Verdacht auf Ovarialkarzinom. Selbst geeignete Tumormarker würden die operative Abklärung eines malignitätsverdächtigen Befunds nicht ersetzen. Diese Option ist daher nicht die beste Antwort.",
+          "term": "CA 15-3"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Option ist im Protokoll unvollständig. Laut Antwortschlüssel ist sie nicht die gesuchte nächste Maßnahme.",
+          "term": "unvollständige Option"
+        }
+      ]
+    },
+    "163": {
+      "topicLabel": "Alkoholmarker",
+      "explanation": "Bei langjährig starkem Alkoholkonsum können verschiedene Laborparameter auffällig sein, aber die Frage zielt auf den passend angegebenen Befund. Ethylglucuronid ist ein direkter Alkoholmetabolit und kann nach Alkoholkonsum erhöht nachweisbar sein. Chronischer Alkoholkonsum kann außerdem MCV, Gamma-GT und CDT erhöhen, nicht erniedrigen. Eine erhöhte Erythrozytenzahl wäre nicht typisch; eher können alkoholassoziiert Anämie, Makrozytose oder Knochenmarkeffekte auftreten. Deshalb ist die erhöhte Ethylglucuronid-Konzentration die einzige stimmige Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein niedriges MCV passt nicht typisch zu chronischem Alkoholkonsum. Häufiger ist eine Makrozytose mit erhöhtem MCV, unter anderem durch direkte Alkoholwirkung, Lebererkrankung oder begleitende Mangelzustände. Diese Option ist deshalb in der angegebenen Richtung falsch.",
+          "term": "erniedrigtes MCV"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Ethylglucuronid ist ein direkter Metabolit von Ethanol und dient als Nachweis eines zurückliegenden Alkoholkonsums. Bei dem beschriebenen massiven Konsum ist ein erhöhter Wert plausibel. Daher ist diese Option laut Antwortschlüssel korrekt.",
+          "term": "Ethylglucuronid"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "CDT steigt bei chronisch erhöhtem Alkoholkonsum typischerweise an. Eine erniedrigte CDT-Konzentration wäre daher nicht der erwartete Befund bei der geschilderten Alkoholabhängigkeit. Die Richtung der Veränderung macht diese Option falsch.",
+          "term": "erniedrigtes CDT"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine erhöhte Erythrozytenzahl ist kein typischer Marker für chronischen Alkoholmissbrauch. Alkohol kann eher zu Anämie, Makrozytose oder anderen hämatologischen Auffälligkeiten führen. Die Option beschreibt daher keinen erwarteten Standardbefund.",
+          "term": "erhöhte Erythrozytenzahl"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Gamma-GT ist bei chronischem Alkoholkonsum häufig erhöht, auch wenn sie nicht spezifisch ist. Eine erniedrigte Gamma-GT passt nicht zur gesuchten alkoholassoziierten Laborkonstellation. Deshalb ist diese Option falsch.",
+          "term": "erniedrigte Gamma-GT"
+        }
+      ]
+    },
+    "164": {
+      "topicLabel": "OSAS-Risiko",
+      "explanation": "Beim obstruktiven Schlafapnoesyndrom sind Übergewicht und Adipositas zentrale Risikofaktoren. Der Patient ist bei 110 kg und etwa 178 cm deutlich übergewichtig, sein BMI liegt im adipösen Bereich. Dadurch werden obere Atemwege mechanisch belastet, pharyngeale Weichteile begünstigen die Obstruktion im Schlaf und nächtliche Atemaussetzer werden wahrscheinlicher. Die beschriebene Müdigkeit beziehungsweise depressive Symptomatik kann als Folge eines OSAS auftreten, erklärt aber nicht den stärksten Risikofaktor in den Antwortoptionen. Das junge Alter und eine Hypotonie sprechen nicht in gleicher Weise für OSAS. Daher ist der BMI die am besten passende Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ein erhöhter BMI ist einer der wichtigsten Risikofaktoren für ein obstruktives Schlafapnoesyndrom. Bei den angegebenen Körpermaßen liegt eine Adipositas vor, die die oberen Atemwege im Schlaf funktionell einengen kann. Diese Option ist deshalb korrekt.",
+          "term": "erhöhter BMI"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein höheres Lebensalter erhöht zwar grundsätzlich die OSAS-Wahrscheinlichkeit. Der Patient ist jedoch erst 28 Jahre alt, sodass das Alter in diesem Fall nicht der naheliegende Risikofaktor ist. Im Vergleich zum BMI ist diese Option deutlich weniger passend.",
+          "term": "junges Alter"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Hypotonie ist kein typischer Risikofaktor für OSAS. Bei Schlafapnoe werden eher kardiovaskuläre Folgeprobleme wie arterielle Hypertonie und Rhythmusstörungen diskutiert. Daher spricht diese Option nicht am ehesten für OSAS.",
+          "term": "Hypotonie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Option ist im Gedächtnisprotokoll nicht erhalten. Da sie laut Antwortschlüssel nicht korrekt ist, kann sie nicht als führender OSAS-Risikofaktor gewertet werden.",
+          "term": "unvollständige Option"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Option ist im Gedächtnisprotokoll nicht erhalten. Der Antwortschlüssel markiert sie nicht als richtig, daher bleibt sie als unvollständiger Distraktor zu behandeln.",
+          "term": "unvollständige Option"
+        }
+      ]
+    },
+    "165": {
+      "topicLabel": "Varusgonarthrose",
+      "explanation": "Bei belastungsabhängigen Knieschmerzen, O-Bein-Stellung und Verdacht auf varische Gonarthrose ist die konventionelle Röntgendiagnostik unter Belastung zentral. Eine Ganzbeinstandaufnahme zeigt die mechanische Beinachse und erlaubt die Beurteilung der Varusfehlstellung sowie der medialen Gelenkspaltverschmälerung. Gerade bei Achsfehlstellungen ist nicht nur das Kniegelenk isoliert, sondern die gesamte Belastungsachse entscheidend. MRT, Szintigrafie, Sonografie oder Punktion sind initial nur bei speziellen Zusatzfragen sinnvoll. Deshalb ist die Ganzbeinstandaufnahme die am ehesten indizierte Erstdiagnostik.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein MRT kann Menisken, Knorpel und Weichteile detailliert darstellen, ist aber bei klassischer fortgeschrittener Gonarthrose nicht die initiale Standarddiagnostik. Bei Achsfehlstellung und Belastungsschmerz ist zunächst die Röntgenaufnahme unter Belastung entscheidend. Diese Option ist daher nicht am ehesten richtig.",
+          "term": "MRT des Knies"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die Ganzbeinstandaufnahme erfasst die mechanische Beinachse unter Belastung. Bei O-Beinen und Verdacht auf varische Gonarthrose ist sie besonders geeignet, Achsabweichung und Gelenkbelastung zu beurteilen. Damit ist sie die korrekte initiale Diagnostik.",
+          "term": "Ganzbeinstandaufnahme"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Skelettszintigrafie dient eher speziellen Fragestellungen wie unklaren Schmerzen, Entzündung, Tumor- oder Lockerungsdiagnostik. Für die typische varische Gonarthrose ist sie initial nicht erforderlich. Sie würde die zentrale Achsfrage nicht so direkt beantworten wie die Standaufnahme.",
+          "term": "Skelettszintigrafie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Sonografie kann Ergüsse, Baker-Zysten oder oberflächliche Weichteilbefunde zeigen. Sie ist aber nicht geeignet, die knöcherne Achsstellung und die belastungsabhängige Gelenkspaltverschmälerung ausreichend zu beurteilen. Daher ist sie hier nicht die beste Erstdiagnostik.",
+          "term": "Knie-Sonografie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Gelenkpunktion ist bei Verdacht auf Infekt, Kristallarthropathie oder ausgeprägten Erguss sinnvoll. Die Fallbeschreibung spricht jedoch für eine degenerative, achsbedingte Gonarthrose. Ohne Hinweise auf einen entzündlichen Prozess ist die Punktion nicht die initiale Maßnahme.",
+          "term": "Gelenkpunktion"
+        }
+      ]
+    },
+    "166": {
+      "topicLabel": "Neutral-Null-Knie",
+      "explanation": "Die Neutral-Null-Methode beschreibt Bewegungsumfänge als Bewegung in die eine Richtung, Neutralstellung und Bewegung in die Gegenrichtung. Beim Knie wird für Extension/Flexion üblicherweise die Streckung vor der Beugung angegeben. Kann das Knie wegen eines Streckdefizits die Neutralstellung nicht erreichen, steht die fehlende Extension als mittlerer Wert ungleich null, zum Beispiel 0/20/110. Das bedeutet: keine Überstreckung, 20 Grad Beugestellung als Streckdefizit und Beugung bis 110 Grad. Die anderen Schreibweisen würden entweder normale Beweglichkeit, isolierte Flexionseinschränkung oder Hyperextension ausdrücken. Deshalb ist Ex/Flex 0/20/110 korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ex/Flex 0/20/110 beschreibt ein Streckdefizit von 20 Grad und eine Beugung bis 110 Grad. Der mittlere Wert zeigt, dass die Neutralstellung nicht erreicht wird. Damit passt diese Schreibweise zur beschriebenen Einschränkung.",
+          "term": "0/20/110"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "5/0/140 würde eine leichte Überstreckbarkeit von 5 Grad und eine freie Beugung bis 140 Grad ausdrücken. Das ist keine Darstellung eines relevanten Streckdefizits. Diese Option widerspricht daher der Fallangabe.",
+          "term": "5/0/140"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "0/0/140 beschreibt eine normale Streckung bis zur Neutralstellung und eine freie Beugung. Ein Streckdefizit liegt bei dieser Schreibweise gerade nicht vor. Daher ist diese Option falsch.",
+          "term": "0/0/140"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "0/0/110 zeigt zwar eine eingeschränkte Beugung bis 110 Grad, aber keine Streckhemmung. Die Neutralstellung wird hier erreicht, weil der mittlere Wert null ist. Damit bildet die Option das gesuchte Streckdefizit nicht ab.",
+          "term": "0/0/110"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "20/0/110 würde eine Überstreckung beziehungsweise Extension um 20 Grad und eine Beugung bis 110 Grad bedeuten. Das ist das Gegenteil eines Streckdefizits. Deshalb ist diese Schreibweise nicht korrekt.",
+          "term": "20/0/110"
+        }
+      ]
+    },
+    "167": {
+      "topicLabel": "Knie-TEP-Indikation",
+      "explanation": "Der 72-jährige Patient hat eine fortgeschrittene Gonarthrose mit zunehmenden Schmerzen, eingeschränkter Gehstrecke, Bewegungseinschränkung und deutlich reduzierter Lebensqualität. Zudem sind konservative Maßnahmen ausgeschöpft und das Röntgen zeigt eine fortgeschrittene Degeneration. In dieser Konstellation ist die endoprothetische Versorgung die Standardtherapie, wenn keine Kontraindikationen bestehen. Eine totale bikondyläre Knieendoprothese ersetzt beide Gelenkkompartimente und passt zur fortgeschrittenen Gonarthrose. Gelenkerhaltende oder rein arthroskopische Maßnahmen sind bei diesem Stadium nicht mehr zielführend. Daher ist die Knie-TEP die am ehesten indizierte Therapie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Resektionsarthroplastik mit Spacer ist kein Standardverfahren zur primären Behandlung einer degenerativen Gonarthrose. Spacer kommen eher im Kontext infizierter Endoprothesen oder komplexer Revisionssituationen vor. Für den beschriebenen Erstfall wäre das deutlich zu invasiv und nicht zielgerichtet.",
+          "term": "Resektionsarthroplastik"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Arthrodese des Kniegelenks nimmt die Beweglichkeit des Gelenks dauerhaft. Sie ist eher eine Salvage-Option bei speziellen Problemlagen, nicht die Regeltherapie der fortgeschrittenen Gonarthrose beim älteren Patienten. Bei erhaltbarer Funktion ist eine Endoprothese vorzuziehen.",
+          "term": "Kniearthrodese"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine arthroskopische Meniskusresektion behandelt eine meniskale Pathologie, nicht die fortgeschrittene globale Arthrose. Bei ausgeprägter Gonarthrose mit Lebensqualitätseinschränkung ist sie in der Regel nicht geeignet, das Grundproblem zu lösen. Daher ist sie nicht die gesuchte Therapie.",
+          "term": "Meniskusresektion"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine arthroskopische Gelenktoilette mit Steroidinjektion kann allenfalls kurzfristige symptomatische Effekte haben und ist bei fortgeschrittener Gonarthrose keine definitive Therapie. Der Fall beschreibt ausgeschöpfte konservative Behandlung und deutliche strukturelle Arthrose. Damit ist ein endoprothetisches Vorgehen plausibler.",
+          "term": "Gelenktoilette"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Die totale bikondyläre Knieendoprothese ist bei fortgeschrittener Gonarthrose mit relevanter Schmerz- und Funktionseinschränkung nach ausgeschöpfter konservativer Therapie indiziert. Sie adressiert die degenerativ zerstörten Gelenkflächen und kann Belastbarkeit sowie Lebensqualität verbessern. Diese Option ist deshalb korrekt.",
+          "term": "Knie-TEP"
+        }
+      ]
+    },
+    "168": {
+      "topicLabel": "TEP-Thromboseprophylaxe",
+      "explanation": "Nach Implantation einer Knieendoprothese besteht ein deutlich erhöhtes Risiko für venöse Thromboembolien. Deshalb ist postoperativ eine medikamentöse Thromboseprophylaxe indiziert, sofern keine Kontraindikationen bestehen. Niedermolekulare Heparine wie Enoxaparin sind hierfür ein klassischer und geeigneter Ansatz. Unfraktioniertes Heparin kann in bestimmten Situationen verwendet werden, die hier angebotene intravenöse Dauergabe ist aber nicht die typische Standardantwort für die postoperative Prophylaxe. Vitamin K hebt Antikoagulation auf, ASS und Phenprocoumon sind in dieser Fragestellung nicht die am besten passende Standardoption. Daher ist Enoxaparin s.c. korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Enoxaparin als niedermolekulares Heparin ist eine etablierte medikamentöse Thromboseprophylaxe nach großen orthopädischen Eingriffen wie Knie-TEP. Die subkutane Gabe passt zum prophylaktischen Setting. Diese Option ist daher laut Antwortschlüssel richtig.",
+          "term": "Enoxaparin"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Unfraktioniertes Heparin kann zur Prophylaxe grundsätzlich eine Rolle spielen, wird dann aber typischerweise subkutan und bei speziellen Konstellationen eingesetzt. Die hier genannte intravenöse Gabe ist für die normale postoperative Prophylaxe nach Knie-TEP nicht die passendste Antwort. Daher ist diese Option nicht korrekt.",
+          "term": "unfraktioniertes Heparin i.v."
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Vitamin K wirkt nicht thromboembolieprophylaktisch, sondern antagonisiert Vitamin-K-Antagonisten und fördert die Gerinnungsfaktorbildung. Es wäre bei Überantikoagulation relevant, nicht zur Prophylaxe nach Knie-TEP. Diese Option ist daher eindeutig falsch.",
+          "term": "Vitamin K"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "ASS kann in manchen prophylaktischen Strategien diskutiert werden, ist aber in dieser Prüfungslogik nicht die Standardantwort nach Knie-TEP. Bei hohem postoperativem Thromboserisiko wird klassisch eine Antikoagulation wie ein niedermolekulares Heparin gewählt. Deshalb ist ASS hier nicht am ehesten indiziert.",
+          "term": "ASS"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Phenprocoumon ist ein Vitamin-K-Antagonist mit verzögertem Wirkeintritt und relevantem Steuerungsaufwand. Für die unmittelbare postoperative Standardprophylaxe nach Knie-TEP ist es nicht die naheliegendste Option. Daher ist diese Antwort falsch.",
+          "term": "Phenprocoumon"
+        }
+      ]
+    },
+    "169": {
+      "topicLabel": "TEP-Frühkomplikation",
+      "explanation": "Früh postoperativ nach Knie-TEP stehen Komplikationen im Vordergrund, die unmittelbar mit Operation, Wunde, Hämatom, Keimeintrag oder perioperativer Versorgung zusammenhängen. Eine periprothetische Infektion kann früh auftreten und ist klinisch besonders relevant, weil sie rasches Erkennen und konsequentes Management erfordert. Abriebphänomene und aseptische Lockerungen entwickeln sich typischerweise eher im Verlauf über längere Zeit. Auch heterotope Ossifikationen beziehungsweise Verknöcherungen sind nicht die klassische unmittelbar frühe Standardkomplikation in dieser Antwortauswahl. Deshalb ist die periprothetische Infektion die passende früh-postoperative Komplikation.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine periprothetische Infektion kann früh postoperativ auftreten und gehört zu den gefürchteten frühen Komplikationen nach Endoprothesenimplantation. Sie kann sich mit Schmerzen, Wundproblemen, Fieber oder Entzündungszeichen zeigen. Diese Option ist daher korrekt.",
+          "term": "periprothetische Infektion"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Metallabrieb ist eher ein mechanisches Langzeitproblem von Implantatkomponenten. Er entsteht nicht typischerweise direkt in der frühen postoperativen Phase. Deshalb ist diese Option für die Frage nach einer Frühkomplikation nicht passend.",
+          "term": "Metallabrieb"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Polyethylenabrieb entsteht durch mechanische Beanspruchung über längere Zeit. Er ist daher eine Spätkomplikation beziehungsweise ein Verschleißproblem und nicht typisch unmittelbar nach der Operation. Diese Option ist falsch.",
+          "term": "Polyethylenabrieb"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Prothesenlockerung entwickelt sich meist im längeren Verlauf, zum Beispiel durch aseptische Lockerung, Abriebreaktion oder Infektfolge. Direkt früh postoperativ ist sie nicht die typische Standardkomplikation in dieser Auswahl. Daher ist diese Antwort nicht korrekt.",
+          "term": "Prothesenlockerung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Verknöcherung um das Gelenk kann nach Operationen vorkommen, ist aber nicht die klassische unmittelbar früh-postoperative Komplikation einer Knie-TEP in dieser Frage. Sie steht weniger im Vordergrund als Infektion, Thrombose oder Wundprobleme. Daher ist diese Option nicht die beste Antwort.",
+          "term": "heterotope Ossifikation"
+        }
+      ]
+    },
+    "170": {
+      "topicLabel": "Giardiasis",
+      "explanation": "Die Patientin hat nach Indienreise persistierende, eher breiig-wässrige Durchfälle nach Mahlzeiten, Blähungen, Aufstoßen und Völlegefühl, aber kein Fieber und keine schweren Allgemeinsymptome. Dieses Muster passt gut zu einer chronischen protozoären Enteritis durch Giardia lamblia. Giardiasis verursacht häufig Malabsorption, meteoristische Beschwerden und übelriechende oder voluminöse Stühle, oft ohne invasive Entzündungszeichen. Typhus, Shigellose und virale Gastroenteritis würden typischerweise anders verlaufen oder akuter imponieren. Eine klassische ETEC-Reisediarrhö ist meist kurz dauernd und klingt nach wenigen Tagen ab. Daher ist die chronische protozoäre Enteritis die plausibelste Verdachtsdiagnose.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Typhus durch Salmonella Typhi verursacht typischerweise ein systemisches Krankheitsbild mit Fieber und Allgemeinsymptomen. Die Patientin hat dagegen vor allem postprandiale Durchfälle, Blähungen und Aufstoßen ohne Fieber. Das passt nicht am besten zu Typhus.",
+          "term": "Salmonella Typhi"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Giardiasis passt zu prolongierten Durchfällen nach Reise, Blähungen, Völlegefühl und Aufstoßen. Die Beschwerden können durch eine protozoäre Dünndarminfektion mit Malabsorption erklärt werden. Deshalb ist diese Option korrekt.",
+          "term": "Giardiasis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "ETEC ist eine häufige Ursache der akuten Reisediarrhö, typischerweise mit Beginn während oder kurz nach der Reise und eher selbstlimitierendem Verlauf. Die hier geschilderten länger anhaltenden Beschwerden mit ausgeprägtem Blähbauch und Aufstoßen passen besser zu Giardia. Daher ist ETEC nicht die beste Antwort.",
+          "term": "ETEC-Reisediarrhö"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine virale Gastroenteritis verläuft meist akut und selbstlimitierend über wenige Tage. Persistierende Beschwerden über Wochen nach Fernreise mit Malabsorptionssymptomen sind dafür weniger typisch. Diese Option erklärt den Verlauf daher nicht am besten.",
+          "term": "virale Gastroenteritis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Shigellen verursachen typischerweise eine invasive Dysenterie mit Fieber, Bauchkrämpfen, Tenesmen und oft blutig-schleimigen Stühlen. Die Patientin hat keine solchen Entzündungszeichen, sondern eher nichtinvasive, malabsorptive Beschwerden. Deshalb ist Shigellose nicht die passendste Diagnose.",
+          "term": "Shigellenruhr"
+        }
+      ]
+    },
+    "171": {
+      "topicLabel": "Stuhl-Calprotectin",
+      "explanation": "Bei persistierenden gastrointestinalen Beschwerden kann die Abgrenzung zwischen funktionellen Beschwerden und entzündlicher Darmerkrankung wichtig sein. Calprotectin im Stuhl ist ein Marker für neutrophile Entzündung im Darm und hilft, organisch-entzündliche Ursachen von funktionellen Beschwerden abzugrenzen. Ein unauffälliges Calprotectin spricht eher gegen eine relevante intestinale Entzündung, während ein erhöhter Wert weitere Abklärung nahelegt. Blutwerte wie CRP, Prokalzitonin oder Leukozyten sind weniger spezifisch für eine lokale Darmentzündung und können bei milden oder lokal begrenzten Erkrankungen unauffällig bleiben. Okkultes Blut prüft Blutungsquellen, schließt aber funktionelle Beschwerden nicht so gezielt aus. Daher ist Calprotectin im Stuhl die beste Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "CRP ist ein systemischer Entzündungsmarker und kann bei vielen Ursachen erhöht sein. Ein normales CRP schließt eine lokale intestinale Entzündung nicht sicher aus. Zur Abgrenzung funktioneller von entzündlichen Darmbeschwerden ist Stuhl-Calprotectin direkter geeignet.",
+          "term": "CRP"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Prokalzitonin ist vor allem bei schweren bakteriellen Infektionen und Sepsis hilfreich. Für die Unterscheidung funktioneller Beschwerden von einer lokalen intestinalen Entzündung ist es nicht der passende Screeningparameter. Diese Option ist daher nicht korrekt.",
+          "term": "Prokalzitonin"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Leukozyten im Blut sind unspezifisch und können bei vielen Infektionen oder Entzündungen verändert sein. Sie sind nicht sensitiv genug, um funktionelle Beschwerden im Darm gezielt auszuschließen. Deshalb ist diese Option dem Stuhl-Calprotectin unterlegen.",
+          "term": "Blutleukozyten"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Calprotectin im Stuhl zeigt eine neutrophile Entzündungsaktivität im Darm an. Es wird klinisch genutzt, um entzündliche Darmerkrankungen beziehungsweise organische Entzündungen von funktionellen Beschwerden abzugrenzen. Daher ist diese Option korrekt.",
+          "term": "Stuhl-Calprotectin"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Okkultes Blut im Stuhl dient dem Nachweis nicht sichtbarer Blutungen, etwa bei Tumoren, Polypen oder entzündlichen Läsionen. Ein negativer Test schließt funktionelle Beschwerden nicht in derselben Weise gegen entzündliche Aktivität ab. Deshalb ist er hier nicht die beste Antwort.",
+          "term": "okkultes Blut"
+        }
+      ]
+    },
+    "172": {
+      "topicLabel": "Reisediarrhö-Vorgehen",
+      "explanation": "In dieser Folgefrage wird nach dem nächsten Vorgehen bei einer stabilen älteren Patientin mit Durchfällen nach Reise gefragt. Laut Antwortschlüssel steht zunächst die symptomatische Behandlung mit oraler Rehydratation und geplanter Wiedervorstellung im Vordergrund. Das ist plausibel, wenn keine Fieber, Blutbeimengungen, starke Schmerzen, Exsikkose oder schwere Allgemeinsymptome beschrieben sind. Orale Rehydratationslösung adressiert das wichtigste unmittelbare Risiko einer Diarrhö, nämlich Flüssigkeits- und Elektrolytverlust. Eine invasive Diagnostik oder empirische Antibiotikatherapie wäre ohne Alarmsymptome und ohne gesicherten Erreger nicht die erste Maßnahme in dieser Antwortlogik. Wegen des Reisebezugs und der zuvor diskutierten Giardiasis bleibt die Protokollsicherheit etwas eingeschränkt, der Antwortschlüssel wird aber strikt übernommen.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "WHO-Trinklösung beziehungsweise orale Rehydratation ist bei unkomplizierter Diarrhö die wichtigste erste Maßnahme. Bei fehlenden Alarmsymptomen ist eine engmaschige Wiedervorstellung bei ausbleibender Besserung vertretbar. Diese Option ist laut Antwortschlüssel korrekt.",
+          "term": "orale Rehydratation"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Stuhlproben auf Erreger können bei prolongierter Reisediarrhö, Immunsuppression oder Alarmsymptomen sinnvoll sein. In der hier codierten Fragelogik soll jedoch zunächst symptomatisch rehydriert und der Verlauf kontrolliert werden. Daher ist diese Option trotz grundsätzlicher Plausibilität nicht die gesuchte Antwort.",
+          "term": "mikrobiologische Stuhluntersuchung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine empirische Antibiotikatherapie wird nicht bei jeder Reisediarrhö benötigt. Ohne Fieber, blutige Stühle oder schwere systemische Zeichen wäre sie zu breit und könnte Nebenwirkungen sowie Resistenzprobleme verursachen. Deshalb ist Azithromycin hier nicht die erste Maßnahme.",
+          "term": "empirisches Azithromycin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Dünndarm-Stufenbiopsie ist eine invasive Diagnostik und nicht der nächste Schritt bei zunächst unkompliziert erscheinender Diarrhö. Sie wäre allenfalls bei speziellen Verdachtsdiagnosen nach nichtinvasiver Abklärung zu erwägen. Für den beschriebenen Verlauf ist sie nicht primär angezeigt.",
+          "term": "Dünndarmbiopsie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Dickdarm-Stufenbiopsie gehört nicht zur Erstmaßnahme bei stabiler Reisediarrhö ohne Hinweise auf schwere Kolitis. Vor invasiver Endoskopie stehen klinische Einschätzung, Rehydratation und gegebenenfalls nichtinvasive Diagnostik. Daher ist diese Option nicht korrekt.",
+          "term": "Dickdarmbiopsie"
+        }
+      ]
+    },
+    "173": {
+      "topicLabel": "Janda-Kraftgrad",
+      "explanation": "Die Janda-Kraftgrade beschreiben die willkürliche Muskelkraft anhand der Bewegung gegen Schwerkraft und gegen Widerstand. Kraftgrad 2 bedeutet, dass eine vollständige Bewegung möglich ist, wenn die Schwerkraft weitgehend ausgeschaltet wird, zum Beispiel in horizontaler Lagerung. Genau das wird im Fall beschrieben: Die Patientin kann den Arm bei horizontaler Lagerung vollständig bewegen. Für Kraftgrad 3 müsste die Bewegung gegen die Schwerkraft gelingen, für höhere Grade zusätzlich gegen Widerstand. Kraftgrad 1 wäre nur eine sicht- oder tastbare Kontraktion ohne Bewegung. Daher entspricht der Befund Kraftgrad 2.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Kraftgrad 1 beschreibt eine sicht- oder tastbare Muskelkontraktion ohne wirksame Bewegung. Die Patientin kann den Arm in horizontaler Lagerung jedoch vollständig bewegen. Damit ist der Befund stärker als Kraftgrad 1.",
+          "term": "Kraftgrad 1"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Kraftgrad 2 bedeutet vollständige Bewegung bei ausgeschalteter Schwerkraft. Die horizontale Lagerung reduziert den Einfluss der Schwerkraft, und genau unter dieser Bedingung gelingt die Bewegung vollständig. Diese Option ist deshalb korrekt.",
+          "term": "Kraftgrad 2"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Kraftgrad 3 setzt voraus, dass die Bewegung gegen die Schwerkraft vollständig möglich ist. Im Fall wird nur die Bewegung bei horizontaler Lagerung beschrieben. Daher ist Kraftgrad 3 zu hoch angesetzt.",
+          "term": "Kraftgrad 3"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Kraftgrad 4 bedeutet Bewegung gegen Schwerkraft und gegen mäßigen Widerstand. Eine solche Widerstandsleistung wird im Fall nicht beschrieben. Die Option überschätzt daher die Muskelkraft.",
+          "term": "Kraftgrad 4"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Kraftgrad 5 entspricht normaler Kraft gegen starken Widerstand. Die Patientin benötigt aber eine schwerkraftentlastete Ausgangsposition. Damit liegt eindeutig keine normale Muskelkraft vor.",
+          "term": "Kraftgrad 5"
+        }
+      ]
+    },
+    "174": {
+      "topicLabel": "Frühreha-Index",
+      "explanation": "Der Frühreha-Barthel-Index ergänzt den klassischen Barthel-Index um Aspekte, die bei schwer betroffenen frührehabilitativen Patientinnen und Patienten relevant sind. Während der Barthel-Index Alltagsfunktionen wie Transfers, Toilettennutzung, Mobilität oder Treppensteigen erfasst, bildet der Frühreha-Anteil zusätzliche Belastungs- und Überwachungsbedarfe ab. Dazu gehört unter anderem ein intensivmedizinischer Überwachungs- oder Behandlungsbedarf. Solche Faktoren können die Rehabilitationsfähigkeit und den Pflegeaufwand wesentlich beeinflussen, werden aber im normalen Barthel-Index nicht ausreichend abgebildet. Die übrigen Antwortmöglichkeiten entsprechen eher klassischen Barthel-Items der Selbstversorgung und Mobilität. Deshalb ist der intensivmedizinische Bedarf die richtige Ergänzung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die selbstständige Toilettennutzung ist ein klassisches Barthel-Index-Item. Sie gehört zur Bewertung der Alltagskompetenz, ist aber nicht das spezifische Zusatzkriterium des Frühreha-Index. Daher ist diese Option nicht gesucht.",
+          "term": "Toilettennutzung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Selbstständiges Aufstehen und Umsetzen wird im Barthel-Kontext als Transferfähigkeit bewertet. Das ist ein funktionelles Alltagsitem und nicht die typische Ergänzung des Frühreha-Index. Deshalb ist diese Option falsch.",
+          "term": "Transfer"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Treppensteigen beziehungsweise das Bewältigen eines Stockwerks gehört zu den Mobilitätsleistungen des Barthel-Index. Es beschreibt Selbstständigkeit im Alltag, nicht einen frührehabilitativen Zusatzbelastungsfaktor. Daher ist es nicht die richtige Antwort.",
+          "term": "Treppensteigen"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Intensivmedizinischer Überwachungs- oder Behandlungsbedarf ist ein typisches Frühreha-relevantes Zusatzmerkmal. Es beschreibt eine medizinische Komplexität, die über reine Alltagsfunktionen hinausgeht. Diese Option gehört deshalb zum ergänzenden Frühreha-Index.",
+          "term": "intensivmedizinischer Bedarf"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine definierte Gehstrecke ist ebenfalls eine Mobilitätsleistung und passt zum funktionellen Barthel-Denken. Sie erfasst aber nicht den zusätzlichen medizinischen Aufwand der Frührehabilitation. Daher ist diese Option nicht korrekt.",
+          "term": "Gehstrecke"
+        }
+      ]
+    },
+    "175": {
+      "topicLabel": "Broca-Aphasie",
+      "explanation": "Die Broca-Aphasie ist eine nichtflüssige Aphasie mit gestörter Sprachproduktion. Typisch sind verlangsamte, angestrengte, stockende Sprache, Wortfindungsstörungen und häufig agrammatischer Telegrammstil. Das Sprachverständnis ist im Vergleich zur Sprachproduktion meist besser erhalten, aber nicht zwingend völlig normal. Eine Logorrhö mit Paraphasien und paragrammatischem Redefluss passt eher zu flüssigen Aphasien wie der Wernicke-Aphasie. Ein intaktes Nachsprechen trotz gestörter Spontansprache würde eher an eine transkortikale motorische Aphasie denken lassen. Daher ist die verlangsamte Sprache mit Wortfindungsproblemen die beste Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Logorrhö mit semantischen und phonematischen Paraphasien ist typisch für flüssige Aphasien, besonders Wernicke-nahe Störungen. Bei Broca-Aphasie ist der Redefluss gerade vermindert und angestrengt. Daher passt diese Option nicht.",
+          "term": "Logorrhö"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Verlangsamte Sprache und Wortfindungsprobleme treffen den Kern der Broca-Aphasie. Die Sprachproduktion ist nichtflüssig, mühsam und oft agrammatisch. Diese Option ist deshalb korrekt.",
+          "term": "nichtflüssige Sprache"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine isolierte Wortfindungsstörung bei intaktem Satzbau beschreibt eher eine amnestische Aphasie. Bei Broca-Aphasie ist nicht nur der Wortabruf, sondern auch die Sprachproduktion und Grammatik deutlich beeinträchtigt. Deshalb ist diese Option zu eng und nicht passend.",
+          "term": "amnestische Aphasie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Erhaltener Redefluss mit Paragrammatismus passt eher zu einer flüssigen Aphasie. Die Broca-Aphasie ist dagegen durch reduzierten Redefluss und Agrammatismus geprägt. Diese Option beschreibt daher ein anderes Aphasiemuster.",
+          "term": "Paragrammatismus"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Gestörte Sprachproduktion passt zwar grundsätzlich zur Broca-Aphasie, aber erhaltenes Nachsprechen ist dafür nicht typisch. Bei klassischer Broca-Aphasie ist das Nachsprechen meist mitbeeinträchtigt. Die Kombination spricht eher für eine transkortikale motorische Aphasie.",
+          "term": "erhaltenes Nachsprechen"
+        }
+      ]
+    },
+    "176": {
+      "topicLabel": "Neutral-Null-Handgelenk",
+      "explanation": "Bei der Neutral-Null-Methode wird das Bewegungsausmaß des Handgelenks für Dorsalextension und Palmarflexion als erster Wert, Neutralstellung und zweiter Bewegungswert angegeben. Wenn die Neutralstellung erreicht wird, steht in der Mitte eine 0. Der Patient kann 40 Grad dorsalextendieren und 40 Grad palmarflektieren, also lautet die korrekte Schreibweise 40/0/40. Die Angaben 40/40/40 oder 40/40/0 würden fälschlich suggerieren, dass die Neutralstellung nicht regelhaft als Null dokumentiert wird oder ein Defizit vorliegt. 40/0/0 beziehungsweise andere unvollständige Bewegungsangaben bilden die beidseitige Beweglichkeit nicht korrekt ab. Daher ist 40/0/40 richtig.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "40/40/40 ist keine korrekte Neutral-Null-Darstellung für Dorsalextension und Palmarflexion bei erreichter Neutralstellung. Der mittlere Wert muss die Neutralstellung abbilden und wäre hier 0. Diese Option ist deshalb falsch.",
+          "term": "40/40/40"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Auch wenn diese Option identisch zur ersten überliefert ist, bleibt sie nach Neutral-Null-Systematik falsch. Eine mittlere 40 würde kein korrektes Erreichen der Neutralstellung dokumentieren. Daher ist sie nicht die gesuchte Schreibweise.",
+          "term": "40/40/40"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "40/0/0 würde eine Dorsalextension von 40 Grad und keine Palmarflexion dokumentieren. Im Fall ist aber auch die Palmarflexion mit 40 Grad möglich. Diese Option bildet den Befund daher nur zur Hälfte ab.",
+          "term": "40/0/0"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "40/0/40 ist die korrekte Neutral-Null-Schreibweise für 40 Grad Dorsalextension und 40 Grad Palmarflexion. Die mittlere 0 zeigt, dass die Neutralstellung erreicht wird. Diese Option entspricht exakt der Fallbeschreibung.",
+          "term": "40/0/40"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "40/40/0 ist keine passende Dokumentation der gemessenen Handgelenksbeweglichkeit. Sie würde die Neutralstellung nicht korrekt mit 0 in der Mitte darstellen und die Palmarflexion nicht adäquat wiedergeben. Daher ist diese Option falsch.",
+          "term": "40/40/0"
+        }
+      ]
+    },
+    "177": {
+      "topicLabel": "Skapholunäre Dissoziation",
+      "explanation": "Nach Sturz auf das Handgelenk, anhaltender Bewegungseinschränkung und dorsalem Druckschmerz wird im Röntgen ein erweiterter Abstand zwischen Skaphoid und Lunatum beschrieben. Das ist typisch für eine skapholunäre Bandverletzung mit skapholunärer Dissoziation. Radiologisch kann ein verbreiterter SL-Spalt als sogenanntes Terry-Thomas-Zeichen auffallen. Eine Lunatummalazie, Ulnaminusvariante oder Skaphoidpseudarthrose erklären den beschriebenen erweiterten Abstand zwischen Skaphoid und Lunatum nicht am besten. Ein unauffälliger Befund ist bei sichtbarer Spalterweiterung ausgeschlossen. Daher ist die skapholunäre Dissoziation korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Lunatummalazie bezeichnet eine aseptische Nekrose des Os lunatum. Sie kann Handgelenkschmerzen verursachen, ist aber nicht primär durch einen erweiterten Abstand zwischen Skaphoid und Lunatum definiert. Daher passt sie nicht am besten zum beschriebenen Röntgenbefund.",
+          "term": "Lunatummalazie"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Eine skapholunäre Dissoziation entsteht durch Verletzung des skapholunären Bandkomplexes. Der erweiterte Abstand zwischen Skaphoid und Lunatum ist hierfür typisch. Diese Option entspricht daher dem beschriebenen Röntgenbefund.",
+          "term": "skapholunäre Dissoziation"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Ulnaminusvariante beschreibt eine relative Verkürzung der Ulna gegenüber dem Radius. Sie ist eine Längenvariante des Unterarms und erklärt keinen erweiterten skapholunären Spalt. Deshalb ist diese Option nicht korrekt.",
+          "term": "Ulnaminusvariante"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Skaphoidpseudarthrose wäre eine fehlverheilte oder nicht verheilte Kahnbeinfraktur. Sie würde eher Frakturlinie, Sklerosierung oder Fragmentveränderungen im Skaphoid zeigen. Der angegebene Befund eines erweiterten SL-Abstands spricht stattdessen für eine Bandverletzung.",
+          "term": "Skaphoidpseudarthrose"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein unauffälliger Befund passt nicht, wenn im Röntgen ein erweiterter Abstand zwischen Skaphoid und Lunatum sichtbar ist. Dieser Befund ist klinisch relevant und spricht für eine karpale Instabilität. Daher ist die Option falsch.",
+          "term": "unauffälliger Befund"
+        }
+      ]
+    },
+    "178": {
+      "topicLabel": "SL-Bandverletzung",
+      "explanation": "Die Frage knüpft an die skapholunäre Dissoziation nach Sturz auf das Handgelenk an. Eine relevante skapholunäre Bandverletzung kann zur karpalen Instabilität und unbehandelt zu degenerativen Folgeschäden führen. Bei persistierenden Beschwerden und radiologischem SL-Spalt ist eine operative Stabilisierung beziehungsweise Bandrekonstruktion die zielgerichtete Therapieoption in dieser Auswahl. Reine Physiotherapie oder eine kurze Orthesenbehandlung würden eine manifeste Instabilität nicht zuverlässig korrigieren. Vollbelastung wäre eher schädlich, und eine Versteifung ist eine spätere Salvage-Option bei fortgeschrittener Arthrose oder nicht rekonstruierbaren Schäden. Daher ist die Bandrekonstruktion korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Nur Physiotherapie reicht bei einer relevanten skapholunären Dissoziation mit Instabilität meist nicht aus. Sie kann begleitend sinnvoll sein, korrigiert aber den verletzten Bandkomplex nicht. Damit wäre sie als alleinige Therapie zu wenig.",
+          "term": "alleinige Physiotherapie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Versteifung des Handgelenks ist eine Salvage-Maßnahme bei schweren, fortgeschrittenen oder irreparablen Zuständen. Bei einer Bandverletzung mit rekonstruierbarer Instabilität ist sie nicht das primäre Vorgehen. Diese Option wäre daher zu radikal.",
+          "term": "Arthrodese"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Vollbelastung würde die instabile skapholunäre Verbindung weiter belasten. Bei Verdacht auf relevante Bandruptur ist Entlastung beziehungsweise operative Stabilisierung zu prüfen. Diese Option ist therapeutisch nicht sinnvoll.",
+          "term": "Vollbelastung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine kurze Orthesenbehandlung kann bei leichten Distorsionen oder frühen, stabilen Verletzungen eine Rolle spielen. Bei radiologisch sichtbarer skapholunärer Dissoziation und länger bestehenden Beschwerden ist sie als alleinige Maßnahme nicht ausreichend. Daher ist diese Option nicht korrekt.",
+          "term": "kurze Orthese"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Die Bandrekonstruktion zielt darauf ab, die skapholunäre Stabilität wiederherzustellen. Sie passt zur beschriebenen SL-Dissoziation mit persistierender Funktionsstörung nach Trauma. Daher ist diese Option laut Antwortschlüssel richtig.",
+          "term": "Bandrekonstruktion"
+        }
+      ]
+    },
+    "179": {
+      "topicLabel": "Lead-time-Bias",
+      "explanation": "Beim Screening kann der Zeitpunkt der Diagnosestellung vorverlegt werden, ohne dass sich der tatsächliche Todeszeitpunkt verändert. Dadurch erscheint die Überlebenszeit ab Diagnose länger, obwohl die Mortalität der Erkrankung nicht wirklich gesenkt wurde. Dieses Phänomen heißt Lead-time-Bias. Der Kollege beschreibt genau diesen Effekt, wenn er sagt, die scheinbare Risikoreduktion beruhe nur auf dem früheren Erkennen durch Screening. Davon zu unterscheiden ist der Length-time-Bias, bei dem Screening eher langsam wachsende, prognostisch günstigere Tumoren entdeckt. Daher ist Lead-time-Bias die korrekte Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Publication Bias beschreibt, dass Studien mit positiven oder signifikanten Ergebnissen eher veröffentlicht werden als negative Studien. Das betrifft die Evidenzlage, nicht den scheinbaren Überlebensvorteil durch frühere Diagnose. Daher passt diese Option nicht.",
+          "term": "Publication Bias"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Recall Bias entsteht, wenn sich Personen unterschiedlich gut oder unterschiedlich verzerrt an Expositionen erinnern. Er ist typisch für retrospektive Befragungen, nicht für den zeitlichen Vorlauf einer Screeningdiagnose. Diese Option ist deshalb falsch.",
+          "term": "Recall Bias"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Lead-time-Bias bedeutet, dass die Diagnose durch Screening früher gestellt wird und dadurch die Überlebenszeit ab Diagnose künstlich verlängert erscheint. Der tatsächliche Krankheitsverlauf oder Todeszeitpunkt muss sich dabei nicht ändern. Genau dieser Effekt wird in der Frage beschrieben.",
+          "term": "Lead-time-Bias"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Length-time-Bias bedeutet, dass Screening überproportional langsam wachsende, weniger aggressive Erkrankungen entdeckt. Dadurch kann Screening günstiger erscheinen, weil die gefundenen Fälle ohnehin eine bessere Prognose haben. Die Frage beschreibt aber den reinen Vorverlagerungseffekt der Diagnose.",
+          "term": "Length-time-Bias"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Performance Bias entsteht durch systematische Unterschiede in Betreuung oder Intervention zwischen Studiengruppen. Er erklärt nicht, warum eine frühere Diagnose die beobachtete Überlebenszeit scheinbar verlängert. Daher ist diese Option nicht korrekt.",
+          "term": "Performance Bias"
+        }
+      ]
+    },
+    "180": {
+      "topicLabel": "Radioiodtherapie",
+      "explanation": "Beim differenzierten Schilddrüsenkarzinom, zu dem das follikuläre Schilddrüsenkarzinom gehört, folgt nach totaler Thyreoidektomie bei relevanter Tumorausdehnung oder Metastasierung häufig eine Radioiodtherapie. Im Fall liegt ein pT3-Tumor mit zervikaler Lymphknotenmetastasierung vor, also eine Situation mit erhöhtem Rezidiv- beziehungsweise Persistenzrisiko. Radioiodtherapie nutzt die Iodaufnahme differenzierter Schilddrüsenzellen, um verbliebenes Schilddrüsengewebe und iodavide Tumorreste oder Metastasen zu behandeln. Externe Radiatio, Chemotherapie oder Immuncheckpoint-Inhibition sind keine regelhafte adjuvante Standardtherapie in dieser Konstellation. Thiamazol wäre bei Hyperthyreose relevant und hat keine Rolle in der Behandlung eines resezierten Schilddrüsenkarzinoms. Daher ist die Radioiodtherapie indiziert.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Checkpoint-Inhibitoren sind nicht die Standardadjuvanz nach Operation eines differenzierten follikulären Schilddrüsenkarzinoms. Sie kommen eher in ausgewählten fortgeschrittenen, refraktären oder speziellen Tumorsituationen in Betracht. Für den beschriebenen Fall ist Radioiodtherapie die passendere Maßnahme.",
+          "term": "Checkpoint-Inhibitor"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine klassische Zytostatikatherapie wie Doxorubicin ist beim differenzierten Schilddrüsenkarzinom nicht die übliche adjuvante Therapie nach Thyreoidektomie. Sie wäre allenfalls in seltenen fortgeschrittenen oder refraktären Situationen zu diskutieren. Daher ist diese Option nicht korrekt.",
+          "term": "Doxorubicin"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine externe Bestrahlung des Halses kann bei nicht vollständig resektablen, lokal fortgeschrittenen oder speziellen Hochrisikosituationen erwogen werden. Sie ist aber nicht die Standardmaßnahme nach totaler Thyreoidektomie beim iodaufnehmenden differenzierten Karzinom. In der vorliegenden Antwortauswahl ist Radioiodtherapie vorrangig.",
+          "term": "externe Radiatio"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Radioiodtherapie ist nach totaler Thyreoidektomie bei differenziertem Schilddrüsenkarzinom mit erhöhtem Risiko, wie hier bei pT3 und Lymphknotenbefall, indiziert. Sie behandelt verbliebenes iodaufnehmendes Schilddrüsen- oder Tumorgewebe. Diese Option ist deshalb korrekt.",
+          "term": "Radioiodtherapie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Thiamazol hemmt die Schilddrüsenhormonsynthese und wird bei Hyperthyreose eingesetzt. Nach totaler Thyreoidektomie wegen Schilddrüsenkarzinom behandelt es weder Tumorreste noch Metastasen. Daher ist diese Option falsch.",
+          "term": "Thiamazol"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,708 @@
+{
+  "examId": "m2-ss26-f26-gedaechtnisprotokoll",
+  "questions": {
+    "301": {
+      "topicLabel": "Zentralarterienverschluss",
+      "explanation": "Beim Zentralarterienverschluss des rechten Auges ist die Retina akut ischämisch; dadurch ist der afferente Schenkel des Pupillenlichtreflexes rechts gestört. Die efferente parasympathische Innervation des rechten Auges über den N. oculomotorius ist dabei nicht primär betroffen. Wird das gesunde linke Auge beleuchtet, ist der afferente Reiz intakt und löst daher eine direkte Pupillenverengung links sowie eine konsensuelle Pupillenverengung rechts aus. Wird dagegen das betroffene rechte Auge beleuchtet, fallen sowohl direkte als auch konsensuelle Reaktion abgeschwächt aus. Klinisch entspricht das einem relativen afferenten Pupillendefekt des rechten Auges.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine deutliche direkte Pupillenkontraktion rechts bei Beleuchtung rechts würde einen intakten afferenten Schenkel des rechten Auges voraussetzen. Beim Zentralarterienverschluss ist dieser afferente Anteil durch die retinale Ischämie typischerweise vermindert, sodass diese Aussage nicht am besten passt.",
+          "term": "Direkte Lichtreaktion rechts"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Bei Beleuchtung des linken, gesunden Auges ist der afferente Reizweg intakt. Über die beidseitige Verschaltung im Mittelhirn kommt es deshalb auch rechts zu einer konsensuellen Pupillenkontraktion. Dass das rechte Auge selbst schlecht sieht, bedeutet nicht, dass seine efferente Pupillenbahn gelähmt ist. Diese Antwort beschreibt daher den erwarteten Befund beim rechtsseitigen afferenten Pupillendefekt am besten.",
+          "term": "Konsensuelle Lichtreaktion rechts"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein völliges Ausbleiben der rechten Pupillenreaktion trotz beidseitiger Beleuchtung würde eher für eine efferente Störung rechts sprechen. Beim Zentralarterienverschluss ist jedoch primär die afferente retinale Signalaufnahme des rechten Auges gestört, nicht die Pupillenverengung als motorische Antwort.",
+          "term": "Efferente Pupillenstörung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Beim Swinging-Flashlight-Test zeigt sich ein relativer afferenter Pupillendefekt dadurch, dass die Pupille beim Wechsel vom gesunden zum betroffenen Auge paradox weiter wird. Beim Wechsel von rechts nach links würde der stärkere afferente Reiz des linken Auges eher wieder eine Kontraktion auslösen. Die beschriebene verlangsamte Dilatation rechts passt daher nicht zum klassischen Befund.",
+          "term": "Swinging-Flashlight-Test"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine deutliche konsensuelle Pupillenkontraktion links bei Beleuchtung rechts setzt ebenfalls einen ausreichend intakten afferenten Reiz aus dem rechten Auge voraus. Genau dieser afferente Reiz ist beim rechtsseitigen Zentralarterienverschluss vermindert, weshalb diese Antwort nicht zutrifft.",
+          "term": "Konsensuelle Lichtreaktion links"
+        }
+      ]
+    },
+    "302": {
+      "topicLabel": "Migräneakuttherapie",
+      "explanation": "In der Akuttherapie der Migräne werden vor allem nichtopioide Analgetika und, bei entsprechender Indikation, Triptane eingesetzt. Opioide wie Tilidin sind hierfür nicht Mittel der Wahl. Sie können Übelkeit, Sedierung und Abhängigkeit begünstigen und erhöhen das Risiko für medikamenteninduzierten Kopfschmerz beziehungsweise Chronifizierung. Außerdem behandeln sie den migränetypischen pathophysiologischen Mechanismus schlechter als spezifische Migränetherapeutika. Daher ist Tilidin die gesuchte Substanz, die man bei Migränekopfschmerz nicht regelhaft zur Akuttherapie gibt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Tilidin ist ein Opioidanalgetikum und gehört nicht zur Standard-Akuttherapie der Migräne. Opioide sind bei Migräne ungünstig, weil sie die Attacke häufig nicht spezifisch kontrollieren und das Risiko für Medikamentenübergebrauch, Chronifizierung und Nebenwirkungen erhöhen. In Prüfungssituationen ist deshalb ein Opioid bei Migräne meist die klar falsche Akutoption. Diese Antwort ist somit die gesuchte Ausnahme.",
+          "term": "Tilidin"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "ASS ist ein nichtopioides Analgetikum und kann bei leichten bis mittelgradigen Migräneattacken zur Akuttherapie eingesetzt werden. Es gehört damit gerade zu den grundsätzlich geeigneten Optionen und ist nicht die gesuchte falsche Antwort.",
+          "term": "Acetylsalicylsäure"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Triptane sind spezifische Akutmedikamente bei Migräneattacken, insbesondere wenn einfache Analgetika nicht ausreichend wirken. Sie sind nicht für alle Patientinnen und Patienten geeignet, aber als Wirkstoffgruppe klar Bestandteil der Migräneakuttherapie.",
+          "term": "Triptane"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Paracetamol kann bei Migräne als nichtopioides Analgetikum verwendet werden, vor allem bei leichteren Attacken oder wenn andere Optionen nicht geeignet sind. Es ist deshalb keine grundsätzlich zu vermeidende Akuttherapie wie ein Opioid.",
+          "term": "Paracetamol"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Metamizol ist ein nichtopioides Analgetikum und wird klinisch bei stärkeren Schmerzen eingesetzt, auch wenn es nicht die spezifische Migränesubstanz ist. Im Vergleich zu Tilidin ist es nicht die typische kontraindizierte beziehungsweise unerwünschte Antwort in dieser Fragestellung.",
+          "term": "Metamizol"
+        }
+      ]
+    },
+    "303": {
+      "topicLabel": "Todesursachenkaskade",
+      "explanation": "Bei der Leichenschau soll die Todesursachenkaskade kausal und möglichst konkret formuliert werden: unmittelbare Todesursache, deren Ursache und schließlich die zugrunde liegende Erkrankung oder äußere Einwirkung. In der Vignette steht der Tod in engem zeitlichem Zusammenhang mit einer laparoskopischen Cholezystektomie am Vortag. Es werden keine relevanten Vorerkrankungen, keine Infektzeichen und keine pathologischen Laborwerte genannt. Unter den angebotenen Kaskaden ist daher eine postoperative Gefäßverletzung mit Verblutungsschock die plausibelste, weil sie den zeitlichen Zusammenhang mit dem Eingriff kausal abbildet. Andere Antworten erfinden nicht belegte Grunderkrankungen wie KHK, Sepsis, maligne Erkrankung oder metabolisches Syndrom als Todesursache.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Diese Kaskade ordnet den Tod als Verblutungsschock ein, der durch eine Gefäßverletzung im Rahmen der laparoskopischen Cholezystektomie verursacht wurde. Der enge postoperative Zeitraum macht eine operationsassoziierte Komplikation unter den Antwortmöglichkeiten am plausibelsten. Auch wenn äußerlich keine dramatischen Befunde beschrieben werden, ist die Kausalkette hier am konkretesten und am wenigsten spekulativ. Sie nimmt die dokumentierte Operation als auslösendes Ereignis auf, ohne nicht belegte chronische Erkrankungen zu konstruieren.",
+          "term": "Postoperativer Verblutungsschock"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Sepsis durch exazerbierte Cholezystitis passt nicht gut, weil die Operation im entzündungsfreien Intervall stattfand und Labor sowie Abdomen unauffällig beschrieben werden. Für eine fulminante postoperative Sepsis am ersten Tag fehlen in der Vignette klare Hinweise wie Infektzeichen, pathologische Entzündungswerte oder ein septischer Verlauf.",
+          "term": "Sepsis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein plötzlicher Herztod durch Myokardinfarkt bei KHK wäre prinzipiell möglich, wird in der Fallbeschreibung aber nicht belegt. Es finden sich ausdrücklich keine Angaben zu relevanten Vorerkrankungen, sodass eine KHK als Grunderkrankung hier spekulativ wäre.",
+          "term": "Myokardinfarkt"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Multiorganversagen entwickelt sich typischerweise im Rahmen eines schweren systemischen Verlaufs und ist nicht durch die kurzen, unauffälligen Angaben ausreichend gestützt. Auch ein metabolisches Syndrom wird nicht als gesicherte Grunderkrankung angegeben; leichte Adipositas allein trägt diese Todesursachenkaskade nicht.",
+          "term": "Multiorganversagen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Altersschwäche ist bei einer 64-jährigen postoperativen Patientin keine plausible konkrete Todesursache. Eine maligne Grunderkrankung wird in der Vignette nicht genannt und darf für die Todesbescheinigung nicht frei ergänzt werden.",
+          "term": "Altersschwäche"
+        }
+      ]
+    },
+    "304": {
+      "topicLabel": "Hirnabszess",
+      "explanation": "Die Kombination aus subakuter neurologischer Verschlechterung über etwa zwei Wochen, fokalen Symptomen und Risikofaktoren spricht am ehesten für einen Hirnabszess. Diabetes mellitus begünstigt Infektionen, und eine komplizierte Otitis media kann als Ausgangspunkt für eine fortgeleitete intrakranielle Infektion relevant sein. Hirnabszesse können sich mit Sprachstörungen, Gangstörung, Kopfschmerz oder unspezifischer Verschlechterung präsentieren und müssen nicht immer mit deutlichen Infektzeichen einhergehen. In der Bildgebung sind je nach Stadium raumfordernde, ringförmig kontrastmittelaufnehmende Läsionen typisch. Ein Glioblastom kann ähnlich aussehen, passt aber weniger gut zu infektiöser Vorgeschichte und subakutem Verlauf. Ein Hirninfarkt beginnt meist plötzlich und nicht progredient über zwei Wochen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Glioblastom kann bei älteren Patientinnen neurologische Ausfälle und eine raumfordernde Läsion verursachen. Der Verlauf über zwei Wochen und die Vorgeschichte mit komplizierter Otitis media und Diabetes lenken hier aber stärker in Richtung eines infektiösen Prozesses, insbesondere eines Hirnabszesses.",
+          "term": "Glioblastom"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Ein Hirnabszess kann subakut progrediente neurologische Defizite verursachen, beispielsweise Sprachstörungen oder Gangstörungen. Eine frühere komplizierte Otitis media ist als möglicher Ausgangspunkt einer fortgeleiteten Infektion relevant, und Diabetes mellitus erhöht die Infektanfälligkeit. Fehlende Fiebersymptome schließen einen Hirnabszess nicht sicher aus, insbesondere bei älteren oder vorerkrankten Patientinnen. In einer Bildfrage wäre eine ringförmig aufnehmende Raumforderung mit umgebendem Ödem ein typischer Hinweis. Diese Antwort erklärt Verlauf, Risikokonstellation und fokale Symptomatik am besten.",
+          "term": "Hirnabszess"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Hirninfarkt verursacht typischerweise einen abrupten Beginn neurologischer Ausfälle. Eine über zwei Wochen deutliche progrediente Verschlechterung mit infektiöser Risikokonstellation passt weniger gut zu einem klassischen ischämischen Schlaganfall.",
+          "term": "Hirninfarkt"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Sie kann daher inhaltlich nicht zuverlässig abgegrenzt werden und ist laut Antwortschlüssel nicht korrekt.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Sie kann daher nur als unvollständige Protokollangabe gewertet werden und ist laut Antwortschlüssel nicht korrekt.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "305": {
+      "topicLabel": "C8-Radikulopathie",
+      "explanation": "Sensibilitätsstörungen am Klein- und Ringfinger sowie eine Schwäche beziehungsweise Atrophie der Mm. interossei passen am besten zu einer C8-Beteiligung. Bei einem zervikalen Bandscheibenvorfall wird die austretende beziehungsweise darunterliegende Nervenwurzel je nach Segment komprimiert; für C8 ist das Segment zwischen HWK 7 und BWK 1 klassisch relevant. Die Beschwerden reichen oft ulnarseitig in die Hand und können mit intrinsischer Handschwäche einhergehen. Dass die Symptome sowohl palmar als auch dorsal an Finger IV/V auftreten, spricht eher für eine radikuläre oder proximale Läsion als für eine isolierte periphere Ulnarisläsion. Die anderen angegebenen Höhen würden eher andere Dermatome und Kennmuskeln betreffen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Das Segment HWK 7/BWK 1 entspricht dem Bereich, in dem eine C8-Wurzelkompression durch einen Bandscheibenvorfall klinisch plausibel ist. C8 versorgt sensible Anteile an Kleinfinger und ulnarem Ringfinger sowie motorisch wichtige Handbinnenmuskelfunktionen mit. Die Atrophie der Mm. interossei und die ulnarseitigen Parästhesien passen deshalb am besten zu dieser Läsionshöhe. Die radikulären Schmerzen im Arm stützen zusätzlich eine zervikale Wurzelläsion.",
+          "term": "HWK 7/BWK 1"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Bandscheibenvorfall auf Höhe HWK 6/HWK 7 führt typischerweise eher zu einer C7-Radikulopathie. C7-Beschwerden betreffen häufiger Mittelfingerregion und Trizepsfunktion, nicht primär Kleinfinger, Ringfinger und Mm. interossei.",
+          "term": "HWK 6/HWK 7"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Höhe HWK 5/HWK 6 passt eher zu einer C6-Radikulopathie. Diese würde typischerweise andere sensible Areale und Kennmuskeln betreffen, etwa Daumen-/Unterarmseite und Bizeps- beziehungsweise Handgelenksextensionsfunktionen.",
+          "term": "HWK 5/HWK 6"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Läsion zwischen BWK 1 und BWK 2 würde nicht die klassische C8-Radikulopathie durch einen zervikalen Bandscheibenvorfall erklären. Die beschriebenen Handsymptome sprechen für den zervikothorakalen Übergang mit Beteiligung der C8-Wurzel, nicht für ein tieferes thorakales Segment.",
+          "term": "BWK 1/BWK 2"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Sie kann daher nicht sinnvoll mit den anatomisch genannten Segmenten verglichen werden und ist laut Antwortschlüssel nicht korrekt.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "306": {
+      "topicLabel": "Dermatophyteninfektion",
+      "explanation": "Nach dem vorgegebenen Antwortschlüssel ist hier Trichophyton rubrum die gesuchte Ursache. Trichophyton rubrum ist ein Dermatophyt und befällt keratinisierte Strukturen der Haut; intertriginöse Areale können bei feucht-warmem Milieu ebenfalls betroffen sein. Typisch wäre ein Nachweis von Hyphen beziehungsweise Pilzfäden, während die klinische Abgrenzung zu Candida-Intertrigo in einem Gedächtnisprotokoll schwierig sein kann. Die im Fragentext erwähnten weißen Beläge und der intertriginöse Sitz lassen zwar differentialdiagnostisch auch an Candida denken, diese Option ist nach dem angegebenen Lösungsschlüssel jedoch nicht korrekt. Wegen dieser inneren Spannung zwischen Protokolltext und Antwortschlüssel ist die inhaltliche Sicherheit eingeschränkt.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Candida albicans verursacht häufig eine feuchte, erythematöse Intertrigo mit weißlichen Belägen und wäre klinisch eine naheliegende Differentialdiagnose. Nach dem vorgegebenen Antwortschlüssel ist diese Option jedoch nicht korrekt; sie darf daher trotz der protokollierten Formulierung nicht als richtige Antwort gewertet werden.",
+          "term": "Candida albicans"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Staphylococcus aureus kann bakterielle Hautinfektionen verursachen, erklärt aber eine primär mykotisch anmutende intertriginöse Veränderung mit Pilzverdacht weniger gut. Traubenförmig angeordnete Kokken wären zwar ein bakteriologischer Hinweis, die gesuchte Lösung ist laut Schlüssel aber keine Staphylokokkeninfektion.",
+          "term": "Staphylococcus aureus"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Streptococcus pyogenes verursacht unter anderem Erysipel, Phlegmone oder Impetigo. Das geschilderte nässend-juckende intertriginöse Bild mit Belägen passt nicht am besten zu einer Streptokokkeninfektion und ist laut Antwortschlüssel nicht korrekt.",
+          "term": "Streptococcus pyogenes"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Trichophyton rubrum ist der häufigste Dermatophyt und kann Tinea-Infektionen der Haut verursachen. Dermatophyten wachsen in keratinisierten Hautschichten und werden mikroskopisch typischerweise durch Pilzfäden beziehungsweise Hyphen nahegelegt. Ein feucht-warmes Milieu in Hautfalten kann Pilzinfektionen begünstigen, auch wenn die klinische Beschreibung in der Protokollfassung nicht völlig trennscharf ist. Da der Antwortschlüssel diese Option als richtig markiert, ist Trichophyton rubrum hier als gesuchter Erreger zu erklären.",
+          "term": "Trichophyton rubrum"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Eine inhaltliche Abgrenzung ist daher nicht möglich, und laut Antwortschlüssel ist sie nicht korrekt.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "307": {
+      "topicLabel": "Thrombotische Mikroangiopathie",
+      "explanation": "Petechien bei schwerer Thrombozytopenie zusammen mit Anämie und normalen Leukozyten sprechen für eine thrombozytär-hämolytische Systemerkrankung und weniger für eine primäre Knochenmarkverdrängung. Bei einer thrombotischen Mikroangiopathie entstehen Mikrothromben in kleinen Gefäßen, an denen Erythrozyten mechanisch geschädigt werden. Das führt zu mikroangiopathischer hämolytischer Anämie mit erhöhter LDH und erniedrigtem Haptoglobin. Die Thrombozytopenie erklärt die Petechien. Die präzise Kombination aus Thrombozytopenie, Hämolysezeichen und Verbrauchspathophysiologie ist daher am besten durch eine thrombotische Mikroangiopathie beschrieben.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Bei Hämolyse ist die LDH typischerweise erhöht, Haptoglobin aber erniedrigt, weil es freies Hämoglobin bindet und verbraucht wird. Eine Kombination aus hoher LDH und hohem Haptoglobin passt daher nicht zur klassischen hämolytischen Konstellation.",
+          "term": "Hämolyseparameter"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Mikroangiopathische Hämolyse ist ein zentraler Bestandteil der gesuchten Diagnose, beschreibt aber allein noch nicht die gesamte Konstellation mit ausgeprägter Thrombozytopenie. Die präzisere Antwort nennt die thrombotische Mikroangiopathie samt typischer Laborrichtung und passt deshalb besser.",
+          "term": "Mikroangiopathische Hämolyse"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Eine thrombotische Mikroangiopathie verbindet Thrombozytopenie, hämolytische Anämie und oft neurologische oder renale Begleitsymptome. Die mechanische Schädigung der Erythrozyten in kleinen Gefäßen führt zur LDH-Erhöhung. Gleichzeitig sinkt das Haptoglobin durch Bindung von freiem Hämoglobin. Die Thrombozytopenie erklärt die Petechien an den Unterschenkeln. Diese Antwort fasst die Befundkonstellation am vollständigsten zusammen.",
+          "term": "Thrombotische Mikroangiopathie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine akute Leukämie kann Anämie und Thrombozytopenie durch Knochenmarkverdrängung verursachen, häufig wären aber auch Leukozytenveränderungen oder Blastenhinweise zu erwarten. Hohe Retikulozyten passen außerdem eher zu einer peripheren Hämolyse als zu einer insuffizienten Blutbildung durch Knochenmarkverdrängung.",
+          "term": "Akute Leukämie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Sie kann daher nicht als bessere Erklärung der Thrombozytopenie-Hämolyse-Konstellation herangezogen werden und ist laut Antwortschlüssel nicht korrekt.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "308": {
+      "topicLabel": "Positiver Vorhersagewert",
+      "explanation": "Gesucht ist der positive Vorhersagewert bei sehr niedriger Prävalenz. Von 1000 getesteten Personen ist ungefähr eine tatsächlich betroffen; bei 99% Sensitivität wird diese Person fast sicher positiv getestet. Von den etwa 999 Nichtbetroffenen werden bei 99% Spezifität aber rund 1% falsch positiv, also ungefähr 10 Personen. Damit stehen etwa 1 richtig positiver Test und etwa 10 falsch positive Tests nebeneinander. Der Anteil tatsächlich Erkrankter unter allen positiven Tests liegt somit ungefähr bei 1 von 11, also nahe 10%. Das zeigt, wie stark eine niedrige Prävalenz den positiven Vorhersagewert trotz sehr guter Testgüte senken kann.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Bei einer Prävalenz von 1:1000 ergibt sich trotz 99% Sensitivität und 99% Spezifität nur ein positiver Vorhersagewert um 10%. Der Grund ist, dass die Zahl falsch positiver Ergebnisse aus der großen Gruppe Nichtbetroffener die Zahl richtig positiver Ergebnisse übersteigt. Rechnet man mit 1000 Personen, entstehen etwa 0,99 richtig positive und etwa 9,99 falsch positive Tests. Damit ist 10% die am besten passende Antwort.",
+          "term": "10%"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "98% würde die hohe Sensitivität und Spezifität fälschlich fast direkt auf die Nachtestwahrscheinlichkeit übertragen. Bei sehr seltener Erkrankung ist der positive Vorhersagewert aber deutlich niedriger, weil viele positive Tests falsch positiv sind.",
+          "term": "98%"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "1% liegt näher an der Falsch-positiv-Rate beziehungsweise an einer groben Verwechslung mit der Testungenauigkeit. Der positive Vorhersagewert ist hier höher als 1%, weil unter den positiven Tests auch fast alle tatsächlich Erkrankten erfasst werden.",
+          "term": "1%"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "20% überschätzt den Anteil tatsächlich Erkrankter unter den positiven Tests. Die falsch positiven Resultate aus den vielen Nichtbetroffenen sind bei einer Prävalenz von 1:1000 zu zahlreich, sodass der Wert eher bei 10% liegt.",
+          "term": "20%"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "5% unterschätzt den positiven Vorhersagewert in dieser konkreten Rechnung. Bei etwa einem richtig positiven und etwa zehn falsch positiven Ergebnissen liegt der Anteil Erkrankter unter den Positiven näher bei 10% als bei 5%.",
+          "term": "5%"
+        }
+      ]
+    },
+    "309": {
+      "topicLabel": "Medianusläsion",
+      "explanation": "Sensibilitätsverlust an den Fingerkuppen I-III und Schwäche der Daumenabduktion sprechen für eine Läsion des N. medianus, besonders im Bereich des Karpaltunnels oder seiner motorischen Thenaräste. Das Flaschenzeichen prüft die Fähigkeit, den Daumen beim Umgreifen einer Flasche kräftig abzuspreizen und anzulegen. Bei Medianusparese, insbesondere Schwäche des M. abductor pollicis brevis, bleibt eine Lücke zwischen Daumenballen und Flasche. Die übrigen genannten Zeichen beziehen sich überwiegend auf Ulnarisläsionen oder auf die rein motorische AIN-Funktion ohne sensible Ausfälle. Daher passt das Flaschenzeichen am besten zur beschriebenen Kombination.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Das Jeanne-Zeichen ist ein Hinweis auf eine Ulnarisläsion und zeigt eine Überstreckung im Daumengrundgelenk beim Schlüsselgriff. Die beschriebenen Sensibilitätsstörungen an den Fingerkuppen I-III und die Thenarschwäche passen jedoch besser zum N. medianus.",
+          "term": "Jeanne-Zeichen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Das Froment-Zeichen prüft eine Schwäche des M. adductor pollicis bei Ulnarisläsion. Es ist typisch beim Ausweichen über den M. flexor pollicis longus, erklärt aber nicht den sensiblen Ausfall der Fingerkuppen I-III als Leitsymptom.",
+          "term": "Froment-Zeichen"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Das Flaschenzeichen ist typisch für eine Medianusläsion mit Schwäche der Daumenabduktion. Beim Umgreifen einer Flasche kann der Daumenballen nicht dicht angelegt werden, sodass eine Lücke sichtbar bleibt. Die sensiblen Ausfälle an den Fingerkuppen I-III passen ebenfalls zum Versorgungsgebiet des N. medianus. Zusammen mit der motorischen Thenarschwäche ist dieses Zeichen daher die beste Zuordnung.",
+          "term": "Flaschenzeichen"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Das Pinch Sign beziehungsweise O-Sign passt vor allem zu einer Läsion des N. interosseus anterior, eines motorischen Medianusastes. Dabei entstehen Beugedefizite von Daumenendglied und Zeigefingerendglied, aber keine sensiblen Ausfälle an den Fingerkuppen I-III.",
+          "term": "Pinch Sign"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Das Wartenberg-Zeichen weist auf eine Ulnarisläsion mit Abduktionsstellung des Kleinfingers hin. Die Fallbeschreibung nennt dagegen medianusnahe Sensibilitätsausfälle und Daumenabduktionsschwäche, sodass dieses Zeichen nicht passt.",
+          "term": "Wartenberg-Zeichen"
+        }
+      ]
+    },
+    "310": {
+      "topicLabel": "Meningeom-Herniation",
+      "explanation": "Ein Meningeom ist typischerweise ein extrazerebraler beziehungsweise extraaxialer Tumor. Bei großer Raumforderung kann es zu Hirndruckzeichen, epileptischen Anfällen und Herniationsphänomenen kommen. Der beidseits positive Babinski spricht für eine relevante Pyramidenbahnbeteiligung beziehungsweise Druckwirkung. Nach dem angegebenen Antwortschlüssel ist die Kombination aus extrazerebraler Raumforderung und einseitiger infratentorieller Hernierung gesucht. Da die Optionsformulierungen im Gedächtnisprotokoll terminologisch unscharf sind und eine andere Antwort ebenfalls naheliegend formuliert wirkt, ist die Sicherheit eingeschränkt.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ein Meningeom ist ein extrazerebraler, extraaxialer Tumor und kann als große Raumforderung eine einseitige Herniation verursachen. Die Anfallsanamnese und die pathologischen Pyramidenbahnzeichen passen zu einer relevanten supratentoriellen Druckwirkung. Nach Antwortschlüssel ist diese Formulierung die gesuchte Zuordnung. Die Angabe 'infratentoriell' ist im Protokoll wahrscheinlich als Verlagerung im Rahmen der Einklemmung zu verstehen, bleibt aber sprachlich unscharf.",
+          "term": "Extrazerebraler Tumor mit Herniation"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine beidseitige tentorielle Herniation wäre ein anderes und meist schwereres Herniationsmuster. Die Fragestellung zielt laut Schlüssel auf eine einseitige Konstellation bei extrazerebraler Raumforderung, nicht auf eine beidseitige Einklemmung.",
+          "term": "Beidseitige tentorielle Herniation"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Meningeom ist intrakraniell, auch wenn es extraaxial beziehungsweise extrazerebral liegt. Die Bezeichnung extrakranieller Tumor würde einen außerhalb des Schädels gelegenen Tumor nahelegen und passt deshalb nicht.",
+          "term": "Extrakranieller Tumor"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Option klingt wegen 'extrazerebral' und 'einseitig transtentoriell' inhaltlich nahe an der erwarteten Pathophysiologie. Laut vorgegebenem Antwortschlüssel ist sie jedoch nicht die korrekte Auswahl, sodass sie hier nicht als richtig gewertet werden darf.",
+          "term": "Einseitige transtentorielle Herniation"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine beidseitige transtentorielle Herniation ist nicht die im Antwortschlüssel markierte Konstellation. Außerdem beschreibt der Fall eine große rechtshemisphärische Raumforderung, was eher eine asymmetrische Druckwirkung erwarten lässt.",
+          "term": "Beidseitige transtentorielle Herniation"
+        }
+      ]
+    },
+    "311": {
+      "topicLabel": "ASD-II-Verschluss",
+      "explanation": "Ein hämodynamisch relevanter ASD II kann häufig interventionell mit einem Okkluder verschlossen werden. Voraussetzung ist aber eine geeignete Anatomie mit ausreichenden Rändern und sicherem Abstand zu wichtigen Nachbarstrukturen. Liegt die Öffnung nahe an der Mitralklappe, besteht das Risiko einer Klappenbeeinträchtigung, instabilen Okkluderposition oder unvollständigen Deckung. In solchen anatomisch ungünstigen Situationen spricht dies eher für eine chirurgische Korrektur. Größe, Shuntrelevanz oder Rechtsschenkelblock allein entscheiden nicht so klar zugunsten einer Operation, solange die Okkluderanatomie geeignet ist.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Das Körpergewicht kann bei interventionellen Eingriffen eine praktische Rolle spielen, ist aber nicht der zentrale anatomische Grund gegen einen Okkluder beim ASD II. Entscheidend ist vor allem, ob Defektränder und Nachbarstrukturen einen sicheren Sitz erlauben.",
+          "term": "Körpergewicht"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die Defektgröße allein macht einen ASD-II-Verschluss nicht automatisch chirurgisch. Auch größere Defekte können je nach Randverhältnissen interventionell verschlossen werden; die anatomische Eignung ist entscheidender als eine isolierte Größenangabe.",
+          "term": "Defektgröße"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Eine Nähe des ASD zur Mitralklappe spricht für ungünstige Randverhältnisse. Ein Okkluder könnte die Klappenfunktion beeinträchtigen, nicht stabil sitzen oder Nachbarstrukturen kompromittieren. Deshalb ist bei fehlendem ausreichendem Rand zur AV-Klappe eher ein chirurgischer Verschluss angezeigt. Diese Option beschreibt den wichtigsten Grund für eine Operation statt Katheterverschluss.",
+          "term": "Nähe zur Mitralklappe"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein relevanter Links-Rechts-Shunt ist eine Indikation zum Verschluss des ASD, sagt aber nicht automatisch, dass dieser chirurgisch erfolgen muss. Bei geeigneter Anatomie kann ein hämodynamisch relevanter ASD II gerade interventionell behandelt werden.",
+          "term": "Links-Rechts-Shunt"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Rechtsschenkelblock kann bei ASD vorkommen oder elektrokardiographisch auffallen, ist aber kein klassischer anatomischer Ausschlussgrund für einen Okkluder. Für die Wahl Operation versus Katheter ist die Defektmorphologie wichtiger.",
+          "term": "Rechtsschenkelblock"
+        }
+      ]
+    },
+    "312": {
+      "topicLabel": "Febrile Neutropenie",
+      "explanation": "Eine Infektion bei Neutropenie nach Chemotherapie ist ein onkologischer Notfall. Wegen der fehlenden neutrophilen Immunantwort können schwere bakterielle Infektionen rasch fortschreiten, auch wenn initial nur unspezifische Zeichen vorliegen. Die richtige Maßnahme ist daher die umgehende stationäre Einweisung mit sofortiger intravenöser kalkulierter Antibiotikatherapie. Abwarten bis zum nächsten Tag oder eine verzögerte ambulante Therapie wäre gefährlich. G-CSF kann in ausgewählten Situationen eine Rolle spielen, ersetzt aber nicht die akute antiinfektive Therapie und Überwachung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Bei neutropenischem Infekt nach Chemotherapie muss unverzüglich gehandelt werden. Die Patientin oder der Patient benötigt stationäre Überwachung und eine rasche intravenöse Breitspektrumantibiose, weil Sepsiszeichen verzögert oder abgeschwächt auftreten können. Die Mortalität steigt bei verzögerter Therapie deutlich, weshalb die Behandlung nicht ambulant aufgeschoben wird. Diese Antwort beschreibt das korrekte Akutmanagement.",
+          "term": "Stationäre i.v.-Antibiose"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Kontrolle am nächsten Tag ist bei neutropenischem Infekt zu spät. Der Verlauf kann innerhalb kurzer Zeit septisch werden, sodass eine sofortige stationäre Abklärung und Therapie erforderlich ist.",
+          "term": "Abwartende Kontrolle"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Beginn der Antibiotikatherapie erst am nächsten Morgen verzögert die entscheidende Akutmaßnahme. Bei febriler oder infektiöser Neutropenie zählt der sofortige Therapiebeginn, nicht ein planbares späteres Vorgehen.",
+          "term": "Verzögerte Antibiotikatherapie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Vorstellung beim Onkologen kann im Verlauf sinnvoll sein, ersetzt aber nicht die Notfallbehandlung. Beim akuten Infekt in Neutropenie steht die sofortige stationäre Einweisung mit i.v.-Antibiose im Vordergrund.",
+          "term": "Onkologische Vorstellung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Filgrastim kann die Neutrophilenregeneration unterstützen, behandelt aber keine akute bakterielle Infektion ausreichend. Eine einmalige G-CSF-Gabe ohne sofortige Antibiotikatherapie und stationäre Überwachung wäre bei neutropenischem Infekt nicht adäquat.",
+          "term": "Filgrastim"
+        }
+      ]
+    },
+    "313": {
+      "topicLabel": "Knorpelstruktur",
+      "explanation": "Das Gedächtnisprotokoll enthält zu dieser Frage keine eigentliche Fall- oder Bildbeschreibung; nach dem Antwortschlüssel ist jedoch Knorpel die gesuchte Struktur. Damit ist das pathologische Geschehen primär einer chondralen Struktur zuzuordnen und nicht Epidermis, Dermis, Lymphsystem oder Fettgewebe. Knorpel ist ein spezialisiertes, gefäßarmes Stützgewebe mit Chondrozyten und extrazellulärer Matrix. Viele klinische oder histologische Fragen zu Gelenkflächen, Ohr-/Nasenknorpel oder chondralen Läsionen zielen auf genau diese Gewebeschicht. Wegen des fehlenden Kontextes bleibt die medizinische Einordnung hier nur eingeschränkt sicher.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die Epidermis ist die oberste Hautschicht und wäre bei oberflächlichen epithelialen Hautprozessen betroffen. Nach dem Antwortschlüssel spielt sich das gesuchte Geschehen jedoch nicht in der Epidermis ab.",
+          "term": "Epidermis"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die Dermis enthält Bindegewebe, Gefäße, Nerven und Hautanhangsgebilde. Ohne passenden Hinweis auf ein dermales Hautgeschehen ist sie hier laut Lösungsschlüssel nicht die korrekte Struktur.",
+          "term": "Dermis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Lymphe bezeichnet keine Gewebeschicht, sondern die Flüssigkeit beziehungsweise das Transportsystem der Lymphgefäße. Sie passt daher nicht zu einer Frage nach der anatomischen Struktur, in der sich das Geschehen vor allem abspielt.",
+          "term": "Lymphe"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Nach dem vorliegenden Antwortschlüssel ist Knorpel die richtige Struktur. Knorpel besteht aus Chondrozyten und einer widerstandsfähigen Matrix und findet sich beispielsweise an Gelenkflächen, Rippen, Atemwegen und Ohr-/Nasenstrukturen. Ein primär chondrales Geschehen wäre daher weder epidermal noch dermal lokalisiert. Da die konkrete Vignette oder Bildinformation fehlt, lässt sich die Begründung nur allgemein über die Zuordnung zum Knorpelgewebe formulieren.",
+          "term": "Knorpel"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Fettgewebe wäre bei subkutanen oder adipösen Prozessen die passende Struktur. Der Antwortschlüssel ordnet das Geschehen aber dem Knorpel zu, sodass Fettgewebe nicht korrekt ist.",
+          "term": "Fettgewebe"
+        }
+      ]
+    },
+    "314": {
+      "topicLabel": "Benigner Lagerungsschwindel",
+      "explanation": "Kurze Drehschwindelattacken von wenigen Sekunden, ausgelöst durch Lagewechsel wie Aufstehen, sind typisch für einen benignen paroxysmalen Lagerungsschwindel. Nach einem Kopftrauma kann er durch gelöste Otolithen entstehen, die in einen Bogengang gelangen und bei bestimmten Kopfpositionen inadäquate vestibuläre Reize auslösen. Zwischen den Attacken geht es den Betroffenen meist wieder gut, was ebenfalls gut passt. Erbrechen oder starke Übelkeit können während der Attacke auftreten. Ein chronisches Subduralhämatom oder eine Labyrinthkontusion würden eher persistierende Beschwerden, neurologische Defizite oder andere Begleitsymptome erwarten lassen. Morbus Meniere ist durch längere Attacken und cochleäre Symptome wie Hörminderung oder Tinnitus geprägt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein chronisches Subduralhämatom entwickelt sich typischerweise über längere Zeit und äußert sich eher mit Kopfschmerzen, Vigilanzminderung oder fokalen neurologischen Defiziten. Sekundenkurze, lageabhängige Drehschwindelattacken mit Beschwerdefreiheit dazwischen passen deutlich besser zu einem Lagerungsschwindel.",
+          "term": "Chronisches Subduralhämatom"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Der benigne paroxysmale Lagerungsschwindel verursacht kurze Drehschwindelattacken, die durch Kopf- oder Körperlagewechsel ausgelöst werden. Ein vorausgegangenes Kopftrauma kann Otolithen lösen und so die Symptomatik auslösen. Typisch ist, dass die Attacke nach Sekunden abklingt und der Patient zwischenzeitlich wieder weitgehend beschwerdefrei ist. Übelkeit und Erbrechen während der Attacke sind gut vereinbar. Diese Antwort erklärt den zeitlichen Verlauf und die Auslösbarkeit am besten.",
+          "term": "Benigner Lagerungsschwindel"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Beim Morbus Meniere dauern Schwindelattacken typischerweise deutlich länger und gehen oft mit Hörminderung, Tinnitus oder Druckgefühl im Ohr einher. Diese cochleären Begleitsymptome werden hier nicht beschrieben.",
+          "term": "Morbus Meniere"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Contusio labyrinthi tritt im Zusammenhang mit Trauma auf und kann Schwindel verursachen. Sie würde aber eher unmittelbarere und anhaltendere vestibuläre Beschwerden, häufig mit Hörsymptomen, erwarten lassen als sekundenkurze lagerungsabhängige Attacken Tage später.",
+          "term": "Contusio labyrinthi"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Sie kann daher nicht inhaltlich bewertet werden und ist laut Antwortschlüssel nicht korrekt.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "315": {
+      "topicLabel": "Akuter Schlaganfall",
+      "explanation": "Somnolenz, plötzlich aufgetretene Harninkontinenz und eine Beinschwäche sind akute neurologische Warnsymptome. Zunächst muss eine intrakranielle Blutung, Ischämie oder andere strukturelle Notfallursache ausgeschlossen werden. Das geschieht in der Akutsituation durch eine kraniale Bildgebung, klassisch ein cCT. Erst danach können je nach Befund spezifische Therapien oder weiterführende Diagnostik wie EEG, EKG oder Echokardiographie folgen. Ein EEG wäre bei Verdacht auf epileptischen Anfall möglich, darf aber die Notfallbildgebung bei fokalem Defizit und Vigilanzminderung nicht ersetzen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ein kraniales CT ist bei akutem fokal-neurologischem Defizit und Vigilanzstörung die richtige initiale Diagnostik. Es kann rasch zwischen Blutung, größerer Ischämie und anderen strukturellen Ursachen differenzieren. Die plötzliche Harninkontinenz und Beinschwäche können zwar auch an einen Anfall denken lassen, die Somnolenz und fokale Symptomatik verlangen aber zuerst eine Notfallbildgebung. Diese Antwort ist daher die beste Akutmaßnahme.",
+          "term": "Kraniales CT"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein EEG kann bei Verdacht auf epileptische Aktivität oder postiktalen Zustand sinnvoll sein. Bei akutem fokalem Defizit und Somnolenz steht jedoch zunächst die kraniale Bildgebung im Vordergrund, um Blutung oder Schlaganfall auszuschließen.",
+          "term": "EEG"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein EKG ist in der Schlaganfalldiagnostik wichtig, etwa zur Suche nach Vorhofflimmern. Es beantwortet aber nicht die akute Frage nach Blutung oder intrakranieller Ursache und ist deshalb nicht die erste entscheidende Maßnahme.",
+          "term": "EKG"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Echokardiogramm kann im Verlauf zur Emboliequellensuche sinnvoll sein. In der Akutsituation mit Somnolenz und fokalem Defizit darf es die sofortige kraniale Bildgebung nicht verzögern.",
+          "term": "Echokardiographie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Sie kann daher nicht als bessere Sofortmaßnahme als die kraniale Bildgebung bewertet werden und ist laut Antwortschlüssel nicht korrekt.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "316": {
+      "topicLabel": "Ektropium",
+      "explanation": "Ein Ektropium ist eine Auswärtskehrung des Lidrandes, meist des Unterlids. Dadurch liegt die Bindehaut frei, der Tränenpunkt kann seine Drainagefunktion verlieren und es kommt zu Tränenlaufen, Rötung und Reizung. Die Exposition der Augenoberfläche kann außerdem Lichtempfindlichkeit und subjektive Visusverschlechterung begünstigen. Das Foto soll offenbar genau diese Lidfehlstellung zeigen. Dakryozystitis, Hyposphagma oder Hyphäma wären andere ophthalmologische Befunde mit anderer Lokalisation und Klinik. Ein bloßer Bindehautprolaps über die Lidkante beschreibt nicht die typische Lidfehlstellung des Ektropiums.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Beim Ektropium ist der Lidrand nach außen gekippt. Dadurch wird die Bindehaut exponiert, der Tränenabfluss gestört und das Auge gereizt. Typische Folgen sind Epiphora, Rötung, Fremdkörpergefühl und bei Hornhautbeteiligung auch Lichtscheu oder Visusprobleme. Die Bildbeschreibung mit tränendem, gerötetem Auge passt daher am besten zu dieser Diagnose.",
+          "term": "Ektropium"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Dakryozystitis ist eine Entzündung des Tränensacks, typischerweise mit schmerzhafter Schwellung im medialen Lidwinkel und eitrigem Sekret. Eine sichtbare Auswärtskehrung des Lids wird dadurch nicht primär erklärt.",
+          "term": "Dakryozystitis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Hyposphagma ist eine scharf begrenzte subkonjunktivale Blutung, meist ohne relevante Schmerzen oder Visusminderung. Es erklärt weder die Lidfehlstellung noch das chronische Tränenlaufen durch gestörte Tränenableitung.",
+          "term": "Hyposphagma"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Hyphäma bezeichnet Blut in der Vorderkammer des Auges, meist nach Trauma oder bei intraokularer Blutung. Die beschriebene äußere Lid- und Bindehautproblematik mit Tränenlaufen passt dazu nicht.",
+          "term": "Hyphäma"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Prolaps der Bindehaut über die Lidkante wäre keine so klassische Diagnose wie die Auswärtsstellung des Lidrandes selbst. Bei Ektropium ist die Lidfehlstellung der zentrale Befund, aus dem die Bindehautexposition und Epiphora folgen.",
+          "term": "Bindehautprolaps"
+        }
+      ]
+    },
+    "317": {
+      "topicLabel": "Marburger Herzscore",
+      "explanation": "Der Marburger Herzscore dient in der Hausarztmedizin zur Abschätzung der Wahrscheinlichkeit einer koronaren Herzkrankheit bei Brustschmerz. Zu seinen Kriterien gehört unter anderem, ob der Schmerz belastungsabhängig ist. Weitere Bestandteile sind Alter/Geschlecht, bekannte vaskuläre Erkrankung, fehlende Reproduzierbarkeit durch Palpation und die Einschätzung der Patientin oder des Patienten, dass der Schmerz kardial sei. Klassische Risikofaktoren wie Nikotinabusus oder Familienanamnese sind zwar kardiologisch relevant, gehören aber nicht als eigene Punkte in diesen Score. Veneninsuffizienz und Immobilisation passen eher in andere differentialdiagnostische Überlegungen, etwa venöse Thrombose oder Lungenembolie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Belastungsabhängiger Brustschmerz ist ein typisches Angina-pectoris-Merkmal und Bestandteil des Marburger Herzscores. Er erhöht die Wahrscheinlichkeit, dass Brustschmerzen durch eine koronare Ursache bedingt sind. Der Score verwendet genau solche anamnestischen Merkmale zur hausärztlichen Risikoeinschätzung. Diese Option ist daher korrekt.",
+          "term": "Belastungsabhängiger Schmerz"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine positive Familienanamnese ist ein kardiovaskulärer Risikofaktor, gehört aber nicht als eigenständiges Kriterium zum Marburger Herzscore. Der Score ist enger auf bestimmte Merkmale der aktuellen Brustschmerzabklärung ausgerichtet.",
+          "term": "Familienanamnese"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Chronischer Nikotinabusus erhöht das kardiovaskuläre Risiko, ist aber kein eigener Punkt im Marburger Herzscore. In Prüfungsfragen ist wichtig, Risikofaktoren der KHK von den konkreten Score-Kriterien zu unterscheiden.",
+          "term": "Nikotinabusus"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Veneninsuffizienz gehört nicht zur Einschätzung einer koronaren Ursache von Brustschmerzen im Marburger Herzscore. Sie ist eher für venöse Beschwerden oder chronische Beinveränderungen relevant.",
+          "term": "Veneninsuffizienz"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Kürzliche Immobilisation ist ein Risikofaktor für venöse Thromboembolien und damit bei Verdacht auf Lungenembolie relevant. Sie ist kein Bestandteil des Marburger Herzscores zur KHK-Wahrscheinlichkeit bei Brustschmerz.",
+          "term": "Immobilisation"
+        }
+      ]
+    },
+    "318": {
+      "topicLabel": "ACE-Hemmer-Angioödem",
+      "explanation": "ACE-Hemmer wie Ramipril können ein bradykininvermitteltes Angioödem auslösen. Das kann auch nach längerer stabiler Einnahme auftreten und ist nicht zwingend an eine frische Dosisänderung gebunden. Typisch sind Schwellungen von Lippen, Gesicht, Zunge oder oberen Atemwegen, oft ohne Urtikaria, weil es nicht primär histaminvermittelt ist. Bei Verdacht muss der ACE-Hemmer abgesetzt und die Atemwegssituation ernst genommen werden. Die anderen genannten Medikamente sind für ein solches bradykininvermitteltes Angioödem deutlich weniger typisch.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ramipril ist ein ACE-Hemmer und kann durch verminderten Bradykininabbau ein Angioödem verursachen. Dieses Angioödem kann auch nach Monaten oder Jahren der Einnahme auftreten, sodass die unveränderte Medikation es nicht ausschließt. Klinisch ist besonders die mögliche Beteiligung von Zunge, Pharynx oder Larynx gefährlich. Daher ist Ramipril die gesuchte Ursache.",
+          "term": "Ramipril"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Digoxin ist vor allem für kardiale und gastrointestinale Nebenwirkungen sowie Intoxikationssymptome bekannt. Ein bradykininvermitteltes Angioödem ist dafür nicht typisch.",
+          "term": "Digoxin"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Simvastatin kann Muskelbeschwerden, Leberwerterhöhungen und selten andere unerwünschte Wirkungen verursachen. Ein klassisches Angioödem nach dem Mechanismus der ACE-Hemmer ist jedoch nicht die typische Assoziation.",
+          "term": "Simvastatin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "ASS kann pseudoallergische Reaktionen oder Analgetikaintoleranz mit Atemwegs- und Hautsymptomen auslösen. Das typische verzögert auftretende bradykininvermittelte Angioödem bei unveränderter Dauermedikation spricht aber viel eher für einen ACE-Hemmer.",
+          "term": "Acetylsalicylsäure"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Methotrexat ist mit Nebenwirkungen wie Schleimhautulzera, Hepatotoxizität, Myelosuppression oder Pneumonitis assoziiert. Ein ACE-Hemmer-typisches Angioödem wird dadurch nicht am besten erklärt.",
+          "term": "Methotrexat"
+        }
+      ]
+    },
+    "319": {
+      "topicLabel": "RCVS",
+      "explanation": "Sehr starke neuartige Kopfschmerzen mit neurologischem Defizit und angiographisch multilokulären Gefäßengstellen passen zu einem reversiblen zerebralen Vasokonstriktionssyndrom. Auslöser können vasokonstriktive oder sympathomimetische Substanzen sein. Abschwellende Nasensprays enthalten häufig alpha-sympathomimetische Wirkstoffe und können über Vasokonstriktion eine solche Konstellation begünstigen. Ovulationshemmer sind eher mit thromboembolischen Ereignissen oder Sinusvenenthrombosen assoziiert, erklären aber die beschriebenen segmentalen Engstellen weniger spezifisch. Analgetika wie Ibuprofen oder Paracetamol sowie Ohrentropfen sind als Auslöser dieser angiographischen Konstellation deutlich weniger typisch.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ovulationshemmer erhöhen je nach Präparat und Risikoprofil das Risiko für thromboembolische Ereignisse und können bei Migräne mit Aura besonders relevant sein. Die beschriebenen multilokulären Engstellen in zerebralen Arterien sprechen jedoch spezifischer für eine Vasokonstriktionsproblematik als für einen kontrazeptivabedingten Thrombus.",
+          "term": "Ovulationshemmer"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ibuprofen ist ein nichtsteroidales Antirheumatikum und kein typischer Auslöser segmentaler zerebraler Vasokonstriktionen. Es kann Kopfschmerzen symptomatisch beeinflussen, erklärt aber die Bildgebung mit multilokulären Gefäßengstellen nicht am besten.",
+          "term": "Ibuprofen"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Abschwellendes Nasenspray enthält häufig sympathomimetische Vasokonstriktoren. Solche Substanzen können ein reversibles zerebrales Vasokonstriktionssyndrom begünstigen, das sich mit stärksten Kopfschmerzen und neurologischen Symptomen präsentieren kann. Angiographisch sind segmentale, multilokuläre Engstellen großer und mittelgroßer Hirnarterien typisch. Der zeitliche Zusammenhang mit der Anwendung des Nasensprays macht diese Option daher am plausibelsten.",
+          "term": "Nasenspray"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ohrentropfen wirken überwiegend lokal und sind nicht typisch mit zerebralen Vasokonstriktionssyndromen verbunden. Ohne Hinweis auf eine systemische vasokonstriktive Substanz erklären sie die multilokulären Gefäßengstellen nicht.",
+          "term": "Ohrentropfen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Paracetamol ist ein Analgetikum ohne relevante vasokonstriktive Wirkung auf zerebrale Arterien. Es erklärt weder den 'Kopfschmerz wie noch nie' noch die segmentalen Engstellen in Media- und posterioren Stromgebieten.",
+          "term": "Paracetamol"
+        }
+      ]
+    }
+  }
+}

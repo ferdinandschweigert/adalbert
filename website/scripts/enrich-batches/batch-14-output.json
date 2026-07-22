@@ -1,0 +1,745 @@
+{
+  "examId": "m2-ss26-f26-gedaechtnisprotokoll",
+  "questions": {
+    "281": {
+      "topicLabel": "Klavikulafraktur",
+      "explanation": "Bei einer Klavikulafraktur mit drohender Hautperforation besteht ein klares Weichteilproblem. Eine rein konservative Behandlung ist dann nicht ausreichend, weil die gespannte Haut nekrotisieren und die Fraktur sekundär offen werden kann. Die operative Stabilisierung erlaubt Reposition, sichere Weichteilentlastung und stabile Ausheilung. Unter den angebotenen Verfahren ist die Plattenosteosynthese die passende Standardoption, besonders bei dislozierten Frakturen mit Hautgefährdung. Draht- oder Zuggurtungsverfahren sind an der Klavikula nicht die naheliegende Therapie dieses Szenarios.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die Plattenosteosynthese ist bei deutlich dislozierter Klavikulafraktur mit drohender Hautperforation die richtige Therapie. Sie ermöglicht eine anatomische Reposition und stabile Fixation. Dadurch wird auch die Weichteilspannung reduziert und das Risiko einer offenen Fraktur beziehungsweise Hautnekrose adressiert.",
+          "term": "Plattenosteosynthese"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine rein konservative Therapie kann bei unkomplizierten, wenig dislozierten Klavikulafrakturen ausreichend sein. Hier spricht die fast perforierte Haut jedoch fuer eine relevante Dislokation und Weichteilgefaehrdung. In dieser Konstellation waere Abwarten nicht angemessen.",
+          "term": "konservative Therapie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Kirschner-Drähte mit Zuggurtung sind eher aus anderen Frakturregionen bekannt und stellen fuer diese Klavikulasituation nicht die Standardversorgung dar. Bei einer drohenden Hautperforation braucht es eine verlaessliche Reposition und stabile Osteosynthese. Das leistet die Platte hier plausibler und sicherer.",
+          "term": "Kirschner-Drähte und Zuggurtung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Marknagelung kann bei bestimmten Klavikulaschaftfrakturen eine Option sein. Bei ausgepraegter Dislokation mit Weichteilgefaehrdung ist jedoch die offene Reposition mit Plattenosteosynthese die passendere Antwort. Die Frage zielt auf die sichere operative Versorgung bei drohender offener Fraktur.",
+          "term": "Marknagelung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Option ist im Protokoll mit Fragezeichen ueberliefert. Eine isolierte Zuggurtungsosteosynthese ist fuer die beschriebene Klavikulafraktur nicht als gesuchte Standardtherapie erkennbar.",
+          "term": "Zuggurtungsosteosynthese"
+        }
+      ]
+    },
+    "282": {
+      "topicLabel": "Rückenmarktrauma",
+      "explanation": "Nach Trauma mit zunaechst unauffaelligem CT und spaeter auftretenden neurologischen Ausfaellen spricht ein pathologischer MRT-Befund des Myelons fuer eine strukturelle Rueckenmarksschaedigung. T2-hyperintense langstreckige Areale passen zu Oedem beziehungsweise Kontusion des Rueckenmarks. Die Angabe einer Myelonkompression macht eine reine funktionelle Erschuetterung unwahrscheinlich. Eine Commotio spinalis waere definitionsgemaess ohne nachweisbare strukturelle Myelonlaesion. Daher ist die Contusio spinalis nach Antwortschluessel die beste Diagnose.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Bei einer Commotio spinalis kommt es zu voruebergehenden neurologischen Ausfaellen ohne strukturell fassbare Rueckenmarksschaedigung. Der hier beschriebene MRT-Befund mit T2-Hyperintensitaeten und Kompression spricht gerade gegen diese Diagnose. Deshalb ist diese Option nicht passend.",
+          "term": "Commotio spinalis"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Verschluss der A. spinalis posterior wuerde ein vaskulaeres Rueckenmarkssyndrom erwarten lassen. Die Fallbeschreibung steht jedoch im Kontext eines Traumas mit Myelonkompression und T2-Signalveraenderung. Das passt besser zu einer traumatischen Kontusion als zu einem isolierten posterioren Gefaessverschluss.",
+          "term": "A.-spinalis-posterior-Verschluss"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die Contusio spinalis bezeichnet eine strukturelle traumatische Rueckenmarksschaedigung. T2-hyperintense Myelonveraenderungen nach Unfall passen zu Oedem, Blutung oder Kontusionsfolgen. In Kombination mit den Paresen und der Kompression ist dies die stimmige Diagnose.",
+          "term": "Contusio spinalis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine psychogene Stoerung erklaert keinen objektiven MRT-Befund mit langstreckiger T2-Hyperintensitaet und Myelonkompression. Bei nachweisbarer organischer Rueckenmarkslaesion darf diese Option nicht im Vordergrund stehen. Sie waere nur nach Ausschluss struktureller Ursachen zu erwägen.",
+          "term": "psychogene Parese"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht vollstaendig ueberliefert. Inhaltlich kann sie daher nicht sicher bewertet werden; massgeblich bleibt die codierte Contusio spinalis.",
+          "term": "unvollständige Antwortoption"
+        }
+      ]
+    },
+    "283": {
+      "topicLabel": "Schenkelhalsfraktur",
+      "explanation": "Der Antwortschluessel markiert die dislozierte Schenkelhalsfraktur als richtige Diagnose. Bei einer aelteren Patientin nach Sturz mit Hueftschmerz ist diese Verletzung eine zentrale Differenzialdiagnose, insbesondere wenn die Bildgebung eine proximale Femurfraktur zeigt. Die im Protokoll erinnerte Formulierung mit Fraktur unterhalb des Trochanter major wirkt dazu nicht ganz konsistent und koennte auf eine ungenaue Bild- oder Textrekonstruktion hinweisen. Da die richtige Antwort verbindlich vorgegeben ist, wird die Erklaerung an der dislozierten Schenkelhalsfraktur ausgerichtet. Die Abgrenzung zur Femurschaftfraktur bleibt wegen des unvollstaendigen Bildkontexts unsicher.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Protokoll nur als Fragezeichen ueberliefert. Ohne den urspruenglichen Wortlaut kann sie nicht medizinisch gegen die markierte Schenkelhalsfraktur abgegrenzt werden.",
+          "term": "unvollständige Antwortoption"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Femurschaftfraktur betrifft den diaphysaeren Anteil des Femurs und waere eine andere Verletzung als die laut Antwortschluessel korrekte Schenkelhalsfraktur. Die erinnerte Beschreibung enthaelt zwar eine missverstaendliche Angabe zum Schaftbereich. Fuer die Auswertung bleibt aber die codierte dislozierte Schenkelhalsfraktur massgeblich.",
+          "term": "Femurschaftfraktur"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die dislozierte Schenkelhalsfraktur ist laut Antwortschluessel die richtige Diagnose. Sie passt grundsaetzlich zu einer alten Patientin nach haeuslichem Sturz mit starken Hueftschmerzen. Bei Dislokation ist die Fraktur klinisch besonders relevant, weil Durchblutung und Stabilitaet des Hueftkopfes gefaehrdet sein koennen.",
+          "term": "dislozierte Schenkelhalsfraktur"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Option ist unvollstaendig erinnert und kann ohne Wortlaut nicht belastbar eingeordnet werden. Sie ist nach Antwortschluessel nicht die gesuchte Frakturdiagnose.",
+          "term": "unvollständige Antwortoption"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Auch diese Antwortoption liegt nur als Fragezeichen vor. Eine inhaltliche Begruendung ist deshalb nicht moeglich; sie ist nicht die markierte Loesung.",
+          "term": "unvollständige Antwortoption"
+        }
+      ]
+    },
+    "284": {
+      "topicLabel": "Silikose",
+      "explanation": "Die berufliche Exposition in einer Giesserei beziehungsweise als Gussputzer passt zu Quarzstaubbelastung. Silikose zeigt typischerweise kleine nodulaere Verschattungen, bevorzugt in Ober- und Mittelfeldern, und kann mit fibrotischen Umbauprozessen einhergehen. Husten und ein retikulonodulaeres Muster stuetzen diese Verdachtsdiagnose. Asbestose betrifft demgegenueber eher basale Lungenabschnitte und die Pleura. Die uebrigen Antwortoptionen passen weder zur Exposition noch zum chronischen radiologischen Muster so gut wie die Silikose.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Asbestose entsteht durch Asbestfaserexposition und zeigt haeufig interstitielle Veraenderungen mit Betonung der Unterfelder sowie Pleuraplaques. Die geschilderten Knoetchen in Ober- und Mittelfeldern bei Giesserei-/Gussputzerarbeit sprechen eher fuer Quarzstaub. Daher ist Asbestose hier nicht die beste Antwort.",
+          "term": "Asbestose"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Silikose ist die klassische Pneumokoniose nach inhalativer Quarzstaubexposition. Giesserei- und Gussputzerarbeit koennen mit solcher Staubbelastung verbunden sein. Nodulaere, fibrotische Veraenderungen in den oberen und mittleren Lungenabschnitten passen sehr gut dazu.",
+          "term": "Silikose"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Byssinose ist mit Baumwoll-, Flachs- oder Hanfstaub assoziiert. Sie verursacht eher obstruktive Beschwerden im Zusammenhang mit organischem Staub, nicht das hier beschriebene Quarzstaubmuster. Die berufliche Anamnese spricht klar gegen diese Diagnose.",
+          "term": "Byssinose"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine exogen-allergische Alveolitis entsteht durch immunologische Reaktion auf organische Antigene. Typisch waeren passende Ausloeser wie Vogel-, Schimmel- oder landwirtschaftliche Expositionen und ein anderes klinisches Muster. Die Giesserei-Anamnese mit oberen nodulaeren Fibrosen spricht eher fuer Silikose.",
+          "term": "exogen-allergische Alveolitis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Das Organic Toxic Dust Syndrome ist eine akute, grippeartige Reaktion nach massiver organischer Staubexposition. Es erklaert keine chronischen fibrotisch-nodulaeren Veraenderungen der Ober- und Mittelfelder. Auch die berufliche Exposition passt nicht vorrangig dazu.",
+          "term": "Organic Toxic Dust Syndrome"
+        }
+      ]
+    },
+    "285": {
+      "topicLabel": "OP-Nüchternheit",
+      "explanation": "Bei Saeuglingen gelten fuer die praoperative Nuechternheit je nach Nahrungsart unterschiedliche Karenzzeiten. Muttermilch wird anders bewertet als feste Nahrung oder Brei, weil sie den Magen schneller verlaesst. Der Antwortschluessel markiert das Stillen bis drei Stunden vor der Operation als korrekt, sodass dies in dieser Frage die gesuchte Ausnahme von laengerer Nahrungskarenz ist. Brei kurz vor der Operation waere wegen langsamerer Magenentleerung nicht passend. Die pauschale komplette Nuechternheit ab sechs Stunden ignoriert, dass fuer bestimmte Fluessigkeiten beziehungsweise Muttermilch kuerzere Intervalle vorgesehen sein koennen.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Brei zaehlt nicht wie klare Fluessigkeit oder Muttermilch, sondern entspricht eher fester beziehungsweise saemiger Nahrung. Eine Gabe drei Stunden vor Narkose waere wegen des Aspirationsrisikos nicht die passende Antwort. Deshalb ist diese Option nach Schluessel falsch.",
+          "term": "Brei präoperativ"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Das Stillen bis drei Stunden vor der Operation ist laut Antwortschluessel korrekt. Die Option nutzt den Unterschied zwischen Muttermilch und fester Nahrung in der praoperativen Nuechternheitsregelung. Wegen variierender lokaler Protokolle und der knappen Fallrekonstruktion bleibt die Einordnung vorsichtig.",
+          "term": "Stillen vor Operation"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine komplette Nuechternheit ab sechs Stunden ist als pauschale Regel fuer alle Nahrungsarten zu grob. Sie beruecksichtigt nicht, dass Muttermilch beziehungsweise bestimmte Fluessigkeiten kuerzer vor Narkose erlaubt sein koennen. In der Frage ist daher nicht diese strikte Variante gesucht.",
+          "term": "komplette Nüchternheit"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollstaendig. Ohne Wortlaut kann sie nur als nicht codierte, nicht beurteilbare Option eingeordnet werden.",
+          "term": "unvollständige Antwortoption"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Auch diese Option ist nur als Fragezeichen ueberliefert. Eine medizinische Abgrenzung ist deshalb nicht moeglich; sie ist nicht die richtige Antwort.",
+          "term": "unvollständige Antwortoption"
+        }
+      ]
+    },
+    "286": {
+      "topicLabel": "Hauttumor",
+      "explanation": "Ein Keratoakanthom beziehungsweise ein klinisch moegliches Basalzellkarzinom im Gesicht sollte histologisch gesichert und vollstaendig behandelt werden. An der Nase ist wegen Funktion, Kosmetik und Rezidivrisiko eine kontrollierte Exzision besonders sinnvoll. Die Tumorrandkontrolle stellt sicher, dass kein relevanter Resttumor verbleibt. Topische Verfahren kommen nur fuer ausgewaehlte oberflaechliche Tumoren infrage und sind bei unklarer nodulaerer Laesion im Gesicht nicht die beste Antwort. Das hohe Alter allein ist keine Begruendung, einen potenziell malignen Hauttumor unbehandelt zu lassen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Exzision mit Tumorrandkontrolle ist bei einem verdächtigen Hauttumor an der Nase die passende Therapie. Sie erlaubt zugleich Diagnosesicherung und kurative Entfernung. Gerade im Gesicht ist eine kontrollierte Resektion wegen Rezidiv- und Defektrisiko wichtig.",
+          "term": "Exzision mit Tumorrandkontrolle"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Topisches 5-Fluoruracil ist kein Standard fuer eine unklare, moeglicherweise invasive oder keratoakanthomartige Laesion an der Nase. Es eignet sich eher fuer bestimmte oberflaechliche Praekanzerosen oder ausgewaehlte oberflaechliche Tumorformen. Die notwendige histologische Sicherung und vollstaendige Entfernung wuerde damit fehlen.",
+          "term": "topisches 5-Fluoruracil"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Imiquimod kann bei speziellen oberflaechlichen Basalzellkarzinomen eine Option sein. Die angegebene kurze topische Behandlung passt aber nicht zur sicheren Therapie eines suspekten Tumors an der Nase. Zudem ersetzt sie keine randkontrollierte Exzision bei unklarer oder nodulaerer Laesion.",
+          "term": "topisches Imiquimod"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Laserkoagulation wuerde Gewebe zerstoeren, ohne eine verlaessliche histologische Randbeurteilung zu liefern. Bei einem potenziell malignen Hauttumor im Gesicht ist das ein wesentlicher Nachteil. Daher ist diese Option nicht die bevorzugte Therapie.",
+          "term": "Laserkoagulation"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Fortgeschrittenes Alter allein ist keine Kontraindikation gegen eine sinnvolle Tumortherapie. Entscheidend sind Allgemeinzustand, Therapieziel und Tumorrisiko. Bei einem behandelbaren Hauttumor an der Nase waere Nichtstun ohne weitere Begruendung nicht angemessen.",
+          "term": "keine Therapie wegen Alter"
+        }
+      ]
+    },
+    "287": {
+      "topicLabel": "Sentinel-Lymphknoten",
+      "explanation": "Bei der Lymphknotenszintigrafie nach Injektion eines Radiopharmakons wird der erste drainierende Lymphknoten im Abflussgebiet gesucht. Dieser erste darstellbare Lymphknoten ist der Waechterlymphknoten, auch Sentinel-Lymphknoten genannt. Bei Mammakarzinom ist seine Identifikation zentral, weil sein Befund stellvertretend fuer den regionalen Lymphabfluss beurteilt wird. Die Injektionsstelle kann zwar Aktivitaet zeigen, liegt aber nicht als erstes Signal in der Axilla. Nachgeschaltete Lymphknoten oder Metastasen sind nicht definitionsgemaess das erste szintigrafische axillaere Signal.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Der Waechterlymphknoten ist der erste Lymphknoten im Abflussgebiet des Tumors beziehungsweise der Injektionsregion. In der rechten Axilla ist er deshalb das erste relevante szintigrafische Signal. Genau diese Darstellung ist Ziel der Sentinel-Lymphknoten-Szintigrafie.",
+          "term": "Wächterlymphknoten"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die Injektionsstelle des Radiopharmakons kann eine starke Aktivitaet zeigen. Sie befindet sich jedoch nicht als erstes axillaeres Lymphknotensignal in der rechten Axilla. Die Frage fragt nach dem ersten Signal in der Axilla, also nach dem Sentinel-Lymphknoten.",
+          "term": "Injektionsstelle"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein dem Waechterlymphknoten nachgeschalteter Lymphknoten erscheint definitionsgemaess erst nach dem Sentinel-Lymphknoten im Lymphabfluss. Er kann spaeter ebenfalls Aktivitaet zeigen. Er ist aber nicht das erste darzustellende Signal.",
+          "term": "nachgeschalteter Lymphknoten"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Lymphknotenmetastase ist ein histologischer beziehungsweise pathologischer Befund, nicht automatisch das erste szintigrafische Signal. Die Szintigrafie identifiziert primaer den drainierenden Lymphknoten. Ob dieser metastatisch befallen ist, wird danach gesondert beurteilt.",
+          "term": "Lymphknotenmetastase"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Lymphknotenszintigrafie dient gerade der praoperativen beziehungsweise perioperativen Lokalisation des Sentinel-Lymphknotens. Seine Darstellung ist daher nicht nur intraoperativ beurteilbar. Intraoperativ kann die Lokalisation ergaenzt oder verifiziert werden.",
+          "term": "nur intraoperativ beurteilbar"
+        }
+      ]
+    },
+    "288": {
+      "topicLabel": "Bioklappen-Degeneration",
+      "explanation": "Biologische Herzklappenprothesen degenerieren im Verlauf strukturell, weil sie nicht dauerhaft wie mechanische Klappen haltbar sind. Eine relevante Degeneration nach etwa zehn Jahren ist klinisch plausibel und kein unerwartetes Versagen ausserhalb jeder Norm. Gerade bei aelteren Patientinnen werden Bioprothesen oft gewaehlt, weil sie keine lebenslange intensive Antikoagulation wie mechanische Klappen erfordern. Das Alter allein schliesst eine Reintervention nicht aus; vielmehr wird individuell nach Symptomatik, Risiko und Verfahren entschieden. Eine medikamentoese Verlaengerung der Haltbarkeit durch Kalziumantagonisten ist nicht die gesuchte Aussage.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine Degeneration einer biologischen Aortenklappenprothese nach rund zehn Jahren ist eine plausible Zeitdimension. Bioprothesen unterliegen strukturellem Verschleiss und Verkalkung. Daher ist die Aussage nach Antwortschluessel korrekt.",
+          "term": "normale Bioprothesenhaltbarkeit"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die Erwartung, eine biologische Herzklappe haette zwingend 25 Jahre halten muessen, ist zu hoch und nicht als Standardantwort ableitbar. Bioprothesen sind gerade durch begrenzte Haltbarkeit gekennzeichnet. Eine fruehere Degeneration kann klinisch vorkommen.",
+          "term": "25 Jahre Haltbarkeit"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Aus der reinen Degeneration laesst sich nicht sicher ableiten, ob die Klappe bovinen oder porcinen Ursprungs ist. Beide biologischen Prothesentypen koennen strukturell degenerieren. Die Materialherkunft ist daher nicht die gesuchte Kernaussage.",
+          "term": "bovine statt porcine Klappe"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Hohes Alter ist allein keine absolute Kontraindikation fuer eine Reintervention. Entscheidend sind Frailty, Komorbiditaeten, Symptomlast, Anatomie und das Risiko des geplanten Verfahrens. Auch bei sehr alten Patientinnen koennen kathetergestuetzte oder operative Optionen geprueft werden.",
+          "term": "Alter als Kontraindikation"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Kalziumantagonisten sind nicht etabliert, um die strukturelle Degeneration biologischer Herzklappen verlaesslich zu verhindern. Die Degeneration beruht auf komplexen Verkalkungs- und Gewebeumbauprozessen. Eine solche einfache medikamentoese Haltbarkeitsverlaengerung ist daher nicht die richtige Aussage.",
+          "term": "Kalziumantagonist"
+        }
+      ]
+    },
+    "289": {
+      "topicLabel": "Trigeminusneuralgie",
+      "explanation": "Die Fallbeschreibung mit blitzartig einschiessenden Gesichtsschmerzen, Attackencharakter und Triggerung durch Kauen passt zur Trigeminusneuralgie. Gefragt ist ausdruecklich nach der Behandlungsoption, die nicht infrage kommt. Medikamentoes ist Carbamazepin eine klassische Therapie, und bei geeigneten Patientinnen und Patienten koennen invasive Verfahren wie mikrovaskulaere Dekompression, radiochirurgische Verfahren oder Eingriffe am Ganglion Gasseri eingesetzt werden. Eine Embolisation der A. cerebelli superior ist hingegen keine Standardtherapie der Trigeminusneuralgie. Zwar kann ein Gefaesskontakt eine Rolle spielen, behandelt wird dieser aber nicht durch Embolisation des Gefaesses.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die Embolisation der A. cerebelli superior ist die gesuchte Nicht-Behandlungsoption. Auch wenn ein neurovaskulaerer Kontakt bei Trigeminusneuralgie haeufig diskutiert wird, wird die Arterie nicht embolisiert. Das wuerde erhebliche Ischaemierisiken bergen und gehoert nicht zum Therapiekonzept.",
+          "term": "Embolisation der A. cerebelli superior"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die mikrovaskulaere Dekompression nach Jannetta ist eine anerkannte operative Option bei klassischer Trigeminusneuralgie mit Gefaess-Nerven-Kontakt. Dabei wird das komprimierende Gefaess vom Nerv separiert, ohne es zu verschliessen. Weil die Frage nach der nicht infrage kommenden Therapie fragt, ist diese echte Option nicht korrekt anzukreuzen.",
+          "term": "mikrovaskuläre Dekompression"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Gamma-Knife-Radiochirurgie kann bei Trigeminusneuralgie als weniger invasives Verfahren eingesetzt werden. Sie richtet sich gegen den betroffenen Nervenabschnitt und nicht gegen ein hirnversorgendes Gefaess. Damit gehoert sie grundsaetzlich zu den denkbaren Behandlungsoptionen.",
+          "term": "Gamma-Knife-Bestrahlung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Carbamazepin ist eine klassische medikamentoese Erstlinientherapie bei Trigeminusneuralgie. Es reduziert die neuronale Erregbarkeit und kann Attacken deutlich bessern. Deshalb ist diese Option gerade keine ausgeschlossene Therapie.",
+          "term": "Carbamazepin"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Thermokoagulation des Ganglion Gasseri ist ein etabliertes interventionelles Verfahren bei Trigeminusneuralgie, insbesondere wenn andere Optionen nicht geeignet sind. Es zielt auf die Schmerzweiterleitung im Trigeminussystem. Daher ist es nicht die gesuchte falsche Behandlungsoption.",
+          "term": "Thermokoagulation des Ganglion Gasseri"
+        }
+      ]
+    },
+    "290": {
+      "topicLabel": "Nekrotisierende Fasziitis",
+      "explanation": "Progrediente Schwellung, Nekrose, extrem starke Schmerzen und intraoperativ grau veraendertes Gewebe mit leicht abloesbarer Faszie sprechen fuer eine nekrotisierende Fasziitis. Nach Bagatellverletzung oder Insektenstich ist besonders eine Streptokokkeninfektion, klassisch durch beta-haemolysierende Streptokokken, typisch. Die Erkrankung ist lebensbedrohlich und erfordert rasche chirurgische Sanierung plus antibiotische Therapie. Clostridien verursachen eher eine Myonekrose beziehungsweise Gasbrand-Konstellation. Die anderen Erreger koennen Weichteilinfektionen verursachen, passen aber weniger gut zur klassischen monomikrobiellen nekrotisierenden Fasziitis nach kleinem Hautdefekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Clostridien sind klassisch mit Gasbrand beziehungsweise clostridialer Myonekrose assoziiert. Dabei stehen Muskelnekrose, Gasbildung und systemische Toxizitaet im Vordergrund. Die Fallbeschreibung der abziehbaren Faszie nach Insektenstich passt besser zu Streptokokken-bedingter nekrotisierender Fasziitis.",
+          "term": "Clostridien"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Streptokokken sind eine klassische Ursache der nekrotisierenden Fasziitis. Die starken Schmerzen, rasche Progression, Nekrose und Faszienbeteiligung passen sehr gut dazu. Nach kleinem Hautdefekt kann sich eine solche lebensbedrohliche Infektion schnell entwickeln.",
+          "term": "Streptokokken"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "E. coli kann bei polymikrobiellen Weichteilinfektionen oder abdominellen beziehungsweise urogenitalen Infektionsquellen beteiligt sein. Der geschilderte Verlauf nach Insektenstich mit klassischem Faszienbefund zielt aber nicht primaer auf E. coli. Die wahrscheinlichere Leitantwort sind Streptokokken.",
+          "term": "Escherichia coli"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Listerien verursachen typischerweise Lebensmittel-assoziierte Infektionen, Sepsis oder Meningitis bei Risikogruppen. Sie sind keine klassische Ursache einer nekrotisierenden Fasziitis nach Insektenstich. Diese Option passt daher nicht zum klinischen Bild.",
+          "term": "Listerien"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Pseudomonaden koennen schwere Wund- und Weichteilinfektionen verursachen, besonders bei speziellen Risikokonstellationen. Die hier beschriebene typische nekrotisierende Fasziitis nach Bagatelltrauma wird jedoch eher mit Streptokokken verbunden. Deshalb ist Pseudomonas nicht die beste Antwort.",
+          "term": "Pseudomonaden"
+        }
+      ]
+    },
+    "291": {
+      "topicLabel": "Postzygotisches Mosaik",
+      "explanation": "Eineiige Zwillinge entstehen aus derselben Zygote und haben daher grundsaetzlich identisches Ausgangserbgut. Wenn einer der Zwillinge spaeter einen abweichenden Karyotyp aufweist, spricht das fuer ein Ereignis nach der Befruchtung. Ein postzygotisches Mosaik kann entstehen, wenn in einer fruehen mitotischen Zellteilung eine chromosomale Veraenderung auftritt und nur eine Zelllinie beziehungsweise ein Zwilling betroffen ist. Das erklaert die Diskordanz trotz monozygoter Herkunft. Meiotiche Non-Disjunction wuerde bereits die Zygote betreffen und waere daher bei eineiigen Zwillingen nicht die beste Erklaerung fuer unterschiedliche Karyotypen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Non-Disjunction in Meiose I wuerde vor der Befruchtung in der Keimzelle entstehen. Bei eineiigen Zwillingen waere diese Ausgangsveraenderung grundsaetzlich in beiden Zwillingen angelegt. Sie erklaert daher die spaetere Diskordanz der Karyotypen nicht gut.",
+          "term": "Non-Disjunction Meiose I"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Auch eine Non-Disjunction in Meiose II waere ein praezigotisches Ereignis. Die daraus entstehende Zygote waere die gemeinsame Grundlage beider eineiiger Zwillinge. Unterschiedliche Karyotypen zwischen den Zwillingen werden dadurch nicht plausibel erklaert.",
+          "term": "Non-Disjunction Meiose II"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Mikrosatelliteninstabilitaet beschreibt eine Form genetischer Instabilitaet auf Sequenzebene, typischerweise im Kontext von DNA-Reparaturdefekten und Tumoren. Sie erklaert keinen unterschiedlichen konstitutionellen Karyotyp mit Translokation bei monozygoten Zwillingen. Daher ist diese Option nicht passend.",
+          "term": "Mikrosatelliteninstabilität"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Ein postzygotisches Mosaik entsteht nach der Befruchtung durch eine mitotische chromosomale Veraenderung. Wenn dieses Ereignis frueh genug und in einer Zelllinie eines Zwillings geschieht, koennen monozygote Zwillinge unterschiedliche Karyotypbefunde zeigen. Das ist die beste Erklaerung fuer die geschilderte Konstellation.",
+          "term": "postzygotisches Mosaik"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine akrozentrische Fusion beschreibt eine Robertson-Translokation zwischen akrozentrischen Chromosomen. Die im Protokoll genannte Translokation passt dazu nicht zwingend, und vor allem erklaert sie nicht die Diskordanz bei eineiigen Zwillingen. Gesucht ist der Zeitpunkt der Entstehung, also postzygotisch.",
+          "term": "akrozentrische Fusion"
+        }
+      ]
+    },
+    "292": {
+      "topicLabel": "Postoperative Analgesie",
+      "explanation": "Bei postoperativen Schmerzen sollte die Analgesie nicht erst reaktiv bei starken Schmerzen gegeben werden, wenn bereits ein relevanter Schmerzscore besteht. Nach einer Meniskusoperation ist in der Regel eine orale Weiterbehandlung moeglich, sofern keine Schluck-, Resorptions- oder Kreislaufprobleme genannt sind. Ein festes Einnahmeschema verhindert Schmerzspitzen und erleichtert Mobilisation sowie Physiotherapie. Intravenoese Gaben sind bei unkompliziertem Verlauf nicht notwendig. Die Kombination aus oraler Applikation und festem Schema ist daher die sinnvollste Fortsetzung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Orale Schmerzmittel sind nach einer Meniskusoperation grundsaetzlich sinnvoll. Eine reine Bedarfsgabe ist bei bereits relevanten Schmerzen jedoch schlechter, weil sie Schmerzspitzen zulaesst. Postoperativ ist ein planbares Basisschema haeufig geeigneter.",
+          "term": "orale Bedarfsanalgesie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine sublinguale Gabe ist hier nicht als Standardstrategie erkennbar. Der Fall nennt keine Situation, in der der orale Weg nicht moeglich waere. Entscheidend ist vielmehr ein regelmaessiges Analgesieschema.",
+          "term": "sublinguale Gabe"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Orale Schmerzmittel nach festem Schema sind die passende Fortsetzung der postoperativen Analgesie. Sie sichern eine gleichmaessige Schmerzkontrolle und verhindern, dass erst bei starken Schmerzen reagiert wird. Bei unkomplizierter Meniskusoperation ist der orale Weg ausreichend plausibel.",
+          "term": "orales festes Analgesieschema"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Intravenoese Schmerzmittel nach festem Schema waeren bei staerkeren oder nicht oral beherrschbaren Schmerzen denkbar. Der Fall beschreibt aber eine Situation nach Meniskusoperation ohne Hinweise auf fehlende orale Einnahmemoeglichkeit. Daher ist diese Eskalation nicht die beste Antwort.",
+          "term": "intravenöses festes Schema"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Intravenoese Bedarfsmedikation verbindet zwei Nachteile fuer diesen Fall: Sie ist invasiver als noetig und erfolgt nur reaktiv. Ohne Hinweise auf schwere postoperative Komplikationen ist sie nicht erforderlich. Die orale Gabe nach Schema ist angemessener.",
+          "term": "intravenöse Bedarfsanalgesie"
+        }
+      ]
+    },
+    "293": {
+      "topicLabel": "Transplantatstenose",
+      "explanation": "Nach Nierentransplantation mit schlechter Transplantatfunktion und Verdacht auf Anastomosen- beziehungsweise Gefaessstenose braucht es eine gezielte Gefaessdarstellung. Wenn eine MRT wegen Klaustrophobie abgebrochen wurde und die Nierenfunktion eingeschraenkt ist, ist eine Katheterangiographie mit CO2 eine plausible Alternative. CO2 kann in geeigneten Gefaessregionen als Kontrastmittelalternative eingesetzt werden, um iodhaltige oder gadoliniumhaltige Belastung zu vermeiden. Ein blosses operatives Aufschneiden ohne Diagnosesicherung waere nicht angemessen. Eine Funktionsszintigraphie kann Funktion und Abfluss beurteilen, beweist aber eine relevante arterielle Anastomosenstenose nicht so direkt wie die Angiographie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die Katheterangiographie mit CO2 ist hier die passende diagnostische Alternative. Sie erlaubt eine direkte Gefaessdarstellung bei Verdacht auf Transplantatgefaess- oder Anastomosenstenose. Gleichzeitig vermeidet sie die in dieser Situation problematische Standard-Kontrastmittelbelastung.",
+          "term": "CO2-Katheterangiographie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine explorative Operation ohne vorherige geeignete Diagnostik waere unverhaeltnismaessig. Vor einer Intervention sollte die Stenose moeglichst sicher lokalisiert und bestaetigt werden. Deshalb ist einfaches Aufschneiden keine sinnvolle Abklaerungsstrategie.",
+          "term": "exploratives Aufschneiden"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Gadoliniumhaltiges Kontrastmittel gehoert zur MRT, nicht zur CT. Zudem ist bei deutlich eingeschraenkter Nierenfunktion der Umgang mit Kontrastmitteln besonders kritisch. Diese Option ist daher schon formal und klinisch nicht passend.",
+          "term": "CT mit Gadolinium"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Laparoskopie kann Gefaesslumina und Anastomosenstenosen nicht so gezielt darstellen wie eine Angiographie. Sie waere invasiv, ohne die diagnostische Frage direkt zu beantworten. Fuer die praeoperative Stenoseabklaerung ist sie nicht geeignet.",
+          "term": "Laparoskopie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Nierenfunktionsszintigraphie kann Transplantatfunktion, Perfusion und Abfluss funktionell abschaetzen. Sie ersetzt aber bei konkretem Verdacht auf eine relevante Gefaessstenose nicht die direkte angiographische Darstellung. Fuer die Frage nach der Stenose vor OP ist die CO2-Angiographie spezifischer.",
+          "term": "Nierenfunktionsszintigraphie"
+        }
+      ]
+    },
+    "294": {
+      "topicLabel": "Basilarisverschluss",
+      "explanation": "Eine Time-of-Flight-Angiographie stellt fliessendes Blut in den hirnversorgenden Arterien dar. Wenn im posterioren Kreislauf eine deutliche Minderperfusion und eine signalfreie A. basilaris beschrieben werden, spricht das fuer einen Basilarisverschluss. Klinisch ist dies ein neurologischer Notfall, weil der Hirnstamm und die posterioren Hirnareale gefaehrdet sind. Die passende Diagnose umfasst daher den Gefaessverschluss und die daraus resultierenden Ischaemien. Blutung, Tumor oder Abszess wuerden nicht primaer als fehlendes Flusssignal der Basilaris in der Angiographie erscheinen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Der Begriff Thrombose allein ist zu unspezifisch. Zwar kann ein thrombotischer Verschluss der Pathomechanismus sein, die gesuchte Bilddiagnose benennt aber konkret Basilarisverschluss mit Ischaemien. Daher ist die allgemeinere Option nicht die beste Antwort.",
+          "term": "Thrombose"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Blutung wuerde in CT oder MRT durch Blutabbauprodukte beziehungsweise Hyperdensitaet oder Signalveraenderungen auffallen. Die Beschreibung fokussiert aber auf fehlenden Fluss in der Basilaris in der Angiographie. Das spricht fuer einen ischaemischen Gefaessverschluss, nicht fuer eine primaere Blutung.",
+          "term": "Blutung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Hirntumor erklaert keine abrupt fehlende Darstellung der A. basilaris im Time-of-Flight-Angiogramm. Tumoren zeigen raumfordernde oder kontrastmittelbezogene Muster, nicht primaer ein isoliertes fehlendes Gefaesssignal. Die vaskulaere Beschreibung passt nicht dazu.",
+          "term": "Hirntumor"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Abszesse waeren entzündliche Raumforderungen mit typischen parenchymalen Bildmerkmalen. Sie verursachen nicht das beschriebene Muster eines fehlenden Flusssignals der Basilaris. Diese Option passt daher nicht zur Angio-TOF-Fragestellung.",
+          "term": "Abszesse"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Basilarisverschluss mit Ischaemien fasst den beschriebenen Befund korrekt zusammen. Die fehlende Darstellung der A. basilaris und die Minderperfusion im posterioren Stromgebiet sprechen fuer einen Verschluss. Die daraus folgenden Ischaemien erklaeren die klinische Relevanz.",
+          "term": "Basilarisverschluss und Ischämien"
+        }
+      ]
+    },
+    "295": {
+      "topicLabel": "Alzheimer-Liquor",
+      "explanation": "Bei Alzheimer-Demenz zeigt die Liquordiagnostik typischerweise ein Muster aus erniedrigtem Beta-Amyloid 1-42 und erhoehten Tau-Markern. Das erniedrigte Beta-Amyloid entsteht, weil Amyloid im Gehirn abgelagert wird und dadurch weniger im Liquor messbar ist. Die Frage sucht den passenden Liquorbefund, und der Antwortschluessel markiert Beta-Amyloid 1-42 erniedrigt. Ein erniedrigtes Tau waere dagegen nicht typisch, weil neuronale Schaedigungsmarker eher ansteigen. Protein 14-3-3, Pleozytose und isolierte Entzuendungszeichen sprechen fuer andere Differenzialdiagnosen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Erniedrigtes Beta-Amyloid 1-42 im Liquor ist ein typischer Alzheimer-Biomarker. Es passt zur Ablagerung von Amyloid im Hirngewebe. Daher ist diese Option korrekt.",
+          "term": "erniedrigtes Beta-Amyloid 1-42"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Tau ist bei Alzheimer nicht typischerweise erniedrigt, sondern als Ausdruck neuronaler Schaedigung eher erhoeht. Ein erniedrigtes Tau wuerde das klassische Biomarkermuster nicht abbilden. Deshalb ist diese Antwort falsch.",
+          "term": "erniedrigtes Tau"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Protein 14-3-3 ist vor allem als Marker bei rasch progredienten Prionerkrankungen bekannt, etwa der Creutzfeldt-Jakob-Krankheit. Es ist nicht der typische Leitbefund der Alzheimer-Liquordiagnostik. Die Frage zielt auf Beta-Amyloid 1-42.",
+          "term": "Protein 14-3-3"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Pleozytose weist auf eine entzuendliche, infektiöse oder immunologische ZNS-Erkrankung hin. Sie gehoert nicht zum typischen Liquorprofil einer Alzheimer-Demenz. Bei Alzheimer wird eher ein Biomarkerprofil ohne entzuendliche Zellzahlerhoehung erwartet.",
+          "term": "Pleozytose"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein erniedrigtes Gesamt-Tauprotein ist nicht typisch fuer Alzheimer. Gesamt-Tau ist bei neurodegenerativer Schaedigungsaktivitaet eher erhoeht. Die korrekte Richtung des Amyloidmarkers ist hier entscheidend.",
+          "term": "erniedrigtes Gesamt-Tau"
+        }
+      ]
+    },
+    "296": {
+      "topicLabel": "Denkstörungen",
+      "explanation": "Formale Denkstoerungen beschreiben die Art und Weise des Denkablaufs, also Tempo, Kohärenz, Zielgerichtetheit und sprachlich-logische Struktur. Denkverlangsamung, Konkretismus, Assoziationslockerung beziehungsweise Denkassoziationsstoerungen und Perseveration gehoeren in diesen Bereich. Gedankenentzug ist dagegen eine inhaltliche Denkstoerung beziehungsweise Ich-Stoerung, bei der Betroffene erleben, Gedanken wuerden von aussen entzogen. Die Frage fragt nach dem, was nicht zu den formalen Denkstoerungen gehoert. Deshalb ist Gedankenentzug die korrekte Ausnahme.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Gedankenentzug gehoert nicht zu den formalen Denkstoerungen. Er beschreibt ein Erleben der Fremdbeeinflussung beziehungsweise Ich-Stoerung, bei dem Gedanken als entzogen wahrgenommen werden. Damit ist er die gesuchte Ausnahme.",
+          "term": "Gedankenentzug"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Denkverlangsamung ist eine formale Denkstoerung, weil sie das Tempo des Denkablaufs betrifft. Sie sagt nichts ueber den konkreten Wahninhalt aus, sondern ueber die Form des Denkens. Daher ist sie nicht die gesuchte Ausnahme.",
+          "term": "Denkverlangsamung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Konkretismus beschreibt eine eingeschraenkte Faehigkeit zu abstraktem Denken und wird den formalen Denkstoerungen zugerechnet. Betroffene bleiben stark am Woertlichen oder Konkreten haften. Somit passt diese Option in die Gruppe der formalen Denkstoerungen.",
+          "term": "Konkretismus"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Gedankenassoziationsstoerung betrifft die Verknuepfung und Ordnung von Gedanken. Damit geht es um den formalen Ablauf des Denkens. Diese Option gehoert daher gerade zu den formalen Denkstoerungen.",
+          "term": "Gedankenassoziationsstörung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Perseveration bedeutet haftenbleibendes Wiederholen von Gedanken, Worten oder Handlungen. Im psychiatrischen Befund wird dies als Stoerung des Denkablaufs beziehungsweise der formalen Denkleistung beschrieben. Deshalb ist sie keine Ausnahme von den formalen Denkstoerungen.",
+          "term": "Perseveration"
+        }
+      ]
+    },
+    "297": {
+      "topicLabel": "Epiduralhämatom",
+      "explanation": "Der Antwortschluessel markiert das Epiduralhaematom als richtige CT-Diagnose. Klassisch zeigt es sich als linsenfoermige, bikonvexe extrazerebrale Blutung, die durch Schaedelnaehte begrenzt wird. Es entsteht haeufig arteriell und kann nach Trauma rasch raumfordernd werden. Da im Protokoll kein Bild mitgeliefert ist, laesst sich die Bildmorphologie nicht unabhaengig pruefen. Die Erklaerung orientiert sich daher an der typischen CT-Konstellation eines Epiduralhaematoms und der vorgegebenen Loesung.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Das Epiduralhaematom ist laut Antwortschluessel korrekt. Im CT waere typischerweise eine bikonvexe, linsenfoermige extrazerebrale Blutung zu erwarten. Diese Form grenzt es von vielen subduralen Blutungen ab.",
+          "term": "Epiduralhämatom"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Contrecoup-Blutung beschreibt eine Blutung oder Kontusion auf der dem Aufprall gegenueberliegenden Seite. Sie ist ein Verletzungsmechanismus beziehungsweise Muster, aber nicht die hier codierte CT-Diagnose. Ohne Bild bleibt die genaue Abgrenzung unsicher, der Schluessel spricht jedoch fuer epidural.",
+          "term": "Contrecoup-Blutung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Subduralhaematom liegt zwischen Dura und Arachnoidea und ist im CT typischerweise sichelfoermig. Es kann Nahtgrenzen ueberschreiten und unterscheidet sich damit vom klassischen Epiduralhaematom. Der Antwortschluessel markiert diese Option nicht als richtig.",
+          "term": "Subduralhämatom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Subarachnoidalblutung verteilt sich im Subarachnoidalraum, haeufig in Sulci und basalen Zisternen. Das unterscheidet sich von einer linsenfoermigen epiduralen Raumforderung. Sie ist daher nicht die gesuchte CT-Diagnose.",
+          "term": "Subarachnoidalblutung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Der Begriff haemmorrhagische Blutung ist unscharf und beschreibt keine praezise anatomische Blutungslokalisation. In der Bilddiagnostik wird die Lage, etwa epidural, subdural oder subarachnoidal, benannt. Deshalb ist diese Option nicht die beste Antwort.",
+          "term": "hämorrhagische Blutung"
+        }
+      ]
+    },
+    "298": {
+      "topicLabel": "Hyperkortisolismus",
+      "explanation": "Zur initialen Abklaerung eines Hyperkortisolismus werden Screeningtests eingesetzt, die eine autonome Cortisolproduktion erfassen. Der Dexamethason-Hemmtest prueft, ob exogenes Glukokortikoid die endogene Cortisolsekretion ausreichend supprimiert. Bleibt die Suppression aus, ist dies verdaechtig auf ein Cushing-Syndrom beziehungsweise Hyperkortisolismus. Die anderen Tests pruefen andere endokrine Achsen oder Fragestellungen. Deshalb ist der Dexamethason-Hemmtest hier die richtige initiale Diagnostik.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Der Dexamethason-Hemmtest ist ein klassischer Screeningtest bei Verdacht auf Hyperkortisolismus. Er untersucht, ob die Cortisolsekretion durch negative Rueckkopplung supprimierbar ist. Bei pathologischem Ergebnis wird weiter differenzialdiagnostisch abgeklärt.",
+          "term": "Dexamethason-Hemmtest"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Der ACTH-Stimulationstest dient vor allem der Pruefung der Nebennierenrindenreserve bei Verdacht auf Nebenniereninsuffizienz. Er ist nicht der typische initiale Ausschlusstest fuer Hyperkortisolismus. Die Fragestellung ist hier eine Cortisolueberproduktion, nicht ein Mangel.",
+          "term": "ACTH-Stimulationstest"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Der Insulin-Hypoglykaemie-Test prueft insbesondere die Funktion der hypothalamisch-hypophysaeren Gegenregulation, etwa Wachstumshormon- und ACTH-Reserve. Er ist aufwendig und nicht der passende Screeningtest auf Hyperkortisolismus. Fuer Cushing-Screening ist der Dexamethason-Hemmtest naheliegender.",
+          "term": "Insulin-Hypoglykämie-Test"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Der Clonidin-Hemmtest wird vor allem in der Katecholamin-Diagnostik eingesetzt, etwa zur Abgrenzung sympathischer Aktivierung. Er prueft nicht die Suppressibilitaet der Cortisolachse. Daher passt er nicht zur initialen Hyperkortisolismusdiagnostik.",
+          "term": "Clonidin-Hemmtest"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nur als Fragezeichen ueberliefert. Ohne Wortlaut kann sie nicht beurteilt werden; sie ist nicht die codierte Loesung.",
+          "term": "unvollständige Antwortoption"
+        }
+      ]
+    },
+    "299": {
+      "topicLabel": "Humeruskopffraktur",
+      "explanation": "Eine 87-jaehrige, zuvor selbstversorgende Patientin mit mehrfragmentaerer proximaler Humerusfraktur und bestehender Glenohumeralarthrose hat eine komplexe Verletzung in einem vorgeschädigten Gelenk. Bei solcher Konstellation ist eine gelenkersetzende Versorgung plausibel, weil Rekonstruktion und alleinige Ruhigstellung haeufig keine gute Funktion erwarten lassen. Eine Schulterprothese adressiert sowohl die Frakturproblematik als auch die vorbestehende Arthrose. Schmerztherapie allein oder Gilchristverband waeren bei mehrfragmentaerer Fraktur der aktiven Patientin zu wenig. Fixateur externe und geschlossene Reposition sind fuer dieses Verletzungsmuster nicht die passende definitive Therapie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Fixateur externe ist an der Schulter bei dieser proximalen Humerusfraktur mit Arthrose keine typische definitive Therapie. Er kommt eher bei speziellen offenen, infizierten oder temporär zu stabilisierenden Situationen infrage. Die Fallbeschreibung zielt auf eine prothetische Versorgung.",
+          "term": "Fixateur externe"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Eine kuenstliche Schulterprothese ist bei mehrfragmentaerer Humeruskopffraktur mit vorbestehender Glenohumeralarthrose die passende Option. Sie kann die zerstörte Gelenk- und Fraktursituation besser adressieren als eine reine Osteosynthese oder Ruhigstellung. Das vorher selbststaendige Funktionsniveau spricht gegen eine rein palliative Minimaltherapie.",
+          "term": "Schulterprothese"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ausschliessliche Schmerztherapie wuerde die instabile mehrfragmentaere Fraktur und die Gelenkproblematik nicht versorgen. Bei zuvor selbstversorgender Patientin ist ein funktionserhaltendes Therapieziel naheliegend. Diese Option waere nur bei sehr begrenztem Allgemeinzustand oder Therapiewunsch plausibel, was nicht beschrieben ist.",
+          "term": "ausschließliche Schmerztherapie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Ruhigstellung im Gilchristverband kann bei wenig dislozierten proximalen Humerusfrakturen ausreichend sein. Eine mehrfragmentaere Fraktur mit bestehender Arthrose ist jedoch komplexer und funktionell problematischer. Daher ist die alleinige Immobilisation hier nicht die beste Therapie.",
+          "term": "Gilchristverband"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine geschlossene Reposition reicht bei einer mehrfragmentaeren Humeruskopffraktur mit Gelenkarthrose nicht als definitive Behandlung. Sie behebt weder die Fragmentproblematik verlaesslich noch die degenerative Gelenksituation. Die prothetische Versorgung ist deshalb schluessiger.",
+          "term": "geschlossene Reposition"
+        }
+      ]
+    },
+    "300": {
+      "topicLabel": "Intermediäre Uveitis",
+      "explanation": "Die Befunde mit Visusminderung, lichtscheuem geroetetem Auge, schlechter Einsehbarkeit des Glaskoerpers und schneeballartigen Veraenderungen im vorderen unteren Glaskoerper passen zu einer intermediaeren Uveitis. Typisch ist eine Entzuendung im Bereich von Glaskoerper, Pars plana und peripherer Retina, waehrend Vorderkammer und Netzhaut nicht zwingend im Vordergrund stehen muessen. Die gelegentlichen Rueckenschmerzen koennen an eine assoziierte systemische entzuendliche Erkrankung denken lassen, aendern aber die okulare Diagnose nicht. Eine akute Iritis wuerde staerker die Vorderkammer betreffen. Keratitis, Glaukom oder Chorioiditis erklaeren die beschriebenen Snowballs im Glaskoerper weniger gut.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die intermediaere Uveitis ist durch Entzuendung im Glaskoerper- und Pars-plana-Bereich gekennzeichnet. Schneeballartige Veraenderungen inferior im Glaskoerper passen sehr gut dazu. Dass die Vorderkammer unauffaellig ist, stuetzt die Abgrenzung zur vorderen Uveitis.",
+          "term": "intermediäre Uveitis"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Chorioiditis betrifft primaer die Aderhaut und zeigt typischerweise chorioretinale Herde. Im Fall werden aber keine Netzhautveraenderungen beschrieben, sondern Glaskoerper-Snowballs. Daher ist diese Option weniger passend.",
+          "term": "Chorioiditis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein akutes Glaukom wuerde typischerweise mit starkem Augeninnendruckanstieg, Hornhauttruebung, harter Bulbuspalpation und oft weiter lichtstarrer Pupille einhergehen. Die beschriebenen schneeballartigen Glaskoerperveraenderungen gehoeren nicht dazu. Zudem ist die Vorderkammer als unauffaellig angegeben.",
+          "term": "akutes Weitwinkelglaukom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine akute Iritis ist eine vordere Uveitis und wuerde vor allem Reizzellen, Tyndall-Phänomen oder Synechien in der Vorderkammer erwarten lassen. Die Vorderkammer ist hier jedoch unauffaellig. Die Hauptbefunde liegen im Glaskoerper, was fuer intermediaere Uveitis spricht.",
+          "term": "akute Iritis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Keratitis betrifft die Hornhaut und fuehrt zu kornealen Infiltraten, Epitheldefekten oder Hornhauttruebung. Solche Befunde werden nicht beschrieben. Schneeballartige Veraenderungen im Glaskoerper sprechen nicht fuer eine isolierte Keratitis.",
+          "term": "Keratitis"
+        }
+      ]
+    }
+  }
+}
