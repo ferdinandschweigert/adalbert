@@ -22,7 +22,7 @@ export function SiteFooter() {
           <Link href="/altfragen" className="hover:text-[#002F5D]">
             Kreuzen
           </Link>
-          <Link href="/#anki" className="hover:text-[#002F5D]">
+          <Link href="/anki" className="hover:text-[#002F5D]">
             Anki
           </Link>
           <a

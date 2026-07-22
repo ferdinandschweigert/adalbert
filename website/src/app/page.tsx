@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
-import { AnkiDashboardLazy } from '@/components/AnkiDashboardLazy';
 import { HomeStats } from '@/components/HomeStats';
 import { Brain, ChevronRight, PenLine } from 'lucide-react';
 
@@ -11,7 +10,6 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <SiteHeader active="home" />
 
-      {/* Compact: brand + two quick-action boxes */}
       <section className="border-b border-[#e2e8f0] bg-white">
         <div className="container mx-auto px-6 py-10 md:py-12">
           <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
@@ -49,7 +47,7 @@ export default function Home() {
             </Link>
 
             <Link
-              href="/#anki"
+              href="/anki"
               className="group flex items-center gap-4 rounded-xl border border-[#e2e8f0] bg-white px-5 py-5 shadow-sm transition hover:border-[#002F5D]/30 hover:bg-[#eef5fb]"
             >
               <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-[#eef5fb] text-[#002F5D]">
@@ -68,23 +66,6 @@ export default function Home() {
       </section>
 
       <HomeStats />
-
-      {/* Anki full width */}
-      <section id="anki" className="scroll-mt-20 border-t border-[#e2e8f0] bg-white py-10 md:py-14">
-        <div className="container mx-auto px-6">
-          <div className="mb-6 flex flex-wrap items-end justify-between gap-3">
-            <div>
-              <h2 className="text-2xl font-bold tracking-tight text-zinc-900">Anki</h2>
-              <p className="mt-1 text-sm text-zinc-600">
-                Decks anreichern und nach Anki Desktop synchen · AnkiConnect + LLM-Key
-              </p>
-            </div>
-          </div>
-          <div className="w-full">
-            <AnkiDashboardLazy />
-          </div>
-        </div>
-      </section>
 
       <SiteFooter />
     </div>
