@@ -656,6 +656,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                     </button>
                     {isChecked && (
                       <OptionRationaleBlock
+                        key={`${index}-${optIndex}`}
                         question={question}
                         optIndex={optIndex}
                         isRight={isRight}
