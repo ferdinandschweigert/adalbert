@@ -72,6 +72,7 @@ function OptionRationaleBlock({
   isRight: boolean;
   loading?: boolean;
 }) {
+  const [open, setOpen] = useState(false);
   const rationale = question.optionRationales?.find((r) => r.index === optIndex);
   const opt = question.options[optIndex];
   const correctLetters = (question.correctAnswers || '')
@@ -106,36 +107,54 @@ function OptionRationaleBlock({
       ];
 
   return (
-    <div
-      className={cn(
-        'mt-1.5 ml-9 rounded-md border px-3 py-2 text-xs leading-relaxed',
-        isRight ? 'border-emerald-200 bg-emerald-50/80 text-emerald-950' : 'border-zinc-200 bg-zinc-50 text-zinc-700'
-      )}
-    >
-      <p className="font-medium">{isRight ? 'Warum richtig' : 'Warum nicht'}</p>
-      <p className="mt-0.5">
-        {loading && !rationale?.text ? (
-          <span className="inline-flex items-center gap-1.5 text-zinc-500">
-            <Loader2 className="h-3 w-3 animate-spin" />
-            Lade medizinische Erklärung…
-          </span>
-        ) : (
-          text
+    <div className="mt-1.5 ml-9">
+      <button
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        className={cn(
+          'flex w-full items-center justify-between gap-2 rounded-md border px-3 py-1.5 text-left text-xs font-medium transition',
+          isRight
+            ? 'border-emerald-200 bg-emerald-50/80 text-emerald-900 hover:bg-emerald-50'
+            : 'border-zinc-200 bg-zinc-50 text-zinc-700 hover:bg-zinc-100'
         )}
-      </p>
-      <p className="mt-1.5 flex flex-wrap gap-x-3 gap-y-1">
-        {links.map((link) => (
-          <a
-            key={link.url + link.label}
-            href={link.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-medium text-[#002F5D] underline underline-offset-2 hover:text-[#003d7a]"
-          >
-            {link.label} ↗
-          </a>
-        ))}
-      </p>
+      >
+        <span>{isRight ? 'Warum richtig' : 'Warum nicht'} — Erklärung</span>
+        <span className="shrink-0 text-zinc-400">{open ? '▾' : '▸'}</span>
+      </button>
+      {open && (
+        <div
+          className={cn(
+            'mt-1 rounded-md border px-3 py-2 text-xs leading-relaxed',
+            isRight
+              ? 'border-emerald-200 bg-emerald-50/80 text-emerald-950'
+              : 'border-zinc-200 bg-zinc-50 text-zinc-700'
+          )}
+        >
+          <p>
+            {loading && !rationale?.text ? (
+              <span className="inline-flex items-center gap-1.5 text-zinc-500">
+                <Loader2 className="h-3 w-3 animate-spin" />
+                Lade medizinische Erklärung…
+              </span>
+            ) : (
+              text
+            )}
+          </p>
+          <p className="mt-1.5 flex flex-wrap gap-x-3 gap-y-1">
+            {links.map((link) => (
+              <a
+                key={link.url + link.label}
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-[#002F5D] underline underline-offset-2 hover:text-[#003d7a]"
+              >
+                {link.label} ↗
+              </a>
+            ))}
+          </p>
+        </div>
+      )}
     </div>
   );
 }
@@ -251,10 +270,32 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     persist({ ...progress, currentIndex: clamped, completedAt: undefined });
   };
 
+  const commitAnswer = (bits: string) => {
+    if (!progress || !question || !bits.includes('1')) return;
+    const checked = progress.checked.includes(index)
+      ? progress.checked
+      : [...progress.checked, index];
+    const allDone = checked.length >= questions.length;
+    persist({
+      ...progress,
+      selections: { ...progress.selections, [index]: bits },
+      checked,
+      completedAt: allDone ? new Date().toISOString() : progress.completedAt,
+    });
+    void reportStats(question, bits);
+    void loadExplanations(question, index);
+    if (allDone) setShowResult(true);
+  };
+
   const handleSelect = (optIndex: number) => {
     if (!progress || !question || isChecked) return;
     const exclusive = question.type === 'SC';
     const nextBits = toggleBit(selection || emptyBits(optionCount), optIndex, exclusive);
+    // SC: Klick = Auswahl + sofort Lösung zeigen
+    if (exclusive) {
+      commitAnswer(nextBits);
+      return;
+    }
     persist({
       ...progress,
       selections: { ...progress.selections, [index]: nextBits },
@@ -320,27 +361,19 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     }
   };
 
-  const handleCheck = async () => {
-    if (!progress || !question || !selection.includes('1')) return;
-    const checked = progress.checked.includes(index)
-      ? progress.checked
-      : [...progress.checked, index];
-    const allDone = checked.length >= questions.length;
-    persist({
-      ...progress,
-      checked,
-      completedAt: allDone ? new Date().toISOString() : progress.completedAt,
-    });
-    void reportStats(question, selection);
-    void loadExplanations(question, index);
-    if (allDone) setShowResult(true);
+  const handleCheck = () => {
+    commitAnswer(selection);
   };
 
   const handleRestart = () => {
+    if (!confirm('Fortschritt für diese Klausur zurücksetzen? Alle Antworten werden gelöscht.')) {
+      return;
+    }
     clearProgress(examId);
     persist(createEmptyProgress(examId));
     setShowResult(false);
     setShowOverview(false);
+    setExplaining(false);
   };
 
   if (loading) {
@@ -633,6 +666,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                     </button>
                     {isChecked && (
                       <OptionRationaleBlock
+                        key={`${index}-${optIndex}`}
                         question={question}
                         optIndex={optIndex}
                         isRight={isRight}
@@ -644,8 +678,11 @@ export function AltfragenPractice({ examId }: { examId: string }) {
               })}
             </ul>
 
-            {question.type === 'MC' && !isChecked && (
-              <p className="text-xs text-zinc-500">Mehrfachauswahl möglich.</p>
+            {question.type !== 'SC' && !isChecked && (
+              <p className="text-xs text-zinc-500">Mehrfachauswahl möglich — danach „Antwort prüfen“.</p>
+            )}
+            {question.type === 'SC' && !isChecked && (
+              <p className="text-xs text-zinc-500">Antwort antippen — Lösung erscheint sofort.</p>
             )}
 
             {isChecked && (
@@ -675,9 +712,6 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                 ) : (
                   <p className="font-medium">Keine gesicherte Lösung hinterlegt.</p>
                 )}
-                {question.explanation && (
-                  <p className="mt-1.5 leading-relaxed text-zinc-700">{question.explanation}</p>
-                )}
                 {currentStat && currentStat.attempts >= 1 && (
                   <p className="mt-2 text-xs text-zinc-600">
                     Community-Statistik: {Math.round((currentStat.correct / currentStat.attempts) * 100)}%
@@ -690,22 +724,35 @@ export function AltfragenPractice({ examId }: { examId: string }) {
           </article>
 
           <div className="flex flex-wrap items-center justify-between gap-2">
-            <Button
-              type="button"
-              variant="outline"
-              size="sm"
-              onClick={() => goTo(index - 1)}
-              disabled={index === 0}
-            >
-              <ChevronLeft className="mr-1 h-4 w-4" />
-              Zurück
-            </Button>
+            <div className="flex flex-wrap items-center gap-1">
+              <Button
+                type="button"
+                variant="outline"
+                size="sm"
+                onClick={() => goTo(index - 1)}
+                disabled={index === 0}
+              >
+                <ChevronLeft className="mr-1 h-4 w-4" />
+                Zurück
+              </Button>
+              <Button
+                type="button"
+                variant="ghost"
+                size="icon"
+                className="h-8 w-8 text-zinc-500 hover:text-zinc-900"
+                onClick={handleRestart}
+                title="Fortschritt zurücksetzen"
+                aria-label="Fortschritt zurücksetzen"
+              >
+                <RotateCcw className="h-4 w-4" />
+              </Button>
+            </div>
             <div className="flex gap-2">
-              {!isChecked ? (
-                <Button type="button" onClick={() => void handleCheck()} disabled={!selection.includes('1')}>
+              {!isChecked && question.type !== 'SC' ? (
+                <Button type="button" onClick={handleCheck} disabled={!selection.includes('1')}>
                   Antwort prüfen
                 </Button>
-              ) : (
+              ) : isChecked ? (
                 <Button
                   type="button"
                   onClick={() => {
@@ -716,7 +763,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                   {index >= questions.length - 1 ? 'Ergebnis' : 'Weiter'}
                   <ChevronRight className="ml-1 h-4 w-4" />
                 </Button>
-              )}
+              ) : null}
             </div>
           </div>
 
