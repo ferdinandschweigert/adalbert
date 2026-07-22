@@ -6,10 +6,18 @@ Kurze Übersicht der wichtigsten Änderungen.
 
 ## 07/2026
 
+### Kreuzungsdaten / Persistenz
+- Legacy-Exam-IDs (UUID → Slug) werden aus `localStorage` migriert
+- Stats-Merge bevorzugt reichere Attempt-Historie (kein Wipe durch leeren Server)
+- Warn-Banner auf Nicht-kanonischen Vercel-Hosts (`adalbertanki` vs `adalbert`)
+- Export/Import-Backup für lokalen Fortschritt auf der Startseite
+- Unvollständige GP-Optionen („?“) als „Nicht im Protokoll überliefert“ gekennzeichnet
+
 ### Website-Struktur & Doku
 - **Startseite:** Module Kreuzen + Anki; Hero mit Figur/Text; **kein** Header-Logo auf `/`
 - **Anki-Subpage** `/anki`; Header-Logo (Figur + „Adalbert“) nur auf Kreuzen- & Anki-Seiten
 - Gemeinsamer Site-Header/Footer; Doku aktualisiert (README, SETUP, FEATURES)
+- Live-URL: **https://adalbert.vercel.app**
 
 ### Altfragen / Kreuzen
 - **Öffentlich nur Kreuzen**; Admin-Panel für Upload & Freigabe

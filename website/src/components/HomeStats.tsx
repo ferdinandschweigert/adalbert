@@ -9,6 +9,8 @@ import {
   mergeDaily,
   readLocalExamAggregates,
 } from '@/lib/altfragenLocalActivity';
+import { migrateLegacyExamKeys } from '@/lib/altfragenLocalMigrate';
+import { KreuzDataBackupControls } from '@/components/KreuzDataBackupControls';
 
 type ExamBar = {
   examId: string;
@@ -95,6 +97,7 @@ export function HomeStats() {
 
         const serverExams: ExamBar[] = json.exams || [];
         const examIds = serverExams.map((e) => e.examId);
+        migrateLegacyExamKeys(examIds);
         const localAggs = readLocalExamAggregates(examIds);
         const localById = Object.fromEntries(localAggs.map((a) => [a.examId, a]));
         const localAct = ensureLocalActivityFromExamCaches(examIds);
@@ -386,6 +389,19 @@ export function HomeStats() {
               <span>mehr</span>
             </div>
           </div>
+        </div>
+
+        <div className="mx-auto mt-6 max-w-5xl">
+          <KreuzDataBackupControls examIds={display.exams.map((e) => e.examId)} />
+          <p className="mt-3 text-center text-xs text-zinc-500">
+            Aktivität wird lokal im Browser gespeichert · Live-URL:{' '}
+            <a
+              href="https://adalbert.vercel.app"
+              className="font-medium text-[#002F5D] underline"
+            >
+              adalbert.vercel.app
+            </a>
+          </p>
         </div>
       </div>
     </section>

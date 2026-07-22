@@ -1,6 +1,7 @@
 import type { ExamProgress } from '@/lib/altfragenTypes';
+import { migrateExamLocalData, PROGRESS_PREFIX } from '@/lib/altfragenLocalMigrate';
 
-const PROGRESS_PREFIX = 'adalbert-altfragen-progress-';
+export { PROGRESS_PREFIX };
 
 function canUseStorage(): boolean {
   return typeof window !== 'undefined' && typeof localStorage !== 'undefined';
@@ -9,6 +10,7 @@ function canUseStorage(): boolean {
 export function getProgress(examId: string): ExamProgress | null {
   if (!canUseStorage()) return null;
   try {
+    migrateExamLocalData(examId);
     const raw = localStorage.getItem(PROGRESS_PREFIX + examId);
     if (!raw) return null;
     return JSON.parse(raw) as ExamProgress;

@@ -8,10 +8,12 @@ Lernplattform für Medizinstudierende mit **zwei klaren Modulen**:
 
 | Modul | Was es tut | Wo |
 |-------|------------|-----|
-| **Kreuzen** | Freigegebene Staatsexamen-/Gedächtnisprotokoll-Fragen üben | [`/altfragen`](https://adalbertanki.vercel.app/altfragen) |
-| **Anki** | Decks mit deutschen Erklärungen anreichern & nach Anki synchen | [`/anki`](https://adalbertanki.vercel.app/anki) + MCP in Cursor |
+| **Kreuzen** | Freigegebene Staatsexamen-/Gedächtnisprotokoll-Fragen üben | [`/altfragen`](https://adalbert.vercel.app/altfragen) |
+| **Anki** | Decks mit deutschen Erklärungen anreichern & nach Anki synchen | [`/anki`](https://adalbert.vercel.app/anki) + MCP in Cursor |
 
-🌐 **Live:** [https://adalbertanki.vercel.app](https://adalbertanki.vercel.app)
+🌐 **Live:** [https://adalbert.vercel.app](https://adalbert.vercel.app)
+
+> **Wichtig:** Nur diese URL nutzen. `adalbertanki.vercel.app` ist ein Duplikat — Fortschritt liegt im Browser und ist an die Domain gebunden.
 
 > „Adalbert“ ist ein persönlicher Projektname — Open-Source-Lernhilfe ohne kommerziellen Namensanspruch.
 

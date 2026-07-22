@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
 import { AnkiDashboardLazy } from '@/components/AnkiDashboardLazy';
+import { CanonicalHostBanner } from '@/components/CanonicalHostBanner';
 
 export const metadata: Metadata = {
   title: 'Anki – Adalbert',
@@ -11,6 +12,7 @@ export const metadata: Metadata = {
 export default function AnkiPage() {
   return (
     <div className="min-h-screen bg-white">
+      <CanonicalHostBanner />
       <SiteHeader active="anki" context="Anki" />
       <main className="container mx-auto px-6 py-8 md:py-10">
         <div className="mb-6">
