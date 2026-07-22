@@ -1,5 +1,13 @@
 export type QuestionType = 'SC' | 'MC' | 'KPRIM';
 
+export interface ExplanationMeta {
+  source?: 'cursor' | 'llm' | 'wiki' | 'manual';
+  model?: string;
+  generatedAt?: string;
+  reviewedAt?: string;
+  confidence?: 'high' | 'low';
+}
+
 export interface ParsedQuestion {
   number: number;
   question: string;
@@ -9,6 +17,9 @@ export interface ParsedQuestion {
   explanation?: string;
   /** Amboss-style per-option rationale */
   optionRationales?: OptionRationale[];
+  /** Short topic label for knowledge-base / Amboss search button */
+  topicLabel?: string;
+  explanationMeta?: ExplanationMeta;
 }
 
 export interface OptionRationale {

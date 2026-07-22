@@ -1,0 +1,745 @@
+{
+  "examId": "m2-ss26-f26-gedaechtnisprotokoll",
+  "questions": {
+    "221": {
+      "topicLabel": "Asplenie-Impfungen",
+      "explanation": "Nach Splenektomie besteht ein erhoehtes Risiko fuer schwere Infektionen durch bekapselte Bakterien und fuer schwere Verlaeufe respiratorischer Infektionen. Daher werden insbesondere Impfungen gegen Pneumokokken, Meningokokken, Haemophilus influenzae Typ b und Influenza empfohlen. Die Herpes-zoster-Impfung kann zwar aus anderen Gruenden alters- oder risikobezogen relevant sein, ist aber nicht die typische postsplenektomiebezogene Schutzimpfung. Gesucht ist hier die Impfung, die bei Asplenie nicht spezifisch empfohlen ist. Der Antwortschluessel markiert deshalb Herpes zoster als korrekte Ausnahme.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Haemophilus influenzae Typ b gehoert zu den bekapselten Erregern, gegen die Menschen mit Asplenie besonders geschuetzt werden sollen. Nach Splenektomie ist die Hib-Impfung deshalb eine klassische Empfehlung. Sie ist somit gerade nicht die gesuchte nicht empfohlene Impfung.",
+          "term": "Haemophilus-influenzae-Impfung"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Herpes zoster ist laut Antwortschluessel die gesuchte Ausnahme. Die Zoster-Impfung kann unabhaengig von der Splenektomie alters- oder risikobezogen empfohlen sein, ist aber keine typische Asplenie-spezifische Impfung gegen bekapselte Erreger. Deshalb passt sie am besten zur Frage nach der nicht empfohlenen postsplenektomiebezogenen Impfung.",
+          "term": "Herpes-zoster-Impfung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Pneumokokken sind bekapselte Bakterien und fuer Patientinnen und Patienten ohne Milz besonders gefaehrlich. Die Pneumokokkenimpfung gehoert daher zu den zentralen Impfempfehlungen nach Splenektomie. Sie ist nicht die gesuchte Ausnahme.",
+          "term": "Pneumokokkenimpfung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Meningokokken sind ebenfalls bekapselte Erreger und koennen bei Asplenie schwere invasive Infektionen verursachen. Eine Meningokokkenimpfung ist deshalb in diesem Kontext empfohlen. Die Option widerspricht damit nicht der Asplenie-Indikation und ist nicht korrekt.",
+          "term": "Meningokokkenimpfung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Influenza kann bei vulnerablen Patientinnen und Patienten schwere Verlaeufe und bakterielle Superinfektionen beguenstigen. Nach Splenektomie wird die jaehrliche Influenzaimpfung als Schutzmassnahme empfohlen. Sie ist daher nicht die gesuchte nicht empfohlene Impfung.",
+          "term": "Influenzaimpfung"
+        }
+      ]
+    },
+    "222": {
+      "topicLabel": "Postsplenektomie-Thrombozytose",
+      "explanation": "Eine reaktive Thrombozytose nach Splenektomie ist haeufig und kann passager auftreten. Bei einem Wert von 590.000/nl ohne weitere Angaben zu Thrombosen, Blutungen, myeloproliferativer Erkrankung oder extremer Thrombozytenerhoehung ist zunaechst keine spezifische Therapie erforderlich. Entscheidend ist die klinische Einordnung mit Verlaufskontrolle statt reflexhafter Antikoagulation oder Zytoreduktion. Aderlass, Phenprocoumon, NOAK oder Glukokortikoide behandeln die typische reaktive Postsplenektomie-Thrombozytose nicht. Der Antwortschluessel stuetzt daher das abwartende Vorgehen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Keine Therapie ist hier die passende Antwort. Die Thrombozytose ist nach Splenektomie typischerweise reaktiv und bei dem genannten Wert ohne Komplikationshinweise zunaechst beobachtbar. Sinnvoll sind klinische Kontrolle und Verlaufskontrolle, nicht automatisch eine medikamentoese Intervention.",
+          "term": "Keine spezifische Therapie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Aderlass ist eine Massnahme bei bestimmten Polyglobulien, nicht bei einer reaktiven Thrombozytose nach Splenektomie. Er senkt nicht gezielt die Thrombozytenzahl und adressiert den Mechanismus nicht. Ohne Hinweis auf eine andere haematologische Erkrankung ist diese Option nicht indiziert.",
+          "term": "Aderlass"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Phenprocoumon ist ein Vitamin-K-Antagonist zur Antikoagulation. Eine moderate, passagere postsplenektomiebedingte Thrombozytose allein begruendet keine orale Antikoagulation. Ohne Thrombose oder andere klare Indikation waere dies eine Uebertherapie.",
+          "term": "Phenprocoumon"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "NOAK sind direkte orale Antikoagulanzien und werden bei klaren thromboembolischen Indikationen eingesetzt. Die hier beschriebene reaktive Thrombozytose ist fuer sich genommen keine solche Indikation. Sie beheben zudem nicht die Ursache der erhoehten Thrombozytenzahl.",
+          "term": "NOAK"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Glukokortikoide koennen bei immunologischen oder entzuendlichen Erkrankungen sinnvoll sein, sind aber keine Standardtherapie einer reaktiven Thrombozytose nach Splenektomie. Es gibt im Fall keinen Hinweis auf eine steroidpflichtige Ursache. Daher ist diese Option nicht passend.",
+          "term": "Low-dose Glukokortikoide"
+        }
+      ]
+    },
+    "223": {
+      "topicLabel": "Mesenterialischämie-Diagnostik",
+      "explanation": "Postprandiale krampfartige Oberbauchschmerzen, Nahrungsvermeidung und Gewichtsverlust bei einer Raucherin sprechen klassisch fuer eine chronische mesenteriale Ischaemie, also eine abdominelle Angina. Die Beschwerden beginnen nach dem Essen, weil dann der Sauerstoffbedarf des Darms steigt, bei relevanten Stenosen aber nicht ausreichend Perfusion bereitgestellt werden kann. Zur Abklaerung ist eine Gefaessdarstellung der abdominellen Arterien erforderlich. Unter den angebotenen Antworten ist die CT-Angiografie des Abdomens die passendste Untersuchung, weil sie Stenosen oder Verschluesse der mesenterialen Gefaesse direkt darstellen kann. Untersuchungen des Refluxes oder der Gallenwege erklaeren die typische Belastungsabhaengigkeit nach Mahlzeiten nicht ausreichend.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine pH-Metrie dient der Diagnostik einer gastrooesophagealen Refluxkrankheit. Reflux verursacht typischerweise Sodbrennen oder retrosternale Beschwerden, aber keine klassische postprandiale Angina abdominalis mit Gewichtsverlust. Die Gefaessursache wuerde damit nicht erfasst.",
+          "term": "pH-Metrie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Sonografie kann bei Oberbauchbeschwerden ein sinnvoller erster Baustein sein und je nach Technik auch Gefaesse orientierend beurteilen. Bei dem ausgepraegten Verdacht auf chronische mesenteriale Ischaemie ist jedoch eine gezielte angiografische Gefaessdarstellung aussagekraeftiger. Laut Antwortschluessel ist diese Option nicht die gesuchte beste Diagnostik.",
+          "term": "Sonografie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die MRCP stellt vor allem Gallenwege und Pankreasgang nichtinvasiv dar. Sie waere bei Cholestase, Gallengangssteinen oder unklarer biliärer Obstruktion naheliegend. Das geschilderte Muster aus Essangst, Gewichtsverlust und vaskulaeren Risikofaktoren passt aber besser zu einer mesenterialen Durchblutungsstoerung.",
+          "term": "MRCP"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nur als Fragezeichen ueberliefert. Eine inhaltliche Abgrenzung ist daher nicht moeglich. Massgeblich bleibt die markierte angiografische Gefaessdiagnostik.",
+          "term": "unvollständige Antwortoption"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Die CT-Angiografie des Abdomens ist hier die richtige Untersuchung. Sie kann Stenosen oder Verschluesse der mesenterialen Arterien darstellen und passt damit direkt zur Verdachtsdiagnose einer chronischen mesenterialen Ischaemie. Bei typischer postprandialer Schmerzsymptomatik mit Gewichtsverlust ist genau diese Gefaessabklaerung entscheidend.",
+          "term": "CT-Angiografie Abdomen"
+        }
+      ]
+    },
+    "224": {
+      "topicLabel": "Mesenteriale Revaskularisierung",
+      "explanation": "Die Vorfrage beschreibt eine chronische mesenteriale Ischaemie mit postprandialen Schmerzen, Essangst und Gewichtsverlust. Bei symptomatischer relevanter mesenterialer Gefaessstenose ist die kausale Therapie die Wiederherstellung der Durchblutung. Daher ist eine mesenteriale Revaskularisierung indiziert, endovaskulaer oder operativ je nach Befund, Risiko und lokaler Expertise. Rein gastrointestinale Operationen wie Cholezystektomie, Magenteilresektion oder Fundoplikatio wuerden den vaskulaeren Engpass nicht beheben. Die Therapieentscheidung folgt hier unmittelbar aus dem in der Vorfrage angelegten Gefaessbefund.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die mesenteriale Revaskularisierung ist die kausale Therapie der symptomatischen chronischen mesenterialen Ischaemie. Sie verbessert die Durchblutung des Darms und adressiert damit die postprandialen Schmerzen und die Gewichtsabnahme. Deshalb ist diese Option laut Antwortschluessel korrekt.",
+          "term": "Mesenteriale Revaskularisierung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Cholezystektomie behandelt symptomatische Gallensteine oder bestimmte Gallenblasenentzündungen. Der Fall spricht aber nicht primaer fuer eine biliäre Kolik, sondern fuer eine vaskulaere Minderdurchblutung des Darms. Eine Entfernung der Gallenblase wuerde die mesenteriale Ischaemie nicht beheben.",
+          "term": "Cholezystektomie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollstaendig. Ohne den urspruenglichen Wortlaut kann sie nicht medizinisch bewertet werden. Sie ist nicht die laut Antwortschluessel markierte Therapie.",
+          "term": "unvollständige Antwortoption"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Magenteilresektion waere bei bestimmten Magenpathologien zu diskutieren, etwa malignen oder komplizierten ulzerösen Erkrankungen. Die Fallkonstellation erklaert sich aber durch eine Durchblutungsstoerung der mesenterialen Gefaesse. Eine Magenresektion waere daher nicht kausal.",
+          "term": "Magenteilresektion"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Hemifundoplicatio ist eine Anti-Reflux-Operation. Reflux erklaert weder die typische postprandiale Ischaemiesymptomatik noch die relevante Nahrungsvermeidung mit Gewichtsverlust in dieser Form. Die vaskulaere Ursache bliebe unbehandelt.",
+          "term": "Hemifundoplicatio"
+        }
+      ]
+    },
+    "225": {
+      "topicLabel": "Darmgangrän",
+      "explanation": "Ein schwaerzlich verfaerbter Darmabschnitt im OP-Situs ist hochverdaechtig auf eine transmural ischaemische Nekrose. Im Kontext der vorangegangenen chronischen mesenterialen Ischaemie passt dies zu einer Darmgangraen beziehungsweise infarzierten Darmschlinge. Makroskopisch fallen Nekrose, fehlende Vitalitaet und dunkle bis schwarze Verfaerbung auf. Andere Diagnosen wie Divertikulitis oder Koprostase koennen den Darm zwar entzuendlich oder mechanisch beeintraechtigen, erklaeren aber die beschriebene schwarze Gangraen nicht als beste Antwort. Deshalb ist Darmgangraen die korrekte Bilddiagnose.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Darmgangraen beschreibt nekrotischen, nicht vitalen Darm infolge schwerer Ischaemie. Eine schwarze Verfaerbung im OP-Situs ist dafuer typisch. Im Anschluss an den Fall mit mesenterialer Ischaemie ist dies die naheliegende und richtige Interpretation.",
+          "term": "Darmgangrän"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Divertikulitis ist eine Entzuendung von Divertikeln, typischerweise im Sigma. Sie kann perforieren oder Abszesse bilden, ist aber nicht durch einen schwaerzlich infarzierten Darmabschnitt als Leitsichtbefund definiert. Die Option passt daher schlechter als eine ischaemische Gangraen.",
+          "term": "Divertikulitis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Haemangiom ist eine gutartige Gefaessneubildung und wuerde nicht als ausgedehnt schwarzer Darmabschnitt imponieren. Es erklaert auch nicht den vorangehenden Verlauf mit mesenterialer Minderperfusion. Daher ist diese Option nicht korrekt.",
+          "term": "Hämangiom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Melanom kann dunkel pigmentiert sein, waere aber eine umschriebene Tumorerkrankung und nicht die typische Beschreibung eines nicht vitalen Darmsegments. Der klinische Kontext spricht klar fuer Ischaemie und Nekrose. Deshalb ist Melanom nicht die beste Bilddeutung.",
+          "term": "Melanom"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Koprostase bedeutet Stuhlverhalt beziehungsweise Kotstau. Sie kann zu Obstipation und Ileusbeschwerden beitragen, beschreibt aber keine schwarze transmurale Nekrose der Darmwand. Der sichtbare OP-Befund passt wesentlich besser zur Darmgangraen.",
+          "term": "Koprostase"
+        }
+      ]
+    },
+    "226": {
+      "topicLabel": "Hypokaliämie",
+      "explanation": "Eine akute Diarrhoe kann durch gastrointestinale Kaliumverluste zu einer Hypokaliaemie fuehren. Besonders bei waessrigen Stuehlen gehen Elektrolyte verloren, und zusaetzliche Volumenverluste koennen renale Gegenregulationen verstaerken. Die anderen genannten Optionen verursachen typischerweise keine Hypokaliaemie oder sprechen sogar eher fuer eine Hyperkaliaemie. ACE-Hemmer vermindern beispielsweise die Aldosteronwirkung und beguenstigen dadurch eher Kaliumretention. Deshalb ist die akute Diarrhoe die plausibelste Ursache.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Akute Diarrhoe fuehrt zu gastrointestinalem Kaliumverlust. Bei ausgepraegten oder anhaltenden Durchfaellen kann daraus eine relevante Hypokaliaemie entstehen. Diese Option erklaert den Elektrolytwert daher direkt und ist korrekt.",
+          "term": "Akute Diarrhö"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "ACE-Hemmer senken die Bildung von Angiotensin II und damit indirekt die Aldosteronwirkung. Dadurch wird Kalium eher zurueckgehalten, sodass Hyperkaliaemie eine typische Nebenwirkung ist. Eine Hypokaliaemie passt dazu nicht als wahrscheinlichste Ursache.",
+          "term": "ACE-Hemmer"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Betablocker verursachen ueblicherweise keine relevante Hypokaliaemie. Durch Effekte auf die zellulaere Kaliumverschiebung koennen sie eher eine Kaliumerhoehung beguenstigen. Sie sind daher nicht die naheliegende Erklaerung.",
+          "term": "Betablocker"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Harnwegsinfekt ist keine typische direkte Ursache einer Hypokaliaemie. Ohne Erbrechen, Diuretika, tubulaere Stoerung oder andere Zusatzangaben erklaert er den Kaliumverlust nicht. Die Option ist deshalb nicht passend.",
+          "term": "Harnwegsinfekt"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Kalziumkanalblocker sind nicht als klassische Ursache einer Hypokaliaemie bekannt. Sie wirken vor allem kardiovaskulaer auf Gefaesstonus und Erregungsleitung, nicht als kaliumsenkende Medikamente. Deshalb ist diese Option falsch.",
+          "term": "Kalziumkanalblocker"
+        }
+      ]
+    },
+    "227": {
+      "topicLabel": "Hyperaldosteronismus",
+      "explanation": "Die Kombination aus arterieller Hypertonie und Hypokaliaemie ist ein klassischer Hinweis auf einen primaeren Hyperaldosteronismus. Aldosteron foerdert in der Niere Natriumretention und Kaliumausscheidung, wodurch Blutdruckanstieg und erniedrigtes Kalium zusammen auftreten koennen. Bei einem 50-jaehrigen Patienten mit Verdacht auf sekundaere Hypertonie ist dieses Hormonproblem deshalb besonders naheliegend. Ein Schlafapnoe-Syndrom kann zwar eine sekundaere Hypertonie beguenstigen, erklaert aber die Hypokaliaemie nicht durch einen Mineralokortikoidmechanismus. Die nur als Fragezeichen ueberlieferten Optionen koennen inhaltlich nicht beurteilt werden.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Hyperaldosteronismus passt sehr gut zur Kombination aus Hypertonie und Hypokaliaemie. Aldosteron steigert die renale Kaliumausscheidung und foerdert gleichzeitig Natrium- und Wasserretention. Damit ist diese Option die richtige hormonelle Ursache.",
+          "term": "Hyperaldosteronismus"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nur als Fragezeichen ueberliefert. Sie kann daher nicht inhaltlich gegen den Hyperaldosteronismus abgegrenzt werden. Laut Antwortschluessel ist sie nicht korrekt.",
+          "term": "unvollständige Antwortoption"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Schlafapnoe-Syndrom ist eine wichtige Ursache oder Verstaerkerin einer sekundaeren Hypertonie. Es erklaert aber nicht typisch eine Hypokaliaemie. Die Kombination aus Hypertonie und niedrigem Kalium zeigt wesentlich staerker auf einen Aldosteronexzess.",
+          "term": "Schlafapnoe-Syndrom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Option ist im Protokoll unvollstaendig erinnert. Ohne Wortlaut ist keine medizinische Bewertung moeglich. Sie ist nicht die als richtig codierte Antwort.",
+          "term": "unvollständige Antwortoption"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption wurde nur als Fragezeichen dokumentiert. Eine belastbare fachliche Begruendung ist deshalb nicht moeglich. Fuer die Pruefungslogik bleibt Hyperaldosteronismus die richtige Loesung.",
+          "term": "unvollständige Antwortoption"
+        }
+      ]
+    },
+    "228": {
+      "topicLabel": "Postscabies-Ekzem",
+      "explanation": "Nach erfolgreicher Skabiesbehandlung kann Juckreiz noch ueber Wochen fortbestehen oder wieder aufflammen, ohne dass zwingend lebende Milben nachweisbar sind. Ursache ist eine ekzematöse, immunologisch getriggerte Nachreaktion auf Milbenbestandteile, Ausscheidungen und die vorgeschädigte Hautbarriere. Im Fall passt die initiale Besserung nach Permethrin mit anschliessendem Juckreiz und Kratzdefekten zu einem Postscabies-Ekzem. Entscheidend ist, dass der Antwortschluessel diese posttherapeutische Reaktion als wahrscheinlichste Diagnose vorgibt. Andere Ekzemformen oder Dermatozoenwahn erklaeren den zeitlichen Bezug zur behandelten Skabies weniger gut.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein atopisches Ekzem kann Juckreiz und Exkoriationen verursachen. Der Fall ist aber zeitlich eng an eine diagnostizierte und behandelte Skabies gekoppelt. Die initiale Besserung nach Permethrin spricht eher fuer eine postskabiöse Reaktion als fuer eine primaere Atopie.",
+          "term": "Atopisches Ekzem"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Dermatozoenwahn bezeichnet die wahnhafte Ueberzeugung, von Parasiten befallen zu sein, ohne objektiven Befund. Hier gab es jedoch eine vorausgegangene aerztlich diagnostizierte Skabies und eine plausible posttherapeutische Ekzemreaktion. Die Familienkonstellation passt nicht vorrangig zu einer isolierten wahnhaften Stoerung.",
+          "term": "Dermatozoenwahn"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein allergisches Kontaktekzem waere nach topischer Therapie grundsaetzlich denkbar, etwa bei Sensibilisierung gegen Inhaltsstoffe. Die Frage zielt aber auf die typische Nachreaktion nach Skabiesbehandlung. Ohne konkrete Hinweise auf ein Kontaktallergen ist diese Option nicht die wahrscheinlichste Diagnose.",
+          "term": "Allergisches Kontaktekzem"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Das Postscabies-Ekzem ist laut Antwortschluessel die richtige Diagnose. Es beschreibt fortbestehenden Juckreiz und ekzematöse Hautveraenderungen nach behandelter Skabies, obwohl die eigentliche Infestation nicht mehr aktiv sein muss. Der zeitliche Verlauf mit initialer Besserung und spaeterer Reizung passt dazu.",
+          "term": "Postscabies-Ekzem"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein mikrobielles Ekzem ist meist mit bakterieller Besiedlung beziehungsweise infektgetriggerten ekzematösen Hautveraenderungen verbunden. Der Fall liefert keine typischen Hinweise wie eitrige Sekretion, Impetiginisierung oder klaren bakteriellen Fokus. Die Vorgeschichte der Skabiesbehandlung macht das Postscabies-Ekzem plausibler.",
+          "term": "Mikrobielles Ekzem"
+        }
+      ]
+    },
+    "229": {
+      "topicLabel": "Skabies-Diagnostik",
+      "explanation": "Bei Verdacht auf persistierende Skabies sollte die Diagnose moeglichst objektiv gesichert werden. Typisch ist der direkte Nachweis von Milben, Gaengen, Eiern oder Kotballen; klinisch besonders praktikabel ist die dermatoskopische Untersuchung. Sie kann typische Strukturen in den Milbengaengen sichtbar machen und hilft, aktive Skabies von postskabiösem Juckreiz zu unterscheiden. Eine reine Anamnese oder ein Therapieversuch kann den Verdacht stuetzen, ersetzt aber die Sicherung nicht. Deshalb ist die Dermatoskopie die beste Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine genaue Anamnese, etwa zu naechtlichem Juckreiz und Kontaktpersonen, ist wichtig und kann den Verdacht erhaerten. Sie beweist aber keine persistierende Skabies. Fuer die Sicherung ist ein direkter oder dermatoskopischer Nachweis aussagekraeftiger.",
+          "term": "Gezielte Anamnese"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Therapieversuch mit cortisonhaltiger Creme kann ein Ekzem lindern, klaert aber eine persistierende Skabies nicht. Zudem koennte eine symptomatische Besserung die Infestation verschleiern. Als diagnostische Sicherung ist diese Strategie ungeeignet.",
+          "term": "Diagnosis ex juvantibus mit Cortison"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein erneuter Therapieversuch mit einem anderen Antiscabiesmittel kann in bestimmten Situationen therapeutisch erwogen werden. Diagnostisch beweist er aber nicht sicher, ob noch Milben vorhanden sind. Vor allem bei moeglichem Postscabies-Ekzem ist eine objektive Untersuchung sinnvoller.",
+          "term": "Diagnosis ex juvantibus mit Antiscabiosum"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die dermatoskopische Untersuchung auf Milben ist hier die richtige Massnahme zur Sicherung. Sie erlaubt den Nachweis typischer Skabieszeichen und kann aktive Infestation von posttherapeutischem Juckreiz abgrenzen. Daher ist sie in dieser Fragestellung am besten geeignet.",
+          "term": "Dermatoskopie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine histologische Probe einer Verkrustung ist fuer die uebliche Skabiesdiagnostik nicht der naheliegende erste Weg. Sie ist invasiver und weniger praktisch als Dermatoskopie oder direkter Milbennachweis aus einem Gang. Fuer die Fragestellung ist sie daher nicht die beste Option.",
+          "term": "Histologische Probe"
+        }
+      ]
+    },
+    "230": {
+      "topicLabel": "Skabies-Kontakttherapie",
+      "explanation": "Bei Skabies muessen enge Kontaktpersonen mitbehandelt werden, wenn ein relevanter Hautkontakt bestand. Entscheidend ist nicht ein kurzer Alltagskontakt, sondern laengerer, grossflaechiger Koerperkontakt, bei dem Milben uebertragen werden koennen. Deshalb ist ein enger Koerperkontakt ueber mehrere Minuten die richtige Schwelle in der vorliegenden Antwortauswahl. Die Mitbehandlung sollte nicht erst bei Symptomen erfolgen, weil die Inkubationszeit laenger sein kann und asymptomatische Kontakte die Infektion weitergeben koennen. Kurzer Haendedruck oder kurze Umarmung reichen typischerweise nicht aus.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein kurzer Haendedruck gilt normalerweise nicht als ausreichender Kontakt fuer eine Skabiesuebertragung. Die Milben werden typischerweise bei laengerem engem Haut-zu-Haut-Kontakt uebertragen. Daher begruendet diese Situation keine regelhafte Kontakttherapie.",
+          "term": "Händedruck"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Laengerer enger Koerperkontakt beziehungsweise grossflaechiger Hautkontakt ist die relevante Expositionssituation. In dieser Konstellation sollen Kontaktpersonen mitbehandelt werden, auch wenn sie noch keine Beschwerden haben. Die Option trifft die Pruefungslogik daher am besten.",
+          "term": "Enger Körperkontakt"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Der blosse laengere Aufenthalt in derselben Wohnung ist ohne engen Hautkontakt nicht die typische Uebertragungssituation der gewoehnlichen Skabies. Textilien und Umgebung koennen eine Rolle spielen, ersetzen aber nicht den engen Koerperkontakt als Hauptkriterium. Daher ist diese Option zu unspezifisch.",
+          "term": "Aufenthalt in der Wohnung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Auf Juckreiz zu warten ist bei Kontaktpersonen nicht sinnvoll, weil Symptome erst zeitverzoegert auftreten koennen. Eine infizierte, noch asymptomatische Person kann sonst weiter zur Transmission beitragen. Die Indikation richtet sich nach relevantem Kontakt, nicht erst nach Beschwerden.",
+          "term": "Therapie erst bei Juckreiz"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine kurze Umarmung ist meist kein ausreichend langer und grossflaechiger Hautkontakt fuer eine sichere Therapieindikation. Entscheidend ist ein enger Kontakt ueber mehrere Minuten oder eine vergleichbare Exposition. Deshalb ist diese Option nicht die beste Antwort.",
+          "term": "Umarmung"
+        }
+      ]
+    },
+    "231": {
+      "topicLabel": "Stemmer-Zeichen",
+      "explanation": "Das Stemmer-Zeichen prueft, ob an der Basis der zweiten Zehe oder eines Fingers eine Hautfalte abgehoben werden kann. Ist dies nicht moeglich, spricht ein positives Stemmer-Zeichen fuer ein Lymphoedem. Es hilft damit insbesondere bei der Abgrenzung gegenueber anderen Oedemformen, etwa venösen Oedemen. Im Fall einer 15-jaehrigen Patientin mit primaerem Lymphoedem ist diese klinische Untersuchung daher direkt passend. Es handelt sich nicht um eine Messung der Dellentiefe und auch nicht primaer um eine Stadieneinteilung des Fibrosierungsgrades.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Das Stemmer-Zeichen dient klinisch der Unterstuetzung der Diagnose Lymphoedem und der Abgrenzung von anderen Oedemursachen, insbesondere venösen Oedemen. Bei positivem Zeichen laesst sich die Hautfalte an der Zehenbasis nicht abheben. Damit ist diese Option korrekt.",
+          "term": "Abgrenzung Lymphödem"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die Quantifizierung einer Eindelltiefe am Malleolus beschreibt eher die Beurteilung eines dellbaren Oedems. Das Stemmer-Zeichen misst keine Millimeter- oder Tiefenangabe. Es ist ein qualitativer Hautfalten-Test.",
+          "term": "Dellentiefe am Malleolus"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Unterscheidung zwischen Myxoedem und kardialem Oedem ist nicht die Hauptfunktion des Stemmer-Zeichens. Myxoedeme haben andere klinische Charakteristika und kardiale Oedeme werden ueber Anamnese, Verteilung und Herzdiagnostik eingeordnet. Das Stemmer-Zeichen zielt auf das Lymphoedem.",
+          "term": "Myxödem vs. kardiales Ödem"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Lymphoedem kann im Verlauf fibrotisch werden, und die Hautbeschaffenheit ist klinisch relevant. Das Stemmer-Zeichen ist aber nicht primaer eine graduierte Beurteilung des Fibrosierungsgrades. Es ist vor allem ein diagnostisches Zeichen fuer Lymphoedem.",
+          "term": "Fibrosierungsgrad"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nur als Fragezeichen ueberliefert. Daher kann sie nicht sinnvoll medizinisch bewertet werden. Sie ist nicht die laut Antwortschluessel richtige Aussage.",
+          "term": "unvollständige Antwortoption"
+        }
+      ]
+    },
+    "232": {
+      "topicLabel": "Lymphödem-Kompression",
+      "explanation": "Beim primaeren Lymphoedem ist die konservative Behandlung zentral und umfasst Elemente der komplexen physikalischen Entstauungstherapie. Dazu gehoert insbesondere die Kompressionstherapie, weil sie den interstitiellen Fluessigkeitsrueckstrom unterstuetzt und eine erneute Oedembildung begrenzen soll. Hautpflege und Patientenedukation sind ebenfalls wichtige Begleitmassnahmen, werden in dieser Frage aber nicht als gesuchte physikalische Therapieoption codiert. Eine chirurgische Lymphgefaessresektion ist keine Standardkomponente der physikalischen Therapie. Laut Antwortschluessel ist daher die Kompressionstherapie die korrekte Auswahl.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Hautpflege ist beim Lymphoedem sehr wichtig, weil die Hautbarriere geschuetzt und Infektionen vorgebeugt werden sollen. Sie ist aber in der vorliegenden Frage nicht die als physikalische Therapie gesuchte Massnahme. Die codierte Kernantwort ist die Kompression.",
+          "term": "Hautpflege"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Kompressionstherapie ist ein zentrales Element der konservativen Lymphoedembehandlung. Sie reduziert die Oedemneigung und stabilisiert den Entstauungserfolg. Deshalb gehoert sie zur physikalischen Therapie und ist hier korrekt.",
+          "term": "Kompressionstherapie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Patientenedukation ist fuer langfristige Selbstbehandlung, Hautschutz und Adhaerenz wichtig. Sie ist aber eher eine begleitende Schulungsmassnahme als die hier gesuchte physikalische Therapiekomponente. Deshalb ist sie nach Antwortschluessel nicht korrekt.",
+          "term": "Patientenedukation"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine chirurgische Lymphgefaessresektion ist keine Massnahme der physikalischen Therapie. Operative Verfahren kommen, wenn ueberhaupt, nur in speziellen Situationen und nicht als Standardbestandteil der konservativen Entstauung infrage. Diese Option passt daher nicht.",
+          "term": "Chirurgische Lymphgefäßresektion"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist nur unvollstaendig als Fragezeichen ueberliefert. Eine fachliche Einordnung ist daher nicht moeglich. Sie ist nicht die laut Loesung richtige Option.",
+          "term": "unvollständige Antwortoption"
+        }
+      ]
+    },
+    "233": {
+      "topicLabel": "pAVK-Claudicatio",
+      "explanation": "Ein belastungsabhaengiger Schmerz im Gesaess, der beim Gehen und besonders bergauf auftritt und in Ruhe rasch nachlaesst, ist typisch fuer eine Claudicatio intermittens. Bei Gesaess- oder Oberschenkelschmerzen ist besonders an eine proximale pAVK im Becken- beziehungsweise aortoiliakalen Stromgebiet zu denken. Rauchen ist ein wichtiger Risikofaktor und stuetzt die vaskulaere Genese. Fehlender Ruheschmerz spricht gegen ein fortgeschrittenes Stadium mit kritischer Ischaemie, schliesst eine pAVK aber nicht aus. Die anderen Optionen erklaeren die reproduzierbare Belastungsabhaengigkeit mit schneller Besserung im Stehen weniger gut.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "pAVK ist die passende Diagnose bei belastungsabhaengiger Claudicatio mit Besserung in Ruhe. Die Lokalisation im Gesaess spricht fuer eine proximale Gefaessbeteiligung. Rauchen erhoeht die Wahrscheinlichkeit zusaetzlich.",
+          "term": "Periphere arterielle Verschlusskrankheit"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Bandscheibenvorfall kann radikulaere Schmerzen verursachen, oft mit Ausstrahlung, neurologischen Defiziten oder lageabhaengigen Beschwerden. Die sofortige Besserung beim Stehenbleiben nach Gehbelastung ist aber klassischer fuer vaskulaere Claudicatio. Der Risikofaktor Rauchen und die Bergauf-Problematik stuetzen die pAVK.",
+          "term": "Bandscheibenvorfall"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Hueftgelenksarthrose kann belastungsabhaengige Leisten-, Oberschenkel- oder Gesaessschmerzen machen. Die Beschwerden sind jedoch meist mechanisch-gelenkbezogen und nicht so typisch reproduzierbar ischaemisch mit rascher Erholung durch kurzes Stehenbleiben. Der Fall beschreibt eher eine Claudicatio.",
+          "term": "Hüftgelenksarthrose"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine akute oder tiefe Venenthrombose verursacht eher Schwellung, Druckschmerz, Ueberwaermung oder Spannungsgefuehl. Sie zeigt nicht typischerweise ein belastungsabhaengiges Claudicatio-Muster mit rascher Beschwerdefreiheit nach Pause. Deshalb passt sie hier nicht am besten.",
+          "term": "Thrombose"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Beckenvenenthrombose wuerde eher venöse Stauung, Schwellung und Schmerzen verursachen. Die klare Ausloesung durch Gehen und Besserung bei Pause spricht fuer arterielle Minderperfusion. Daher ist diese Option nicht korrekt.",
+          "term": "Beckenvenenthrombose"
+        }
+      ]
+    },
+    "234": {
+      "topicLabel": "pAVK-Gefäßdiagnostik",
+      "explanation": "Die vorangegangene Frage beschreibt eine Claudicatio im Gesaessbereich bei Raucherin, also den Verdacht auf eine proximale pAVK im Beckenstromgebiet. Zur weiteren Abklaerung muss die arterielle Durchblutung der Becken- und Beinarterien dargestellt beziehungsweise funktionell eingeordnet werden. In der angebotenen Auswahl ist die Angiografie die einzige direkt gefaessbezogene Diagnostik, die eine relevante Stenose oder einen Verschluss nachweisen kann. Orthopaedische Roentgenuntersuchungen wuerden alternative Ursachen suchen, aber die vaskulaere Verdachtsdiagnose nicht klaeren. Da im Protokoll das Wort 'zunaechst' steht und typische Basisuntersuchungen wie ABI oder Duplex nicht angeboten sind, bleibt eine gewisse Unsicherheit in der rekonstruierten Pruefungslogik.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die Angiografie der Becken- und Beinarterien passt zur Verdachtsdiagnose einer proximalen pAVK. Sie kann relevante Stenosen oder Verschluesse im aortoiliakalen und peripheren Stromgebiet darstellen. Unter den vorhandenen Antwortoptionen ist sie die direkt zielfuehrende Gefaessdiagnostik.",
+          "term": "Angiografie der Becken- und Beinarterien"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Roentgenbild der Lendenwirbelsaeule kann degenerative Ursachen von Ruecken- oder Beinschmerzen zeigen. Es klaert aber keine arterielle Durchblutungsstoerung. Bei typischer Claudicatio und vaskulaerem Risikoprofil ist es nicht die naheliegende erste Diagnostik.",
+          "term": "Röntgen Lendenbereich"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Roentgen der rechten Huefte waere bei Verdacht auf Coxarthrose oder knoecherne Pathologie sinnvoll. Der Schmerzcharakter mit Pausenbesserung spricht aber eher fuer vaskulaere Claudicatio. Die Hueftaufnahme wuerde die vermutete pAVK nicht nachweisen.",
+          "term": "Röntgen Hüfte"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Option 'Standaufnahme' ist im Protokoll unscharf und wahrscheinlich orthopaedisch gemeint. Eine solche Aufnahme wuerde keine Beckenarterienstenose diagnostizieren. Sie passt daher nicht zur leitenden vaskulaeren Verdachtsdiagnose.",
+          "term": "Standaufnahme"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Laufergometrie kann die Gehstrecke und Belastungsabhaengigkeit objektivieren. Sie stellt jedoch die vermutete proximale Gefaesslaesion nicht direkt dar. Da hier die Angiografie als korrekte Gefaessdiagnostik codiert ist, ist diese Option nicht die gesuchte Antwort.",
+          "term": "Laufergometrie"
+        }
+      ]
+    },
+    "235": {
+      "topicLabel": "Serotympanon",
+      "explanation": "Ein bernsteinfarbenes Trommelfell mit sichtbaren Luftblasen hinter dem Trommelfell spricht fuer Fluessigkeit im Mittelohr. Dazu passen die rechtsseitige Schallleitungsschwerhoerigkeit, der nach rechts lateralisierende Weber-Versuch und der rechts negative Rinne-Versuch. Ein Tympanogramm Typ B ist typisch fuer einen Paukenerguss, weil die Trommelfellbeweglichkeit vermindert ist. Bei Erwachsenen muss insbesondere bei einseitigem Serotympanon an eine Tubenventilationsstoerung gedacht werden. Die beste Diagnose in der Antwortauswahl ist daher Serotympanon.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Serotympanon bedeutet seroese Fluessigkeit im Mittelohr. Bernsteinfarbenes Trommelfell, Luftblasen, Schallleitungsschwerhoerigkeit und Typ-B-Tympanogramm passen sehr gut dazu. Diese Option ist daher korrekt.",
+          "term": "Serotympanon"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Haematotympanon beschreibt Blut hinter dem Trommelfell, etwa nach Trauma oder Schaedelbasisverletzung. Die bernsteinfarbene Fluessigkeit mit Luftblasen passt eher zu einem seroesen Erguss. Es gibt keine Hinweise auf Blutung oder Trauma.",
+          "term": "Hämatotympanon"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Cholesteatom zeigt typischerweise retraktionstaschenartige oder randständige Befunde mit Keratinmaterial und kann chronisch destruierend verlaufen. Die beschriebene Luftblasen-Fluessigkeit hinter intaktem Trommelfell passt besser zu einem Paukenerguss. Deshalb ist Cholesteatom hier nicht am wahrscheinlichsten.",
+          "term": "Cholesteatom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Myringosklerose beschreibt narbige, weissliche Plaques am Trommelfell, haeufig nach Entzuendungen oder Paukenroehrchen. Sie erklaert nicht typisch Luftblasen hinter dem Trommelfell und ein Typ-B-Tympanogramm durch Erguss. Der Befund passt daher nicht am besten.",
+          "term": "Myringosklerose"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein adhaesiver Prozess kann bei chronischer Tubenventilationsstoerung mit Retraktion und Verwachsung des Trommelfells entstehen. Der hier geschilderte akustische und otoskopische Befund zeigt aber primaer einen Erguss mit Luftblasen. Deshalb ist Serotympanon die bessere Diagnose.",
+          "term": "Adhäsiver Prozess"
+        }
+      ]
+    },
+    "236": {
+      "topicLabel": "Nasopharynx-Abklärung",
+      "explanation": "Ein einseitiges Serotympanon beim Erwachsenen muss an eine mechanische Tubenventilationsstoerung denken lassen. Eine wichtige Ausschlussdiagnose ist ein Tumor im Nasopharynx, der die Tuba auditiva verlegt oder infiltriert. Daher ist die Untersuchung des hinteren Nasenraums beziehungsweise Nasopharynx der naechste sinnvolle Schritt. In der Antwortauswahl entspricht dies am ehesten der hinteren Rhinoskopie. Oropharynx, vordere Nase, Hypopharynx oder Nasennebenhoehlen erklaeren die Tubenfunktionsstoerung weniger direkt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die Oropharyngoskopie beurteilt Mundrachen, Tonsillen und angrenzende Strukturen. Ein einseitiges Serotympanon beim Erwachsenen verlangt aber vor allem die Beurteilung des Nasopharynx und der Tubenregion. Daher ist diese Option nicht die beste naechste Untersuchung.",
+          "term": "Oropharyngoskopie"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die hintere Rhinoskopie zielt auf den hinteren Nasenraum und den Nasopharynx. Genau dort kann ein Tumor die Tubenbelueftung stoeren und ein einseitiges Serotympanon verursachen. Deshalb ist diese Untersuchung in diesem Fall korrekt.",
+          "term": "Hintere Rhinoskopie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die vordere Rhinoskopie untersucht vor allem die vorderen Nasenabschnitte. Fuer die Abklaerung eines moeglichen Nasopharynxprozesses ist sie weniger geeignet. Die relevante Region liegt weiter dorsal an der Tubenmuendung.",
+          "term": "Vordere Rhinoskopie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Hypopharyngoskopie beurteilt den unteren Rachenbereich. Ein Serotympanon durch Tubenverschluss entsteht aber durch Prozesse im Nasopharynx, nicht primaer im Hypopharynx. Daher ist diese Option nicht zielfuehrend.",
+          "term": "Hypopharyngoskopie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Sinuskopie betrifft die Nasennebenhoehlen und ist fuer die Standardabklaerung eines einseitigen Paukenergusses beim Erwachsenen nicht die zentrale Untersuchung. Gesucht ist die Darstellung des Nasopharynx. Damit ist diese Option falsch.",
+          "term": "Sinuskopie"
+        }
+      ]
+    },
+    "237": {
+      "topicLabel": "Nasopharynxkarzinom",
+      "explanation": "Ein EBV-assoziiertes Plattenepithelkarzinom des Nasopharynx mit zervikalen Lymphknotenmetastasen und ohne Fernmetastasen wird typischerweise nicht primaer radikal chirurgisch am Primärtumor behandelt. Nasopharynxkarzinome sind strahlenempfindlich, und bei lokoregional fortgeschrittener Erkrankung ist die definitive Radiochemotherapie die zentrale kurative Therapie. Die Halslymphknoten werden dabei in das Therapiekonzept einbezogen. Abwarten waere bei metastatisch gesicherter maligner Erkrankung nicht vertretbar. Debulking- oder Exzisionsstrategien allein wuerden die Biologie und Lokalisation des Tumors nicht adaequat behandeln.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die primaere Radiochemotherapie ist beim lokoregional fortgeschrittenen Nasopharynxkarzinom die passende Standardstrategie. Sie behandelt den radiosensiblen Primärtumor und die regionaeren Lymphknotenmetastasen kurativ intendiert. Deshalb ist diese Option korrekt.",
+          "term": "Primäre Radiochemotherapie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine radikale Exzision des Nasopharynxprimärtumors ist wegen Lokalisation, Ausbreitungsmuster und Radiosensibilitaet nicht die typische Primaertherapie. Chirurgie spielt eher diagnostisch oder in ausgewaehlten Salvage-Situationen eine Rolle. Als alleinige primaere Strategie ist sie hier nicht passend.",
+          "term": "Radikale Exzision"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Abwarten ist bei gesicherter Lymphknotenmetastase eines EBV-positiven Plattenepithelkarzinoms keine angemessene Strategie. Ohne Therapie wuerde die Erkrankung fortschreiten. Eine definitive onkologische Behandlung ist erforderlich.",
+          "term": "Abwarten"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Operation plus Chemotherapie bildet nicht die typische Primaerstrategie des Nasopharynxkarzinoms. Der entscheidende lokale Therapiepfeiler ist die Bestrahlung, kombiniert mit Chemotherapie bei entsprechender Ausdehnung. Die Option laesst diesen zentralen Bestandteil vermissen.",
+          "term": "Operation und Chemotherapie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Debulking plus Chemotherapie wuerde den Primärtumor nicht definitiv lokal kontrollieren. Beim Nasopharynxkarzinom ist die definitive Radiochemotherapie wegen der Strahlenempfindlichkeit und anatomischen Lage entscheidend. Daher ist diese Option nicht korrekt.",
+          "term": "Debulking plus Chemotherapie"
+        }
+      ]
+    },
+    "238": {
+      "topicLabel": "Postoperative Sepsis",
+      "explanation": "Nach Operation einer perforierten Sigmadivertikulitis sprechen Tachykardie, grenzwertiger Blutdruck, erhoehte Atemfrequenz und Leukozytose fuer eine beginnende systemische Infektion beziehungsweise Sepsis. Bei geröteter OP-Wunde liegt ein postoperativer Wundinfekt als Fokus nahe; differenzialdiagnostisch kann postoperativ auch eine Pneumonie relevant sein. Der unauffaellige periphere Venenkatheter und der unauffaellige Urinstatus machen PVK-Infektion beziehungsweise Katheter-HWI weniger wahrscheinlich. Eine Endokarditis ist ohne typische Hinweise in dieser akuten postoperativen Situation nicht die naheliegende Arbeitsdiagnose. Daher ist die beginnende Sepsis durch postoperative Wundinfektion oder Pneumonie die beste Option.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine beatmungsinduzierte Pneumonie waere vor allem bei beatmeten oder kuerzlich beatmeten Patientinnen und Patienten mit passenden respiratorischen Befunden zu vermuten. Der Fall nennt aber besonders die geroetete OP-Wunde als auffaelligen Fokus. Als alleinige Arbeitsdiagnose ist diese Option zu eng.",
+          "term": "Beatmungsinduzierte Pneumonie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Endokarditis verursacht Fieber und systemische Entzuendung, passt aber ohne Herzgeraeusch, Embolien, Risikokonstellation oder positive Blutkulturen nicht als naheliegender postoperativer Fokus. Der zeitliche Zusammenhang zur Bauchoperation und die Wundroetung sprechen fuer andere Quellen. Daher ist diese Option nicht korrekt.",
+          "term": "Endokarditis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine PVK-Infektion ist moeglich, wenn der Zugang gerötet, schmerzhaft oder eitrig ist. Im Protokoll ist der PVK jedoch unauffaellig beschrieben. Damit ist er nicht der wahrscheinlichste Fokus der beginnenden Sepsis.",
+          "term": "Infizierter peripherer Venenkatheter"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die beginnende Sepsis durch postoperative Wundinfektion oder Pneumonie ist laut Antwortschluessel die richtige Arbeitsdiagnose. Die Vitalparameter und Leukozytose zeigen eine systemische Infektionsreaktion, und die geroetete OP-Wunde liefert einen plausiblen Fokus. Postoperativ muss daneben auch an pulmonale Infektionen gedacht werden.",
+          "term": "Postoperative Wundinfektion oder Pneumonie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein liegender Dauerkatheter kann einen Harnwegsinfekt beguenstigen. Der Urinstatus ist hier aber unauffaellig, sodass ein Katheter-HWI nicht die wahrscheinlichste Quelle ist. Die Wundroetung weist staerker auf einen postoperativen Wundfokus.",
+          "term": "Katheterassoziierter Harnwegsinfekt"
+        }
+      ]
+    },
+    "239": {
+      "topicLabel": "Sepsisdiagnostik",
+      "explanation": "Bei beginnender postoperativer Sepsis muessen Infektfokus, Erreger und Organfunktion beziehungsweise Komplikationen rasch abgeklärt werden. Blutkulturen, Bildgebung des Thorax und gegebenenfalls CT des Abdomens sind im Kontext nach perforierter Divertikulitis plausible diagnostische Schritte. Gerinnungsdiagnostik einschliesslich INR ist bei Sepsis ebenfalls relevant, weil Koagulopathien auftreten koennen und invasive Massnahmen geplant werden koennten. Eine transoesophageale Echokardiografie ist dagegen eine gezielte Untersuchung bei Verdacht auf Endokarditis oder bestimmten Bakteriaemien. Ohne entsprechende Hinweise ist sie in dieser Situation nicht routinemaessig noetig und daher die gesuchte Ausnahme.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die transoesophageale Echokardiografie ist hier die nicht notwendige Diagnostik. Sie dient vor allem der Abklaerung einer Endokarditis oder kardialer Emboliequellen. Bei postoperativer Sepsis mit wahrscheinlichem abdominellem, Wund- oder pulmonalem Fokus ist sie ohne Zusatzhinweise nicht unmittelbar erforderlich.",
+          "term": "Transösophageale Echokardiografie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Roentgenthorax kann bei postoperativer Sepsis eine Pneumonie, Atelektasen oder andere thorakale Ursachen erfassen. Da Pneumonie als moeglicher Fokus im Raum steht, ist diese Untersuchung plausibel. Sie ist deshalb nicht die gesuchte entbehrliche Diagnostik.",
+          "term": "Röntgenthorax"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Gerinnungsdiagnostik einschliesslich INR ist bei Sepsis sinnvoll, weil Gerinnungsstoerungen und invasive Massnahmen relevant sein koennen. Gerade bei schwerer Infektion kann sich eine Koagulopathie entwickeln. Diese Diagnostik ist daher nicht als unnoetig zu werten.",
+          "term": "INR und Gerinnung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Blutkulturen gehoeren zur Erregerdiagnostik bei Sepsis und sollten vor Antibiotikagabe abgenommen werden, sofern dies die Therapie nicht verzoegert. Sie helfen, die antimikrobielle Therapie spaeter gezielt anzupassen. Daher sind sie notwendig und nicht die gesuchte Ausnahme.",
+          "term": "Blutkulturen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein CT des Abdomens ist nach perforierter Sigmadivertikulitis und Operation wichtig, wenn ein intraabdomineller Fokus, Abszess oder eine Anastomosen-/Wundkomplikation moeglich ist. Es kann die weitere Source-Control-Strategie bestimmen. Daher ist diese Option nicht die unnoetige Diagnostik.",
+          "term": "CT Abdomen"
+        }
+      ]
+    },
+    "240": {
+      "topicLabel": "Sepsis-Antibiotikatherapie",
+      "explanation": "Bei Verdacht auf beginnende Sepsis nach Darmperforation und Operation ist eine rasche antimikrobielle Therapie erforderlich. Sie muss den wahrscheinlichen Fokus und das zu erwartende Erregerspektrum beruecksichtigen, also bei intraabdominellem beziehungsweise postoperativem Fokus leitliniengerecht breit genug empirisch ansetzen. Parallel gehoeren Diagnostik, Blutkulturen soweit ohne relevante Verzoegerung moeglich, Kreislaufstabilisierung und Fokussuche beziehungsweise Source Control dazu. Eine sofortige offene Revision ist ohne weitere Befunde nicht automatisch der erste Schritt, auch wenn operative Source Control bei passendem Fokus noetig werden kann. Da die Antwortoptionen zwei aehnliche Antibiotikaformulierungen enthalten, ist die laut Antwortschluessel markierte leitliniengerechte antimikrobielle Therapie massgeblich.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine direkte offene Revision kann bei klarer intraabdomineller Katastrophe oder fehlender Source Control notwendig werden. Der Fall beschreibt aber zunaechst Fieber und Wundroetung bei beginnender Sepsis, ohne einen unmittelbaren Revisionsbefund zu nennen. Vor der automatischen offenen Revision steht die rasche sepsisgerechte Therapie und Fokusevaluation.",
+          "term": "Direkte offene Revision"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Eine antimikrobielle Therapie nach Leitlinie ist hier die richtige unmittelbare Massnahme. Bei postoperativer Sepsis nach perforierter Sigmadivertikulitis muss die empirische Therapie den wahrscheinlichen intraabdominellen beziehungsweise Wundfokus abdecken. Sie sollte rasch begonnen und anschliessend anhand von Befunden und Kulturen angepasst werden.",
+          "term": "Leitliniengerechte antimikrobielle Therapie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Der blosse Start einer antimikrobiellen Therapie klingt aehnlich, ist aber im Antwortschluessel nicht als korrekt markiert. Vermutlich zielt die Pruefung auf die leitliniengerechte, fokusadaptierte empirische Therapie und nicht auf eine unspezifische Formulierung. Deshalb wird diese Option trotz inhaltlicher Naehe nicht als richtige Antwort gewertet.",
+          "term": "Unspezifischer Antibiotikastart"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nur als Fragezeichen ueberliefert. Eine medizinische Bewertung ist daher nicht moeglich. Sie ist nicht die laut Antwortschluessel korrekte unmittelbare Massnahme.",
+          "term": "unvollständige Antwortoption"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Option wurde im Protokoll nicht erinnert und nur als Fragezeichen dokumentiert. Ohne Wortlaut laesst sie sich nicht fachlich einordnen. Massgeblich bleibt die markierte leitliniengerechte antimikrobielle Therapie.",
+          "term": "unvollständige Antwortoption"
+        }
+      ]
+    }
+  }
+}

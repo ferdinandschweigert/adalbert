@@ -1,0 +1,745 @@
+{
+  "examId": "m2-ss26-f26-gedaechtnisprotokoll",
+  "questions": {
+    "121": {
+      "topicLabel": "PONV-Risiko",
+      "explanation": "Der vereinfachte Apfel-Score schätzt das Risiko für postoperative Übelkeit und Erbrechen anhand von vier gleich gewichteten Risikofaktoren ab. Dazu gehören weibliches Geschlecht, Nichtraucherstatus, PONV oder Reisekrankheit in der Anamnese sowie die postoperative Opioidgabe. Bei vier erfüllten Kriterien liegt das Risiko in der klassischen Abstufung bei etwa 80%. Die Patientin mit Apfel-Score 4 hat damit ein sehr hohes PONV-Risiko und sollte eine multimodale Prophylaxe erhalten. Die Antwort 80% passt daher zur vorgegebenen Lösung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "10% entspricht ungefähr dem Risiko bei keinem Risikofaktor. Bei einem Apfel-Score von 4 ist diese Einschätzung deutlich zu niedrig. Die Patientin gehört zur Hochrisikogruppe.",
+          "term": "Niedriges PONV-Risiko"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "20% passt eher zu einem einzelnen Risikofaktor im vereinfachten Apfel-Score. Ein Score von 4 bedeutet aber, dass alle vier Kriterien erfüllt sind. Damit wird das Risiko stark unterschätzt.",
+          "term": "Apfel-Score 1"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "40% ist die typische Größenordnung bei zwei Risikofaktoren. Die Frage nennt jedoch ausdrücklich einen Apfel-Score von 4. Für diese Konstellation ist 40% nicht ausreichend hoch.",
+          "term": "Apfel-Score 2"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "60% entspricht ungefähr drei Risikofaktoren im vereinfachten Schema. Bei vier Risikofaktoren steigt das Risiko weiter an. Deshalb ist diese Option für den angegebenen Score nicht die beste Antwort.",
+          "term": "Apfel-Score 3"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "80% ist die klassische Risikoschätzung bei vier Risikofaktoren im vereinfachten Apfel-Score. Das passt direkt zur Angabe Apfel-Score 4. Die Patientin hat damit ein sehr hohes PONV-Risiko.",
+          "term": "Apfel-Score 4"
+        }
+      ]
+    },
+    "122": {
+      "topicLabel": "Apfel-Score",
+      "explanation": "Der Apfel-Score dient der einfachen präoperativen Abschätzung des PONV-Risikos. Zu den vier Kriterien zählen weibliches Geschlecht, Nichtraucherstatus, frühere PONV oder Reisekrankheit sowie erwartete postoperative Opioidgabe. Die Patientin aus der Vorfrage hatte einen Score von 4, sodass alle Kriterien angenommen wurden. Aus den angebotenen Antworten ist Nichtraucherin das klassische Apfel-Kriterium. Adipositas und Migräne können klinisch relevant sein, gehören aber nicht zu den vier Standardkriterien des vereinfachten Apfel-Scores.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Nichtraucherstatus ist ein definierter Risikofaktor im vereinfachten Apfel-Score. Nichtraucherinnen und Nichtraucher haben ein höheres PONV-Risiko als Rauchende. Diese Option passt daher zur gesuchten Score-Komponente.",
+          "term": "Nichtraucherstatus"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Adipositas ist kein Bestandteil des vereinfachten Apfel-Scores. Auch wenn Adipositas anästhesiologisch relevant sein kann, wird sie in diesem Vier-Punkte-Schema nicht gezählt. Sie erklärt daher nicht den Score in der Vorfrage.",
+          "term": "Adipositas"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine bekannte Migräne ist nicht eines der vier klassischen Apfel-Kriterien. Abgefragt wird nicht irgendein Übelkeitsrisiko, sondern der standardisierte Score. Relevant wäre stattdessen eine Anamnese von PONV oder Reisekrankheit.",
+          "term": "Migräne"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig überliefert und kann inhaltlich nicht sicher bewertet werden.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig überliefert und kann inhaltlich nicht sicher bewertet werden.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "123": {
+      "topicLabel": "PONV-Prophylaxe",
+      "explanation": "Bei hohem PONV-Risiko werden Antiemetika mit unterschiedlichen Wirkmechanismen kombiniert. Typische Substanzklassen sind Glukokortikoide, 5-HT3-Antagonisten, Dopaminantagonisten und je nach Situation auch antihistaminerge Substanzen. Physiostigmin ist dagegen ein Cholinesterasehemmer und wird vor allem zur Behandlung zentraler anticholinerger Syndrome eingesetzt. Es ist kein Standardmedikament zur PONV-Prophylaxe oder PONV-Therapie. Deshalb ist in dieser Negativfrage Physiostigmin die gesuchte Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Dexamethason ist ein etabliertes Antiemetikum in der PONV-Prophylaxe. Es wird häufig als Bestandteil einer multimodalen Strategie eingesetzt. Daher ist es nicht die gesuchte Substanz, die man bei PONV nicht gibt.",
+          "term": "Dexamethason"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Physiostigmin ist ein reversibler Cholinesterasehemmer und kein übliches Antiemetikum gegen PONV. Es hat andere Indikationen, etwa bei zentral anticholinerger Symptomatik. Für die PONV-Prophylaxe oder -Therapie ist es deshalb die unpassende Option.",
+          "term": "Physiostigmin"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ondansetron ist ein 5-HT3-Rezeptorantagonist und gehört zu den Standardmedikamenten gegen PONV. Es kann prophylaktisch oder therapeutisch eingesetzt werden. Damit ist es nicht die gesuchte Falschantwort.",
+          "term": "Ondansetron"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Haloperidol wirkt antiemetisch über dopaminerge Mechanismen. In geeigneter Dosierung wird es als Option bei PONV verwendet. Es ist daher grundsätzlich ein plausibles PONV-Medikament und nicht die gesuchte Negativantwort.",
+          "term": "Haloperidol"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diphenhydramin ist ein H1-Antihistaminikum mit antiemetischer Wirkung, besonders bei vestibulärer Übelkeit. Es ist zwar nicht das klassische erste PONV-Basismedikament wie Ondansetron, kann aber antiemetisch eingesetzt werden. Im Vergleich zu Physiostigmin ist es deshalb nicht die beste Negativantwort.",
+          "term": "Diphenhydramin"
+        }
+      ]
+    },
+    "124": {
+      "topicLabel": "Naevus flammeus",
+      "explanation": "Ein Naevus flammeus ist eine kapilläre Malformation und wird in der Regel klinisch diagnostiziert. Entscheidend sind das typische Bild, die seit Geburt oder früher Kindheit bestehende rötlich-livide Hautveränderung und die Anamnese. Eine Biopsie ist bei klassischem Befund normalerweise nicht erforderlich. Bei bestimmten Lokalisationen, ausgedehnten Befunden oder syndromalem Verdacht kann ergänzende Diagnostik sinnvoll sein, die Basisdiagnose bleibt aber klinisch. Daher ist klinisches Bild und Anamnese die richtige Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Das klinische Bild zusammen mit der Anamnese reicht bei einem typischen Naevus flammeus meist zur Diagnose. Die Läsion ist typischerweise bereits früh vorhanden und zeigt eine charakteristische flächige Rötung. Diese Option beschreibt daher den diagnostischen Standard.",
+          "term": "Klinische Diagnose"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Biopsie ist bei einem typischen Naevus flammeus nicht die primäre Diagnostik. Sie wäre invasiv und bei charakteristischem Befund ohne Zusatznutzen. Man würde sie nur bei unklarer Differenzialdiagnose erwägen.",
+          "term": "Biopsie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unleserlich beziehungsweise offensichtlich fehlerhaft überliefert. Eine sichere medizinische Einordnung ist damit nicht möglich.",
+          "term": "Unklare Option"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig überliefert und kann inhaltlich nicht sicher bewertet werden.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig überliefert und kann inhaltlich nicht sicher bewertet werden.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "125": {
+      "topicLabel": "Naevus-Therapie",
+      "explanation": "Die vorgegebene Lösung markiert bei dem Kind mit Naevus flammeus das Abwarten als richtige Antwort. Ein Naevus flammeus ist eine benigne kapilläre Malformation; bei unkompliziertem Befund besteht nicht automatisch eine dringliche medizinische Behandlungsindikation. Entscheidend sind Aufklärung, Verlauf, Lokalisation, funktionelle Beeinträchtigungen und psychosoziale Belastung. Eine Lasertherapie kann grundsätzlich ein Verfahren zur kosmetischen Behandlung sein, ist in dieser rekonstruierten Frage aber nicht die als korrekt markierte Antwort. Wegen des Widerspruchs zwischen Elternwunsch und typischer Therapie ist die Sicherheit dieser Zuordnung eingeschränkt, die Ground-Truth-Antwort bleibt jedoch Abwarten.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Der gepulste Farbstofflaser ist grundsätzlich eine bekannte Behandlungsoption für einen Naevus flammeus. In dieser rekonstruierten Frage ist er jedoch nicht als richtige Antwort markiert. Daher darf er hier trotz klinischer Plausibilität nicht als Lösung gewertet werden.",
+          "term": "Farbstofflaser"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Alpha-Rezeptor-Blocker sind keine Standardtherapie eines Naevus flammeus. Die Läsion beruht auf einer kapillären Malformation und nicht auf einem adrenerg vermittelten Gefäßproblem. Diese Option ist daher nicht passend.",
+          "term": "Alpha-Rezeptor-Blocker"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Beta-Blocker werden klassisch bei infantilen Hämangiomen eingesetzt, nicht beim Naevus flammeus. Ein Naevus flammeus ist keine proliferierende Gefäßneoplasie wie das Hämangiom. Deshalb ist diese Option hier nicht richtig.",
+          "term": "Beta-Blocker"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Abwarten ist laut vorgegebener Lösung die gesuchte Antwort. Bei benignem, unkompliziertem Befund kann zunächst beobachtet und ausführlich beraten werden. Eine interventionelle Therapie ist nicht automatisch dringlich allein aufgrund des Elternwunsches.",
+          "term": "Verlaufskontrolle"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine topische Therapie beseitigt einen Naevus flammeus nicht zuverlässig. Die Veränderung liegt als kapilläre Malformation in der Haut vor. Deshalb ist eine Creme oder Salbe nicht die passende kausale Behandlung.",
+          "term": "Topische Therapie"
+        }
+      ]
+    },
+    "126": {
+      "topicLabel": "Geburtsphasen",
+      "explanation": "Die Austreibungsperiode ist die Geburtsphase vom vollständig eröffneten Muttermund bis zur vollständigen Geburt des Kindes. Sie folgt auf die Eröffnungsperiode, in der sich der Muttermund erst bis zur vollständigen Eröffnung erweitert. Der Begriff beschreibt also nicht die gesamte Wehendauer. Auch die Zeit nur von der Geburt des Kopfes bis zur vollständigen Geburt ist zu eng gefasst. Die passende Definition ist deshalb die Zeitspanne von vollständiger Muttermundseröffnung bis zur Geburt des Kindes.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die Zeit vom Beginn der Wehen bis zur Geburt umfasst mehrere Geburtsphasen. Dazu gehören insbesondere Eröffnungsperiode und Austreibungsperiode. Für die Austreibungsperiode allein ist diese Definition zu weit.",
+          "term": "Gesamte Geburt"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig überliefert und kann inhaltlich nicht sicher bewertet werden.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Zeit von der Geburt des Kopfes bis zur vollständigen Geburt des Kindes beschreibt nur einen sehr späten Abschnitt. Die Austreibungsperiode beginnt bereits mit vollständig eröffnetem Muttermund. Diese Option ist daher zu eng.",
+          "term": "Späte Austrittsphase"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Vom vollständig eröffneten Muttermund bis zur Geburt des Kindes: Das ist die klassische Definition der Austreibungsperiode. In dieser Phase tritt das Kind unter Wehen durch den Geburtskanal. Diese Antwort trifft den Begriff am besten.",
+          "term": "Austreibungsperiode"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig überliefert und kann inhaltlich nicht sicher bewertet werden.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "127": {
+      "topicLabel": "CTG-Beurteilung",
+      "explanation": "Bei der CTG-Beurteilung werden Baseline, Oszillation, Akzelerationen, Dezelerationen und Wehenbezug gemeinsam bewertet. Die vorgegebene Lösung stuft das CTG als suspekt ein. Das bedeutet: Es liegt kein eindeutig pathologisches CTG vor, aber mindestens ein auffälliges Kriterium erfordert engmaschige Kontrolle und klinische Einordnung. Eine einzelne normale Baseline reicht nicht aus, um ein CTG insgesamt als physiologisch zu bezeichnen. Ebenso darf man aus wehenassoziierten Veränderungen nicht vorschnell auf vollständiges kindliches Wohlergehen schließen.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Physiologisch für die Endphase der Geburt wäre nur zutreffend, wenn die CTG-Kriterien insgesamt unauffällig oder geburtsspezifisch erklärbar wären. Die vorgegebene Lösung sieht jedoch ein suspektes CTG. Diese Option verharmlost den Befund.",
+          "term": "Physiologisches CTG"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Ein suspektes CTG verlangt erhöhte Aufmerksamkeit, Wiederbeurteilung und Korrelation mit der klinischen Situation. Es ist noch nicht automatisch eine unmittelbare Notfallsituation, aber auch nicht beruhigend normal. Diese Einordnung entspricht der markierten Lösung.",
+          "term": "Suspektes CTG"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine versehentliche Ableitung der mütterlichen Herzfrequenz kann CTG-Befunde verfälschen. Dafür müsste es aber konkrete Hinweise geben, etwa eine Übereinstimmung mit dem maternalen Puls. Die Option ist nach der vorgegebenen Lösung nicht die beste Beurteilung.",
+          "term": "Maternale Ableitung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Baseline um 130/min kann für sich genommen im Normbereich liegen. Die CTG-Klassifikation hängt aber nicht allein von der Baseline ab. Oszillation und Dezelerationen können dennoch zu einer suspekten Gesamtbewertung führen.",
+          "term": "Baseline"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Akzelerationen sind grundsätzlich ein günstiges Zeichen, müssen aber im Gesamtbild bewertet werden. Der Wehenbezug und andere CTG-Parameter können die Aussage relativieren. Diese Option ist deshalb zu pauschal beruhigend.",
+          "term": "Akzeleration"
+        }
+      ]
+    },
+    "128": {
+      "topicLabel": "Patientensicherheit",
+      "explanation": "Bei einer potenziell falschen Einschätzung in einer akuten geburtshilflichen Situation steht die unmittelbare Patientensicherheit im Vordergrund. Ein hierarchisch höher gestellter Kollege darf und soll respektvoll, klar und zeitnah angesprochen werden, wenn eine Gefahr für Mutter oder Kind bestehen könnte. Das Prinzip ist ein Speak-up: Die Bedenken werden offen benannt und fachlich begründet. Schriftliche oder nachträgliche Wege können ergänzend sinnvoll sein, ersetzen aber nicht die sofortige Kommunikation am Patientenbett. Daher ist das klare Aussprechen der Fehleinschätzung mit Begründung die richtige Reaktion.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig überliefert und kann inhaltlich nicht sicher bewertet werden.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine E-Mail an den Oberarzt wäre zu langsam für eine potenziell akute Patientensicherheitsfrage. Außerdem erreicht sie die Situation am Bett nicht unmittelbar. Sie kann eine Nachbereitung sein, aber nicht die primäre Reaktion.",
+          "term": "Verzögerte Kommunikation"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Das direkte, respektvolle Benennen der Sorge ist die richtige Speak-up-Strategie. Die Formulierung macht klar, dass eine potenziell gefährliche Fehleinschätzung vorliegt, und ermöglicht sofortige Korrektur. Die fachliche Begründung hilft, die Hierarchiebarriere zu überwinden.",
+          "term": "Speak-up"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein CIRS-Bericht dient dem Lernen aus kritischen Ereignissen und Beinahe-Fehlern. Er ist aber kein Instrument zur unmittelbaren Gefahrenabwehr in der aktuellen Situation. Die akute Kommunikation muss zuerst erfolgen.",
+          "term": "CIRS"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine spätere Besprechung mit Hebamme oder anderer Oberärztin kann für Reflexion und Teamlernen sinnvoll sein. Bei aktuell möglicher Gefährdung ist sie aber zu spät. Patientensicherheit verlangt eine sofortige Intervention.",
+          "term": "Nachträgliche Zweitmeinung"
+        }
+      ]
+    },
+    "129": {
+      "topicLabel": "Hämoptyse",
+      "explanation": "Bei rötlichem Sputum und Raucheranamnese muss zunächst zwischen harmloser Beimengung, Infektion, entzündlicher Ursache und schwereren Differenzialdiagnosen unterschieden werden. In der hausärztlichen Erstabklärung sind Basisdiagnostik und Entzündungsparameter eine naheliegende erste Maßnahme, wenn keine akute Instabilität beschrieben ist. Die vorgegebene Lösung markiert Labor und Entzündungsparameter als erstes Vorgehen. Invasive oder sehr spezifische Untersuchungen wie Bronchoskopie oder Tuberkulosediagnostik werden nicht als erster Schritt gewählt, solange die Basisabklärung noch fehlt. Da im Protokoll wichtige Optionen wie Bildgebung fehlen könnten, bleibt die Sicherheit eingeschränkt.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Labor und Entzündungsparameter sind eine geeignete erste hausärztliche Basisabklärung bei Husten mit rötlichem Sputum. Sie helfen, infektiöse oder entzündliche Ursachen einzuordnen und die Dringlichkeit weiterer Diagnostik abzuschätzen. Diese Option ist laut vorgegebener Lösung richtig.",
+          "term": "Basislabor"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine mikrobiologische Sputumdiagnostik auf säurefeste Stäbchen zielt auf Tuberkulose. Ohne passende Zusatzhinweise wie Exposition, Nachtschweiß, Gewichtsverlust oder typische Bildgebung ist sie nicht der erste Schritt. Sie wäre eine gezielte Folgeuntersuchung bei entsprechendem Verdacht.",
+          "term": "Tuberkulosediagnostik"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die flexible Bronchoskopie ist eine weiterführende, invasive Diagnostik bei Hämoptysen oder Tumorverdacht. In der Hausarztpraxis wird zunächst die Dringlichkeit und Basisdiagnostik geklärt. Ohne vorherige Einordnung ist sie hier nicht die erste Maßnahme.",
+          "term": "Bronchoskopie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig überliefert und kann inhaltlich nicht sicher bewertet werden.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig überliefert und kann inhaltlich nicht sicher bewertet werden.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "130": {
+      "topicLabel": "Thoraxröntgen",
+      "explanation": "Die Frage bezieht sich auf ein Thoraxröntgen bei Husten und gelegentlichen Hämoptysen. Laut vorgegebener Lösung ist am ehesten eine Oberlappenpneumonie gemeint. Eine Pneumonie kann radiologisch als umschriebene Verschattung oder Infiltrat imponieren und Fieber muss nicht zwingend vorhanden sein, besonders bei älteren oder atypischen Verläufen. Hämoptysen können bei entzündlichen Atemwegs- oder Lungenprozessen auftreten. Da das Bild selbst nicht vorliegt und die Protokollnotiz zusätzliche Stauungszeichen erwähnt, ist die Einordnung mit Unsicherheit behaftet.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Bronchialkarzinom wäre bei Raucheranamnese und Hämoptysen eine wichtige Differenzialdiagnose. Die vorgegebene Bildlösung ist aber nicht das linksseitige Oberlappenkarzinom. Ohne typische Raumforderung oder Atelektase ist diese Option nicht die markierte Antwort.",
+          "term": "Bronchialkarzinom"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Aneurysma der Aorta ascendens würde eher eine mediastinale Verbreiterung oder aortale Konturveränderung erwarten lassen. Das passt nicht gut zur beschriebenen pulmonalen Symptomatik mit Husten. Nach Ground Truth ist es nicht die gesuchte Diagnose.",
+          "term": "Aortenaneurysma"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Eine Oberlappenpneumonie kann sich im Röntgenbild als fokales Infiltrat im Oberlappen zeigen. Husten und gelegentlich blutiges Sputum können dazu passen. Diese Option entspricht der markierten Lösung.",
+          "term": "Oberlappenpneumonie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Ösophagusdivertikel erklärt Husten und Hämoptysen nicht als naheliegende Hauptdiagnose im Thoraxröntgen. Typischer wären Schluckbeschwerden, Regurgitation oder Aspirationsereignisse. Es ist daher nicht die beste radiologische Erklärung.",
+          "term": "Ösophagusdivertikel"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Defekt einer Mitralklappenrekonstruktion könnte kardiale Stauungszeichen erklären, ist aber ohne entsprechende Anamnese und Echobefund nicht die primäre Röntgendiagnose. Die Frage zielt laut Lösung auf einen pulmonalen Infiltratbefund. Diese Option ist daher nicht richtig.",
+          "term": "Mitralklappendefekt"
+        }
+      ]
+    },
+    "131": {
+      "topicLabel": "IgA-Nephropathie",
+      "explanation": "Bei IgA-Glomerulonephritis sind Proteinurie beziehungsweise Albuminurie wichtige Marker für Progression und Prognose. Die vorgegebene Lösung hebt die Entwicklung einer terminalen Niereninsuffizienz mit Dialysepflicht als entscheidende Prognoseaussage hervor. In dieser Frage ist daher nicht eine unspezifische Formulierung wie Tod an IgA-Nephritis gesucht, sondern die konkrete renale Endstrecke. Kardiovaskuläre Ereignisse sind bei chronischer Nierenkrankheit zwar wichtig, aber hier nicht als richtige Antwort markiert. Wegen der Formulierung mit statistischer Todesursache ist die Zuordnung nicht ganz sicher, die Ground Truth bleibt jedoch Dialysepatient.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "An IgA-Nephritis zu versterben ist zu unspezifisch formuliert. Klinisch relevant ist die Progression der Nierenerkrankung bis zur chronischen Niereninsuffizienz. Die markierte Antwort konkretisiert diese Folge besser.",
+          "term": "IgA-Nephritis"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Kardiovaskuläre Ereignisse sind bei chronischer Niereninsuffizienz häufig und prognostisch bedeutsam. Dennoch ist diese Option im vorliegenden Protokoll nicht als richtig markiert. Die Frage zielt hier laut Ground Truth auf die Dialysepflicht.",
+          "term": "Kardiovaskuläres Ereignis"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Albuminurie bei IgA-Nephropathie spricht für ein relevantes Progressionsrisiko. Die terminale Niereninsuffizienz kann schließlich eine Dialysepflicht erforderlich machen. Diese Option entspricht der vorgegebenen Lösung.",
+          "term": "Terminale Niereninsuffizienz"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Infektionen können bei fortgeschrittener Niereninsuffizienz oder Immunsuppression relevant werden. Sie sind aber nicht die zentrale Prognoseaussage dieser IgA-Nephropathie-Frage. Diese Option ist daher nicht die beste Antwort.",
+          "term": "Infektion"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine endokrine Entgleisung ist im Zusammenhang mit IgA-Nephropathie und Albuminurie nicht die typische Hauptprognose. Die relevante Krankheitsbahn betrifft vor allem die Nierenfunktion. Die Option ist zudem im Protokoll unscharf formuliert.",
+          "term": "Endokrine Entgleisung"
+        }
+      ]
+    },
+    "132": {
+      "topicLabel": "Proteinurie-Senkung",
+      "explanation": "Bei IgA-Nephropathie ist die Reduktion von Proteinurie ein zentrales Therapieziel, weil sie die Progression der chronischen Nierenerkrankung verlangsamen kann. ACE-Hemmer senken den intraglomerulären Druck und wirken antiproteinurisch. Dadurch können sie das Risiko für eine Verschlechterung der Nierenfunktion und eine spätere Dialysepflicht reduzieren. Besonders bei Albuminurie ist eine RAAS-Blockade ein wichtiger Bestandteil der supportiven Therapie. Daher ist der ACE-Hemmer die richtige Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "ACE-Hemmer blockieren das Renin-Angiotensin-Aldosteron-System und reduzieren die glomeruläre Druckbelastung. Dadurch sinkt die Proteinurie, was bei IgA-Nephropathie prognostisch günstig ist. Diese Option passt daher zur Senkung des Dialyserisikos.",
+          "term": "ACE-Hemmer"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig überliefert und kann inhaltlich nicht sicher bewertet werden.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig überliefert und kann inhaltlich nicht sicher bewertet werden.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig überliefert und kann inhaltlich nicht sicher bewertet werden.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig überliefert und kann inhaltlich nicht sicher bewertet werden.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "133": {
+      "topicLabel": "Nierenersatz",
+      "explanation": "Die Antwortoptionen beziehen sich auf Nierenersatzverfahren und nicht auf die im Stem genannte pulmonale Symptomatik. Unter Nutzung des vorherigen IgA-Nephropathie-Kontexts ist bei terminaler Niereninsuffizienz die Nierentransplantation für geeignete Patientinnen und Patienten die definitive Therapieoption mit bester Langzeitperspektive. Dialyseverfahren können lebensnotwendig sein, ersetzen aber die Nierenfunktion nur teilweise und sind häufig Überbrückung oder Alternative bei fehlender Transplantationsmöglichkeit. Hämofiltration ist eher ein intensivmedizinisches Verfahren bei akutem Nierenversagen. Deshalb ist laut vorgegebener Lösung die Nierentransplantation richtig, die Protokollqualität ist hier aber niedrig.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Hämofiltration ist vor allem ein kontinuierliches Nierenersatzverfahren in der Intensivmedizin. Sie ist nicht die definitive Langzeitlösung bei chronischer terminaler Niereninsuffizienz. Deshalb ist sie nicht die beste Antwort.",
+          "term": "Hämofiltration"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die Nierentransplantation ist bei geeigneten Patientinnen und Patienten die bevorzugte definitive Therapie der terminalen Niereninsuffizienz. Sie bietet im Vergleich zur dauerhaften Dialyse häufig die bessere langfristige Perspektive. Diese Option entspricht der Ground-Truth-Lösung.",
+          "term": "Nierentransplantation"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Hämodialyse im Spezialzentrum ist ein etabliertes Nierenersatzverfahren. Sie ist aber im Vergleich zur Transplantation nicht die definitive kurative beziehungsweise funktionsersetzende Wunschoption bei geeigneter Transplantationsfähigkeit. Daher ist sie hier nicht markiert.",
+          "term": "Zentrumshämodialyse"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Peritonealdialyse ist eine wichtige ambulante Dialyseform. Sie kann für bestimmte Patientinnen und Patienten sehr geeignet sein, ersetzt aber nicht die Option einer Transplantation. In dieser Frage ist sie nicht die beste Antwort.",
+          "term": "Peritonealdialyse"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Heimhämodialyse kann bei geeigneten Patientinnen und Patienten eine flexible Dialyseoption sein. Sie bleibt aber eine Dialyseform und keine definitive Wiederherstellung der Nierenfunktion. Deshalb steht sie hinter der Transplantation zurück.",
+          "term": "Heimhämodialyse"
+        }
+      ]
+    },
+    "134": {
+      "topicLabel": "HBV-Serologie",
+      "explanation": "Die Protokollangaben sind in dieser Frage sehr knapp und enthalten offenbar doppelte oder ähnlich formulierte Antwortmöglichkeiten. Die vorgegebene Lösung markiert die Kombination aus Anti-HBs-Antikörpern und Anti-HBc-Antikörpern. Diese Konstellation spricht klassisch für einen Kontakt mit Hepatitis-B-Virus und bei positivem Anti-HBs für Immunität nach durchgemachter Infektion. HBsAg wäre dagegen ein Marker einer aktuellen HBV-Infektion und passt nicht zu einer rein serologischen Immunitätskonstellation. Wegen der fast identischen ersten Antwortoption ist die Sicherheit niedrig, aber die markierte fünfte Option ist maßgeblich.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Anti-HBs und Anti-HBc sind inhaltlich die Marker, die eine durchgemachte HBV-Infektion anzeigen können. Im Protokoll ist jedoch nicht diese, sondern die sehr ähnlich formulierte fünfte Option als richtig markiert. Wegen dieser Dopplung bleibt die Bewertung unsicher.",
+          "term": "Anti-HBs und Anti-HBc"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "HBsAg spricht für eine aktuelle Hepatitis-B-Infektion, wenn es nachweisbar ist. Anti-HBc zeigt den Kontakt mit dem Virus an, unterscheidet aber allein nicht sicher zwischen akut, chronisch und durchgemacht. Diese Kombination ist nicht die markierte Antwort.",
+          "term": "HBsAg und Anti-HBc"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine quantitative HBs-Bestimmung ist nicht die typische Basisantwort zur serologischen Einordnung einer durchgemachten HBV-Infektion. Für die Standardinterpretation werden Antigen- und Antikörpermuster kombiniert betrachtet. Diese Option ist daher nicht ausreichend.",
+          "term": "Quantitatives HBs"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Anti-HBs und Anti-HBe reichen nicht aus, um eine durchgemachte HBV-Infektion sicher zu belegen. Entscheidend für den früheren Viruskontakt ist Anti-HBc. Daher fehlt hier ein zentraler Marker.",
+          "term": "Anti-HBe"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Anti-HBs-AK plus Anti-HBc-AK ist die markierte Lösung. Anti-HBc zeigt einen früheren oder aktuellen Kontakt mit HBV an, Anti-HBs spricht für Immunität. Zusammen passt das am ehesten zu einer ausgeheilten HBV-Infektion.",
+          "term": "Ausgeheilte HBV-Infektion"
+        }
+      ]
+    },
+    "135": {
+      "topicLabel": "Leberdiagnostik",
+      "explanation": "Bei Verdacht auf chronische Virushepatitis oder chronische Leberschädigung gehört die nichtinvasive Beurteilung der Leberstruktur und Fibrose zum nächsten diagnostischen Schritt. B-Bild-Sonografie kann Lebermorphologie, Raumforderungen, portale Zeichen und Begleitbefunde erfassen. Die Elastographie ergänzt die Einschätzung der Leberfibrose beziehungsweise Zirrhose. Kontrastmittelsonografie oder MRT sind meist gezielte Folgeuntersuchungen bei fokalen Läsionen oder unklaren Befunden. Daher ist B-Sonografie mit Elastographie am ehesten richtig.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "B-Sonografie und Elastographie sind sinnvolle, nichtinvasive Basisuntersuchungen bei chronischer Lebererkrankung. Sie beurteilen Morphologie und Fibrosegrad ohne direkt invasive Diagnostik. Diese Option entspricht der markierten Lösung.",
+          "term": "Sonografie und Elastographie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Kontrastmittelsonografie ist besonders bei der Charakterisierung fokaler Leberläsionen hilfreich. Als allgemeiner nächster Schritt bei chronischer Hepatitis ist sie nicht primär. Zunächst werden Basisultraschall und Fibroseabschätzung genutzt.",
+          "term": "Kontrastmittelsonografie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein MRT des Abdomens kann bei speziellen Fragestellungen sehr aussagekräftig sein. Für die initiale nichtinvasive Leberabklärung ist es aber meist nicht der erste Schritt. Es folgt eher bei unklaren oder suspekten Sonografiebefunden.",
+          "term": "MRT Abdomen"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Funktionsszintigraphie ist keine Standarduntersuchung zur Erstbeurteilung einer chronischen Virushepatitis. Die Fibrose- und Morphologiebeurteilung erfolgt bevorzugt sonografisch und elastografisch. Diese Option passt daher nicht.",
+          "term": "Funktionsszintigraphie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig überliefert und kann inhaltlich nicht sicher bewertet werden.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "136": {
+      "topicLabel": "Hepatitis-B-Therapie",
+      "explanation": "Bei therapiebedürftiger chronischer Hepatitis B werden Nukleosid- beziehungsweise Nukleotidanaloga mit hoher antiviraler Wirksamkeit eingesetzt. Tenofovir ist eine etablierte Substanz zur Hemmung der HBV-Replikation. Ribavirin und Sofosbuvir gehören typischerweise nicht zur Standardtherapie der chronischen Hepatitis B, sondern sind aus anderen Virushepatitis-Kontexten bekannt. Aciclovir richtet sich gegen Herpesviren und ist für HBV nicht geeignet. Damit ist Tenofovir die richtige Therapieoption.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ribavirin ist kein Standardmedikament zur Therapie der chronischen Hepatitis B. Es wird eher in anderen Virushepatitis-Konstellationen beziehungsweise historischen Kombinationen relevant. Für HBV ist es hier nicht die richtige Wahl.",
+          "term": "Ribavirin"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Tenofovir ist ein wirksames Nukleotidanalogon gegen HBV. Es senkt die Virusreplikation und wird bei therapiebedürftiger chronischer Hepatitis B eingesetzt. Diese Option entspricht daher der gesuchten Therapie.",
+          "term": "Tenofovir"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Sofosbuvir ist vor allem ein direkt antiviral wirksames Medikament gegen Hepatitis C. Es ist nicht die Standardantwort für eine chronische Hepatitis B. Daher ist diese Option falsch.",
+          "term": "Sofosbuvir"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Aciclovir wirkt gegen Herpesviren wie HSV und VZV. Hepatitis-B-Virus wird damit nicht adäquat behandelt. Diese Option ist daher therapeutisch unpassend.",
+          "term": "Aciclovir"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig überliefert und kann inhaltlich nicht sicher bewertet werden.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "137": {
+      "topicLabel": "HBV-Verlauf",
+      "explanation": "Das Ansprechen einer antiviralen Therapie bei chronischer Hepatitis B wird wesentlich über die Virusreplikation beurteilt. Die quantitative HBV-DNA zeigt direkt, ob die Viruslast unter Therapie sinkt. Leberwerte können sich ebenfalls bessern, sind aber indirekt und können auch aus anderen Gründen schwanken. Für die virologische Therapiekontrolle ist deshalb die quantitative HBV-DNA der zentrale Parameter. Das passt zur vorgegebenen Lösung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die quantitative HBV-DNA misst die Viruslast direkt. Ein Abfall unter Therapie zeigt ein virologisches Ansprechen. Deshalb ist dieser Parameter am besten geeignet, um das Anschlagen der Therapie zu überprüfen.",
+          "term": "HBV-DNA"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Leberwerte wie Transaminasen können Hinweise auf entzündliche Aktivität geben. Sie sind aber kein direkter Nachweis der Virusreplikation und können auch unabhängig von HBV schwanken. Zur Therapiekontrolle ist HBV-DNA spezifischer.",
+          "term": "Leberwerte"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig überliefert und kann inhaltlich nicht sicher bewertet werden.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig überliefert und kann inhaltlich nicht sicher bewertet werden.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig überliefert und kann inhaltlich nicht sicher bewertet werden.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "138": {
+      "topicLabel": "Emphysem-Röntgen",
+      "explanation": "Beim Lungenemphysem führt die Überblähung der Lunge zu typischen Thoraxröntgenzeichen. Dazu gehören vermehrte Strahlentransparenz, tief stehende oder abgeflachte Zwerchfelle und erweiterte Interkostalräume. Die beschriebene kachektische Patientin mit COPD passt klinisch gut zu einem emphysematösen Habitus. Pleuraergüsse oder umschriebene Verschattungen wären dagegen keine typischen Leitsigns eines Emphysems. Daher sind erweiterte Interkostalräume die richtige Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Erweiterte Interkostalräume passen zur thorakalen Überblähung beim Emphysem. Sie entstehen durch das erhöhte Lungenvolumen und den fassförmigen Thorax. Diese Option trifft den erwarteten Röntgenbefund.",
+          "term": "Erweiterte Interkostalräume"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Beidseitige Pleuraergüsse sind kein typisches Zeichen eines Lungenemphysems. Sie würden eher auf kardiale, entzündliche, maligne oder andere pleurale Ursachen hinweisen. Bei Emphysem erwartet man Überblähung, nicht Flüssigkeit.",
+          "term": "Pleuraerguss"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Verschattungen der Mittellappen sprechen eher für Infiltrate, Atelektasen oder andere fokale Lungenprozesse. Das typische Emphysemröntgen zeigt dagegen vermehrte Transparenz. Diese Option passt nicht zum beschriebenen Bild.",
+          "term": "Mittellappenverschattung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein nach rechts verlagerter Herzschatten wäre ein Hinweis auf Volumenverlust, Raumforderung oder andere thorakale Verschiebungsprozesse. Beim Emphysem kann das Herz schmal und steilgestellt wirken, aber eine Rechtsverlagerung ist nicht das Leitsymptom. Diese Option ist daher nicht richtig.",
+          "term": "Herzverlagerung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig überliefert und kann inhaltlich nicht sicher bewertet werden.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "139": {
+      "topicLabel": "Sekundäre Polyglobulie",
+      "explanation": "Bei schwerer COPD und Emphysem kann chronische Hypoxämie zu einer kompensatorischen Erythropoetinsteigerung führen. Das stimuliert die Erythropoese und kann eine sekundäre Polyglobulie mit erhöhtem Hämoglobin verursachen. Die Angabe eines erhöhten EPO passt besonders gut zu einer sekundären Ursache. Bei Polycythaemia vera wäre EPO typischerweise eher supprimiert und häufig finden sich zusätzliche myeloproliferative Hinweise. Daher ist die sekundäre Polyglobulie die beste Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein hoher Vitamin-B12-Wert allein beweist keine Vitamin-B12-Intoxikation als Ursache der Befundkonstellation. Er erklärt insbesondere nicht das erhöhte EPO und das hohe Hämoglobin im COPD-Kontext. Diese Option greift daher zu kurz.",
+          "term": "Vitamin-B12-Intoxikation"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Hämochromatose kann mit erhöhten Eisenparametern und Organschäden einhergehen. Sie erklärt aber nicht typisch eine EPO-vermittelte Polyglobulie bei COPD. Die Hypoxie-Konstellation ist hier naheliegender.",
+          "term": "Hämochromatose"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Polycythaemia vera ist eine primäre myeloproliferative Erkrankung. Dabei ist EPO typischerweise vermindert, weil die Erythrozytenproduktion autonom gesteigert ist. Das erhöhte EPO spricht daher gegen diese Option.",
+          "term": "Polycythaemia vera"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Sekundäre Polyglobulie entsteht durch gesteigerte EPO-Produktion, häufig als Antwort auf chronische Hypoxämie. Eine COPD mit Emphysem ist dafür ein typischer Auslöser. Die Befundkonstellation mit hohem Hämoglobin und erhöhtem EPO passt sehr gut.",
+          "term": "Sekundäre Polyglobulie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Hämoglobin von 17,6 g/dL mit erhöhtem EPO ist nicht einfach als altersentsprechender Normalbefund abzutun. Im Kontext einer schweren COPD muss an eine hypoxiebedingte Kompensation gedacht werden. Diese Option verpasst die pathophysiologische Erklärung.",
+          "term": "Normalbefund"
+        }
+      ]
+    },
+    "140": {
+      "topicLabel": "Respiratorische Insuffizienz",
+      "explanation": "Die Blutgasanalyse zeigt eine ausgeprägte Hypoxämie bei nicht deutlich erhöhtem pCO2 und etwa normalem pH. Das passt am ehesten zu einer hypoxischen respiratorischen Insuffizienz, also einer Störung des Sauerstoffaustauschs ohne führende Hyperkapnie. Bei COPD kann dies je nach Stadium und Situation auftreten, insbesondere bei Ventilations-Perfusions-Störung und Emphysem. Eine Globalinsuffizienz würde zusätzlich eine relevante CO2-Retention erwarten lassen. Eine metabolische Alkalose steht nicht im Vordergrund, wenn der pH normal ist und die Hypoxämie die Leitaussage bildet.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine hypoxische respiratorische Insuffizienz ist durch erniedrigten pO2 ohne zwingende Hyperkapnie gekennzeichnet. Die genannten Werte zeigen vor allem eine schwere Sauerstoffminderung. Diese Option passt deshalb am besten.",
+          "term": "Hypoxische Insuffizienz"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine respiratorische Globalinsuffizienz umfasst Hypoxämie und Hyperkapnie. Der pCO2 ist hier nicht als deutlich erhöht beschrieben, sondern nur etwa im oberen Norm- oder Grenzbereich. Deshalb ist Globalinsuffizienz nicht die beste Antwort.",
+          "term": "Globalinsuffizienz"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine metabolische Alkalose würde primär durch einen alkalischen pH und erhöhtes Bikarbonat auffallen. In der Frage ist der pH jedoch etwa normal und die Hypoxämie dominiert. Die Befundkonstellation wird daher besser respiratorisch erklärt.",
+          "term": "Metabolische Alkalose"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig überliefert und kann inhaltlich nicht sicher bewertet werden.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig überliefert und kann inhaltlich nicht sicher bewertet werden.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    }
+  }
+}

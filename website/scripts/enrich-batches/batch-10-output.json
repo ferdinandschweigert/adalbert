@@ -1,0 +1,745 @@
+{
+  "examId": "m2-ss26-f26-gedaechtnisprotokoll",
+  "questions": {
+    "201": {
+      "topicLabel": "Amputationsstumpf",
+      "explanation": "Für eine belastbare und passgenaue Prothesenversorgung muss der Amputationsstumpf möglichst formstabil, abgeschwollen und gut konditioniert sein. Ein distal geschwollener Stumpf führt zu Druckspitzen, schlechter Schaftpassung und Hautkomplikationen. Deshalb steht in der Anschlussheilbehandlung die entstauende Therapie mit Kompression, Stumpfwickelung beziehungsweise geeigneter Kompressionsversorgung im Vordergrund. Dadurch wird das Stumpfödem reduziert und die spätere Prothesenanpassung erleichtert. Begleitend sind Mobilisation, Hautpflege, Schmerztherapie und Risikofaktorenkontrolle wichtig, sie ersetzen aber die lokale Entstauung bei geschwollenem Stumpf nicht. Eine operative Entstauung wäre ohne spezielle Komplikation nicht der nächste Standardschritt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die entstauende Therapie mit Kompression ist bei distal geschwollenem Amputationsstumpf die zentrale Maßnahme zur Vorbereitung der Prothesenversorgung. Sie vermindert das Ödem, formt den Stumpf und senkt das Risiko von Druckstellen im späteren Prothesenschaft. Damit adressiert sie direkt das im Fall genannte Problem.",
+          "term": "Entstauende Kompression"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Raucherentwöhnung ist bei pAVK langfristig sehr wichtig, weil sie die vaskuläre Prognose verbessert. Sie löst aber das akute Problem des distal geschwollenen Stumpfs nicht. Für die unmittelbare Prothesenanpassung ist die lokale Entstauung entscheidender.",
+          "term": "Raucherentwöhnung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Hochlagerung kann ein Ödem kurzfristig günstig beeinflussen und Schonung kann bei Schmerzen sinnvoll erscheinen. Alleinige Schonung fördert aber keine Stumpfformung und ist nicht die optimale prothetische Vorbereitung. Eine gezielte Kompression ist der spezifischere und wirksamere rehabilitative Schritt.",
+          "term": "Hochlagerung und Schonung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Training der oberen Extremität kann die Mobilität mit Hilfsmitteln unterstützen und gehört häufig zur Rehabilitation. Es beeinflusst jedoch die Schwellung des Amputationsstumpfs nicht ausreichend. Für die Schaftpassung der Prothese ist hier die Stumpfentstauung vorrangig.",
+          "term": "Training der oberen Extremität"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Operation zur Entstauung ist bei einem postoperativ oder rehabilitativ geschwollenen Stumpf keine Standardmaßnahme. Ohne Hinweis auf Abszess, Hämatom, Gefäßverschluss oder andere chirurgische Komplikation wäre sie unverhältnismäßig. Zunächst wird konservativ mit Kompression und Stumpfformung behandelt.",
+          "term": "Operative Entstauung"
+        }
+      ]
+    },
+    "202": {
+      "topicLabel": "Organspende-DSO",
+      "explanation": "Die Deutsche Stiftung Organtransplantation koordiniert in Deutschland die postmortale Organspende nach Feststellung des irreversiblen Hirnfunktionsausfalls. Zu ihren Aufgaben gehören die organisatorische Begleitung des Spenderkrankenhauses, die Koordination der Organentnahme, die Abstimmung mit Entnahme- und Transplantationszentren sowie der Transport der Organe. Die Listung transplantationsbedürftiger Empfängerinnen und Empfänger und die eigentliche Organvermittlung beziehungsweise Zuteilung sind hingegen nicht Aufgabe der DSO. Diese Funktion ist organisatorisch von der Spenderkoordination getrennt. Deshalb ist die Option zur Listung und Zuteilung am wenigsten als Aufgabe der DSO zutreffend. Einzelne Formulierungen der anderen Antworten sind protokollbedingt ungenau, beschreiben aber eher den Koordinationsbereich der DSO.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die Formulierung \"teilstaatlich\" ist unpräzise, der Kern der Antwort betrifft aber die Koordination der Organspende in Deutschland. Diese koordinierende Rolle gehört grundsätzlich zum Aufgabenbereich der DSO. Daher ist sie nicht die am wenigsten passende Aufgabe in dieser Frage.",
+          "term": "DSO-Koordination"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die Koordination der Organentnahme und die organisatorische Vorbereitung des Spenders gehören typisch zur Arbeit der DSO. Sie unterstützt die beteiligten Kliniken bei Ablauf, Kommunikation und Logistik. Diese Option beschreibt daher eher eine DSO-Aufgabe als die gesuchte Ausnahme.",
+          "term": "Organentnahme"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nur als Fragezeichen überliefert. Inhaltlich kann sie deshalb nicht sicher bewertet werden. Maßgeblich bleibt, dass die als korrekt markierte Ausnahme die Empfängerlistung und Organzuteilung betrifft.",
+          "term": "unvollständige Antwortoption"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die Listung von Patientinnen und Patienten mit Transplantationsbedarf und die Zuteilung von Spenderorganen sind nicht die Aufgabe der DSO. Die DSO koordiniert die Spenderseite und den Ablauf der Organspende, während Vermittlung und Allokation organisatorisch getrennt erfolgen. Deshalb ist diese Option am wenigsten eine DSO-Aufgabe.",
+          "term": "Organallokation"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Der Transport von Spenderorganen gehört zur logistischen Koordination im Organspendeprozess. Die DSO stimmt solche Abläufe mit den beteiligten Stellen ab. Daher passt diese Antwort zum Aufgabenprofil der DSO und ist nicht die gesuchte Ausnahme.",
+          "term": "Organtransport"
+        }
+      ]
+    },
+    "203": {
+      "topicLabel": "Hodenkarzinom",
+      "explanation": "Hodentumoren metastasieren lymphogen typischerweise entlang der embryologischen Abstammung des Hodens. Die frühen regionären Lymphknotenstationen liegen daher retroperitoneal, besonders paraaortal beziehungsweise parakavall. Bei einem linksseitigen Hodentumor sind paraaortale Lymphknoten eine klassische frühe Metastasierungsstation. Inguinale Lymphknoten wären eher bei Skrotalhautprozessen oder nach veränderter Lymphabfluss-Situation relevant, nicht primär beim intratestikulären Tumor. Supraklavikuläre Metastasen können bei fortgeschrittener Erkrankung auftreten, sind aber nicht die frühe typische Station. Die Antwort \"retroperitoneal\" ist zwar anatomisch verwandt, im Schlüssel ist jedoch die präzisere paraaortale Lokalisation als richtige Antwort festgelegt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Paraaortale Lymphknoten sind eine typische frühe Metastasierungsstation des Hodenkarzinoms. Das entspricht dem lymphatischen Abfluss des Hodens entlang der gonadalen Gefäße in das Retroperitoneum. Für den linksseitigen Hodentumor ist diese Lokalisation besonders passend.",
+          "term": "Paraaortale Lymphknoten"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Inguinale Lymphknoten drainieren vor allem Skrotalhaut und oberflächliche Leistenregion. Der Hoden selbst drainiert primär retroperitoneal, nicht zuerst inguinal. Daher wären inguinale Metastasen bei einem typischen intratestikulären Tumor nicht die früheste erwartete Station.",
+          "term": "Inguinale Lymphknoten"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Subklavikuläre beziehungsweise supraklavikuläre Lymphknoten können bei weiter fortgeschrittener lymphogener Ausbreitung betroffen sein. Sie sind aber nicht die primäre regionale Lymphknotenstation eines Hodenkarzinoms. Früh erwartet man paraaortale retroperitoneale Lymphknoten.",
+          "term": "Subklavikuläre Lymphknoten"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Retroperitoneal ist als Oberbegriff anatomisch nahe an der richtigen Lösung, aber weniger präzise als paraaortal. Da im Antwortschlüssel paraaortal als korrekte Option markiert ist, wird diese breitere Angabe hier nicht als beste Antwort gewertet. In Prüfungsfragen ist bei Hodenkarzinom häufig die konkrete paraaortale Station gemeint.",
+          "term": "Retroperitoneale Lymphknoten"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption wurde im Gedächtnisprotokoll nicht erinnert. Eine spezifische medizinische Abgrenzung ist daher nicht möglich. Sie ist nicht die laut Antwortschlüssel richtige frühe Lymphknotenstation.",
+          "term": "unvollständige Antwortoption"
+        }
+      ]
+    },
+    "204": {
+      "topicLabel": "Operantes Lernen",
+      "explanation": "Das Verhalten der Patientin wird am ehesten durch operante Konditionierung beschrieben. Nach Panikattacken auf dem Weg zur Arbeit möchte sie die Situation vermeiden und durch Arbeitsunfähigkeit beziehungsweise Auszeit der belastenden Konfrontation entgehen. Wenn Vermeidung kurzfristig Angst reduziert, wirkt diese Angstreduktion als Verstärker und stabilisiert das Vermeidungsverhalten. Das ist ein typischer Mechanismus bei Angststörungen: Nicht die ursprüngliche Kopplung von Reiz und Angst steht im Vordergrund, sondern die Aufrechterhaltung durch Konsequenzen des Verhaltens. Klassische Konditionierung kann bei der Entstehung einer situationsgebundenen Angst eine Rolle spielen, erklärt hier aber die beantragte Vermeidung weniger gut. Bestrafungs- oder Löschungsbegriffe passen nicht zur beschriebenen kurzfristigen Entlastung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Operante Konditionierung beschreibt Lernen über Konsequenzen des eigenen Verhaltens. Die Vermeidung des Arbeitswegs oder der Arbeit reduziert kurzfristig Angst und wird dadurch verstärkt. So kann sich das Vermeidungsverhalten trotz langfristiger Nachteile stabilisieren.",
+          "term": "Operante Konditionierung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Klassische Konditionierung beschreibt die Kopplung eines ursprünglich neutralen Reizes mit einer Angstreaktion. Das könnte erklären, warum der Arbeitsweg Angst auslöst. Die Frage zielt aber auf das Verhalten der Patientin ab, nämlich die Vermeidung durch Arbeitsunfähigkeit und Auszeit.",
+          "term": "Klassische Konditionierung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Positive Bestrafung bedeutet, dass ein unangenehmer Reiz hinzugefügt wird, wodurch ein Verhalten seltener wird. Im Fall wird aber kein Verhalten durch Hinzufügen eines aversiven Reizes reduziert. Vielmehr wird Vermeidung durch Angstreduktion wahrscheinlicher.",
+          "term": "Positive Bestrafung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Negative Bestrafung meint den Entzug eines angenehmen Reizes, um Verhalten zu vermindern. Die Patientin erlebt die Auszeit nicht als Entzug einer Belohnung, sondern als Entlastung von einer angstbesetzten Situation. Daher passt dieser Lernmechanismus nicht.",
+          "term": "Negative Bestrafung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Systematische Löschung würde bedeuten, dass eine gelernte Reaktion durch wiederholte Konfrontation ohne erwartete negative Konsequenz abnimmt. Die Patientin vermeidet die Situation jedoch gerade. Dadurch wird keine Löschung ermöglicht, sondern die Angst kann aufrechterhalten werden.",
+          "term": "Systematische Löschung"
+        }
+      ]
+    },
+    "205": {
+      "topicLabel": "Chronische Leukämie",
+      "explanation": "Eine ausgeprägte Leukozytose bei einem älteren Patienten ohne klare Entzündungszeichen spricht differenzialdiagnostisch für eine hämatologische Neoplasie. Der Begriff \"chronische Leukämie\" passt hier am ehesten, weil solche Erkrankungen häufig im höheren Lebensalter und teils zufällig im Blutbild auffallen. Je nach Differenzialblutbild kämen insbesondere chronische lymphatische oder myeloische Leukämien in Betracht; die angebotene Antwort bleibt jedoch allgemein. Fehlende B-Symptomatik oder Lymphknotenschwellung schließt eine chronische Leukämie nicht aus. Ein myelodysplastisches Syndrom macht eher Zytopenien und dysplastische Blutbildung als eine isolierte massive Leukozytose. Hodgkin-Lymphom oder EBV würden andere klinische Konstellationen erwarten lassen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine chronische Leukämie ist bei starker Leukozytose ohne Infektzeichen die naheliegendste Option. Chronische Leukämien können im Alter lange oligosymptomatisch sein und durch ein auffälliges Blutbild entdeckt werden. Die genauen Subtypen müssten über Differenzialblutbild, Ausstrich und weitere Diagnostik geklärt werden.",
+          "term": "Chronische Leukämie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein myelodysplastisches Syndrom ist eine klonale Knochenmarkerkrankung, zeigt aber typischerweise ineffektive Hämatopoese mit Zytopenien und Dysplasien. Eine ausgeprägte Leukozytose dieser Größenordnung passt weniger gut als eine chronische Leukämie. Ohne Angaben zu Anämie, Thrombozytopenie oder Dysplasie ist diese Option nicht am plausibelsten.",
+          "term": "Myelodysplastisches Syndrom"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Das klassische Hodgkin-Lymphom präsentiert sich meist mit Lymphknotenvergrößerungen und kann B-Symptome verursachen. Eine isolierte ausgeprägte Leukozytose als Check-up-Befund ist dafür nicht typisch. Im Fall werden Lymphknotenschwellungen und B-Symptomatik gerade verneint.",
+          "term": "Hodgkin-Lymphom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine EBV-Infektion kann eine reaktive Lymphozytose verursachen, typischerweise mit infektiöser Mononukleose, Fieber, Pharyngitis und Lymphadenopathie. Das Alter und die fehlenden Infektzeichen machen diese Erklärung deutlich weniger wahrscheinlich. Zudem ist die Leukozytose hier sehr ausgeprägt.",
+          "term": "EBV-Infektion"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll nur als Fragezeichen erhalten. Inhaltlich kann sie daher nicht seriös gegen die chronische Leukämie abgegrenzt werden. Sie ist nicht die laut Antwortschlüssel korrekte Diagnose.",
+          "term": "unvollständige Antwortoption"
+        }
+      ]
+    },
+    "206": {
+      "topicLabel": "Delir",
+      "explanation": "Die akute Desorientierung zu allen Qualitäten, optische Halluzinationen und der stark reduzierte Allgemeinzustand sprechen am ehesten für ein Delir. Bei älteren, mangelernährten oder verwahrlosten Patientinnen und Patienten können Infekte, Exsikkose, metabolische Störungen, Immobilisation oder andere akute Belastungen ein Delir auslösen. Parkinsonsymptome oder ein länger bestehender sozialer Rückzug können als Begleit- oder Vorerkrankung bedeutsam sein, erklären aber die akute globale Desorientierung nicht ausreichend. Typisch für ein Delir sind Bewusstseins- und Aufmerksamkeitsstörungen mit fluktuierender Symptomatik und häufig visuellen Halluzinationen. Eine schizophrene Psychose wäre in diesem Alter und bei dieser körperlichen Konstellation weniger wahrscheinlich. Ein amnestisches Syndrom erklärt Gedächtnisstörungen, aber nicht die akute Desorientierung mit optischen Halluzinationen in reduziertem Allgemeinzustand.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Das Delir passt zu akuter Desorientierung, gestörter Aufmerksamkeit und optischen Halluzinationen. Der schlechte Ernährungs- und Allgemeinzustand liefert plausible Auslöser wie Exsikkose, Infekt oder metabolische Entgleisung. Bei geriatrischen Patienten ist dies eine vorrangig abzuklärende und potenziell reversible Diagnose.",
+          "term": "Delir"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine schizophrene Psychose beginnt typischerweise deutlich früher im Leben und zeigt eher formale Denkstörungen, Wahn und akustische Halluzinationen. Hier werden Wahnphänomene verneint, und die optischen Halluzinationen treten zusammen mit globaler Desorientierung auf. Das spricht stärker für ein organisches Delir.",
+          "term": "Schizophrene Psychose"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein amnestisches Syndrom ist vor allem durch ausgeprägte Gedächtnisstörungen, Konfabulationen und Desorientierung im Rahmen einer chronischen oder subakuten Hirnfunktionsstörung geprägt. Die im Fall geschilderten akuten optischen Halluzinationen und die massive Aufmerksamkeits- beziehungsweise Orientierungsstörung passen besser zum Delir. Zudem fehlen spezifische Angaben, die ein amnestisches Syndrom gegenüber dem Delir wahrscheinlicher machen.",
+          "term": "Amnestisches Syndrom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Antwortoption wurde im Protokoll nicht vollständig erinnert. Ohne den ursprünglichen Wortlaut ist keine sichere Differenzierung möglich. Sie ist nicht die im Antwortschlüssel markierte Diagnose.",
+          "term": "unvollständige Antwortoption"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption liegt nur als Fragezeichen vor. Daher kann sie inhaltlich nicht bewertet werden. Für die Erklärung ist entscheidend, dass die akute Desorientierung mit visuellen Halluzinationen am besten als Delir einzuordnen ist.",
+          "term": "unvollständige Antwortoption"
+        }
+      ]
+    },
+    "207": {
+      "topicLabel": "Postpunktioneller Kopfschmerz",
+      "explanation": "Die Patientin beschreibt lageabhängige Kopfschmerzen nach akzidenteller Duraperforation bei Periduralkatheteranlage. Das ist klassisch für einen postpunktionellen Kopfschmerz durch Liquorverlust und konsekutive intrakranielle Hypotension. Typisch ist eine deutliche Zunahme im Sitzen oder Stehen und Besserung im Liegen. Der zeitliche Zusammenhang mit der Punktion und die fast vollständige Beschwerdefreiheit in Rückenlage stützen die Diagnose. Ein subdurales Hämatom kann selten als Komplikation diskutiert werden, wäre aber bei dieser typischen orthostatischen Symptomatik nicht die wahrscheinlichste Erstdiagnose. Unvollständig überlieferte Optionen ändern daran nichts.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Der postpunktionelle Kopfschmerz ist nach Duraperforation die naheliegende Diagnose. Die orthostatische Charakteristik mit Schmerzen beim Aufrichten und Besserung im Liegen ist sehr typisch. Der Fall liefert mit der versehentlichen Durapunktion den passenden Auslöser.",
+          "term": "Postpunktioneller Kopfschmerz"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein subdurales Hämatom kann Kopfschmerzen verursachen und ist als seltene Komplikation nach Liquorverlust möglich. Die hier beschriebene fast reine Lageabhängigkeit unmittelbar nach Durapunktion spricht jedoch primär für postpunktionellen Kopfschmerz. Ohne neurologische Ausfälle oder progrediente Warnzeichen ist es nicht die wahrscheinlichste Antwort.",
+          "term": "Subdurales Hämatom"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht erhalten. Eine konkrete medizinische Begründung ist deshalb nicht möglich. Sie ist nicht die laut Lösung korrekte Diagnose.",
+          "term": "unvollständige Antwortoption"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Option wurde nur als Fragezeichen erinnert. Da der Wortlaut fehlt, kann sie nicht sicher gegen den postpunktionellen Kopfschmerz abgegrenzt werden. Die typische orthostatische Symptomatik bleibt entscheidend.",
+          "term": "unvollständige Antwortoption"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortmöglichkeit ist unvollständig überliefert. Inhaltlich lässt sie sich daher nicht bewerten. Nach Antwortschlüssel und Fallkonstellation ist der postpunktionelle Kopfschmerz richtig.",
+          "term": "unvollständige Antwortoption"
+        }
+      ]
+    },
+    "208": {
+      "topicLabel": "Hypophysentumor",
+      "explanation": "Eine bitemporale Hemianopsie spricht für eine Läsion im Bereich des Chiasma opticum. Bei einem jungen Patienten mit Kopfschmerzen ist eine selläre oder supraselläre Raumforderung, insbesondere ein Hypophysenadenom, eine wichtige Differenzialdiagnose. Neben der Bildgebung ist die endokrinologische Abklärung zentral, weil Hypophysentumoren hormonaktiv sein oder durch Kompression Hypophysenachsen beeinträchtigen können. Unter den angebotenen Zusatzuntersuchungen passt daher die Hormondiagnostik am besten. Ophthalmologische Verfahren wie OCT können Netzhaut- oder Sehnervenveränderungen beurteilen, klären aber die endokrine Ursache einer chiasmalen Läsion nicht. Sonografie der Orbita und Liquorpunktion sind für diese Fragestellung nicht zielführend.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Hormondiagnostik ist bei Verdacht auf eine Hypophysenregion-Läsion wichtig. Sie prüft sowohl Hormonexzesse als auch Hypophyseninsuffizienzen und beeinflusst das weitere Vorgehen. Bei bitemporaler Hemianopsie passt dies zur Abklärung eines möglichen Hypophysenadenoms.",
+          "term": "Hypophysen-Hormondiagnostik"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht vollständig überliefert. Ohne Wortlaut kann sie nicht verlässlich medizinisch eingeordnet werden. Sie ist jedenfalls nicht die laut Antwortschlüssel gesuchte Zusatzuntersuchung.",
+          "term": "unvollständige Antwortoption"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die optische Kohärenztomografie untersucht Netzhaut und Sehnervenfaserschicht sehr detailliert. Sie kann bei ophthalmologischen Fragestellungen hilfreich sein, erklärt aber nicht primär die Ursache einer bitemporalen Hemianopsie durch Chiasmakompression. Für eine vermutete Hypophysenläsion ist die endokrinologische Abklärung passender.",
+          "term": "Optische Kohärenztomografie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Sonografie der Orbita eignet sich für bestimmte orbitale oder okuläre Fragestellungen. Eine chiasmale Läsion im Bereich der Sella lässt sich damit nicht sinnvoll abklären. Die bitemporale Hemianopsie lenkt die Diagnostik vielmehr auf Hypophyse und Chiasma.",
+          "term": "Orbita-Sonografie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Liquorpunktion ist bei Verdacht auf Infektion, entzündliche Erkrankungen oder bestimmte Blutungen relevant. Bei bitemporaler Hemianopsie durch vermutete Chiasmakompression ist sie nicht die naheliegende Zusatzuntersuchung. Zudem müsste vor einer Punktion bei Raumforderungsverdacht besondere Vorsicht gelten.",
+          "term": "Liquorpunktion"
+        }
+      ]
+    },
+    "209": {
+      "topicLabel": "Diabetes-Hypoglykämie",
+      "explanation": "Bei einem älteren Menschen mit wiederholten Hypoglykämien sollte ein Antidiabetikum mit relevantem Hypoglykämierisiko vermieden werden. Sulfonylharnstoffe stimulieren die Insulinsekretion unabhängig vom aktuellen Glukosespiegel und können dadurch Hypoglykämien auslösen oder verstärken. Das ist besonders problematisch bei älteren Patientinnen und Patienten, unregelmäßiger Nahrungsaufnahme oder eingeschränkter Gegenregulation. DPP-4-Hemmer und Metformin haben als Monotherapie typischerweise ein deutlich geringeres Hypoglykämierisiko. Daher ist der Sulfonylharnstoff die Substanzgruppe, die hier am ehesten nicht verordnet werden sollte. Die unvollständigen Optionen lassen sich nicht weiter beurteilen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Sulfonylharnstoffe erhöhen die Insulinfreisetzung und können dadurch relevante Hypoglykämien verursachen. Bei einer Patientin oder einem Patienten mit bereits häufigen Hypoglykämien sind sie daher ungünstig. Diese Option trifft die Frage nach dem nicht zu verordnenden oralen Antidiabetikum am besten.",
+          "term": "Sulfonylharnstoff"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "DPP-4-Inhibitoren wirken glukoseabhängig und haben als Monotherapie ein geringes Hypoglykämierisiko. Sie sind deshalb im Vergleich zu Sulfonylharnstoffen weniger problematisch, wenn Hypoglykämien vermieden werden sollen. Diese Option ist nicht die gesuchte Kontra-Auswahl.",
+          "term": "DPP-4-Inhibitor"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Biguanide, praktisch vor allem Metformin, verursachen allein üblicherweise keine Hypoglykämien. Sie senken die hepatische Glukoseproduktion und verbessern die Insulinsensitivität, ohne direkt eine glukoseunabhängige Insulinsekretion zu erzwingen. Daher sind sie nicht die typische Ursache wiederholter Hypoglykämien.",
+          "term": "Biguanid"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nur als Fragezeichen erhalten. Eine substanzspezifische Bewertung ist daher nicht möglich. Sie ist nicht die laut Antwortschlüssel gesuchte Antwort.",
+          "term": "unvollständige Antwortoption"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Option wurde nicht vollständig erinnert. Ohne den Wirkstoffnamen lässt sich das Hypoglykämierisiko nicht beurteilen. Maßgeblich bleibt der markierte Sulfonylharnstoff als hypoglykämieträchtige Substanzgruppe.",
+          "term": "unvollständige Antwortoption"
+        }
+      ]
+    },
+    "210": {
+      "topicLabel": "Benzol-Leukämie",
+      "explanation": "Benzol ist ein klassischer hämatotoxischer Gefahrstoff und gilt als relevanter beruflicher Risikofaktor für Leukämien. Ein ehemaliger Tankwart kann beruflich mit benzolhaltigen Kraftstoffdämpfen exponiert gewesen sein. Bei Verdacht auf eine chronische myeloische Leukämie ist daher Benzol unter den genannten Stoffen die plausibelste Risikoexposition. Aromatische Verbindungen als unspezifische Gruppe sind zu ungenau, und Quecksilber ist nicht der typische leukämogene Arbeitsstoff. Die Frage zielt auf arbeitsmedizinisches Wissen zur Benzolexposition und hämatologischen Neoplasien. Weitere nicht erinnerte Optionen können nicht bewertet werden, ändern aber den markierten Schlüssel nicht.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Benzol ist der typische leukämogene Gefahrstoff in dieser Auswahl. Es kann bei beruflicher Exposition das Risiko hämatologischer Neoplasien erhöhen und passt zur Tätigkeit an einer Tankstelle. Deshalb ist diese Antwort laut Schlüssel korrekt.",
+          "term": "Benzol"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Aromatische Verbindungen oder aromatische Polyamide sind als Formulierung unspezifisch und nicht die klassische Prüfungsantwort für Leukämierisiko beim Tankwart. Entscheidend ist hier Benzol als konkreter Gefahrstoff. Diese Option ist daher weniger passend.",
+          "term": "Aromatische Verbindungen"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Quecksilber ist toxikologisch bedeutsam, vor allem neurotoxisch und nephrotoxisch. Es ist aber nicht der typische berufliche Risikofaktor für eine chronische myeloische Leukämie. Im Kontext Tankstelle und Leukämie ist Benzol die deutlich passendere Exposition.",
+          "term": "Quecksilber"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Antwortoption wurde im Gedächtnisprotokoll nicht erinnert. Ohne den ursprünglichen Stoffnamen ist keine inhaltliche Bewertung möglich. Sie ist nicht die laut Antwortschlüssel korrekte Exposition.",
+          "term": "unvollständige Antwortoption"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Auch diese Option liegt nur als Fragezeichen vor. Daher kann sie nicht seriös gegen Benzol abgegrenzt werden. Maßgeblich bleibt der bekannte Zusammenhang zwischen Benzol und Leukämierisiko.",
+          "term": "unvollständige Antwortoption"
+        }
+      ]
+    },
+    "211": {
+      "topicLabel": "Kindlicher Unterarmtrauma",
+      "explanation": "Der Antwortschlüssel markiert bei dem Kind mit druckdolentem, aber frei beweglichem Unterarm ohne Fehlstellung die Wiedervorstellung in einigen Tagen als richtig. Das passt zu einer klinisch niedrig dringlichen Konstellation, wenn keine sichere Frakturzeichen, keine Funktionsstörung und keine Fehlstellung vorliegen. Bei anhaltenden oder zunehmenden Beschwerden kann dann erneut untersucht und gegebenenfalls bildgebend abgeklärt werden. Die Sorge der Mutter wegen Strahlenbelastung darf ernst genommen werden, ersetzt aber nicht die klinische Entscheidung nach Befund und Risiko. Sonografie kann in manchen Settings zur Frakturdiagnostik bei Kindern genutzt werden, ist hier nach Antwortschlüssel aber nicht die korrekte Maßnahme. Wegen des protokollierten Kommentars zur Sonografie ist die inhaltliche Sicherheit der rekonstruierten Frage niedriger, die Codierung bleibt jedoch verbindlich.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Sonografie kann bei kindlichen Frakturfragestellungen je nach Lokalisation und Erfahrung hilfreich sein. In diesem Gedächtnisprotokoll ist diese Option aber trotz Kommentar nicht als korrekt codiert. Sie wird daher nicht als die gesuchte Maßnahme gewertet.",
+          "term": "Fraktursonografie"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die Wiedervorstellung in einigen Tagen ist laut Antwortschlüssel richtig. Bei fehlender Fehlstellung, erhaltener Beweglichkeit und offenbar niedrigem Akutrisiko kann eine klinische Verlaufskontrolle sinnvoll sein. Persistieren Schmerzen oder treten neue Befunde auf, würde die Indikation zur weiteren Diagnostik neu bewertet.",
+          "term": "Verlaufskontrolle"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Entlassung mit Vollbelastung wäre bei Druckschmerz nach Sturz zu sorglos. Auch ohne Fehlstellung kann eine okkulte Verletzung bestehen. Mindestens Schonung, Aufklärung und Verlaufskontrolle sind plausibler als sofortige Vollbelastung.",
+          "term": "Sofortige Vollbelastung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein MRT zum Ausschluss einer Epiphysenverletzung ist bei dieser beschriebenen Niedrigrisikokonstellation nicht die erste Maßnahme. Es wäre aufwendiger und eher bei speziellen Verdachtsmomenten oder unklaren persistierenden Beschwerden zu erwägen. Die Frage sucht laut Schlüssel die Verlaufskontrolle.",
+          "term": "MRT"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Röntgen kann bei begründetem Frakturverdacht erforderlich sein und die Strahlenbelastung ist bei korrekter Indikation zu rechtfertigen. Im hier codierten Fall wird aber nicht diese Erklärung als richtige Antwort gewertet. Bei fehlenden sicheren Frakturzeichen ist laut Schlüssel die Wiedervorstellung die passendere Maßnahme.",
+          "term": "Röntgenindikation"
+        }
+      ]
+    },
+    "212": {
+      "topicLabel": "Meningeom",
+      "explanation": "Eine duraständige Raumforderung mit Dura-Tail-Sign ist klassisch verdächtig auf ein Meningeom. Meningeome wachsen extraaxial von den Meningen aus und können durch lokale Kompression epileptische Anfälle oder fokale neurologische Defizite verursachen. Bei Lage an der Hirnkonvexität spricht man entsprechend von einem Konvexitätsmeningeom. Das Dura-Tail-Sign beschreibt eine angrenzende durale Kontrastmittelaufnahme und stützt die Diagnose, ist aber im klinischen Kontext zu interpretieren. Ein Abszess oder Glioblastom hätte typischerweise eine andere Bildmorphologie und klinische Einbettung. Die nicht erinnerten Optionen können nicht genauer abgegrenzt werden.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Das Konvexitätsmeningeom passt zur duraständigen Raumforderung mit Dura-Tail-Sign. Meningeome sind extraaxiale Tumoren und können epileptische Anfälle auslösen. Die Bildbeschreibung ist für diese Diagnose sehr typisch.",
+          "term": "Konvexitätsmeningeom"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Hirnabszess ist meist infektiös bedingt und zeigt eher eine ringförmige Läsion mit perifokalem Ödem in passendem klinischem Kontext. Eine duraständige Raumforderung mit Dura-Tail-Sign ist dafür nicht typisch. Ohne Fieber, Entzündungszeichen oder infektiöse Anamnese ist der Abszess weniger wahrscheinlich.",
+          "term": "Hirnabszess"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Glioblastom ist ein hochmaligner intraaxialer Hirntumor und zeigt häufig infiltratives Wachstum, Nekrosen und ringförmige Kontrastmittelaufnahme. Eine klar duraständige extraaxiale Läsion mit Dura-Tail-Sign spricht eher für ein Meningeom. Daher ist diese Option nicht korrekt.",
+          "term": "Glioblastom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Antwortoption wurde im Gedächtnisprotokoll nicht vollständig erinnert. Eine genaue Differenzialdiagnose kann deshalb nicht diskutiert werden. Sie ist nicht die laut Lösung markierte Diagnose.",
+          "term": "unvollständige Antwortoption"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Option liegt nur als Fragezeichen vor. Ohne den ursprünglichen Wortlaut ist keine medizinische Bewertung möglich. Die typischen Bildzeichen sprechen für das Konvexitätsmeningeom.",
+          "term": "unvollständige Antwortoption"
+        }
+      ]
+    },
+    "213": {
+      "topicLabel": "Tiefe Beinvenenthrombose",
+      "explanation": "Ein akut schmerzhaft geschwollenes, gespanntes und rötlich-livide verfärbtes Bein bei bettlägeriger Patientin spricht am ehesten für eine tiefe Beinvenenthrombose, also Phlebothrombose. Die Immobilisation im Rahmen der Pneumonie ist ein wichtiger Risikofaktor für venöse Thrombosen. Die livide Verfärbung und die diffuse Schwellung passen besser zu einer tiefen venösen Abflussstörung als zu einer oberflächlichen Thrombophlebitis. Eine arterielle Verschlusskrankheit würde eher Ischämiezeichen wie Blässe, Kälte, Pulslosigkeit und starke akute Schmerzen erwarten lassen. Ein Lymphödem ist meist nicht so akut schmerzhaft und livide. Daher ist die Phlebothrombose die wahrscheinlichste Zusatzdiagnose.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Thrombophlebitis betrifft oberflächliche Venen und zeigt meist einen lokal begrenzten, druckschmerzhaften, geröteten Venenstrang. Der Fall beschreibt jedoch ein diffus geschwollenes, gespanntes Bein. Das spricht eher für eine tiefe Beinvenenthrombose.",
+          "term": "Thrombophlebitis"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die Phlebothrombose erklärt die akute einseitige Beinschwellung mit Schmerzen und livider Verfärbung. Bettlägerigkeit bei Pneumonie erhöht das Thromboserisiko zusätzlich. Diese Kombination macht die tiefe Beinvenenthrombose zur wahrscheinlichsten Diagnose.",
+          "term": "Phlebothrombose"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Endarteriitis obliterans beschreibt eine arterielle Verschlusskrankheit, typischerweise mit chronischer Durchblutungsstörung. Sie verursacht nicht klassisch ein akut geschwollenes, gespanntes und livide-rötliches Bein. Die venöse Stauung passt besser zur Phlebothrombose.",
+          "term": "Endarteriitis obliterans"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Lymphödem kann eine Beinschwellung verursachen, ist aber meist chronischer und nicht primär durch akute Schmerzen und livide Verfärbung gekennzeichnet. Die Bettlägerigkeit und das gespannte schmerzhafte Bein sprechen stärker für eine venöse Thrombose. Daher ist diese Option nicht am wahrscheinlichsten.",
+          "term": "Lymphödem"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein akuter arterieller Verschluss führt klassisch zu Ischämiezeichen wie Schmerz, Blässe, Pulslosigkeit, Kälte, Sensibilitäts- oder Bewegungsstörungen. Ein rötlich-livides, geschwollenes und gespanntes Bein bei Immobilisation passt weniger dazu. Die Konstellation ist venös-thrombotisch zu deuten.",
+          "term": "Arterieller Verschluss"
+        }
+      ]
+    },
+    "214": {
+      "topicLabel": "Diabetesdiagnose",
+      "explanation": "Zur Diagnose eines Diabetes mellitus werden definierte Glukose- oder HbA1c-Grenzwerte herangezogen. In der vorliegenden Auswahl bestätigt der Nüchternblutzucker von 128 mg/dl die Diagnose, weil er oberhalb der diagnostischen Schwelle für Diabetes liegt. Die übrigen Werte liegen entweder im prädiabetischen Bereich oder sind als Einzelwert ohne passende Höhe nicht diagnostisch. Ein 2-Stunden-OGTT-Wert von 180 mg/dl spricht nicht für einen Diabetes, sondern für eine gestörte Glukosetoleranz. Ein HbA1c von 5,7 % ist ebenfalls nicht diabetesdiagnostisch. Gewebetransglutaminase-Antikörper betreffen die Zöliakiediagnostik und bestätigen keinen Typ-1-Diabetes.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein 2-Stunden-OGTT-Wert von 180 mg/dl ist erhöht, erreicht aber nicht den diagnostischen Diabetesbereich. Er passt eher zu einer gestörten Glukosetoleranz. Damit bestätigt diese Option die Diagnose nicht.",
+          "term": "2h-OGTT 180 mg/dl"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein HbA1c von 5,7 % liegt nicht im Diabetesbereich. Er kann auf ein erhöhtes Risiko beziehungsweise einen Grenzbereich hinweisen, bestätigt aber keinen manifesten Diabetes mellitus. Deshalb ist diese Option nicht korrekt.",
+          "term": "HbA1c 5,7 %"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Ein Nüchternblutzucker von 128 mg/dl liegt im diabetesdiagnostischen Bereich. Bei passender klinischer Situation bestätigt dieser Wert die Diagnose am ehesten unter den angebotenen Laborbefunden. Deshalb ist diese Option laut Antwortschlüssel richtig.",
+          "term": "Nüchternglukose 128 mg/dl"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein nicht-nüchterner Blutzucker von 168 mg/dl ist erhöht, aber als Zufallswert nicht hoch genug, um Diabetes sicher zu diagnostizieren. Für einen diagnostischen Zufallsblutzucker wäre eine deutlichere Hyperglykämie mit typischen Symptomen relevant. Diese Option bestätigt die Diagnose daher nicht.",
+          "term": "Nicht-nüchterner Blutzucker 168 mg/dl"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Gewebetransglutaminase-Antikörper gehören zur Abklärung einer Zöliakie. Zöliakie ist zwar mit Typ-1-Diabetes assoziiert, dieser Marker bestätigt aber keinen Diabetes mellitus. Zudem ist die angegebene IgG-Konstellation nicht die gesuchte Diabetesdiagnostik.",
+          "term": "Gewebetransglutaminase-Antikörper"
+        }
+      ]
+    },
+    "215": {
+      "topicLabel": "Typ-1-Diabetes-Komorbidität",
+      "explanation": "Typ-1-Diabetes ist eine Autoimmunerkrankung und tritt gehäuft zusammen mit anderen Autoimmunerkrankungen auf. Besonders relevant sind autoimmune Schilddrüsenerkrankungen, darunter die Hashimoto-Thyreoiditis. Daher ist bei Kindern mit Typ-1-Diabetes im Verlauf auf entsprechende Schilddrüsenautoimmunität und Funktionsstörungen zu achten. Auch Zöliakie wäre eine typische Assoziation, wird hier aber nicht als Option angeboten. Phosphatdiabetes, Diabetes insipidus, konstitutionelle Entwicklungsverzögerung und IgA-Vaskulitis haben keine vergleichbar typische Assoziation mit Typ-1-Diabetes. Die Hashimoto-Thyreoiditis ist deshalb die beste Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Hashimoto-Thyreoiditis ist eine klassische autoimmune Begleiterkrankung bei Typ-1-Diabetes. Beide Erkrankungen können im Rahmen einer Autoimmunneigung gemeinsam auftreten. Deshalb ist diese Option die naheliegende Komorbidität.",
+          "term": "Hashimoto-Thyreoiditis"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Phosphatdiabetes betrifft Störungen des Phosphathaushalts und der Knochenmineralisation. Er ist nicht die typische autoimmune Begleiterkrankung eines Typ-1-Diabetes. Daher passt diese Option nicht zur gesuchten Assoziation.",
+          "term": "Phosphatdiabetes"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Diabetes insipidus ist eine Störung des Wasserhaushalts durch ADH-Mangel oder ADH-Resistenz. Trotz ähnlichem Namen ist er pathophysiologisch nicht mit Typ-1-Diabetes mellitus gleichzusetzen. Eine typische Komorbidität bei Typ-1-Diabetes ist er nicht.",
+          "term": "Diabetes insipidus"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine konstitutionelle Entwicklungsverzögerung ist eine Variante der körperlichen Reifung und keine autoimmune Erkrankung. Sie erklärt nicht die typische Komorbiditätsfrage bei Typ-1-Diabetes. Deshalb ist sie nicht die gesuchte Antwort.",
+          "term": "Konstitutionelle Entwicklungsverzögerung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die IgA-Vaskulitis ist eine immunvermittelte Kleingefäßvaskulitis, meist mit Purpura, Gelenk- und Bauchbeschwerden. Sie ist nicht die klassische im Verlauf zu erwartende Komorbidität eines Typ-1-Diabetes. Die Schilddrüsenautoimmunität ist hier deutlich typischer.",
+          "term": "IgA-Vaskulitis"
+        }
+      ]
+    },
+    "216": {
+      "topicLabel": "Typ-1-Diabetes-Therapie",
+      "explanation": "Bei Kindern und Jugendlichen mit Typ-1-Diabetes ist die Insulintherapie die Basis und zentrale Behandlung. Orale Antidiabetika wie Metformin oder SGLT2-Hemmer ersetzen die Insulintherapie nicht und sind in dieser Konstellation nicht als Routinebehandlung empfohlen. Besonders bei SGLT2-Hemmern wäre bei Typ-1-Diabetes zudem an das Risiko ketoazidotischer Entgleisungen zu denken, sodass sie nicht unkritisch als Ergänzung eingesetzt werden. Die Frage fragt nach der Aussage zu oralen Antidiabetika bei dem Kind, und der Antwortschlüssel markiert die Nichtempfehlung. Vor Operationen oder bei Pumpentherapie ergibt sich daraus keine Standardindikation. Auch eine Ergänzung zur intensivierten Insulintherapie ist für das Kind nicht die gesuchte Regelantwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Vor Operationen werden orale Antidiabetika bei Typ-1-Diabetes nicht als empfohlene Standardmaßnahme eingeführt. Perioperativ steht vielmehr eine sichere Insulin- und Glukoseführung im Vordergrund. Diese Option beschreibt daher keine richtige Therapieaussage für das Kind.",
+          "term": "Präoperative orale Antidiabetika"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine routinemäßige Ergänzung der intensivierten Insulintherapie durch Metformin oder SGLT2-Hemmer ist bei einem Kind mit Typ-1-Diabetes nicht die Standardempfehlung. Die Insulintherapie bleibt die Basis. Daher ist diese Option laut Schlüssel nicht korrekt.",
+          "term": "Add-on zu Insulin"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Auch bei Pumpentherapie besteht die Behandlung weiterhin in einer Insulintherapie. Eine Pumpe ist kein Grund, orale Antidiabetika routinemäßig zu empfehlen. Die angebotene Aussage passt daher nicht zur pädiatrischen Typ-1-Diabetes-Therapie.",
+          "term": "Pumpentherapie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nur unvollständig überliefert. Ohne den Wortlaut kann sie nicht spezifisch bewertet werden. Sie ist nicht die laut Antwortschlüssel richtige Aussage.",
+          "term": "unvollständige Antwortoption"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Orale Antidiabetika sind bei einem Kind mit Typ-1-Diabetes nicht als Routinebehandlung empfohlen. Entscheidend ist eine adäquate Insulintherapie mit Schulung, Glukosekontrolle und Anpassung an Alltagssituationen. Deshalb ist diese Aussage die richtige Antwort.",
+          "term": "Keine oralen Antidiabetika"
+        }
+      ]
+    },
+    "217": {
+      "topicLabel": "Pertussis-Diagnostik",
+      "explanation": "Bei einem 5 Wochen alten Säugling mit Apnoen und kurzem Krankheitsverlauf ist Pertussis eine wichtige Differenzialdiagnose. In der frühen Erkrankungsphase ist der Erregernachweis mittels PCR aus Nasopharyngeal- beziehungsweise Nasensekret die geeignete Diagnostik. Serologie ist in diesem Alter und bei frühem Verlauf weniger hilfreich, zumal Säuglinge noch keine zuverlässige Antikörperantwort zeigen müssen. Spezifische Toxinnachweise aus Speichel oder Mikroagglutinationstests sind nicht die klinische Standardantwort. Eulenaugenzellen gehören zu zytomegalievirusassoziierten Befunden und nicht zur Pertussisdiagnostik. Daher ist die PCR aus Nasensekret korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die PCR aus Nasensekret beziehungsweise nasopharyngealem Material ist bei frühem Pertussisverdacht die passende Diagnostik. Sie weist Bordetella pertussis direkt nach und ist gerade zu Beginn der Erkrankung sinnvoll. Bei einem sehr jungen Säugling mit Apnoen ist eine rasche Erregerdiagnostik wichtig.",
+          "term": "Pertussis-PCR"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Pertussis-Toxinnachweis aus Speichel ist nicht die übliche Standarddiagnostik in dieser Situation. Klinisch wird der direkte Erregernachweis vor allem per PCR aus geeignetem Atemwegsmaterial geführt. Daher ist diese Option nicht korrekt.",
+          "term": "Pertussis-Toxin aus Speichel"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "IgM-Serologie ist bei Pertussis nicht die beste frühe Diagnostik, besonders nicht beim jungen Säugling. Die Antikörperantwort kann fehlen, verzögert sein oder schwer interpretierbar werden. Für den kurzen Krankheitsverlauf ist die PCR geeigneter.",
+          "term": "Pertussis-Serologie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Mikroagglutinationstest ist nicht die moderne Standarddiagnostik für akuten Pertussisverdacht beim Säugling. Die Frage zielt auf den direkten molekularbiologischen Erregernachweis. Deshalb ist diese Option nicht die beste Antwort.",
+          "term": "Mikroagglutinationstest"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eulenaugenzellen sind ein klassischer histologischer Hinweis auf eine CMV-Infektion. Sie haben mit Bordetella pertussis und der Diagnostik des Keuchhustens nichts zu tun. Diese Option ist daher klar falsch.",
+          "term": "Eulenaugenzellen"
+        }
+      ]
+    },
+    "218": {
+      "topicLabel": "Pertussis-Therapie",
+      "explanation": "Bei Pertussis im Säuglingsalter ist eine antibiotische Therapie mit einem Makrolid die richtige kausale Maßnahme. Sie kann die Erregerausscheidung vermindern und ist besonders wichtig, um Ansteckungsfähigkeit und Verlauf in der Umgebung zu beeinflussen. Bei sehr jungen Säuglingen mit Apnoen ist zusätzlich eine stationäre Überwachung relevant, die Frage fragt jedoch nach der Therapieoption. Intubation ist keine Standardtherapie, sondern nur bei schwerer respiratorischer Dekompensation als intensivmedizinische Maßnahme erforderlich. Aktive Immunisierung schützt präventiv, behandelt aber die aktuelle Infektion nicht. Spezifische Immunglobuline oder inhalative Glukokortikoide sind keine kausale Pertussistherapie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Makrolide sind die antibiotische Standardtherapie bei Pertussis. Sie reduzieren die bakterielle Erregerausscheidung und damit die Infektiosität. Beim Säugling mit Verdacht beziehungsweise Nachweis ist diese Behandlung die passende kausale Option.",
+          "term": "Makrolid"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine endotracheale Intubation ist keine spezifische Pertussistherapie. Sie kann nur bei schwerer Ateminsuffizienz oder lebensbedrohlichen Apnoen intensivmedizinisch notwendig werden. Als allgemeine Therapieantwort ist sie daher nicht richtig.",
+          "term": "Endotracheale Intubation"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die aktive Immunisierung dient der Prävention und ist für den Bevölkerungsschutz entscheidend. Sie behandelt jedoch keine bereits bestehende Pertussisinfektion. In der akuten Situation ist ein Makrolid gefragt.",
+          "term": "Aktive Immunisierung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Spezifische Immunglobuline sind keine etablierte Standardtherapie der Pertussis. Die Erkrankung wird antibiotisch behandelt und supportiv überwacht. Daher ist diese Option nicht korrekt.",
+          "term": "Spezifische Immunglobuline"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Inhalative Glukokortikoide adressieren entzündliche Atemwegserkrankungen wie Asthma, sind aber keine kausale Therapie bei Pertussis. Sie beseitigen Bordetella pertussis nicht und ersetzen keine antibiotische Behandlung. Deshalb ist diese Antwort falsch.",
+          "term": "Inhalatives Glukokortikoid"
+        }
+      ]
+    },
+    "219": {
+      "topicLabel": "Atypisches ACS",
+      "explanation": "Plötzlich einsetzende, anhaltende und lagerungsunabhängige Rückenschmerzen bei einem älteren blassen Patienten sind ein Warnsignal. Kardiale Ischämien können atypisch auftreten und Schmerzen in Rücken, Schulter, Kiefer oder Oberbauch projizieren. Die Vitalparameter und das blasse Erscheinungsbild sprechen gegen eine harmlose muskuläre Ursache, auch wenn der Patient zunächst nur eine Schmerzspritze wünscht. Deshalb ist eine notfallmäßige Krankenhauseinweisung mit Rettungsdienst angemessen. Urologische, orthopädische oder ambulant abwartende Strategien würden potenziell lebensbedrohliche Ursachen verzögern. Eine Pankreatitis kann ebenfalls Schmerzen verursachen, die vorliegende Antwort zielt aber auf die mögliche instabile Angina beziehungsweise ein akutes Koronarsyndrom.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine instabile Angina pectoris oder ein akutes Koronarsyndrom kann sich atypisch mit Rückenbeschwerden präsentieren. Anhaltende, nicht lagerungsabhängige Schmerzen und Blässe sind Warnzeichen. Die Einweisung mit dem Rettungsdienst ist deshalb die sichere und richtige Maßnahme.",
+          "term": "Akutes Koronarsyndrom"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine muskuläre Ursache wird durch Lagerungs- oder Bewegungsabhängigkeit wahrscheinlicher. Hier sind die Schmerzen anhaltend und nicht durch Lagerung beeinflussbar, außerdem ist der Patient blass. Eine bloße Schmerzspritze und orthopädische Weiterleitung wären riskant.",
+          "term": "Muskuläre Rückenschmerzen"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Urologische Ursachen wie Koliken verursachen häufig wellenförmige Schmerzen und weitere urologische Begleitsymptome. Der Fall beschreibt gerade keine wellenförmige Schmerzqualität. Ein routinemäßiger Urologietermin wäre bei möglichen kardialen Warnzeichen zu langsam.",
+          "term": "Urologische Ursache"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Vorstellung am nächsten Werktag würde eine potenziell akute lebensbedrohliche Erkrankung verzögern. Bei älterem, blassem Patienten mit plötzlich anhaltendem Schmerz ist eine sofortige Abklärung erforderlich. Abwarten ist daher nicht vertretbar.",
+          "term": "Ambulantes Abwarten"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Pankreatitis kann anhaltende Oberbauch- oder Rückenschmerzen verursachen und ebenfalls eine Notfalleinweisung erfordern. Der Antwortschlüssel markiert hier jedoch die kardiale Warnkonstellation als beste Begründung. Ohne typische abdominelle Angaben ist Pankreatitis nicht die am ehesten gesuchte Diagnose.",
+          "term": "Pankreatitis"
+        }
+      ]
+    },
+    "220": {
+      "topicLabel": "Myokardinfarkt",
+      "explanation": "Die Frage bezieht sich auf ein pathologisches Bild nach Versterben vor weiterführender Therapie, und der Antwortschlüssel markiert den Myokardinfarkt als Diagnose. Das passt auch zur vorangehenden Warnkonstellation eines älteren Patienten mit plötzlich anhaltenden, nicht lagerungsabhängigen Schmerzen und Blässe, die als atypische kardiale Symptomatik gewertet wurde. Ein Myokardinfarkt kann je nach Lokalisation und Präsentation atypische Schmerzen verursachen und rasch tödlich verlaufen. Die pathologische Bildbeilage dürfte demnach infarkttypische myokardiale Veränderungen gezeigt haben, auch wenn diese im Protokoll nicht näher beschrieben sind. Eine Aortendissektion wäre bei reißenden Rücken- oder Thoraxschmerzen eine wichtige Differenzialdiagnose, ist aber laut Schlüssel nicht die Bilddiagnose. Wegen fehlender Bilddetails bleibt die Erklärung stärker an Antwortschlüssel und Vorkontext gebunden.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Aortendissektion ist bei plötzlich starken, anhaltenden Rücken- oder Thoraxschmerzen differenzialdiagnostisch sehr wichtig. In dieser Frage ist sie jedoch laut Antwortschlüssel nicht die Diagnose der Pathologieabbildung. Ohne Bildbeschreibung lässt sie sich nicht weiter begründen, bleibt aber nicht die korrekte Option.",
+          "term": "Aortendissektion"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Der Myokardinfarkt ist laut Antwortschlüssel die richtige Diagnose. Er kann atypisch mit Rückenbeschwerden auftreten und vor weiterer Therapie tödlich enden. Die Pathologieabbildung muss demnach am ehesten infarkttypische Veränderungen gezeigt haben.",
+          "term": "Myokardinfarkt"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nur als Fragezeichen erhalten. Eine pathologische oder klinische Abgrenzung ist daher nicht möglich. Sie ist nicht die laut Schlüssel richtige Bilddiagnose.",
+          "term": "unvollständige Antwortoption"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Thrombose kann je nach Lokalisation schwere Ereignisse verursachen, der protokollierte Wortlaut ist aber unklar. Der Antwortschlüssel markiert nicht diese unspezifische Thromboseoption, sondern den Myokardinfarkt. Ohne Details der Abbildung lässt sich diese Option nicht weiter präzisieren.",
+          "term": "Thrombose"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Lungenarterienembolie kann plötzlich tödlich verlaufen und wäre klinisch eine wichtige Differenzialdiagnose bei akuter Dyspnoe, Thoraxschmerz oder Kreislaufinstabilität. Die vorliegende Pathologiefrage ist jedoch laut Schlüssel als Myokardinfarkt codiert. Daher ist LAE hier nicht die richtige Antwort.",
+          "term": "Lungenarterienembolie"
+        }
+      ]
+    }
+  }
+}

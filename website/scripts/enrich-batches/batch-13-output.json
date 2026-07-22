@@ -1,0 +1,745 @@
+{
+  "examId": "m2-ss26-f26-gedaechtnisprotokoll",
+  "questions": {
+    "261": {
+      "topicLabel": "Phenprocoumon-Überdosierung",
+      "explanation": "Der Vorbefund mit deutlich erhöhter INR bei sonst unauffälligen Gerinnungsparametern passt zu einer Überdosierung von Phenprocoumon. Bei klinisch relevanter Blutung muss die Wirkung des Vitamin-K-Antagonisten antagonisiert werden; unter den angebotenen Antworten ist daher Vitamin K die richtige Maßnahme. Lokal wird die Epistaxis zusätzlich z.B. durch Kompression, Tamponade oder HNO-ärztliche Blutstillung behandelt. Bei bedrohlicher Blutung wären je nach Situation Gerinnungsfaktorenkonzentrate zur rascheren Korrektur zu prüfen, dies ist aber nicht mit rekombinantem Faktor VII als Standard gleichzusetzen. Erythrozytenkonzentrate behandeln einen relevanten Blutverlust, beheben aber nicht die Ursache der Antikoagulation. Protamin wäre bei Heparinwirkung relevant, nicht bei Phenprocoumon.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Vitamin K hebt die Wirkung von Phenprocoumon ursächlich auf, indem es die Synthese Vitamin-K-abhängiger Gerinnungsfaktoren wieder ermöglicht. Bei einer nicht sistierenden Blutung unter deutlich übertherapeutischer Antikoagulation ist dies eine zentrale systemische Maßnahme neben lokaler Blutstillung.",
+          "term": "Vitamin K"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Erythrozytenkonzentrate können bei relevantem Hb-Abfall oder hämodynamisch bedeutsamem Blutverlust notwendig werden. Sie normalisieren aber weder INR noch Quick und stoppen die durch Phenprocoumon bedingte Blutungsneigung nicht ursächlich.",
+          "term": "Erythrozytenkonzentrate"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Rekombinanter Faktor VII ist keine Routinetherapie zur Antagonisierung einer Phenprocoumon-Überdosierung. Für Vitamin-K-Antagonisten stehen Vitamin K und bei schweren Blutungen spezifischere Gerinnungsfaktorenstrategien im Vordergrund, sodass diese Antwort nicht die gesuchte Maßnahme ist.",
+          "term": "Faktor VII"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Protamin antagonisiert unfraktioniertes Heparin und teilweise niedermolekulare Heparine. Bei einer Phenprocoumon-Überdosierung wirkt Protamin nicht auf den pathophysiologischen Mechanismus und würde die INR nicht korrigieren.",
+          "term": "Protamin"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Vasopressin ist keine Standardmaßnahme zur Therapie einer Epistaxis unter Vitamin-K-Antagonisten. Es adressiert weder die Gerinnungsstörung noch ist es die typische lokale Blutstillung in dieser Konstellation.",
+          "term": "Vasopressin"
+        }
+      ]
+    },
+    "262": {
+      "topicLabel": "Hyperkinetische Störung",
+      "explanation": "Bei einer hyperkinetischen Störung nach ICD-10 stehen die Kernsymptome Unaufmerksamkeit, Hyperaktivität und Impulsivität im Vordergrund. Bei der hyperkinetischen Störung des Sozialverhaltens kommt zusätzlich eine Störung des Sozialverhaltens hinzu. Unter den Antwortmöglichkeiten ist Impulsivität daher das passende Klassifikationskriterium. Aufmerksamkeitssuche beschreibt eher ein unspezifisches Verhalten und ist kein definierendes Kernsymptom. Anhedonie, sozialer Rückzug und Suizidalität verweisen eher auf depressive oder andere psychiatrische Syndrome und tragen die Diagnose nicht.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Impulsivität gehört zusammen mit Unaufmerksamkeit und Hyperaktivität zu den Leitsymptomen hyperkinetischer Störungen. In Kombination mit einer Störung des Sozialverhaltens kann daraus die ICD-10-Diagnose einer hyperkinetischen Störung des Sozialverhaltens abgeleitet werden.",
+          "term": "Impulsivität"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Aufmerksamkeitssuche kann bei vielen Kindern auftreten und ist diagnostisch zu unspezifisch. Sie ersetzt nicht die Kernsymptomatik aus Aufmerksamkeitsstörung, motorischer Unruhe und Impulsivität.",
+          "term": "Aufmerksamkeitssuche"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Anhedonie bezeichnet den Verlust von Freude und Interesse und passt typischerweise zu depressiven Syndromen. Sie ist kein Klassifikationskriterium einer hyperkinetischen Störung.",
+          "term": "Anhedonie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Sozialer Rückzug spricht eher für depressive, ängstliche, autistische oder andere psychosoziale Problemlagen. Für die hyperkinetische Störung ist dagegen ein überaktives, impulsives und unaufmerksames Verhalten charakteristisch.",
+          "term": "Sozialer Rückzug"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Suizidalität ist ein wichtiges Warnsymptom, aber kein definierendes Kriterium der hyperkinetischen Störung. Bei entsprechender Angabe müsste sie unabhängig von der ADHS-Diagnostik akut abgeklärt werden.",
+          "term": "Suizidalität"
+        }
+      ]
+    },
+    "263": {
+      "topicLabel": "ADHS-Therapie",
+      "explanation": "Die Folgefrage bezieht sich auf den Jungen mit hyperkinetischer Störung des Sozialverhaltens. Therapeutisch steht immer ein multimodales Vorgehen mit Psychoedukation, Eltern- und Schulinterventionen sowie verhaltenstherapeutischen Elementen im Vordergrund; bei ausgeprägter Symptomatik können Psychostimulanzien eingesetzt werden. Unter den genannten Medikamentengruppen sind Psychostimulanzien daher die zutreffende Wahl. Sie zielen auf die Kernsymptome der hyperkinetischen Störung, insbesondere Unaufmerksamkeit, Hyperaktivität und Impulsivität. SSRIs, Benzodiazepine oder Betablocker behandeln diese Kernsymptomatik nicht. Antipsychotika können in Einzelfällen bei schwerer Aggressivität relevant sein, sind aber nicht die Standardmedikation für die hyperkinetische Störung selbst.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Psychostimulanzien sind bei ADHS bzw. hyperkinetischen Störungen eine etablierte medikamentöse Option, wenn die Symptomlast und Beeinträchtigung dies rechtfertigen. Sie verbessern vor allem Aufmerksamkeit, Impulsivität und Hyperaktivität und passen damit zur Vorfrage.",
+          "term": "Psychostimulanzien"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "SSRIs werden vor allem bei depressiven Störungen, Angststörungen oder Zwangsstörungen eingesetzt. Sie sind keine primäre Medikation zur Behandlung der Kernsymptome einer hyperkinetischen Störung.",
+          "term": "SSRIs"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Antipsychotika können bei schweren aggressiven Durchbrüchen oder komorbiden Störungen in Betracht kommen. Für die Grundbehandlung der hyperkinetischen Störung sind sie aber nicht die erste und hier gesuchte Medikamentengruppe.",
+          "term": "Antipsychotika"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Benzodiazepine wirken sedierend und anxiolytisch, können aber Aufmerksamkeit und Impulskontrolle ungünstig beeinflussen und bergen Abhängigkeitsrisiken. Sie sind daher keine geeignete Standardtherapie der hyperkinetischen Störung im Kindesalter.",
+          "term": "Benzodiazepine"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Betablocker können in speziellen Situationen körperliche Angstsymptome oder Tremor dämpfen. Sie behandeln jedoch nicht die Kernsymptome einer ADHS bzw. hyperkinetischen Störung des Sozialverhaltens.",
+          "term": "Betablocker"
+        }
+      ]
+    },
+    "264": {
+      "topicLabel": "Sitzposition im Unfall",
+      "explanation": "In der Rechtsmedizin können Verletzungsmuster Hinweise auf die Sitzposition im Fahrzeug liefern. Bei angeschnallten Insassen ist der Verlauf von Gurtmarken am vorderen Thorax besonders hilfreich, weil Schulter- und Beckengurt je nach Fahrerseite und Beifahrerseite unterschiedlich über den Körper verlaufen. Die im Protokoll genannte Striemenrichtung kann daher zur Rekonstruktion beitragen. Einzelne Knieanprallverletzungen oder Glassplitterverletzungen sind deutlich unspezifischer, weil sie bei verschiedenen Sitzpositionen auftreten können. Spurenuntersuchungen am Lenkrad oder Armaturenbrett können ergänzen, sind aber in den angebotenen Formulierungen nicht der klassische, unmittelbar körperliche Hinweis auf die Sitzposition. Entscheidend ist die Zusammenschau von Verletzungsbild, Fahrzeuginnenraum und Spurenlage.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Knieanprallverletzungen können zwar auf einen Kontakt mit Armaturenbrett oder Innenraum hinweisen. Sie sind aber nicht zuverlässig genug, um Fahrer- und Beifahrerposition allein zu trennen, da beide vorderen Insassen solche Verletzungen erleiden können.",
+          "term": "Knieanprallverletzungen"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Gurtmarken am vorderen Thorax können durch ihren Verlauf Hinweise darauf geben, auf welcher Seite die Person saß. Gerade bei angeschnallten Insassen ist die Richtung der Striemen ein plausibler rechtsmedizinischer Anhalt für Fahrer- oder Beifahrerposition.",
+          "term": "Gurtmarken"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Amylaseuntersuchung am Lenkrad würde allenfalls Speichelkontakt nahelegen, ist aber nicht personenspezifisch wie eine DNA-Analyse und zudem nicht der typische sichere Sitzpositionshinweis. Das Ergebnis wäre stark von Spurenerhalt, Kontamination und Kontaktmechanik abhängig.",
+          "term": "Speichelamylase"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "DNA aus Blutspritzern auf der Armatur kann Spuren einer verletzten Person zuordnen, beweist aber nicht automatisch deren Sitzposition zum Unfallzeitpunkt. Blut kann sekundär übertragen werden oder durch die Unfallkinematik an verschiedenen Stellen landen.",
+          "term": "DNA-Blutspuren"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Glasverletzungen im Gesicht können bei beiden vorderen Insassen nach Scheibenbruch vorkommen. Wenn beide betroffen sind, liefert dieses Zeichen gerade keinen differenzierenden Hinweis zwischen Fahrer und Beifahrer.",
+          "term": "Glasverletzungen"
+        }
+      ]
+    },
+    "265": {
+      "topicLabel": "Postmortaler Alkohol",
+      "explanation": "Bei postmortaler Alkoholbestimmung ist die Wahl der Blutentnahmestelle entscheidend. Peripheres Blut, insbesondere aus der Vena femoralis, ist weniger anfällig für postmortale Umverteilung und Kontamination aus zentralen Körperkompartimenten als Herzblut. Deshalb ist die Entnahme aus der Femoralisvene unter den Optionen am ehesten richtig. Eine einfache Rückrechnung wie beim lebenden Menschen ist postmortal nicht möglich, weil Resorption, Abbau, Diffusion und postmortale Prozesse anders zu bewerten sind. Herzblut kann durch Mageninhalt oder zentrale Umverteilungsphänomene stärker verfälscht sein. Autolyse ist zudem nicht gleichbedeutend mit einer berechenbaren Alkoholneubildung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein pauschaler postmortaler Anstieg des Alkoholwertes ist keine belastbare Grundlage für die Unfallrekonstruktion. Postmortale Veränderungen sind komplex und dürfen nicht als einfache, regelhafte Korrekturgröße verwendet werden.",
+          "term": "postmortaler Anstieg"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Nach dem Tod läuft kein normaler, enzymatischer Alkoholabbau wie beim lebenden Menschen weiter. Ein berechenbarer Abfall des Blutalkoholwertes ist daher nicht die richtige Annahme für die postmortale Rekonstruktion.",
+          "term": "postmortaler Abfall"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Peripheres Blut aus der Vena femoralis ist für die postmortale Alkoholbestimmung bevorzugt. Es ist im Vergleich zu zentralem Blut weniger durch postmortale Umverteilung und Diffusion aus Magen oder Organen beeinflusst.",
+          "term": "Vena femoralis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Herzblut ist zentral gelegen und stärker anfällig für postmortale Redistribution oder Kontamination. Für eine möglichst verlässliche Alkoholbestimmung ist deshalb peripheres Blut vorzuziehen.",
+          "term": "Herzblut"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Autolyse beschreibt körpereigene Zersetzungsprozesse nach dem Tod und ist nicht gleichzusetzen mit einer diagnostisch verwertbaren Alkoholproduktion. Postmortale Alkoholneubildung kann vor allem bei Fäulnisprozessen relevant werden, die Option formuliert dies aber zu pauschal und nicht als beste Antwort.",
+          "term": "Autolyse"
+        }
+      ]
+    },
+    "266": {
+      "topicLabel": "Blutalkohol-Rückrechnung",
+      "explanation": "Bei einem lebenden alkoholisierten Menschen kann der Blutalkoholwert für einen früheren Zeitpunkt unter konservativen Annahmen zurückgerechnet werden. Zwischen Unfallzeitpunkt 2:30 Uhr und Blutentnahme um 8:00 Uhr liegen 5,5 Stunden. Ausgehend von 0,75 Promille zum Entnahmezeitpunkt ergibt sich mit einer niedrigen, zugunsten des Betroffenen angesetzten Eliminationsrate ein Mindestwert von etwa 1,3 Promille zum Unfallzeitpunkt. Daher ist 1,3 Promille die gesuchte Mindestkonzentration. Höhere Werte können rechnerisch möglich sein, wären aber nicht der Mindestwert. Niedrigere Werte würden den zwischenzeitlichen Abbau nicht ausreichend berücksichtigen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "1,6 Promille kann je nach angenommener Eliminationsrate rechnerisch in einem höheren Bereich liegen. Gefragt ist aber der Mindestwert, der mit einer konservativen Rückrechnung bestimmt wird.",
+          "term": "1,6 Promille"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "1,3 Promille passt zur Mindest-Rückrechnung vom gemessenen Wert 0,75 Promille nach 5,5 Stunden. Damit wird der Alkoholabbau zwischen Unfall und Blutentnahme zugunsten des Betroffenen nur vorsichtig addiert.",
+          "term": "1,3 Promille"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "1,1 Promille wäre für den angegebenen Zeitabstand zu niedrig, wenn vom gemessenen Wert aus zurückgerechnet wird. Der zwischenzeitliche Abbau würde damit nicht ausreichend in den Unfallzeitpunkt eingerechnet.",
+          "term": "1,1 Promille"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "1,8 Promille liegt über dem gesuchten Mindestwert. Ein höherer Ausgangswert ist nicht ausgeschlossen, aber die Frage zielt auf die niedrigste rechtssichere Rückrechnung.",
+          "term": "1,8 Promille"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "1,5 Promille ist ebenfalls höher als der konservative Mindestwert. Für die Mindestbestimmung wird nicht die ungünstigste, sondern eine zurückhaltende Annahme zum Abbau verwendet.",
+          "term": "1,5 Promille"
+        }
+      ]
+    },
+    "267": {
+      "topicLabel": "Mukoviszidose-Pankreas",
+      "explanation": "Bei Mukoviszidose ist eine exokrine Pankreasinsuffizienz häufig und klinisch wichtig, weil sie zu Maldigestion, Steatorrhoe und Gedeihstörung führen kann. Der geeignete nichtinvasive Nachweis ist die Bestimmung der fäkalen Pankreaselastase. Ein erniedrigter Wert spricht für eine verminderte exokrine Pankreasfunktion. Serumlipase und -amylase sind vor allem bei akuter Pankreasschädigung relevant, bilden aber die chronische exokrine Funktionsleistung nicht zuverlässig ab. Calprotectin dient eher als Marker intestinaler Entzündung. Kallikrein ist in dieser Diagnostik nicht der etablierte Test.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die fäkale Pankreaselastase ist ein etablierter Stuhlmarker zur Beurteilung der exokrinen Pankreasfunktion. Bei Mukoviszidose kann sie eine Pankreasinsuffizienz nichtinvasiv nachweisen.",
+          "term": "fäkale Pankreaselastase"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Lipase im Serum ist vor allem bei akuter Pankreatitis oder akuter Pankreasschädigung relevant. Eine exokrine Pankreasinsuffizienz bei Mukoviszidose wird dadurch nicht zuverlässig diagnostiziert.",
+          "term": "Lipase"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Amylase ist ein unspezifischer Serumparameter und kann bei akuten Pankreas- oder Speicheldrüsenprozessen verändert sein. Für die chronische exokrine Funktionsstörung ist sie nicht der geeignete Nachweis.",
+          "term": "Amylase"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Calprotectin ist ein Stuhlmarker für intestinale Entzündung und wird z.B. zur Abgrenzung entzündlicher Darmerkrankungen genutzt. Es misst nicht die Enzymleistung des exokrinen Pankreas.",
+          "term": "Calprotectin"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Kallikrein ist kein Standardparameter zur Diagnostik der exokrinen Pankreasinsuffizienz bei Mukoviszidose. Für diese Fragestellung ist die fäkale Elastase wesentlich passender.",
+          "term": "Kallikrein"
+        }
+      ]
+    },
+    "268": {
+      "topicLabel": "GERD bei Mukoviszidose",
+      "explanation": "Bei einem Kind mit Mukoviszidose, Gedeihstörung und Verdacht auf gastroösophageale Refluxkrankheit ist die Ösophagogastroduodenoskopie unter den genannten Optionen am geeignetsten. Sie erlaubt die Beurteilung einer Refluxösophagitis, möglicher Schleimhautschäden und wichtiger Differenzialdiagnosen. Gerade bei Warnzeichen wie unzureichender Gewichtszunahme ist eine rein symptomatische Einordnung oft nicht ausreichend. Sonografie, CT oder unspezifische Kontrastmittelverfahren erfassen Refluxfolgen an der Schleimhaut deutlich schlechter. Eine Röntgenpassage kann anatomische Fragen klären, ist aber nicht die beste Untersuchung zur Beurteilung einer Refluxösophagitis. Die Frage fragt nach weiterer Diagnostik, nicht nach einer alleinigen Verlaufskontrolle.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die ÖGD kann Schleimhautläsionen, Refluxösophagitis und Differenzialdiagnosen direkt erfassen. Bei Mukoviszidose und Gedeihstörung ist sie unter den Antwortmöglichkeiten die plausibelste weiterführende Diagnostik.",
+          "term": "Ösophagogastroduodenoskopie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Abdomen-Sonografie ist hilfreich für viele abdominelle Fragestellungen, zeigt aber keinen gastroösophagealen Reflux und keine Ösophagusschleimhaut zuverlässig. Sie wäre daher nicht die beste Diagnostik bei Verdacht auf GERD.",
+          "term": "Abdomen-Sonografie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein CT ist bei einem dreijährigen Kind wegen Strahlenbelastung und geringer Aussagekraft für Refluxfolgen nicht naheliegend. Es ist keine Standarduntersuchung zur Abklärung einer GERD.",
+          "term": "CT"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Röntgenuntersuchung mit Kontrastmittel kann anatomische Passagehindernisse oder Fehlbildungen zeigen. Für den Nachweis einer Refluxösophagitis und Schleimhautbeurteilung ist sie der Endoskopie unterlegen.",
+          "term": "Röntgen mit Kontrastmittel"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein nuklearmedizinisches oder radiologisches Kontrastmittelverfahren ist nicht die typische erste Wahl zur GERD-Abklärung in dieser Konstellation. Es würde die endoskopisch sichtbaren Schleimhautfolgen nicht vergleichbar direkt beurteilen.",
+          "term": "Radionuklid-/Kontrastverfahren"
+        }
+      ]
+    },
+    "269": {
+      "topicLabel": "Zinkmangel",
+      "explanation": "Zink ist für Immunfunktion, Wundheilung, Haut- und Schleimhautintegrität sowie Wachstum relevant. Ein Zinkmangel kann deshalb zu erhöhter Infektanfälligkeit führen. Das passt am besten zu den angebotenen Folgen. Nachtblindheit und Gesichtsfeldausfälle weisen eher in Richtung Vitamin-A-Mangel oder retinale Erkrankungen. Eine sensorische Ataxie ist typischer für Störungen der Hinterstränge oder bestimmte Vitamin- und Spurenelementmängel, aber nicht die klassische Zinkmangelfolge. Die übrigen Optionen beschreiben keine typische Konsequenz eines Zinkdefizits.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Zinkmangel beeinträchtigt angeborene und adaptive Immunfunktionen. Dadurch kann es zu einer erhöhten Infektanfälligkeit und verzögerter Wundheilung kommen.",
+          "term": "Infektanfälligkeit"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Nachtblindheit ist klassisch mit Vitamin-A-Mangel oder retinalen Erkrankungen verbunden. Ein Flintenrohrgesichtsfeld passt eher zu Retinopathien und ist keine typische Zinkmangelfolge.",
+          "term": "Nachtblindheit"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine sensorische Ataxie entsteht vor allem bei Störungen der Tiefensensibilität, etwa durch Hinterstrangschädigung. Sie ist nicht das Leitsymptom eines Zinkmangels.",
+          "term": "sensorische Ataxie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine enteropathische Arthritis beschreibt eher eine Gelenkbeteiligung im Zusammenhang mit entzündlichen Darmerkrankungen oder enteralen Infektionen. Sie ist keine typische direkte Folge eines Zinkdefizits.",
+          "term": "enteropathische Arthritis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Hepatitis ist kein klassisches klinisches Zeichen eines Zinkmangels. Die Formulierung im Gedächtnisprotokoll ist unscharf und passt nicht besser als die Infektanfälligkeit.",
+          "term": "Hepatitis"
+        }
+      ]
+    },
+    "270": {
+      "topicLabel": "Aortenisthmusstenose",
+      "explanation": "Bei der Aortenisthmusstenose besteht typischerweise eine Hypertonie der oberen Körperhälfte bei vermindertem Blutdruck und schwachen Pulsen an den Beinen. Daraus erklären sich Kopfschmerzen, Schwindel, Epistaxis und im Extremfall zerebrale Blutungskomplikationen. Beinbeschwerden beim Sport und kalte Beine passen ebenfalls zum verminderten Fluss distal der Stenose. Fingerparästhesien sind dagegen am wenigsten zu erwarten, weil die oberen Extremitäten nicht durch die Engstelle minderdurchblutet sind. Die Frage fragt ausdrücklich nach der am wenigsten erwarteten Komplikation. Daher ist diese Option trotz möglicher unspezifischer Beschwerden die beste Negativantwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Fingerparästhesien sind für die Aortenisthmusstenose nicht typisch. Die Durchblutung der oberen Extremitäten liegt proximal der Engstelle und ist eher mit Hypertonie als mit Ischämie verbunden.",
+          "term": "Fingerparästhesien"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Schwindel kann bei oberkörperbetonter Hypertonie und zerebraler Druckbelastung vorkommen. Er ist daher bei Aortenisthmusstenose plausibler als Fingerparästhesien.",
+          "term": "Schwindel"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Kopfschmerzen gehören zu den typischen Beschwerden bei Hypertonie der oberen Körperhälfte. Sie passen gut zum klinischen Bild einer Aortenisthmusstenose.",
+          "term": "Kopfschmerzen"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Hirnblutung ist eine seltene, aber gefürchtete Folge der proximalen Hypertonie. Sie ist deshalb als mögliche Komplikation deutlich erwartbarer als isolierte Fingerparästhesien.",
+          "term": "Hirnblutung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Epistaxis kann durch den erhöhten Blutdruck in der oberen Körperhälfte begünstigt werden. Damit ist sie bei Aortenisthmusstenose ein plausibles Symptom bzw. eine plausible Komplikation.",
+          "term": "Epistaxis"
+        }
+      ]
+    },
+    "271": {
+      "topicLabel": "Coarctatio-OP",
+      "explanation": "Bei operativer Korrektur einer Aortenisthmusstenose muss über seltene, aber schwerwiegende Komplikationen aufgeklärt werden. Eine gefürchtete Komplikation ist eine Rückenmarkischämie mit Querschnittssyndrom, weil die Durchblutung des Rückenmarks über aortale und interkostale Gefäße gefährdet sein kann. Auch wenn diese Komplikation selten ist, ist ihr Schweregrad hoch und damit aufklärungsrelevant. Myokardinfarkt, Niereninsuffizienz, Beinverlust oder Gerinnungsstörungen können in der Chirurgie grundsätzlich vorkommen, sind aber nicht die klassische spezifische Schlüsselkomplikation dieser Operation. Die Frage betont die sehr seltene, aber gravierende OP-Komplikation. Daher ist das Querschnittssyndrom die richtige Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Myokardinfarkt ist bei einem Kind ohne entsprechende Vorerkrankung nicht die typische spezifische Aufklärungskomplikation der Aortenisthmusstenose-Operation. Die gefürchtete Besonderheit betrifft eher die Rückenmarkdurchblutung.",
+          "term": "Myokardinfarkt"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Niereninsuffizienz kann bei großen Gefäßeingriffen theoretisch auftreten, ist hier aber nicht die klassisch hervorzuhebende seltene Komplikation. Die Fragestellung zielt auf eine neurologische Katastrophe durch Rückenmarkischämie.",
+          "term": "Niereninsuffizienz"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Beinverlust ist keine typische Komplikation, über die bei dieser Operation als zentrale seltene Gefahr aufgeklärt wird. Distale Durchblutungsprobleme sind denkbar, aber die klassische Prüfungsantwort ist das Querschnittssyndrom.",
+          "term": "Beinverlust"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Ein Querschnittssyndrom kann durch eine perioperative Ischämie des Rückenmarks entstehen. Wegen der Schwere der bleibenden neurologischen Ausfälle muss auch über diese seltene Komplikation aufgeklärt werden.",
+          "term": "Querschnittssyndrom"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Gerinnungsstörungen sind nicht die spezifische, besonders gefürchtete Komplikation der Coarctatio-Operation. Sie erklären nicht den in der Frage betonten seltenen, schwerwiegenden Aufklärungsaspekt.",
+          "term": "Gerinnungsstörungen"
+        }
+      ]
+    },
+    "272": {
+      "topicLabel": "Postinfektiöser Reizdarm",
+      "explanation": "Die Patientin hat seit einer akuten Salmonellen-Gastroenteritis chronisch breiig-wässrige Stühle, relevante Beeinträchtigung und eine umfassend unauffällige organische Diagnostik. Diese Konstellation passt am ehesten zu einem postinfektiösen Reizdarmsyndrom. Reizdarm ist eine positive klinische Diagnose, wenn typische Beschwerden bestehen und Warnzeichen bzw. organische Ursachen angemessen ausgeschlossen wurden. Morbus Crohn und Colitis ulcerosa wären nach unauffälliger Ileokoloskopie mit Stufenbiopsien, MR-Enterografie und Stuhldiagnostik weniger wahrscheinlich. Funktionelle Dyspepsie betrifft primär Oberbauchbeschwerden und nicht chronische Diarrhoe. Eine Sigmadivertikulitis erklärt die monatelange Symptomatik einer 29-Jährigen mit unauffälliger Diagnostik ebenfalls nicht.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Morbus Crohn kann chronische Diarrhoe verursachen, wäre aber bei unauffälliger Ileokoloskopie mit Biopsien, MR-Enterografie und fehlenden Entzündungszeichen weniger wahrscheinlich. Der zeitliche Beginn nach Infekt und die Ausschlussdiagnostik sprechen stärker für Reizdarm.",
+          "term": "Morbus Crohn"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Colitis ulcerosa verursacht typischerweise eine entzündliche Kolitis, häufig mit Blutbeimengungen und endoskopisch-histologischen Veränderungen. Die umfangreich unauffällige Koloskopie mit Stufenbiopsien macht diese Diagnose hier unwahrscheinlich.",
+          "term": "Colitis ulcerosa"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Ein postinfektiöses Reizdarmsyndrom passt zu persistierenden Stuhlveränderungen nach akuter Gastroenteritis bei unauffälliger organischer Abklärung. Die erhebliche Lebensqualitätsminderung und die defäkationsassoziierten Beschwerden unterstützen diese funktionelle Diagnose.",
+          "term": "Reizdarmsyndrom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Funktionelle Dyspepsie betrifft vor allem epigastrische Schmerzen, Völlegefühl, frühe Sättigung oder Übelkeit. Chronische breiig-wässrige Stühle nach Gastroenteritis werden dadurch nicht primär erklärt.",
+          "term": "funktionelle Dyspepsie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Sigmadivertikulitis verursacht typischerweise akute linksseitige Unterbauchschmerzen und Entzündungszeichen. Die monatelange Diarrhoe bei unauffälliger Bildgebung und Endoskopie passt nicht zu dieser Diagnose.",
+          "term": "Sigmadivertikulitis"
+        }
+      ]
+    },
+    "273": {
+      "topicLabel": "Morbus-Crohn-Risiko",
+      "explanation": "Die Frage ist als hypothetische Folgefrage zum vorherigen Fall formuliert: Falls doch ein Morbus Crohn vorläge, welcher Faktor würde das Risiko am ehesten erhöhen? Unter den Antwortmöglichkeiten ist eine Antibiotikagabe in Kindheit und Jugend am plausibelsten mit einem erhöhten Risiko für chronisch-entzündliche Darmerkrankungen assoziiert. Rauchen wäre ein klassischer Risikofaktor für Morbus Crohn, ist aber hier nicht als eigene Antwort angeboten. Leben auf dem Land und Nichtraucherstatus erhöhen das Crohn-Risiko nicht in gleicher Weise. Ein hoher Vitamin-D-Spiegel wäre eher nicht als Risikofaktor zu werten. Cholezystektomie ist in diesem Kontext nicht die beste Crohn-Risikoantwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Cholezystektomie kann Stuhlgewohnheiten verändern, ist aber kein klassischer Hauptrisikofaktor für Morbus Crohn. Für die Frage nach dem wahrscheinlichsten Risikofaktor ist sie weniger passend als frühe Antibiotikaexposition.",
+          "term": "Cholezystektomie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Leben auf dem Land wird eher nicht als typischer Risikofaktor für Morbus Crohn geprüft. Umwelt- und Hygienehypothesen werden komplex diskutiert, aber diese Option ist nicht die naheliegendste Risikoerhöhung.",
+          "term": "Landleben"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Nichtraucherstatus erhöht das Risiko für Morbus Crohn nicht; im Gegenteil ist Rauchen ein bekannter ungünstiger Faktor bei Morbus Crohn. Diese Option passt daher nicht zur gesuchten Risikoerhöhung.",
+          "term": "Nichtraucherstatus"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Antibiotikagaben in Kindheit und Jugend können die Darmmikrobiota beeinflussen und werden mit einem erhöhten Risiko für chronisch-entzündliche Darmerkrankungen in Verbindung gebracht. Unter den angebotenen Optionen ist dies der plausibelste Risikofaktor für Morbus Crohn.",
+          "term": "frühe Antibiotikaexposition"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein hoher Vitamin-D-Spiegel ist nicht als Risikofaktor für Morbus Crohn zu verstehen. Die Protokollformulierung ist unsauber, die Aussage passt aber jedenfalls nicht zur gesuchten Risikoerhöhung.",
+          "term": "hoher Vitamin-D-Spiegel"
+        }
+      ]
+    },
+    "274": {
+      "topicLabel": "Colitis-ulcerosa-Remission",
+      "explanation": "Auch diese Frage ist hypothetisch an den vorherigen Fall angehängt: Falls es sich um Colitis ulcerosa handeln würde, wird nach einem Phytotherapeutikum zur Remissionserhaltung gefragt. Flohsamenschalen bzw. Plantago-ovata-Präparate können bei Colitis ulcerosa unterstützend zur Remissionserhaltung eingesetzt werden. Sie wirken über Ballaststoffe und Stuhlregulation und sind unter den genannten Pflanzen am ehesten mit dieser Indikation verbunden. Brennnesselblätter, Traubensilberkerze, Weißdorn und Rosskastanie haben andere typische Anwendungsgebiete. Sie sind daher für die Remissionserhaltung der Colitis ulcerosa nicht die passende Antwort. Die Basistherapie der Colitis ulcerosa wird dadurch nicht ersetzt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Brennnesselblätter werden eher als mild diuretische Phytotherapie verwendet. Eine spezifische Rolle in der Remissionserhaltung der Colitis ulcerosa ist damit nicht gemeint.",
+          "term": "Brennnesselblätter"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Traubensilberkerze wird vor allem im Zusammenhang mit klimakterischen Beschwerden genannt. Sie ist kein typisches Phytotherapeutikum zur Remissionserhaltung bei Colitis ulcerosa.",
+          "term": "Traubensilberkerze"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Flohsamenschalen können als ballaststoffreiche Phytotherapie die Stuhlkonsistenz beeinflussen und unterstützend bei der Remissionserhaltung der Colitis ulcerosa eine Rolle spielen. Unter den angebotenen Antworten ist dies die passende pflanzliche Option.",
+          "term": "Flohsamenschalen"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Weißdorn wird traditionell eher bei funktionellen Herz-Kreislauf-Beschwerden eingesetzt. Eine Remissionserhaltung der Colitis ulcerosa ist dafür nicht die passende Indikation.",
+          "term": "Weißdorn"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Rosskastanie wird klassisch mit chronisch-venösen Beschwerden in Verbindung gebracht. Sie hat keinen typischen Stellenwert in der Remissionserhaltung einer Colitis ulcerosa.",
+          "term": "Rosskastanie"
+        }
+      ]
+    },
+    "275": {
+      "topicLabel": "Reizdarm-Therapie",
+      "explanation": "Beim Reizdarmsyndrom ist die Behandlung symptomorientiert, multimodal und an Patientenvorlieben sowie Beschwerdeprofil angepasst. Neben Aufklärung, Ernährung, Bewegung und psychologischen Verfahren können auch bestimmte Phytotherapeutika einbezogen werden. Unter den Antwortmöglichkeiten trifft daher die Einbeziehung von Phytotherapeutika am ehesten zu. Entspannungsverfahren können hilfreich sein, sollten aber nicht pauschal als alleinige Monotherapie verstanden werden. Homöopathie ist nicht die gesuchte evidenzbasierte Empfehlung. Antibiotika werden nicht routinemäßig zusammen mit Probiotika als Standard gegeben, und man vermeidet manuelle Verfahren nicht grundsätzlich allein aufgrund der Diagnose.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Entspannungstechniken können bei Reizdarmbeschwerden hilfreich sein, insbesondere bei Stressbezug. Als pauschale Monotherapie für alle Patientinnen und Patienten sind sie jedoch zu eng und nicht die beste Antwort.",
+          "term": "Entspannungstechniken"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Homöopathie ist keine belastbar empfohlene Standardtherapie des Reizdarmsyndroms. Die Behandlung sollte sich an wirksamkeitsbasierten und symptomorientierten Maßnahmen orientieren.",
+          "term": "Homöopathie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein generelles Vermeiden von Darmmassagen oder viszeraler Osteopathie ist nicht die typische Kernaussage zur Reizdarmtherapie. Die Option ist negativ formuliert und trifft die empfohlene multimodale Behandlung nicht.",
+          "term": "Vermeidung manueller Verfahren"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Probiotika können in ausgewählten Fällen versucht werden, eine Kombination mit Antibiotika ist aber keine generelle Standardtherapie des Reizdarmsyndroms. Antibiotika sollten nicht ohne klare Indikation eingesetzt werden.",
+          "term": "Probiotika mit Antibiotika"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Bestimmte Phytotherapeutika können bei Reizdarmsyndrom symptomorientiert in die Behandlung einbezogen werden. Das passt zum multimodalen Vorgehen, bei dem mehrere nichtmedikamentöse und medikamentöse Optionen individuell kombiniert werden.",
+          "term": "Phytotherapeutika"
+        }
+      ]
+    },
+    "276": {
+      "topicLabel": "Divertikulitis-Nachsorge",
+      "explanation": "Die Frage ist erneut hypothetisch formuliert: Falls statt Reizdarm eine akute Sigmadivertikulitis vorgelegen hätte, geht es um die Empfehlung nach der akuten Behandlung. Langfristig wird eine ballaststoffreiche Ernährung bzw. ein ballaststoffreicher Lebensstil empfohlen, um Stuhlpassage und Darmgesundheit günstig zu beeinflussen. Die im Protokoll angegebene Einheit wirkt wahrscheinlich fehlerhaft; inhaltlich ist die ballaststoffreiche Ernährung die richtige Option. Eine Sigmaresektion ist nicht nach jeder Divertikulitis routinemäßig indiziert, sondern hängt von Verlauf, Komplikationen und individueller Situation ab. Rotes Fleisch gilt nicht als präventive Empfehlung. Homöopathie und dauerhafte körperliche Schonung sind keine geeigneten Standardmaßnahmen zur Rezidivprophylaxe.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Sigmaresektion kann bei komplizierten Verläufen oder ausgewählten Rezidivsituationen sinnvoll sein. Nach einer akuten Behandlung ist sie aber nicht die pauschale Standardempfehlung für alle Betroffenen.",
+          "term": "Sigmaresektion"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Homöopathie ist keine evidenzbasierte Standardmaßnahme zur Nachsorge oder Rezidivprophylaxe nach Divertikulitis. Die Empfehlung sollte sich auf Lebensstil, Ernährung und risikoadaptierte Verlaufskontrolle konzentrieren.",
+          "term": "Homöopathie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Regelmäßiger Verzehr von rotem Fleisch wird nicht als günstige präventive Maßnahme nach Divertikulitis empfohlen. Ernährungsempfehlungen zielen eher auf ballaststoffreiche Kost und einen insgesamt gesunden Lebensstil.",
+          "term": "rotes Fleisch"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Körperliche Schonung kann während einer akuten Erkrankung kurzfristig nachvollziehbar sein. Als langfristige Maßnahme nach abgeklungener Divertikulitis ist sie nicht die zentrale Empfehlung.",
+          "term": "körperliche Schonung"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Eine ballaststoffreiche Ernährung ist nach akuter Divertikulitis die passende allgemeine Empfehlung. Die Protokolleinheit ist vermutlich ungenau wiedergegeben, entscheidend ist aber der inhaltliche Fokus auf Ballaststoffe.",
+          "term": "ballaststoffreiche Ernährung"
+        }
+      ]
+    },
+    "277": {
+      "topicLabel": "Funktionelle Dyspepsie",
+      "explanation": "Bei funktioneller Dyspepsie können bestimmte pflanzliche Kombinationspräparate eingesetzt werden, die unter anderem krampflösende, motilitätsmodulierende oder entzündungshemmende Effekte im oberen Gastrointestinaltrakt adressieren. Die Kombination aus Kümmel, Pfefferminzöl, Kamille, Melisse, Süßholz und bitterer Schleifenblume passt am ehesten zu bekannten gastrointestinalen Phytokombinationen. Die Frage ist als hypothetische Folgefrage formuliert und knüpft an die Differenzialdiagnose aus dem vorherigen Fall an. Die anderen Kombinationen zielen eher auf muskuloskelettale Beschwerden, Atemwegserkrankungen, psychovegetative Beschwerden oder gynäkologische Anwendungen. Sie erklären daher die funktionelle Dyspepsie nicht überzeugend. Entscheidend ist die typische gastrointestinale Pflanzenkombination.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll unvollständig und unsicher formuliert. Teufelskralle wird eher mit muskuloskelettalen Beschwerden verbunden und ist nicht die typische Kombination bei funktioneller Dyspepsie.",
+          "term": "Teufelskralle"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Pestwurz, Eibisch, Thymian, Efeu und Spitzwegerich passen eher zu Atemwegs- oder Schleimhautindikationen. Diese Mischung ist nicht die typische phytotherapeutische Kombination für funktionelle Dyspepsie.",
+          "term": "Atemwegs-Phytokombination"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Kümmel, Pfefferminzöl, Kamille, Melisse, Süßholz und bittere Schleifenblume passen zu gastrointestinal wirksamen Phytokombinationen bei funktioneller Dyspepsie. Sie adressieren typische Beschwerden wie Völlegefühl, Krämpfe und dyspeptische Oberbauchsymptome.",
+          "term": "gastrointestinale Phytokombination"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ginkgo, Passionsblume, Lavendel und Rosenwurz werden eher mit kognitiven, schlafbezogenen oder psychovegetativen Beschwerden assoziiert. Sie bilden keine klassische Dyspepsie-Kombination.",
+          "term": "psychovegetative Phytokombination"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Mönchspfeffer, Himbeerblätter, Schafgarbe und ähnliche Pflanzen werden eher im gynäkologischen Kontext genannt. Für funktionelle Dyspepsie ist diese Kombination nicht die naheliegende Therapieoption.",
+          "term": "gynäkologische Phytokombination"
+        }
+      ]
+    },
+    "278": {
+      "topicLabel": "Gute wissenschaftliche Praxis",
+      "explanation": "Gefragt ist, was kein vorsätzlicher oder grob fahrlässiger Verstoß gegen gute wissenschaftliche Praxis ist. Plagiate, erfundene Daten, bewusstes Unterschlagen von Daten und unzulässige Autorenschaft können klare Formen wissenschaftlichen Fehlverhaltens darstellen. Ein nicht ausreichend kontrollierter Bias kann die Validität einer Studie erheblich schwächen, ist aber nicht automatisch wissenschaftliches Fehlverhalten im Sinne eines vorsätzlichen oder grob fahrlässigen Verstoßes. Methodische Limitationen müssen transparent gemacht und kritisch diskutiert werden. Erst wenn Verzerrungen absichtlich verschleiert oder grob fahrlässig ignoriert werden, kann die Grenze zum Fehlverhalten erreicht sein. In der angebotenen Formulierung ist daher der unzureichend kontrollierte Bias die richtige Negativantwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Inhalte anderer Autorinnen oder Autoren ohne Quellenangabe zu übernehmen, entspricht einem Plagiat. Das ist ein klassischer Verstoß gegen gute wissenschaftliche Praxis.",
+          "term": "Plagiat"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Bewusstes Unterschlagen relevanter Daten verfälscht die wissenschaftliche Aussage. Wenn dies absichtlich geschieht, ist es mit guter wissenschaftlicher Praxis nicht vereinbar.",
+          "term": "Datenunterdrückung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Daten zu erfinden ist Fabrication und zählt zu den schwersten Formen wissenschaftlichen Fehlverhaltens. Es verletzt unmittelbar die Grundlage wissenschaftlicher Nachvollziehbarkeit.",
+          "term": "Datenfälschung"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Ein unzureichend kontrollierter Bias kann eine Studie methodisch schwächen, ist aber nicht automatisch ein vorsätzlicher oder grob fahrlässiger GWP-Verstoß. Entscheidend ist, ob methodische Grenzen transparent gemacht wurden und kein absichtliches Täuschen vorliegt.",
+          "term": "unkontrollierter Bias"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Unzulässige Mitautorenschaft ohne eigenen substantiellen Beitrag oder wissentliches Mittragen fragwürdiger Praxis kann gegen Autorenschaftsregeln verstoßen. Deshalb ist diese Option nicht die gesuchte Ausnahme.",
+          "term": "unzulässige Autorenschaft"
+        }
+      ]
+    },
+    "279": {
+      "topicLabel": "Morbus Behçet",
+      "explanation": "Morbus Behçet ist eine systemische Vaskulitis mit rezidivierenden oralen und genitalen Ulzera sowie möglicher Augenbeteiligung. Eine Uveitis mit Hypopyon ist eine klassische und prüfungsrelevante Manifestation. Daher ist diese Antwort bei vorgegebenen Ulzera an der Lippe am ehesten zu erwarten. Polyserositis, kälteinduzierte Urtikaria, autoimmune Pankreasveränderungen oder bihiläre Lymphadenopathie weisen eher auf andere Krankheitsbilder hin. Gerade die Augenbeteiligung ist klinisch wichtig, weil sie visusbedrohend verlaufen kann. Die Kombination aus Schleimhautulzera und Uveitis spricht daher stark für Behçet.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine Uveitis, auch mit Hypopyon, gehört zu den typischen Manifestationen des Morbus Behçet. Zusammen mit rezidivierenden oralen Ulzera ist sie ein sehr passender Hinweis auf die Diagnose.",
+          "term": "Uveitis mit Hypopyon"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Aszites und Pleuraerguss im Sinne einer Polyserositis passen eher zu anderen systemischen Entzündungserkrankungen. Sie sind nicht die klassische Zusatzmanifestation, die bei Behçet neben oralen Ulzera geprüft wird.",
+          "term": "Polyserositis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Kälteinduzierte Urtikaria spricht eher für urtikarielle oder autoinflammatorische Differentialdiagnosen. Sie ist keine typische Kernmanifestation des Morbus Behçet.",
+          "term": "Kälteurtikaria"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine lymphozytäre oder autoimmune Pankreatitis passt nicht typisch zu Morbus Behçet. Solche Befunde würden eher andere immunologische oder pankreatologische Differentialdiagnosen nahelegen.",
+          "term": "Pankreatitis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Beidseitig vergrößerte hiläre Lymphknoten im Röntgen sind klassisch eher mit Sarkoidose assoziiert. Für Morbus Behçet ist dies nicht die erwartete Begleitmanifestation.",
+          "term": "bihiläre Lymphadenopathie"
+        }
+      ]
+    },
+    "280": {
+      "topicLabel": "Palilalie bei Tic",
+      "explanation": "Das zwanghafte Wiederholen eigener Silben, Wörter oder Satzteile wird als Palilalie bezeichnet. Im Fall eines Kindes mit Tic-Störung passt dies besonders gut, da vokale Tics komplexe sprachliche Phänomene einschließen können. Echolalie wäre dagegen das Wiederholen von Worten anderer Personen. Koprolalie beschreibt das Ausstoßen obszöner oder sozial unangemessener Wörter und ist davon abzugrenzen. Echopraxie bzw. Echokinesie betrifft das Nachahmen von Bewegungen, nicht eigener Sprache. Akoasmen sind einfache akustische Halluzinationen und erklären das beschriebene Wiederholen nicht.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Koprolalie bezeichnet das unwillkürliche Ausstoßen obszöner oder sozial unangemessener Wörter. Das beschriebene Phänomen ist aber das Wiederholen eigener Worte und damit keine Koprolalie.",
+          "term": "Koprolalie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Echolalie ist das Wiederholen von Äußerungen anderer Personen. Hier wiederholt der Patient eigene Silben, Wörter oder Satzteile, sodass Echolalie nicht passt.",
+          "term": "Echolalie"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Palilalie bezeichnet das zwanghafte oder ticartige Wiederholen eigener Worte, Silben oder Satzteile. Genau dieses Muster wird im Fall beschrieben.",
+          "term": "Palilalie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Option ist im Gedächtnisprotokoll unsicher formuliert; Echokinesie bzw. Echopraxie meint das Nachahmen von Bewegungen anderer. Das erklärt kein Wiederholen eigener gesprochener Worte.",
+          "term": "Echokinesie/Echopraxie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Akoasmen sind elementare akustische Halluzinationen, etwa Geräusche oder Töne. Sie beschreiben kein ticartiges Wiederholen eigener Sprache.",
+          "term": "Akoasmen"
+        }
+      ]
+    }
+  }
+}

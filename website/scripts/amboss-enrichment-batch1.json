@@ -1,0 +1,725 @@
+{
+  "examId": "m2-ss26-f26-gedaechtnisprotokoll",
+  "questions": {
+    "1": {
+      "topicLabel": "Polyzystisches Ovarialsyndrom (PCOS)",
+      "explanation": "Richtig ist PCOS. Die Konstellation Oligo-/Anovulation (Zyklus >40 Tage) plus klinische Androgenisierung (Hirsutismus an Hals/Kinn, androgenetischer Haarausfall frontal) bei einer jungen Frau erfüllt die typische klinische Diagnose nach Rotterdam-Kriterien (2 von 3: Oligoovulation, Hyperandrogenismus, polyzystische Ovarien).",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Endometriose erklärt eher Dysmenorrhö/Unterbauchschmerz, nicht primär Hirsutismus und verlängerte Zyklen. Eine vorzeitige Ovarialinsuffizienz führt eher zu hypoöstrogener Amenorrhö ohne Androgenisierungszeichen.",
+          "term": "Endometriose"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "PCOS passt am besten: Oligomenorrhö + klinischer Hyperandrogenismus bei fertiler Frau.",
+          "term": "PCOS"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Turner-Syndrom präsentiert sich typischerweise mit primärer Amenorrhö und Kleinwuchs – nicht mit Hirsutismus in den 20ern.",
+          "term": "Turner-Syndrom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Klinefelter betrifft Männer, nicht eine menstruierende Frau in der gynäkologischen Vorsorge.",
+          "term": "Klinefelter-Syndrom"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Androgeninsensitivität betrifft genetisch männliche Individuen mit weiblichem Phänotyp; hier liegt eine Frau mit Androgenisierungszeichen vor.",
+          "term": "Androgeninsensitivität"
+        }
+      ]
+    },
+    "2": {
+      "topicLabel": "PCOS – hormonelle Kontrazeption",
+      "explanation": "Bei PCOS mit Verhütungswunsch und Androgensymptomen ist eine kombinierte orale Kontrazeption (Östrogen + Gestagen) erste Wahl: sichere Verhütung plus Symptomkontrolle über Gonadotropin-Suppression und SHBG-Anstieg (weniger freies Testosteron). Reine Gestagenmethoden verhüten, bessern Hirsutismus aber deutlich weniger zuverlässig.",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Reine orale Gestagene verhüten, senken Hyperandrogenismus aber meist unzureichend.",
+          "term": "Gestagenpille"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Kombinierte orale Kontrazeption: Verhütung plus beste Symptomkontrolle der Androgenisierung bei PCOS.",
+          "term": "Kombinierte orale Kontrazeption"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Depot-Gestagen: Verhütung ja, Antiandrogen-Effekt limitiert.",
+          "term": "Depot-Gestagen"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Gestagen-Injektionen analog: nicht die bevorzugte Option zur Hirsutismuskontrolle.",
+          "term": "Gestagen-Injektion"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "LNG-IUP ist gute Verhütung, systemischer Antiandrogen-Effekt aber gering.",
+          "term": "Gestagen-IUP"
+        }
+      ]
+    },
+    "3": {
+      "topicLabel": "Rheumatoide Arthritis – Röntgen",
+      "explanation": "Die RA betrifft typischerweise die kleinen Gelenke (MCP, PIP, MTP). Radiologisch typisch sind Usuren und im Verlauf Fehlstellungen/Subluxationen der MCP-/MTP-Gelenke – passend zur Morgensteifigkeit mit Besserung über den Tag.",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Subluxationen an MCP/MTP sind ein klassischer Bildbefund der fortgeschrittenen RA.",
+          "term": "Rheumatoide Arthritis Röntgen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Fersensporn ist unspezifisch/degenerativ und kein typischer RA-Befund.",
+          "term": "Fersensporn"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Tophi sprechen für Gicht, nicht für RA.",
+          "term": "Gicht Tophi"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Osteophyten/Exophyten sind eher arthrotisch, nicht das Leitbild der RA.",
+          "term": "Arthrose Osteophyten"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine verkürzte Ulna ist kein typisches RA-Zeichen.",
+          "term": "Ulna"
+        }
+      ]
+    },
+    "4": {
+      "topicLabel": "Rheumatoide Arthritis – Anti-CCP",
+      "explanation": "Bei RA sind RF und vor allem ACPA/Anti-CCP die relevanten Autoantikörper. Anti-CCP ist hochspezifisch für die RA und daher im vorliegenden Fall „am ehesten“ nachweisbar.",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Anti-Nukleosom eher SLE-Kontext, nicht Leitmarker der RA.",
+          "term": "Anti-Nukleosom"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Anti-Cardiolipin gehört zum Antiphospholipid-Syndrom.",
+          "term": "Anti-Cardiolipin"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Anti-PLA2R ist Marker der membranösen Nephropathie, nicht der RA.",
+          "term": "Anti-PLA2R"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Anti-CCP (ACPA) ist der spezifischste serologische Marker der RA.",
+          "term": "Anti-CCP"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Anti-Zentromer typisch für limitierte systemische Sklerose, nicht RA.",
+          "term": "Anti-Zentromer"
+        }
+      ]
+    },
+    "5": {
+      "topicLabel": "DMARDs bei rheumatoider Arthritis",
+      "explanation": "DMARDs verändern den Krankheitsverlauf der RA (z. B. MTX, Tocilizumab, Adalimumab, Tofacitinib). Diclofenac ist ein NSAR: symptomatisch wirksam, aber nicht disease-modifying.",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Methotrexat ist das klassische csDMARD der RA.",
+          "term": "Methotrexat"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Tocilizumab ist ein bDMARD (IL-6-Rezeptor).",
+          "term": "Tocilizumab"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Adalimumab ist ein bDMARD (TNF-α).",
+          "term": "Adalimumab"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Diclofenac ist ein NSAR und gehört nicht zu den DMARDs.",
+          "term": "Diclofenac"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Tofacitinib (JAK-Inhibitor) zählt zu den tsDMARDs.",
+          "term": "Tofacitinib"
+        }
+      ]
+    },
+    "6": {
+      "topicLabel": "RA – kardiovaskuläres Risiko",
+      "explanation": "Chronische Inflammation bei RA erhöht das Risiko für Atherosklerose und damit Myokardinfarkt sowie Schlaganfall. Das ist unter den genannten Optionen die relevanteste Risikoassoziation.",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "RA geht mit erhöhtem Risiko für Myokardinfarkt und Apoplex einher.",
+          "term": "Rheumatoide Arthritis kardiovaskuläres Risiko"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Knochenmarkneoplasien sind nicht das typische Leitrisiko der RA selbst.",
+          "term": "RA Malignom"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Sekundärer Hyperparathyreoidismus ist keine typische RA-Komplikation.",
+          "term": "Hyperparathyreoidismus"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "PSC ist klassisch mit Colitis ulcerosa assoziiert, nicht mit RA.",
+          "term": "PSC"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Pankreasinsuffizienz gehört nicht zum typischen RA-Risikoprofil.",
+          "term": "Pankreasinsuffizienz"
+        }
+      ]
+    },
+    "7": {
+      "topicLabel": "Asthma – Erstmaßnahmen bei Kontrollverlust",
+      "explanation": "Gefragt ist die zunächst am wenigsten indizierte Maßnahme. Bei steigendem Salbutamol-Bedarf stehen zuerst Auskultation, Pulsoxymetrie und gezielte Anamnese im Vordergrund. Ein Röntgen-Thorax ist initial nicht routinemäßig nötig, solange keine Hinweise auf Pneumonie, Pneumothorax o. Ä. vorliegen.",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Röntgen-Thorax ist hier die am wenigsten prioritäre Erstmaßnahme.",
+          "term": "Asthma Röntgen Thorax"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Pulsoxymetrie ist eine schnelle, sinnvolle Einschätzung der Oxygenierung.",
+          "term": "Pulsoxymetrie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Auskultation gehört zur Basisuntersuchung.",
+          "term": "Auskultation Asthma"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Medikamentenanamnese (Bedarfsfrequenz, Technik) ist essenziell.",
+          "term": "Asthma Anamnese"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Komorbiditäten können Exazerbationen triggern und sind anamnestisch relevant.",
+          "term": "Asthma Komorbiditäten"
+        }
+      ]
+    },
+    "8": {
+      "topicLabel": "Asthma – Reversibilität der Obstruktion",
+      "explanation": "Asthma ist eine variable, typischerweise reversible Obstruktion. Die (nahezu) vollständige Reversibilität nach β2-Mimetikum stützt Asthma gegenüber weitgehend irreversibler Obstruktion. Isoliert erniedrigte VC/FVC/FEV1/Peak-Flow belegen keine Reversibilität.",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Reduzierte VC ist unspezifisch und belegt keine Reversibilität.",
+          "term": "Vitalkapazität"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Reduzierte FVC allein differenziert Asthma nicht sicher.",
+          "term": "FVC"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Peak-Flow kann obstruktiv erniedrigt sein, ohne Reversibilität zu beweisen.",
+          "term": "Peak Flow"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Erniedrigtes FEV1 zeigt Obstruktion, nicht zwingend vollständige Reversibilität.",
+          "term": "FEV1"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Vollständige Reversibilität nach β2-Sympathomimetikum erhärtet Asthma am ehesten.",
+          "term": "Bronchospasmolysetest"
+        }
+      ]
+    },
+    "9": {
+      "topicLabel": "Asthma – Basistherapie ICS",
+      "explanation": "Bei Kontrollverlust (stark gestiegener Salbutamol-Bedarf) mit Giemen, aber stabilen Vitalparametern, ist zusätzlich zum Bedarfs-β2-Mimetikum ein inhalatives Kortikosteroid als langfristige Controller-Therapie indiziert. Oraler Steroidstoß, Antibiotikum ohne Infekt und LABA ohne ICS sind hier nicht die passende Dauermaßnahme.",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Oraler Prednisolonstoß ist bei dieser relativ stabilen Präsentation nicht die erste Dauermaßnahme.",
+          "term": "Prednisolon Asthma"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ipratropium ersetzt keine langfristige ICS-Therapie.",
+          "term": "Ipratropium"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Doxycyclin ohne klaren bakteriellen Infekt nicht indiziert.",
+          "term": "Doxycyclin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "LABA-Dauertherapie ohne ICS ist bei Asthma nicht empfohlen.",
+          "term": "LABA"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "ICS als langfristige tägliche Inhalation ist die zentrale Controller-Therapie.",
+          "term": "ICS Asthma"
+        }
+      ]
+    },
+    "10": {
+      "topicLabel": "Meningokokkensepsis / Waterhouse-Friderichsen",
+      "explanation": "Fieberhafter, apathischer Säugling mit Hypotonie und rasch auftretender Purpura/akraler Nekrose spricht für fulminante Meningokokkensepsis. Eine gespannte Fontanelle ist beim Säugling ein wichtiges Zeichen meningealer Mitbeteiligung/Hirndruck und daher am ehesten zu erwarten.",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Gespannte Fontanelle als Meningitis-/Hirndruckzeichen passt zur invasiven Meningokokkenerkrankung.",
+          "term": "Meningokokkensepsis Fontanelle"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Akrozyanose allein ist unspezifisch und erklärt nicht das Vollbild mit Purpura fulminans.",
+          "term": "Akrozyanose"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Tonische Kiefer-/Rumpfkrämpfe sind typischer für Tetanus.",
+          "term": "Tetanus"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein positives Pyramidenbahnzeichen ist kein Leitbefund dieser Erkrankung beim Säugling.",
+          "term": "Pyramidenbahnzeichen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Polyurie passt nicht zu Fieber, Trinkschwäche und septischem Schock.",
+          "term": "Polyurie"
+        }
+      ]
+    },
+    "31": {
+      "topicLabel": "Ambulant erworbene Pneumonie – Pneumokokken",
+      "explanation": "Klassische Lobärpneumonie (Fieber, produktiver Husten, Abgeschlagenheit): Häufigster bakterieller CAP-Erreger ist Streptococcus pneumoniae. Atypische Erreger (Mykoplasmen, Chlamydophila) und Viren passen weniger zum Lobärbild; Klebsiella ist seltener und eher spezielle Risikokonstellationen.",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Klebsiella ist seltener CAP-Erreger, eher spezielle Risikokonstellationen.",
+          "term": "Klebsiella pneumoniae"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Influenza ist viral und nicht der typische Lobärpneumonie-Erreger.",
+          "term": "Influenza"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Chlamydophila pneumoniae verursacht eher atypische Pneumonien.",
+          "term": "Chlamydophila pneumoniae"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Streptococcus pneumoniae ist der häufigste Erreger der klassischen ambulant erworbenen Lobärpneumonie.",
+          "term": "Streptococcus pneumoniae"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Mycoplasma pneumoniae: typischerweise atypische Pneumonie.",
+          "term": "Mycoplasma pneumoniae"
+        }
+      ]
+    },
+    "45": {
+      "topicLabel": "Verbrennungstiefe und Ausdehnung",
+      "explanation": "Kaum Schmerzen und fehlende distale Pulse sprechen für eine tiefe, mindestens drittgradige Verbrennung. Die Handfläche entspricht grob ≈1% KOF. Daher am ehesten: Verbrennung 3. Grades, ca. 1% KOF.",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "4. Grad mit 0,5% ist weniger treffend; Leitbefund hier ist drittgradig ≈ Handfläche (≈1%).",
+          "term": "Verbrennung 4. Grad"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Schmerzarm + Pulse fehlend → tief (3. Grad); Hand ≈1% KOF.",
+          "term": "Verbrennung 3. Grad"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "2. Grad ist typischerweise schmerzhaft; 2% für eine Hand eher zu hoch.",
+          "term": "Verbrennung 2. Grad"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "1. Grad ist schmerzhaft und oberflächlich – passt nicht.",
+          "term": "Verbrennung 1. Grad"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Vollständige Verkohlung ist so nicht belegt.",
+          "term": "Verkohlung"
+        }
+      ]
+    },
+    "61": {
+      "topicLabel": "AGS – 17-OH-Progesteron im Neugeborenenscreening",
+      "explanation": "Beim klassischen 21-Hydroxylase-Mangel staut sich 17-Hydroxyprogesteron vor dem Enzymblock. Genau dieses Steroid wird im Neugeborenen-Screening als Marker bestimmt und ist erhöht.",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "11-Deoxycortisol ist eher bei 11β-Hydroxylase-Mangel relevant, nicht der Standard-Screeningmarker des 21-OH-AGS.",
+          "term": "11-Deoxycortisol"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "„21-Dehydrokortisol“ ist nicht der etablierte Screeningmarker.",
+          "term": "21-Dehydrokortisol"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "17-OH-Progesteron ist der Screeningparameter beim 21-Hydroxylase-Mangel.",
+          "term": "17-Hydroxyprogesteron"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "11-Dehydrokortikosteron ist nicht der relevante Screeningmarker.",
+          "term": "11-Dehydrokortikosteron"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Aldosteron ist beim Salzverlust eher erniedrigt; Screening läuft über 17-OHP.",
+          "term": "Aldosteron"
+        }
+      ]
+    },
+    "75": {
+      "topicLabel": "Postoperative Analgesie – COX-2 meiden bei CV-Risiko",
+      "explanation": "Gefragt ist, welches Schmerzmittel man am ehesten vermeiden soll. Bei art. Hypertonie, DM2 und stattgehabter TIA haben COX-2-Hemmer (Etoricoxib) ein ungünstiges kardiovaskuläres Risikoprofil und sind daher zu meiden. Metamizol, Paracetamol bzw. Opioide sind in dieser Konstellation die weniger problematischen Alternativen.",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Etoricoxib (COX-2) wegen kardiovaskulärer Vorschädigung (TIA/Hypertonie) am ehesten vermeiden.",
+          "term": "Etoricoxib"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Metamizol ist hier nicht das primär zu meidende Mittel.",
+          "term": "Metamizol"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Paracetamol hat kein vergleichbares CV-Meidegebot wie COX-2-Hemmer.",
+          "term": "Paracetamol"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Tramadol ist nicht das Mittel, das wegen der TIA-Anamnese speziell vermieden werden muss.",
+          "term": "Tramadol"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Tilidin ebenso: nicht die CV-spezifische Kontraindikation wie bei Etoricoxib.",
+          "term": "Tilidin"
+        }
+      ]
+    },
+    "91": {
+      "topicLabel": "Manie – akute Pharmakotherapie",
+      "explanation": "Bei akuter Manie ist eine antimanische Akuttherapie vorrangig. Olanzapin ist eine etablierte Option. Antidepressiva (Citalopram) können die Manie verstärken; DBT, Clomethiazol und EKT sind hier nicht die vordringlichste Erstmaßnahme.",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Olanzapin ist eine etablierte Akuttherapie der Manie.",
+          "term": "Olanzapin Manie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "DBT ist keine Akuttherapie der Manie.",
+          "term": "Dialektisch-behaviorale Therapie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Clomethiazol gehört zum Alkoholentzugsmanagement.",
+          "term": "Clomethiazol"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Citalopram kann manische Symptome verstärken und ist falsch.",
+          "term": "Citalopram"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "EKT ist Reserve-/Sonderindikation, nicht die vordringlichste Erstmaßnahme hier.",
+          "term": "Elektrokonvulsionstherapie"
+        }
+      ]
+    },
+    "121": {
+      "topicLabel": "PONV – Apfel-Score",
+      "explanation": "Beim Apfel-Score entspricht 4 Punkten ein PONV-Risiko von etwa 80% (Faustregel: 0→10%, 1→20%, 2→40%, 3→60%, 4→80%).",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "10% entspricht eher 0 Punkten.",
+          "term": "Apfel-Score"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "20% entspricht eher 1 Punkt.",
+          "term": "Apfel-Score"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "40% entspricht eher 2 Punkten.",
+          "term": "Apfel-Score"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "60% entspricht eher 3 Punkten.",
+          "term": "Apfel-Score"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Bei Apfel-Score 4 liegt das PONV-Risiko bei ca. 80%.",
+          "term": "Apfel-Score PONV"
+        }
+      ]
+    },
+    "211": {
+      "topicLabel": "Kindlicher Unterarm – klinische Verlaufskontrolle",
+      "explanation": "Laut Lösungsschlüssel: Bei erhaltener Beweglichkeit ohne Fehlstellung und nur Druckschmerz ist eine zeitnahe klinische Wiedervorstellung vertretbar. Sofortige Vollbelastung ohne Kontrolle ist unsicher; MRT überdimensioniert. Ob Sono/Röntgen später nötig wird, hängt vom Verlauf ab – markiert ist hier die Wiedervorstellung.",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Sono kann kindliche Unterarmfrakturen oft darstellen, ist hier aber nicht die markierte Lösung.",
+          "term": "Ultraschall Fraktur Kind"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Bei blander Klinik ohne Fehlstellung: zeitnahe Wiedervorstellung laut Schlüssel.",
+          "term": "Kindliche Fraktur Beobachtung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Sofort Vollbelastung ohne Kontrolle riskiert, eine Verletzung zu übersehen.",
+          "term": "Fraktur Entlassung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "MRT ist keine Erstmaßnahme bei diesem Szenario.",
+          "term": "MRT Kind Arm"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Röntgen ist laut Schlüssel nicht zwingend sofort erforderlich, wenn Kontrolle geplant wird.",
+          "term": "Röntgen Kind"
+        }
+      ]
+    },
+    "241": {
+      "topicLabel": "PVK – Infektionsprävention",
+      "explanation": "Zur PVK-Infektionsprävention zählen Händedesinfektion, aseptischer Verband, tägliche Kontrolle und Entfernung sobald nicht mehr nötig. Ein routinemäßiger Wechsel alle 72 h wird evidenzbasiert nicht empfohlen, solange der Zugang komplikationslos ist – daher gehört genau das „am ehesten nicht“ dazu.",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Routinemäßiger PVK-Wechsel alle 72 h ist evidenzbasiert nicht indiziert.",
+          "term": "PVK Wechselintervall"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Aseptisches Abdecken gehört zur Prävention.",
+          "term": "PVK Verband"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Händedesinfektion vor Anlage ist Standard.",
+          "term": "Händedesinfektion"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Tägliche Kontrolle auf Infektionszeichen ist empfohlen.",
+          "term": "PVK Kontrolle"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Frühzeitige Entfernung nicht mehr benötigter PVK reduziert Infektionsrisiko.",
+          "term": "PVK Entfernung"
+        }
+      ]
+    },
+    "271": {
+      "topicLabel": "Aortenisthmusstenose – OP-Aufklärung Querschnitt",
+      "explanation": "Bei Korrektur einer Aortenisthmusstenose ist die spinale Ischämie mit Querschnittssyndrom eine seltene, aber schwerwiegende und damit aufklärungspflichtige Komplikation.",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Myokardinfarkt ist nicht die klassische spezifische Extremkomplikation dieser OP.",
+          "term": "Aortenisthmusstenose OP"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Niereninsuffizienz ist nicht die gefragte seltene neurologische Extremkomplikation.",
+          "term": "Aortenisthmusstenose"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Beinverlust ist keine typische Standard-Aufklärungskomplikation dieser Korrektur.",
+          "term": "Aortenisthmusstenose"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Querschnitt durch spinale Minderperfusion ist die seltene, schwerwiegende Aufklärungskomplikation.",
+          "term": "spinale Ischämie Aortenisthmusstenose"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Gerinnungsstörungen sind unspezifisch und nicht der Kern der Frage.",
+          "term": "Gerinnungsstörung OP"
+        }
+      ]
+    },
+    "301": {
+      "topicLabel": "Zentralarterienverschluss – relative afferente Pupillenstörung",
+      "explanation": "Kirschroter Fleck + akute einseitige Visusminderung = Zentralarterienverschluss. Es besteht eine relative afferente Pupillenstörung am betroffenen Auge: Beleuchtung des gesunden Auges führt über den Konsensualreflex zu deutlicher Verengung auch der betroffenen Pupille.",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Direkte Beleuchtung rechts führt beim CRAO rechts eher zu abgeschwächter Reaktion.",
+          "term": "RAPD"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Beleuchtung links → konsensuelle deutliche Kontraktion rechts (afferenter Defekt rechts, Efferenz intakt).",
+          "term": "relative afferente Pupillenstörung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Komplett fehlende Reaktion beidseits ist nicht der typische RAPD-Befund.",
+          "term": "Pupillenreaktion"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Swinging-Flashlight-Beschreibung ist so nicht korrekt für den typischen RAPD.",
+          "term": "Swinging Flashlight Test"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Beleuchtung rechts mit Kontraktion links ist nicht der leitende RAPD-Nachweis.",
+          "term": "Konsensualreflex"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,745 @@
+{
+  "examId": "m2-ss26-f26-gedaechtnisprotokoll",
+  "questions": {
+    "241": {
+      "topicLabel": "PVK-Infektionsprophylaxe",
+      "explanation": "Bei peripheren Venenkathetern steht die aseptische Anlage, die regelmäßige klinische Kontrolle und die Entfernung bei fehlender Indikation im Vordergrund. Ein routinemäßiger Wechsel allein nach einem festen Zeitintervall senkt nach aktueller Evidenz die Infektionsrate nicht zuverlässig gegenüber einem klinisch indizierten Wechsel. Deshalb ist der postoperative Wechsel alle 72 Stunden die Maßnahme, die am ehesten nicht zum evidenzbasierten Vorgehen gehört. Wichtig ist dagegen, lokale Entzündungszeichen, Schmerz, Fehlfunktion oder nicht mehr bestehende Notwendigkeit aktiv zu prüfen. Die Frage fragt ausdrücklich nach der Ausnahme, daher ist die formal 'aktive' Maßnahme hier die falsche Prophylaxestrategie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ein routinemäßiger Wechsel eines PVK alle 72 Stunden ist nicht die evidenzbasierte Standardmaßnahme zur Infektionsprophylaxe. Entscheidend ist vielmehr ein Wechsel bei klinischer Indikation, etwa bei Entzündungszeichen, Schmerzen, Fehlfunktion oder fehlender Notwendigkeit. Da nach der Maßnahme gefragt ist, die am ehesten nicht dazugehört, ist diese Option korrekt.",
+          "term": "routinemäßiger PVK-Wechsel"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein steriler beziehungsweise keimarmer Verband schützt die Punktionsstelle vor Kontamination und erlaubt zugleich eine hygienische Fixierung. Das aseptische Aufbringen gehört zu den Grundprinzipien bei der PVK-Anlage und -Versorgung. Diese Option beschreibt daher eine sinnvolle Prophylaxemaßnahme und ist nicht die gesuchte Ausnahme.",
+          "term": "aseptischer Verband"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die hygienische Händedesinfektion vor Anlage ist eine zentrale Maßnahme zur Vermeidung katheterassoziierter Infektionen. Sie reduziert die Übertragung von Haut- und Umgebungserregern auf Material und Punktionsstelle. Damit gehört sie klar zum evidenzbasierten Standard.",
+          "term": "Händedesinfektion"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die tägliche Kontrolle eines PVK durch Inspektion und bei Bedarf vorsichtige Palpation dient dem frühen Erkennen von Phlebitis, Infiltration oder Infektionszeichen. Gerade weil kein routinemäßiger Zeitwechsel nötig ist, wird die klinische Überwachung besonders wichtig. Diese Option ist deshalb eine richtige Prophylaxemaßnahme.",
+          "term": "tägliche PVK-Kontrolle"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Jeder nicht mehr benötigte Gefäßzugang ist ein vermeidbarer Infektions- und Komplikationsfaktor. Die unmittelbare Entfernung bei fehlender Indikation ist daher eine wichtige Präventionsmaßnahme. Diese Option gehört zum evidenzbasierten Vorgehen und ist nicht gesucht.",
+          "term": "PVK-Entfernung bei fehlender Indikation"
+        }
+      ]
+    },
+    "242": {
+      "topicLabel": "Akutes Koronarsyndrom",
+      "explanation": "Der junge adipöse Raucher mit plötzlich einsetzenden thorakalen Schmerzen und Ausstrahlung in beide Arme hat klinisch zunächst ein akutes Koronarsyndrom, bis das Gegenteil bewiesen ist. Ein akuter Myokardinfarkt kann durchaus bei erhaltener regelmäßiger Sinusaktion auftreten; entscheidend wären dann ST-Strecken- oder T-Wellen-Veränderungen, nicht zwingend eine Rhythmusstörung. Der Antwortschlüssel markiert Sinusrhythmus als die am ehesten zu erwartende EKG-Grundrhythmik. Die anderen Optionen bezeichnen primär Tachyarrhythmien oder Leitungsstörungen, die das typische Schmerzbild nicht besser erklären. Deshalb darf die Wahl 'Sinusrhythmus' nicht als Entwarnung verstanden werden, sondern nur als Aussage zum Rhythmus im EKG.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ein akutes Koronarsyndrom muss nicht mit einer Arrhythmie einhergehen; häufig ist der Grundrhythmus weiterhin ein Sinusrhythmus. Bei Brustschmerz wären ischämietypische ST- oder T-Veränderungen entscheidend, während die Rhythmuszeile trotzdem Sinusrhythmus zeigen kann. Diese Option ist laut Antwortschlüssel korrekt und klinisch plausibel.",
+          "term": "Sinusrhythmus"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine AV-Knoten-Reentrytachykardie verursacht typischerweise anfallsartiges Herzrasen mit regelmäßiger Schmalkomplextachykardie. Sie erklärt das geschilderte Bild mit drückendem Thoraxschmerz und Ausstrahlung in beide Arme weniger gut als ein akutes Koronarsyndrom. Ohne Hinweis auf Palpitationen oder Tachykardie ist diese Option nicht naheliegend.",
+          "term": "AVNRT"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine ventrikuläre Tachykardie wäre eine bedrohliche Rhythmusstörung und würde häufig mit Kreislaufinstabilität, Synkope oder Palpitationen auffallen. Der Fall zielt jedoch primär auf typische Infarktsymptomatik bei kardiovaskulärem Risikoprofil. Eine VT ist deshalb nicht die am ehesten erwartete EKG-Antwort.",
+          "term": "ventrikuläre Tachykardie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Vorhofflimmern zeigt eine absolute Arrhythmie und ist im Fall nicht durch unregelmäßigen Puls, Palpitationen oder bekannte kardiale Vorerkrankungen angedeutet. Es kann bei vielen kardialen Erkrankungen vorkommen, ist aber nicht die typische direkte Antwort auf diese Schmerzkonstellation. Nach Antwortschlüssel ist es nicht korrekt.",
+          "term": "Vorhofflimmern"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein sinuatrialer Block ist eine Störung der Erregungsbildung beziehungsweise -überleitung im Sinusknotenbereich und passt eher zu Bradykardie- oder Pausensymptomatik. Das geschilderte Leitsymptom sind akute thorakale Schmerzen mit Ausstrahlung, nicht Synkopen oder ausgeprägte Bradykardie. Diese Option ist daher nicht plausibel.",
+          "term": "sinuatrialer Block"
+        }
+      ]
+    },
+    "243": {
+      "topicLabel": "Koronarangiografie",
+      "explanation": "Die Frage bezieht sich auf den unmittelbar vorherigen Fall mit typischer Angina-pectoris-Symptomatik und Verdacht auf akutes Koronarsyndrom. Bei entsprechendem klinischem und EKG-Verdacht muss die Koronardiagnostik mit Interventionsbereitschaft zeitnah erfolgen, weil eine relevante Koronarokklusion oder hochgradige Stenose therapeutisch unmittelbar behandelbar ist. Laborwerte können ergänzen, dürfen bei hohem Risiko aber nicht die notwendige invasive Abklärung verzögern. Eine CT-Angiografie wäre eher bei anderer Verdachtsdiagnose wie Lungenembolie oder Aortensyndrom je nach Kontext relevant. Die unbekannten Optionen sind im Protokoll nicht auswertbar und können deshalb nicht als bessere Antwort begründet werden.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Labor inklusive D-Dimeren kann bei bestimmten Differenzialdiagnosen hilfreich sein, etwa bei niedriger bis intermediärer Wahrscheinlichkeit einer Lungenembolie. Im fortgesetzten Fall steht aber der Verdacht auf ein akutes Koronarsyndrom im Vordergrund. Labor darf die zeitkritische Koronardiagnostik bei entsprechender Konstellation nicht ersetzen.",
+          "term": "Labor und D-Dimere"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine CT-Angiografie ist nicht die Standarddiagnostik zur Abklärung eines akuten Koronarsyndroms mit Interventionsbedarf. Sie wäre bei Verdacht auf Lungenembolie, Aortendissektion oder in ausgewählten stabilen Koronarsituationen zu erwägen. Der Fall verlangt jedoch die zeitnahe koronarangiografische Abklärung.",
+          "term": "CT-Angiografie"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Die Koronarangiografie in Interventionsbereitschaft ist bei Verdacht auf ein relevantes akutes Koronarsyndrom die entscheidende zeitnahe Diagnostik. Sie ermöglicht nicht nur die Darstellung der Koronararterien, sondern bei Nachweis einer culprit lesion auch die unmittelbare Revaskularisation. Diese Option entspricht dem Antwortschlüssel und dem fortgesetzten Fallkontext.",
+          "term": "Koronarangiografie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Daher kann sie inhaltlich nicht zuverlässig bewertet werden und wird gemäß Antwortschlüssel nicht als korrekt gewertet.",
+          "term": "unbekannte Option"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Eine nähere medizinische Einordnung ist deshalb nicht möglich; nach Antwortschlüssel ist sie nicht korrekt.",
+          "term": "unbekannte Option"
+        }
+      ]
+    },
+    "244": {
+      "topicLabel": "Kardiales Lungenödem",
+      "explanation": "Nach dem akuten Koronarsyndrom verschlechtert sich der Patient mit Orthopnoe, Hypoxämie, feuchten Rasselgeräuschen und radiologischer Stauung. Das passt am ehesten zu einer akuten kardialen Dekompensation beziehungsweise einem Lungenödem. In dieser Situation ist Furosemid als Schleifendiuretikum eine naheliegende initiale medikamentöse Maßnahme zur Entlastung bei Volumen- und Stauungszeichen. Zusätzlich wären Lagerung, Sauerstoffgabe oder nichtinvasive Beatmung je nach Schweregrad zu bedenken, die Antwortoption fragt aber nach einem Medikament. Drainage, Antibiotikum oder Lyse passen ohne entsprechende Hinweise nicht zur beschriebenen Stauungssituation.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Furosemid passt zur akuten kardialen Stauung mit Orthopnoe, feuchten Rasselgeräuschen und Röntgenzeichen eines Lungenödems. Es senkt die Vorlast und fördert die Diurese, wodurch die pulmonale Überwässerung zurückgehen kann. Im Kontext ist dies die am ehesten geeignete medikamentöse Sofortmaßnahme.",
+          "term": "Furosemid"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Bülau-Drainage wäre bei einem relevanten Pneumothorax oder bestimmten Pleuraergüssen indiziert. Die geschilderten Befunde sprechen jedoch für eine kardiale Stauung und nicht für Luft im Pleuraspalt. Daher ist diese invasive Maßnahme nicht passend.",
+          "term": "Bülau-Drainage"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ampicillin wäre bei einer bakteriellen Infektion je nach Erregerspektrum zu prüfen. Der Fall beschreibt aber keine Pneumonie als Leitsyndrom, sondern Orthopnoe, Rasselgeräusche und radiologische Stauung nach kardialem Ereignis. Ein Antibiotikum behandelt die akute hämodynamische Dekompensation nicht.",
+          "term": "Ampicillin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Alteplase ist ein Thrombolytikum und kommt nur bei klarer Indikation wie bestimmten akuten Gefäßverschlüssen infrage. Bei der hier beschriebenen kardialen Stauung mit Lungenödem wäre eine Lyse ohne passende Diagnose nicht gerechtfertigt. Sie ist deshalb nicht die gesuchte Erstmaßnahme.",
+          "term": "Alteplase"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Sie kann daher nicht näher geprüft werden und ist nach Antwortschlüssel nicht korrekt.",
+          "term": "unbekannte Option"
+        }
+      ]
+    },
+    "245": {
+      "topicLabel": "Pertrochantäre Fraktur",
+      "explanation": "Der ältere Patient mit Hüftschmerz nach Stolpersturz hat im fortgesetzten Fall eine CT-Diagnostik der Hüfte. Der Antwortschlüssel nennt die pertrochantäre Femurfraktur als korrekte Diagnose. Diese Fraktur liegt extrakapsulär im Bereich zwischen Trochanter major und minor und ist ein typisches Verletzungsmuster nach niedrigenergetischem Sturz im höheren Alter. Eine Schenkelhalsfraktur wäre ebenfalls eine wichtige Differenzialdiagnose, ist hier aber nicht die codierte Bilddiagnose. Die übrigen Optionen passen anatomisch oder klinisch schlechter zur Hüft-CT-Frage.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine dislozierte Schenkelhalsfraktur ist bei älteren Sturzpatienten häufig und klinisch sehr relevant. Im vorliegenden Protokoll ist aber laut Antwortschlüssel nicht diese intrakapsuläre Fraktur, sondern die pertrochantäre Fraktur gemeint. Deshalb darf diese naheliegende Differenzialdiagnose hier nicht als korrekt markiert werden.",
+          "term": "Schenkelhalsfraktur"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die pertrochantäre Femurfraktur passt zum älteren Patienten mit Hüftschmerz nach Stolpersturz und ist laut Antwortschlüssel die Bilddiagnose. Sie betrifft die Trochanterregion des proximalen Femurs und wird bei geriatrischen Niedrigenergietraumata häufig gesehen. Damit ist diese Option korrekt.",
+          "term": "pertrochantäre Femurfraktur"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Femurschaftfraktur betrifft den Schaftbereich des Oberschenkelknochens und wäre klinisch meist mit deutlicher Oberschenkeldeformität oder Schmerzen fern der Hüftregion verbunden. Die Frage beschreibt eine Hüft-CT und zielt auf eine proximale Femurfraktur. Daher ist diese Option nicht passend.",
+          "term": "Femurschaftfraktur"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine proximale Humerusfraktur betrifft den Oberarmkopfbereich und nicht die Hüfte. Sie kann zwar ebenfalls nach Sturz im Alter auftreten, erklärt aber Hüftschmerz und CT-Hüfte nicht. Anatomisch ist diese Option klar nicht gesucht.",
+          "term": "proximale Humerusfraktur"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Ohne konkreten Inhalt kann sie nicht begründet werden und ist nach Antwortschlüssel nicht korrekt.",
+          "term": "unbekannte Option"
+        }
+      ]
+    },
+    "246": {
+      "topicLabel": "Apixaban präoperativ",
+      "explanation": "Der Fall setzt die pertrochantäre Femurfraktur fort und ergänzt die morgendliche Einnahme von Apixaban vor einer zeitnah notwendigen Operation. Apixaban ist ein direkter Faktor-Xa-Inhibitor, sodass für die perioperative Einschätzung der antikoagulatorischen Restwirkung am ehesten eine Anti-Faktor-Xa-Aktivität beziehungsweise eine geeignete Anti-Xa-Bestimmung relevant ist. Standardgerinnungswerte können unter DOAK-Therapie unzuverlässig sein und schließen eine relevante Wirkung nicht sicher aus. Die anderen genannten Laborwerte helfen nicht unmittelbar bei der OP-Planung im Hinblick auf das Blutungsrisiko durch Apixaban. Deshalb ist die Anti-Faktor-Xa-Aktivität die obligateste der angebotenen Untersuchungen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein Digoxinspiegel ist nur relevant, wenn eine Digoxintherapie oder eine Digoxintoxikation zu beurteilen ist. Im Fall geht es um Apixaban und die perioperative Gerinnungswirkung vor dringlicher Operation. Daher beantwortet dieser Wert die konkrete OP-Planungsfrage nicht.",
+          "term": "Digoxinspiegel"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "HbA1c beschreibt die längerfristige Stoffwechseleinstellung bei Diabetes mellitus. Er kann für elektive Planung oder Risikoeinschätzung nützlich sein, klärt aber nicht die akute Blutungsgefährdung durch die morgendliche Apixaban-Einnahme. Für die dringliche OP-Frage ist er nicht die obligate Untersuchung.",
+          "term": "HbA1c"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Kreatinkinase kann bei Muskelschäden, Myokardschaden oder Rhabdomyolyse erhöht sein. Sie sagt jedoch nichts Entscheidendes über die Wirkung eines Faktor-Xa-Hemmers aus. Für die perioperative Antikoagulationsbeurteilung ist CK daher nicht geeignet.",
+          "term": "Kreatinkinase"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Apixaban hemmt Faktor Xa, daher ist eine Anti-Faktor-Xa-Aktivität die am ehesten passende Laboruntersuchung zur Einschätzung einer relevanten Restwirkung. Gerade vor einer zeitnahen Operation kann dies für Blutungsrisiko, OP-Timing und gegebenenfalls Antagonisierung wichtig sein. Diese Option ist deshalb laut Antwortschlüssel korrekt.",
+          "term": "Anti-Faktor-Xa-Aktivität"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "TSH dient der Abklärung der Schilddrüsenfunktion. Ohne Hinweise auf eine thyreotoxische Krise, schwere Hypothyreose oder entsprechende Medikation steht dieser Wert nicht im Zentrum der dringlichen OP-Planung. Er erklärt insbesondere nicht die Apixaban-Wirkung.",
+          "term": "TSH"
+        }
+      ]
+    },
+    "247": {
+      "topicLabel": "Faktor-Xa-Antidot",
+      "explanation": "Diese Folgefrage knüpft direkt an die Einnahme von Apixaban vor dringlicher Operation an. Apixaban ist ein direkter Faktor-Xa-Hemmer, und Andexanet alfa ist als spezifisches Antidot gegen Faktor-Xa-Inhibitoren konzipiert. Der Antwortschlüssel markiert daher Andexanet alfa als korrekte Antagonisierung. Andere Antidote oder hämostaseologisch wirksame Substanzen richten sich gegen andere Medikamente oder Mechanismen. Wichtig ist, die Antwort nicht auf Heparin oder Dabigatran zu übertragen, weil dafür andere Antagonisten gelten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Andexanet alfa ist das spezifische Antidot für direkte Faktor-Xa-Inhibitoren wie Apixaban. Im fortgesetzten Fall ist genau diese Wirkstoffklasse relevant, weil der Patient morgens Apixaban eingenommen hat und dringlich operiert werden soll. Deshalb ist diese Option korrekt.",
+          "term": "Andexanet alfa"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Idarucizumab ist das spezifische Antidot für Dabigatran, also einen direkten Thrombinhemmer. Apixaban wirkt dagegen über Faktor Xa. Diese Option verwechselt daher die DOAK-Klasse und ist nicht korrekt.",
+          "term": "Idarucizumab"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Option ist vermutlich als Schreibvariante von Protamin gemeint, passt aber nicht zur Apixaban-Antagonisierung. Protamin neutralisiert vor allem Heparinwirkungen und ist kein spezifisches Antidot gegen direkte Faktor-Xa-Hemmer. Daher ist diese Antwort falsch.",
+          "term": "Protamin-Fehlschreibung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Protamin wird zur Antagonisierung von Heparin, besonders unfraktioniertem Heparin, verwendet. Bei Apixaban ist der Wirkmechanismus ein anderer, sodass Protamin die direkte Faktor-Xa-Hemmung nicht spezifisch aufhebt. Diese Option ist deshalb nicht gesucht.",
+          "term": "Protamin"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Aprotinin ist ein Antifibrinolytikum beziehungsweise Proteaseinhibitor und kein spezifisches Antidot gegen Apixaban. Es neutralisiert keine direkte Faktor-Xa-Hemmung. Damit passt es nicht zur Fragestellung.",
+          "term": "Aprotinin"
+        }
+      ]
+    },
+    "248": {
+      "topicLabel": "Synkope Red Flags",
+      "explanation": "Bei Jugendlichen sind vasovagale Synkopen häufig, aber eine Synkope während körperlicher Belastung ist eine wichtige Red Flag. Ein Ereignis direkt beim 400-m-Lauf kann auf kardiale Ursachen wie Rhythmusstörungen, strukturelle Herzerkrankungen oder belastungsabhängige Ausflussprobleme hinweisen und muss ernst genommen werden. Demgegenüber sprechen Blutsehen, Prodromi oder ein Ereignis nach Belastungsende eher für einen reflektorischen Mechanismus. Die Familienanamnese in der genannten Form ist unspezifisch und nicht die klassische Warnkonstellation eines plötzlichen Herztods in jungem Alter. Daher ist die Synkope während des Laufs die entscheidende Alarmkonstellation.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine Synkope während körperlicher Belastung ist bei Kindern und Jugendlichen eine kardiale Warnkonstellation. Sie kann auf belastungsinduzierte Arrhythmien oder strukturelle Herzerkrankungen hinweisen und sollte nicht als harmlose vasovagale Synkope abgetan werden. Diese Option ist deshalb korrekt.",
+          "term": "Belastungssynkope"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Synkope nach dem Anblick von Blut ist typisch für einen vasovagalen Reflex. Der Auslöser ist emotional beziehungsweise vegetativ plausibel und spricht eher gegen eine primär kardiale Red Flag. Diese Option ist daher nicht die gesuchte Warnkonstellation.",
+          "term": "Blutsehen"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Synkope nach der Belastung, besonders im zeitlichen Abstand, passt eher zu vasovagalen oder orthostatischen Mechanismen als eine Synkope mitten während der Anstrengung. Zwar muss der Kontext immer geprüft werden, aber diese Form ist weniger alarmierend als ein Kollaps beim Lauf selbst. Deshalb ist sie nicht die beste Red-Flag-Antwort.",
+          "term": "postexertionelle Synkope"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Verschwommenes Sehen kurz vor der Ohnmacht ist ein typisches Prodrom einer vasovagalen oder orthostatischen Synkope. Solche Prodromi machen eine gutartige Ursache wahrscheinlicher. Es handelt sich daher nicht um die zentrale Red Flag.",
+          "term": "visuelles Prodrom"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Schlaganfall des Großvaters mit 64 Jahren ist keine typische Synkopen-Red-Flag im Sinne familiärer maligner Rhythmusstörungen oder plötzlichen Herztods in jungem Alter. Die Angabe kann vaskuläre Risikofaktoren in der Familie andeuten, erklärt aber die jugendliche Synkope nicht unmittelbar. Daher ist diese Option nicht korrekt.",
+          "term": "Familienanamnese Schlaganfall"
+        }
+      ]
+    },
+    "249": {
+      "topicLabel": "Synkopen-Basisdiagnostik",
+      "explanation": "Nach einer Synkope gehört neben Anamnese, körperlicher Untersuchung und Blutdruckmessung ein Ruhe-EKG zur Basisdiagnostik. Das gilt auch dann, wenn der Gesamtverdacht auf eine benigne Synkope besteht, weil relevante Leitungsstörungen, Präexzitation, QT-Auffälligkeiten oder andere kardiale Hinweise nicht übersehen werden sollen. Weiterführende Verfahren wie Echokardiografie, Langzeit-EKG, Kipptisch oder Belastungsdiagnostik werden abhängig von Befunden und Risikokonstellation eingesetzt. Sie sind nicht in jedem Fall obligat. Deshalb ist das Ruhe-EKG die richtige zusätzliche Basismaßnahme.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "EKG und Blutdruckmessung unter Belastung sind keine Basisdiagnostik jeder Synkope. Eine Belastungsuntersuchung kann bei belastungsabhängigen Beschwerden wichtig sein, ist aber nicht generell bei jeder vermutlich benignen Synkope erforderlich. Die Option ist daher zu weitgehend.",
+          "term": "Belastungsdiagnostik"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Ruhe-EKG ist richtig, eine Echokardiografie aber nicht in jedem Fall Teil der Basisdiagnostik. Sie wird vor allem bei pathologischem Befund, Herzgeräusch, bekannter Herzerkrankung oder kardialen Warnzeichen wichtig. Als pauschale Mindestdiagnostik ist diese Kombination zu umfangreich.",
+          "term": "Ruhe-EKG und Echokardiografie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Kipptischuntersuchung kann bei unklaren rezidivierenden Synkopen oder Verdacht auf Reflexsynkope eingesetzt werden. Sie ist jedoch keine Untersuchung, die nach einer ersten oder plausibel benignen Synkope immer erfolgen muss. Die Basisdiagnostik wird dadurch überdehnt.",
+          "term": "Kipptischuntersuchung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein 24-Stunden-EKG ist sinnvoll bei Verdacht auf intermittierende Rhythmusstörungen oder wiederholten Ereignissen. Ohne entsprechende Hinweise gehört es nicht zwingend in jedem Fall zur Basisdiagnostik. Das Ruhe-EKG allein ist die obligate EKG-Maßnahme.",
+          "term": "Langzeit-EKG"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Das Ruhe-EKG gehört zur Basisdiagnostik nach Synkope und ergänzt die Blutdruckmessung. Es kann Hinweise auf Rhythmus- und Leitungsstörungen oder andere kardiale Risikomarker liefern. Diese Option ist deshalb die korrekte Mindestmaßnahme.",
+          "term": "Ruhe-EKG"
+        }
+      ]
+    },
+    "250": {
+      "topicLabel": "Benigne Synkope",
+      "explanation": "Wenn die Abklärung eine erstmalige benigne Synkope ergibt, stehen Aufklärung, Beruhigung und Verhaltensmaßnahmen im Vordergrund. Dazu gehören das Erkennen von Prodromi, ausreichende Flüssigkeits- und Salzaufnahme sofern individuell passend, Vermeidung typischer Auslöser und gegebenenfalls Hinsetzen oder Hinlegen bei Warnzeichen. Eine medikamentöse Therapie ist bei einem ersten benignen Ereignis in der Regel nicht die erste Maßnahme. Auch Substitutionen oder Betablocker setzen eine konkrete Indikation voraus, die hier nicht beschrieben ist. Deshalb ist Beobachten mit Edukation die passendste Vorgehensweise.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Bei erstmaliger benigner Synkope ist Edukation mit beobachtendem Vorgehen angemessen. Die Patientin sollte typische Auslöser und Prodromi kennen und lernen, rechtzeitig Gegenmaßnahmen wie Hinsetzen oder Hinlegen zu ergreifen. Diese Option entspricht dem konservativen Standardvorgehen.",
+          "term": "Edukation und Beobachtung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Etilefrin als Bedarfsmedikation ist bei einer erstmaligen benignen Synkope nicht die Standarderstmaßnahme. Medikamente kommen nur bei ausgewählten, wiederholten oder belastenden Verläufen nach sorgfältiger Einordnung infrage. Hier wäre die Therapie unnötig vorgezogen.",
+          "term": "Etilefrin"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eisen- oder Vitamin-B12-Substitution ist nur bei entsprechendem Mangel sinnvoll. Der Fall nennt keine Anämie, Mangelzeichen oder Laborbefunde, die eine solche Therapie begründen. Als pauschales Vorgehen nach benigner Synkope ist diese Option falsch.",
+          "term": "Eisen- und Vitamin-B12-Substitution"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Betablocker sind keine Routinebehandlung einer erstmaligen benignen Synkope im Jugendalter. Ohne konkrete kardiale Diagnose könnten sie sogar unerwünschte Bradykardie oder Hypotonie begünstigen. Diese Option ist daher nicht angemessen.",
+          "term": "Betablocker"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Sie kann daher nicht genauer beurteilt werden und ist laut Antwortschlüssel nicht korrekt.",
+          "term": "unbekannte Option"
+        }
+      ]
+    },
+    "251": {
+      "topicLabel": "Asbest-Berufskrankheit",
+      "explanation": "Bei beruflicher Asbestexposition sind verschiedene maligne und nichtmaligne Erkrankungen als Berufskrankheit relevant. Dazu zählen insbesondere asbestassoziierte Lungen- und Pleuraveränderungen sowie bestimmte maligne Tumoren, darunter Bronchialkarzinome und auch Kehlkopfkarzinome bei passender Exposition und Anerkennungsvoraussetzungen. Eine Berufskrankheitenanzeige soll bereits bei begründetem Verdacht erfolgen und nicht erst nach endgültiger Diagnosesicherung. Rauchen wirkt bei Lungenkrebsrisiken synergistisch, ist aber keine zwingende Voraussetzung für asbestassoziierte Erkrankungen. Deshalb ist die Aussage zur möglichen Anerkennung von Kehlkopf- und/oder Bronchialkarzinomen korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Adenokarzinome beziehungsweise Lungenkarzinome sind bei Asbestexposition, besonders in Kombination mit Rauchen, nicht als seltene irrelevante Konstellation anzusehen. Asbest ist ein anerkannter beruflicher Risikofaktor für Lungenkrebs. Die Aussage verharmlost den Zusammenhang und ist daher falsch.",
+          "term": "Adenokarzinom bei Asbest"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Kehlkopf- und Bronchialkarzinome können bei geeigneter beruflicher Asbestexposition als Berufserkrankung anerkannt werden. Entscheidend sind die medizinische Diagnose, Expositionsanamnese und die sozialmedizinischen Anerkennungsvoraussetzungen. Diese Aussage ist nach Antwortschlüssel korrekt.",
+          "term": "asbestassoziierte Berufskrankheit"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Anzeige auf Verdacht einer Berufskrankheit soll nicht bis zur endgültigen Diagnosestellung aufgeschoben werden. Bereits der begründete Verdacht ist melde- beziehungsweise anzeigerelevant. Diese Option beschreibt daher ein zu spätes Vorgehen.",
+          "term": "Berufskrankheitenanzeige"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Rauchen erhöht insbesondere beim Lungenkrebs das Risiko erheblich, ist aber keine notwendige Bedingung für asbestassoziierte Erkrankungen. Pleuraplaques, Asbestose oder Mesotheliome können auch ohne Rauchen auftreten. Die Formulierung 'in aller Regel nur in Assoziation mit Rauchen' ist deshalb falsch.",
+          "term": "Asbest und Rauchen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Eine inhaltliche Bewertung ist daher nicht möglich; laut Antwortschlüssel ist sie nicht korrekt.",
+          "term": "unbekannte Option"
+        }
+      ]
+    },
+    "252": {
+      "topicLabel": "Asbest-Erkrankungen",
+      "explanation": "Asbestexposition ist klassisch mit Pleuraplaques, Asbestose beziehungsweise Lungenfibrose, malignem Pleuramesotheliom und auch Peritonealmesotheliom assoziiert. Der Fall fragt nach der Erkrankung, die keine asbestassoziierte Erkrankung ist. Ein Thymom ist ein Tumor des Thymus und gehört nicht zu den typischen asbestbedingten Krankheitsbildern. Pleurale und peritoneale Mesotheliome sind dagegen gerade prototypische Asbestfolgeerkrankungen. Daher ist das Thymom die richtige Ausnahme.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Pleurale Plaques sind typische Marker einer stattgehabten Asbestexposition. Sie sind häufig gutartig, haben aber klare arbeitsmedizinische Bedeutung. Da sie asbestassoziiert sind, sind sie nicht die gesuchte Ausnahme.",
+          "term": "pleurale Plaques"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Das Pleuramesotheliom ist eine klassische maligne Asbestfolgeerkrankung. Bei entsprechender Exposition muss diese Diagnose besonders bedacht werden. Es ist daher nicht die gesuchte nicht-asbestassoziierte Erkrankung.",
+          "term": "Pleuramesotheliom"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Auch ein Peritonealmesotheliom kann asbestassoziiert sein. Es ist seltener als das Pleuramesotheliom, gehört aber zum Spektrum asbestbedingter Mesotheliome. Deshalb ist diese Option nicht korrekt für die Ausnahmefrage.",
+          "term": "Peritonealmesotheliom"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Ein Thymom entsteht aus dem Thymusgewebe im vorderen Mediastinum und ist nicht typisch asbestassoziiert. Es gehört nicht zu den klassischen Berufskrankheitenfolgen der Asbestexposition. Damit ist es die gesuchte Ausnahme und laut Antwortschlüssel korrekt.",
+          "term": "Thymom"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Lungenfibrose im Sinne einer Asbestose ist eine klassische nichtmaligne Folge inhalierter Asbestfasern. Sie passt daher gut zum Expositionskontext. Weil sie asbestassoziiert ist, ist sie nicht die richtige Ausnahme.",
+          "term": "Asbestose"
+        }
+      ]
+    },
+    "253": {
+      "topicLabel": "Pleuramesotheliom",
+      "explanation": "Das maligne Pleuramesotheliom macht sich häufig zunächst durch einen einseitigen Pleuraerguss, thorakale Beschwerden oder Belastungsdyspnoe bemerkbar. Der Erguss entsteht durch die pleurale Tumorinfiltration und ist oft der erste bildgebende oder klinische Hinweis. Obstruktive Ventilationsstörungen, Recurrensparese oder Tumormarkerveränderungen sind keine typischen Erstmanifestationen. Insbesondere NSE ist eher mit neuroendokrinen Tumoren beziehungsweise kleinzelligem Lungenkarzinom assoziiert und nicht Leitsignal des Mesothelioms. Daher ist der Pleuraerguss die beste Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ein Pleuraerguss ist eine typische frühe Manifestation des malignen Pleuramesothelioms. Er kann Dyspnoe und thorakale Beschwerden verursachen und führt häufig zur ersten weiterführenden Diagnostik. Diese Option ist deshalb korrekt.",
+          "term": "Pleuraerguss"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Obstruktion ist kein typisches erstes Leitsymptom des Pleuramesothelioms. Obstruktive Befunde passen eher zu Erkrankungen der Atemwege oder intrabronchialen Prozessen. Das Mesotheliom beginnt primär an der Pleura und äußert sich deshalb eher über Erguss und Thoraxschmerz.",
+          "term": "Obstruktion"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Recurrensparese kann bei mediastinaler Tumorausbreitung vorkommen, ist aber keine typische Erstmanifestation des Pleuramesothelioms. Sie würde sich eher durch Heiserkeit bemerkbar machen. Als erste Präsentation ist der Pleuraerguss deutlich plausibler.",
+          "term": "Recurrensparese"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Sie kann daher nicht zuverlässig eingeordnet werden und ist laut Antwortschlüssel nicht korrekt.",
+          "term": "unbekannte Option"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "NSE ist kein typischer Leitmarker des Pleuramesothelioms. Eine NSE-Erhöhung würde eher an neuroendokrine Tumoren, insbesondere ein kleinzelliges Bronchialkarzinom, denken lassen. Sie ist deshalb nicht die gesuchte Erstmanifestation.",
+          "term": "NSE"
+        }
+      ]
+    },
+    "254": {
+      "topicLabel": "Endokarditis-Blutkulturen",
+      "explanation": "Bei Verdacht auf infektiöse Endokarditis sind Blutkulturen vor Beginn einer antimikrobiellen Therapie zentral, sofern der Patient nicht unmittelbar vital bedroht ist. Wenn Blutkulturen negativ bleiben, sollte gezielt an schwer kultivierbare oder seltene Erreger gedacht werden; serologische beziehungsweise spezielle Diagnostik kann dann sinnvoll sein. Blutkulturen werden nicht im Kühlschrank gelagert, und die Flaschendesinfektion bleibt auch bei intakter Schutzkappe relevant. Antibiotikagabe vor Blutkulturabnahme verschlechtert die mikrobiologische Diagnostik und ist nur bei zwingender Notfalllage zu rechtfertigen. Deshalb ist die weitere Diagnostik bei negativen Kulturen die richtige Aussage.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Bei negativer Blutkultur trotz Endokarditisverdacht muss an seltene, langsam wachsende oder schwer kultivierbare Erreger gedacht werden. Dann sind gezielte Serologien oder spezielle mikrobiologische Verfahren sinnvoll. Diese Option ist deshalb korrekt.",
+          "term": "kulturnegative Endokarditis"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Blutkulturflaschen sollen nach Abnahme zügig ins Labor und nicht bei 4 Grad im Kühlschrank gelagert werden. Kälte kann das Wachstum relevanter Erreger verzögern oder beeinträchtigen. Diese Lagerung wäre daher falsch.",
+          "term": "Blutkultur-Lagerung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Auch bei intakter Staubschutzkappe wird die Membran der Blutkulturflasche vor Beimpfung desinfiziert. Die Kappe ersetzt keine aseptische Vorbereitung der Punktions- und Flaschenoberfläche. Diese Option widerspricht dem hygienischen Vorgehen.",
+          "term": "Flaschendesinfektion"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Bei Endokarditisverdacht sollten Blutkulturen möglichst vor Antibiotikagabe abgenommen werden. Eine vorzeitige Antibiotikatherapie kann Kulturen negativ machen und die Erregeridentifikation erschweren. Nur bei vitaler Instabilität wäre ein anderes Vorgehen abzuwägen, was hier nicht als Begründung der Option passt.",
+          "term": "Antibiotika vor Blutkulturen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Sie kann deshalb nicht inhaltlich bewertet werden und ist nach Antwortschlüssel nicht korrekt.",
+          "term": "unbekannte Option"
+        }
+      ]
+    },
+    "255": {
+      "topicLabel": "Endokarditis-Zeichen",
+      "explanation": "Fieber, neues Diastolikum über Erb und schmerzlose Läsionen an den Fingern passen gut zum Verdacht auf infektiöse Endokarditis. Typische Befunde oder Folgen sind Vegetationen an Klappen, positive Blutkulturen mit geeigneten Erregern und embolische Ereignisse wie Milzinfarkte. Eine dentale Eintrittspforte durch kariöse Zähne kann ebenfalls zum Bild passen. Eine Beinvenenthrombose ist dagegen eine venöse thromboembolische Erkrankung und gehört nicht typisch zur Endokarditis-Konstellation. Deshalb ist sie hier die unwahrscheinlichste Option.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine Beinvenenthrombose ist nicht typisch für die infektiöse Endokarditis. Die Endokarditis verursacht eher arterielle Embolien aus Klappenvegetationen, immunologische Hautzeichen und septische Manifestationen. Als unwahrscheinlicher Befund ist diese Option korrekt.",
+          "term": "Beinvenenthrombose"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Milzinfarkte können durch embolisches Material aus linksseitigen Klappenvegetationen entstehen. Bei infektiöser Endokarditis sind solche systemischen Embolien eine bekannte Komplikation. Diese Option ist daher nicht unwahrscheinlich.",
+          "term": "Milzinfarkte"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Flottierende Vegetationen auf der Aortenklappe wären ein sehr passender echokardiografischer Befund bei Endokarditis. Das neue Diastolikum kann zu einer Aortenklappenbeteiligung passen. Diese Option stützt die Verdachtsdiagnose und ist nicht die gesuchte Ausnahme.",
+          "term": "Aortenklappenvegetation"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Vergrünende Streptokokken sind klassische Erreger einer subakuten infektiösen Endokarditis, besonders nach oraler Eintrittspforte. Ein Nachweis in Blutkulturen wäre daher sehr gut mit der Verdachtsdiagnose vereinbar. Diese Option ist nicht unwahrscheinlich.",
+          "term": "Viridans-Streptokokken"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Mehrere kariöse Zähne können eine relevante orale Eintrittspforte für Endokarditiserreger darstellen. Dies passt insbesondere zu vergrünenden Streptokokken als möglichen Erregern. Daher spricht diese Option eher für als gegen die Verdachtsdiagnose.",
+          "term": "kariöse Zähne"
+        }
+      ]
+    },
+    "256": {
+      "topicLabel": "Endokarditis-Antibiose",
+      "explanation": "Die Frage steht im Kontext eines klinischen Verdachts auf infektiöse Endokarditis. Laut Antwortschlüssel ist die Kombination aus Amoxicillin, Flucloxacillin und Gentamicin korrekt, was als kalkulierte Abdeckung typischer Erregergruppen einschließlich Streptokokken, Enterokokken und Staphylokokken zu verstehen ist. Bei Endokarditis richtet sich die definitive Therapie nach Blutkulturen, Erreger und Klappensituation; hier wird jedoch nach der angebotenen Antibiotikakombination gefragt. Rituximab und Caspofungin sind in den anderen Optionen klare Fehlgriffe für eine übliche bakterielle Endokarditistherapie. Auch Rifampicin-, Ciprofloxacin- oder Linezolid-Kombinationen sind ohne spezielle Konstellation nicht die passende Standardantwort.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ceftriaxon kann in bestimmten Endokarditisregimen eine Rolle spielen, Rituximab jedoch nicht. Rituximab ist ein monoklonaler Antikörper mit immunsuppressiver Wirkung und kein Antibiotikum. Die Kombination ist daher für eine infektiöse Endokarditis ungeeignet.",
+          "term": "Ceftriaxon plus Rituximab"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ceftriaxon und Rifampicin sind ohne weitere Spezialsituation keine typische kalkulierte Standardkombination für die hier abgefragte Endokarditis. Rifampicin wird eher in ausgewählten Prothesen- oder Staphylokokkenkonstellationen als Zusatz erwogen. Die Option ist nach Antwortschlüssel nicht korrekt.",
+          "term": "Ceftriaxon und Rifampicin"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ampicillin und Flucloxacillin können bakteriell relevante Spektren abdecken, Caspofungin ist jedoch ein Antimykotikum. Für eine übliche bakterielle Endokarditis ist ein Echinocandin nicht Bestandteil der Standardkombination ohne Verdacht auf Pilzendokarditis. Diese Option ist daher nicht passend.",
+          "term": "Ampicillin, Flucloxacillin und Caspofungin"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die Kombination aus Amoxicillin, Flucloxacillin und Gentamicin ist laut Antwortschlüssel die richtige Auswahl. Sie zielt kalkuliert auf wichtige Endokarditiserreger wie Streptokokken, Enterokokken und Staphylokokken ab, bis eine gezielte Therapie anhand der Blutkulturen möglich ist. Die genaue Therapie muss klinisch und mikrobiologisch angepasst werden, die Optionswahl ist hier aber eindeutig codiert.",
+          "term": "Amoxicillin, Flucloxacillin und Gentamicin"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ciprofloxacin und Linezolid sind keine typische empirische Standardkombination für infektiöse Endokarditis. Linezolid kann bei speziellen resistenten grampositiven Erregern relevant werden, ist aber nicht die breit passende Erstantwort. Diese Option ist daher falsch.",
+          "term": "Ciprofloxacin und Linezolid"
+        }
+      ]
+    },
+    "257": {
+      "topicLabel": "Symptomatische Hyponatriämie",
+      "explanation": "Der geschilderte Laborbefund hebt eine niedrige Natriumkonzentration bei sonst weitgehend unauffälligen Werten hervor. Eine Hyponatriämie kann neurologische Symptome wie Kopfschmerzen, Übelkeit, Verwirrtheit, Krampfanfälle oder Bewusstseinsstörungen verursachen, weil die Osmolalität im Extrazellulärraum sinkt und zerebrale Ödeme begünstigt werden können. Ein Natriumwert von 125 mmol/l ist daher unter den genannten Optionen am ehesten symptomrelevant. Die übrigen Werte werden als normal oder nahezu normal beschrieben und erklären die Beschwerden weniger gut. Deshalb ist Natrium 125 die korrekte Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ein Natrium von 125 mmol/l entspricht einer relevanten Hyponatriämie und kann insbesondere neurologische Symptome verursachen. Kopfschmerzen und weitere unspezifische Beschwerden passen dazu, vor allem wenn der Abfall akut oder ausgeprägt ist. Diese Option ist daher korrekt.",
+          "term": "Natrium 125 mmol/l"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Kalium von 3,6 mmol/l liegt im üblichen Normbereich oder am unteren Rand des Normbereichs. Es erklärt Kopfschmerzen und neurologische Symptome nicht plausibel. Im Vergleich zur Hyponatriämie ist diese Option nicht symptomführend.",
+          "term": "Kalium 3,6 mmol/l"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Hämoglobinangabe ist im Protokoll unvollständig und nicht als pathologisch hervorgehoben. Ohne Hinweis auf eine relevante Anämie oder Polyglobulie lässt sich daraus keine Hauptursache der Symptome ableiten. Nach Antwortschlüssel ist diese Option nicht korrekt.",
+          "term": "Hämoglobin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Kalzium im Normbereich erklärt die geschilderten Symptome nicht. Symptomatische Hypo- oder Hyperkalzämien können neurologische oder neuromuskuläre Beschwerden machen, sind hier aber gerade nicht angegeben. Diese Option ist daher falsch.",
+          "term": "Normokalzämie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "LDH im Normbereich ist unspezifisch und spricht nicht für eine akute symptomverursachende Stoffwechselstörung. Eine LDH-Erhöhung könnte bei Zellschädigung oder Hämolyse relevant sein, ist hier aber nicht beschrieben. Diese Option erklärt die Beschwerden nicht.",
+          "term": "LDH im Normbereich"
+        }
+      ]
+    },
+    "258": {
+      "topicLabel": "SSRI-Hyponatriämie",
+      "explanation": "Die Frage knüpft an die Hyponatriämie des vorherigen Falls an und fragt nach einer wahrscheinlichen medikamentösen Ursache. SSRI wie Citalopram können eine Hyponatriämie begünstigen, typischerweise über ein SIADH-ähnliches Bild. Besonders bei älteren Patientinnen und Patienten oder weiteren Risikofaktoren muss diese Nebenwirkung bedacht werden. Die anderen genannten Medikamente sind nicht die klassischen Auslöser einer Hyponatriämie in dieser Auswahl. Deshalb ist Citalopram die richtige Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Citalopram ist ein SSRI und kann eine Hyponatriämie auslösen oder verstärken, häufig im Rahmen eines SIADH-ähnlichen Mechanismus. Bei neu auftretender oder symptomatischer Hyponatriämie sollte diese Medikamentengruppe gezielt überprüft werden. Diese Option ist deshalb korrekt.",
+          "term": "Citalopram"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Zopiclon ist ein Hypnotikum und nicht der klassische Auslöser einer SIADH-bedingten Hyponatriämie. Es kann Sedierung und Sturzrisiko begünstigen, erklärt aber den niedrigen Natriumwert in dieser Auswahl weniger gut. Daher ist diese Option nicht korrekt.",
+          "term": "Zopiclon"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Metoprolol ist ein Betablocker und gehört nicht zu den typischen Medikamenten, die eine Hyponatriämie verursachen. Es kann Bradykardie oder Blutdrucksenkung auslösen, aber keine klassische SIADH-Konstellation. Diese Option ist daher falsch.",
+          "term": "Metoprolol"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Amlodipin ist ein Calciumkanalblocker und verursacht eher periphere Ödeme oder Blutdruckeffekte als eine Hyponatriämie. Als Ursache des Natriumabfalls ist es deutlich weniger typisch als ein SSRI. Nach Antwortschlüssel ist es nicht korrekt.",
+          "term": "Amlodipin"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Paracetamol ist kein typischer Auslöser einer Hyponatriämie. Seine relevanten Risiken liegen vor allem bei Überdosierung oder Lebervorschädigung, nicht in einer SIADH-typischen Natriumstörung. Deshalb ist diese Option nicht gesucht.",
+          "term": "Paracetamol"
+        }
+      ]
+    },
+    "259": {
+      "topicLabel": "Carbamazepin-SIADH",
+      "explanation": "Auch diese Frage gehört zum Hyponatriämie-Komplex und fragt nach einem weiteren Medikament, bei dessen Neueinstellung besonders mit Hyponatriämie zu rechnen ist. Carbamazepin ist dafür ein klassischer Auslöser und kann ein SIADH beziehungsweise eine verstärkte ADH-Wirkung begünstigen. Das ist klinisch relevant, weil Symptome einer Hyponatriämie neurologisch imponieren können und mit anderen ZNS-Nebenwirkungen verwechselt werden können. Ezetimib, Betablocker, Amoxicillin und Metamizol sind in dieser Auswahl keine typischen Hauptauslöser. Deshalb ist Carbamazepin korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Carbamazepin ist ein bekannter medikamentöser Auslöser einer Hyponatriämie, häufig über SIADH-ähnliche Mechanismen. Bei Neueinstellung sollte daher besonders auf Natriumwerte und neurologische Symptome geachtet werden. Diese Option ist laut Antwortschlüssel korrekt.",
+          "term": "Carbamazepin"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ezetimib hemmt die intestinale Cholesterinaufnahme und ist nicht typisch mit Hyponatriämie assoziiert. Relevante Nebenwirkungen betreffen eher gastrointestinale Beschwerden oder Leberwerte in Kombinationstherapien. Für die Fragestellung ist es nicht die beste Antwort.",
+          "term": "Ezetimib"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Bisoprolol ist ein Betablocker und kein klassischer Auslöser einer Hyponatriämie. Typische unerwünschte Wirkungen betreffen Herzfrequenz, Blutdruck oder Bronchialtonus bei disponierten Personen. Diese Option passt daher nicht zur Frage.",
+          "term": "Bisoprolol"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Amoxicillin ist ein Betalaktam-Antibiotikum und verursacht nicht typischerweise eine SIADH-bedingte Hyponatriämie. Allergische Reaktionen oder gastrointestinale Nebenwirkungen wären naheliegender. Nach Antwortschlüssel ist es nicht korrekt.",
+          "term": "Amoxicillin"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Metamizol ist vor allem wegen Analgesie, Blutdruckabfall bei parenteraler Gabe und seltener Blutbildveränderungen relevant. Es ist nicht der klassische medikamentöse Auslöser einer Hyponatriämie in dieser Auswahl. Daher ist diese Option falsch.",
+          "term": "Metamizol"
+        }
+      ]
+    },
+    "260": {
+      "topicLabel": "Phenprocoumon-Überdosierung",
+      "explanation": "Der demente Pflegeheimbewohner hat eine seit zwei Tagen bestehende Epistaxis mit stark erhöhtem INR und massiv erniedrigtem Quick, während PTT, Fibrinogen, Hämoglobin, Antithrombin und Albumin unauffällig beschrieben werden. Diese Konstellation passt am ehesten zu einer Überdosierung oder Akkumulation eines Vitamin-K-Antagonisten wie Phenprocoumon. Vitamin-K-Antagonisten vermindern die Aktivität vitamin-K-abhängiger Gerinnungsfaktoren und verlängern dadurch vor allem die extrinsische Gerinnung mit hohem INR beziehungsweise niedrigem Quick. Akutes Leberversagen oder DIC würden typischerweise breitere Störungen und weitere pathologische Parameter erwarten lassen. Die unbekannten Optionen sind nicht überliefert und können die klare Gerinnungskonstellation nicht verdrängen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Phenprocoumon als Vitamin-K-Antagonist führt bei Überdosierung zu hohem INR und niedrigem Quick mit Blutungsneigung. Dass Fibrinogen, PTT, Antithrombin, Albumin und Hämoglobin nicht passend schwer verändert sind, stützt eine isolierte VKA-Wirkung stärker als eine globale Gerinnungsstörung. Diese Option ist daher korrekt.",
+          "term": "Phenprocoumonüberdosierung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein akutes Leberversagen kann Gerinnungsstörungen mit erniedrigtem Quick verursachen, würde aber häufig weitere Hinweise wie gestörte Syntheseleistung, verändertes Albumin oder andere klinische und laborchemische Leberversagenszeichen erwarten lassen. Im Fall sind mehrere andere Parameter ausdrücklich normal beschrieben. Deshalb passt diese Option schlechter als eine VKA-Überdosierung.",
+          "term": "akutes Leberversagen"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine disseminierte intravasale Gerinnung verursacht typischerweise eine Verbrauchskoagulopathie mit weiteren Auffälligkeiten, etwa verändertem Fibrinogen und breiter Gerinnungsstörung. Die hier geschilderte isolierte starke INR-/Quick-Entgleisung bei sonst normalen Gerinnungsparametern spricht nicht dafür. Diese Option ist daher nicht korrekt.",
+          "term": "DIC"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Sie kann deshalb nicht zuverlässig bewertet werden und ist laut Antwortschlüssel nicht korrekt.",
+          "term": "unbekannte Option"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nicht überliefert. Ohne konkreten Inhalt ist keine medizinische Begründung möglich; nach Antwortschlüssel ist sie nicht korrekt.",
+          "term": "unbekannte Option"
+        }
+      ]
+    }
+  }
+}

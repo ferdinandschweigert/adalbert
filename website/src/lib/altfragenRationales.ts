@@ -177,7 +177,16 @@ async function buildLlmRationales(q: ParsedQuestion): Promise<OptionRationale[] 
     .map((opt, i) => `${letter(i)}) ${opt} [${bits[i] === '1' ? 'RICHTIG' : 'falsch'}]`)
     .join('\n');
 
-  const prompt = `Du bist Prüfer für das deutsche 2. Staatsexamen (M2). Erkläre JEDE Option Amboss-Stil.
+  const prompt = `Du bist ein erfahrener Prüfer und Tutor für das deutsche 2. Staatsexamen (M2), Amboss-Stil.
+Ziel: fachlich KORREKTE Erklärungen. Länge darf variieren — lieber etwas ausführlicher und klar als knapp und unklar. Keine erfundenen Fakten, Dosierungen oder Leitlinienjahre.
+
+Harte Regeln:
+- Der Lösungsschlüssel unten ist verbindlich und darf NICHT umgedeutet werden.
+- Jede Option erklären (warum richtig/falsch), konkret zum Fall.
+- Distraktoren: Denkfehler/Abgrenzung (meist 2–4 Sätze).
+- explanation: ausführlichere Lösungs-Erklärung (ca. 4–8 Sätze): Warum richtig, relevante Definition/Klinik/Abgrenzung, nur belastbare Merksätze.
+- Bei Unsicherheit: kürzer und vorsichtiger formulieren, nichts spekulieren.
+- Output NUR valides JSON.
 
 Frage:
 ${q.question}
@@ -187,11 +196,14 @@ ${optionsText}
 
 Antworte NUR mit JSON:
 {
+  "topicLabel": "Kurzer Amboss-Themenname",
+  "explanation": "Ausführliche Lösungs-Erklärung auf Deutsch",
+  "confidence": "high",
   "rationales": [
     {
       "index": 0,
       "correct": false,
-      "text": "1-3 Sätze auf Deutsch: warum richtig/falsch, konkret zum Fall",
+      "text": "Erklärung warum richtig/falsch, fallbezogen",
       "searchTerms": ["Amboss-Suchbegriff"]
     }
   ]
@@ -202,6 +214,9 @@ Antworte NUR mit JSON:
   const match = jsonText.match(/\{[\s\S]*\}/);
   if (match) jsonText = match[0];
   const parsed = JSON.parse(jsonText) as {
+    topicLabel?: string;
+    explanation?: string;
+    confidence?: 'high' | 'low';
     rationales?: Array<{ index?: number; correct?: boolean; text?: string; searchTerms?: string[] }>;
   };
   const list = parsed.rationales || [];
@@ -215,11 +230,19 @@ Antworte NUR mit JSON:
     return {
       index,
       correct,
-      text: (row?.text || `${correct ? 'Richtig' : 'Falsch'}: ${opt}`).slice(0, 700),
+      text: (row?.text || `${correct ? 'Richtig' : 'Falsch'}: ${opt}`).slice(0, 2000),
       links: defaultLinks(term, stem.slice(0, 40)),
     };
   });
 }
+
+// Keep companion export used when explanation is generated alongside rationales
+export type LlmExplanationBundle = {
+  topicLabel?: string;
+  explanation?: string;
+  confidence?: 'high' | 'low';
+  optionRationales: OptionRationale[];
+};
 
 export function needsRealExplanations(q: ParsedQuestion): boolean {
   if (!q.optionRationales?.length) return true;
