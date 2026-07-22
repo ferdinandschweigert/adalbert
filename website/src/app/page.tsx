@@ -1,240 +1,178 @@
-import Image from "next/image";
-import dynamic from "next/dynamic";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
-import { 
-  BookOpen, 
-  Brain, 
-  CheckCircle,
-  Sparkles,
-  Lightbulb,
-  FileText,
-  PenLine
-} from "lucide-react";
+import Image from 'next/image';
+import dynamic from 'next/dynamic';
+import Link from 'next/link';
+import { SiteHeader } from '@/components/SiteHeader';
+import { SiteFooter } from '@/components/SiteFooter';
+import { Button } from '@/components/ui/button';
+import { BookOpen, Brain, ChevronRight, PenLine } from 'lucide-react';
 
-const Dashboard = dynamic(() => import("@/components/Dashboard"), {
+const Dashboard = dynamic(() => import('@/components/Dashboard'), {
   ssr: false,
   loading: () => (
     <div className="rounded-xl border border-[#e2e8f0] bg-white p-8 text-center text-sm text-zinc-500">
-      Dashboard wird geladen…
+      Anki-Dashboard wird geladen…
     </div>
   ),
 });
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-white">
-      {/* Hero Section */}
-      <section className="relative overflow-hidden">
-        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(0,47,93,0.12),transparent)]" />
-        <div className="relative z-10 container mx-auto px-6 py-24 md:py-32">
-          <div className="flex flex-col items-center text-center">
-            <div className="mb-8">
-              <Image
-                src="/adalbert-mark.webp"
-                alt="Adalbert"
-                width={150}
-                height={150}
-                priority
-                className="h-[150px] w-[150px] object-contain drop-shadow-xl"
-              />
-            </div>
-            <Badge variant="secondary" className="mb-4">
-              <Sparkles className="mr-1 h-3 w-3" />
-              MCP Server für Anki
-            </Badge>
-            <h1 className="mb-6 text-4xl font-bold tracking-tight text-zinc-900 md:text-6xl">
+    <div className="min-h-screen bg-[#f5f7fa]">
+      <SiteHeader active="home" />
+
+      {/* Hero — one composition: brand, headline, sentence, CTAs */}
+      <section className="relative overflow-hidden border-b border-[#e2e8f0] bg-gradient-to-br from-[#002F5D] via-[#003d7a] to-[#2C94CC]">
+        <div
+          className="pointer-events-none absolute inset-0 opacity-30"
+          style={{
+            backgroundImage:
+              'radial-gradient(circle at 20% 20%, rgba(255,255,255,0.18), transparent 45%), radial-gradient(circle at 80% 0%, rgba(44,148,204,0.45), transparent 40%)',
+          }}
+        />
+        <div className="relative container mx-auto grid items-center gap-10 px-6 py-16 md:grid-cols-[1.1fr_0.9fr] md:py-24">
+          <div className="text-white">
+            <p className="mb-3 text-sm font-semibold tracking-[0.18em] text-white/70 uppercase">
               Adalbert
-            </h1>
-            <p className="mb-8 max-w-2xl text-lg text-zinc-600 md:text-xl">
-              Ein intelligenter MCP-Server, der deine Anki-Prüfungsdecks mit 
-              KI-generierten deutschen Erklärungen anreichert und organisiert.
             </p>
-            <div className="flex flex-col gap-4 sm:flex-row">
-              <Link
-                href="/altfragen"
-                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#002F5D] h-10 px-8 bg-[#002F5D] text-white shadow hover:bg-[#003d7a]"
+            <h1 className="max-w-xl text-4xl font-bold leading-tight tracking-tight md:text-5xl lg:text-6xl">
+              Staatsexamen üben.
+              <span className="block text-white/90">Anki verstehen.</span>
+            </h1>
+            <p className="mt-5 max-w-lg text-base leading-relaxed text-white/80 md:text-lg">
+              Zwei Wege zum Lernen: freigegebene Altfragen kreuzen — oder deine
+              Anki-Decks mit deutschen Erklärungen anreichern.
+            </p>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Button asChild size="lg" className="bg-white text-[#002F5D] hover:bg-[#eef5fb]">
+                <Link href="/altfragen">
+                  <PenLine className="mr-2 h-4 w-4" />
+                  Kreuzen
+                </Link>
+              </Button>
+              <Button
+                asChild
+                size="lg"
+                variant="outline"
+                className="border-white/40 bg-transparent text-white hover:bg-white/10 hover:text-white"
               >
-                <PenLine className="mr-2 h-5 w-5 flex-shrink-0" />
-                Altfragen kreuzen
-              </Link>
-              <a 
-                href="https://github.com/ferdinandschweigert/adalbert/blob/main/README.md" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#002F5D] h-10 px-8 border border-[#002F5D] bg-white text-[#002F5D] shadow-sm hover:bg-[#eef5fb] hover:text-[#002F5D]"
-              >
-                <BookOpen className="mr-2 h-5 w-5 flex-shrink-0" />
-                Dokumentation
-              </a>
+                <Link href="/#anki">
+                  <Brain className="mr-2 h-4 w-4" />
+                  Anki anreichern
+                </Link>
+              </Button>
             </div>
+          </div>
+          <div className="flex justify-center md:justify-end">
+            <Image
+              src="/adalbert-mark.webp"
+              alt="Adalbert"
+              width={280}
+              height={280}
+              priority
+              className="h-48 w-48 object-contain drop-shadow-2xl md:h-64 md:w-64"
+            />
           </div>
         </div>
       </section>
 
-      {/* Interactive Dashboard */}
-      <section className="border-t border-[#e2e8f0] bg-white py-20">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-zinc-900 mb-4">
-              Interaktives Dashboard
+      {/* Paths overview */}
+      <section className="border-b border-[#e2e8f0] bg-white">
+        <div className="container mx-auto grid gap-0 px-6 md:grid-cols-2">
+          <Link
+            href="/altfragen"
+            className="group border-b border-[#e2e8f0] px-2 py-12 transition hover:bg-[#eef5fb]/60 md:border-b-0 md:border-r md:px-8"
+          >
+            <p className="text-xs font-semibold tracking-wide text-[#2C94CC] uppercase">
+              Modul 1
+            </p>
+            <h2 className="mt-2 flex items-center gap-2 text-2xl font-bold text-[#002F5D]">
+              Kreuzen
+              <ChevronRight className="h-5 w-5 transition group-hover:translate-x-0.5" />
             </h2>
-            <p className="text-zinc-600 max-w-2xl mx-auto">
-              Verwalte deine Anki-Decks direkt von hier aus
+            <p className="mt-3 max-w-md text-sm leading-relaxed text-zinc-600">
+              Gedächtnisprotokolle und Staatsexamen-Fragen online üben — mit
+              Lösung, Übersicht und Auswertung. Ohne Login.
+            </p>
+          </Link>
+          <Link
+            href="/#anki"
+            className="group px-2 py-12 transition hover:bg-[#eef5fb]/60 md:px-8"
+          >
+            <p className="text-xs font-semibold tracking-wide text-[#2C94CC] uppercase">
+              Modul 2
+            </p>
+            <h2 className="mt-2 flex items-center gap-2 text-2xl font-bold text-[#002F5D]">
+              Anki
+              <ChevronRight className="h-5 w-5 transition group-hover:translate-x-0.5" />
+            </h2>
+            <p className="mt-3 max-w-md text-sm leading-relaxed text-zinc-600">
+              Decks lesen, Karten mit Lösung / Erklärung / Eselsbrücke anreichern
+              und zurück nach Anki Desktop synchen.
+            </p>
+          </Link>
+        </div>
+      </section>
+
+      {/* Kreuzen detail */}
+      <section id="kreuzen" className="scroll-mt-20 border-b border-[#e2e8f0] bg-[#f5f7fa] py-16 md:py-20">
+        <div className="container mx-auto px-6">
+          <div className="mx-auto max-w-3xl">
+            <p className="text-sm font-semibold text-[#2C94CC]">Kreuzen</p>
+            <h2 className="mt-2 text-3xl font-bold tracking-tight text-zinc-900">
+              Altfragen wie in der Prüfung
+            </h2>
+            <p className="mt-4 text-zinc-600 leading-relaxed">
+              Freigegebene Klausuren (z. B. M2 SS26 und 2025-A) tippen, sofort
+              Feedback bekommen, Fragen überspringen und am Ende die Auswertung
+              mit Richtig/Falsch und Zeit sehen.
+            </p>
+            <ul className="mt-6 space-y-2 text-sm text-zinc-700">
+              <li className="flex gap-2">
+                <PenLine className="mt-0.5 h-4 w-4 shrink-0 text-[#002F5D]" />
+                SC-Fragen: Antwort tippen → Lösung sofort
+              </li>
+              <li className="flex gap-2">
+                <BookOpen className="mt-0.5 h-4 w-4 shrink-0 text-[#002F5D]" />
+                Amboss-Style Übersicht + Community-Prozente
+              </li>
+              <li className="flex gap-2">
+                <Brain className="mt-0.5 h-4 w-4 shrink-0 text-[#002F5D]" />
+                Optionaler Fachschafts-Code, Admin-Upload für neue Protokolle
+              </li>
+            </ul>
+            <Button asChild className="mt-8 bg-[#002F5D] hover:bg-[#003d7a]">
+              <Link href="/altfragen">
+                Zur Klausur-Übersicht
+                <ChevronRight className="ml-1 h-4 w-4" />
+              </Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Anki detail + dashboard */}
+      <section id="anki" className="scroll-mt-20 bg-white py-16 md:py-20">
+        <div className="container mx-auto px-6">
+          <div className="mx-auto mb-10 max-w-3xl">
+            <p className="text-sm font-semibold text-[#2C94CC]">Anki</p>
+            <h2 className="mt-2 text-3xl font-bold tracking-tight text-zinc-900">
+              Decks anreichern
+            </h2>
+            <p className="mt-4 text-zinc-600 leading-relaxed">
+              Adalbert liest deine Decks (Website oder MCP in Cursor), schreibt
+              deutsche Erklärungen und synct zurück nach Anki Desktop — ohne
+              manuelles Import/Export.
+            </p>
+            <p className="mt-3 text-sm text-zinc-500">
+              Pro Karte: Lösung · Erklärung · Eselsbrücke · Referenz. Lokal brauchst
+              du AnkiConnect und einen LLM-API-Key — siehe SETUP.md.
             </p>
           </div>
           <Dashboard />
         </div>
       </section>
 
-      {/* How It Works Section */}
-      <section className="border-t border-[#e2e8f0] bg-white py-20">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-zinc-900 mb-4">
-              So funktioniert es
-            </h2>
-            <p className="text-zinc-600 max-w-2xl mx-auto">
-              Adalbert läuft als MCP-Server im Hintergrund und integriert sich nahtlos mit deinem Workflow.
-            </p>
-          </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            <Card className="border-[#e2e8f0]">
-              <CardHeader className="text-center">
-                <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#eef5fb]">
-                  <BookOpen className="h-6 w-6 text-[#002F5D]" />
-                </div>
-                <CardTitle>1. Decks lesen</CardTitle>
-              </CardHeader>
-              <CardContent className="text-center text-zinc-600">
-                Liest deine .apkg Dateien oder verbindet sich direkt mit Anki Desktop
-              </CardContent>
-            </Card>
-            <Card className="border-[#e2e8f0]">
-              <CardHeader className="text-center">
-                <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#eef5fb]">
-                  <Brain className="h-6 w-6 text-[#002F5D]" />
-                </div>
-                <CardTitle>2. KI-Anreicherung</CardTitle>
-              </CardHeader>
-              <CardContent className="text-center text-zinc-600">
-                Generiert deutsche Erklärungen, Eselsbrücken und Referenzen via LLM-Provider
-              </CardContent>
-            </Card>
-            <Card className="border-[#e2e8f0]">
-              <CardHeader className="text-center">
-                <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#eef5fb]">
-                  <CheckCircle className="h-6 w-6 text-[#002F5D]" />
-                </div>
-                <CardTitle>3. Synchronisieren</CardTitle>
-              </CardHeader>
-              <CardContent className="text-center text-zinc-600">
-                Synchronisiert die angereicherten Karten direkt zu Anki Desktop - kein Import/Export nötig!
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Card Enrichment Section */}
-      <section className="py-20 bg-zinc-50">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-12">
-            <Badge variant="outline" className="mb-4">
-              <Sparkles className="mr-1 h-3 w-3" />
-              Karten-Anreicherung
-            </Badge>
-            <h2 className="text-3xl font-bold text-zinc-900 mb-4">
-              Jede Karte wird angereichert mit
-            </h2>
-          </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2 text-[#002F5D]">
-                  <CheckCircle className="h-5 w-5" />
-                  LÖSUNG
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="text-zinc-600">
-                Die richtige(n) Antwort(en) klar am Anfang dargestellt
-              </CardContent>
-            </Card>
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2 text-[#002F5D]">
-                  <BookOpen className="h-5 w-5" />
-                  ERKLÄRUNG
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="text-zinc-600">
-                Detaillierte deutsche Erklärung mit Begründungen für jede Option
-              </CardContent>
-            </Card>
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2 text-[#2C94CC]">
-                  <Lightbulb className="h-5 w-5" />
-                  ESELSBRÜCKE
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="text-zinc-600">
-                Gedächtnisstützen (Mnemonics) wenn anwendbar
-              </CardContent>
-            </Card>
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2 text-[#002F5D]">
-                  <FileText className="h-5 w-5" />
-                  REFERENZ
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="text-zinc-600">
-                Verweise auf Lehrbücher und Leitlinien
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Footer */}
-      <footer className="py-12 border-t border-[#e2e8f0] bg-white">
-        <div className="container mx-auto px-6">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="flex items-center gap-3">
-              <Image
-                src="/adalbert-mark.webp"
-                alt="Adalbert"
-                width={40}
-                height={40}
-                className="h-10 w-10 object-contain"
-              />
-              <span className="font-semibold text-[#002F5D]">Adalbert</span>
-            </div>
-            <p className="text-sm text-zinc-600 text-center">
-              Anki MCP Server mit KI-Anreicherung
-              <br />
-              <span className="text-xs text-zinc-500">
-                "Adalbert" is a personal project name. No copyright intended.
-              </span>
-            </p>
-            <div className="flex gap-4">
-              <Button variant="ghost" size="sm" className="whitespace-nowrap" asChild>
-                <a href="https://github.com/ferdinandschweigert/adalbert" target="_blank" rel="noopener noreferrer" className="whitespace-nowrap">
-                  GitHub
-                </a>
-              </Button>
-              <Button variant="ghost" size="sm" className="whitespace-nowrap" asChild>
-                <a href="https://github.com/ferdinandschweigert/adalbert/blob/main/README.md" target="_blank" rel="noopener noreferrer" className="whitespace-nowrap">
-                  Dokumentation
-                </a>
-              </Button>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <SiteFooter />
     </div>
   );
 }

@@ -1,104 +1,87 @@
-<img src="assets/adalbert.png" alt="Adalbert" width="25%"/>
+<p align="center">
+  <img src="website/public/adalbert-mark.png" alt="Adalbert" width="96" />
+</p>
 
-# Adalbert - Anki MCP Server
+# Adalbert
 
-An MCP (Model Context Protocol) server that enriches Anki exam decks with AI-generated German explanations using configurable LLM providers (Gemini, TogetherAI, OpenAI-compatible).
+Lernplattform für Medizinstudierende mit **zwei klaren Modulen**:
 
-🌐 **Live Website**: [https://adalbertanki.vercel.app](https://adalbertanki.vercel.app)
+| Modul | Was es tut | Wo |
+|-------|------------|-----|
+| **Kreuzen** | Freigegebene Staatsexamen-/Gedächtnisprotokoll-Fragen üben | [`/altfragen`](https://adalbertanki.vercel.app/altfragen) |
+| **Anki** | Decks mit deutschen Erklärungen anreichern & nach Anki synchen | [Website `#anki`](https://adalbertanki.vercel.app/#anki) + MCP in Cursor |
 
-🎓 **Altfragen**: On the website, students practice at [`/altfragen`](https://adalbertanki.vercel.app/altfragen) (kreuzen only). Admins upload & publish Gedächtnisprotokolle at [`/altfragen/admin`](https://adalbertanki.vercel.app/altfragen/admin).
+🌐 **Live:** [https://adalbertanki.vercel.app](https://adalbertanki.vercel.app)
 
-> **Note**: "Adalbert" is used as a personal project name. This is an open-source educational tool with no commercial affiliation or copyright claims to the name.
+> „Adalbert“ ist ein persönlicher Projektname — Open-Source-Lernhilfe ohne kommerziellen Namensanspruch.
 
-## How It Works
+---
 
-**MCP is NOT a CLI** - it's a background server that runs in Cursor. When you talk to me (Adalbert), I can call these tools to:
+## Schnellüberblick
 
-- Read your exam .apkg files
-- Enrich cards with German explanations via an LLM provider
-- Sync enriched cards directly to Anki Desktop (no import/export!)
+### Kreuzen (Website)
+- Öffentliche Klausur-Liste und Amboss-Style Übungsmodus
+- Sofort-Feedback bei SC, Übersicht, Auswertung (richtig/falsch/Zeit)
+- Admin (`/altfragen/admin`): Upload, Konvertierung, Freigabe
+- Optionaler Fachschafts-Zugangscode (`ALTFRAGEN_ACCESS_CODE`)
 
-## Quick Start
+Aktuell u. a.:
+- **M2 SS26** Gedächtnisprotokoll (~319 Fragen)
+- **M2 2025-A** Staatsexamen (320 Fragen aus 3 PDF-Teilen)
 
-See [SETUP.md](SETUP.md) for detailed installation instructions.
+### Anki (Website + MCP)
+- MCP-Server in Cursor: Decks lesen, anreichern, zu Anki Desktop synchen
+- Website-Dashboard für Anreicherung (lokal mit AnkiConnect + LLM-Key)
+- Pro Karte: **Lösung · Erklärung · Eselsbrücke · Referenz**
+- Fragetypen: SC, MC, KPRIM
 
-## Prerequisites
+---
 
-1. **Anki Desktop** with **AnkiConnect add-on** installed
+## Docs
 
-   - Install AnkiConnect: Code `2055492159` in Anki
-   - Make sure Anki Desktop is running
-2. **LLM API Key** (Gemini/TogetherAI/OpenAI-compatible)
+| Datei | Inhalt |
+|-------|--------|
+| [SETUP.md](SETUP.md) | Installation MCP, Website, Altfragen-Env |
+| [FEATURES.md](FEATURES.md) | Status & Roadmap |
+| [CHANGELOG.md](CHANGELOG.md) | Änderungsverlauf |
 
-   - Gemini: https://makersuite.google.com/app/apikey
-   - TogetherAI: https://api.together.xyz
-   - OpenAI: https://platform.openai.com
+---
 
-### Optional LLM Configuration
+## MCP Quick Start
 
-- `LLM_PROVIDER`: `gemini` (default), `together`, `openai`, `openai-compatible`
-- `LLM_FALLBACK_PROVIDERS`: e.g. `together,openai`
-- `LLM_MODEL` or provider-specific `GEMINI_MODEL`, `TOGETHER_MODEL`, `OPENAI_MODEL`
-- `LLM_BASE_URL` for `openai-compatible`
+1. Anki Desktop + AnkiConnect (`2055492159`)
+2. `npm install && npm run build`
+3. Cursor MCP konfigurieren — Details in [SETUP.md](SETUP.md)
+4. LLM-Key setzen (`GEMINI_API_KEY` / Together / OpenAI)
 
-## Installation
+Beispiel-Prompts in Cursor:
+- „List my Anki decks“
+- „Enrich these cards with German explanations“
+- „Sync the enriched cards to my Prüfungsvorbereitung deck“
 
-1. Install dependencies:
+---
+
+## Website lokal
 
 ```bash
+cd website
 npm install
+npm run dev
 ```
 
-2. Build the project:
+→ http://localhost:3000 — Startseite mit **Kreuzen** und **Anki**.
 
-```bash
-jnpm run build
+---
+
+## Repo-Struktur (kurz)
+
 ```
-
-3. Configure Cursor MCP (see [SETUP.md](SETUP.md) for details)
-4. Restart Cursor
-
-Usage
-
-Once configured, just ask me (Adalbert):
-
-- "List my Anki decks"
-- "Get cards from my 'Orthopädie' deck"
-- "Enrich these cards with German explanations"
-- "Sync the enriched cards to my 'Prüfungsvorbereitung' deck"
-
-### Direct Anki Integration
-
-The server can read cards directly from your Anki Desktop decks (no export needed!):
-
-- Reads all fields including question, options (Q_1 to Q_5), and answer codes
-- Preserves original answers in a separate field
-- Adds enriched explanations without losing existing data
-
-## Card Enrichment
-
-Each card gets enriched with:
-
-- **✅ LÖSUNG** - The correct answer(s) clearly stated at the top
-- **📚 ERKLÄRUNG** - Detailed German explanation:
-  - General introduction to the concept
-  - Why the correct options are correct
-  - Why the incorrect options are wrong
-- **💡 ESELSBRÜCKE** - Memory aids (mnemonics) when applicable
-- **📖 REFERENZ** - References to textbooks/guidelines (e.g., "Duale Reihe Orthopädie")
-
-### Supported Question Types
-
-- **KPRIM** (Multiple correct answers) - e.g., "1 1 0 1"
-- **MC** (Multiple Choice) - Single correct answer
-- **SC** (Single Choice) - One correct answer
-
-The system automatically reads options from Anki cards and generates explanations for each option.
-
-## How It Connects
-
-The MCP server runs as a background process that Cursor communicates with. You never need to run commands manually - just talk to me and I'll handle everything!
-
-## Changelog
-
-→ **[CHANGELOG.md](CHANGELOG.md)** – Monat/Jahr, Key Features und kurze Beschreibungen der Entwicklung.
+├── src/                 # MCP server (Anki)
+├── website/             # Next.js App (Kreuzen + Anki-Dashboard)
+│   ├── src/app/altfragen/
+│   └── data/altfragen-bank.json
+├── scripts/             # Klausur-Import-Skripte
+├── SETUP.md
+├── FEATURES.md
+└── CHANGELOG.md
+```
