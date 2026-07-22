@@ -2,18 +2,31 @@
 
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
 import { AltfragenShell } from '@/components/altfragen/AltfragenShell';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import type { ExamProgress, ParsedQuestion, StoredExam } from '@/lib/altfragenTypes';
+import type {
+  ExamProgress,
+  ParsedQuestion,
+  QuestionStat,
+  StoredExam,
+} from '@/lib/altfragenTypes';
 import {
   clearProgress,
   createEmptyProgress,
   getProgress,
   saveProgress,
 } from '@/lib/altfragenStore';
-import { AlertCircle, CheckCircle, ChevronLeft, ChevronRight, Loader2, RotateCcw, XCircle } from 'lucide-react';
+import {
+  AlertCircle,
+  CheckCircle,
+  ChevronLeft,
+  ChevronRight,
+  LayoutGrid,
+  Loader2,
+  RotateCcw,
+  XCircle,
+} from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 function emptyBits(optionCount: number): string {
@@ -27,9 +40,7 @@ function normalizeBits(bits: string | undefined, optionCount: number): string {
 
 function toggleBit(bits: string, index: number, exclusive: boolean): string {
   const arr = bits.split('');
-  if (exclusive) {
-    return arr.map((_, i) => (i === index ? '1' : '0')).join('');
-  }
+  if (exclusive) return arr.map((_, i) => (i === index ? '1' : '0')).join('');
   arr[index] = arr[index] === '1' ? '0' : '1';
   return arr.join('');
 }
@@ -40,22 +51,27 @@ function hasAnswerKey(question: ParsedQuestion): boolean {
 
 function isCorrect(question: ParsedQuestion, selection: string): boolean {
   if (!hasAnswerKey(question)) return false;
-  const expected = normalizeBits(question.correctAnswers, question.options.length);
-  const actual = normalizeBits(selection, question.options.length);
-  return expected === actual;
+  return (
+    normalizeBits(question.correctAnswers, question.options.length) ===
+    normalizeBits(selection, question.options.length)
+  );
 }
 
 function letter(index: number): string {
   return String.fromCharCode(65 + index);
 }
 
+type NavStatus = 'current' | 'unseen' | 'correct' | 'wrong' | 'done';
+
 export function AltfragenPractice({ examId }: { examId: string }) {
-  const router = useRouter();
   const [exam, setExam] = useState<StoredExam | null>(null);
   const [progress, setProgress] = useState<ExamProgress | null>(null);
   const [loading, setLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
+  const [showOverview, setShowOverview] = useState(false);
   const [showResult, setShowResult] = useState(false);
+  const [communityStats, setCommunityStats] = useState<Record<string, QuestionStat>>({});
+  const [reporting, setReporting] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -63,15 +79,22 @@ export function AltfragenPractice({ examId }: { examId: string }) {
       setLoading(true);
       setLoadError(null);
       try {
-        const res = await fetch(`/api/altfragen/exams/${examId}`, { cache: 'no-store' });
-        const data = await res.json();
-        if (!res.ok) throw new Error(data.error || 'Klausur nicht gefunden');
+        const [examRes, statsRes] = await Promise.all([
+          fetch(`/api/altfragen/exams/${examId}`, { cache: 'no-store' }),
+          fetch(`/api/altfragen/exams/${examId}/stats`, { cache: 'no-store' }),
+        ]);
+        const examData = await examRes.json();
+        if (!examRes.ok) throw new Error(examData.error || 'Klausur nicht gefunden');
         if (cancelled) return;
-        const found = data.exam as StoredExam;
-        setExam(found);
+        setExam(examData.exam as StoredExam);
         const existing = getProgress(examId);
         setProgress(existing ?? createEmptyProgress(examId));
         if (existing?.completedAt) setShowResult(true);
+
+        if (statsRes.ok) {
+          const statsData = await statsRes.json();
+          setCommunityStats(statsData.questionStats || {});
+        }
       } catch (e) {
         if (!cancelled) {
           setLoadError(e instanceof Error ? e.message : String(e));
@@ -86,10 +109,13 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     };
   }, [examId]);
 
-  const persist = useCallback((next: ExamProgress) => {
-    setProgress(next);
-    saveProgress(next);
-  }, []);
+  const persist = useCallback(
+    (next: ExamProgress) => {
+      setProgress(next);
+      saveProgress(next);
+    },
+    []
+  );
 
   const questions = exam?.questions ?? [];
   const index = progress?.currentIndex ?? 0;
@@ -97,22 +123,97 @@ export function AltfragenPractice({ examId }: { examId: string }) {
   const optionCount = question?.options.length ?? 0;
   const selection = normalizeBits(progress?.selections[index], optionCount);
   const isChecked = progress?.checked.includes(index) ?? false;
+  const currentStat = question ? communityStats[String(question.number)] : undefined;
 
-  const score = useMemo(() => {
-    if (!exam || !progress) return { correct: 0, total: 0, graded: 0, wrong: [] as number[] };
+  const navStatus = useCallback(
+    (i: number): NavStatus => {
+      if (!progress || !questions[i]) return 'unseen';
+      if (i === progress.currentIndex && !showOverview && !showResult) return 'current';
+      if (!progress.checked.includes(i)) return 'unseen';
+      const q = questions[i];
+      const sel = progress.selections[i] || '';
+      if (!hasAnswerKey(q)) return 'done';
+      return isCorrect(q, sel) ? 'correct' : 'wrong';
+    },
+    [progress, questions, showOverview, showResult]
+  );
+
+  const scoreSummary = useMemo(() => {
+    if (!exam || !progress) return { correct: 0, graded: 0, checked: 0 };
     let correct = 0;
     let graded = 0;
-    const wrong: number[] = [];
     for (let i = 0; i < exam.questions.length; i++) {
       if (!progress.checked.includes(i)) continue;
       if (!hasAnswerKey(exam.questions[i])) continue;
       graded += 1;
-      const sel = progress.selections[i] || '';
-      if (isCorrect(exam.questions[i], sel)) correct += 1;
-      else wrong.push(i);
+      if (isCorrect(exam.questions[i], progress.selections[i] || '')) correct += 1;
     }
-    return { correct, total: progress.checked.length, graded, wrong };
+    return { correct, graded, checked: progress.checked.length };
   }, [exam, progress]);
+
+  const goTo = (nextIndex: number) => {
+    if (!progress) return;
+    const clamped = Math.max(0, Math.min(questions.length - 1, nextIndex));
+    setShowResult(false);
+    setShowOverview(false);
+    persist({ ...progress, currentIndex: clamped, completedAt: undefined });
+  };
+
+  const handleSelect = (optIndex: number) => {
+    if (!progress || !question || isChecked) return;
+    const exclusive = question.type === 'SC';
+    const nextBits = toggleBit(selection || emptyBits(optionCount), optIndex, exclusive);
+    persist({
+      ...progress,
+      selections: { ...progress.selections, [index]: nextBits },
+    });
+  };
+
+  const reportStats = async (q: ParsedQuestion, bits: string) => {
+    try {
+      setReporting(true);
+      const res = await fetch(`/api/altfragen/exams/${examId}/stats`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          questionNumber: q.number,
+          optionCount: q.options.length,
+          selectionBits: bits,
+          correctBits: q.correctAnswers || '',
+        }),
+      });
+      const data = await res.json();
+      if (res.ok && data.stat) {
+        setCommunityStats((prev) => ({ ...prev, [String(q.number)]: data.stat }));
+      }
+    } catch {
+      // non-blocking
+    } finally {
+      setReporting(false);
+    }
+  };
+
+  const handleCheck = async () => {
+    if (!progress || !question || !selection.includes('1')) return;
+    const checked = progress.checked.includes(index)
+      ? progress.checked
+      : [...progress.checked, index];
+    const allDone = checked.length >= questions.length;
+    persist({
+      ...progress,
+      checked,
+      completedAt: allDone ? new Date().toISOString() : progress.completedAt,
+    });
+    void reportStats(question, selection);
+    if (allDone) setShowResult(true);
+  };
+
+  const handleRestart = () => {
+    clearProgress(examId);
+    persist(createEmptyProgress(examId));
+    setShowResult(false);
+    setShowOverview(false);
+  };
 
   if (loading) {
     return (
@@ -131,7 +232,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
         <div className="mx-auto max-w-lg space-y-4 text-center">
           <div className="flex items-center justify-center gap-2 text-zinc-600">
             <AlertCircle className="h-4 w-4" />
-            <span>{loadError || 'Diese Klausur ist nicht freigegeben oder existiert nicht.'}</span>
+            <span>{loadError || 'Klausur nicht freigegeben.'}</span>
           </div>
           <Button asChild>
             <Link href="/altfragen">Zur Übersicht</Link>
@@ -141,126 +242,147 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     );
   }
 
-  if (questions.length === 0) {
+  const QuestionNav = ({ compact }: { compact?: boolean }) => (
+    <div className={cn('flex flex-wrap gap-1.5', compact && 'max-h-48 overflow-y-auto')}>
+      {questions.map((q, i) => {
+        const status = navStatus(i);
+        return (
+          <button
+            key={q.number}
+            type="button"
+            onClick={() => goTo(i)}
+            title={`Frage ${i + 1}`}
+            className={cn(
+              'flex h-8 w-8 items-center justify-center rounded-md text-xs font-semibold transition',
+              status === 'current' && 'bg-[#002F5D] text-white ring-2 ring-[#2C94CC]',
+              status === 'unseen' && 'bg-zinc-100 text-zinc-600 hover:bg-[#eef5fb]',
+              status === 'correct' && 'bg-emerald-500 text-white hover:bg-emerald-600',
+              status === 'wrong' && 'bg-red-500 text-white hover:bg-red-600',
+              status === 'done' && 'bg-amber-400 text-white hover:bg-amber-500'
+            )}
+          >
+            {i + 1}
+          </button>
+        );
+      })}
+    </div>
+  );
+
+  if (showResult) {
+    const pct = scoreSummary.graded
+      ? Math.round((scoreSummary.correct / scoreSummary.graded) * 100)
+      : 0;
     return (
       <AltfragenShell subtitle={exam.title}>
-        <p className="text-zinc-600">Diese Klausur enthält keine Fragen.</p>
-      </AltfragenShell>
-    );
-  }
-
-  const finished = showResult || Boolean(progress.completedAt);
-
-  const goTo = (nextIndex: number) => {
-    const clamped = Math.max(0, Math.min(questions.length - 1, nextIndex));
-    persist({ ...progress, currentIndex: clamped });
-  };
-
-  const handleSelect = (optIndex: number) => {
-    if (isChecked) return;
-    const exclusive = question.type === 'SC';
-    const nextBits = toggleBit(selection || emptyBits(optionCount), optIndex, exclusive);
-    persist({
-      ...progress,
-      selections: { ...progress.selections, [index]: nextBits },
-    });
-  };
-
-  const handleCheck = () => {
-    if (!selection.includes('1')) return;
-    const checked = progress.checked.includes(index)
-      ? progress.checked
-      : [...progress.checked, index];
-    const allDone = checked.length >= questions.length;
-    persist({
-      ...progress,
-      checked,
-      completedAt: allDone ? new Date().toISOString() : progress.completedAt,
-    });
-    if (allDone) setShowResult(true);
-  };
-
-  const handleNext = () => {
-    if (index < questions.length - 1) {
-      goTo(index + 1);
-    } else if (progress.checked.length >= questions.length) {
-      setShowResult(true);
-      persist({ ...progress, completedAt: progress.completedAt || new Date().toISOString() });
-    }
-  };
-
-  const handleRestart = () => {
-    clearProgress(examId);
-    persist(createEmptyProgress(examId));
-    setShowResult(false);
-  };
-
-  if (finished) {
-    let answeredCorrect = 0;
-    let gradedChecked = 0;
-    for (let i = 0; i < questions.length; i++) {
-      if (!progress.checked.includes(i)) continue;
-      if (!hasAnswerKey(questions[i])) continue;
-      gradedChecked += 1;
-      if (isCorrect(questions[i], progress.selections[i] || '')) answeredCorrect += 1;
-    }
-    const pct = gradedChecked ? Math.round((answeredCorrect / gradedChecked) * 100) : 0;
-
-    return (
-      <AltfragenShell subtitle={exam.title}>
-        <div className="mx-auto max-w-xl space-y-6">
+        <div className="mx-auto max-w-3xl space-y-6">
           <div className="rounded-xl border border-[#e2e8f0] bg-white p-6 text-center shadow-sm">
             <p className="text-sm font-medium text-[#2C94CC]">Ergebnis</p>
-            <p className="mt-2 text-4xl font-bold text-[#002F5D]">
-              {gradedChecked ? `${pct}%` : '—'}
-            </p>
+            <p className="mt-2 text-4xl font-bold text-[#002F5D]">{pct}%</p>
             <p className="mt-2 text-zinc-600">
-              {gradedChecked
-                ? `${answeredCorrect} von ${gradedChecked} bewertbaren Fragen richtig`
-                : `${progress.checked.length} von ${questions.length} geübt (ohne Lösungs-Key im Protokoll)`}
+              {scoreSummary.correct} von {scoreSummary.graded} richtig · {scoreSummary.checked}{' '}
+              geprüft
             </p>
           </div>
-
-          {score.wrong.length > 0 && (
-            <div className="space-y-3">
-              <h3 className="font-semibold text-zinc-900">Falsche Fragen</h3>
-              <ul className="space-y-2">
-                {score.wrong.map((i) => (
-                  <li key={i}>
-                    <button
-                      type="button"
-                      className="w-full rounded-lg border border-[#e2e8f0] bg-white px-3 py-2 text-left text-sm hover:bg-[#eef5fb]"
-                      onClick={() => {
-                        setShowResult(false);
-                        persist({
-                          ...progress,
-                          currentIndex: i,
-                          completedAt: undefined,
-                        });
-                      }}
-                    >
-                      <span className="font-medium text-zinc-800">#{questions[i].number}</span>{' '}
-                      <span className="text-zinc-600">
-                        {questions[i].question.slice(0, 120)}
-                        {questions[i].question.length > 120 ? '…' : ''}
-                      </span>
-                    </button>
-                  </li>
-                ))}
-              </ul>
+          <div className="rounded-xl border border-[#e2e8f0] bg-white p-4 shadow-sm">
+            <p className="mb-3 text-sm font-medium text-zinc-800">Fragenübersicht — springe zu einer Frage</p>
+            <QuestionNav />
+            <div className="mt-3 flex flex-wrap gap-3 text-xs text-zinc-500">
+              <span className="inline-flex items-center gap-1">
+                <span className="h-3 w-3 rounded bg-emerald-500" /> richtig
+              </span>
+              <span className="inline-flex items-center gap-1">
+                <span className="h-3 w-3 rounded bg-red-500" /> falsch
+              </span>
+              <span className="inline-flex items-center gap-1">
+                <span className="h-3 w-3 rounded bg-zinc-200" /> offen
+              </span>
             </div>
-          )}
-
+          </div>
           <div className="flex flex-wrap gap-2">
             <Button type="button" onClick={handleRestart}>
               <RotateCcw className="mr-2 h-4 w-4" />
               Neu starten
             </Button>
-            <Button type="button" variant="outline" onClick={() => router.push('/altfragen')}>
-              Zur Übersicht
+            <Button type="button" variant="outline" onClick={() => setShowOverview(true)}>
+              <LayoutGrid className="mr-2 h-4 w-4" />
+              Übersicht
+            </Button>
+            <Button type="button" variant="ghost" asChild>
+              <Link href="/altfragen">Alle Klausuren</Link>
             </Button>
           </div>
         </div>
+      </AltfragenShell>
+    );
+  }
+
+  if (showOverview) {
+    return (
+      <AltfragenShell subtitle={exam.title}>
+        <div className="mx-auto max-w-3xl space-y-6">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <div>
+              <h2 className="text-xl font-bold text-zinc-900">Fragenübersicht</h2>
+              <p className="text-sm text-zinc-500">
+                {scoreSummary.checked} / {questions.length} geprüft · {scoreSummary.correct} richtig
+              </p>
+            </div>
+            <Button type="button" variant="outline" onClick={() => setShowOverview(false)}>
+              Zurück zur Frage
+            </Button>
+          </div>
+          <QuestionNav />
+          <ul className="divide-y divide-[#e2e8f0] rounded-xl border border-[#e2e8f0] bg-white shadow-sm">
+            {questions.map((q, i) => {
+              const status = navStatus(i);
+              const st = communityStats[String(q.number)];
+              return (
+                <li key={q.number}>
+                  <button
+                    type="button"
+                    onClick={() => goTo(i)}
+                    className="flex w-full items-start gap-3 px-4 py-3 text-left hover:bg-[#f8fafc]"
+                  >
+                    <span
+                      className={cn(
+                        'mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-md text-xs font-semibold',
+                        status === 'correct' && 'bg-emerald-500 text-white',
+                        status === 'wrong' && 'bg-red-500 text-white',
+                        status === 'unseen' && 'bg-zinc-100 text-zinc-600',
+                        status === 'done' && 'bg-amber-400 text-white',
+                        status === 'current' && 'bg-[#002F5D] text-white'
+                      )}
+                    >
+                      {i + 1}
+                    </span>
+                    <span className="min-w-0 flex-1">
+                      <span className="line-clamp-2 text-sm text-zinc-800">
+                        {q.question.replace(/^\[T\d+_\d+\]\s*/, '')}
+                      </span>
+                      {st && st.attempts > 0 && (
+                        <span className="mt-1 block text-xs text-zinc-500">
+                          Community: {Math.round((st.correct / st.attempts) * 100)}% richtig (
+                          {st.attempts}×)
+                        </span>
+                      )}
+                    </span>
+                    <Badge variant="secondary" className="shrink-0">
+                      {q.type}
+                    </Badge>
+                  </button>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </AltfragenShell>
+    );
+  }
+
+  if (!question) {
+    return (
+      <AltfragenShell subtitle={exam.title}>
+        <p className="text-zinc-600">Keine Fragen.</p>
       </AltfragenShell>
     );
   }
@@ -270,149 +392,203 @@ export function AltfragenPractice({ examId }: { examId: string }) {
 
   return (
     <AltfragenShell subtitle={exam.title}>
-      <div className="mx-auto max-w-2xl space-y-6">
-        <div className="flex flex-wrap items-center justify-between gap-2">
-          <p className="text-sm text-zinc-500">
-            Frage {index + 1} / {questions.length}
-          </p>
-          <div className="flex items-center gap-2">
-            <Badge variant="secondary">{question.type}</Badge>
-            <span className="text-xs text-zinc-400">{progress.checked.length} geprüft</span>
+      <div className="mx-auto grid max-w-6xl gap-6 lg:grid-cols-[220px_1fr]">
+        {/* Amboss-style side navigator */}
+        <aside className="hidden lg:block">
+          <div className="sticky top-6 space-y-3 rounded-xl border border-[#e2e8f0] bg-white p-3 shadow-sm">
+            <p className="px-1 text-xs font-semibold uppercase tracking-wide text-zinc-500">
+              Fragen
+            </p>
+            <QuestionNav compact />
+            <p className="px-1 text-xs text-zinc-500">
+              {scoreSummary.checked}/{questions.length} · {scoreSummary.correct} richtig
+            </p>
+            <Button
+              type="button"
+              variant="outline"
+              size="sm"
+              className="w-full"
+              onClick={() => setShowOverview(true)}
+            >
+              <LayoutGrid className="mr-1.5 h-3.5 w-3.5" />
+              Übersicht
+            </Button>
           </div>
-        </div>
+        </aside>
 
-        <div className="h-1.5 overflow-hidden rounded-full bg-[#e2e8f0]">
-          <div
-            className="h-full rounded-full bg-[#002F5D] transition-all"
-            style={{ width: `${((index + 1) / questions.length) * 100}%` }}
-          />
-        </div>
+        <div className="space-y-5">
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <p className="text-sm text-zinc-500">
+              Frage {index + 1} / {questions.length}
+            </p>
+            <div className="flex items-center gap-2">
+              <Badge variant="secondary">{question.type}</Badge>
+              <Button
+                type="button"
+                variant="ghost"
+                size="sm"
+                className="lg:hidden"
+                onClick={() => setShowOverview(true)}
+              >
+                <LayoutGrid className="mr-1 h-4 w-4" />
+                Übersicht
+              </Button>
+            </div>
+          </div>
 
-        <article className="space-y-5 rounded-xl border border-[#e2e8f0] bg-white p-5 shadow-sm md:p-6">
-          <h2 className="text-base font-medium leading-relaxed text-zinc-900 md:text-lg">
-            <span className="mr-2 text-[#002F5D]">#{question.number}</span>
-            {question.question}
-          </h2>
+          <div className="h-1.5 overflow-hidden rounded-full bg-[#e2e8f0]">
+            <div
+              className="h-full rounded-full bg-[#002F5D] transition-all"
+              style={{ width: `${(scoreSummary.checked / Math.max(questions.length, 1)) * 100}%` }}
+            />
+          </div>
 
-          <ul className="space-y-2">
-            {question.options.map((opt, optIndex) => {
-              const selected = selection[optIndex] === '1';
-              const isRight = correctBits[optIndex] === '1';
-              let stateClass = 'border-[#e2e8f0] hover:border-[#002F5D]/40 hover:bg-[#f8fafc]';
-              if (isChecked) {
-                if (isRight) stateClass = 'border-emerald-400 bg-emerald-50';
-                else if (selected && !isRight) stateClass = 'border-red-300 bg-red-50';
-                else stateClass = 'border-[#e2e8f0] opacity-70';
-              } else if (selected) {
-                stateClass = 'border-[#002F5D] bg-[#eef5fb]';
-              }
+          <article className="space-y-5 rounded-xl border border-[#e2e8f0] bg-white p-5 shadow-sm md:p-6">
+            <h2 className="text-base font-medium leading-relaxed text-zinc-900 md:text-lg">
+              <span className="mr-2 text-[#002F5D]">#{question.number}</span>
+              {question.question.replace(/^\[T\d+_\d+\]\s*/, '')}
+            </h2>
 
-              return (
-                <li key={optIndex}>
-                  <button
-                    type="button"
-                    disabled={isChecked}
-                    onClick={() => handleSelect(optIndex)}
-                    className={cn(
-                      'flex w-full items-start gap-3 rounded-lg border px-3 py-3 text-left text-sm transition',
-                      stateClass,
-                      isChecked && 'cursor-default'
-                    )}
-                  >
-                    <span
+            <ul className="space-y-2">
+              {question.options.map((opt, optIndex) => {
+                const selected = selection[optIndex] === '1';
+                const isRight = correctBits[optIndex] === '1';
+                let stateClass = 'border-[#e2e8f0] hover:border-[#002F5D]/40 hover:bg-[#f8fafc]';
+                if (isChecked) {
+                  if (isRight) stateClass = 'border-emerald-400 bg-emerald-50';
+                  else if (selected && !isRight) stateClass = 'border-red-300 bg-red-50';
+                  else stateClass = 'border-[#e2e8f0] opacity-70';
+                } else if (selected) {
+                  stateClass = 'border-[#002F5D] bg-[#eef5fb]';
+                }
+
+                const optStat = currentStat?.optionCounts?.[optIndex] || 0;
+                const optPct =
+                  currentStat && currentStat.attempts > 0
+                    ? Math.round((optStat / currentStat.attempts) * 100)
+                    : null;
+
+                return (
+                  <li key={optIndex}>
+                    <button
+                      type="button"
+                      disabled={isChecked}
+                      onClick={() => handleSelect(optIndex)}
                       className={cn(
-                        'mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-md text-xs font-semibold',
-                        selected ? 'bg-[#002F5D] text-white' : 'bg-zinc-100 text-zinc-600'
+                        'flex w-full items-start gap-3 rounded-lg border px-3 py-3 text-left text-sm transition',
+                        stateClass,
+                        isChecked && 'cursor-default'
                       )}
                     >
-                      {letter(optIndex)}
-                    </span>
-                    <span className="flex-1 text-zinc-800">{opt}</span>
-                    {isChecked && isRight && (
-                      <CheckCircle className="mt-0.5 h-4 w-4 shrink-0 text-emerald-600" />
-                    )}
-                    {isChecked && selected && !isRight && (
-                      <XCircle className="mt-0.5 h-4 w-4 shrink-0 text-red-500" />
-                    )}
-                  </button>
-                </li>
-              );
-            })}
-          </ul>
+                      <span
+                        className={cn(
+                          'mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-md text-xs font-semibold',
+                          selected ? 'bg-[#002F5D] text-white' : 'bg-zinc-100 text-zinc-600'
+                        )}
+                      >
+                        {letter(optIndex)}
+                      </span>
+                      <span className="flex-1 text-zinc-800">
+                        {opt}
+                        {isChecked && optPct !== null && currentStat && currentStat.attempts >= 2 && (
+                          <span className="mt-1 block text-xs text-zinc-500">
+                            {optPct}% der Nutzer haben das gewählt ({optStat}/{currentStat.attempts})
+                          </span>
+                        )}
+                      </span>
+                      {isChecked && isRight && (
+                        <CheckCircle className="mt-0.5 h-4 w-4 shrink-0 text-emerald-600" />
+                      )}
+                      {isChecked && selected && !isRight && (
+                        <XCircle className="mt-0.5 h-4 w-4 shrink-0 text-red-500" />
+                      )}
+                    </button>
+                  </li>
+                );
+              })}
+            </ul>
 
-          {question.type === 'KPRIM' && !isChecked && (
-            <p className="text-xs text-zinc-500">
-              KPRIM: Jede richtige Aussage anhaken.
-            </p>
-          )}
-          {question.type === 'MC' && !isChecked && (
-            <p className="text-xs text-zinc-500">Mehrfachauswahl möglich.</p>
-          )}
+            {question.type === 'MC' && !isChecked && (
+              <p className="text-xs text-zinc-500">Mehrfachauswahl möglich.</p>
+            )}
 
-          {isChecked && (
-            <div
-              className={cn(
-                'rounded-lg px-3 py-3 text-sm',
-                hasKey && isCorrect(question, selection)
-                  ? 'bg-emerald-50 text-emerald-900'
-                  : 'bg-amber-50 text-amber-950'
-              )}
+            {isChecked && (
+              <div
+                className={cn(
+                  'rounded-lg px-3 py-3 text-sm',
+                  hasKey && isCorrect(question, selection)
+                    ? 'bg-emerald-50 text-emerald-900'
+                    : 'bg-amber-50 text-amber-950'
+                )}
+              >
+                {hasKey ? (
+                  <p className="font-medium">
+                    {isCorrect(question, selection) ? 'Richtig' : 'Nicht ganz'}
+                    {!isCorrect(question, selection) && (
+                      <span className="font-normal">
+                        {' '}
+                        — Lösung:{' '}
+                        {correctBits
+                          .split('')
+                          .map((b, i) => (b === '1' ? letter(i) : null))
+                          .filter(Boolean)
+                          .join(', ')}
+                      </span>
+                    )}
+                  </p>
+                ) : (
+                  <p className="font-medium">Keine gesicherte Lösung hinterlegt.</p>
+                )}
+                {question.explanation && (
+                  <p className="mt-1.5 leading-relaxed text-zinc-700">{question.explanation}</p>
+                )}
+                {currentStat && currentStat.attempts >= 2 && (
+                  <p className="mt-2 text-xs text-zinc-600">
+                    Community-Statistik: {Math.round((currentStat.correct / currentStat.attempts) * 100)}%
+                    richtig bei {currentStat.attempts} Versuchen
+                    {reporting ? ' · aktualisiere…' : ''}
+                  </p>
+                )}
+              </div>
+            )}
+          </article>
+
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <Button
+              type="button"
+              variant="outline"
+              size="sm"
+              onClick={() => goTo(index - 1)}
+              disabled={index === 0}
             >
-              {hasKey ? (
-                <p className="font-medium">
-                  {isCorrect(question, selection) ? 'Richtig' : 'Nicht ganz'}
-                  {!isCorrect(question, selection) && (
-                    <span className="font-normal">
-                      {' '}
-                      — Lösung:{' '}
-                      {correctBits
-                        .split('')
-                        .map((b, i) => (b === '1' ? letter(i) : null))
-                        .filter(Boolean)
-                        .join(', ')}
-                    </span>
-                  )}
-                </p>
+              <ChevronLeft className="mr-1 h-4 w-4" />
+              Zurück
+            </Button>
+            <div className="flex gap-2">
+              {!isChecked ? (
+                <Button type="button" onClick={() => void handleCheck()} disabled={!selection.includes('1')}>
+                  Antwort prüfen
+                </Button>
               ) : (
-                <p className="font-medium">Keine gesicherte Lösung hinterlegt.</p>
-              )}
-              {question.explanation && (
-                <p className="mt-1.5 leading-relaxed text-zinc-700">{question.explanation}</p>
+                <Button
+                  type="button"
+                  onClick={() => {
+                    if (index >= questions.length - 1) setShowResult(true);
+                    else goTo(index + 1);
+                  }}
+                >
+                  {index >= questions.length - 1 ? 'Ergebnis' : 'Weiter'}
+                  <ChevronRight className="ml-1 h-4 w-4" />
+                </Button>
               )}
             </div>
-          )}
-        </article>
-
-        <div className="flex flex-wrap items-center justify-between gap-2">
-          <Button
-            type="button"
-            variant="outline"
-            size="sm"
-            onClick={() => goTo(index - 1)}
-            disabled={index === 0}
-          >
-            <ChevronLeft className="mr-1 h-4 w-4" />
-            Zurück
-          </Button>
-
-          <div className="flex gap-2">
-            {!isChecked ? (
-              <Button type="button" onClick={handleCheck} disabled={!selection.includes('1')}>
-                Antwort prüfen
-              </Button>
-            ) : (
-              <Button type="button" onClick={handleNext}>
-                {index >= questions.length - 1 ? 'Ergebnis' : 'Weiter'}
-                <ChevronRight className="ml-1 h-4 w-4" />
-              </Button>
-            )}
           </div>
-        </div>
 
-        <div className="flex justify-center">
-          <Button type="button" variant="ghost" size="sm" asChild>
-            <Link href="/altfragen">Übersicht</Link>
-          </Button>
+          {/* Mobile mini-nav */}
+          <div className="rounded-xl border border-[#e2e8f0] bg-white p-3 lg:hidden">
+            <p className="mb-2 text-xs font-medium text-zinc-500">Schnellnavigation</p>
+            <QuestionNav compact />
+          </div>
         </div>
       </div>
     </AltfragenShell>

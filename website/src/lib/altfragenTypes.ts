@@ -53,3 +53,10 @@ export interface AltfragenBankFile {
   updatedAt: string;
   exams: StoredExam[];
 }
+
+/** Aggregate community answer stats per question. */
+export interface QuestionStat {
+  attempts: number;
+  correct: number;
+  optionCounts: number[];
+}

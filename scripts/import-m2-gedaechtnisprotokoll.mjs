@@ -1,19 +1,17 @@
 #!/usr/bin/env node
 /**
- * Extract M2 Gedächtnisprotokoll questions + green-highlighted answers into the Altfragen bank.
+ * Import M2 Gedächtnisprotokoll PDF → Altfragen bank with green-highlight answers.
+ *
+ * Uses pixel sampling (green option bars) + cross-page option linking.
  *
  * Usage:
  *   node scripts/import-m2-gedaechtnisprotokoll.mjs path/to/protocol.pdf
- *
- * Green option bars (RGB ~147,196,125) are mapped to A–E. Title-row greens are ignored.
  */
 import { readFileSync, writeFileSync } from 'fs';
 import { randomUUID } from 'crypto';
-import { createRequire } from 'module';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
-const require = createRequire(import.meta.url);
 const websiteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../website');
 
 async function main() {
@@ -23,94 +21,131 @@ async function main() {
     process.exit(1);
   }
 
-  const { getDocument, OPS } = await import(
+  const { getDocument } = await import(
     path.join(websiteRoot, 'node_modules/pdfjs-dist/legacy/build/pdf.mjs')
   );
-  const { PDFParse } = await import(path.join(websiteRoot, 'node_modules/pdf-parse/dist/pdf-parse/esm/index.js')).catch(
-    async () => await import(path.join(websiteRoot, 'node_modules/pdf-parse/index.js'))
+  const { createCanvas } = await import(path.join(websiteRoot, 'node_modules/@napi-rs/canvas/js-binding.js')).catch(
+    async () => await import('@napi-rs/canvas')
   );
+  const { PDFParse } = await import(
+    path.join(websiteRoot, 'node_modules/pdf-parse/dist/pdf-parse/esm/index.js')
+  ).catch(async () => await import(path.join(websiteRoot, 'node_modules/pdf-parse/index.js')));
 
   const buf = readFileSync(pdfPath);
   const data = new Uint8Array(buf);
   const pdf = await getDocument({ data, disableFontFace: true, verbosity: 0 }).promise;
 
-  function isGreen(r, g, b) {
-    return g > 150 && r < 210 && b < 190 && g > r && g > b && g - Math.max(r, b) > 15;
+  function isGreenPixel(r, g, b) {
+    return (
+      g > 130 &&
+      g > r + 10 &&
+      g >= b - 5 &&
+      r < 240 &&
+      b < 240 &&
+      g - r + (g - Math.min(b, g)) > 20
+    );
   }
 
-  async function greenRects(page) {
-    const viewport = page.getViewport({ scale: 1 });
-    const ops = await page.getOperatorList();
-    let fill = [0, 0, 0];
-    const rects = [];
-    for (let i = 0; i < ops.fnArray.length; i++) {
-      const name = Object.entries(OPS).find(([, v]) => v === ops.fnArray[i])?.[0];
-      const args = ops.argsArray[i];
-      if (name === 'setFillRGBColor') fill = args.map(Number);
-      else if (name === 'constructPath' && isGreen(...fill)) {
-        let idx = 0;
-        for (const pop of args[0]) {
-          if (pop === OPS.rectangle) {
-            const x = args[1][idx++];
-            const y = args[1][idx++];
-            const w = args[1][idx++];
-            const h = args[1][idx++];
-            const y2 = y + h;
-            if (w > 200 && h > 12 && h < 36 && x > 100 && y > 20 && y2 < viewport.height + 5) {
-              rects.push({ x, y, w, h, y2 });
-            }
-          } else if (pop === OPS.moveTo || pop === OPS.lineTo) idx += 2;
-          else if (pop === OPS.curveTo) idx += 6;
-        }
+  function greenScore(px, width, height, vx, vy) {
+    const x0 = Math.max(0, Math.floor(vx + 8));
+    const x1 = Math.min(width - 1, Math.floor(vx + 480));
+    const y0 = Math.max(0, Math.floor(vy - 18));
+    const y1 = Math.min(height - 1, Math.floor(vy + 10));
+    let green = 0;
+    let total = 0;
+    for (let y = y0; y <= y1; y += 2) {
+      for (let x = x0; x <= x1; x += 2) {
+        const i = (y * width + x) * 4;
+        total++;
+        if (isGreenPixel(px[i], px[i + 1], px[i + 2])) green++;
       }
     }
-    return rects;
+    return total ? green / total : 0;
   }
 
-  const answers = new Map();
+  function rowGreenScore(px, width, height, vy) {
+    const y0 = Math.max(0, Math.floor(vy - 16));
+    const y1 = Math.min(height - 1, Math.floor(vy + 10));
+    let green = 0;
+    let total = 0;
+    for (let y = y0; y <= y1; y += 2) {
+      for (let x = 90; x < width - 40; x += 3) {
+        const i = (y * width + x) * 4;
+        total++;
+        if (isGreenPixel(px[i], px[i + 1], px[i + 2])) green++;
+      }
+    }
+    return total ? green / total : 0;
+  }
+
+  const scores = new Map();
+  function addScore(qid, letter, score) {
+    if (!qid || score < 0.04) return;
+    if (!scores.has(qid)) scores.set(qid, {});
+    const cur = scores.get(qid);
+    cur[letter] = Math.max(cur[letter] || 0, score);
+  }
+
+  let carryQid = null;
   for (let p = 1; p <= pdf.numPages; p++) {
     const page = await pdf.getPage(p);
-    const rects = await greenRects(page);
-    if (!rects.length) continue;
+    const scale = 2;
+    const viewport = page.getViewport({ scale });
+    const canvas = createCanvas(Math.ceil(viewport.width), Math.ceil(viewport.height));
+    const ctx = canvas.getContext('2d');
+    await page.render({ canvasContext: ctx, viewport }).promise;
+    const img = ctx.getImageData(0, 0, canvas.width, canvas.height);
+    const { data: px, width, height } = img;
+
     const tc = await page.getTextContent();
-    const items = tc.items.filter((it) => it.str?.trim());
-    const markers = items
-      .filter((it) => /^[A-E]$/.test(it.str.trim()) && it.transform[4] < 110)
-      .map((it) => ({ letter: it.str.trim(), y: it.transform[5] }));
+    const items = tc.items.filter((it) => typeof it.str === 'string' && it.str.trim());
     const qIds = [];
+    const markers = [];
     for (const it of items) {
+      const [x, y] = viewport.convertToViewportPoint(it.transform[4], it.transform[5]);
       const m = it.str.match(/\b(T\d+_\d+)\b/);
-      if (m) qIds.push({ id: m[1], y: it.transform[5] });
+      if (m) qIds.push({ id: m[1], x, y });
+      if (/^[A-E]\+?$/.test(it.str.trim()) && it.transform[4] < 130) {
+        markers.push({ letter: it.str.trim().replace('+', ''), x, y });
+      }
     }
-    for (const r of rects) {
-      if (qIds.some((q) => q.y >= r.y - 8 && q.y <= r.y2 + 18)) continue;
-      const cands = markers
-        .filter((m) => m.y >= r.y - 12 && m.y <= r.y2 + 12)
-        .sort((a, b) => Math.abs(a.y - r.y2) - Math.abs(b.y - r.y2));
-      if (!cands.length) continue;
-      let pick = cands[0];
-      if (Math.abs(pick.y - r.y2) > 16) pick = [...cands].sort((a, b) => b.y - a.y)[0];
+    qIds.sort((a, b) => a.y - b.y);
+    const firstQY = qIds[0]?.y ?? Infinity;
+
+    for (const m of markers) {
       let qid = null;
-      let bestDy = Infinity;
-      for (const q of qIds) {
-        if (q.y > pick.y) {
-          const dy = q.y - pick.y;
-          if (dy < bestDy) {
-            bestDy = dy;
-            qid = q.id;
+      if (m.y < firstQY - 8 && carryQid) qid = carryQid;
+      else {
+        let best = Infinity;
+        for (const q of qIds) {
+          if (q.y < m.y + 2) {
+            const dy = m.y - q.y;
+            if (dy < best) {
+              best = dy;
+              qid = q.id;
+            }
           }
         }
       }
-      if (!qid || bestDy > 280) continue;
-      if (!answers.has(qid)) answers.set(qid, new Set());
-      answers.get(qid).add(pick.letter);
+      if (!qid) continue;
+      const s = Math.max(
+        greenScore(px, width, height, m.x, m.y),
+        rowGreenScore(px, width, height, m.y) * 0.9
+      );
+      addScore(qid, m.letter, s);
     }
+    carryQid = qIds.length ? qIds[qIds.length - 1].id : carryQid;
+    if (p % 15 === 0) console.log('page', p, 'qs', scores.size);
   }
   await pdf.destroy();
 
-  const answerMap = Object.fromEntries(
-    [...answers.entries()].map(([k, v]) => [k, [...v].sort().join('')])
-  );
+  const answerMap = {};
+  for (const [qid, map] of scores) {
+    const entries = Object.entries(map)
+      .filter(([, s]) => s >= 0.05)
+      .sort((a, b) => b[1] - a[1]);
+    if (entries.length) answerMap[qid] = entries[0][0];
+  }
 
   function normalizeSpaces(s) {
     return s.replace(/[ \t]+/g, ' ').replace(/\n+/g, ' ').trim();
@@ -128,7 +163,6 @@ async function main() {
   const idRe = /\b(T\d+_\d+)\s*\|\s*/g;
   const starts = [...text.matchAll(idRe)];
   const questions = [];
-
   for (let i = 0; i < starts.length; i++) {
     const id = starts[i][1];
     const start = starts[i].index + starts[i][0].length;
@@ -141,7 +175,6 @@ async function main() {
     const question = frageMatch
       ? normalizeSpaces(frageMatch[1])
       : normalizeSpaces((body.split(/\n\s*[A-E]\+?\s/)[0] || '').replace(/^Frage\s+/i, ''));
-
     const optRe = /\n\s*([A-E])(\+?)\s+([^\n]+(?:\n(?!\s*[A-E]\+?\s)[^\n]+)*)/g;
     const options = [];
     const slice = '\n' + body;
@@ -152,30 +185,28 @@ async function main() {
     const cleanOptions = [];
     for (let j = 0; j < 5; j++) if (options[j]) cleanOptions.push(options[j]);
     if (cleanOptions.length < 2) continue;
-
-    const letters = answerMap[id] || '';
+    const letter = answerMap[id] || '';
     const bits = cleanOptions
-      .map((_, j) => (letters.includes(String.fromCharCode(65 + j)) ? '1' : '0'))
+      .map((_, j) => (letter === String.fromCharCode(65 + j) ? '1' : '0'))
       .join('');
-    const hasKey = bits.includes('1');
     questions.push({
       number: questions.length + 1,
       question: `[${id}] ${question || normalizeSpaces(title)}`,
       options: cleanOptions,
-      type: letters.length > 1 ? 'MC' : 'SC',
-      correctAnswers: bits,
-      explanation: hasKey
-        ? `Lösung laut grüner Markierung im Gedächtnisprotokoll (${letters.split('').join(', ')}). ${normalizeSpaces(title)}`
-        : `Keine grüne Lösungs-Markierung im Protokoll gefunden. ${normalizeSpaces(title)}`,
+      type: 'SC',
+      correctAnswers: bits.includes('1') ? bits : '0'.repeat(cleanOptions.length),
+      explanation: bits.includes('1')
+        ? `Lösung ${letter} (grüne Markierung im Gedächtnisprotokoll). ${normalizeSpaces(title)}`
+        : `Keine grüne Markierung erkannt. ${normalizeSpaces(title)}`,
     });
   }
 
   const withKey = questions.filter((q) => q.correctAnswers.includes('1')).length;
   const exam = {
-    id: randomUUID(),
+    id: 'm2-ss26-f26-gedaechtnisprotokoll',
     title: 'M2 SS26 / F26 – Gedächtnisprotokoll',
     sourceLabel: 'Gedächtnisprotokoll M2 SS26',
-    description: `M2 SS26 Gedächtnisprotokoll: ${questions.length} Fragen, davon ${withKey} mit grün markierter Lösung.`,
+    description: `M2 SS26: ${questions.length} Fragen, ${withKey} mit grün erkannter Lösung.`,
     published: true,
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString(),
@@ -187,8 +218,7 @@ async function main() {
     out,
     JSON.stringify({ version: 1, updatedAt: new Date().toISOString(), exams: [exam] }, null, 2) + '\n'
   );
-  console.log(`Wrote ${out}`);
-  console.log(`${questions.length} questions, ${withKey} with green answer keys`);
+  console.log(`Wrote ${out}: ${questions.length} questions, ${withKey} with keys`);
 }
 
 main().catch((e) => {
