@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Altfragen Admin – Adalbert',
   description: 'Klausuren hochladen, prüfen und zum Kreuzen freigeben.',
+  robots: { index: false, follow: false },
 };
 
 export default function AltfragenAdminPage() {

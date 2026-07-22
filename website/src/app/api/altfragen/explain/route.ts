@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import type { ParsedQuestion } from '@/lib/altfragenTypes';
 import { buildRealOptionRationales, needsRealExplanations } from '@/lib/altfragenRationales';
-import { hasAccessCookie, isAccessControlEnabled } from '@/lib/altfragenAccess';
+import { accessUnauthorizedIfNeeded } from '@/lib/altfragenAccess';
 
 export const runtime = 'nodejs';
 export const maxDuration = 60;
@@ -9,9 +9,8 @@ export const dynamic = 'force-dynamic';
 
 export async function POST(request: NextRequest) {
   try {
-    if (isAccessControlEnabled() && !hasAccessCookie(request)) {
-      return NextResponse.json({ error: 'Zugangscode erforderlich' }, { status: 401 });
-    }
+    const denied = accessUnauthorizedIfNeeded(request);
+    if (denied) return denied;
 
     const body = (await request.json()) as { question?: ParsedQuestion };
     const question = body.question;

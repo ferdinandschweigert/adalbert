@@ -27,21 +27,23 @@ Zwei Module auf einer Plattform: **Kreuzen** und **Anki**.
 | Einzelne Frage zurücksetzen | ✅ |
 | Community-% pro Option | ✅ (echte Kreuzungen) |
 | Admin Upload / Publish | ✅ |
-| Optionaler Zugangscode | ✅ |
+| Optionaler Zugangscode | ✅ | empfohlen vor Fachschafts-Teilen |
+| Admin ohne Default-Passwort | ✅ | `ALTFRAGEN_ADMIN_PASSWORD` Pflicht |
+| Stats hinter Zugangscode | ✅ | pro-Klausur Stats-API |
 | M2 SS26 Gedächtnisprotokoll | ✅ (~319) |
 | M2 2025-A Staatsexamen | ✅ (320) |
 
-### Anki — MCP + Website `/anki`
+### Anki — MCP + Website `/anki` (lokal)
 
 | Feature | Status |
 |---------|--------|
 | MCP-Server in Cursor | ✅ |
-| AnkiConnect lesen/schreiben | ✅ |
+| AnkiConnect lesen/schreiben | ✅ lokal |
 | Multi-LLM (Gemini/Together/OpenAI) | ✅ |
-| Website-Dashboard Anreicherung | ✅ |
+| Website-Dashboard Anreicherung | ✅ lokal; Host deaktiviert |
 | Batch-Anreicherung | ✅ |
 | Resume bei Abbruch | ✅ |
-| PDF → Karten (Website) | ✅ |
+| PDF → Karten (Website) | ✅ lokal |
 | Lösung / Erklärung / Eselsbrücke / Referenz | ✅ |
 | SC / MC / KPRIM | ✅ |
 
