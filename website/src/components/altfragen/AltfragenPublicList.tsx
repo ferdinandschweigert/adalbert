@@ -54,8 +54,8 @@ export function AltfragenPublicList() {
             Altfragen kreuzen
           </h2>
           <p className="max-w-2xl text-zinc-600">
-            Wähle eine freigegebene Klausur und übe im Multiple-Choice-Format.
-            Hochladen und Bearbeiten läuft nur im Admin-Bereich.
+            Wähle eine freigegebene Klausur und übe im Multiple-Choice-Format — ohne Login.
+            Bei aktiviertem Fachschafts-Code reicht der geteilte Zugangscode (kein Account).
           </p>
         </section>
 

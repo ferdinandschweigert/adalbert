@@ -7,6 +7,16 @@ export interface ParsedQuestion {
   type: QuestionType;
   correctAnswers?: string;
   explanation?: string;
+  /** Amboss-style per-option rationale */
+  optionRationales?: OptionRationale[];
+}
+
+export interface OptionRationale {
+  /** 0-based option index */
+  index: number;
+  correct: boolean;
+  text: string;
+  links?: Array<{ label: string; url: string }>;
 }
 
 export interface StoredExam {

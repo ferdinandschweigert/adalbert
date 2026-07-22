@@ -154,16 +154,27 @@ Die Website kann Karten direkt anreichern. So gehst du vor:
 
 ## Altfragen (Website): Admin + Kreuzen
 
-- **Studierende**: `/altfragen` – nur freigegebene Klausuren kreuzen
+- **Studierende**: `/altfragen` – freigegebene Klausuren kreuzen **ohne Login**
 - **Admin**: `/altfragen/admin` – hochladen, konvertieren, prüfen, freigeben
+
+### Fachschaft / rechtlicher Rahmen
+
+Offizielle IMPP-/Staatsexamensfragen dürfen **nicht öffentlich** im offenen Internet liegen.
+Sinnvolles Modell:
+
+1. Inhalt nur in der **Altklausuren-Datenbank / Fachschafts-Forum** bewerben (kein SEO)
+2. Optional `ALTFRAGEN_ACCESS_CODE` in Vercel setzen → Studierende entsperren mit dem geteilten Code (weiterhin kein Account)
+3. Admin lädt Gedächtnisprotokolle hoch und gibt frei
+4. Seiten sind mit `noindex` versehen
 
 ### Umgebungsvariablen (Website / Vercel)
 
 | Variable | Zweck |
 |----------|--------|
 | `ALTFRAGEN_ADMIN_PASSWORD` | Admin-Login (Standard lokal: `adalbert-admin`) |
+| `ALTFRAGEN_ACCESS_CODE` | Optionaler Fachschafts-Code für `/altfragen` (ohne = öffentlich kreuzen) |
 | `GEMINI_API_KEY` / LLM-Keys | Für PDF/Text → Fragen-Konvertierung |
-| `ALTFRAGEN_GITHUB_TOKEN` | Optional: schreibt die Klausurbank persistent nach GitHub (für Vercel) |
+| `ALTFRAGEN_GITHUB_TOKEN` | Optional: persistente Klausurbank + Stats auf Vercel via GitHub |
 | `ALTFRAGEN_GITHUB_REPO` | Optional, Default `ferdinandschweigert/adalbert` |
 | `ALTFRAGEN_GITHUB_PATH` | Optional, Default `website/data/altfragen-bank.json` |
 | `ALTFRAGEN_GITHUB_BRANCH` | Optional, Default `main` |

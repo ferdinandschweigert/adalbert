@@ -12,7 +12,9 @@ Kurze Übersicht der wichtigsten Änderungen.
 - **Gemeinsame Klausurbank** (Datei + optional GitHub Contents API)
 - **M2 SS26**: 319 Fragen mit grünen Lösungen (Pixel-Extraktion, seitenübergreifend)
 - **Amboss-Style**: Fragenübersicht, Seitennavigation, Springen zu Fragen
-- **Community-Statistik**: Wie oft Optionen gewählt / % richtig
+- **Option-Erklärungen**: Warum richtig/falsch inkl. Amboss-/Wikipedia-Links
+- **Community-Statistik**: Wie oft Optionen gewählt / % richtig (Seed + Live)
+- **Fachschafts-Zugang**: optionaler `ALTFRAGEN_ACCESS_CODE` (kein Login nötig)
 - Prompts für **2. Staatsexamen / M2** generalisiert (nicht mehr Derma-only)
 
 ---
