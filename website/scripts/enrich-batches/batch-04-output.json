@@ -1,0 +1,745 @@
+{
+  "examId": "m2-ss26-f26-gedaechtnisprotokoll",
+  "questions": {
+    "81": {
+      "topicLabel": "Retrobulbärneuritis",
+      "explanation": "Bei einer Retrobulbärneuritis ist typischerweise der Sehnerv entzündet, ohne dass initial zwingend ein auffälliger Fundusbefund sichtbar sein muss. Klinisch passen Visusminderung, Schmerzen bei Augenbewegungen und eine Störung des Farbsehens; im Gesichtsfeld findet sich häufig ein zentrales oder zentrozökales Skotom. Das zentrozökale Skotom betrifft den Bereich zwischen Fixationspunkt und blindem Fleck und passt damit gut zur Affektion papillomakulärer Fasern. Die anderen Antwortmöglichkeiten beschreiben eher chiasmale, glaukomatöse oder postchiasmale Gesichtsfeldausfälle. Entscheidend ist hier, dass der vorgegebene richtige Befund ein zentrozökales Skotom ist und nicht eine Hemianopsie oder Quadrantenanopsie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine bitemporale Hemianopsie spricht für eine Läsion im Chiasma opticum, klassisch etwa durch eine Raumforderung der Hypophyse. Sie betrifft die kreuzenden nasalen Netzhautfasern beider Augen und ist daher kein typischer Befund einer isolierten Retrobulbärneuritis.",
+          "term": "Bitemporale Hemianopsie"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Das Zentrozökalskotom ist bei einer Neuritis nervi optici gut erklärbar, weil häufig die papillomakulären Fasern betroffen sind. Es verbindet den zentralen Gesichtsfeldausfall mit dem blinden Fleck und passt zu Visus- und Farbsehstörung.",
+          "term": "Zentrozökalskotom"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Bjerrum-Skotom ist ein bogenförmiger Gesichtsfeldausfall, der besonders mit glaukomatöser Schädigung der Nervenfaserschicht assoziiert ist. Bei Retrobulbärneuritis steht dagegen eher ein zentrales oder zentrozökales Skotom im Vordergrund.",
+          "term": "Bjerrum-Skotom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Flintenröhrengesichtsfeld beschreibt eine konzentrische Gesichtsfeldeinengung. Das passt eher zu fortgeschrittenen Retinopathien, Glaukomstadien oder funktionellen bzw. anderen Ursachen, aber nicht als Leitsymptom einer akuten Retrobulbärneuritis.",
+          "term": "Flintenröhrengesichtsfeld"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine supratemporale Quadrantenanopsie weist auf eine umschriebene postchiasmale oder retinale Bahnläsion hin, je nach genauer Lokalisation. Für die Retrobulbärneuritis ist diese Quadrantenanopsie nicht typisch.",
+          "term": "Supratemporale Quadrantenanopsie"
+        }
+      ]
+    },
+    "82": {
+      "topicLabel": "Linsensubluxation",
+      "explanation": "Ein großgewachsener Jugendlicher mit neu aufgetretenen Sehproblemen beim Lesen und Hinweis auf eine luxierte oder subluxierte Linse passt am ehesten zu einer Linsensubluxation. Bei einer Verlagerung der Linse verändert sich die Refraktion, und besonders Nahsehen bzw. Akkommodation können auffällig werden. Der Habitus kann an ein Marfan-Syndrom denken lassen, bei dem eine Ektopia lentis klassisch vorkommt. Die Frage beschreibt außerdem ausdrücklich ein Bild mit Verdacht auf luxierte Linse; damit ist die Linsensubluxation die naheliegende Diagnose. Andere okuläre Ursachen können ebenfalls Visusprobleme machen, erklären aber die geschilderte Kombination weniger direkt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die Linsensubluxation erklärt eine unregelmäßige Refraktion und Sehverschlechterung, besonders wenn die Linse teilweise aus ihrer normalen Position verlagert ist. In Kombination mit großem Wuchs ist eine systemische Bindegewebserkrankung als Hintergrund plausibel.",
+          "term": "Linsensubluxation"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Keratokonus kann bei Jugendlichen eine progrediente Sehverschlechterung und irregulären Astigmatismus verursachen. Die im Fragetext betonte luxierte Linse und der Habitus sprechen hier jedoch stärker für eine Linsensubluxation.",
+          "term": "Keratokonus"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Option ist unklar formuliert und verweist offenbar auf eine Glaskörperveränderung. Eine primäre Glaskörperpathologie würde die akkommodations- und linsenbezogenen Hinweise des Falls nicht so gut erklären.",
+          "term": "Glaskörperveränderung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine persistierende A. hyaloidea ist eine embryologische Gefäßpersistenz und kann ophthalmologisch auffallen. Sie erklärt aber den Fall mit vermuteter Linsenverlagerung und großgewachsenem Jugendlichen nicht als wahrscheinlichste Diagnose.",
+          "term": "Persistierende A. hyaloidea"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Morning-glory-Papille ist eine angeborene Papillenanomalie. Sie betrifft den Sehnervenkopf und passt nicht zu der beschriebenen Linsenproblematik mit Refraktionsänderung.",
+          "term": "Morning-glory-Papille"
+        }
+      ]
+    },
+    "83": {
+      "topicLabel": "Abduzensparese",
+      "explanation": "Bei einer rechtsseitigen Abduzensparese ist der rechte M. rectus lateralis geschwächt, sodass das rechte Auge nicht ausreichend nach rechts abduzieren kann. Dadurch entsteht ein konvergentes Innenschielen des betroffenen Auges, besonders in Blickrichtung des gelähmten Muskels. Der Schielwinkel nimmt beim Blick nach rechts zu, weil gerade dann der rechte M. rectus lateralis benötigt wird. Typisch sind horizontale Doppelbilder, die in die betroffene Blickrichtung stärker werden. Eine Schwäche des M. rectus medialis oder eine primäre Fehlstellung des linken Auges wäre dagegen nicht die passende Lokalisation.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Das Problem liegt bei einer rechten Abduzensparese am rechten Auge und dessen Abduktion. Eine Verschiebung des linken Auges nach links beschreibt nicht den typischen Ausfall des rechten M. rectus lateralis.",
+          "term": "Linkes Auge nach links verschoben"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Das rechte Auge kann bei einer Abduzensparese gerade nicht ausreichend nach rechts bewegt werden. In Ruhe steht es eher relativ nach innen, weil der Gegenspieler M. rectus medialis überwiegt.",
+          "term": "Rechtes Auge nach rechts verschoben"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Bei der Abduzensparese ist der M. rectus lateralis betroffen, nicht der M. rectus medialis. Die Frage enthält hier ein Unsicherheitszeichen; als inkomplette Protokolloption bleibt die Kernaussage dennoch falsch zur vorgegebenen Diagnose.",
+          "term": "M. rectus medialis rechts geschwächt"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Kopfzwangshaltung kann bei Augenmuskelparesen auftreten, richtet sich aber typischerweise so aus, dass Doppelbilder reduziert werden. Eine reine Kopfneigung nach links ist nicht der charakteristische Befund einer rechten Abduzensparese; eher wäre eine Kopfdrehung zur betroffenen Seite zu erwarten.",
+          "term": "Kopf nach links geneigt"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Beim Blick nach rechts muss der rechte M. rectus lateralis abduzieren. Da er gelähmt ist, wird die Fehlstellung in dieser Blickrichtung deutlicher und der Schielwinkel nimmt zu.",
+          "term": "Schielwinkel bei Blick nach rechts größer"
+        }
+      ]
+    },
+    "84": {
+      "topicLabel": "Depression Erstkontakt",
+      "explanation": "Bei depressiver Symptomatik ist die Abklärung von Suizidalität eine vordringliche Sicherheitsmaßnahme. Sie gehört zur Basisdiagnostik, weil das weitere Vorgehen wesentlich davon abhängt, ob akute Eigengefährdung, konkrete Pläne oder fehlende Absprachefähigkeit bestehen. Erst nach dieser Einschätzung lassen sich ambulante Behandlung, Krisenintervention, engmaschige Kontrolle oder stationäre Aufnahme sinnvoll planen. Eine Zwangseinweisung ist nicht automatisch indiziert, sondern nur bei entsprechender Gefährdung und fehlender Freiwilligkeit. Auch eine medikamentöse Therapie kann wichtig sein, steht aber nicht vor der unmittelbaren Risikoabklärung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die Suizidalität muss bei depressiver Symptomatik aktiv und konkret erfragt werden. Sie ist entscheidend für die Einschätzung von Dringlichkeit, Setting und Schutzmaßnahmen.",
+          "term": "Suizidalität abklären"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Zwangseinweisung ist nur bei akuter Selbst- oder Fremdgefährdung und fehlender freiwilliger Behandlungsbereitschaft zu rechtfertigen. Ohne vorherige Suizidalitäts- und Gefährdungsprüfung wäre sie nicht die vordringlichste Standardmaßnahme.",
+          "term": "Zwangseinweisung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Antidepressiva können bei einer depressiven Episode indiziert sein. Vor der Therapieentscheidung muss aber zunächst die akute Gefährdung, insbesondere Suizidalität, geklärt werden.",
+          "term": "Antidepressiva verschreiben"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Unvollständige Protokolloption: Der genaue Inhalt ist nicht überliefert. Nach Antwortschlüssel ist diese Option nicht die gesuchte vordringliche Maßnahme.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Unvollständige Protokolloption: Der genaue Inhalt ist nicht überliefert. Nach Antwortschlüssel ist diese Option nicht korrekt.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "85": {
+      "topicLabel": "Tinea capitis profunda",
+      "explanation": "Der Antwortschlüssel markiert die tiefe Trichophyton-Infektion als richtige Lösung. Im Kontext eines Barbershops geht es wahrscheinlich um eine dermatophytäre Infektion im behaarten Kopfbereich, die durch gemeinsam genutzte Instrumente begünstigt werden kann. Eine tiefe Trichophytie kann entzündliche, schmerzhafte Knoten, Pusteln oder abszedierende Herde am Kapillitium verursachen und ist eine wichtige Differenzialdiagnose zu bakteriellen Hautinfektionen. Die allgemeine Bezeichnung Tinea capitis wäre zwar thematisch nah, ist hier aber laut Schlüssel nicht die spezifisch gesuchte Antwort. Impetigo contagiosa, Pyoderma gangraenosum und Furunkel passen nicht so gut zur vorgegebenen korrekten Zuordnung.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Tinea capitis ist der Oberbegriff für Dermatophyteninfektionen der Kopfhaut und wäre bei einem Barber-Shop-Kontext grundsätzlich plausibel. Der Antwortschlüssel verlangt hier jedoch die spezifischere tiefe Trichophyton-Infektion und nicht den allgemeinen Begriff.",
+          "term": "Tinea capitis"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Eine tiefe Trichophyton-Infektion passt zu einer entzündlichen Dermatophytose des behaarten Kopfes nach möglicher Übertragung über kontaminierte Rasier- oder Schneideinstrumente. Sie kann klinisch wie eine bakterielle Entzündung wirken, ist aber mykotisch bedingt.",
+          "term": "Tiefe Trichophytie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Pyoderma gangraenosum ist eine neutrophile Dermatose mit schmerzhaften, ulzerierenden Hautläsionen und oft Assoziation zu systemischen Erkrankungen. Ein typischer Barber-Shop-Übertragungskontext spricht nicht dafür.",
+          "term": "Pyoderma gangraenosum"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Impetigo contagiosa verursacht oberflächliche bakterielle Hautinfektionen mit honiggelben Krusten und ist bei Kindern häufig. Trotz der im Protokoll notierten Überlegung ist sie nach dem Antwortschlüssel nicht die richtige Lösung dieser Frage.",
+          "term": "Impetigo contagiosa"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Furunkel ist eine tiefe bakterielle Entzündung eines Haarfollikels mit perifollikulärer Abszedierung. Es erklärt nicht so spezifisch den vermuteten dermatophytären Barber-Shop-Zusammenhang.",
+          "term": "Furunkel"
+        }
+      ]
+    },
+    "86": {
+      "topicLabel": "Antidepressiva Sexualfunktion",
+      "explanation": "Sexuelle Funktionsstörungen sind unter serotonerg wirksamen Antidepressiva wie SSRI und SNRI häufige relevante Nebenwirkungen. Wenn eine antidepressive Umstellung wegen erektiler Dysfunktion erwogen wird, ist Bupropion eine typische Alternative mit vergleichsweise geringerer sexueller Nebenwirkungsbelastung. Bupropion wirkt vor allem noradrenerg und dopaminerg und ist daher in dieser Konstellation plausibel. Venlafaxin und Citalopram können sexuelle Dysfunktion eher verursachen oder verstärken. Trizyklika wie Amitriptylin sind wegen anticholinerger und sedierender Nebenwirkungen in dieser Fragestellung ebenfalls nicht die beste Wahl.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Venlafaxin ist ein SNRI und kann wie andere serotonerg wirksame Antidepressiva sexuelle Funktionsstörungen verursachen. Es ist deshalb bei bereits belastender erektiler Dysfunktion nicht die naheliegende Umstellungsoption.",
+          "term": "Venlafaxin"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Citalopram ist ein SSRI und sexuelle Nebenwirkungen gehören zu den bekannten Problemen dieser Wirkstoffgruppe. Bei erektiler Dysfunktion unter antidepressiver Therapie wäre es daher keine günstige Ausweichoption.",
+          "term": "Citalopram"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Amitriptylin ist ein trizyklisches Antidepressivum mit anticholinergen, sedierenden und weiteren Nebenwirkungen. Es ist nicht die bevorzugte Antwort, wenn gezielt eine geringere sexuelle Nebenwirkungsrate gesucht wird.",
+          "term": "Amitriptylin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Option ist offenbar eine Schreibvariante von Amitriptylin. Auch damit wäre kein Vorteil gegenüber Bupropion in Bezug auf erektile Dysfunktion zu erwarten.",
+          "term": "Amitriptylin"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Bupropion ist bei depressiver Symptomatik eine sinnvolle Alternative, wenn sexuelle Nebenwirkungen unter anderen Antidepressiva problematisch sind. Sein noradrenerg-dopaminerger Wirkmechanismus macht es in dieser Fragestellung zur passenden Wahl.",
+          "term": "Bupropion"
+        }
+      ]
+    },
+    "87": {
+      "topicLabel": "Mild Cognitive Impairment",
+      "explanation": "Der Patient zeigt objektivierbare kognitive Defizite, kommt im Alltag aber weiterhin selbstständig zurecht und kann seine Hobbys ausüben. Diese Kombination spricht für ein Mild Cognitive Impairment und noch nicht für eine Demenz. Für eine Demenz wäre eine relevante Einschränkung der Alltagskompetenz zentral. Ein Delir wäre typischerweise akut oder fluktuierend und mit Aufmerksamkeitsstörung verbunden, was hier nicht beschrieben wird. Die Ehefrau bestätigt die erhaltene Alltagsfunktion, was die Einordnung als MCI zusätzlich stützt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die behaviorale Variante der frontotemporalen Demenz zeigt früh Enthemmung, Persönlichkeitsänderung, Apathie oder gestörtes Sozialverhalten. Im Fall steht aber eine Gedächtnisstörung bei erhaltener Alltagsfunktion im Vordergrund.",
+          "term": "Behaviorale frontotemporale Demenz"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Alzheimer-Demenz würde neben kognitiven Defiziten eine relevante Beeinträchtigung der Alltagskompetenz erwarten lassen. Da der Patient beruflich bzw. privat offenbar noch gut zurechtkommt, ist die Schwelle zur Demenz hier nicht erreicht.",
+          "term": "Alzheimer-Demenz"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Mild Cognitive Impairment beschreibt messbare kognitive Leistungseinbußen bei im Wesentlichen erhaltener Alltagskompetenz. Genau diese Abgrenzung wird im Fall durch Testbefund und Bestätigung der Ehefrau betont.",
+          "term": "Mild Cognitive Impairment"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Delir ist durch eine Störung von Aufmerksamkeit und Bewusstsein mit meist akutem Beginn und fluktuierendem Verlauf gekennzeichnet. Eine stabile Gedächtnisstörung bei erhaltener Alltagsfunktion passt dazu nicht.",
+          "term": "Chronisches Delir"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine primär progressive Aphasie ist vor allem durch eine fortschreitende Sprachstörung geprägt. Der Fall beschreibt keine führende Aphasie, sondern eine Gedächtnisproblematik.",
+          "term": "Primär progressive Aphasie"
+        }
+      ]
+    },
+    "88": {
+      "topicLabel": "22q11-Mikrodeletion",
+      "explanation": "Die Kombination aus Gaumenspalte, auffälligen Ohr- und Gesichtsmerkmalen sowie Aortenbogenanomalie passt gut zu einem 22q11.2-Deletionssyndrom. Dieses Syndrom wird durch eine Mikrodeletion verursacht und kann mit konotrunkalen Herzfehlern, Gaumenanomalien und charakteristischen Dysmorphiezeichen einhergehen. Ein unterbrochener Aortenbogen ist eine typische kardiovaskuläre Fehlbildung in diesem Spektrum. Die Frage fragt nach der genetischen Veränderung, nicht nach dem Syndromnamen. Daher ist Mikrodeletion die richtige Kategorie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine numerische Chromosomenaberration meint eine veränderte Chromosomenzahl, etwa eine Trisomie oder Monosomie. Das passt nicht zur typischen Ursache des hier beschriebenen 22q11.2-Deletionssyndroms.",
+          "term": "Numerische Chromosomenaberration"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Eine Mikrodeletion ist die passende genetische Veränderung beim 22q11.2-Deletionssyndrom. Die beschriebenen Herz-, Gaumen- und Dysmorphiemerkmale weisen in diese Richtung.",
+          "term": "Mikrodeletion"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Imprinting-Störungen betreffen die elternabhängige Genexpression und sind typisch für andere Syndrome. Der Fall beschreibt keine Konstellation, die primär auf paternales Imprinting verweist.",
+          "term": "Paternales Imprinting"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Punktmutation betrifft eine einzelne Basenveränderung. Die hier geschilderte Fehlbildungskombination passt besser zu einer chromosomalen Mikrodeletion als zu einer isolierten Punktmutation.",
+          "term": "Punktmutation"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Trinukleotidexpansionen verursachen vor allem bestimmte neurologische oder neuromuskuläre Erkrankungen. Sie erklären die Kombination aus Aortenbogenabbruch und Gaumenspalte nicht.",
+          "term": "Trinukleotidexpansion"
+        }
+      ]
+    },
+    "89": {
+      "topicLabel": "Konjunktivaler Tumor",
+      "explanation": "Eine bei einer älteren Patientin über Monate zunehmende, schmerzlose okuläre Läsion muss malignitätsverdächtig eingeordnet werden, wenn das Bild entsprechend imponiert. Die richtige Maßnahme laut Antwortschlüssel ist die Exzision mit Biopsie, also die histologische Sicherung. Gerade bei unklaren konjunktivalen oder limbären Raumforderungen ist die Histologie entscheidend, um benigne Veränderungen von prämalignen oder malignen Läsionen zu unterscheiden. Eine rein konservative oder mikrobiologische Abklärung würde eine relevante Neoplasie übersehen können. Da das Bild selbst im Input nicht vorliegt, bleibt die inhaltliche Sicherheit etwas eingeschränkt, die Maßnahme folgt aber eindeutig dem Schlüssel.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die Exzision mit Biopsie liefert die notwendige histologische Diagnose bei einer langsam progredienten, schmerzlosen Läsion am Auge. Sie ist besonders wichtig, wenn klinisch eine Neoplasie oder prämaligne Veränderung möglich ist.",
+          "term": "Exzision mit Biopsie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Pterygiumoperation ist bei einem typischen Pterygium sinnvoll, meist mit Bindehaut- oder limbalem Transplantationsverfahren. Der Antwortschlüssel spricht hier aber für eine abklärungsbedürftige Läsion, bei der die Biopsie im Vordergrund steht.",
+          "term": "Pterygiumoperation"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Limbusstammzelltransplantation wird bei Limbusstammzellinsuffizienz erwogen. Sie ist keine primäre diagnostische Maßnahme bei einer über Monate wachsenden unklaren Läsion.",
+          "term": "Limbusstammzelltransplantation"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein mikrobiologischer Abstrich passt eher zu infektiösen, entzündlichen oder ulzerierenden Befunden. Ein chronisch schmerzlos wachsender Befund erfordert nach Schlüssel die histologische Sicherung statt nur Erregerdiagnostik.",
+          "term": "Mikrobiologischer Abstrich"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Enukleation ist eine radikale Maßnahme und ohne gesicherte ausgedehnte intraokulare Malignität nicht angemessen. Bei einem unklaren oberflächlichen oder konjunktivalen Befund steht zunächst die Exzision mit Biopsie im Vordergrund.",
+          "term": "Enukleation"
+        }
+      ]
+    },
+    "90": {
+      "topicLabel": "Erektile Dysfunktion",
+      "explanation": "Gefragt ist nach der Therapie, die sich bei erektiler Dysfunktion nicht eignet. Vakuumpumpe, PDE-5-Hemmer wie Sildenafil und Tadalafil sowie intrakavernöse Prostaglandin-Injektionen gehören zu etablierten Behandlungsoptionen. Finasterid ist dagegen kein Therapeutikum der erektilen Dysfunktion, sondern kann sexuelle Funktionsstörungen sogar begünstigen. Wenn eine Tumeszenz aufgebaut, aber nicht erhalten werden kann, kommen mechanische oder vasodilatierende Strategien grundsätzlich in Betracht. Daher ist Finasterid die unpassende Option.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Vakuumpumpe kann bei erektiler Dysfunktion eine Erektion mechanisch unterstützen. Sie ist daher eine mögliche Therapie und nicht die gesuchte ungeeignete Maßnahme.",
+          "term": "Vakuumpumpe"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Finasterid ist ein 5-alpha-Reduktase-Hemmer und wird nicht zur Behandlung der erektilen Dysfunktion eingesetzt. Im Gegenteil können sexuelle Nebenwirkungen unter Finasterid auftreten.",
+          "term": "Finasterid"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Sildenafil ist ein PDE-5-Hemmer und gehört zu den Standardoptionen bei erektiler Dysfunktion, sofern keine Kontraindikationen bestehen. Es ist deshalb nicht die gesuchte ungeeignete Therapie.",
+          "term": "Sildenafil"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Tadalafil ist ebenfalls ein PDE-5-Hemmer und therapeutisch bei erektiler Dysfunktion einsetzbar. Die Option ist somit grundsätzlich passend und nicht die falsche Therapie.",
+          "term": "Tadalafil"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Schwellkörperinjektionen mit Prostaglandinen können bei erektiler Dysfunktion eine pharmakologisch induzierte Erektion auslösen. Sie sind eine etablierte Alternative, wenn orale Therapie nicht ausreicht oder nicht geeignet ist.",
+          "term": "Prostaglandin-Schwellkörperinjektion"
+        }
+      ]
+    },
+    "91": {
+      "topicLabel": "Akute Manie",
+      "explanation": "Bei akuter Manie mit ausgeprägter Symptomatik ist eine rasch wirksame antimanische Behandlung vordringlich. Olanzapin ist ein atypisches Antipsychotikum und kann bei manischen Episoden zur Akutbehandlung eingesetzt werden. Psychotherapeutische Verfahren sind bei akuter schwerer Manie nicht die vordringliche Erstmaßnahme, weil Antrieb, Schlaflosigkeit, Enthemmung und Krankheitsuneinsichtigkeit rasch kontrolliert werden müssen. Citalopram könnte eine Manie eher verschlechtern und ist nicht antimanisch. Elektrokonvulsionstherapie kann in speziellen schweren oder therapieresistenten Situationen eine Rolle spielen, ist hier aber nicht die naheliegende erste Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Olanzapin wirkt antipsychotisch und sedierend-antimanisch und ist für die akute manische Episode plausibel. Es adressiert rasch psychotische, agitierte oder enthemmte Symptome.",
+          "term": "Olanzapin"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Dialektisch-behaviorale Therapie ist ein psychotherapeutisches Verfahren, besonders bekannt aus der Behandlung von Emotionsregulationsstörungen. Sie ist nicht die vordringliche Akuttherapie einer manischen Episode.",
+          "term": "DBT"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Clomethiazol wird vor allem im Kontext von Alkoholentzugsbehandlung verwendet. Für eine klassische manische Episode ist es nicht die gesuchte antimanische Standardtherapie.",
+          "term": "Clomethiazol"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Citalopram ist ein SSRI und kann bei bipolarer Störung manische Symptome triggern oder verstärken. Es ist daher in der akuten Manie nicht indiziert.",
+          "term": "Citalopram"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Elektrokonvulsionstherapie kann bei schwerer, therapieresistenter oder lebensbedrohlicher affektiver Symptomatik erwogen werden. Als vordringliche Standardantwort bei der beschriebenen Manie ist Olanzapin jedoch passender.",
+          "term": "Elektrokonvulsionstherapie"
+        }
+      ]
+    },
+    "92": {
+      "topicLabel": "Schizophrener Wahn",
+      "explanation": "Bei schizophrenen Psychosen sind Wahninhalte häufig, und der Verfolgungswahn gehört zu den klassischen und häufigsten Formen. Betroffene erleben dann etwa, beobachtet, bedroht, manipuliert oder verfolgt zu werden. Diese Wahnthematik passt gut zu paranoiden Ausgestaltungen schizophrener Störungen. Andere Wahnformen können ebenfalls vorkommen, sind aber für die Frage nach der häufigsten Form nicht die beste Antwort. Der Antwortschlüssel legt daher den Verfolgungswahn als gesuchte Option fest.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Verfolgungswahn ist eine sehr typische Wahnthematik bei schizophrenen Psychosen. Er kann sich als Überzeugung äußern, von anderen bedroht, überwacht oder geschädigt zu werden.",
+          "term": "Verfolgungswahn"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Größenwahn kann bei psychotischen Störungen auftreten, ist aber besonders auch aus manischen Episoden bekannt. Für schizophrene Psychosen ist er nicht die häufigste Wahnform.",
+          "term": "Größenwahn"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Verarmungswahn ist eher typisch im Rahmen schwerer depressiver Episoden mit psychotischen Symptomen. Bei Schizophrenie steht häufiger ein paranoider Verfolgungswahn im Vordergrund.",
+          "term": "Verarmungswahn"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eifersuchtswahn kann bei wahnhaften Störungen, Alkoholabhängigkeit oder anderen psychiatrischen Erkrankungen vorkommen. Er ist aber nicht die häufigste Wahnthematik bei schizophrenen Psychosen.",
+          "term": "Eifersuchtswahn"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Abstammungswahn beschreibt die wahnhafte Überzeugung, von besonderer oder anderer Herkunft zu sein. Diese Form kann vorkommen, ist aber deutlich weniger typisch als Verfolgungswahn.",
+          "term": "Abstammungswahn"
+        }
+      ]
+    },
+    "93": {
+      "topicLabel": "NMOSD-Diagnostik",
+      "explanation": "Eine Optikusneuritis mit vorausgegangener Myelitis-ähnlicher Episode und unauffälligem cMRT sollte an eine Neuromyelitis-optica-Spektrum-Erkrankung denken lassen. Für die weitere Diagnostik ist der Nachweis von Anti-Aquaporin-4-Antikörpern im Serum zentral. Die laufende Glucocorticoid-Schubtherapie sollte die notwendige Abklärung nicht unnötig verzögern, da die Diagnose therapeutische Konsequenzen hat. Spezifische Anti-MS-Antikörper sind kein etablierter Standardtest, der die Diagnose MS sichern würde. CT-Schädel und GAD-Antikörper adressieren die beschriebene Fragestellung nicht.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Anti-AQP4-Antikörper im Serum sind ein wichtiger diagnostischer Marker der NMOSD. Bei Optikusneuritis und möglicher spinaler Vormanifestation ist diese Untersuchung naheliegend.",
+          "term": "Anti-AQP4-Antikörper"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Spezifische Anti-MS-Antikörper im Serum sind nicht der diagnostische Standard zur Sicherung einer Multiplen Sklerose. Die Fallkonstellation lenkt zudem eher auf NMOSD als Differenzialdiagnose.",
+          "term": "Anti-MS-Antikörper"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "GAD-Antikörper sind mit anderen neurologischen oder diabetologischen Autoimmunphänomenen assoziiert. Sie klären eine NMOSD-verdächtige Optikusneuritis nicht gezielt ab.",
+          "term": "GAD-Antikörper"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Bei klinischem Verdacht auf NMOSD sollte die Diagnostik nicht einfach bis nach Abklingen der Glucocorticoidtherapie aufgeschoben werden. Die serologische Abklärung ist relevant für die weitere Behandlung und Prognose.",
+          "term": "Diagnostik nach Glucocorticoiden abwarten"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein CT des Schädels ist für Optikusneuritis und NMOSD-Verdacht wenig spezifisch. Die gezielte serologische Untersuchung ist hier deutlich aussagekräftiger.",
+          "term": "CT Schädel"
+        }
+      ]
+    },
+    "94": {
+      "topicLabel": "Huntington-Krankheit",
+      "explanation": "Wesensänderung, Enthemmung, unkonzentriertes Verhalten, Gewichtsverlust und unwillkürliche Bewegungen bei einem 55-jährigen Patienten sprechen für eine Chorea Huntington. Bei entsprechendem klinischem Verdacht ist die genetische Testung die entscheidende diagnostische Sicherung. Die Erkrankung kann psychiatrische Symptome und Bewegungsstörungen kombinieren, wodurch sie in solchen Fällen leicht zunächst psychiatrisch wirken kann. 14-3-3-Protein wäre eher bei Verdacht auf Prionerkrankung relevant, passt aber nicht so gut zur beschriebenen Chorea- und Verhaltenssymptomatik. Nuklearmedizinische Verfahren oder Schilddrüsenantikörper wären hier nicht der nächste diagnostische Schritt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die genetische Testung sichert bei klinischem Verdacht die Diagnose einer Huntington-Krankheit. Die Kombination aus Bewegungsstörung und psychiatrisch-kognitiver Veränderung macht diese Option am passendsten.",
+          "term": "Genetische Testung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "14-3-3-Protein im Liquor wird vor allem im Kontext rasch progredienter Demenzen und Prionerkrankungen diskutiert. Die hier geschilderten choreatischen Bewegungen und Verhaltensänderungen passen besser zu Huntington.",
+          "term": "14-3-3-Protein"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein FDG-PET kann Stoffwechselmuster im Gehirn darstellen, ist aber nicht die primäre Bestätigung bei Huntington-Verdacht. Die genetische Diagnostik ist direkter und spezifischer.",
+          "term": "FDG-PET"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "IBZM-SPECT dient der Beurteilung dopaminerger Rezeptorbindung und kann bei bestimmten Bewegungsstörungen eingesetzt werden. Für die vermutete Huntington-Krankheit ist es nicht der nächste diagnostische Schritt.",
+          "term": "IBZM-SPECT"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "TPO-Antikörper wären bei Verdacht auf eine autoimmune Schilddrüsenerkrankung relevant. Die beschriebenen choreatischen Bewegungen und Wesensänderungen erklären sie nicht als wahrscheinlichste Ursache.",
+          "term": "TPO-Antikörper"
+        }
+      ]
+    },
+    "95": {
+      "topicLabel": "Juvenile myoklonische Epilepsie",
+      "explanation": "Das Wegschleudern von Gegenständen am Morgen oder bei Alltagsaktivitäten mit anschließendem generalisiert tonisch-klonischem Anfall passt klassisch zu einer juvenilen myoklonischen Epilepsie. Im EEG finden sich dabei generalisierte Polyspike-and-wave-Komplexe. Die Patientin ist 17 Jahre alt, was ebenfalls gut zu diesem Epilepsiesyndrom passt. 3/s-Spike-Wave-Komplexe würden eher an typische Absencen denken lassen. Hypsarrhythmie ist ein Muster des Säuglingsalters und temporale Spikes sprechen eher für fokale Temporallappenepilepsie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "3/s-Spike-and-Wave-Komplexe sind typisch für Absence-Epilepsien. Die geschilderten Myoklonien mit Wegschleudern von Gegenständen sprechen stärker für juvenile myoklonische Epilepsie.",
+          "term": "3/s-Spike-and-Wave"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Generalisierte Polyspike-and-wave-Komplexe sind typisch für juvenile myoklonische Epilepsie. Sie passen zu myoklonischen Zuckungen und generalisierten Anfällen im Jugendalter.",
+          "term": "Polyspike-and-Wave"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Sharp waves sind ein unspezifischer epileptiformer EEG-Befund und häufig eher im Kontext fokaler Epilepsien einzuordnen. Sie sind nicht das charakteristische Muster der juvenilen myoklonischen Epilepsie.",
+          "term": "Sharp waves"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Hypsarrhythmie ist ein chaotisches EEG-Muster, das mit infantilen Spasmen im Säuglingsalter verbunden ist. Für eine 17-jährige Patientin mit myoklonischen Anfällen ist das nicht passend.",
+          "term": "Hypsarrhythmie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Temporale Spikes sprechen für einen fokalen epileptischen Fokus im Temporallappen. Die Fallbeschreibung zielt jedoch auf ein generalisiertes Epilepsiesyndrom mit Polyspike-and-wave-Muster.",
+          "term": "Temporale Spikes"
+        }
+      ]
+    },
+    "96": {
+      "topicLabel": "Eineiige Zwillinge",
+      "explanation": "Eineiige Zwillinge entstehen aus derselben Zygote und haben im Regelfall dasselbe Genom. Wenn der eine Zwilling heterozygoter Anlageträger einer CFTR-Mutation ist, ist der andere eineiige Zwilling daher ebenfalls heterozygoter Anlageträger. Die Wahrscheinlichkeit beträgt in dieser Prüfungslogik 100%. Die anderen Wahrscheinlichkeiten wären bei Geschwistern ohne eineiige Zwillingssituation oder bei anderen familiären Konstellationen zu diskutieren. Der entscheidende Hinweis im Fragetext ist also nicht nur die CFTR-Mutation, sondern die Eineiigkeit.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "0% wäre nur plausibel, wenn eine Trägerschaft sicher ausgeschlossen wäre. Bei eineiigen Zwillingen ist das Gegenteil der Fall, wenn der Bruder heterozygoter Träger ist.",
+          "term": "0%"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "25% ist eine typische Mendel-Wahrscheinlichkeit für bestimmte Erkrankungsrisiken bei autosomal-rezessiven Konstellationen, nicht für die Übereinstimmung eineiiger Zwillinge. Hier ist die genetische Identität entscheidend.",
+          "term": "25%"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "50% könnte bei Verwandten ersten Grades in anderen Trägerkonstellationen naheliegen. Eineiige Zwillinge teilen aber im Regelfall denselben Genotyp, sodass diese Antwort zu niedrig ist.",
+          "term": "50%"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "66% wird häufig bei gesunden Geschwistern eines autosomal-rezessiv erkrankten Kindes als bedingte Trägerwahrscheinlichkeit genannt. Diese Logik passt nicht zur expliziten eineiigen Zwillingssituation.",
+          "term": "66%"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Bei eineiigen Zwillingen ist der Ratsuchende genetisch im Regelfall identisch mit seinem Bruder. Ist dieser heterozygoter CFTR-Anlageträger, gilt dies daher auch für den Ratsuchenden.",
+          "term": "100%"
+        }
+      ]
+    },
+    "97": {
+      "topicLabel": "GBS Ateminsuffizienz",
+      "explanation": "Beim Guillain-Barre-Syndrom ist eine akute klinische Verschlechterung besonders gefährlich, weil eine Atemmuskelbeteiligung rasch zur respiratorischen Insuffizienz führen kann. Deshalb ist die Vitalkapazität eine zentrale Verlaufs- und Gefährdungsuntersuchung. Eine reduzierte Vitalkapazität zeigt eine relevante Einschränkung der Atemmechanik an und kann intensivmedizinische Maßnahmen notwendig machen. Reflexstatus und neurologische Untersuchung sind wichtig, erfassen aber nicht direkt die vitale Atemgefährdung. Echokardiographie, Kreatinin/Urin oder CK beantworten die akute neurologische Verschlechterung in dieser Konstellation nicht vorrangig.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die Messung der Vitalkapazität erkennt eine drohende Ateminsuffizienz durch Atemmuskelbeteiligung. Bei GBS-Verschlechterung ist das eine unmittelbar sicherheitsrelevante Untersuchung.",
+          "term": "Reduzierte Vitalkapazität"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Echokardiographie kann bei kardialen Fragestellungen sinnvoll sein. Sie erfasst aber nicht primär die gefährliche Atemmuskelbeteiligung bei GBS.",
+          "term": "Echokardiographie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Der Reflexstatus ist diagnostisch beim GBS relevant, da Areflexie oder Hyporeflexie typisch sind. Bei akuter Verschlechterung ist jedoch die Atemfunktion für die unmittelbare Gefährdung entscheidender.",
+          "term": "Reflexstatus"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Urinuntersuchung oder Serumkreatinin beurteilen vor allem renale Aspekte. Sie sind nicht die vorrangige Untersuchung zur Erkennung einer akuten GBS-bedingten Atemgefährdung.",
+          "term": "Urin oder Kreatinin"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "CK im Serum kann bei Muskelschädigung erhöht sein, ist aber kein Leittest für die akute GBS-Verschlechterung. Das Fragezeichen im Protokoll weist auf Unsicherheit hin; nach Schlüssel ist diese Option nicht korrekt.",
+          "term": "CK im Serum"
+        }
+      ]
+    },
+    "98": {
+      "topicLabel": "Multisystematrophie",
+      "explanation": "Multisystematrophie ist ein atypisches Parkinson-Syndrom, bei dem autonome Dysfunktion ein wichtiges Unterscheidungsmerkmal ist. Eine ausgeprägte orthostatische Hypotonie mit deutlichem systolischem Blutdruckabfall bei Lagewechsel spricht daher am ehesten für MSA. Im Gegensatz zum idiopathischen Parkinson-Syndrom ist das Ansprechen auf Levodopa oft unzureichend oder nur begrenzt. Frühe visuelle Halluzinationen und kognitive Auffälligkeiten würden eher an andere Parkinson-Plus-Syndrome oder Demenzformen denken lassen. Die genannte orthostatische Kreislaufregulationsstörung ist hier der stärkste Hinweis.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein gutes Ansprechen auf Levodopa spricht eher für ein idiopathisches Parkinson-Syndrom. Bei MSA ist das Ansprechen typischerweise schlechter oder weniger dauerhaft.",
+          "term": "Gutes Levodopa-Ansprechen"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Ein deutlicher Blutdruckabfall beim Aufstehen zeigt eine autonome Dysfunktion. Diese autonome Beteiligung ist ein zentrales Merkmal der Multisystematrophie.",
+          "term": "Orthostatische Hypotonie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Visuelle Halluzinationen sind besonders typisch im Spektrum der Lewy-Körper-Demenz oder können medikamentös begünstigt sein. Sie sind nicht der stärkste Hinweis auf MSA.",
+          "term": "Visuelle Halluzinationen"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Option ist unklar protokolliert und klingt nach einem orthopädisch-anatomischen Begriff. Sie liefert keinen plausiblen Hinweis auf eine Multisystematrophie.",
+          "term": "Unklare trochleäre Option"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein auffälliger Mini-Mental-Status-Test weist auf kognitive Einschränkungen hin. Frühe deutliche Demenz spricht eher gegen MSA als Leithypothese und lenkt eher zu anderen neurodegenerativen Erkrankungen.",
+          "term": "Auffälliger Mini-Mental-Status"
+        }
+      ]
+    },
+    "99": {
+      "topicLabel": "Hodentumor",
+      "explanation": "Ein derber intratestikulärer Knoten bei einem jungen Mann ist bis zum Beweis des Gegenteils malignitätsverdächtig. Sonographisch inhomogene und gut vaskularisierte Raumforderungen sprechen zusätzlich für einen testikulären Tumor. In dieser Altersgruppe sind Keimzelltumoren die häufigsten malignen Hodentumoren und daher die wahrscheinlichste Diagnose. Hydrozele und Varikozele sind flüssigkeits- bzw. venös geprägte Befunde und würden sonographisch anders imponieren. Eine Hydatide ist meist eine kleine Anhangsstruktur und erklärt keine derbe, vaskularisierte intratestikuläre Raumforderung dieser Art.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ein testikulärer Keimzelltumor passt zu einem jungen Patienten mit derbem, inhomogenem und vaskularisiertem intratestikulärem Befund. Diese Konstellation ist malignitätsverdächtig.",
+          "term": "Testikulärer Keimzelltumor"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Leydig-Zell-Tumoren können im Hoden vorkommen, sind aber deutlich seltener als Keimzelltumoren. Bei einem 22-jährigen Patienten ist der Keimzelltumor die wahrscheinlichere Diagnose.",
+          "term": "Leydig-Zell-Tumor"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Hydrozele ist eine Flüssigkeitsansammlung um den Hoden und typischerweise zystisch bzw. transluzent. Sie entspricht nicht einem derben, inhomogenen, vaskularisierten Knoten im Hoden.",
+          "term": "Hydrozele"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Varikozele ist eine Erweiterung des venösen Plexus pampiniformis und zeigt sich als venöser Befund, nicht als intratestikulärer Tumorknoten. Der derbe Tastbefund passt dazu nicht.",
+          "term": "Varikozele"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Hydatide ist ein Anhangsgebilde am Hoden oder Nebenhoden und kann bei Torsion Schmerzen verursachen. Sie erklärt keinen gut vaskularisierten intratestikulären Tumorbefund.",
+          "term": "Hydatide"
+        }
+      ]
+    },
+    "100": {
+      "topicLabel": "KVT-Verfahren",
+      "explanation": "Bei der Frage wird nach dem Verfahren gefragt, das nicht Bestandteil einer kognitiven Verhaltenstherapie ist. Stimuluskontrolle, SORK-Modell und Entspannungsverfahren passen in verhaltenstherapeutische bzw. kognitiv-verhaltenstherapeutische Behandlungskonzepte. Freies Assoziieren ist dagegen ein klassisches psychoanalytisches Verfahren und gehört nicht zum Kernrepertoire der KVT. Bei hypochondrischer Symptomatik arbeitet KVT eher mit Psychoedukation, kognitiver Umstrukturierung, Exposition, Reaktionsmanagement und Abbau rückversichernder Verhaltensweisen. Deshalb ist freies Assoziieren die gesuchte Nicht-KVT-Option.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Stimuluskontrolle ist ein verhaltenstherapeutisches Prinzip, bei dem auslösende Bedingungen und Reaktionen gezielt verändert werden. Es kann in KVT-Konzepten sinnvoll eingesetzt werden und ist daher nicht die gesuchte Ausnahme.",
+          "term": "Stimuluskontrolle"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Das SORK-Modell ist ein klassisches verhaltenstherapeutisches Analysemodell für Situationen, Organismusvariablen, Reaktionen und Konsequenzen. Es gehört klar in den KVT-Kontext.",
+          "term": "SORK-Modell"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Entspannungsverfahren können im Rahmen kognitiv-verhaltenstherapeutischer Behandlung ergänzend genutzt werden. Sie sind daher kein psychoanalytisches Fremdverfahren und nicht die richtige Antwort auf die Negativfrage.",
+          "term": "Entspannungsverfahren"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Freies Assoziieren ist ein Grundelement psychoanalytischer Therapie. Es ist nicht Bestandteil der kognitiven Verhaltenstherapie und passt deshalb zur Negativfrage.",
+          "term": "Freies Assoziieren"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Unvollständige Protokolloption: Der genaue Inhalt ist nicht überliefert. Nach Antwortschlüssel ist diese Option nicht die gesuchte Nicht-KVT-Antwort.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    }
+  }
+}
