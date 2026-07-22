@@ -270,10 +270,32 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     persist({ ...progress, currentIndex: clamped, completedAt: undefined });
   };
 
+  const commitAnswer = (bits: string) => {
+    if (!progress || !question || !bits.includes('1')) return;
+    const checked = progress.checked.includes(index)
+      ? progress.checked
+      : [...progress.checked, index];
+    const allDone = checked.length >= questions.length;
+    persist({
+      ...progress,
+      selections: { ...progress.selections, [index]: bits },
+      checked,
+      completedAt: allDone ? new Date().toISOString() : progress.completedAt,
+    });
+    void reportStats(question, bits);
+    void loadExplanations(question, index);
+    if (allDone) setShowResult(true);
+  };
+
   const handleSelect = (optIndex: number) => {
     if (!progress || !question || isChecked) return;
     const exclusive = question.type === 'SC';
     const nextBits = toggleBit(selection || emptyBits(optionCount), optIndex, exclusive);
+    // SC: Klick = Auswahl + sofort Lösung zeigen
+    if (exclusive) {
+      commitAnswer(nextBits);
+      return;
+    }
     persist({
       ...progress,
       selections: { ...progress.selections, [index]: nextBits },
@@ -339,20 +361,8 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     }
   };
 
-  const handleCheck = async () => {
-    if (!progress || !question || !selection.includes('1')) return;
-    const checked = progress.checked.includes(index)
-      ? progress.checked
-      : [...progress.checked, index];
-    const allDone = checked.length >= questions.length;
-    persist({
-      ...progress,
-      checked,
-      completedAt: allDone ? new Date().toISOString() : progress.completedAt,
-    });
-    void reportStats(question, selection);
-    void loadExplanations(question, index);
-    if (allDone) setShowResult(true);
+  const handleCheck = () => {
+    commitAnswer(selection);
   };
 
   const handleRestart = () => {
@@ -668,8 +678,11 @@ export function AltfragenPractice({ examId }: { examId: string }) {
               })}
             </ul>
 
-            {question.type === 'MC' && !isChecked && (
-              <p className="text-xs text-zinc-500">Mehrfachauswahl möglich.</p>
+            {question.type !== 'SC' && !isChecked && (
+              <p className="text-xs text-zinc-500">Mehrfachauswahl möglich — danach „Antwort prüfen“.</p>
+            )}
+            {question.type === 'SC' && !isChecked && (
+              <p className="text-xs text-zinc-500">Antwort antippen — Lösung erscheint sofort.</p>
             )}
 
             {isChecked && (
@@ -711,7 +724,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
           </article>
 
           <div className="flex flex-wrap items-center justify-between gap-2">
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap items-center gap-1">
               <Button
                 type="button"
                 variant="outline"
@@ -725,20 +738,21 @@ export function AltfragenPractice({ examId }: { examId: string }) {
               <Button
                 type="button"
                 variant="ghost"
-                size="sm"
+                size="icon"
+                className="h-8 w-8 text-zinc-500 hover:text-zinc-900"
                 onClick={handleRestart}
                 title="Fortschritt zurücksetzen"
+                aria-label="Fortschritt zurücksetzen"
               >
-                <RotateCcw className="mr-1 h-3.5 w-3.5" />
-                Zurücksetzen
+                <RotateCcw className="h-4 w-4" />
               </Button>
             </div>
             <div className="flex gap-2">
-              {!isChecked ? (
-                <Button type="button" onClick={() => void handleCheck()} disabled={!selection.includes('1')}>
+              {!isChecked && question.type !== 'SC' ? (
+                <Button type="button" onClick={handleCheck} disabled={!selection.includes('1')}>
                   Antwort prüfen
                 </Button>
-              ) : (
+              ) : isChecked ? (
                 <Button
                   type="button"
                   onClick={() => {
@@ -749,7 +763,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                   {index >= questions.length - 1 ? 'Ergebnis' : 'Weiter'}
                   <ChevronRight className="ml-1 h-4 w-4" />
                 </Button>
-              )}
+              ) : null}
             </div>
           </div>
 
