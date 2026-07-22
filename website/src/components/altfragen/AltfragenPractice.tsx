@@ -17,6 +17,7 @@ import {
   getProgress,
   saveProgress,
 } from '@/lib/altfragenStore';
+import { recordLocalKreuzung } from '@/lib/altfragenLocalActivity';
 import {
   AlertCircle,
   BarChart3,
@@ -247,6 +248,14 @@ export function AltfragenPractice({ examId }: { examId: string }) {
       completedAt: allDone ? nowIso : progress.completedAt,
     });
     void reportStats(question, bits);
+    try {
+      recordLocalKreuzung({
+        examId,
+        correct: isCorrect(question, bits),
+      });
+    } catch {
+      // ignore storage errors
+    }
     if (allDone) setShowResult(true);
   };
 
