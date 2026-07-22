@@ -63,12 +63,6 @@ export function SiteHeader({
               </Link>
             );
           })}
-          <Link
-            href="/altfragen/admin"
-            className="hidden rounded-md px-3 py-2 text-zinc-500 transition hover:bg-[#eef5fb] hover:text-[#002F5D] sm:inline"
-          >
-            Admin
-          </Link>
         </nav>
       </div>
     </header>
