@@ -1,0 +1,745 @@
+{
+  "examId": "m2-ss26-f26-gedaechtnisprotokoll",
+  "questions": {
+    "141": {
+      "topicLabel": "Mangelernährung",
+      "explanation": "Bei der stark kachektischen älteren Patientin mit Sarkopenie wird der Proteinbedarf pragmatisch am aktuellen Körpergewicht abgeschätzt. Bei 29 kg Körpergewicht entspricht ein Bedarf im Bereich von etwa 1,2-1,5 g/kg KG/Tag ungefähr 35-45 g Protein pro Tag. Damit ist diese Antwort die einzige Größenordnung, die zur aktuellen Situation passt. Sehr hohe Proteinmengen würden bei diesem extrem niedrigen Körpergewicht unverhältnismäßig wirken und wären ohne weitere Angaben zu Zielgewicht, Nierenfunktion und Ernährungsaufbau nicht als Standardantwort abzuleiten. Zugleich muss bei schwerer Mangelernährung der Ernährungsaufbau klinisch überwacht erfolgen, insbesondere wegen Refeeding-Risiko und Verträglichkeit.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "35-45 g/Tag passen rechnerisch zur stark untergewichtigen Patientin, wenn der Proteinbedarf am aktuellen Körpergewicht orientiert wird. Bei 29 kg entspricht dies ungefähr dem üblichen Bereich eines erhöhten Proteinbedarfs bei älteren mangelernährten Personen. Die Option ist daher die plausibelste und laut Antwortschlüssel korrekt.",
+          "term": "35-45 g Protein/Tag"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "125-135 g/Tag wären für 29 kg Körpergewicht eine extrem hohe Proteinzufuhr. Eine solche Menge würde eher mehreren Gramm Protein pro kg Körpergewicht entsprechen und lässt sich aus der Fallbeschreibung nicht ableiten. Ohne besondere ernährungsmedizinische Zusatzangaben ist diese Größenordnung nicht die gesuchte Antwort.",
+          "term": "125-135 g Protein/Tag"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "65-75 g/Tag kann bei normal- oder übergewichtigen älteren Personen je nach Situation passend sein, ist hier aber für 29 kg aktuelles Körpergewicht zu hoch. Die Frage zielt auf die aktuelle Situation der kachektischen Patientin ab. Daher ist diese Option nicht die am besten passende Größenordnung.",
+          "term": "65-75 g Protein/Tag"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "85-95 g/Tag liegt noch deutlicher über dem, was sich aus dem aktuellen Körpergewicht der Patientin ergibt. Eine derartige Zufuhr wäre nur mit zusätzlichen Annahmen wie einem deutlich höheren Zielgewicht oder speziellen metabolischen Situationen begründbar. Solche Angaben enthält der Fall nicht.",
+          "term": "85-95 g Protein/Tag"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "15-21 g/Tag wären bei Sarkopenie und ausgeprägter Mangelernährung zu wenig. Eine so niedrige Proteinzufuhr würde den Muskelabbau eher begünstigen als die Rekonstitution unterstützen. Deshalb ist diese Option nicht korrekt.",
+          "term": "15-21 g Protein/Tag"
+        }
+      ]
+    },
+    "142": {
+      "topicLabel": "COPD-Impfungen",
+      "explanation": "Die Frage ist im Gedächtnisprotokoll sprachlich unscharf, der Antwortschlüssel markiert jedoch Herpes zoster als gesuchte Antwort. Gemeint ist offenbar eine Impfung, die nicht als COPD-spezifische Zusatzimpfung neben den allgemeinen STIKO-Standardimpfungen abgefragt wird. Herpes-zoster-Impfung ist eine Standard- beziehungsweise alters- oder risikobezogene Empfehlung und wird in dieser Logik nicht wegen COPD als zusätzliche Standardmaßnahme genannt. Bei COPD sind vor allem Impfungen gegen respiratorische Erreger relevant, um Exazerbationen und schwere Infektionen zu reduzieren. Wegen der uneindeutigen Formulierung und kommentierten Optionen ist die inhaltliche Sicherheit niedriger, die Codierung wird aber strikt übernommen.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "COVID-19-Impfungen sind bei Patientinnen und Patienten mit chronischer Lungenerkrankung klinisch besonders relevant. Sie reduzieren das Risiko schwerer respiratorischer Infektionen und werden nicht als die hier gesuchte Ausnahme codiert. Daher ist diese Option nach Antwortschlüssel falsch.",
+          "term": "COVID-19-Impfung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die jährliche Influenzaimpfung ist bei COPD klassisch empfohlen. Influenza kann Exazerbationen und schwere Verläufe auslösen, weshalb diese Impfung in der Beratung besonders wichtig ist. Sie ist deshalb nicht die gesuchte nicht empfohlene beziehungsweise nicht COPD-spezifische Antwort.",
+          "term": "Influenzaimpfung"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Herpes zoster ist laut Antwortschlüssel die gesuchte Antwort. Die Impfung ist zwar allgemein beziehungsweise alters- und risikobezogen empfohlen, wird hier aber offenbar nicht als COPD-spezifische Zusatzimpfung neben den Standardimpfungen abgefragt. Entscheidend ist die Fragelogik: Gesucht ist nicht eine grundsätzlich unwirksame Impfung, sondern die nicht COPD-spezifische Option.",
+          "term": "Herpes-zoster-Impfung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Option ist im Protokoll kommentiert, aber nicht als richtige Antwort codiert. In der rekonstruierten Fragelogik wird sie daher nicht als die gesuchte Ausnahme behandelt. Bei unklarer Impfstoffbezeichnung bleibt die Begründung weniger belastbar als bei den klassischen COPD-Impfungen.",
+          "term": "Haemophilus-influenzae-Impfung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Pneumokokkenimpfung ist bei COPD wegen des erhöhten Risikos schwerer Pneumonien und Exazerbationen eine wichtige Präventionsmaßnahme. Sie gehört zu den typischen Impfempfehlungen bei chronischer Lungenerkrankung. Daher ist sie nicht die gesuchte Ausnahme.",
+          "term": "Pneumokokkenimpfung"
+        }
+      ]
+    },
+    "143": {
+      "topicLabel": "Maligne Hyperthermie",
+      "explanation": "Maligne Hyperthermie ist eine lebensbedrohliche pharmakogenetische Reaktion der Skelettmuskulatur. Typische Auslöser sind volatile Inhalationsanästhetika und depolarisierende Muskelrelaxanzien. Sevofluran gehört zu den volatilen Anästhetika und kann bei entsprechend disponierten Personen eine maligne Hyperthermie auslösen. Pathophysiologisch kommt es zu einer unkontrollierten Kalziumfreisetzung im Muskel mit Hypermetabolismus, Rigor, Hyperkapnie, Azidose und Temperaturanstieg. Die übrigen genannten Substanzen sind keine klassischen Trigger einer malignen Hyperthermie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Sevofluran ist ein volatiles Inhalationsanästhetikum und gehört zu den klassischen Triggern der malignen Hyperthermie. Bei genetischer Suszeptibilität kann es eine massive intrazelluläre Kalziumfreisetzung im Skelettmuskel auslösen. Damit ist diese Option korrekt.",
+          "term": "Sevofluran"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Rocuronium ist ein nichtdepolarisierendes Muskelrelaxans. Nichtdepolarisierende Muskelrelaxanzien gelten nicht als klassische Auslöser der malignen Hyperthermie. Die Triggerrolle kommt vor allem volatilen Anästhetika und Succinylcholin zu.",
+          "term": "Rocuronium"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Propofol ist ein intravenöses Hypnotikum und kein volatiles Inhalationsanästhetikum. Es wird bei MH-Suszeptibilität typischerweise als Bestandteil einer triggerfreien Anästhesie verwendet. Deshalb ist Propofol hier nicht verantwortlich.",
+          "term": "Propofol"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ceftriaxon ist ein Cephalosporin-Antibiotikum. Es hat keinen typischen Zusammenhang mit der Auslösung einer malignen Hyperthermie. Allergische Reaktionen oder andere Nebenwirkungen wären eine andere Fragestellung.",
+          "term": "Ceftriaxon"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Sufentanil ist ein stark wirksames Opioidanalgetikum. Opioide zählen nicht zu den klassischen Triggern der malignen Hyperthermie. Die Option passt daher nicht zur gesuchten Ursache.",
+          "term": "Sufentanil"
+        }
+      ]
+    },
+    "144": {
+      "topicLabel": "MH-Therapie",
+      "explanation": "Beim Verdacht auf maligne Hyperthermie muss die Triggerzufuhr sofort beendet und unverzüglich Dantrolen gegeben werden. Dantrolen wirkt direkt an der Skelettmuskulatur, indem es die pathologische Kalziumfreisetzung aus dem sarkoplasmatischen Retikulum reduziert. Parallel erfolgen supportive Maßnahmen wie Hyperventilation mit Sauerstoff, aktive Kühlung, Azidose- und Elektrolytmanagement sowie intensivmedizinische Überwachung. Unter den Antwortoptionen ist Dantrolen das spezifische Antidot und damit die zeitkritisch entscheidende Therapie. Glukokortikoide, Adrenalin oder Betablocker behandeln den Kernmechanismus der malignen Hyperthermie nicht.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Dantrolen ist das spezifische Medikament bei maligner Hyperthermie. Es hemmt die überschießende Kalziumfreisetzung in der Skelettmuskulatur und adressiert damit den zentralen Pathomechanismus. Es muss bei Verdacht schnellstmöglich verabreicht werden.",
+          "term": "Dantrolen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Prednisolon ist ein Glukokortikoid und wirkt nicht spezifisch gegen die pathologische Kalziumfreisetzung der malignen Hyperthermie. Ein verzögerter antiinflammatorischer Effekt hilft in dieser akuten Notfallsituation nicht entscheidend. Daher ist es nicht die richtige Soforttherapie.",
+          "term": "Prednisolon"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Adrenalin ist bei Anaphylaxie oder Reanimation zentral, aber nicht die spezifische Therapie der malignen Hyperthermie. Bei MH stehen Hypermetabolismus, Muskelrigor und Kalziumüberladung im Vordergrund. Adrenalin würde diesen Mechanismus nicht beheben.",
+          "term": "Adrenalin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Metoprolol ist ein Beta-1-selektiver Betablocker. Er behandelt weder die Ursache noch die entscheidenden metabolischen Entgleisungen der malignen Hyperthermie. Eine ungezielte Betablockade wäre in der Akutsituation nicht die gesuchte Maßnahme.",
+          "term": "Metoprolol"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Unvollständige Protokolloption: Inhalt nicht rekonstruierbar. Nach Antwortschlüssel ist sie nicht korrekt.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "145": {
+      "topicLabel": "MH-Pathophysiologie",
+      "explanation": "Bei der malignen Hyperthermie spielt Kalzium die zentrale pathophysiologische Rolle. Durch eine Störung der Kalziumregulation im Skelettmuskel kommt es zu einer überschießenden Freisetzung von Kalzium aus dem sarkoplasmatischen Retikulum. Das führt zu anhaltender Muskelkontraktion, stark gesteigertem Energieverbrauch, Wärmeproduktion, Hyperkapnie und Azidose. Dantrolen wirkt genau an diesem Mechanismus, indem es die pathologische Kalziumfreisetzung reduziert. Andere Elektrolyte können sekundär verändert sein, erklären aber nicht den Kernmechanismus.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Natrium ist für Erregungsleitung und Membranpotenziale wichtig, steht aber nicht im Zentrum der malignen Hyperthermie. Der entscheidende Defekt betrifft die intrazelluläre Kalziumfreisetzung im Skelettmuskel. Daher ist Natrium nicht die gesuchte Antwort.",
+          "term": "Natrium"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Kalzium ist der zentrale Elektrolyt der malignen Hyperthermie. Eine unkontrollierte Kalziumfreisetzung im Skelettmuskel verursacht Muskelrigor und Hypermetabolismus. Deshalb ist diese Option korrekt.",
+          "term": "Kalzium"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Magnesium beeinflusst neuromuskuläre Erregbarkeit und kann in anderen Kontexten therapeutisch relevant sein. Es ist jedoch nicht der Schlüsselmechanismus der malignen Hyperthermie. Die Störung liegt primär in der Kalziumhomöostase.",
+          "term": "Magnesium"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Chlorid ist für Flüssigkeits- und Säure-Basen-Haushalt relevant, erklärt aber die maligne Hyperthermie nicht. Der typische Mechanismus ist keine primäre Chloridkanalstörung. Deshalb ist diese Option falsch.",
+          "term": "Chlorid"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Kalium kann bei maligner Hyperthermie sekundär ansteigen, etwa durch Muskelzellschädigung. Es ist aber nicht der primär auslösende oder steuernde Elektrolyt des Krankheitsbildes. Die Frage zielt auf Kalzium ab.",
+          "term": "Kalium"
+        }
+      ]
+    },
+    "146": {
+      "topicLabel": "MH-Kontraindikation",
+      "explanation": "Bei bekannter oder vermuteter Suszeptibilität für maligne Hyperthermie müssen Trigger konsequent vermieden werden. Neben volatilen Inhalationsanästhetika ist Succinylcholin der klassische pharmakologische Auslöser. Succinylcholin ist ein depolarisierendes Muskelrelaxans und daher bei maligner Hyperthermie kontraindiziert. Nichtdepolarisierende Relaxanzien wie Rocuronium, Cisatracurium oder Vecuronium gelten dagegen nicht als typische MH-Trigger. Für Anästhesien wird dann ein triggerfreies Vorgehen geplant.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Rocuronium ist ein nichtdepolarisierendes Muskelrelaxans. Diese Substanzgruppe zählt nicht zu den klassischen Auslösern der malignen Hyperthermie. Es ist daher nicht die gesuchte kontraindizierte Substanz.",
+          "term": "Rocuronium"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Succinylcholin ist ein depolarisierendes Muskelrelaxans und ein klassischer Trigger der malignen Hyperthermie. Bei MH-Suszeptibilität muss es vermieden werden. Damit ist diese Option korrekt.",
+          "term": "Succinylcholin"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Cisatracurium ist ein nichtdepolarisierendes Muskelrelaxans. Es gehört nicht zu den typischen MH-auslösenden Medikamenten. Deshalb ist es nicht die gesuchte Kontraindikation.",
+          "term": "Cisatracurium"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Vecuronium ist ebenfalls ein nichtdepolarisierendes Muskelrelaxans. Diese Substanz ist kein klassischer Trigger einer malignen Hyperthermie. Die Option ist daher falsch.",
+          "term": "Vecuronium"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Unvollständige Protokolloption: Inhalt nicht rekonstruierbar. Nach Antwortschlüssel ist sie nicht korrekt.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "147": {
+      "topicLabel": "BPH-Medikation",
+      "explanation": "Bei symptomatischer benigner Prostatahyperplasie gehören Alpha-1-Adrenorezeptor-Blocker zu den etablierten medikamentösen Therapieoptionen. Sie relaxieren die glatte Muskulatur im Bereich von Prostata und Blasenhals und verbessern dadurch vor allem irritative und obstruktive Miktionsbeschwerden. Der Effekt tritt vergleichsweise rasch ein, beeinflusst aber die Prostatagröße nicht wesentlich. Je nach Prostatavolumen, Symptomlast und Verlauf können auch andere Wirkstoffgruppen infrage kommen, diese sind hier aber nicht angeboten. Mistelextrakt und Prostaglandin E1 sind keine Standardtherapien der BPH.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Alpha-1-Adrenorezeptor-Blocker sind eine Standardoption bei medikamentöser Behandlung der BPH. Sie senken den dynamischen Auslasswiderstand durch Relaxation glatter Muskulatur. Dadurch bessern sich Miktionsbeschwerden häufig rasch.",
+          "term": "Alpha-1-Blocker"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Mistelextrakt ist kein etablierter Bestandteil der leitliniengerechten BPH-Therapie. Pflanzliche Präparate werden teils diskutiert, Mistelextrakt ist jedoch nicht die typische oder gesuchte Therapie. Die Option passt daher nicht.",
+          "term": "Mistelextrakt"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Prostaglandin E1 wird eher im Kontext erektiler Dysfunktion verwendet. Es behandelt nicht die pathophysiologischen Mechanismen der benignen Prostatahyperplasie. Daher ist diese Option falsch.",
+          "term": "Prostaglandin E1"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Unvollständige Protokolloption: Inhalt nicht rekonstruierbar. Nach Antwortschlüssel ist sie nicht korrekt.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Unvollständige Protokolloption: Inhalt nicht rekonstruierbar. Nach Antwortschlüssel ist sie nicht korrekt.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "148": {
+      "topicLabel": "BPH-Verfahren",
+      "explanation": "Bei der BPH stehen operative und interventionelle Verfahren zur Verfügung, wenn Beschwerden oder Komplikationen eine invasive Therapie erfordern. Klassisch ist die transurethrale Resektion der Prostata, daneben existieren Laserverfahren wie Enukleation oder Vaporisation. Auch interventionelle Konzepte wie die Prostataarterienembolisation können je nach Setting diskutiert werden. Eine reine Ballondilatation der Prostata ist dagegen keine etablierte Standardtherapie der BPH und gilt im Vergleich als am wenigsten zutreffend. Daher ist diese Option nach der Frageformulierung 'stimmt am wenigsten' korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die Prostata-Ballondilatation ist bei BPH nicht das etablierte Standardverfahren. Im Vergleich zu TURP und modernen Laserverfahren ist sie deutlich weniger typisch und nicht die übliche prüfungsrelevante Therapie. Deshalb stimmt diese Option am wenigsten.",
+          "term": "Prostata-Ballondilatation"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die TURP ist ein klassisches operatives Standardverfahren bei BPH. Sie ist insbesondere bei geeigneter Prostatagröße und relevanter Obstruktion prüfungsrelevant. Daher ist sie nicht die am wenigsten zutreffende Option.",
+          "term": "TURP"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die Prostataarterienembolisation ist ein interventionelles Verfahren, das in bestimmten Situationen als Alternative diskutiert werden kann. Auch wenn Indikation und Stellenwert von der Patientenselektion abhängen, ist sie als Konzept bekannt. Sie ist daher nicht so unzutreffend wie die Ballondilatation.",
+          "term": "Prostataarterienembolisation"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Laserenukleationsverfahren sind etablierte operative Optionen bei BPH. Sie entfernen obstruierendes Adenomgewebe transurethral und können je nach Prostatavolumen geeignet sein. Diese Option ist deshalb nicht die gesuchte Falschaussage.",
+          "term": "Laserenukleation"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Laservaporisation ist ebenfalls ein bekanntes minimal-invasives beziehungsweise transurethrales Therapieverfahren bei BPH. Sie verdampft obstruierendes Gewebe und kann Beschwerden bessern. Damit ist sie nicht die am wenigsten zutreffende Antwort.",
+          "term": "Laservaporisation"
+        }
+      ]
+    },
+    "149": {
+      "topicLabel": "BPH-OP-Indikation",
+      "explanation": "Die Frage sucht laut Antwortschlüssel die Option, die keine OP-Indikation bei BPH darstellt; markiert ist 'rezidivierende HWI'. In der rekonstruierten Prüfungslogik wird damit offenbar ein wiederkehrender Harnwegsinfekt ohne weitere gesicherte Obstruktionskomplikation nicht als unmittelbare Operationsindikation gewertet. Dagegen sprechen Harnstau, Blasensteine, relevante Restharnbildung oder wiederholte BPH-bedingte Blutungen stärker für eine komplizierte oder dekompensierte Situation. Solche Befunde können eine invasive Therapie begründen, wenn sie mit der infravesikalen Obstruktion zusammenhängen. Da rezidivierende Infekte in realen Leitlinienkontexten je nach Ursache und Begleitbefunden ebenfalls relevant sein können, ist die Konfidenz wegen der knappen Protokollformulierung niedriger.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein relevanter Restharn kann Ausdruck einer Blasenentleerungsstörung bei BPH sein. Persistierender Restharn erhöht das Risiko für Komplikationen und kann bei entsprechender Symptomatik eine invasive Therapie stützen. Nach Antwortschlüssel ist dies nicht die gesuchte Nicht-Indikation.",
+          "term": "Restharn"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Rezidivierende Harnwegsinfekte sind laut Antwortschlüssel die gesuchte Antwort. Die Protokollfrage wertet sie offenbar ohne weitere Angaben zu Obstruktion, Restharn oder Komplikationen nicht als unmittelbare OP-Indikation. Wegen der möglichen klinischen Überschneidung mit komplizierter BPH bleibt diese Zuordnung protokollbedingt unsicher.",
+          "term": "Rezidivierende Harnwegsinfekte"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Nierenstau spricht für eine relevante Abflussbehinderung mit möglicher Gefährdung der Nierenfunktion. Bei BPH ist das eine wichtige Komplikation und kann eine operative Entlastung erforderlich machen. Deshalb ist diese Option nicht die gesuchte Nicht-Indikation.",
+          "term": "Nierenstau"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Mehrfache beziehungsweise rezidivierende Hämaturien können bei BPH eine invasive Therapie begründen, wenn sie auf die Prostata zurückgeführt werden und klinisch relevant sind. Vorher müssen andere Blutungsursachen abgeklärt werden. In der Frage ist diese Option nach Antwortschlüssel nicht als Nicht-Indikation codiert.",
+          "term": "Rezidivierende Hämaturie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Blasensteine können Folge einer chronischen Blasenentleerungsstörung sein. Bei BPH sprechen sie für eine komplizierte Obstruktion und können eine operative Therapie mitbegründen. Daher ist diese Option nicht die gesuchte Antwort.",
+          "term": "Blasensteine"
+        }
+      ]
+    },
+    "150": {
+      "topicLabel": "Emphysematöse Zystitis",
+      "explanation": "Eine ältere Patientin mit nitritpositivem Harnwegsinfekt und CT-Befund mit Gas im Bereich der Harnblase passt typisch zur emphysematösen Zystitis. Dabei handelt es sich um eine gasbildende Infektion der Blasenwand beziehungsweise des Blasenlumens, meist durch uropathogene Keime. Risikofaktoren sind unter anderem höheres Alter, Diabetes mellitus, Harnabflussstörungen oder Immunsuppression, auch wenn im Protokoll nicht alle Details genannt sind. Entscheidend ist die Kombination aus HWI-Konstellation und bildmorphologischem Gasnachweis in der Blase. Cholezystitis oder Kolitis würden andere anatomische Strukturen und klinische Leitsymptome betreffen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Emphysematöse Zystitis beschreibt eine gasbildende Infektion der Harnblase. Nitritpositiver HWI plus CT-Hinweis auf Gas in oder an der Blase passt sehr gut dazu. Deshalb ist diese Diagnose korrekt.",
+          "term": "Emphysematöse Zystitis"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Cholezystitis betrifft die Gallenblase und würde typischerweise rechtsseitige Oberbauchbeschwerden und entsprechende sonographische oder CT-Zeichen zeigen. Der Fall beschreibt jedoch einen Harnwegsinfekt mit Blasenbefund. Daher ist diese Option nicht passend.",
+          "term": "Cholezystitis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine rechtsseitige Kolitis würde den Dickdarm betreffen und eher mit Diarrhö, abdominellen Schmerzen und Darmwandveränderungen einhergehen. Der nitritpositive HWI und die Abbildung einer emphysematösen Zystitis sprechen gegen diese Diagnose. Sie erklärt den Blasenbefund nicht.",
+          "term": "Rechtsseitige Kolitis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Unvollständige Protokolloption: Inhalt nicht rekonstruierbar. Nach Antwortschlüssel ist sie nicht korrekt.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Unvollständige Protokolloption: Inhalt nicht rekonstruierbar. Nach Antwortschlüssel ist sie nicht korrekt.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "151": {
+      "topicLabel": "Zystitis-Therapie",
+      "explanation": "Die Folgefrage bezieht sich auf die emphysematöse Zystitis der 61-jährigen Patientin mit HWI und Erbrechen. Therapeutisch handelt es sich um einen komplizierten, potenziell schweren Harnwegsinfekt, der eine rasche antibiotische Behandlung und meist zusätzliche Maßnahmen wie Blasendrainage und Kontrolle prädisponierender Faktoren erfordert. Laut Antwortschlüssel ist Ceftriaxon plus Metronidazol die richtige Option, also eine breite kalkulierte Therapie mit gramnegativer und anaerober Abdeckung. Eine rein orale oder zu schmale Therapie wäre bei emphysematöser Zystitis in der Akutsituation nicht ausreichend. Linezolid passt wegen seines grampositiven Spektrums nicht als Primärtherapie eines typischen nitritpositiven HWI.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ceftriaxon plus Metronidazol ist laut Antwortschlüssel die korrekte Therapieoption. Die Kombination deckt wichtige Erreger eines komplizierten, gasbildenden Infekts ab und ist für eine schwere Präsentation plausibel breit. Zusätzlich sind klinische Überwachung und urologische Maßnahmen mitzudenken.",
+          "term": "Ceftriaxon plus Metronidazol"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Linezolid wirkt vor allem gegen grampositive Erreger. Ein nitritpositiver Harnwegsinfekt spricht typischerweise für gramnegative Uropathogene, die dadurch nicht adäquat abgedeckt wären. Als alleinige Primärtherapie ist Linezolid hier daher unpassend.",
+          "term": "Linezolid"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Sulfamethoxazol plus Trimethoprim kann bei unkomplizierten oder ausgewählten Harnwegsinfekten eine Rolle spielen. Bei emphysematöser Zystitis handelt es sich jedoch um einen komplizierten Infekt mit potenziell schwerem Verlauf. Deshalb ist diese Option hier nicht die gesuchte Akuttherapie.",
+          "term": "Cotrimoxazol"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Unvollständige Protokolloption: Inhalt nicht rekonstruierbar. Nach Antwortschlüssel ist sie nicht korrekt.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Unvollständige Protokolloption: Inhalt nicht rekonstruierbar. Nach Antwortschlüssel ist sie nicht korrekt.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "152": {
+      "topicLabel": "Mammakarzinom-Diagnostik",
+      "explanation": "Bei Verdacht auf Mammakarzinom reicht die Bildgebung allein nicht zur endgültigen Diagnosesicherung. Die Diagnose muss histologisch gesichert werden, in der Regel durch eine stanzbioptische Gewebeentnahme aus dem suspekten Befund. Erst die Histologie erlaubt die sichere Einordnung von Benignität oder Malignität sowie die Bestimmung weiterer therapeutisch relevanter Tumorparameter. Mammographie und Sonographie sind wichtige Bestandteile der Abklärung, ersetzen aber die Gewebediagnose nicht. Eine Diagnose erst intraoperativ zu stellen wäre bei einem planbaren Mammabefund nicht das leitliniengerechte Vorgehen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Biopsie und histologische Untersuchung sichern die Diagnose eines Mammakarzinoms. Bildgebung kann den Verdacht erhärten, aber nicht die endgültige Tumordiagnose ersetzen. Deshalb ist diese Option korrekt.",
+          "term": "Biopsie und Histologie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein auffälliger Mammographiebefund reicht nicht zur definitiven Diagnosesicherung aus. Auch hochsuspekte Befunde müssen histologisch abgeklärt werden. Die Option unterschätzt daher die Bedeutung der Gewebesicherung.",
+          "term": "Mammographie allein"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein DCIS kann bildmorphologisch vermutet werden, etwa durch Mikroverkalkungen, aber nicht allein sonographisch sicher diagnostiziert werden. Die endgültige Diagnose erfolgt histologisch. Deshalb ist diese Aussage falsch.",
+          "term": "DCIS in Sonographie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die Diagnose sollte vor der definitiven operativen Therapie histologisch gesichert sein. Eine erst intraoperative Diagnosestellung ist bei planbarer Brustkrebsabklärung nicht das Standardvorgehen. Sie würde die präoperative Therapieplanung erschweren.",
+          "term": "Intraoperative Diagnose"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Unvollständige Protokolloption: Inhalt nicht rekonstruierbar. Nach Antwortschlüssel ist sie nicht korrekt.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "153": {
+      "topicLabel": "Mammakarzinom-Therapieplanung",
+      "explanation": "Im Therapieempfehlungsgespräch bei Mammakarzinom muss neben der Behandlung des Primärtumors auch das axilläre Staging besprochen werden. Der axilläre Lymphknotenstatus ist wichtig für Stadieneinteilung, Prognose und adjuvante Therapieentscheidungen. Je nach klinischem Befund kommen etwa Sentinel-Lymphknotenbiopsie oder weiterführende axilläre Maßnahmen in Betracht. Eine intraoperative Bestrahlung ist nicht pauschal Standard für alle Patientinnen. Brusterhaltende Therapie ist bei geeigneten Tumoren der Mastektomie onkologisch nicht grundsätzlich unterlegen, während inflammatorische Karzinome eine besondere, meist multimodale Strategie erfordern.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Das axilläre Staging gehört zentral zur Therapieplanung beim Mammakarzinom. Es liefert Informationen zum Lymphknotenbefall und beeinflusst Stadium, Prognose und adjuvante Therapie. Daher sollte es im Behandlungsgespräch adressiert werden.",
+          "term": "Axilläres Staging"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine intraoperative Bestrahlung kann in ausgewählten Konzepten vorkommen, ist aber nicht die generelle Standardtherapie für alle Mammakarzinome. Standard ist häufig eine risikoadaptierte postoperative oder adjuvante Strahlentherapie nach brusterhaltender Operation. Die pauschale Aussage ist deshalb falsch.",
+          "term": "Intraoperative Bestrahlung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Beim inflammatorischen Mammakarzinom ist eine primäre brusterhaltende Therapie nicht das typische Standardvorgehen. Es handelt sich um eine aggressive Sonderform, die meist multimodal behandelt wird. Die Aussage ist daher nicht korrekt.",
+          "term": "BET bei inflammatorischem Mammakarzinom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Mastektomie ist bei geeigneter Indikation nicht grundsätzlich onkologisch überlegen gegenüber brusterhaltender Therapie mit Bestrahlung. Die Wahl hängt von Tumorbiologie, Ausdehnung, Patientinnenwunsch und technischen Möglichkeiten ab. Die pauschale Überlegenheitsaussage ist falsch.",
+          "term": "Mastektomie versus BET"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Unvollständige Protokolloption: Inhalt nicht rekonstruierbar. Nach Antwortschlüssel ist sie nicht korrekt.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "154": {
+      "topicLabel": "CAR-T-Prinzip",
+      "explanation": "CAR-T-Zell-Therapie beruht auf patienteneigenen T-Zellen, die ex vivo genetisch so verändert werden, dass sie einen chimären Antigenrezeptor tragen. Bei B-Zell-ALL richtet sich dieser häufig gegen CD19 auf malignen B-Zellen. Nach Rückgabe erkennen die modifizierten T-Zellen die Zielzellen unabhängig von klassischer MHC-Präsentation und können eine zytotoxische Immunreaktion auslösen. Die korrekte Antwort beschreibt daher autologe, genetisch veränderte T-Zellen, die an CD19-positive Tumorzellen binden und deren Zerstörung initiieren. Fremdspender-T-Zellen sind nicht das Standardprinzip der klassischen CAR-T-Therapie in dieser Prüfungsfrage.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Diese Option beschreibt das Prinzip korrekt: patienteneigene T-Zellen werden genetisch verändert und erkennen CD19 auf Tumorzellen. Nach Bindung können sie die Zielzellen zytotoxisch angreifen. Damit ist sie die beste Antwort.",
+          "term": "Autologe CD19-CAR-T-Zellen"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Die Option ist sprachlich ungenau und beschreibt CD19 fälschlich beziehungsweise missverständlich als Antigenrezeptor der Tumorzelle. CD19 ist das Zielantigen, gegen das der chimäre Antigenrezeptor der T-Zelle gerichtet ist. Zudem fehlt die klare Beschreibung der Zielzellzerstörung.",
+          "term": "Ungenaue CD19-Beschreibung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die klassische CAR-T-Zell-Therapie verwendet in dieser Prüfungslogik patienteneigene, nicht fremdspenderbasierte T-Zellen. Außerdem ist die Formulierung mit Aktivierung und Zytokinfreisetzung nicht das eigentliche gewünschte Therapieprinzip, sondern beschreibt eher mögliche Immunfolgen. Daher ist die Option nicht korrekt.",
+          "term": "Fremdspender-T-Zellen"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Auch diese Option nennt Spenderzellen und trifft damit das autologe Grundprinzip der klassischen CAR-T-Therapie nicht. Zusätzlich ist die Zielstruktur sprachlich ungenau wiedergegeben. Sie ist deshalb falsch.",
+          "term": "Spender-CAR-T-Zellen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Unvollständige Protokolloption: Inhalt nicht rekonstruierbar. Nach Antwortschlüssel ist sie nicht korrekt.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "155": {
+      "topicLabel": "CAR-T-Vorbereitung",
+      "explanation": "Vor Infusion von CAR-T-Zellen erfolgt typischerweise eine lymphodepletierende Chemotherapie. Sie reduziert konkurrierende Lymphozyten und schafft ein günstigeres immunologisches Milieu für Expansion und Wirksamkeit der CAR-T-Zellen. Diese Konditionierung ist ein wichtiger Bestandteil des Therapiekonzepts, auch wenn die genaue Substanzkombination protokollabhängig ist. Eine Knochenmarkbestrahlung, Wachstumsfaktorstimulation oder gezielte Anregung der Lymphopoese würden dem Prinzip nicht entsprechen. Antimykotische Maßnahmen können je nach Immunsuppression unterstützend relevant sein, sind aber nicht die gesuchte vorbereitende Kernmaßnahme.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Knochenmarkbestrahlung zur Unterdrückung der Granulopoese ist nicht die typische Vorbereitung vor CAR-T-Zell-Gabe. Das Standardprinzip ist eine lymphodepletierende Chemotherapie. Die Option trifft daher den gesuchten Schritt nicht.",
+          "term": "Knochenmarkbestrahlung"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Eine Lymphozytendepletion durch Chemotherapie ist die typische vorbereitende Maßnahme vor CAR-T-Zell-Infusion. Sie erleichtert Expansion und Persistenz der transfundierten CAR-T-Zellen. Daher ist diese Option korrekt.",
+          "term": "Lymphodepletierende Chemotherapie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Wachstumsfaktoren zur Anregung der Leukopoese entsprechen nicht dem Vorbereitungsprinzip der CAR-T-Therapie. Vor der Infusion soll gerade ein lymphodepletiertes Umfeld geschaffen werden. Deshalb ist diese Option falsch.",
+          "term": "Wachstumsfaktoren"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Antimykotische Prophylaxe oder Therapie kann bei immunsupprimierten Patientinnen und Patienten je nach Risiko unterstützend nötig sein. Sie ist aber nicht die charakteristische vorbereitende Maßnahme für die CAR-T-Zell-Infusion. Die Frage zielt auf Lymphodepletion ab.",
+          "term": "Antimykotikum"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Stimulation der Lymphopoese wäre dem Konzept der vorbereitenden Lymphodepletion entgegengesetzt. Vor CAR-T-Zell-Gabe wird das Lymphozytenkompartiment nicht gezielt aufgebaut, sondern reduziert. Daher ist diese Option falsch.",
+          "term": "Lymphopoese-Stimulation"
+        }
+      ]
+    },
+    "156": {
+      "topicLabel": "CAR-T-Nebenwirkung",
+      "explanation": "Eine typische und prüfungsrelevante Nebenwirkung der CAR-T-Zell-Therapie ist das Zytokinfreisetzungssyndrom. Es entsteht durch starke Immunaktivierung nach Erkennung der Tumorzellen und kann mit Fieber, Hypotonie, Hypoxie und Organbeteiligung einhergehen. Der Schweregrad reicht von milden Verläufen bis zu intensivpflichtigen Situationen. Die Nebenwirkung passt besonders gut zum Wirkprinzip der CAR-T-Zellen, die gezielt eine Immunreaktion gegen CD19-positive Zellen auslösen. Myelofibrose oder eine unspezifische 'zytotoxische Krise' sind nicht die klassischen Antworten.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Myelofibrose ist eine chronische Knochenmarkfibrosierung und keine typische akute Nebenwirkung der CAR-T-Zell-Therapie. Sie erklärt nicht die immunologische Akutreaktion nach T-Zell-Aktivierung. Daher ist diese Option falsch.",
+          "term": "Myelofibrose"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Der Begriff zytotoxische Krise ist nicht die etablierte Leitside-Effect-Bezeichnung der CAR-T-Therapie. Zwar vermitteln CAR-T-Zellen zytotoxische Effekte, die typische klinische Komplikation heißt jedoch Zytokinfreisetzungssyndrom. Deshalb ist diese Option nicht korrekt.",
+          "term": "Zytotoxische Krise"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Das Zytokinfreisetzungssyndrom ist eine klassische Nebenwirkung der CAR-T-Zell-Therapie. Es resultiert aus massiver Immunzellaktivierung und Zytokinfreisetzung nach Zielantigenerkennung. Damit ist diese Option korrekt.",
+          "term": "Zytokinfreisetzungssyndrom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Unvollständige Protokolloption: Inhalt nicht rekonstruierbar. Nach Antwortschlüssel ist sie nicht korrekt.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Unvollständige Protokolloption: Inhalt nicht rekonstruierbar. Nach Antwortschlüssel ist sie nicht korrekt.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "157": {
+      "topicLabel": "Perimyokarditis-EKG",
+      "explanation": "Bei einer jungen Frau mit Leistungsminderung und Belastungsdyspnoe nach Virusinfekt passt eine entzündliche kardiale Beteiligung in die Differenzialdiagnose. Konkave ST-Streckenhebungen sind ein typischer EKG-Hinweis bei Perikarditis beziehungsweise Perimyokarditis, besonders wenn sie nicht dem Muster eines territorialen STEMI folgen. Die Folgefragen mit Labor und Diagnose stützen diese Einordnung zusätzlich. Eine PQ-Zeit-Verlängerung, Zeichen der Rechtsherzbelastung oder Linksherzhypertrophie wären andere EKG-Befunde und erklären die Fallkette weniger gut. Laut Antwortschlüssel ist daher die konkave ST-Streckenhebung korrekt.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine PQ-Zeit-Verlängerung entspricht einem AV-Block I. Grades. Das ist nicht der laut Antwortschlüssel gesuchte typische Befund in dieser Fallkette. Bei Perikarditis werden eher ST-Hebungen und gegebenenfalls PR-Senkungen diskutiert.",
+          "term": "PQ-Zeit-Verlängerung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "P dextroatriale weist auf eine Rechtsatrialbelastung hin. Das passt eher zu pulmonalen oder rechtskardialen Belastungssituationen. Für den postinfektiösen Fall mit späterer Perimyokarditis-Diagnose ist es nicht der gesuchte Befund.",
+          "term": "P dextroatriale"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein Rechtstyp kann bei Rechtsherzbelastung oder anatomischen Varianten vorkommen. Er ist kein typischer Leithinweis auf eine Perimyokarditis nach Virusinfekt. Deshalb ist diese Option falsch.",
+          "term": "Rechtstyp"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Zeichen einer Linksherzhypertrophie würden auf chronische Druck- oder Volumenbelastung hinweisen. Sie erklären die akute Leistungsminderung nach Infekt nicht vorrangig. Die Option passt daher nicht zur gesuchten EKG-Konstellation.",
+          "term": "Linksherzhypertrophie"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Konkave ST-Streckenhebungen sind typisch für eine Perikarditis und können bei Perimyokarditis auftreten. Im Kontext eines vorangegangenen Virusinfekts und Belastungsdyspnoe ist dieser Befund besonders plausibel. Daher ist diese Option korrekt.",
+          "term": "Konkave ST-Streckenhebung"
+        }
+      ]
+    },
+    "158": {
+      "topicLabel": "Myokardschädigung",
+      "explanation": "Die Laborbefunde in der Fallkette sprechen laut Antwortschlüssel für eine Muskelschädigung. Im Kontext der vorausgehenden EKG-Frage und der späteren Diagnose Perimyokarditis ist damit insbesondere eine myokardiale Mitbeteiligung plausibel, etwa durch erhöhte Herzenzyme beziehungsweise Muskelmarker. Eine Perimyokarditis kann nach Virusinfekt auftreten und sowohl EKG-Veränderungen als auch Laborzeichen einer Myokardschädigung verursachen. Cholestase oder Pankreatitis würden andere Leitenzyme und andere klinische Konstellationen erwarten lassen. Ein unspezifischer Virusinfekt allein erklärt die kardialen Befunde nicht ausreichend.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Cholestase würde typischerweise durch Parameter wie Cholestaseenzyme und Bilirubin auffallen. Sie passt nicht zur Fallkette mit postinfektiöser Dyspnoe und EKG-Veränderungen. Daher ist diese Option falsch.",
+          "term": "Cholestase"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine Pankreatitis würde vor allem durch Oberbauchschmerzen und erhöhte Pankreasenzyme gestützt. Die beschriebenen Befunde zielen jedoch auf kardiale beziehungsweise muskuläre Schädigung nach Infekt. Deshalb ist diese Option nicht korrekt.",
+          "term": "Pankreatitis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Unvollständige Protokolloption: Inhalt nicht rekonstruierbar. Nach Antwortschlüssel ist sie nicht korrekt.",
+          "term": "Unbekannte Option"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Muskelschädigung ist laut Antwortschlüssel korrekt. In dieser Fallkette ist damit besonders die Schädigung des Herzmuskels im Rahmen einer Myokarditis beziehungsweise Perimyokarditis plausibel. Das erklärt Laborauffälligkeiten zusammen mit den EKG-Veränderungen.",
+          "term": "Muskelschädigung"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein Virusinfekt ist als Auslöser im Fall wichtig, beschreibt aber die Laborbefunde nicht spezifisch genug. Die Frage fragt, wofür die Blutwerte sprechen, und die Fallkette zielt auf Muskel- beziehungsweise Myokardschädigung. Deshalb ist diese Option nicht die beste Antwort.",
+          "term": "Virusinfekt"
+        }
+      ]
+    },
+    "159": {
+      "topicLabel": "Perimyokarditis",
+      "explanation": "Die Diagnose ergibt sich aus der Zusammenschau der vorangegangenen Fallinformationen. Nach Influenza-Infektion bestehen Leistungsminderung und Belastungsdyspnoe, im EKG finden sich konkave ST-Hebungen und die Laborwerte sprechen für Muskelschädigung. Diese Kombination passt am besten zu einer Perimyokarditis, also einer Entzündung von Perikard und Myokard. Eine isolierte Endokarditis würde andere Leitsymptome und Befunde erwarten lassen, insbesondere Klappenvegetationen, Bakteriämie oder Embolien. Auch eine massive Mitralklappeninsuffizienz oder restriktive Kardiomyopathie erklären die postinfektiöse Akutkonstellation weniger gut.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Endokarditis betrifft primär die Herzklappen beziehungsweise das Endokard. Typisch wären Fieber, positive Blutkulturen, neues Herzgeräusch oder embolische Phänomene. Die EKG- und Laborbefunde der Fallkette sprechen eher für Perimyokarditis.",
+          "term": "Endokarditis"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine massive Mitralklappeninsuffizienz würde eher mit akutem Lungenödem, systolischem Geräusch und echokardiographischem Klappenbefund auffallen. Sie erklärt konkave ST-Hebungen nach Virusinfekt nicht typisch. Daher ist diese Diagnose nicht am wahrscheinlichsten.",
+          "term": "Massive Mitralklappeninsuffizienz"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Restriktive Kardiomyopathien verursachen meist eine chronische diastolische Funktionsstörung mit Stauungszeichen. Die akute postinfektiöse Konstellation mit EKG- und Laborhinweisen auf Entzündung passt weniger dazu. Deshalb ist diese Option falsch.",
+          "term": "Restriktive Kardiomyopathie"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Perimyokarditis verbindet perikarditische EKG-Veränderungen mit Zeichen einer Myokardschädigung. Der vorausgegangene Virusinfekt ist ein typischer Auslöser. Damit ist diese Diagnose in der Fallkette am plausibelsten und laut Antwortschlüssel korrekt.",
+          "term": "Perimyokarditis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Unvollständige Protokolloption: Inhalt nicht rekonstruierbar. Nach Antwortschlüssel ist sie nicht korrekt.",
+          "term": "Unbekannte Option"
+        }
+      ]
+    },
+    "160": {
+      "topicLabel": "Beckentumor-Diagnostik",
+      "explanation": "Bei Verdacht auf eine Neubildung gynäkologischer Beckenorgane ist der transvaginale Ultraschall die naheliegende nächste diagnostische Maßnahme. Er erlaubt eine gute Beurteilung von Uterus, Endometrium und Adnexen und ist schnell, wenig invasiv und in der gynäkologischen Abklärung zentral. Bei einer 55-jährigen Patientin mit unauffälliger vaginaler Untersuchung kann so trotzdem eine ovarielle oder endometriale Raumforderung beziehungsweise Auffälligkeit weiter eingegrenzt werden. Eine Abrasio wäre vor allem bei auffälligem Endometrium oder Blutungsanamnese naheliegend, nicht als erster Schritt bei unklarer Beckenraumforderung. CT oder abdominaler Ultraschall können später ergänzen, ersetzen aber den transvaginalen Ultraschall als erste gezielte gynäkologische Bildgebung nicht.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Abrasio dient der histologischen Abklärung des Endometriums, besonders bei postmenopausaler Blutung oder auffälligem Endometriumbefund. Im Protokoll wird gerade keine Blutung erwähnt und zunächst eine unklare Beckenorgan-Neubildung abgeklärt. Deshalb ist sie nicht der erste Schritt.",
+          "term": "Abrasio"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Der PAP-Abstrich ist ein Screening- beziehungsweise Abklärungsverfahren für zervikale Zellveränderungen. Er beurteilt keine Adnexraumforderung und keinen größeren Beckenprozess zuverlässig. Für die hier vermutete Tumorentwicklung ist er nicht die nächste zentrale Diagnostik.",
+          "term": "PAP-Abstrich"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Der transvaginale Ultraschall ist die erste gezielte Bildgebung zur Beurteilung der inneren Genitalorgane. Er kann Endometrium, Uterus und Adnexen gut darstellen und ist bei Verdacht auf gynäkologische Beckenpathologie naheliegend. Daher ist diese Option korrekt.",
+          "term": "Transvaginaler Ultraschall"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein abdominaler Ultraschall kann ergänzend hilfreich sein, ist für die Beurteilung der gynäkologischen Beckenorgane aber weniger gezielt als der transvaginale Ultraschall. Gerade Adnexen und Endometrium werden transvaginal meist besser beurteilt. Deshalb ist diese Option nicht die beste nächste Maßnahme.",
+          "term": "Abdominaler Ultraschall"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Ein CT-Abdomen mit Kontrastmittel kann bei Staging oder unklaren weiterführenden Befunden eine Rolle spielen. Als erster diagnostischer Schritt bei Verdacht auf gynäkologische Beckenpathologie ist der transvaginale Ultraschall jedoch näherliegend. Die Option ist daher nicht korrekt.",
+          "term": "CT Abdomen mit Kontrastmittel"
+        }
+      ]
+    }
+  }
+}
