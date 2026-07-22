@@ -7,11 +7,11 @@ export function SiteFooter() {
       <div className="container mx-auto flex flex-col items-center justify-between gap-6 px-6 md:flex-row">
         <div className="flex items-center gap-3">
           <Image
-            src="/adalbert-mark.webp"
-            alt=""
-            width={36}
-            height={36}
-            className="h-9 w-9 object-contain"
+            src="/adalbert-header.webp"
+            alt="Adalbert"
+            width={64}
+            height={96}
+            className="h-12 w-auto object-contain"
           />
           <div>
             <p className="font-semibold text-[#002F5D]">Adalbert</p>

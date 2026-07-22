@@ -11,10 +11,10 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-white">
       <SiteHeader active="home" />
 
-      {/* Compact: brand + two quick actions */}
+      {/* Compact: brand + two quick-action boxes */}
       <section className="relative overflow-hidden border-b border-[#e2e8f0]">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_70%_60%_at_50%_0%,rgba(0,47,93,0.08),transparent)]" />
-        <div className="relative container mx-auto px-6 py-10 md:py-14">
+        <div className="relative container mx-auto px-6 py-10 md:py-12">
           <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
             <Image
               src="/adalbert-full.webp"
@@ -22,17 +22,17 @@ export default function Home() {
               width={480}
               height={720}
               priority
-              className="mb-4 h-auto w-[96px] object-contain sm:w-[112px]"
+              className="mb-3 h-auto w-[88px] object-contain sm:w-[104px]"
             />
             <h1 className="text-3xl font-bold tracking-tight text-[#002F5D] md:text-4xl">
               Adalbert
             </h1>
-            <p className="mt-2 max-w-md text-sm text-zinc-600 md:text-base">
+            <p className="mt-2 max-w-md text-sm text-zinc-600">
               Altklausuren kreuzen oder Anki-Decks anreichern — schnell starten.
             </p>
           </div>
 
-          <div className="mx-auto mt-8 grid max-w-3xl gap-3 sm:grid-cols-2 sm:gap-4">
+          <div className="mx-auto mt-7 grid max-w-3xl gap-3 sm:grid-cols-2 sm:gap-4">
             <Link
               href="/altfragen"
               className="group flex items-center gap-4 rounded-xl border border-[#e2e8f0] bg-white px-5 py-5 shadow-sm transition hover:border-[#002F5D]/30 hover:bg-[#eef5fb]"
@@ -70,15 +70,20 @@ export default function Home() {
 
       <HomeStats />
 
-      <section id="anki" className="scroll-mt-20 bg-white py-12 md:py-16">
+      {/* Anki full width */}
+      <section id="anki" className="scroll-mt-20 border-t border-[#e2e8f0] bg-white py-10 md:py-14">
         <div className="container mx-auto px-6">
-          <div className="mx-auto mb-8 max-w-3xl">
-            <h2 className="text-2xl font-bold tracking-tight text-zinc-900">Anki</h2>
-            <p className="mt-2 text-sm text-zinc-600 md:text-base">
-              Decks anreichern und nach Anki Desktop synchen. Lokal: AnkiConnect + LLM-Key.
-            </p>
+          <div className="mb-6 flex flex-wrap items-end justify-between gap-3">
+            <div>
+              <h2 className="text-2xl font-bold tracking-tight text-zinc-900">Anki</h2>
+              <p className="mt-1 text-sm text-zinc-600">
+                Decks anreichern und nach Anki Desktop synchen · AnkiConnect + LLM-Key
+              </p>
+            </div>
           </div>
-          <AnkiDashboardLazy />
+          <div className="w-full">
+            <AnkiDashboardLazy />
+          </div>
         </div>
       </section>
 

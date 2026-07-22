@@ -24,14 +24,14 @@ export function SiteHeader({
         className
       )}
     >
-      <div className="container mx-auto flex items-center justify-between gap-4 px-6 py-3.5">
-        <Link href="/" className="flex min-w-0 items-center gap-2.5">
+      <div className="container mx-auto flex items-center justify-between gap-4 px-6 py-2.5">
+        <Link href="/" className="flex min-w-0 items-center gap-3">
           <Image
-            src="/adalbert-mark.webp"
-            alt=""
-            width={36}
-            height={36}
-            className="h-9 w-9 shrink-0 object-contain"
+            src="/adalbert-header.webp"
+            alt="Adalbert"
+            width={64}
+            height={96}
+            className="h-12 w-auto shrink-0 object-contain sm:h-14"
             priority
           />
           <span className="min-w-0">
