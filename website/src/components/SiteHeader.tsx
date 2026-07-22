@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import { cn } from '@/lib/utils';
 
 const links = [
@@ -18,30 +17,15 @@ export function SiteHeader({
   className?: string;
 }) {
   return (
-    <header
-      className={cn(
-        'border-b border-[#e2e8f0] bg-white/90 backdrop-blur-sm',
-        className
-      )}
-    >
-      <div className="container mx-auto flex items-center justify-between gap-4 px-6 py-2.5">
-        <Link href="/" className="flex min-w-0 items-center gap-3">
-          <Image
-            src="/adalbert-header.webp"
-            alt="Adalbert"
-            width={64}
-            height={96}
-            className="h-12 w-auto shrink-0 object-contain sm:h-14"
-            priority
-          />
-          <span className="min-w-0">
-            <span className="block truncate text-lg font-bold tracking-tight text-[#002F5D]">
-              Adalbert
-            </span>
-            {context ? (
-              <span className="block truncate text-xs text-zinc-500">{context}</span>
-            ) : null}
+    <header className={cn('border-b border-[#e2e8f0] bg-white', className)}>
+      <div className="container mx-auto flex items-center justify-between gap-4 px-6 py-3">
+        <Link href="/" className="min-w-0">
+          <span className="block truncate text-lg font-bold tracking-tight text-[#002F5D]">
+            Adalbert
           </span>
+          {context ? (
+            <span className="block truncate text-xs text-zinc-500">{context}</span>
+          ) : null}
         </Link>
         <nav className="flex items-center gap-1 text-sm sm:gap-2">
           {links.map((link) => {

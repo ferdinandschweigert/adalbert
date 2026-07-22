@@ -8,13 +8,12 @@ import { Brain, ChevronRight, PenLine } from 'lucide-react';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-white">
+    <div className="min-h-screen bg-white">
       <SiteHeader active="home" />
 
       {/* Compact: brand + two quick-action boxes */}
-      <section className="relative overflow-hidden border-b border-[#e2e8f0]">
-        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_70%_60%_at_50%_0%,rgba(0,47,93,0.08),transparent)]" />
-        <div className="relative container mx-auto px-6 py-10 md:py-12">
+      <section className="border-b border-[#e2e8f0] bg-white">
+        <div className="container mx-auto px-6 py-10 md:py-12">
           <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
             <Image
               src="/adalbert-full.webp"
