@@ -1,0 +1,745 @@
+{
+  "examId": "m2-ss26-f26-gedaechtnisprotokoll",
+  "questions": {
+    "101": {
+      "topicLabel": "Pyramidenbahnläsion",
+      "explanation": "Die markierte Lösung ist die Pyramidenbahn. Eine Schädigung der Pyramidenbahn entspricht einer Läsion des 1. Motoneurons bzw. der zentralmotorischen Bahn und passt typischerweise zu spastischen Paresen, gesteigerten Muskeleigenreflexen und pathologischen Pyramidenbahnzeichen. Da im Gedächtnisprotokoll keine klinischen Befunde der eigentlichen Vorfrage überliefert sind, lässt sich die Lokalisation nur über die als richtig markierte Antwort sicher einordnen. Wichtig ist die Abgrenzung zur Schädigung des Alpha-Motoneurons: Diese wäre peripher bzw. Vorderhorn-/peripher-nervös und hätte eher schlaffe Paresen, Muskelatrophien und Faszikulationen zur Folge. Die unvollständig erinnerten Antwortmöglichkeiten können medizinisch nicht weiter differenziert werden.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Das Alpha-Motoneuron gehört zum unteren Motoneuron und vermittelt die letzte gemeinsame motorische Endstrecke zum Muskel. Eine Läsion hier würde eher schlaffe Paresen, Reflexabschwächung, Muskelatrophie und Faszikulationen erklären. Das passt nicht zu der im Protokoll als richtig markierten zentralen Lokalisation.",
+          "term": "Alpha-Motoneuron"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Die Pyramidenbahn ist die richtige Lokalisation. Eine Schädigung verursacht ein Syndrom des oberen Motoneurons mit spastischer Tonuserhöhung, gesteigerten Reflexen und pathologischen Pyramidenbahnzeichen. Genau diese zentrale motorische Bahn ist im Gedächtnisprotokoll als Lösung hinterlegt.",
+          "term": "Pyramidenbahn"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nur als Fragezeichen überliefert. Daher lässt sie sich inhaltlich nicht bewerten; maßgeblich bleibt die markierte korrekte Option.",
+          "term": "unvollständige Antwortoption"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll unvollständig. Ohne den ursprünglichen Wortlaut kann sie nicht sinnvoll gegen die Pyramidenbahn abgegrenzt werden.",
+          "term": "unvollständige Antwortoption"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption wurde nur als Fragezeichen erinnert. Eine medizinische Begründung ist deshalb nicht möglich; sie ist nicht die laut Lösung markierte Antwort.",
+          "term": "unvollständige Antwortoption"
+        }
+      ]
+    },
+    "102": {
+      "topicLabel": "Duale Plättchenhemmung",
+      "explanation": "Nach Stentimplantation bei koronarer Herzkrankheit wird zu Acetylsalicylsäure standardmäßig ein P2Y12-Rezeptorantagonist ergänzt, sofern keine Kontraindikation besteht. In den hier angebotenen Antworten ist Clopidogrel der passende Thrombozytenaggregationshemmer. Ziel ist die Verhinderung einer Stentthrombose durch duale Plättchenhemmung. Antikoagulanzien wie Heparin, Fondaparinux, Dabigatran oder Phenprocoumon ersetzen diese Standardstrategie nicht, wenn keine zusätzliche Indikation für eine Antikoagulation genannt ist. Die Frage beschreibt keine Situation, in der eine orale Dauerantikoagulation oder eine Akut-Antikoagulation im Vordergrund stünde.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Fondaparinux ist ein indirekter Faktor-Xa-Hemmer und wird vor allem in bestimmten akuten thromboembolischen oder akuten koronaren Situationen eingesetzt. Es ist aber kein Standardpartner von ASS zur Plättchenhemmung nach Koronarstent. Für die Stentthromboseprophylaxe ist hier ein P2Y12-Hemmer gefragt.",
+          "term": "Fondaparinux"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Clopidogrel ist hier die richtige Ergänzung zu ASS. Es hemmt den P2Y12-Rezeptor auf Thrombozyten und bildet damit zusammen mit ASS eine duale Thrombozytenaggregationshemmung. Diese ist nach Stentimplantation die typische medikamentöse Strategie zur Verhinderung thrombotischer Komplikationen.",
+          "term": "Clopidogrel"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Heparin ist ein parenterales Antikoagulans und spielt vor allem periinterventionell oder in akuten Situationen eine Rolle. Es ist nicht die übliche orale Standardmedikation zusätzlich zu ASS nach Stentimplantation bei stabiler Situation. Die Frage zielt auf eine längerfristige Plättchenhemmung ab.",
+          "term": "Heparin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Dabigatran ist ein direkter Thrombininhibitor zur oralen Antikoagulation, etwa bei Vorhofflimmern oder venösen Thromboembolien. Ohne entsprechende Zusatzindikation ist es nicht die Standardergänzung zu ASS nach Koronarstent. Es adressiert zudem nicht die klassische duale Thrombozytenhemmung.",
+          "term": "Dabigatran"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Phenprocoumon ist ein Vitamin-K-Antagonist zur oralen Antikoagulation. Nach Stentimplantation wird es nicht routinemäßig zusätzlich zu ASS gegeben, wenn keine weitere Indikation wie eine relevante Embolieprophylaxe besteht. Die gesuchte Standardtherapie ist ein Thrombozytenaggregationshemmer.",
+          "term": "Phenprocoumon"
+        }
+      ]
+    },
+    "103": {
+      "topicLabel": "ALS-Diagnostik",
+      "explanation": "Die Amyotrophe Lateralsklerose ist durch Zeichen der Degeneration des oberen und unteren Motoneurons gekennzeichnet. Elektromyographische Faszikulationen und Spontanaktivität in der Nadelmyographie stützen besonders die Beteiligung des unteren Motoneurons und passen daher gut zur Verdachtsdiagnose ALS. Positive Pyramidenbahnzeichen können zwar mit einer ALS vereinbar sein, sind allein aber weniger spezifisch, weil sie nur die zentrale motorische Bahn anzeigen. Multifokale Leitungsblöcke sprechen eher gegen ALS und für eine behandelbare motorische Neuropathie. Entzündliche Liquorbefunde oder spezifische Autoantikörper passen ebenfalls nicht typisch zur ALS-Diagnostik.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine intrathekale IgG-Produktion spricht eher für eine entzündliche ZNS-Erkrankung, zum Beispiel im Kontext chronisch-entzündlicher Differenzialdiagnosen. Für die ALS ist ein solcher Liquorbefund nicht typisch und würde die Diagnose nicht am ehesten stützen. Bei ALS stehen klinische und elektrophysiologische Zeichen der Motoneuronbeteiligung im Vordergrund.",
+          "term": "intrathekale IgG-Produktion"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Positive Pyramidenbahnzeichen zeigen eine Läsion des oberen Motoneurons an und können bei ALS vorkommen. Sie sind aber allein nicht der stärkste Zusatzbefund, weil sie auch bei vielen anderen zentralmotorischen Erkrankungen auftreten. Gesucht ist hier der elektrophysiologische Hinweis auf die zusätzliche untere Motoneuronbeteiligung.",
+          "term": "Pyramidenbahnzeichen"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Multifokale Leitungsblöcke in der Neurographie passen eher zu einer multifokalen motorischen Neuropathie. Diese ist eine wichtige Differenzialdiagnose der ALS, weil sie ebenfalls motorische Ausfälle verursachen kann, aber ein anderes Krankheitskonzept hat. Ein Leitungsblock ist für ALS gerade nicht typisch.",
+          "term": "multifokale Leitungsblöcke"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Antikörper gegen Glutamatdehydrogenase sind kein typischer diagnostischer Marker der ALS. Autoantikörperbefunde können in anderen neurologischen oder immunologischen Kontexten relevant sein, stützen aber hier nicht am ehesten die Motoneuronerkrankung. Die ALS-Diagnostik beruht wesentlich auf Klinik, Verlauf und Elektrophysiologie.",
+          "term": "Glutamatdehydrogenase-Antikörper"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Faszikulationen und Spontanaktivität in der Nadelmyographie sind die beste Antwort. Sie weisen auf eine aktive Denervation bzw. Beteiligung des unteren Motoneurons hin. Zusammen mit klinischen Zeichen des oberen Motoneurons stützt dies die Differenzialdiagnose ALS besonders gut.",
+          "term": "Faszikulationen in der Nadelmyographie"
+        }
+      ]
+    },
+    "104": {
+      "topicLabel": "Vorhofflattern",
+      "explanation": "Die laut Lösung richtige EKG-Diagnose ist Vorhofflattern. Typisch wären regelmäßige atriale Erregungen mit sägezahnartigen Flatterwellen, häufig mit regelmäßiger oder variabler Überleitung auf die Kammern. Die bekannte Vorgeschichte mit Vorhofflimmern schließt Vorhofflattern nicht aus, da beide supraventrikuläre Tachyarrhythmien bei ähnlichem Risikoprofil auftreten können. Entscheidend ist im EKG die organisierte atriale Aktivität, nicht allein die Anamnese. Da das eigentliche EKG-Bild im Protokoll nicht vorliegt, ist die Begründung an den typischen Unterscheidungsmerkmalen orientiert.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Vorhofflimmern zeigt typischerweise eine absolut arrhythmische Kammeraktion ohne klar abgrenzbare P-Wellen. Obwohl bei der Patientin oder dem Patienten Vorhofflimmern vorbekannt war, ist laut markierter Lösung aktuell ein anderer Rhythmus gemeint. Die Anamnese allein darf die EKG-Befundung nicht ersetzen.",
+          "term": "Vorhofflimmern"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Vorhofflattern ist die richtige Antwort. Im EKG wären organisierte Flatterwellen, klassisch sägezahnartig, zu erwarten. Je nach Überleitungsverhältnis kann die Kammerfrequenz regelmäßig oder variabel erscheinen.",
+          "term": "Vorhofflattern"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Ein AV-Block 3. Grades ist durch eine vollständige Dissoziation von Vorhof- und Kammererregung gekennzeichnet. Klinisch und elektrokardiographisch steht dabei meist eine Bradykardie bzw. ein Ersatzrhythmus im Vordergrund. Das passt nicht zur im Protokoll als Vorhofflattern markierten Tachyarrhythmie.",
+          "term": "AV-Block 3. Grades"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine ventrikuläre Tachykardie entsteht aus den Kammern und zeigt typischerweise eine breite QRS-Tachykardie. Sie ist von supraventrikulären Rhythmusstörungen wie Vorhofflattern abzugrenzen. In der vorliegenden Lösung ist keine ventrikuläre Rhythmusstörung gemeint.",
+          "term": "ventrikuläre Tachykardie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Kammerflimmern ist ein chaotischer, unmittelbar lebensbedrohlicher Rhythmus ohne effektive Auswurfleistung. Eine klinisch stabile Person mit Palpitationen und auswertbarem Rhythmusstreifen passt nicht zu Kammerflimmern. Die richtige Diagnose ist eine supraventrikuläre Tachyarrhythmie.",
+          "term": "Kammerflimmern"
+        }
+      ]
+    },
+    "105": {
+      "topicLabel": "Screeningstudien",
+      "explanation": "Für die Frage, ob ein Screening die Mortalität senkt, ist eine randomisiert kontrollierte Studie die geeignetste primäre Evidenzform. Screening ist eine Intervention an zunächst symptomlosen Personen, und die relevante Zielgröße ist ein patientenrelevanter Endpunkt wie Mortalität. Durch Randomisierung werden bekannte und unbekannte Störfaktoren zwischen Screening- und Kontrollgruppe am besten ausgeglichen. Beobachtungsstudien können Hinweise liefern, sind aber stärker durch Bias gefährdet, zum Beispiel durch Unterschiede zwischen Personen, die ein Screening wahrnehmen, und solchen, die es nicht tun. Daher ist in dieser Fragestellung die RCT-Option die beste Antwort.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine randomisiert kontrollierte Studie ist richtig. Sie kann am besten prüfen, ob ein Screening kausal zu einer geringeren Mortalität führt. Gerade bei Screeningprogrammen sind Verzerrungen in nicht randomisierten Designs besonders relevant.",
+          "term": "randomisiert kontrollierte Studie"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine prospektive Kohortenstudie mit therapeutischer Intervention passt nicht optimal zur Fragestellung. Beim PSA-Screening geht es primär um eine diagnostische Früherkennungsmaßnahme, nicht um die unmittelbare Prüfung einer Therapie. Außerdem fehlt ohne Randomisierung der bestmögliche Schutz vor Confounding.",
+          "term": "prospektive Kohortenstudie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine prospektive Kohortenstudie mit diagnostischer Intervention könnte Screeningeffekte beobachten. Für die kausale Frage nach Mortalitätssenkung ist sie aber einer randomisierten Studie unterlegen. Besonders Selbstselektion und unterschiedliche Gesundheitsvorsorge können die Ergebnisse verzerren.",
+          "term": "diagnostische Kohortenstudie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Diese Option ist im Protokoll widersprüchlich erinnert, weil sie einerseits randomisiert kontrolliert, andererseits als Fall-Kontroll-Studie beschrieben wurde. Maßgeblich ist die hinterlegte Lösung, die die erste RCT-Option als korrekt markiert. Eine Fall-Kontroll-Studie wäre für die primäre Prüfung eines Screening-Mortalitätsnutzens nicht die beste Wahl.",
+          "term": "Fall-Kontroll-Studie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Querschnittstudie erfasst Exposition und Ergebnis zu einem Zeitpunkt. Damit lassen sich Prävalenzen und Assoziationen beschreiben, aber kein zuverlässiger kausaler Mortalitätsnutzen eines Screenings belegen. Für eine Interventionsfrage ist sie daher ungeeignet.",
+          "term": "Querschnittstudie"
+        }
+      ]
+    },
+    "106": {
+      "topicLabel": "EBV-Therapie",
+      "explanation": "Das Bild mit Fieber, ausgeprägter Lymphknotenschwellung, belegten Tonsillen und Splenomegalie passt zu einer infektiösen Mononukleose durch EBV. Die Therapie ist in der Regel symptomatisch, zum Beispiel ausreichende Flüssigkeitszufuhr, Analgesie/Antipyrese nach Bedarf und körperliche Schonung. Die Schonung ist besonders wegen der Splenomegalie wichtig, da körperliche Belastung das Risiko einer Milzkomplikation erhöhen kann. Eine routinemäßige antivirale Therapie ist bei unkompliziertem Verlauf nicht indiziert. Operative Maßnahmen wie Tonsillektomie sind ebenfalls keine Standardtherapie, sondern nur bei speziellen Komplikationen zu erwägen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nur als Fragezeichen überliefert. Ohne den ursprünglichen Inhalt kann sie nicht bewertet werden; sie ist nicht als richtige Therapie markiert.",
+          "term": "unvollständige Antwortoption"
+        },
+        {
+          "index": 1,
+          "correct": true,
+          "text": "Symptomatische Therapie und körperliche Schonung sind richtig. Die infektiöse Mononukleose heilt meist selbstlimitierend aus, sodass supportive Maßnahmen im Vordergrund stehen. Wegen der Splenomegalie sollte körperliche Belastung vermieden werden.",
+          "term": "symptomatische Therapie bei EBV"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine Tonsillektomie ist keine Standardbehandlung der EBV-Tonsillitis. Die Tonsillen können zwar stark geschwollen und belegt sein, dies rechtfertigt aber nicht automatisch eine operative Entfernung. Operative Maßnahmen wären nur in besonderen Komplikationssituationen zu diskutieren.",
+          "term": "Tonsillektomie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine antivirale Medikation ist bei unkomplizierter EBV-Mononukleose nicht die Regeltherapie. Die Erkrankung wird primär symptomatisch behandelt. Antivirale Konzepte ändern den typischen Verlauf in dieser Standardsituation nicht entscheidend.",
+          "term": "antivirale Therapie bei EBV"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption wurde im Protokoll nicht vollständig erinnert. Daher ist nur festzuhalten, dass sie nicht die markierte korrekte Therapieoption ist.",
+          "term": "unvollständige Antwortoption"
+        }
+      ]
+    },
+    "107": {
+      "topicLabel": "Uterusprolaps",
+      "explanation": "Ein Uterusprolaps wird klinisch danach beurteilt, wie weit Zervix bzw. Portio und Uterus in Richtung Scheide und Introitus descendieren. Praktisch orientiert sich die Untersuchung an der Lage der Portio im Verhältnis zum Scheideneingang beziehungsweise Hymenalsaum. Diese Beziehung erlaubt die Einteilung des Deszensusgrades und ist bei Belastungsinkontinenz und Prolapsbeschwerden zentral. Lagebeziehungen zur Symphyse, zum Fundus oder zum Beckenboden beschreiben den klinischen Prolapsgrad weniger direkt. Daher ist die Portio-zu-Scheide/Introitus-Angabe die passende Antwort.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Die Lage der Symphyse zum Corpus uteri ist kein üblicher klinischer Maßstab zur Prolapsbeurteilung. Der Prolaps wird vaginal anhand des Deszensus in Richtung Scheideneingang beurteilt. Entscheidend ist daher die Beziehung von Portio/Zervix zum Introitus.",
+          "term": "Corpus uteri"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Der Fundus uteri ist für die vaginale Prolapsgraduierung nicht der zentrale Bezugspunkt. Bei der Untersuchung ist sichtbar oder tastbar, wie weit die Portio beziehungsweise der führende Anteil des Prolapses nach kaudal tritt. Die Symphyse-Fundus-Beziehung hilft dabei nicht ausreichend.",
+          "term": "Fundus uteri"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Der Beckenboden spielt pathogenetisch beim Deszensus eine wichtige Rolle, ist aber nicht der direkte Referenzpunkt der klinischen Prolapsgraduierung. Untersucht wird vielmehr die Senkung im Verhältnis zur Scheide und zum Introitus. Die Lage des Fundus zum Beckenboden ist daher nicht die gesuchte Angabe.",
+          "term": "Beckenboden"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Die Lage der Portio zur Scheide beziehungsweise zum Introitus ist richtig. Je weiter die Portio nach kaudal bis an oder über den Scheideneingang tritt, desto ausgeprägter ist der Uterusprolaps. Diese Beziehung ist klinisch direkt untersuchbar.",
+          "term": "Portio und Introitus"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Die Frage lässt sich sehr wohl klinisch beantworten. Es gibt etablierte Untersuchungsprinzipien zur Beurteilung eines Deszensus beziehungsweise Prolapses. Der entscheidende Bezug ist die Portio im Verhältnis zum Introitus.",
+          "term": "Prolapsbeurteilung"
+        }
+      ]
+    },
+    "108": {
+      "topicLabel": "Dehydratationsrisiko",
+      "explanation": "Bei akuter Gastroenteritis sind Säuglinge generell besonders dehydratationsgefährdet, und zusätzliche Erkrankungen können dieses Risiko weiter erhöhen. Ein Kind mit Diabetes mellitus Typ 1 ist besonders gefährdet, weil Flüssigkeitsverluste durch Diarrhoe und Fieber mit Störungen des Glukose- und Flüssigkeitshaushalts zusammentreffen können. Bei unzureichender Insulinwirkung kann zusätzlich eine osmotische Diurese entstehen, was die Dehydratation verstärkt. Asthma, konstitutionelle Entwicklungsverzögerung oder prämature Pubertätsentwicklung erklären in diesem Zusammenhang kein vergleichbares akutes Flüssigkeitsrisiko. Ein älteres Kind ist im Vergleich zum Säugling in der Regel weniger gefährdet.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Ein Kind mit Diabetes mellitus Typ 1 ist besonders gefährdet. Bei Gastroenteritis können verminderte Nahrungsaufnahme, Fieber und Flüssigkeitsverlust den Stoffwechsel destabilisieren. Eine mögliche osmotische Diurese kann die Dehydratation zusätzlich verschärfen.",
+          "term": "Diabetes mellitus Typ 1 und Dehydratation"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Asthma erhöht für sich genommen nicht typisch das Risiko einer Dehydratation bei Gastroenteritis. Relevant wären vor allem Flüssigkeitsverluste, junges Alter, eingeschränkte Aufnahme oder metabolische Entgleisungen. Diese Mechanismen sind bei unkompliziertem Asthma nicht im Vordergrund.",
+          "term": "Asthma bronchiale"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine konstitutionelle Entwicklungsverzögerung beschreibt meist eine Variante der körperlichen Reifung. Sie ist kein typischer akuter Risikofaktor für Dehydratation bei Gastroenteritis. Entscheidend sind hier Flüssigkeitsbilanz und Begleiterkrankungen mit metabolischer Relevanz.",
+          "term": "konstitutionelle Entwicklungsverzögerung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Kind über sechs Jahre ist im Vergleich zu einem Säugling normalerweise weniger dehydratationsgefährdet. Säuglinge haben geringere Reserven und können Flüssigkeitsverluste schlechter kompensieren. Diese Antwort kehrt den wichtigen Altersrisikofaktor um.",
+          "term": "Säugling Dehydratation"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine prämature Pubertätsentwicklung ist kein typischer Risikofaktor für akute Dehydratation bei Gastroenteritis. Sie betrifft die pubertäre Reifung und nicht primär die kurzfristige Flüssigkeitsregulation. Daher passt sie nicht als gefährdende Begleiterkrankung.",
+          "term": "prämature Pubertätsentwicklung"
+        }
+      ]
+    },
+    "109": {
+      "topicLabel": "Orale Rehydratation",
+      "explanation": "Bei leichter Dehydratation durch akute Gastroenteritis ist die orale Rehydratation mit einer Glukose-Elektrolyt-Lösung die Therapie der Wahl. Sie nutzt die gekoppelte Aufnahme von Glukose und Natrium im Darm und kann Flüssigkeits- sowie Elektrolytverluste effektiv ausgleichen. Stillen kann dabei in der Regel fortgeführt werden, sofern der Zustand des Säuglings dies erlaubt. Eine intravenöse Flüssigkeitstherapie ist eher bei schwerer Dehydratation, Schock, Bewusstseinsstörung oder Versagen der enteralen Rehydratation erforderlich. Antibiotika und Antidiarrhoika sind bei unkomplizierter viraler Gastroenteritis im Säuglingsalter nicht die Standardtherapie.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine orale Glukose-Elektrolyt-Lösung ist richtig. Bei leichter Dehydratation ist sie die bevorzugte Rehydratationsform. Sie ersetzt Wasser und Elektrolyte physiologisch über den Darm.",
+          "term": "orale Rehydratationslösung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Eine nasogastrale Gabe kann bei fehlender oraler Trinkfähigkeit eine Alternative zur enteralen Rehydratation sein. Eine isotone NaCl-Lösung über Sonde ist aber nicht die erste Standardantwort für leichte Dehydratation. Gesucht ist die orale Glukose-Elektrolyt-Lösung.",
+          "term": "nasogastrale Rehydratation"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Antibiotika sind bei akuter Gastroenteritis im Säuglingsalter nicht nach dem Prinzip 'hit hard and early' indiziert. Viele Fälle sind viral oder selbstlimitierend. Eine antibiotische Therapie braucht spezifische Hinweise auf eine bakterielle oder komplizierte Infektion.",
+          "term": "Antibiotika bei Gastroenteritis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Antidiarrhoika sind bei Säuglingen nicht die Standardtherapie einer Gastroenteritis und können problematisch sein. Die zentrale Maßnahme ist der Ausgleich von Flüssigkeit und Elektrolyten. Das Stoppen der Diarrhoe steht nicht im Vordergrund.",
+          "term": "Antidiarrhoika bei Säuglingen"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine intravenöse Flüssigkeitssubstitution ist bei leichter Dehydratation meist nicht erforderlich. Sie wird eher bei schwerer Dehydratation, Kreislaufinstabilität oder nicht möglicher enteraler Rehydratation eingesetzt. Im geschilderten Fall ist die orale Lösung angemessener.",
+          "term": "intravenöse Rehydratation"
+        }
+      ]
+    },
+    "110": {
+      "topicLabel": "Natrium bei Exsikkose",
+      "explanation": "Vor Beginn der Therapie einer schweren Dehydratation bei starker Diarrhoe sollte der Natriumwert bestimmt werden. Die Serum-Natriumkonzentration hilft, eine iso-, hypo- oder hypernatriämische Dehydratation einzuordnen. Diese Einordnung ist wichtig, weil Geschwindigkeit und Art der Rehydratation von der Elektrolytsituation beeinflusst werden. Besonders bei Säuglingen können relevante Natriumabweichungen klinisch bedeutsam sein. Andere Laborwerte aus den Antwortmöglichkeiten sind für diese unmittelbare therapeutische Weichenstellung weniger zentral.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "ADH ist kein Routinelaborwert, der vor Rehydratation bei schwerer Diarrhoe bestimmt werden muss. Die ADH-Ausschüttung kann physiologisch auf Volumenmangel reagieren, steuert aber nicht die erste praktische Therapieentscheidung. Klinisch entscheidend ist hier der Elektrolytstatus, vor allem Natrium.",
+          "term": "ADH"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Phosphat kann in vielen Stoffwechselsituationen relevant sein, ist aber nicht der zentrale Ausgangswert vor Flüssigkeitssubstitution bei akuter Diarrhoe. Für die Einordnung der Dehydratationsform ist Natrium wichtiger. Daher ist Phosphat hier nicht die beste Antwort.",
+          "term": "Phosphat"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Die alkalische Phosphatase ist vor allem ein Marker im Knochen- und hepatobiliären Kontext. Sie hilft nicht bei der akuten Steuerung der Rehydratation eines schwer dehydrierten Säuglings. Die entscheidende Frage betrifft den Wasser- und Natriumhaushalt.",
+          "term": "alkalische Phosphatase"
+        },
+        {
+          "index": 3,
+          "correct": true,
+          "text": "Natrium ist richtig. Der Wert zeigt, ob eine hypo-, iso- oder hypernatriämische Dehydratation vorliegt. Diese Information ist für eine sichere Flüssigkeitstherapie besonders wichtig.",
+          "term": "Serum-Natrium"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Option ist im Gedächtnisprotokoll unsicher und nicht vollständig erinnert. Weder Kalzium noch Magnesium wären in dieser Fragestellung die primäre Pflichtbestimmung vor Rehydratation. Die markierte und fachlich zentrale Antwort ist Natrium.",
+          "term": "unvollständig erinnerter Laborwert"
+        }
+      ]
+    },
+    "111": {
+      "topicLabel": "Schwere Dehydratation",
+      "explanation": "Bei schwerer Dehydratation können Säuglinge klinische Zeichen der Kreislauf- und Stoffwechseldekompensation entwickeln. Eine tiefe und schnelle Atmung beziehungsweise Tachypnoe kann Ausdruck einer metabolischen Azidose im Rahmen schwerer Exsikkose und schlechter Perfusion sein. Typische weitere Warnzeichen wären reduzierte Rekapillarisierungszeitverlängerung, trockene Schleimhäute, fehlende Tränen und verminderte Urinausscheidung. Die falschen Antwortmöglichkeiten beschreiben dagegen eher Normalbefunde oder das Gegenteil der erwarteten Zeichen. Daher ist die tiefe schnelle Atmung die am besten passende Option.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Eine Rekapillarisierungszeit unter zwei Sekunden ist ein Normalbefund. Bei schwerer Dehydratation wäre eher eine verlängerte Rekapillarisierungszeit zu erwarten. Diese Option spricht daher nicht für die schwere Exsikkose.",
+          "term": "Rekapillarisierungszeit"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Feuchte Schleimhäute sprechen gegen eine relevante Dehydratation. Bei Flüssigkeitsmangel sind die Schleimhäute typischerweise trocken. Diese Antwort beschreibt somit das Gegenteil des gesuchten Befunds.",
+          "term": "feuchte Schleimhäute"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Vermehrter Tränenfluss passt nicht zu schwerer Dehydratation. Bei dehydrierten Säuglingen fallen eher verminderte oder fehlende Tränen auf. Deshalb ist diese Option nicht typisch.",
+          "term": "Tränenfluss Dehydratation"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Polyurie wäre bei schwerer Dehydratation nicht zu erwarten. Der Körper versucht, Wasser zurückzuhalten, sodass eher eine Oligurie auffällt. Viel Urin würde den Befund nicht stützen.",
+          "term": "Polyurie"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Tiefe und schnelle Atmung beziehungsweise Tachypnoe ist richtig. Sie kann bei schwerer Dehydratation durch metabolische Azidose und Kreislaufbelastung auftreten. Damit ist sie ein Warnzeichen für einen ernsteren Verlauf.",
+          "term": "Tachypnoe bei Dehydratation"
+        }
+      ]
+    },
+    "112": {
+      "topicLabel": "GLP-1-Nebenwirkung",
+      "explanation": "GLP-1-Rezeptoragonisten können Übelkeit, Völlegefühl und gastrointestinale Beschwerden auslösen. Ein wichtiger Mechanismus ist die verlangsamte Magenentleerung. Dadurch bleibt Nahrung länger im Magen, was Völlegefühl, frühe Sättigung und Übelkeit begünstigt. Zentrale Effekte auf Appetit und Sättigung existieren zwar, erklären aber die konkret genannte Kombination aus Übelkeit und Völlegefühl nicht am ehesten. Hyperazidität, ein insulinabhängiger Hyperinsulinismus oder eine unvollständig erinnerte Option sind hierfür nicht die passende Hauptbegründung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Die verlangsamte Magenentleerung ist richtig. Sie ist ein typischer Effekt von GLP-1-Rezeptoragonisten und erklärt Völlegefühl sowie Übelkeit plausibel. Dieser Mechanismus wird klinisch besonders zu Therapiebeginn relevant.",
+          "term": "GLP-1 Magenentleerung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Hyperazidität ist nicht der typische Pathomechanismus der GLP-1-bedingten Übelkeit. Die Beschwerden entstehen eher durch Motilitäts- und Sättigungseffekte. Eine reine Säurehemmung adressiert daher nicht die Hauptursache.",
+          "term": "Hyperazidität"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "GLP-1 hat zentrale Effekte auf Appetit und Sättigung, insbesondere über hypothalamische und andere neuronale Netzwerke. Für die hier abgefragten Beschwerden Übelkeit und Völlegefühl ist aber die verzögerte Magenentleerung die naheliegendere und als korrekt markierte Erklärung. Diese Option ist daher nicht die beste Antwort.",
+          "term": "zentrale GLP-1-Wirkung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "GLP-1 fördert die Insulinsekretion glukoseabhängig, verursacht aber keinen insulinabhängigen Hyperinsulinismus als Hauptmechanismus von Übelkeit und Völlegefühl. Die gastrointestinalen Nebenwirkungen sind vor allem motilitätsbedingt. Daher passt diese Option nicht.",
+          "term": "Hyperinsulinismus"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist im Gedächtnisprotokoll nur als Fragezeichen überliefert. Inhaltlich kann sie nicht geprüft werden; sie ist nicht als korrekte Erklärung markiert.",
+          "term": "unvollständige Antwortoption"
+        }
+      ]
+    },
+    "113": {
+      "topicLabel": "GLP-1-Aufdosierung",
+      "explanation": "Die Frage bezieht sich auf die gastrointestinalen Nebenwirkungen eines GLP-1-Rezeptoragonisten aus der Vorfrage. Gegen Übelkeit und Völlegefühl hilft am ehesten eine langsame Aufdosierung, weil sich der Gastrointestinaltrakt häufig besser an die motilitätsverändernden Effekte anpassen kann. Dieses Vorgehen ist ein grundlegendes Prinzip bei Wirkstoffen mit dosisabhängigen gastrointestinalen Anfangsbeschwerden. Eine routinemäßige antiemetische Prophylaxe, PPI-Gabe oder Enzymsubstitution behandelt nicht den eigentlichen Mechanismus. Auch ballaststoffreiche Ernährung ist nicht die spezifischste Maßnahme gegen diese unerwünschte Wirkung.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Langsame Aufdosierung ist richtig. Sie reduziert häufig die Intensität gastrointestinaler Nebenwirkungen bei GLP-1-Rezeptoragonisten. Damit wird der in der Vorfrage beschriebene Effekt der verzögerten Magenentleerung besser tolerierbar.",
+          "term": "GLP-1 langsame Aufdosierung"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ballaststoffreiche Ernährung kann allgemein für Stoffwechsel und Verdauung sinnvoll sein. Sie ist aber nicht die spezifische Maßnahme gegen GLP-1-bedingte Übelkeit und Völlegefühl. Bei verzögerter Magenentleerung kann zusätzliche Füllung sogar individuell ungünstig toleriert werden.",
+          "term": "ballaststoffreiche Ernährung"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine vorübergehende routinemäßige Gabe eines 5-HT3-Rezeptor-Antagonisten ist nicht die Standardstrategie zur Vermeidung dieser Nebenwirkung. Antiemetika können in Einzelfällen symptomatisch wirken, ändern aber nicht die Ursache. In der Prüfungslogik ist die Dosistitration die bessere Maßnahme.",
+          "term": "5-HT3-Rezeptor-Antagonist"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Protonenpumpenhemmer hilft bei säureassoziierten Beschwerden, nicht primär bei verzögerter Magenentleerung durch GLP-1-Rezeptoragonisten. Die Vorfrage benennt keinen Reflux oder Ulkusverdacht. Daher ist ein PPI nicht die naheliegendste Maßnahme.",
+          "term": "Protonenpumpenhemmer"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Eine Pankreasenzymsubstitution ist bei exokriner Pankreasinsuffizienz indiziert. GLP-1-bedingte Übelkeit und Völlegefühl entstehen jedoch nicht durch einen Enzymmangel. Diese Maßnahme würde den beschriebenen Mechanismus nicht behandeln.",
+          "term": "Pankreasenzymsubstitution"
+        }
+      ]
+    },
+    "114": {
+      "topicLabel": "Inkretin-Kombination",
+      "explanation": "Bei Beginn eines GLP-1-Rezeptoragonisten sollte ein DPP-4-Inhibitor wie Sitagliptin in der Regel abgesetzt werden. Beide Wirkstoffgruppen greifen in das Inkretinsystem ein, sodass die Kombination keinen sinnvollen zusätzlichen Nutzen erwarten lässt. Zudem würde sie die Therapie unnötig komplexer machen und potenziell Nebenwirkungen oder Kosten erhöhen. Metformin bleibt dagegen häufig eine Basistherapie des Typ-2-Diabetes, wenn es vertragen wird. Antihypertensiva und Statine haben andere Indikationen und werden nicht allein wegen eines GLP-1-Analogons beendet.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Metformin muss bei Gabe eines GLP-1-Rezeptoragonisten nicht automatisch abgesetzt werden. Es wirkt über andere Mechanismen und kann gut mit GLP-1-basierter Therapie kombiniert werden. Eine Beendigung wäre nur bei separaten Kontraindikationen oder Unverträglichkeit zu erwägen.",
+          "term": "Metformin"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Candesartan ist ein Angiotensin-Rezeptorblocker zur Behandlung von Hypertonie oder kardiorenalen Indikationen. Es überschneidet sich pharmakologisch nicht mit GLP-1-Rezeptoragonisten. Daher gibt es keinen Grund, es wegen dieser Diabetestherapie standardmäßig abzusetzen.",
+          "term": "Candesartan"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Amlodipin ist ein Calciumkanalblocker und gehört zur antihypertensiven Therapie. Es hat keine relevante inkretinbasierte Doppelwirkung mit GLP-1-Analoga. Ein routinemäßiges Absetzen wäre nicht begründet.",
+          "term": "Amlodipin"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Simvastatin wird zur Lipidsenkung und kardiovaskulären Risikoreduktion eingesetzt. Diese Indikation bleibt unabhängig von einem GLP-1-Rezeptoragonisten bestehen. Es ist daher nicht das Medikament, das wegen Wirkmechanismusüberschneidung beendet werden sollte.",
+          "term": "Simvastatin"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Sitagliptin ist richtig. Es ist ein DPP-4-Inhibitor und verstärkt das endogene Inkretinsystem, während GLP-1-Rezeptoragonisten direkt am GLP-1-Rezeptor wirken. Die Kombination gilt wegen ähnlicher Zielachse nicht als sinnvoller Standard.",
+          "term": "Sitagliptin"
+        }
+      ]
+    },
+    "115": {
+      "topicLabel": "Kolonkarzinom",
+      "explanation": "Die laut Lösung gesuchte makroskopische Diagnose ist ein schüsselförmiges Dickdarmkarzinom. Kolonkarzinome können ulzeriert und randwallartig imponieren, wodurch ein krater- oder schüsselförmiger Aspekt entsteht. Der Fall mit akutem Abdomen und notfallmäßiger Kolonresektion lässt an eine Komplikation eines Kolonprozesses denken, etwa Obstruktion oder Perforationsnähe, wobei das eigentliche Präparatbild im Protokoll nicht verfügbar ist. Die Folgefragen stützen ebenfalls, dass ein Dickdarmtumor gemeint ist. Entzündlich-chronische, ischämische oder parasitäre Veränderungen erklären die markierte Lösung nicht.",
+      "confidence": "low",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Bei Colitis ulcerosa ist die Entzündung typischerweise auf Mukosa und Submukosa begrenzt. Eine regelhafte Beteiligung der Muscularis propria passt eher nicht zu dieser Diagnosebeschreibung. Zudem ist laut Lösung kein CED-Präparat, sondern ein Dickdarmkarzinom gemeint.",
+          "term": "Colitis ulcerosa"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Ein Fistelmaul kann bei Morbus Crohn vorkommen, weil die Entzündung transmural ist. In diesem Fall ist jedoch nicht Morbus Crohn als korrekte makroskopische Diagnose markiert. Die nachfolgenden Angaben sprechen für einen Tumorbefund.",
+          "term": "Morbus Crohn Fistel"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Ein schüsselförmiges Dickdarmkarzinom ist richtig. Ulzerierte Kolonkarzinome können makroskopisch kraterförmig mit erhabenem Rand erscheinen. Diese Beschreibung passt zur im Protokoll markierten Diagnose und wird durch die Folgefragen zum Dickdarmtumor gestützt.",
+          "term": "schüsselförmiges Kolonkarzinom"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein ischämisches Ulkus kann bei Durchblutungsstörungen des Darms auftreten und ebenfalls akute Beschwerden verursachen. Es ist hier aber nicht die im Präparat gesuchte Hauptdiagnose. Die richtige Antwort beschreibt einen malignen Dickdarmtumor.",
+          "term": "ischämische Kolitis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Auflagerungen durch Wurm- oder Parasitenbefall wären ein anderer morphologischer Befund. Das Protokoll markiert jedoch ein schüsselförmiges Dickdarmkarzinom als korrekte Präparatdiagnose. Ohne spezifische parasitologische Hinweise ist diese Option nicht plausibel.",
+          "term": "Parasitenbefall Kolon"
+        }
+      ]
+    },
+    "116": {
+      "topicLabel": "Kolonkarzinom-Histologie",
+      "explanation": "Passend zur vorangehenden Diagnose eines Dickdarmtumors ist die Beschreibung papillärer und kribriformer Drüsen mit Schleimproduktion. Das entspricht einer glandulären Differenzierung, wie sie für Adenokarzinome des Kolons typisch ist. Kolonkarzinome entstehen aus epithelialen Drüsenstrukturen und können je nach Differenzierung tubuläre, papilläre, kribriforme und muzinöse Anteile zeigen. Die anderen Antwortoptionen enthalten für ihre jeweiligen Diagnosen untypische oder falsch zugeordnete Merkmale. Besonders granulomatöse Entzündung gehört nicht zur Colitis ulcerosa, sondern würde eher an Morbus Crohn denken lassen.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Morbus Crohn zeigt typischerweise diskontinuierliche, transmurale Entzündungen und kann tiefe Ulzera sowie Fisteln verursachen. Die Formulierung 'nach aboral abnehmende langstreckige Ulzera' ist nicht die passende Zuordnung zur gesuchten Diagnose. In der Folgefrage geht es um den Tumorbefund.",
+          "term": "Morbus Crohn"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Granulomatöse Entzündungen sind nicht typisch für Colitis ulcerosa. Sie sprechen eher für Morbus Crohn, wenn sie im passenden klinischen Kontext auftreten. Colitis ulcerosa ist kontinuierlich und mukosabetont.",
+          "term": "Colitis ulcerosa Histologie"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Papilläre und kribriforme Drüsen mit Schleimproduktion passen zu einem Dickdarmtumor, insbesondere einem Adenokarzinom. Die glanduläre Architektur und Muzinbildung entsprechen der epithelialen Herkunft des Kolonkarzinoms. Damit ist diese Option die richtige Zuordnung.",
+          "term": "Kolonadenokarzinom Histologie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Die angegebene Beschreibung mit basophilen Granulozyten und lymphomonozytärem Infiltrat ist nicht die klassische Leitaussage für eine ischämische Kolitis. Ischämische Schleimhautschäden werden morphologisch anders eingeordnet und erklären nicht den zuvor markierten Tumor. Daher ist diese Zuordnung nicht richtig.",
+          "term": "ischämische Kolitis Histologie"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Granulome, Keimzellproliferation und Monozytose ergeben keine typische histologische Signatur eines Parasitenbefalls des Kolons. Parasitäre Erkrankungen müssten anhand des Erregers und passender Gewebereaktion beschrieben werden. Diese Option passt nicht zur gesuchten Diagnose.",
+          "term": "Parasitenbefall Histologie"
+        }
+      ]
+    },
+    "117": {
+      "topicLabel": "Lynch-Syndrom",
+      "explanation": "Bei einem kolorektalen Karzinom in jungem Alter sollte an eine hereditäre Tumorprädisposition gedacht werden. Besonders wichtig ist die Abklärung auf Defekte der DNA-Mismatch-Reparatur, Mikrosatelliteninstabilität und gegebenenfalls Keimbahnmutationen, wie sie beim Lynch-Syndrom relevant sind. Deshalb ist eine entsprechende genetische beziehungsweise molekularpathologische Testung die richtige Maßnahme. Li-Fraumeni ist zwar ebenfalls ein Tumorprädispositionssyndrom, erklärt ein junges Kolonkarzinom aber nicht am ehesten im Vergleich zur Mismatch-Reparatur-Thematik. CED, Hodgkin-Lymphom oder die unvollständige Option treffen den Kontext nicht.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Eine Testung auf DNA-Reparaturdefekte, Mikrosatelliteninstabilität und gegebenenfalls Keimbahnmutationen ist richtig. Ein kolorektales Karzinom in jungem Alter ist ein Warnhinweis auf ein hereditäres Syndrom. Besonders das Lynch-Syndrom ist mit Mismatch-Reparaturdefekten verbunden.",
+          "term": "Lynch-Syndrom Mikrosatelliteninstabilität"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Das Li-Fraumeni-Syndrom ist ein hereditäres Tumorprädispositionssyndrom, aber nicht die naheliegendste Erklärung für die hier verfolgte Kolonkarzinom-Konstellation. Bei jungem kolorektalem Karzinom steht insbesondere die Mismatch-Reparatur- und Lynch-Syndrom-Abklärung im Vordergrund. Daher ist diese Antwort nicht am besten.",
+          "term": "Li-Fraumeni-Syndrom"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Eine chronisch-entzündliche Darmerkrankung kann das Kolonkarzinomrisiko erhöhen, ist aber nicht die beschriebene Primärmanifestation in diesem Fragekontext. Die vorangehenden Fragen zielen auf einen Dickdarmtumor und dessen histologische Einordnung. Gesucht ist die genetische Abklärung bei jungem Erkrankungsalter.",
+          "term": "chronisch-entzündliche Darmerkrankung"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Ein Hodgkin-Lymphom ist keine typische häufigste Malignität dieser Lokalisation im Kontext des geschilderten Kolonpräparats. Die vorherige Diagnose ist ein Dickdarmtumor, nicht ein lymphatischer Tumor. Diese Aussage führt daher vom Fall weg.",
+          "term": "Hodgkin-Lymphom"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption ist nur als Fragezeichen überliefert. Sie kann nicht inhaltlich geprüft werden und ist nicht die markierte korrekte Maßnahme.",
+          "term": "unvollständige Antwortoption"
+        }
+      ]
+    },
+    "118": {
+      "topicLabel": "Lichen sclerosus",
+      "explanation": "Lichen sclerosus der Vulva ist eine chronisch-entzündliche Hauterkrankung, die typischerweise mit weißlichen, atrophen, sklerosierenden Veränderungen und Juckreiz einhergehen kann. Epidemiologisch wird ein Auftreten besonders bei präpubertären Mädchen und bei älteren beziehungsweise postmenopausalen Frauen beschrieben. Im Verlauf kann es zu Vernarbung und Atrophie der Vulva kommen, nicht zu einer typischen Labienhypertrophie. Wichtig ist außerdem, dass das Risiko für ein Plattenepithelkarzinom im betroffenen Areal erhöht und nicht erniedrigt ist. Condylomata acuminata sind makroskopisch meist durch warzige HPV-assoziierte Läsionen abgrenzbar.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Lichen sclerosus und Condylomata acuminata sind makroskopisch häufig unterscheidbar. Condylome erscheinen typischerweise warzig oder papillomatös, während Lichen sclerosus eher weißlich-atroph und sklerosierend imponiert. Bei Unsicherheit kann eine weitere Diagnostik erfolgen, aber die Aussage 'keine Unterscheidung möglich' ist zu absolut.",
+          "term": "Condylomata acuminata"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Lichen sclerosus ist nicht primär durch eine einfache Proliferation der Epidermis mit Vermehrung elastischer und kollagener Fasern charakterisiert. Typisch sind eher atrophe, hyperkeratotische und sklerosierende Veränderungen mit homogenisiertem Kollagen im oberen Korium. Die Formulierung trifft die Pathologie daher nicht korrekt.",
+          "term": "Lichen sclerosus Histologie"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Im Verlauf kommt es beim vulvären Lichen sclerosus eher zu Atrophie, Schrumpfung, Narbenbildung und anatomischen Veränderungen. Eine häufige Labienhypertrophie ist nicht typisch. Diese Antwort beschreibt somit die falsche Verlaufsrichtung.",
+          "term": "Labienatrophie"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Das Karzinomrisiko an chronischen Lichen-sclerosus-Läsionen ist nicht erniedrigt. Klinisch relevant ist vielmehr ein erhöhtes Risiko für ein vulväres Plattenepithelkarzinom. Deshalb sind Verlaufskontrollen und konsequente Behandlung wichtig.",
+          "term": "Lichen sclerosus Karzinomrisiko"
+        },
+        {
+          "index": 4,
+          "correct": true,
+          "text": "Ein Altersgipfel bei Kindern und im Senium beziehungsweise in höherem Lebensalter ist richtig. Lichen sclerosus kann präpubertär auftreten und zeigt zudem eine Häufung bei älteren Frauen. Diese epidemiologische Aussage passt zum Krankheitsbild.",
+          "term": "Lichen sclerosus Altersgipfel"
+        }
+      ]
+    },
+    "119": {
+      "topicLabel": "Vulvärer Pruritus",
+      "explanation": "Sowohl genitaler Lichen sclerosus als auch genitaler Lichen ruber können mit Juckreiz beziehungsweise vulvären Beschwerden einhergehen. Die Differenzialdiagnose vulvärer Haut- und Schleimhauterkrankungen stützt sich daher nicht allein auf das Symptom Pruritus, sondern auf Morphologie, Lokalisation, Verlauf und gegebenenfalls Histologie. Eine Candida-Kolpitis kann sehr wohl vulvären Juckreiz verursachen. Allergische oder irritative Kontaktreaktionen sind ebenfalls wichtige Ursachen eines isolierten vulvären Pruritus und dürfen nicht pauschal vernachlässigt werden. Eine Herpes-Erstinfektion ist eher durch schmerzhafte Bläschen, Erosionen und akute Beschwerden geprägt als durch wochenlangen isolierten Juckreiz.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": true,
+          "text": "Diese Aussage ist richtig. Sowohl Lichen sclerosus als auch Lichen ruber im Genitalbereich können Juckreiz verursachen. Das Symptom allein erlaubt daher keine sichere Unterscheidung.",
+          "term": "Lichen ruber genitalis"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Bei einer Candida-Kolpitis kann Juckreiz sehr wohl auftreten, häufig auch mit vulvärer Beteiligung. Typisch sind zusätzlich Rötung, Brennen und Ausfluss im passenden Kontext. Die Aussage, es gebe keinen Juckreiz an der Vulva, ist daher falsch.",
+          "term": "Candida-Kolpitis"
+        },
+        {
+          "index": 2,
+          "correct": false,
+          "text": "Allergische oder irritative Kontaktreaktionen durch exogene Noxen sind wichtige Differenzialdiagnosen bei vulvärem Pruritus. Sie sind nicht so selten, dass man sie vernachlässigen dürfte. Anamnese zu Pflegeprodukten, Medikamenten, Kleidung oder lokalen Expositionen ist daher relevant.",
+          "term": "vulväre Kontaktdermatitis"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Eine Erstinfektion mit Herpes genitalis äußert sich typischerweise akut mit schmerzhaften Bläschen, Erosionen, Brennen und gegebenenfalls Allgemeinsymptomen. Wochenlanger Juckreiz als Leitsymptom ist nicht die klassische Beschreibung. Daher passt diese Option nicht am besten.",
+          "term": "Herpes genitalis"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Diese Antwortoption wurde nur als Fragezeichen erinnert. Ohne ursprünglichen Wortlaut kann sie nicht bewertet werden; die korrekte Aussage ist die gemeinsame Pruritusmöglichkeit bei Lichen sclerosus und Lichen ruber.",
+          "term": "unvollständige Antwortoption"
+        }
+      ]
+    },
+    "120": {
+      "topicLabel": "Lichen-sclerosus-Therapie",
+      "explanation": "Die Standardtherapie des vulvären Lichen sclerosus besteht in einer lokalen Behandlung mit einem hochpotenten Glukokortikoid, klassisch Clobetasol-Salbe. Dadurch werden Entzündung, Juckreiz und Progression der sklerosierenden Veränderungen behandelt. Eine konsequente lokale Therapie ist auch wichtig, um Narbenbildung und langfristige Komplikationen zu reduzieren. Systemische Immunsuppression oder Biologika sind für die typische Erstlinientherapie nicht angezeigt. Auch onkologische Immuncheckpoint-Inhibitoren haben in diesem benign-entzündlichen Standardkontext keinen Platz.",
+      "confidence": "high",
+      "rationales": [
+        {
+          "index": 0,
+          "correct": false,
+          "text": "Ein systemisches langwirksames Glukokortikoid wie Dexamethason ist nicht die Standardtherapie des vulvären Lichen sclerosus. Die Erkrankung wird primär lokal behandelt. Systemische Steroide würden unnötige systemische Nebenwirkungen verursachen.",
+          "term": "Dexamethason"
+        },
+        {
+          "index": 1,
+          "correct": false,
+          "text": "Infliximab ist ein TNF-alpha-Inhibitor für bestimmte chronisch-entzündliche Erkrankungen. Es ist keine typische Therapie des vulvären Lichen sclerosus. Die Erstlinientherapie erfolgt lokal mit einem hochpotenten Kortikosteroid.",
+          "term": "Infliximab"
+        },
+        {
+          "index": 2,
+          "correct": true,
+          "text": "Lokal hochpotente Glukokortikoid-Salbe, zum Beispiel Clobetasol, ist richtig. Sie ist die zentrale Therapie zur Kontrolle von Entzündung und Juckreiz. Die lokale Anwendung behandelt das betroffene Areal gezielt.",
+          "term": "Clobetasol"
+        },
+        {
+          "index": 3,
+          "correct": false,
+          "text": "Immun-Checkpoint-Inhibitoren sind onkologische Immuntherapeutika. Sie sind nicht zur Behandlung eines unkomplizierten Lichen sclerosus vorgesehen. Diese Option passt weder zum Krankheitsmechanismus noch zur Standardtherapie.",
+          "term": "Immun-Checkpoint-Inhibitoren"
+        },
+        {
+          "index": 4,
+          "correct": false,
+          "text": "Methotrexat ist ein systemisches Immunsuppressivum für ausgewählte entzündliche oder autoimmune Erkrankungen. Für den vulvären Lichen sclerosus ist es nicht die übliche langfristige Standardtherapie. Die korrekte Behandlung ist lokal und kortikosteroidbasiert.",
+          "term": "Methotrexat"
+        }
+      ]
+    }
+  }
+}
