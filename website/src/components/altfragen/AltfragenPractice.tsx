@@ -183,42 +183,69 @@ export function AltfragenPractice({ examId }: { examId: string }) {
   );
   const isChecked = progress?.checked.some((i) => Number(i) === index) ?? false;
   const currentStat = question ? communityStats[String(question.number)] : undefined;
-  const currentExplanation = question ? explanations[question.number] : undefined;
+  const embeddedExplanation: QuestionExplanation | undefined = question
+    ? question.explanation || question.optionRationales?.length
+      ? {
+          explanation: question.explanation ?? null,
+          optionRationales: question.optionRationales ?? [],
+          topicLabel: question.topicLabel ?? null,
+          topicUrl: question.topicLabel
+            ? `https://next.amboss.com/de/search?q=${encodeURIComponent(question.topicLabel)}`
+            : null,
+        }
+      : undefined
+    : undefined;
+  const currentExplanation =
+    (question ? explanations[question.number] : undefined) ?? embeddedExplanation;
 
   useEffect(() => {
     if (!exam || !question || !isChecked) return;
-    const qNum = question.number;
-    if (explanationFetchRef.current.has(qNum)) return;
-    explanationFetchRef.current.add(qNum);
+    // Prefer explanations already embedded in the exam payload.
+    if (question.explanation || question.optionRationales?.length) return;
 
-    let cancelled = false;
+    const qNum = question.number;
+    if (explanations[qNum] || explanationFetchRef.current.has(qNum)) return;
+
+    const controller = new AbortController();
+    explanationFetchRef.current.add(qNum);
+    setExplanationLoading(true);
+
     (async () => {
-      setExplanationLoading(true);
       try {
         const res = await fetch(
           `/api/altfragen/exams/${examId}/questions/${qNum}/explanation`,
-          { cache: 'no-store' }
+          { cache: 'no-store', signal: controller.signal, credentials: 'same-origin' }
         );
         const data = await res.json();
-        if (!res.ok || cancelled) return;
+        if (!res.ok) {
+          explanationFetchRef.current.delete(qNum);
+          return;
+        }
         const payload: QuestionExplanation = {
           explanation: data.explanation ?? null,
           optionRationales: data.optionRationales ?? [],
           topicLabel: data.topicLabel ?? null,
           topicUrl: data.topicUrl ?? null,
         };
-        if (!payload.explanation && !payload.optionRationales.length) return;
+        if (!payload.explanation && !payload.optionRationales.length) {
+          explanationFetchRef.current.delete(qNum);
+          return;
+        }
         setExplanations((prev) => ({ ...prev, [qNum]: payload }));
-      } catch {
+      } catch (err) {
         explanationFetchRef.current.delete(qNum);
+        if (err instanceof DOMException && err.name === 'AbortError') return;
       } finally {
-        if (!cancelled) setExplanationLoading(false);
+        if (!controller.signal.aborted) setExplanationLoading(false);
       }
     })();
+
     return () => {
-      cancelled = true;
+      controller.abort();
+      // Allow retry after unmount/remount (e.g. React Strict Mode).
+      explanationFetchRef.current.delete(qNum);
     };
-  }, [exam, examId, question, isChecked]);
+  }, [exam, examId, question, isChecked, explanations]);
 
   const navStatus = useCallback(
     (i: number): NavStatus => {
@@ -946,8 +973,8 @@ export function AltfragenPractice({ examId }: { examId: string }) {
             )}
 
             {isChecked && currentExplanation?.explanation && (
-              <div className="space-y-3 border-t border-[#e2e8f0] pt-4">
-                <h3 className="text-sm font-semibold text-zinc-900">Erklärung</h3>
+              <div className="space-y-3 rounded-lg border border-[#cfe0f0] bg-[#f7fbfe] p-4">
+                <h3 className="text-sm font-semibold text-[#002F5D]">Erklärung</h3>
                 <p className="text-sm leading-relaxed text-zinc-800">
                   {currentExplanation.explanation}
                 </p>
@@ -956,7 +983,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                     href={currentExplanation.topicUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-md border border-[#cfe0f0] bg-[#f4f8fc] px-3 py-2 text-sm font-medium text-[#002F5D] transition hover:bg-[#e8f1f9]"
+                    className="inline-flex items-center gap-2 rounded-md border border-[#cfe0f0] bg-white px-3 py-2 text-sm font-medium text-[#002F5D] transition hover:bg-[#e8f1f9]"
                   >
                     <BookOpen className="h-4 w-4" />
                     {currentExplanation.topicLabel}
@@ -964,6 +991,15 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                 )}
               </div>
             )}
+
+            {isChecked &&
+              !explanationLoading &&
+              !currentExplanation?.explanation &&
+              !(currentExplanation?.optionRationales?.length) && (
+                <p className="text-xs text-zinc-500">
+                  Für diese Frage ist noch keine Erklärung hinterlegt.
+                </p>
+              )}
           </article>
 
           <div className="flex flex-wrap items-center justify-between gap-2">
