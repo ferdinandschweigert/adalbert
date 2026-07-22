@@ -9,7 +9,7 @@ Lernplattform für Medizinstudierende mit **zwei klaren Modulen**:
 | Modul | Was es tut | Wo |
 |-------|------------|-----|
 | **Kreuzen** | Freigegebene Staatsexamen-/Gedächtnisprotokoll-Fragen üben | [`/altfragen`](https://adalbertanki.vercel.app/altfragen) |
-| **Anki** | Decks mit deutschen Erklärungen anreichern & nach Anki synchen | [Website `#anki`](https://adalbertanki.vercel.app/#anki) + MCP in Cursor |
+| **Anki** | Decks mit deutschen Erklärungen anreichern & nach Anki synchen | [`/anki`](https://adalbertanki.vercel.app/anki) + MCP in Cursor |
 
 🌐 **Live:** [https://adalbertanki.vercel.app](https://adalbertanki.vercel.app)
 

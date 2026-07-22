@@ -8,7 +8,7 @@ Next.js-App für **Adalbert** mit zwei Modulen:
 | `/altfragen` | Kreuzen — Klausur-Liste |
 | `/altfragen/[examId]` | Kreuzen — Übung |
 | `/altfragen/admin` | Admin — Upload & Freigabe |
-| `/#anki` | Anki — Dashboard |
+| `/anki` | Anki — Dashboard |
 
 ## Lokal starten
 

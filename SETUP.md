@@ -60,7 +60,7 @@ npm run dev
 http://localhost:3000
 
 - **Kreuzen:** `/altfragen`
-- **Anki-Dashboard:** `/#anki` (braucht laufendes Anki + Key in `.env.local`)
+- **Anki-Dashboard:** `/anki` (braucht laufendes Anki + Key in `.env.local`)
 
 Beispiel `.env.local`:
 

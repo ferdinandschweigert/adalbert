@@ -7,9 +7,9 @@ Kurze Übersicht der wichtigsten Änderungen.
 ## 07/2026
 
 ### Website-Struktur & Doku
-- **Startseite neu:** klare Trennung **Kreuzen** vs **Anki** (Header-Nav, zwei Module, Anker `#kreuzen` / `#anki`)
-- Gemeinsamer Site-Header/Footer; Altfragen nutzt dieselbe Nav
-- Doku aktualisiert: README, SETUP, FEATURES
+- **Startseite:** Module Kreuzen + Anki; Hero mit Figur/Text; **kein** Header-Logo auf `/`
+- **Anki-Subpage** `/anki`; Header-Logo (Figur + „Adalbert“) nur auf Kreuzen- & Anki-Seiten
+- Gemeinsamer Site-Header/Footer; Doku aktualisiert (README, SETUP, FEATURES)
 
 ### Altfragen / Kreuzen
 - **Öffentlich nur Kreuzen**; Admin-Panel für Upload & Freigabe
@@ -20,7 +20,7 @@ Kurze Übersicht der wichtigsten Änderungen.
 - Favicon/Mark Adalbert; Header ohne Oval-Crop
 
 ### Anki
-- Dashboard lazy-load auf der Startseite (`/#anki`)
+- Eigenes Dashboard unter `/anki` (lazy-load)
 - Bestehende MCP- und Website-Anreicherung unverändert nutzbar
 
 ---

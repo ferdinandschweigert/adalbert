@@ -31,7 +31,7 @@ Zwei Module auf einer Plattform: **Kreuzen** und **Anki**.
 | M2 SS26 Gedächtnisprotokoll | ✅ (~319) |
 | M2 2025-A Staatsexamen | ✅ (320) |
 
-### Anki — MCP + Website `/#anki`
+### Anki — MCP + Website `/anki`
 
 | Feature | Status |
 |---------|--------|
@@ -70,7 +70,7 @@ Adalbert
 │   ├── öffentliche Übungs-UI
 │   ├── Auswertung & Stats
 │   └── Admin-Freigabe
-└── Anki (/#anki + MCP)
+└── Anki (/anki + MCP)
     ├── Dashboard Anreicherung
     └── Cursor-Tools → Anki Desktop
 ```
