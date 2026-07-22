@@ -34,10 +34,14 @@ function toggleBit(bits: string, index: number, exclusive: boolean): string {
   return arr.join('');
 }
 
+function hasAnswerKey(question: ParsedQuestion): boolean {
+  return Boolean(question.correctAnswers && question.correctAnswers.includes('1'));
+}
+
 function isCorrect(question: ParsedQuestion, selection: string): boolean {
+  if (!hasAnswerKey(question)) return false;
   const expected = normalizeBits(question.correctAnswers, question.options.length);
   const actual = normalizeBits(selection, question.options.length);
-  if (!expected || !expected.includes('1')) return false;
   return expected === actual;
 }
 
@@ -95,16 +99,19 @@ export function AltfragenPractice({ examId }: { examId: string }) {
   const isChecked = progress?.checked.includes(index) ?? false;
 
   const score = useMemo(() => {
-    if (!exam || !progress) return { correct: 0, total: 0, wrong: [] as number[] };
+    if (!exam || !progress) return { correct: 0, total: 0, graded: 0, wrong: [] as number[] };
     let correct = 0;
+    let graded = 0;
     const wrong: number[] = [];
     for (let i = 0; i < exam.questions.length; i++) {
       if (!progress.checked.includes(i)) continue;
+      if (!hasAnswerKey(exam.questions[i])) continue;
+      graded += 1;
       const sel = progress.selections[i] || '';
       if (isCorrect(exam.questions[i], sel)) correct += 1;
       else wrong.push(i);
     }
-    return { correct, total: progress.checked.length, wrong };
+    return { correct, total: progress.checked.length, graded, wrong };
   }, [exam, progress]);
 
   if (loading) {
@@ -189,20 +196,28 @@ export function AltfragenPractice({ examId }: { examId: string }) {
   };
 
   if (finished) {
-    const answeredCorrect = questions.reduce((acc, q, i) => {
-      if (!progress.checked.includes(i)) return acc;
-      return acc + (isCorrect(q, progress.selections[i] || '') ? 1 : 0);
-    }, 0);
-    const pct = questions.length ? Math.round((answeredCorrect / questions.length) * 100) : 0;
+    let answeredCorrect = 0;
+    let gradedChecked = 0;
+    for (let i = 0; i < questions.length; i++) {
+      if (!progress.checked.includes(i)) continue;
+      if (!hasAnswerKey(questions[i])) continue;
+      gradedChecked += 1;
+      if (isCorrect(questions[i], progress.selections[i] || '')) answeredCorrect += 1;
+    }
+    const pct = gradedChecked ? Math.round((answeredCorrect / gradedChecked) * 100) : 0;
 
     return (
       <AltfragenShell subtitle={exam.title}>
         <div className="mx-auto max-w-xl space-y-6">
           <div className="rounded-xl border border-[#e2e8f0] bg-white p-6 text-center shadow-sm">
             <p className="text-sm font-medium text-[#2C94CC]">Ergebnis</p>
-            <p className="mt-2 text-4xl font-bold text-[#002F5D]">{pct}%</p>
+            <p className="mt-2 text-4xl font-bold text-[#002F5D]">
+              {gradedChecked ? `${pct}%` : '—'}
+            </p>
             <p className="mt-2 text-zinc-600">
-              {answeredCorrect} von {questions.length} richtig
+              {gradedChecked
+                ? `${answeredCorrect} von ${gradedChecked} bewertbaren Fragen richtig`
+                : `${progress.checked.length} von ${questions.length} geübt (ohne Lösungs-Key im Protokoll)`}
             </p>
           </div>
 
