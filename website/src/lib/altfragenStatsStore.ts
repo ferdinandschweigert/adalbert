@@ -7,6 +7,8 @@ export type { QuestionStat };
 export interface ExamStatsFile {
   version: 1;
   updatedAt: string;
+  /** YYYY-MM-DD → number of answer checks that day (all exams). */
+  dailyActivity?: Record<string, number>;
   exams: Record<
     string,
     {
@@ -22,7 +24,7 @@ function statsPath(): string {
 }
 
 function emptyStats(): ExamStatsFile {
-  return { version: 1, updatedAt: new Date().toISOString(), exams: {} };
+  return { version: 1, updatedAt: new Date().toISOString(), dailyActivity: {}, exams: {} };
 }
 
 let memoryStats: ExamStatsFile | null = null;
@@ -101,8 +103,12 @@ function mergeStats(a: ExamStatsFile, b: ExamStatsFile): ExamStatsFile {
   const out: ExamStatsFile = {
     version: 1,
     updatedAt: new Date().toISOString(),
+    dailyActivity: { ...(a.dailyActivity || {}) },
     exams: { ...a.exams },
   };
+  for (const [day, count] of Object.entries(b.dailyActivity || {})) {
+    out.dailyActivity![day] = Math.max(out.dailyActivity![day] || 0, count);
+  }
   for (const [examId, examB] of Object.entries(b.exams || {})) {
     if (!out.exams[examId]) {
       out.exams[examId] = { questionStats: { ...examB.questionStats } };
@@ -193,6 +199,73 @@ export async function recordAnswer(input: {
     optionCounts,
   };
   stats.exams[input.examId].questionStats[key] = next;
+
+  const day = new Date().toISOString().slice(0, 10);
+  if (!stats.dailyActivity) stats.dailyActivity = {};
+  stats.dailyActivity[day] = (stats.dailyActivity[day] || 0) + 1;
+
   await writeStats(stats);
   return next;
+}
+
+export interface HomepageExamStat {
+  examId: string;
+  title: string;
+  attempts: number;
+  correct: number;
+  questionsWithData: number;
+}
+
+export interface HomepageStatsOverview {
+  totalAttempts: number;
+  totalCorrect: number;
+  exams: HomepageExamStat[];
+  /** Last 98 days (14 weeks × 7), oldest → newest */
+  heatmap: Array<{ date: string; count: number }>;
+}
+
+export async function getHomepageStatsOverview(
+  examMeta: Array<{ id: string; title: string }>
+): Promise<HomepageStatsOverview> {
+  const stats = await readStats();
+  const exams: HomepageExamStat[] = [];
+  let totalAttempts = 0;
+  let totalCorrect = 0;
+
+  for (const meta of examMeta) {
+    const qs = stats.exams[meta.id]?.questionStats || {};
+    let attempts = 0;
+    let correct = 0;
+    let questionsWithData = 0;
+    for (const st of Object.values(qs)) {
+      if (!st.attempts) continue;
+      questionsWithData += 1;
+      attempts += st.attempts;
+      correct += st.correct;
+    }
+    totalAttempts += attempts;
+    totalCorrect += correct;
+    exams.push({
+      examId: meta.id,
+      title: meta.title,
+      attempts,
+      correct,
+      questionsWithData,
+    });
+  }
+
+  exams.sort((a, b) => b.attempts - a.attempts);
+
+  const heatmap: Array<{ date: string; count: number }> = [];
+  const activity = stats.dailyActivity || {};
+  const today = new Date();
+  today.setUTCHours(12, 0, 0, 0);
+  for (let i = 97; i >= 0; i--) {
+    const d = new Date(today);
+    d.setUTCDate(today.getUTCDate() - i);
+    const key = d.toISOString().slice(0, 10);
+    heatmap.push({ date: key, count: activity[key] || 0 });
+  }
+
+  return { totalAttempts, totalCorrect, exams, heatmap };
 }

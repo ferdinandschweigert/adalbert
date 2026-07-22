@@ -3,38 +3,37 @@ import Link from 'next/link';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
 import { AnkiDashboardLazy } from '@/components/AnkiDashboardLazy';
+import { HomeStats } from '@/components/HomeStats';
 import { Button } from '@/components/ui/button';
 import { BookOpen, Brain, ChevronRight, PenLine } from 'lucide-react';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#f5f7fa]">
+    <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-white">
       <SiteHeader active="home" />
 
-      {/* Hero — one composition: brand, headline, sentence, CTAs */}
-      <section className="relative overflow-hidden border-b border-[#e2e8f0] bg-gradient-to-br from-[#002F5D] via-[#003d7a] to-[#2C94CC]">
-        <div
-          className="pointer-events-none absolute inset-0 opacity-30"
-          style={{
-            backgroundImage:
-              'radial-gradient(circle at 20% 20%, rgba(255,255,255,0.18), transparent 45%), radial-gradient(circle at 80% 0%, rgba(44,148,204,0.45), transparent 40%)',
-          }}
-        />
-        <div className="relative container mx-auto grid items-center gap-10 px-6 py-16 md:grid-cols-[1.1fr_0.9fr] md:py-24">
-          <div className="text-white">
-            <p className="mb-3 text-sm font-semibold tracking-[0.18em] text-white/70 uppercase">
+      {/* Hero — light like before, full Adalbert, brand first */}
+      <section className="relative overflow-hidden">
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(0,47,93,0.10),transparent)]" />
+        <div className="relative z-10 container mx-auto px-6 py-16 md:py-24">
+          <div className="flex flex-col items-center text-center">
+            <Image
+              src="/adalbert-full.webp"
+              alt="Adalbert"
+              width={480}
+              height={720}
+              priority
+              className="mb-8 h-auto w-[180px] object-contain drop-shadow-xl sm:w-[220px] md:w-[260px]"
+            />
+            <h1 className="mb-4 text-4xl font-bold tracking-tight text-[#002F5D] md:text-6xl">
               Adalbert
-            </p>
-            <h1 className="max-w-xl text-4xl font-bold leading-tight tracking-tight md:text-5xl lg:text-6xl">
-              Staatsexamen üben.
-              <span className="block text-white/90">Anki verstehen.</span>
             </h1>
-            <p className="mt-5 max-w-lg text-base leading-relaxed text-white/80 md:text-lg">
+            <p className="mb-8 max-w-2xl text-lg text-zinc-600 md:text-xl">
               Zwei Wege zum Lernen: freigegebene Altfragen kreuzen — oder deine
               Anki-Decks mit deutschen Erklärungen anreichern.
             </p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <Button asChild size="lg" className="bg-white text-[#002F5D] hover:bg-[#eef5fb]">
+            <div className="flex flex-col gap-3 sm:flex-row">
+              <Button asChild size="lg" className="bg-[#002F5D] hover:bg-[#003d7a]">
                 <Link href="/altfragen">
                   <PenLine className="mr-2 h-4 w-4" />
                   Kreuzen
@@ -44,7 +43,7 @@ export default function Home() {
                 asChild
                 size="lg"
                 variant="outline"
-                className="border-white/40 bg-transparent text-white hover:bg-white/10 hover:text-white"
+                className="border-[#002F5D] text-[#002F5D] hover:bg-[#eef5fb]"
               >
                 <Link href="/#anki">
                   <Brain className="mr-2 h-4 w-4" />
@@ -53,21 +52,11 @@ export default function Home() {
               </Button>
             </div>
           </div>
-          <div className="flex justify-center md:justify-end">
-            <Image
-              src="/adalbert-mark.webp"
-              alt="Adalbert"
-              width={280}
-              height={280}
-              priority
-              className="h-48 w-48 object-contain drop-shadow-2xl md:h-64 md:w-64"
-            />
-          </div>
         </div>
       </section>
 
       {/* Paths overview */}
-      <section className="border-b border-[#e2e8f0] bg-white">
+      <section className="border-y border-[#e2e8f0] bg-white">
         <div className="container mx-auto grid gap-0 px-6 md:grid-cols-2">
           <Link
             href="/altfragen"
@@ -104,15 +93,17 @@ export default function Home() {
         </div>
       </section>
 
+      <HomeStats />
+
       {/* Kreuzen detail */}
-      <section id="kreuzen" className="scroll-mt-20 border-b border-[#e2e8f0] bg-[#f5f7fa] py-16 md:py-20">
+      <section id="kreuzen" className="scroll-mt-20 border-b border-[#e2e8f0] bg-zinc-50 py-16 md:py-20">
         <div className="container mx-auto px-6">
           <div className="mx-auto max-w-3xl">
             <p className="text-sm font-semibold text-[#2C94CC]">Kreuzen</p>
             <h2 className="mt-2 text-3xl font-bold tracking-tight text-zinc-900">
               Altfragen wie in der Prüfung
             </h2>
-            <p className="mt-4 text-zinc-600 leading-relaxed">
+            <p className="mt-4 leading-relaxed text-zinc-600">
               Freigegebene Klausuren (z. B. M2 SS26 und 2025-A) tippen, sofort
               Feedback bekommen, Fragen überspringen und am Ende die Auswertung
               mit Richtig/Falsch und Zeit sehen.
@@ -149,7 +140,7 @@ export default function Home() {
             <h2 className="mt-2 text-3xl font-bold tracking-tight text-zinc-900">
               Decks anreichern
             </h2>
-            <p className="mt-4 text-zinc-600 leading-relaxed">
+            <p className="mt-4 leading-relaxed text-zinc-600">
               Adalbert liest deine Decks (Website oder MCP in Cursor), schreibt
               deutsche Erklärungen und synct zurück nach Anki Desktop — ohne
               manuelles Import/Export.
