@@ -70,8 +70,7 @@ function loadYouTubeApi(): Promise<YtNamespace> {
 }
 
 /**
- * Click Adalbert → Nick Song plays in the background via a corner YouTube embed.
- * (YouTube requires a visible player; fully hidden embeds are not allowed.)
+ * Click Adalbert → play Nick Song (corner peek). Click again or Stop → off.
  */
 export function AdalbertMascot() {
   const reactId = useId().replace(/:/g, '');
@@ -90,6 +89,19 @@ export function AdalbertMascot() {
     } catch {
       setPlaying(false);
     }
+  }, []);
+
+  const stopTheme = useCallback(() => {
+    pendingPlayRef.current = false;
+    try {
+      playerRef.current?.stopVideo();
+    } catch {
+      /* ignore */
+    }
+    playerRef.current?.destroy();
+    playerRef.current = null;
+    setPlaying(false);
+    setDocked(false);
   }, []);
 
   useEffect(() => {
@@ -134,7 +146,12 @@ export function AdalbertMascot() {
           },
           onStateChange: (event) => {
             if (event.data === YT.PlayerState.ENDED) {
+              // Song finished → hide peek + stop chip
+              pendingPlayRef.current = false;
+              playerRef.current?.destroy();
+              playerRef.current = null;
               setPlaying(false);
+              setDocked(false);
             } else if (event.data === YT.PlayerState.PLAYING) {
               setPlaying(true);
             } else if (event.data === YT.PlayerState.PAUSED) {
@@ -157,65 +174,93 @@ export function AdalbertMascot() {
     };
   }, []);
 
-  const playTheme = useCallback(() => {
-    setDocked(true);
+  const toggleTheme = useCallback(() => {
     setBounced(true);
     window.setTimeout(() => setBounced(false), 450);
 
+    if (docked || playing) {
+      stopTheme();
+      return;
+    }
+
+    setDocked(true);
     if (playerRef.current) {
       startPlayback(playerRef.current);
     } else {
       pendingPlayRef.current = true;
       setPlaying(true);
     }
-  }, [startPlayback]);
-
-  const stopTheme = useCallback(() => {
-    try {
-      playerRef.current?.stopVideo();
-    } catch {
-      /* ignore */
-    }
-    setPlaying(false);
-    setDocked(false);
-    playerRef.current?.destroy();
-    playerRef.current = null;
-  }, []);
+  }, [docked, playing, startPlayback, stopTheme]);
 
   return (
     <>
       <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
-        <button
-          type="button"
-          onClick={playTheme}
-          aria-label="Adalbert — Nick Song im Hintergrund abspielen"
-          title="Klick mich!"
-          className={cn(
-            'group flex cursor-pointer flex-col items-center text-center',
-            'rounded-2xl outline-none transition',
-            'focus-visible:ring-2 focus-visible:ring-[#002F5D]/40 focus-visible:ring-offset-2'
-          )}
-        >
-          <span
+        <div className="relative mb-3 inline-block">
+          <button
+            type="button"
+            onClick={toggleTheme}
+            aria-label={
+              playing || docked
+                ? 'Adalbert — Nick Song stoppen'
+                : 'Adalbert — Nick Song im Hintergrund abspielen'
+            }
+            title={playing || docked ? 'Nochmal klicken = Stop' : 'Klick mich!'}
             className={cn(
-              'mb-3 block transition-transform duration-300 ease-out',
-              !playing && 'group-hover:-translate-y-1 group-hover:scale-[1.04]',
-              'group-active:scale-[0.98]',
-              bounced && 'adalbert-bounce',
-              playing && 'adalbert-sway'
+              'group cursor-pointer rounded-2xl outline-none transition',
+              'focus-visible:ring-2 focus-visible:ring-[#002F5D]/40 focus-visible:ring-offset-2'
             )}
           >
-            <Image
-              src="/adalbert-full.webp"
-              alt=""
-              width={480}
-              height={720}
-              priority
-              className="h-auto w-[88px] object-contain sm:w-[104px]"
-              draggable={false}
-            />
-          </span>
+            <span
+              className={cn(
+                'block transition-transform duration-300 ease-out',
+                !playing && 'group-hover:-translate-y-1 group-hover:scale-[1.04]',
+                'group-active:scale-[0.98]',
+                bounced && 'adalbert-bounce',
+                playing && 'adalbert-sway'
+              )}
+            >
+              <Image
+                src="/adalbert-full.webp"
+                alt=""
+                width={480}
+                height={720}
+                priority
+                className="h-auto w-[88px] object-contain sm:w-[104px]"
+                draggable={false}
+              />
+            </span>
+          </button>
 
+          {docked ? (
+            <button
+              type="button"
+              onClick={stopTheme}
+              aria-label="Nick Song stoppen"
+              className={cn(
+                'absolute -bottom-1 -right-3 z-10',
+                'rounded-full bg-white px-2.5 py-1 text-[11px] font-semibold tracking-wide',
+                'text-[#002F5D] shadow-sm ring-1 ring-[#e2e8f0]',
+                'transition hover:bg-[#eef5fb] hover:ring-[#002F5D]/25'
+              )}
+            >
+              Stop
+            </button>
+          ) : null}
+        </div>
+
+        <button
+          type="button"
+          onClick={toggleTheme}
+          className={cn(
+            'group cursor-pointer rounded-md outline-none',
+            'focus-visible:ring-2 focus-visible:ring-[#002F5D]/40 focus-visible:ring-offset-2'
+          )}
+          aria-label={
+            playing || docked
+              ? 'Adalbert — Nick Song stoppen'
+              : 'Adalbert — Nick Song im Hintergrund abspielen'
+          }
+        >
           <h1
             className={cn(
               'text-3xl font-bold tracking-tight text-[#002F5D] md:text-4xl',
@@ -225,40 +270,35 @@ export function AdalbertMascot() {
           >
             Adalbert
           </h1>
-          <p className="mt-2 max-w-md text-sm text-zinc-600">
-            Altklausuren kreuzen (Fachschaft) oder Anki-Decks lokal anreichern.
-          </p>
-          <span
-            className={cn(
-              'mt-1.5 h-4 text-xs transition',
-              playing
-                ? 'text-[#2C94CC]'
-                : 'text-transparent group-hover:text-[#2C94CC]/80 group-focus-visible:text-[#2C94CC]/80'
-            )}
-            aria-live="polite"
-          >
-            {playing ? 'Nick Song im Hintergrund…' : 'Klick fürs Theme'}
-          </span>
         </button>
+
+        <p className="mt-2 max-w-md text-sm text-zinc-600">
+          Altklausuren kreuzen (Fachschaft) oder Anki-Decks lokal anreichern.
+        </p>
+        <span
+          className={cn(
+            'mt-1.5 h-4 text-xs transition',
+            playing || docked
+              ? 'text-[#2C94CC]'
+              : 'text-transparent hover:text-[#2C94CC]/80'
+          )}
+          aria-live="polite"
+        >
+          {playing || docked ? 'Nochmal klicken = Stop' : 'Klick fürs Theme'}
+        </span>
       </div>
 
       {docked ? (
         <div
           className={cn(
-            'group/dock fixed bottom-0 right-0 z-50 flex flex-col items-end gap-1 p-2',
+            'fixed bottom-0 right-0 z-50 p-2',
             'translate-x-[42%] translate-y-[42%] opacity-70',
             'transition duration-300 ease-out',
             'hover:translate-x-0 hover:translate-y-0 hover:opacity-100',
             'focus-within:translate-x-0 focus-within:translate-y-0 focus-within:opacity-100'
           )}
+          aria-hidden
         >
-          <button
-            type="button"
-            onClick={stopTheme}
-            className="rounded-md bg-white/95 px-2 py-1 text-xs font-medium text-[#002F5D] shadow-sm ring-1 ring-[#e2e8f0] hover:bg-[#eef5fb]"
-          >
-            Stop
-          </button>
           <div
             id={playerElementId}
             className="h-[90px] w-[160px] overflow-hidden rounded-tl-lg border border-[#e2e8f0] bg-black shadow-lg"
