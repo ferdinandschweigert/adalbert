@@ -7,7 +7,7 @@ Kurze Übersicht der wichtigsten Änderungen.
 ## 07/2026
 
 ### Easter Egg
-- **Startseite:** Klick auf Adalbert (Figur/Name) spielt kurzes Theme; Hover lädt zum Klick ein
+- **Startseite:** Klick auf Adalbert spielt den Original-Nick-Song via YouTube-Embed; Hover lädt zum Klick ein
 
 ### Share-Readiness (Fachschaft)
 - **Admin:** kein Default-Passwort mehr; Session-Token statt Klartext-Passwort in Cookie/Session
