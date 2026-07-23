@@ -7,7 +7,7 @@ Kurze Übersicht der wichtigsten Änderungen.
 ## 07/2026
 
 ### Easter Egg
-- **Startseite:** Klick auf Adalbert spielt den Nick Song; nochmal klicken oder Stop an der Figur beendet ihn (Player-Peek verschwindet)
+- **Startseite:** Klick auf Adalbert spielt den Nick Song; Player erscheint ganz unten auf der Seite; Stop an der Figur / nochmal klicken
 
 ### Share-Readiness (Fachschaft)
 - **Admin:** kein Default-Passwort mehr; Session-Token statt Klartext-Passwort in Cookie/Session
