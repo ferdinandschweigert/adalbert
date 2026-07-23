@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { ArcadeLauncher } from '@/components/arcade/ArcadeLauncher';
 import { cn } from '@/lib/utils';
 
 const links = [
@@ -67,6 +68,7 @@ export function SiteHeader({
               </Link>
             );
           })}
+          <ArcadeLauncher />
         </nav>
       </div>
     </header>
