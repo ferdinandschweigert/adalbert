@@ -9,7 +9,7 @@ Lernplattform für Medizinstudierende mit **zwei klaren Modulen**:
 | Modul | Was es tut | Wo |
 |-------|------------|-----|
 | **Kreuzen** | Freigegebene Staatsexamen-/Gedächtnisprotokoll-Fragen üben (Fachschafts-Code) | [`/altfragen`](https://adalbert.vercel.app/altfragen) |
-| **Anki** | Decks **lokal** anreichern & nach Anki Desktop synchen | lokal `/anki` + MCP in Cursor |
+| **Anki** | Decks anreichern & nach Anki Desktop synchen (Browser → AnkiConnect) | [`/anki`](https://adalbert.vercel.app/anki) |
 
 🌐 **Live:** [https://adalbert.vercel.app](https://adalbert.vercel.app)
 
@@ -21,12 +21,12 @@ Lernplattform für Medizinstudierende mit **zwei klaren Modulen**:
 
 ## Teilen (Fachschaft)
 
-Das **Repo ist öffentlich** (Code + Fragenbank in Git). Der Zugangscode schützt nur die **Live-Site** (`/altfragen`), nicht den GitHub-Clone.
+Das **Repo ist öffentlich** (Code + Fragenbank in Git). Der Zugangscode schützt die **gesamte Live-Site**, nicht den GitHub-Clone.
 
-- Mitstudierende: Live-URL + `ALTFRAGEN_ACCESS_CODE`
-- Admin: `ALTFRAGEN_ADMIN_PASSWORD` (Pflicht, kein Default) — siehe [SETUP.md](SETUP.md)
+- Mitstudierende: Live-URL + `SITE_ACCESS_CODE` (oder `ALTFRAGEN_ACCESS_CODE`)
+- Admin: zusätzlich `ALTFRAGEN_ADMIN_PASSWORD` (Pflicht, kein Default) — siehe [SETUP.md](SETUP.md)
 
-**Anki** auf dem Live-Host nur lokal nutzbar (AnkiConnect).
+**Anki** auf dem Live-Host: Browser ↔ lokales AnkiConnect; KI läuft serverseitig hinter dem Zugangscode.
 
 ---
 

@@ -6,6 +6,13 @@ Kurze Übersicht der wichtigsten Änderungen.
 
 ## 07/2026
 
+### Site-weiter Zugang + Anki auf Vercel
+- **Middleware:** `SITE_ACCESS_CODE` / `ALTFRAGEN_ACCESS_CODE` schützt die **gesamte** Site (`/access`)
+- Access-Cookie speichert HMAC-Session-Token (nicht den Klartext-Code)
+- **Anki auf Vercel:** Browser ↔ lokales AnkiConnect; LLM-APIs serverseitig hinter dem Zugang
+- MCP-Routen verlangen Zugangscode; Client-API-Keys für Enrich/PDF abgelehnt
+- Doku: SETUP/README/SECURITY/FEATURES aktualisiert
+
 ### Share-Readiness (Fachschaft)
 - **Admin:** kein Default-Passwort mehr; Session-Token statt Klartext-Passwort in Cookie/Session
 - **Stats-API** pro Klausur hinter demselben Zugangscode wie die Fragen

@@ -20,25 +20,26 @@ import {
   FileUp,
   Copy
 } from 'lucide-react';
-
-interface Deck {
-  name: string;
-  cardCount?: number;
-}
-
-interface AnkiCard {
-  front: string;
-  back: string;
-  question: string;
-  options: string[];
-  answers: string;
-  qType: number;
-}
+import {
+  AnkiConnectError,
+  ankiConnectSetupSnippet,
+  getCardsFromDeck,
+  importQuestionsToAnki,
+  listDecks as listAnkiDecks,
+  syncEnrichedToAnki,
+  toEnrichPayload,
+  type BrowserAnkiCard,
+} from '@/lib/ankiConnectBrowser';
 
 interface BewertungsEintrag {
   aussage: string;
   bewertung: 'Richtig' | 'Falsch' | 'Yes' | 'No';
   begründung: string;
+}
+
+interface Deck {
+  name: string;
+  cardCount?: number;
 }
 
 interface EnrichedCard {
@@ -115,11 +116,12 @@ const MODEL_PRESETS: Record<LlmProvider, Record<LlmProfile, string>> = {
 export default function Dashboard() {
   const [decks, setDecks] = useState<Deck[]>([]);
   const [selectedDeck, setSelectedDeck] = useState<string>('');
-  const [cards, setCards] = useState<AnkiCard[]>([]);
+  const [cards, setCards] = useState<BrowserAnkiCard[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [status, setStatus] = useState<string>('');
-  const [isHosted, setIsHosted] = useState<boolean | null>(null);
+  const [ankiReady, setAnkiReady] = useState<boolean | null>(null);
+  const [pageOrigin, setPageOrigin] = useState('');
 
   // Anreicherung
   const [enrichLimit, setEnrichLimit] = useState(100);
@@ -188,47 +190,45 @@ export default function Dashboard() {
   const [pdfCopySuccess, setPdfCopySuccess] = useState(false);
 
   const loadDecks = async () => {
-    if (isHosted) return;
     setLoading(true);
     setError(null);
-    setStatus('Lade Decks...');
+    setStatus('Verbinde mit AnkiConnect…');
     try {
-      const response = await fetch('/api/mcp/list-decks');
-      const data = await response.json();
-      if (data.success) {
-        setDecks(data.decks.map((name: string) => ({ name })));
-        setStatus(`${data.decks.length} Decks geladen`);
-      } else {
-        throw new Error(data.error || 'Failed to load decks');
-      }
-    } catch (err: any) {
-      setError(err.message || 'Fehler beim Laden der Decks');
-      setStatus('Fehler beim Laden');
+      const names = await listAnkiDecks();
+      setDecks(names.map((name) => ({ name })));
+      setAnkiReady(true);
+      setStatus(`${names.length} Decks geladen`);
+    } catch (err: unknown) {
+      setAnkiReady(false);
+      setDecks([]);
+      const msg =
+        err instanceof AnkiConnectError
+          ? err.message
+          : err instanceof Error
+            ? err.message
+            : 'Fehler beim Laden der Decks';
+      setError(msg);
+      setStatus('AnkiConnect nicht verbunden');
     } finally {
       setLoading(false);
     }
   };
 
   const loadCards = async (deckName: string) => {
-    if (!deckName || isHosted) return;
+    if (!deckName) return;
     setLoading(true);
     setError(null);
     setStatus(`Lade Karten aus "${deckName}"...`);
     try {
-      const response = await fetch('/api/mcp/get-cards', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ deckName }),
-      });
-      const data = await response.json();
-      if (data.success) {
-        setCards(data.cards || []);
-        setStatus(`${data.count || 0} Karten geladen`);
-      } else {
-        throw new Error(data.error || 'Failed to load cards');
-      }
-    } catch (err: any) {
-      setError(err.message || 'Fehler beim Laden der Karten');
+      const result = await getCardsFromDeck(deckName);
+      setCards(result.cards || []);
+      setAnkiReady(true);
+      setStatus(`${result.count || 0} Karten geladen`);
+    } catch (err: unknown) {
+      setAnkiReady(false);
+      const msg =
+        err instanceof Error ? err.message : 'Fehler beim Laden der Karten';
+      setError(msg);
       setStatus('Fehler beim Laden');
     } finally {
       setLoading(false);
@@ -236,30 +236,16 @@ export default function Dashboard() {
   };
 
   useEffect(() => {
-    const host = window.location.hostname;
-    const isLocal =
-      host === 'localhost' ||
-      host === '127.0.0.1' ||
-      host === '::1';
-    setIsHosted(!isLocal);
+    setPageOrigin(window.location.origin);
+    loadDecks();
   }, []);
 
   useEffect(() => {
-    if (isHosted === null) return;
-    if (isHosted) {
-      setError(null);
-      setStatus('AnkiConnect nur lokal verfügbar');
-      return;
-    }
-    loadDecks();
-  }, [isHosted]);
-
-  useEffect(() => {
-    if (isHosted || !selectedDeck) {
+    if (!selectedDeck) {
       return;
     }
     loadCards(selectedDeck);
-  }, [isHosted, selectedDeck]);
+  }, [selectedDeck]);
 
   useEffect(() => {
     if (selectedDeck) {
@@ -282,7 +268,7 @@ export default function Dashboard() {
   }, [selectedDeck]);
 
   const runEnrich = async (startFresh = false) => {
-    if (!selectedDeck || isHosted) return;
+    if (!selectedDeck || cards.length === 0) return;
     setEnriching(true);
     setEnrichError(null);
     
@@ -294,17 +280,22 @@ export default function Dashboard() {
       // Fortsetzen: bereits angereicherte Karten übernehmen
       all = [...savedProgress.cards];
       offset = all.length;
-      setEnrichProgress({ done: offset, total: enrichLimit });
+      setEnrichProgress({ done: offset, total: Math.min(enrichLimit, cards.length) });
     } else {
       // Neustart
       clearProgress(selectedDeck);
       setEnrichedCards([]);
-      setEnrichProgress({ done: 0, total: enrichLimit });
+      setEnrichProgress({ done: 0, total: Math.min(enrichLimit, cards.length) });
     }
     
     const resolvedModel = llmModelOverride.trim() || presetModel;
+    const payloadCards = toEnrichPayload(cards).slice(0, enrichLimit);
+    const batchSize = 5;
+    const total = payloadCards.length;
     try {
       for (;;) {
+        if (offset >= total) break;
+        const batch = payloadCards.slice(offset, offset + batchSize);
         const controller = new AbortController();
         const timeoutId = setTimeout(() => controller.abort(), 180000); // 3 Min. Timeout pro Batch
         
@@ -314,9 +305,7 @@ export default function Dashboard() {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
-              deckName: selectedDeck,
-              limit: enrichLimit,
-              offset,
+              cards: batch,
               provider: llmProvider,
               model: resolvedModel,
             }),
@@ -344,9 +333,9 @@ export default function Dashboard() {
         
         // Fortschritt speichern nach jedem Batch
         saveProgress(selectedDeck, all);
-        setEnrichProgress({ done: data.nextOffset ?? offset + (data.enriched?.length || 0), total: data.total ?? enrichLimit });
-        if (!data.hasMore) break;
-        offset = data.nextOffset;
+        offset += batch.length;
+        setEnrichProgress({ done: Math.min(offset, total), total });
+        if (offset >= total) break;
       }
     } catch (e: unknown) {
       const msg = e instanceof Error ? e.message : String(e);
@@ -371,14 +360,7 @@ export default function Dashboard() {
     setSyncLoading(true);
     setSyncError(null);
     try {
-      const res = await fetch('/api/mcp/sync-to-anki', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ deckName: selectedDeck, cards: enrichedCards }),
-      });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error || 'Sync fehlgeschlagen');
-      // Erfolg anzeigen
+      const data = await syncEnrichedToAnki(selectedDeck, enrichedCards);
       setSyncError(null);
       alert(data.message || `${data.updated} Karten aktualisiert`);
     } catch (e: unknown) {
@@ -389,18 +371,19 @@ export default function Dashboard() {
   };
 
   const runPrioritize = async () => {
-    if (!selectedDeck || isHosted) return;
+    if (!selectedDeck || cards.length === 0) return;
     setPriorityLoading(true);
     setPriorityError(null);
     setPrioritySuggestions([]);
     setPriorityMeta(null);
     const resolvedModel = llmModelOverride.trim() || presetModel;
     try {
+      const payload = toEnrichPayload(cards).slice(0, priorityLimit);
       const res = await fetch('/api/mcp/prioritize-cards', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          deckName: selectedDeck,
+          cards: payload,
           limit: priorityLimit,
           topN: priorityTopN,
           provider: llmProvider,
@@ -503,20 +486,11 @@ export default function Dashboard() {
     if (!importDeckName.trim() || parsedQuestions.length === 0) return;
     
     setPdfStep('importing');
-    setPdfProgress('Importiere nach Anki...');
+    setPdfProgress('Importiere nach Anki…');
     setPdfError(null);
     
     try {
-      const res = await fetch('/api/mcp/import-cards', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          deckName: importDeckName.trim(),
-          questions: parsedQuestions,
-        }),
-      });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error);
+      const data = await importQuestionsToAnki(importDeckName.trim(), parsedQuestions);
       
       setPdfProgress(data.message);
       alert(data.message);
@@ -619,7 +593,7 @@ export default function Dashboard() {
               onClick={loadDecks} 
               variant="outline" 
               size="sm"
-              disabled={loading || isHosted === true}
+              disabled={loading}
             >
               <RefreshCw className={`h-4 w-4 mr-2 ${loading ? 'animate-spin' : ''}`} />
               Aktualisieren
@@ -634,14 +608,28 @@ export default function Dashboard() {
             </div>
           )}
 
-          {isHosted && (
-            <div className="mb-4 p-3 bg-[#eef5fb] border border-[#2C94CC]/40 rounded-lg flex items-center gap-2 text-[#002F5D]">
-              <AlertCircle className="h-4 w-4 shrink-0" />
-              <span className="text-sm">
-                Anki läuft nur lokal (Anki Desktop + AnkiConnect). Auf diesem Host sind Anreicherung,
-                Sync und PDF-Import deaktiviert — starte die Website mit{' '}
-                <code className="rounded bg-white/70 px-1">npm run dev</code> auf deinem Rechner.
-              </span>
+          {ankiReady === false && (
+            <div className="mb-4 space-y-3 rounded-lg border border-[#2C94CC]/40 bg-[#eef5fb] p-4 text-[#002F5D]">
+              <p className="text-sm font-medium">AnkiConnect-Setup (einmalig)</p>
+              <ol className="list-decimal space-y-1 pl-5 text-sm">
+                <li>Anki Desktop starten</li>
+                <li>Add-on <code className="rounded bg-white/70 px-1">2055492159</code> (AnkiConnect) installieren</li>
+                <li>
+                  Tools → Add-ons → AnkiConnect → Config: Domain in{' '}
+                  <code className="rounded bg-white/70 px-1">webCorsOriginList</code> eintragen
+                  (Bindung nur auf <code className="rounded bg-white/70 px-1">127.0.0.1</code>)
+                </li>
+              </ol>
+              {pageOrigin && (
+                <pre className="overflow-x-auto rounded-md bg-white/80 p-3 text-xs text-zinc-800">
+                  {ankiConnectSetupSnippet(pageOrigin)}
+                </pre>
+              )}
+              <p className="text-xs text-[#002F5D]/80">
+                Dein Browser spricht direkt mit Anki auf diesem Rechner — der Vercel-Server sieht deine
+                Decks nicht. AnkiConnect nie auf <code className="rounded bg-white/70 px-1">0.0.0.0</code>{' '}
+                binden.
+              </p>
             </div>
           )}
           
@@ -661,7 +649,7 @@ export default function Dashboard() {
                 value={selectedDeck}
                 onChange={(e) => setSelectedDeck(e.target.value)}
                 className="w-full px-3 py-2 border border-zinc-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#002F5D]"
-                disabled={loading || decks.length === 0 || isHosted === true}
+                disabled={loading || decks.length === 0}
               >
                 <option value="">-- Deck auswählen --</option>
                 {decks.map((deck) => (
@@ -672,7 +660,7 @@ export default function Dashboard() {
               </select>
             </div>
 
-            {decks.length === 0 && !loading && !isHosted && (
+            {decks.length === 0 && !loading && (
               <div className="text-center py-8 text-zinc-500">
                 <p>Keine Decks gefunden.</p>
                 <p className="text-sm mt-2">
@@ -692,8 +680,7 @@ export default function Dashboard() {
       </Card>
 
       {/* Anreicherung */}
-      {!isHosted && (
-        <Card>
+      <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Sparkles className="h-5 w-5 text-[#002F5D]" />
@@ -1023,11 +1010,9 @@ export default function Dashboard() {
             )}
           </CardContent>
         </Card>
-      )}
 
       {/* 80/20 Priorisierung - Themenliste */}
-      {!isHosted && (
-        <Card>
+      <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Target className="h-5 w-5 text-[#002F5D]" />
@@ -1120,11 +1105,9 @@ export default function Dashboard() {
             )}
           </CardContent>
         </Card>
-      )}
 
       {/* PDF Import */}
-      {!isHosted && (
-        <Card>
+      <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <FileUp className="h-5 w-5 text-[#002F5D]" />
@@ -1308,7 +1291,6 @@ export default function Dashboard() {
             )}
           </CardContent>
         </Card>
-      )}
 
       {selectedDeck && cards.length > 0 && (
         <Card>

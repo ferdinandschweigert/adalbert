@@ -18,34 +18,34 @@ Zwei Module auf einer Plattform: **Kreuzen** und **Anki**.
 
 ### Kreuzen — Website `/altfragen`
 
-| Feature | Status |
-|---------|--------|
-| Klausur-Liste (freigegeben) | ✅ |
-| Amboss-Style Übung (Nav, Übersicht, Sprung) | ✅ |
-| SC: Klick = Lösung | ✅ |
-| Auswertung (richtig/falsch/Zeit) | ✅ |
-| Einzelne Frage zurücksetzen | ✅ |
-| Community-% pro Option | ✅ (echte Kreuzungen) |
-| Admin Upload / Publish | ✅ |
-| Optionaler Zugangscode | ✅ | empfohlen vor Fachschafts-Teilen |
+| Feature | Status | Notiz |
+|---------|--------|--------|
+| Klausur-Liste (freigegeben) | ✅ | |
+| Amboss-Style Übung (Nav, Übersicht, Sprung) | ✅ | |
+| SC: Klick = Lösung | ✅ | |
+| Auswertung (richtig/falsch/Zeit) | ✅ | |
+| Einzelne Frage zurücksetzen | ✅ | |
+| Community-% pro Option | ✅ | echte Kreuzungen |
+| Admin Upload / Publish | ✅ | |
+| Optionaler Zugangscode | ✅ | **gesamte Site** (Middleware `/access`) |
 | Admin ohne Default-Passwort | ✅ | `ALTFRAGEN_ADMIN_PASSWORD` Pflicht |
-| Stats hinter Zugangscode | ✅ | pro-Klausur Stats-API |
-| M2 SS26 Gedächtnisprotokoll | ✅ (~319) |
-| M2 2025-A Staatsexamen | ✅ (320) |
+| Stats hinter Zugangscode | ✅ | inkl. Homepage-Overview |
+| M2 SS26 Gedächtnisprotokoll | ✅ | ~319 |
+| M2 2025-A Staatsexamen | ✅ | 320 |
 
-### Anki — MCP + Website `/anki` (lokal)
+### Anki — MCP + Website `/anki`
 
-| Feature | Status |
-|---------|--------|
-| MCP-Server in Cursor | ✅ |
-| AnkiConnect lesen/schreiben | ✅ lokal |
-| Multi-LLM (Gemini/Together/OpenAI) | ✅ |
-| Website-Dashboard Anreicherung | ✅ lokal; Host deaktiviert |
-| Batch-Anreicherung | ✅ |
-| Resume bei Abbruch | ✅ |
-| PDF → Karten (Website) | ✅ lokal |
-| Lösung / Erklärung / Eselsbrücke / Referenz | ✅ |
-| SC / MC / KPRIM | ✅ |
+| Feature | Status | Notiz |
+|---------|--------|--------|
+| MCP-Server in Cursor | ✅ | |
+| AnkiConnect lesen/schreiben | ✅ | Browser → `127.0.0.1` (auch auf Vercel) |
+| Multi-LLM (Gemini/Together/OpenAI) | ✅ | serverseitig hinter Zugangscode |
+| Website-Dashboard Anreicherung | ✅ | Live-Host + lokal |
+| Batch-Anreicherung | ✅ | |
+| Resume bei Abbruch | ✅ | |
+| PDF → Karten (Website) | ✅ | + `.apkg`-Export |
+| Lösung / Erklärung / Eselsbrücke / Referenz | ✅ | |
+| SC / MC / KPRIM | ✅ | |
 
 ---
 
@@ -68,11 +68,12 @@ Detaillierte ältere Roadmap-Ideen bleiben in der Git-History; dieser Stand spie
 
 ```
 Adalbert
+├── Site-Zugang (/access + Middleware)
 ├── Kreuzen (/altfragen)
-│   ├── öffentliche Übungs-UI
+│   ├── Übungs-UI
 │   ├── Auswertung & Stats
 │   └── Admin-Freigabe
 └── Anki (/anki + MCP)
-    ├── Dashboard Anreicherung
+    ├── Dashboard (Browser → AnkiConnect)
     └── Cursor-Tools → Anki Desktop
 ```

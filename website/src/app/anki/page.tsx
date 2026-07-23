@@ -7,7 +7,8 @@ import { CanonicalHostBanner } from '@/components/CanonicalHostBanner';
 export const metadata: Metadata = {
   title: 'Anki – Adalbert',
   description:
-    'Anki-Decks lokal mit deutschen Erklärungen anreichern und nach Anki Desktop synchen. Auf dem Live-Host ohne AnkiConnect eingeschränkt.',
+    'Anki-Decks mit deutschen Erklärungen anreichern und nach Anki Desktop synchen. Browser spricht lokal mit AnkiConnect; LLM läuft serverseitig hinter dem Fachschafts-Zugang.',
+  robots: { index: false, follow: false },
 };
 
 export default function AnkiPage() {
@@ -19,9 +20,8 @@ export default function AnkiPage() {
         <div className="mb-6">
           <h1 className="text-2xl font-bold tracking-tight text-zinc-900 md:text-3xl">Anki</h1>
           <p className="mt-2 max-w-2xl text-sm text-zinc-600 md:text-base">
-            Companion-Tool für den eigenen Rechner: Decks anreichern und nach Anki Desktop synchen.
-            Dafür brauchst du Anki + AnkiConnect und einen LLM-API-Key. Auf dem Live-Host sind die
-            AnkiConnect-Funktionen deaktiviert.
+            Decks anreichern und nach Anki Desktop synchen. Dein Browser spricht direkt mit AnkiConnect
+            auf diesem Rechner; die KI-Anreicherung läuft auf dem Server (hinter dem Fachschafts-Code).
           </p>
         </div>
         <AnkiDashboardLazy />

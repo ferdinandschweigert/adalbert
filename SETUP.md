@@ -66,41 +66,64 @@ Beispiel `.env.local`:
 
 ```
 ALTFRAGEN_ADMIN_PASSWORD=dein-starkes-admin-passwort
-ALTFRAGEN_ACCESS_CODE=dein-fachschafts-code
+SITE_ACCESS_CODE=dein-fachschafts-code
 LLM_PROVIDER=gemini
 GEMINI_API_KEY=dein-api-key
 ```
 
 ---
 
-## 4. Altfragen / Kreuzen — Teilen mit der Fachschaft
+## 4. Gesamte Site — Teilen mit der Fachschaft
 
-Ziel: Mitstudierende üben freigegebene Klausuren unter einem gemeinsamen Zugangscode. Anki bleibt Companion für den eigenen Rechner.
+Ziel: Mitstudierende nutzen Kreuzen **und** Anki hinter einem gemeinsamen Zugangscode.
 
 | Rolle | URL | Zugang |
 |-------|-----|--------|
-| Studierende | `/altfragen` | `ALTFRAGEN_ACCESS_CODE` |
-| Admin | `/altfragen/admin` | `ALTFRAGEN_ADMIN_PASSWORD` (**Pflicht**, kein Default) |
+| Studierende | `/` · `/altfragen` · `/anki` | `SITE_ACCESS_CODE` (oder `ALTFRAGEN_ACCESS_CODE`) |
+| Admin | `/altfragen/admin` | zusätzlich `ALTFRAGEN_ADMIN_PASSWORD` (**Pflicht**) |
 
 ### Checkliste vor dem Teilen
 
-1. Auf Vercel **`ALTFRAGEN_ACCESS_CODE`** setzen (ohne Code ist Kreuzen offen).
+1. Auf Vercel **`SITE_ACCESS_CODE`** (oder `ALTFRAGEN_ACCESS_CODE`) setzen — ohne Code ist die Site offen.
 2. **`ALTFRAGEN_ADMIN_PASSWORD`** setzen (stark, einzigartig; ohne Variable ist Admin deaktiviert).
-3. Link teilen: Live-URL + Zugangscode (nicht öffentlich posten, wo Suchmaschinen/Indexer mitlesen).
-4. Altfragen-Seiten sind `noindex`; Admin ebenfalls.
-5. Anki auf dem Live-Host klar als lokal kennzeichnen — kein Versprechen, dass Anreicherung online geht.
+3. LLM-Keys setzen (`GEMINI_API_KEY` / …) für Anki-Anreicherung & PDF auf Vercel.
+4. Link teilen: Live-URL + Zugangscode (z. B. auf der passwortgeschützten Fachschaftsseite).
+5. Alle Seiten hinter dem Gate; Unlock unter `/access`. Cookie speichert ein Session-Token (nicht den Klartext-Code).
+
+### Anki auf Vercel (sicher)
+
+Der Server greift **nie** auf dein Anki zu. Stattdessen:
+
+1. Browser ↔ `127.0.0.1:8765` (AnkiConnect) auf **deinem** Rechner  
+2. Browser → Vercel nur für LLM (Anreichern / Priorisieren / PDF), hinter dem Zugangscode  
+
+**Einmalig in AnkiConnect Config** (`webBindAddress` bleibt `127.0.0.1`):
+
+```json
+{
+  "webBindAddress": "127.0.0.1",
+  "webBindPort": 8765,
+  "webCorsOriginList": [
+    "http://localhost",
+    "https://adalbert.vercel.app"
+  ]
+}
+```
+
+Niemals AnkiConnect auf `0.0.0.0` binden oder per Tunnel öffentlich machen.
 
 ### Öffentliches Repo
 
-Das GitHub-Repo ist öffentlich — inkl. `website/data/altfragen-bank.json`. Der Zugangscode gilt nur für die Live-Site, nicht für den Clone. Altfragen-Seiten sind `noindex`; IMPP-Inhalt nicht zusätzlich öffentlich bewerben.
+Das GitHub-Repo ist öffentlich — inkl. `website/data/altfragen-bank.json`. Der Zugangscode gilt nur für die Live-Site, nicht für den Clone. Seiten sind `noindex`; IMPP-Inhalt nicht zusätzlich öffentlich bewerben.
 
 ### Umgebungsvariablen (Vercel / Website)
 
 | Variable | Zweck |
 |----------|--------|
+| `SITE_ACCESS_CODE` | Fachschafts-Code für **gesamte** Site (**empfohlen vor Teilen**) |
+| `ALTFRAGEN_ACCESS_CODE` | Alias / Fallback für denselben Code |
 | `ALTFRAGEN_ADMIN_PASSWORD` | Admin-Login (**erforderlich**) |
-| `ALTFRAGEN_ACCESS_CODE` | Fachschafts-Code (**empfohlen vor Teilen**) |
-| `GEMINI_API_KEY` / LLM-Keys | PDF/Text-Konvertierung, Erklärungen |
+| `GEMINI_API_KEY` / LLM-Keys | PDF/Text-Konvertierung, Erklärungen, Anki-Anreicherung |
 | `ALTFRAGEN_GITHUB_TOKEN` | Persistente Bank + Stats auf Vercel |
 | `ALTFRAGEN_GITHUB_REPO` | Default `ferdinandschweigert/adalbert` |
 | `ALTFRAGEN_GITHUB_PATH` | Default `website/data/altfragen-bank.json` |
@@ -122,12 +145,12 @@ node scripts/import-m2-gedaechtnisprotokoll.mjs path/to/protocol.pdf
 
 ## 5. Troubleshooting
 
-**Cannot connect to Anki Desktop** — Anki läuft? AnkiConnect aktiv? Nur lokal, nicht auf Vercel.
+**Cannot connect to Anki Desktop** — Anki läuft? AnkiConnect aktiv? Domain in `webCorsOriginList`? Bindung `127.0.0.1`?
 
 **Admin: „nicht konfiguriert“** — `ALTFRAGEN_ADMIN_PASSWORD` in Vercel / `.env.local` setzen und neu deployen.
 
-**Zugangscode erforderlich** — `ALTFRAGEN_ACCESS_CODE` teilen bzw. Cookie nach Login am Gate.
+**Zugangscode erforderlich** — `SITE_ACCESS_CODE` teilen bzw. unter `/access` freischalten.
 
-**LLM API key not set** — Key in MCP-Config oder `website/.env.local`, dann neu starten.
+**LLM API key not set** — Key in Vercel Env / `website/.env.local`, dann neu deployen/starten.
 
 **Altfragen leer nach Deploy** — Bank committen oder `ALTFRAGEN_GITHUB_TOKEN` setzen.
