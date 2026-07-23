@@ -1,6 +1,8 @@
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
+import { accessUnauthorizedIfNeeded } from '@/lib/siteAccess';
 
-// Only allow AnkiConnect on localhost for security
+// Only allow AnkiConnect on localhost for security (local npm run / companion).
+// Hosted UI talks to AnkiConnect from the browser instead.
 const ANKICONNECT_URL = process.env.ANKICONNECT_URL || 'http://localhost:8765';
 
 // Security: Only allow localhost connections
@@ -59,7 +61,10 @@ async function listDecks(): Promise<string[]> {
   }
 }
 
-export async function GET() {
+export async function GET(request: NextRequest) {
+  const denied = accessUnauthorizedIfNeeded(request);
+  if (denied) return denied;
+
   try {
     const decks = await listDecks();
     return NextResponse.json({ success: true, decks });

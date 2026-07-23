@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { PDFParse } from 'pdf-parse';
 import { buildLlmConfig, generateTextWithFallback } from '@/lib/llmClient';
+import { accessUnauthorizedIfNeeded } from '@/lib/siteAccess';
 
 export const runtime = 'nodejs';
 export const maxDuration = 300; // 5 Minuten für große PDFs
@@ -472,6 +473,9 @@ async function determineAnswersWithLlm(
 }
 
 export async function POST(request: NextRequest) {
+  const denied = accessUnauthorizedIfNeeded(request);
+  if (denied) return denied;
+
   try {
     const formData = await request.formData();
     const file = formData.get('file') as File | null;
@@ -479,7 +483,8 @@ export async function POST(request: NextRequest) {
     const model = formData.get('model') as string || '';
     const step = formData.get('step') as string || 'extract'; // 'extract', 'parse', 'answer'
     const questionsJson = formData.get('questions') as string || '';
-    const apiKey = formData.get('apiKey') as string || '';
+    // API keys only from server env — never from the browser
+    const apiKey = '';
     const baseUrl = formData.get('baseUrl') as string || '';
 
     if (!file && step === 'extract') {

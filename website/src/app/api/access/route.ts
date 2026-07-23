@@ -11,6 +11,8 @@ import {
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
+/** Canonical site unlock endpoint (alias of /api/altfragen/access). */
+
 function setAccessCookies(res: NextResponse, token: string, maxAge: number) {
   const opts = {
     httpOnly: true,
@@ -20,7 +22,6 @@ function setAccessCookies(res: NextResponse, token: string, maxAge: number) {
     maxAge,
   };
   res.cookies.set(ACCESS_COOKIE, token, opts);
-  // Clear legacy raw-code cookie if present
   res.cookies.set(LEGACY_ACCESS_COOKIE, '', { ...opts, maxAge: 0 });
 }
 

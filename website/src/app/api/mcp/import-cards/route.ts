@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { accessUnauthorizedIfNeeded } from '@/lib/siteAccess';
 
 const ANKICONNECT_URL = process.env.ANKICONNECT_URL || 'http://localhost:8765';
 
@@ -45,6 +46,9 @@ function getQType(type: string): number {
 }
 
 export async function POST(request: NextRequest) {
+  const denied = accessUnauthorizedIfNeeded(request);
+  if (denied) return denied;
+
   try {
     const body = await request.json();
     const deckName = (body.deckName || '').trim();

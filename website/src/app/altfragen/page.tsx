@@ -1,4 +1,3 @@
-import { AltfragenAccessGate } from '@/components/altfragen/AltfragenAccessGate';
 import { AltfragenPublicList } from '@/components/altfragen/AltfragenPublicList';
 import type { Metadata } from 'next';
 
@@ -9,9 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function AltfragenPage() {
-  return (
-    <AltfragenAccessGate>
-      <AltfragenPublicList />
-    </AltfragenAccessGate>
-  );
+  return <AltfragenPublicList />;
 }

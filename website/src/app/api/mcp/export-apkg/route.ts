@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { accessUnauthorizedIfNeeded } from '@/lib/siteAccess';
 
 export const runtime = 'nodejs';
 
@@ -175,6 +176,9 @@ function sanitizeFileName(value: string): string {
 }
 
 export async function POST(request: NextRequest) {
+  const denied = accessUnauthorizedIfNeeded(request);
+  if (denied) return denied;
+
   try {
     const body = await request.json();
     const deckName = String(body.deckName || '').trim();

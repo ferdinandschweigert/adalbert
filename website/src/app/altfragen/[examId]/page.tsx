@@ -1,4 +1,3 @@
-import { AltfragenAccessGate } from '@/components/altfragen/AltfragenAccessGate';
 import { AltfragenPractice } from '@/components/altfragen/AltfragenPractice';
 import type { Metadata } from 'next';
 
@@ -13,9 +12,5 @@ export default async function AltfragenExamPage({
   params: Promise<{ examId: string }>;
 }) {
   const { examId } = await params;
-  return (
-    <AltfragenAccessGate>
-      <AltfragenPractice examId={examId} />
-    </AltfragenAccessGate>
-  );
+  return <AltfragenPractice examId={examId} />;
 }

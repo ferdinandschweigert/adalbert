@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { accessUnauthorizedIfNeeded } from '@/lib/siteAccess';
 
-// Only allow AnkiConnect on localhost for security
+// Only allow AnkiConnect on localhost for security (local companion).
 const ANKICONNECT_URL = process.env.ANKICONNECT_URL || 'http://localhost:8765';
 
 // Security: Only allow localhost connections
@@ -110,6 +111,9 @@ async function getCardsFromDeck(deckName: string): Promise<any> {
 }
 
 export async function POST(request: NextRequest) {
+  const denied = accessUnauthorizedIfNeeded(request);
+  if (denied) return denied;
+
   try {
     const body = await request.json();
     const { deckName } = body;
