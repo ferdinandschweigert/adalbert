@@ -1,0 +1,6 @@
+{
+  "framework": "nextjs",
+  "installCommand": "npm ci --no-audit --no-fund",
+  "buildCommand": "NEXT_TELEMETRY_DISABLED=1 npm run build",
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- . ':(exclude)scripts' ':(exclude)*.md' ':(exclude)VERCEL_*' ':(exclude)SECURITY.md' ':(exclude)README.md' ':(exclude).env.example'"
+}
