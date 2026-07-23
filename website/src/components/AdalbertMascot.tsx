@@ -112,14 +112,14 @@ export function AdalbertMascot() {
 
       playerRef.current = new YT.Player(playerElementId, {
         videoId: YT_VIDEO_ID,
-        width: 200,
-        height: 112,
+        width: 160,
+        height: 90,
         playerVars: {
           autoplay: 1,
           rel: 0,
           modestbranding: 1,
           playsinline: 1,
-          controls: 1,
+          controls: 0,
           origin: window.location.origin,
         },
         events: {
@@ -243,7 +243,15 @@ export function AdalbertMascot() {
       </div>
 
       {docked ? (
-        <div className="fixed bottom-4 right-4 z-50 flex flex-col items-end gap-1.5">
+        <div
+          className={cn(
+            'group/dock fixed bottom-0 right-0 z-50 flex flex-col items-end gap-1 p-2',
+            'translate-x-[42%] translate-y-[42%] opacity-70',
+            'transition duration-300 ease-out',
+            'hover:translate-x-0 hover:translate-y-0 hover:opacity-100',
+            'focus-within:translate-x-0 focus-within:translate-y-0 focus-within:opacity-100'
+          )}
+        >
           <button
             type="button"
             onClick={stopTheme}
@@ -253,7 +261,7 @@ export function AdalbertMascot() {
           </button>
           <div
             id={playerElementId}
-            className="h-[112px] w-[200px] overflow-hidden rounded-lg border border-[#e2e8f0] bg-black shadow-lg"
+            className="h-[90px] w-[160px] overflow-hidden rounded-tl-lg border border-[#e2e8f0] bg-black shadow-lg"
             title="YouTube — Der Nick Song"
           />
         </div>

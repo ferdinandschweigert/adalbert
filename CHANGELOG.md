@@ -7,7 +7,7 @@ Kurze Übersicht der wichtigsten Änderungen.
 ## 07/2026
 
 ### Easter Egg
-- **Startseite:** Klick auf Adalbert spielt den Original-Nick-Song im Hintergrund (kleines YouTube-Embed unten rechts)
+- **Startseite:** Klick auf Adalbert spielt den Nick Song im Hintergrund; kleines YouTube-Embed halb versteckt in der Ecke (Hover zeigt mehr)
 
 ### Share-Readiness (Fachschaft)
 - **Admin:** kein Default-Passwort mehr; Session-Token statt Klartext-Passwort in Cookie/Session
