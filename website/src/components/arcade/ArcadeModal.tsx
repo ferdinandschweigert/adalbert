@@ -102,7 +102,11 @@ export function ArcadeModal({
 
         <div className="overflow-y-auto px-4 py-4 sm:px-5">
           {activeGameId ? (
-            <ArcadeStage gameId={activeGameId} onBack={onBackToMenu} />
+            <ArcadeStage
+              key={activeGameId}
+              gameId={activeGameId}
+              onBack={onBackToMenu}
+            />
           ) : (
             <ul className="grid gap-2">
               {ARCADE_GAMES.map((game) => (

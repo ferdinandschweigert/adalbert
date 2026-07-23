@@ -275,7 +275,6 @@ export function createPongGame(ctx) {
       return 16;
     },
     getHud() {
-      const scoreLine = `Player ${state.playerScore} : ${state.cpuScore} CPU | Level: ${state.level} | Best: ${Math.max(state.playerScore, 0)} `;
       if (state.status === "game_over") {
         const winner = state.playerScore > state.cpuScore ? "You win" : "CPU wins";
         return {

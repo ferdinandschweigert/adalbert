@@ -1,13 +1,4 @@
-import { directionFromKey } from "./gameLogic.mjs";
-import {
-  CANVAS_SIZE,
-  drawDot,
-  drawDiamond,
-  drawGrid,
-  clearCanvas,
-  rectsOverlap,
-  clamp,
-} from "./shared.mjs";
+import { clearCanvas } from "./shared.mjs";
 
 export function createBlockfallGame(ctx) {
   const boardWidth = 10;

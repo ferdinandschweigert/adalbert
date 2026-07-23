@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import {
   CANVAS_SIZE,
@@ -13,6 +13,11 @@ import {
 type ArcadeStageProps = {
   gameId: ArcadeGameId;
   onBack: () => void;
+};
+
+type GameControls = {
+  drawFrame: () => void;
+  scheduleTick: () => void;
 };
 
 const BEST_STORAGE_KEY = "adalbert.arcade.best.v1";
@@ -72,7 +77,7 @@ function controlLabel(action: string): string {
 export function ArcadeStage({ gameId, onBack }: ArcadeStageProps) {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const gameRef = useRef<ArcadeGame | null>(null);
-  const tickTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const controlsRef = useRef<GameControls | null>(null);
   const meta = getArcadeGame(gameId);
 
   const [hud, setHud] = useState<ArcadeHud>({
@@ -81,44 +86,10 @@ export function ArcadeStage({ gameId, onBack }: ArcadeStageProps) {
     pauseLabel: "Pause",
     pauseDisabled: false,
   });
-  const [best, setBest] = useState<number | null>(null);
-  const [controlScheme, setControlScheme] = useState("dpad");
-
-  const stopLoop = useCallback(() => {
-    if (tickTimerRef.current) {
-      clearTimeout(tickTimerRef.current);
-      tickTimerRef.current = null;
-    }
-  }, []);
-
-  const drawFrame = useCallback(() => {
-    const game = gameRef.current;
-    if (!game) return;
-    game.render();
-    const nextHud = game.getHud();
-    setHud(nextHud);
-    const score = parseScoreFromHud(nextHud.score);
-    if (score !== null) {
-      saveBest(gameId, score);
-      setBest((prev) =>
-        prev === null || score > prev ? score : prev
-      );
-    }
-  }, [gameId]);
-
-  const scheduleTick = useCallback(() => {
-    stopLoop();
-    const game = gameRef.current;
-    if (!game || document.hidden) return;
-
-    const delay = Math.max(16, game.getTickMs());
-    tickTimerRef.current = setTimeout(() => {
-      if (!gameRef.current || document.hidden) return;
-      gameRef.current.tick();
-      drawFrame();
-      scheduleTick();
-    }, delay);
-  }, [drawFrame, stopLoop]);
+  const [best, setBest] = useState<number | null>(() => {
+    if (typeof window === "undefined") return null;
+    return loadBests()[gameId] ?? null;
+  });
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -130,92 +101,128 @@ export function ArcadeStage({ gameId, onBack }: ArcadeStageProps) {
     canvas.width = CANVAS_SIZE;
     canvas.height = CANVAS_SIZE;
 
+    let tickTimer: ReturnType<typeof setTimeout> | null = null;
+    let disposed = false;
+
+    const stopLoop = () => {
+      if (tickTimer) {
+        clearTimeout(tickTimer);
+        tickTimer = null;
+      }
+    };
+
+    const drawFrame = () => {
+      const game = gameRef.current;
+      if (!game || disposed) return;
+      game.render();
+      const nextHud = game.getHud();
+      setHud(nextHud);
+      const score = parseScoreFromHud(nextHud.score);
+      if (score !== null) {
+        saveBest(gameId, score);
+        setBest((prev) => (prev === null || score > prev ? score : prev));
+      }
+    };
+
+    const scheduleTick = () => {
+      stopLoop();
+      const game = gameRef.current;
+      if (!game || disposed || document.hidden) return;
+
+      const delay = Math.max(16, game.getTickMs());
+      tickTimer = setTimeout(() => {
+        if (!gameRef.current || disposed || document.hidden) return;
+        gameRef.current.tick();
+        drawFrame();
+        scheduleTick();
+      }, delay);
+    };
+
+    controlsRef.current = { drawFrame, scheduleTick };
+
     const game = meta.create(ctx);
     gameRef.current = game;
-    setControlScheme(game.controlScheme || "dpad");
-    setBest(loadBests()[gameId] ?? null);
 
     game.start();
-    drawFrame();
-    scheduleTick();
-    canvas.focus();
+    // Defer first paint/HUD update so we stay outside the sync effect body
+    queueMicrotask(() => {
+      if (disposed) return;
+      drawFrame();
+      scheduleTick();
+      canvas.focus();
+    });
 
     const onVisibility = () => {
       if (document.hidden) {
         stopLoop();
-      } else if (gameRef.current) {
+      } else if (gameRef.current && !disposed) {
         scheduleTick();
       }
     };
-    document.addEventListener("visibilitychange", onVisibility);
 
-    return () => {
-      document.removeEventListener("visibilitychange", onVisibility);
-      stopLoop();
-      game.stop();
-      gameRef.current = null;
-    };
-  }, [drawFrame, gameId, meta, scheduleTick, stopLoop]);
-
-  useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
-      const game = gameRef.current;
-      if (!game) return;
+      const active = gameRef.current;
+      if (!active) return;
+      if (event.key === "Escape") return;
 
-      if (event.key === "Escape") {
-        // Modal handles Escape (back to menu / close)
-        return;
-      }
-
-      const handled = game.onKeyDown(event.key);
-      if (handled) {
+      if (active.onKeyDown(event.key)) {
         event.preventDefault();
         drawFrame();
-        // Reschedule so pause/speed changes take effect promptly
         scheduleTick();
       }
     };
 
     const onKeyUp = (event: KeyboardEvent) => {
-      const game = gameRef.current;
-      if (!game?.onKeyUp) return;
-      if (game.onKeyUp(event.key)) {
+      const active = gameRef.current;
+      if (!active?.onKeyUp) return;
+      if (active.onKeyUp(event.key)) {
         event.preventDefault();
         drawFrame();
       }
     };
 
+    document.addEventListener("visibilitychange", onVisibility);
     window.addEventListener("keydown", onKeyDown);
     window.addEventListener("keyup", onKeyUp);
+
     return () => {
+      disposed = true;
+      document.removeEventListener("visibilitychange", onVisibility);
       window.removeEventListener("keydown", onKeyDown);
       window.removeEventListener("keyup", onKeyUp);
+      stopLoop();
+      game.stop();
+      gameRef.current = null;
+      controlsRef.current = null;
     };
-  }, [drawFrame, scheduleTick]);
+  }, [gameId, meta]);
 
   const handleControl = (action: string) => {
     const game = gameRef.current;
-    if (!game?.onControl) return;
+    const controls = controlsRef.current;
+    if (!game?.onControl || !controls) return;
     if (
       game.onControl(
         action as "UP" | "DOWN" | "LEFT" | "RIGHT" | "SELECT" | "A" | "B"
       )
     ) {
-      drawFrame();
-      scheduleTick();
+      controls.drawFrame();
+      controls.scheduleTick();
     }
   };
 
   const handlePause = () => {
+    const controls = controlsRef.current;
     gameRef.current?.togglePause?.();
-    drawFrame();
-    scheduleTick();
+    controls?.drawFrame();
+    controls?.scheduleTick();
   };
 
   const handleRestart = () => {
+    const controls = controlsRef.current;
     gameRef.current?.restart?.();
-    drawFrame();
-    scheduleTick();
+    controls?.drawFrame();
+    controls?.scheduleTick();
   };
 
   if (!meta) {
@@ -229,7 +236,7 @@ export function ArcadeStage({ gameId, onBack }: ArcadeStageProps) {
     );
   }
 
-  const controls = controlButtonsForScheme(controlScheme);
+  const touchControls = controlButtonsForScheme(meta.controlScheme);
 
   return (
     <div className="flex flex-col gap-3">
@@ -281,7 +288,7 @@ export function ArcadeStage({ gameId, onBack }: ArcadeStageProps) {
       </div>
 
       <div className="mx-auto flex max-w-xs flex-col items-center gap-2 sm:hidden">
-        {controls.includes("UP") ? (
+        {touchControls.includes("UP") ? (
           <button
             type="button"
             className="rounded-md bg-[#eef5fb] px-4 py-3 text-lg text-[#002F5D]"
@@ -292,7 +299,7 @@ export function ArcadeStage({ gameId, onBack }: ArcadeStageProps) {
           </button>
         ) : null}
         <div className="flex items-center gap-2">
-          {controls.includes("LEFT") ? (
+          {touchControls.includes("LEFT") ? (
             <button
               type="button"
               className="rounded-md bg-[#eef5fb] px-4 py-3 text-lg text-[#002F5D]"
@@ -302,7 +309,7 @@ export function ArcadeStage({ gameId, onBack }: ArcadeStageProps) {
               {controlLabel("LEFT")}
             </button>
           ) : null}
-          {controls.includes("DOWN") ? (
+          {touchControls.includes("DOWN") ? (
             <button
               type="button"
               className="rounded-md bg-[#eef5fb] px-4 py-3 text-lg text-[#002F5D]"
@@ -312,7 +319,7 @@ export function ArcadeStage({ gameId, onBack }: ArcadeStageProps) {
               {controlLabel("DOWN")}
             </button>
           ) : null}
-          {controls.includes("RIGHT") ? (
+          {touchControls.includes("RIGHT") ? (
             <button
               type="button"
               className="rounded-md bg-[#eef5fb] px-4 py-3 text-lg text-[#002F5D]"

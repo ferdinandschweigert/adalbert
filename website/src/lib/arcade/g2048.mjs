@@ -1,13 +1,5 @@
 import { directionFromKey } from "./gameLogic.mjs";
-import {
-  CANVAS_SIZE,
-  drawDot,
-  drawDiamond,
-  drawGrid,
-  clearCanvas,
-  rectsOverlap,
-  clamp,
-} from "./shared.mjs";
+import { CANVAS_SIZE, clearCanvas } from "./shared.mjs";
 
 export function create2048Game(ctx) {
   const size = 4;
