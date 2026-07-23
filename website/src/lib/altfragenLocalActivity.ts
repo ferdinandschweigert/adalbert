@@ -1,8 +1,6 @@
 import type { QuestionStat } from '@/lib/altfragenTypes';
-import {
-  ACTIVITY_KEY,
-  EXAM_STATS_PREFIX,
-} from '@/lib/altfragenLocalMigrate';
+import { ACTIVITY_KEY, EXAM_STATS_PREFIX } from '@/lib/altfragenLocalMigrate';
+import { safeGetItem, safeSetItem, type StorageWriteResult } from '@/lib/altfragenStorage';
 
 export { ACTIVITY_KEY, EXAM_STATS_PREFIX };
 
@@ -32,7 +30,7 @@ function todayKey(): string {
 export function readLocalActivity(): LocalActivityStore {
   if (!canUseStorage()) return { daily: {}, examCorrect: {} };
   try {
-    const raw = localStorage.getItem(ACTIVITY_KEY);
+    const raw = safeGetItem(ACTIVITY_KEY);
     if (!raw) return { daily: {}, examCorrect: {} };
     const parsed = JSON.parse(raw) as LocalActivityStore;
     return {
@@ -44,16 +42,15 @@ export function readLocalActivity(): LocalActivityStore {
   }
 }
 
-function writeLocalActivity(store: LocalActivityStore): void {
-  if (!canUseStorage()) return;
-  localStorage.setItem(ACTIVITY_KEY, JSON.stringify(store));
+function writeLocalActivity(store: LocalActivityStore): StorageWriteResult {
+  return safeSetItem(ACTIVITY_KEY, JSON.stringify(store));
 }
 
 /** Call after each answered/checked question. */
 export function recordLocalKreuzung(input: {
   examId: string;
   correct: boolean;
-}): void {
+}): StorageWriteResult {
   const store = readLocalActivity();
   const day = todayKey();
   store.daily[day] = (store.daily[day] || 0) + 1;
@@ -61,7 +58,51 @@ export function recordLocalKreuzung(input: {
   if (input.correct) {
     store.examCorrect[input.examId] = (store.examCorrect[input.examId] || 0) + 1;
   }
-  writeLocalActivity(store);
+  return writeLocalActivity(store);
+}
+
+/**
+ * Bump the local per-exam community-stat cache for one answered question.
+ * Does not wait for the server — so homepage KPI/bars still update if POST fails.
+ */
+export function recordLocalExamStat(input: {
+  examId: string;
+  questionNumber: number;
+  optionCount: number;
+  selectionBits: string;
+  correct: boolean;
+}): StorageWriteResult {
+  if (!canUseStorage()) {
+    return { ok: false, error: 'localStorage ist nicht verfügbar' };
+  }
+  const key = EXAM_STATS_PREFIX + input.examId;
+  let map: Record<string, QuestionStat> = {};
+  try {
+    const raw = safeGetItem(key);
+    if (raw) map = JSON.parse(raw) as Record<string, QuestionStat>;
+  } catch {
+    map = {};
+  }
+
+  const qKey = String(input.questionNumber);
+  const prev = map[qKey] || {
+    attempts: 0,
+    correct: 0,
+    optionCounts: Array(input.optionCount).fill(0),
+  };
+  const optionCounts = [...(prev.optionCounts || [])];
+  while (optionCounts.length < input.optionCount) optionCounts.push(0);
+  const bits = (input.selectionBits || '').padEnd(input.optionCount, '0');
+  for (let i = 0; i < input.optionCount; i++) {
+    if (bits[i] === '1') optionCounts[i] += 1;
+  }
+  map[qKey] = {
+    attempts: (prev.attempts || 0) + 1,
+    correct: (prev.correct || 0) + (input.correct ? 1 : 0),
+    optionCounts,
+  };
+
+  return safeSetItem(key, JSON.stringify(map));
 }
 
 /**
@@ -88,7 +129,7 @@ export function readLocalExamAggregates(examIds: string[]): LocalExamAggregate[]
   const out: LocalExamAggregate[] = [];
   for (const examId of examIds) {
     try {
-      const raw = localStorage.getItem(EXAM_STATS_PREFIX + examId);
+      const raw = safeGetItem(EXAM_STATS_PREFIX + examId);
       if (!raw) {
         out.push({ examId, attempts: 0, correct: 0, questionsWithData: 0 });
         continue;

@@ -48,8 +48,9 @@ export function KreuzDataBackupControls({ examIds = [] }: { examIds?: string[] }
     <div className="rounded-xl border border-[#e2e8f0] bg-[#f8fafc] px-4 py-4">
       <p className="text-sm font-medium text-zinc-800">Kreuzungsdaten sichern</p>
       <p className="mt-1 text-xs text-zinc-500">
-        Fortschritt liegt lokal im Browser (ohne Login). Nach Cache-Löschen oder auf einer anderen
-        Domain (z.&nbsp;B. adalbertanki) wirkt alles leer — Backup hilft.
+        Fortschritt liegt nur in <span className="font-medium">diesem</span> Browser (ohne Login).
+        Privatmodus, Cache-Löschen oder eine andere Domain (z.&nbsp;B. Preview-URL) = leerer Stand —
+        deshalb Backup exportieren, bevor du den Rechner wechselst.
       </p>
       <div className="mt-3 flex flex-wrap gap-2">
         <button

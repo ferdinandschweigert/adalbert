@@ -21,6 +21,8 @@ Kurze Übersicht der wichtigsten Änderungen.
 - Warn-Banner auf Nicht-kanonischen Vercel-Hosts (`adalbertanki` vs `adalbert`)
 - Export/Import-Backup für lokalen Fortschritt auf der Startseite
 - Unvollständige GP-Optionen („?“) als „Nicht im Protokoll überliefert“ gekennzeichnet
+- **Privatmodus / blockierter Speicher:** Warn-Banner + Fehleranzeige beim Kreuzen (typisch: bei dir ok, Kommilitone verliert alles nach Tab-Close)
+- Lokale Stats/Aktivität werden **sofort** geschrieben, auch wenn der Server-POST scheitert
 
 ### Website-Struktur & Doku
 - **Startseite:** Module Kreuzen + Anki; Hero mit Figur/Text; **kein** Header-Logo auf `/`

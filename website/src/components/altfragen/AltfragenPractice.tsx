@@ -18,12 +18,14 @@ import {
   getProgress,
   saveProgress,
 } from '@/lib/altfragenStore';
-import { recordLocalKreuzung } from '@/lib/altfragenLocalActivity';
+import { recordLocalKreuzung, recordLocalExamStat } from '@/lib/altfragenLocalActivity';
 import {
   formatOptionLabel,
   mergeQuestionStatsMaps,
   migrateExamLocalData,
 } from '@/lib/altfragenLocalMigrate';
+import { safeSetItem } from '@/lib/altfragenStorage';
+import type { StorageWriteResult } from '@/lib/altfragenStorage';
 import {
   AlertCircle,
   BarChart3,
@@ -107,6 +109,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
   const explanationFetchRef = useRef<Set<number>>(new Set());
   /** Expanded distractor rationales: `${questionNumber}:${optionIndex}` */
   const [expandedDistractors, setExpandedDistractors] = useState<Record<string, boolean>>({});
+  const [storageError, setStorageError] = useState<string | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -126,7 +129,8 @@ export function AltfragenPractice({ examId }: { examId: string }) {
         const nextProgress = existing ?? createEmptyProgress(examId);
         if (!nextProgress.startedAt) {
           nextProgress.startedAt = new Date().toISOString();
-          saveProgress(nextProgress);
+          const saved = saveProgress(nextProgress);
+          if (!saved.ok) setStorageError(saved.error);
         }
         if (!nextProgress.checkedAt) nextProgress.checkedAt = {};
         setProgress(nextProgress);
@@ -142,7 +146,8 @@ export function AltfragenPractice({ examId }: { examId: string }) {
             const raw = localStorage.getItem(cacheKey);
             const local = raw ? (JSON.parse(raw) as Record<string, QuestionStat>) : {};
             const merged = mergeQuestionStatsMaps(local, serverStats);
-            localStorage.setItem(cacheKey, JSON.stringify(merged));
+            const wrote = safeSetItem(cacheKey, JSON.stringify(merged));
+            if (!wrote.ok) setStorageError(wrote.error);
             setCommunityStats(merged);
           } catch {
             setCommunityStats(serverStats);
@@ -168,12 +173,16 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     return () => window.clearInterval(id);
   }, [progress?.startedAt, progress?.completedAt]);
 
+  const noteStorage = useCallback((result: StorageWriteResult) => {
+    if (!result.ok) setStorageError(result.error);
+  }, []);
+
   const persist = useCallback(
     (next: ExamProgress) => {
       setProgress(next);
-      saveProgress(next);
+      noteStorage(saveProgress(next));
     },
-    []
+    [noteStorage]
   );
 
   const questions = exam?.questions ?? [];
@@ -328,15 +337,37 @@ export function AltfragenPractice({ examId }: { examId: string }) {
       checkedAt: nextCheckedAt,
       completedAt: allDone ? nowIso : progress.completedAt,
     });
-    void reportStats(question, bits);
-    try {
-      recordLocalKreuzung({
+    const correct = isCorrect(question, bits);
+    // Always update local caches first — server POST may fail (access/cookie/ephemeral FS).
+    noteStorage(
+      recordLocalExamStat({
         examId,
-        correct: isCorrect(question, bits),
-      });
-    } catch {
-      // ignore storage errors
-    }
+        questionNumber: question.number,
+        optionCount: question.options.length,
+        selectionBits: bits,
+        correct,
+      })
+    );
+    noteStorage(recordLocalKreuzung({ examId, correct }));
+    setCommunityStats((prev) => {
+      const key = String(question.number);
+      const prevStat = prev[key];
+      const optionCounts = [...(prevStat?.optionCounts || Array(question.options.length).fill(0))];
+      while (optionCounts.length < question.options.length) optionCounts.push(0);
+      const padded = bits.padEnd(question.options.length, '0');
+      for (let i = 0; i < question.options.length; i++) {
+        if (padded[i] === '1') optionCounts[i] += 1;
+      }
+      return {
+        ...prev,
+        [key]: {
+          attempts: (prevStat?.attempts || 0) + 1,
+          correct: (prevStat?.correct || 0) + (correct ? 1 : 0),
+          optionCounts,
+        },
+      };
+    });
+    void reportStats(question, bits);
     if (allDone) setShowResult(true);
   };
 
@@ -361,6 +392,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
       const res = await fetch(`/api/altfragen/exams/${examId}/stats`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
+        credentials: 'same-origin',
         body: JSON.stringify({
           questionNumber: q.number,
           optionCount: q.options.length,
@@ -370,18 +402,22 @@ export function AltfragenPractice({ examId }: { examId: string }) {
       });
       const data = await res.json();
       if (res.ok && data.stat) {
+        // Server may be ahead (other devices) — merge by preferring higher attempts.
         setCommunityStats((prev) => {
-          const next = { ...prev, [String(q.number)]: data.stat as QuestionStat };
-          try {
-            localStorage.setItem(`adalbert-altfragen-stats-v2-${examId}`, JSON.stringify(next));
-          } catch {
-            // ignore
-          }
+          const key = String(q.number);
+          const serverStat = data.stat as QuestionStat;
+          const localStat = prev[key];
+          const richer =
+            (serverStat.attempts || 0) >= (localStat?.attempts || 0) ? serverStat : localStat;
+          const next = { ...prev, [key]: richer || serverStat };
+          noteStorage(
+            safeSetItem(`adalbert-altfragen-stats-v2-${examId}`, JSON.stringify(next))
+          );
           return next;
         });
       }
     } catch {
-      // non-blocking
+      // non-blocking — local caches already updated in commitAnswer
     } finally {
       setReporting(false);
     }
@@ -789,6 +825,19 @@ export function AltfragenPractice({ examId }: { examId: string }) {
         </aside>
 
         <div className="space-y-5">
+          {storageError && (
+            <div className="rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-900">
+              <p className="font-medium">Speichern fehlgeschlagen</p>
+              <p className="mt-1 text-red-800">
+                {storageError}. Kreuzungen bleiben in diesem Tab sichtbar, gehen aber beim Schließen
+                verloren — bitte normalen Browser (kein Privatmodus) auf{' '}
+                <a href="https://adalbert.vercel.app" className="underline">
+                  adalbert.vercel.app
+                </a>{' '}
+                nutzen.
+              </p>
+            </div>
+          )}
           <div className="flex flex-wrap items-center justify-between gap-2">
             <p className="text-sm text-zinc-500">
               Frage {index + 1} / {questions.length}

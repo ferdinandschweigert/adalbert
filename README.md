@@ -14,6 +14,8 @@ Lernplattform für Medizinstudierende mit **zwei klaren Modulen**:
 🌐 **Live:** [https://adalbert.vercel.app](https://adalbert.vercel.app)
 
 > **Wichtig:** Nur diese URL nutzen. `adalbertanki.vercel.app` ist ein Duplikat — Fortschritt liegt im Browser und ist an die Domain gebunden.
+>
+> Kreuzungen sind **pro Browser** (kein Account). Privatmodus / anderer Rechner = leerer Stand. Backup auf der Startseite exportieren.
 
 > „Adalbert“ ist ein persönlicher Projektname — Open-Source-Lernhilfe ohne kommerziellen Namensanspruch.
 

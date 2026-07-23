@@ -1,5 +1,6 @@
 import { SiteHeader } from '@/components/SiteHeader';
 import { CanonicalHostBanner } from '@/components/CanonicalHostBanner';
+import { StorageHealthBanner } from '@/components/StorageHealthBanner';
 
 export function AltfragenShell({
   children,
@@ -12,6 +13,7 @@ export function AltfragenShell({
   return (
     <div className="min-h-screen bg-white">
       <CanonicalHostBanner />
+      <StorageHealthBanner />
       <SiteHeader active="kreuzen" context={subtitle ? `Kreuzen · ${subtitle}` : 'Kreuzen'} />
       <main className="container mx-auto px-6 py-8 md:py-10">{children}</main>
     </div>
