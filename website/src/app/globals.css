@@ -38,3 +38,43 @@ body {
   background: var(--background);
   color: var(--foreground);
 }
+
+@keyframes adalbert-bounce {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  35% {
+    transform: translateY(-10px) scale(1.06);
+  }
+  70% {
+    transform: translateY(-2px) scale(1.02);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes adalbert-sway {
+  0%,
+  100% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+}
+
+.adalbert-bounce {
+  animation: adalbert-bounce 0.45s ease-out;
+}
+
+.adalbert-sway {
+  animation: adalbert-sway 0.55s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .adalbert-bounce,
+  .adalbert-sway {
+    animation: none;
+  }
+}

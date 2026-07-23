@@ -1,9 +1,9 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
 import { HomeStats } from '@/components/HomeStats';
 import { CanonicalHostBanner } from '@/components/CanonicalHostBanner';
+import { AdalbertMascot } from '@/components/AdalbertMascot';
 import { Brain, ChevronRight, PenLine } from 'lucide-react';
 
 export default function Home() {
@@ -14,22 +14,7 @@ export default function Home() {
 
       <section className="border-b border-[#e2e8f0] bg-white">
         <div className="container mx-auto px-6 py-10 md:py-12">
-          <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
-            <Image
-              src="/adalbert-full.webp"
-              alt="Adalbert"
-              width={480}
-              height={720}
-              priority
-              className="mb-3 h-auto w-[88px] object-contain sm:w-[104px]"
-            />
-            <h1 className="text-3xl font-bold tracking-tight text-[#002F5D] md:text-4xl">
-              Adalbert
-            </h1>
-            <p className="mt-2 max-w-md text-sm text-zinc-600">
-              Altklausuren kreuzen (Fachschaft) oder Anki-Decks lokal anreichern.
-            </p>
-          </div>
+          <AdalbertMascot />
 
           <div className="mx-auto mt-7 grid max-w-3xl gap-3 sm:grid-cols-2 sm:gap-4">
             <Link
