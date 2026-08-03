@@ -54,12 +54,17 @@ export interface ExamSummary {
   questionCount: number;
 }
 
+/** Practice session mode: learn shows solutions immediately; exam only after submit. */
+export type PracticeMode = 'learn' | 'exam';
+
 /** Per-exam practice progress (resume where left off). */
 export interface ExamProgress {
   examId: string;
   currentIndex: number;
   selections: Record<number, string>;
   checked: number[];
+  /** learn = Lösung sofort; exam = Prüfungsmodus (Lösung erst nach Abgabe). */
+  practiceMode?: PracticeMode;
   /** ISO timestamp when the session started (first answer or first open). */
   startedAt?: string;
   /** ISO timestamp when each question index was checked. */

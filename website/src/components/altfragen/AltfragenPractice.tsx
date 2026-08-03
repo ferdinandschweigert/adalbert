@@ -9,6 +9,7 @@ import type {
   ExamProgress,
   OptionRationale,
   ParsedQuestion,
+  PracticeMode,
   QuestionStat,
   StoredExam,
 } from '@/lib/altfragenTypes';
@@ -32,6 +33,7 @@ import {
   ChevronDown,
   ChevronLeft,
   ChevronRight,
+  ClipboardCheck,
   LayoutGrid,
   Loader2,
   RotateCcw,
@@ -129,6 +131,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
           saveProgress(nextProgress);
         }
         if (!nextProgress.checkedAt) nextProgress.checkedAt = {};
+        if (!nextProgress.practiceMode) nextProgress.practiceMode = 'learn';
         setProgress(nextProgress);
         if (existing?.completedAt) setShowResult(true);
 
@@ -184,7 +187,17 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     progress?.selections[index] ?? progress?.selections[String(index) as unknown as number],
     optionCount
   );
+  const practiceMode: PracticeMode = progress?.practiceMode || 'learn';
+  const isExamMode = practiceMode === 'exam';
+  const examSubmitted = Boolean(progress?.completedAt);
+  /** In Prüfungsmodus: Lösungen erst nach Abgabe. */
+  const revealFeedback = !isExamMode || examSubmitted;
   const isChecked = progress?.checked.some((i) => Number(i) === index) ?? false;
+  const isAnswered = selection.includes('1');
+  /** Feedback / Sperre nur wenn Lösung sichtbar sein soll. */
+  const showFeedback = revealFeedback && isChecked;
+  /** Vor Abgabe im Prüfungsmodus frei änderbar; sonst nach dem Prüfen gesperrt. */
+  const answersLocked = isExamMode && !examSubmitted ? false : isChecked;
   const currentStat = question ? communityStats[String(question.number)] : undefined;
   const embeddedExplanation: QuestionExplanation | undefined = question
     ? question.explanation || question.optionRationales?.length
@@ -202,7 +215,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     (question ? explanations[question.number] : undefined) ?? embeddedExplanation;
 
   useEffect(() => {
-    if (!exam || !question || !isChecked) return;
+    if (!exam || !question || !showFeedback) return;
     // Prefer explanations already embedded in the exam payload.
     if (question.explanation || question.optionRationales?.length) return;
 
@@ -248,20 +261,40 @@ export function AltfragenPractice({ examId }: { examId: string }) {
       // Allow retry after unmount/remount (e.g. React Strict Mode).
       explanationFetchRef.current.delete(qNum);
     };
-  }, [exam, examId, question, isChecked, explanations]);
+  }, [exam, examId, question, showFeedback, explanations]);
 
   const navStatus = useCallback(
     (i: number): NavStatus => {
       if (!progress || !questions[i]) return 'unseen';
       if (i === progress.currentIndex && !showOverview && !showAuswertung && !showResult) return 'current';
-      if (!progress.checked.some((c) => Number(c) === i)) return 'unseen';
+      const sel =
+        progress.selections[i] ?? progress.selections[String(i) as unknown as number] ?? '';
+      const answered = sel.includes('1');
+      const locked = progress.checked.some((c) => Number(c) === i);
+
+      // Prüfungsmodus vor Abgabe: nur beantwortet / offen — kein Richtig/Falsch
+      if (isExamMode && !examSubmitted) {
+        return answered ? 'done' : 'unseen';
+      }
+
+      if (!locked) return answered && isExamMode ? 'done' : 'unseen';
       const q = questions[i];
-      const sel = progress.selections[i] ?? progress.selections[String(i) as unknown as number] ?? '';
       if (!hasAnswerKey(q)) return 'done';
       return isCorrect(q, sel) ? 'correct' : 'wrong';
     },
-    [progress, questions, showOverview, showAuswertung, showResult]
+    [progress, questions, showOverview, showAuswertung, showResult, isExamMode, examSubmitted]
   );
+
+  const answeredCount = useMemo(() => {
+    if (!exam || !progress) return 0;
+    let n = 0;
+    for (let i = 0; i < exam.questions.length; i++) {
+      const sel =
+        progress.selections[i] ?? progress.selections[String(i) as unknown as number] ?? '';
+      if (sel.includes('1')) n += 1;
+    }
+    return n;
+  }, [exam, progress]);
 
   const scoreSummary = useMemo(() => {
     if (!exam || !progress) {
@@ -278,20 +311,24 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     let correct = 0;
     let wrong = 0;
     let graded = 0;
+    // In Prüfungsmodus vor Abgabe: noch nicht bewerten
+    const shouldGrade = !isExamMode || examSubmitted;
     for (let i = 0; i < exam.questions.length; i++) {
-      if (!progress.checked.some((c) => Number(c) === i)) continue;
-      if (!hasAnswerKey(exam.questions[i])) continue;
-      graded += 1;
-      const sel =
-        progress.selections[i] ?? progress.selections[String(i) as unknown as number] ?? '';
-      if (isCorrect(exam.questions[i], sel)) correct += 1;
-      else wrong += 1;
+      if (shouldGrade) {
+        if (!progress.checked.some((c) => Number(c) === i)) continue;
+        if (!hasAnswerKey(exam.questions[i])) continue;
+        graded += 1;
+        const sel =
+          progress.selections[i] ?? progress.selections[String(i) as unknown as number] ?? '';
+        if (isCorrect(exam.questions[i], sel)) correct += 1;
+        else wrong += 1;
+      }
     }
     const startMs = progress.startedAt ? Date.parse(progress.startedAt) : NaN;
     const endMs = progress.completedAt ? Date.parse(progress.completedAt) : nowTick;
     const elapsedMs =
       Number.isFinite(startMs) && Number.isFinite(endMs) ? Math.max(0, endMs - startMs) : 0;
-    const checked = progress.checked.length;
+    const checked = shouldGrade ? progress.checked.length : answeredCount;
     return {
       correct,
       wrong,
@@ -301,7 +338,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
       elapsedMs,
       avgMs: checked > 0 ? elapsedMs / checked : 0,
     };
-  }, [exam, progress, nowTick]);
+  }, [exam, progress, nowTick, isExamMode, examSubmitted, answeredCount]);
 
   const goTo = (nextIndex: number) => {
     if (!progress) return;
@@ -309,7 +346,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     setShowResult(false);
     setShowOverview(false);
     setShowAuswertung(false);
-    persist({ ...progress, currentIndex: clamped, completedAt: undefined });
+    persist({ ...progress, currentIndex: clamped, completedAt: progress.completedAt });
   };
 
   const commitAnswer = (bits: string) => {
@@ -341,9 +378,20 @@ export function AltfragenPractice({ examId }: { examId: string }) {
   };
 
   const handleSelect = (optIndex: number) => {
-    if (!progress || !question || isChecked) return;
+    if (!progress || !question || answersLocked) return;
     const exclusive = question.type === 'SC';
     const nextBits = toggleBit(selection || emptyBits(optionCount), optIndex, exclusive);
+
+    // Prüfungsmodus: nur auswählen, keine Lösung zeigen
+    if (isExamMode && !examSubmitted) {
+      persist({
+        ...progress,
+        startedAt: progress.startedAt || new Date().toISOString(),
+        selections: { ...progress.selections, [index]: nextBits },
+      });
+      return;
+    }
+
     // SC: Klick = Auswahl + sofort Lösung zeigen
     if (exclusive) {
       commitAnswer(nextBits);
@@ -391,8 +439,113 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     commitAnswer(selection);
   };
 
+  const handleSetPracticeMode = (mode: PracticeMode) => {
+    if (!progress || mode === practiceMode) return;
+    if (mode === 'exam') {
+      const hasRevealed = progress.checked.length > 0 && !progress.completedAt;
+      if (
+        hasRevealed &&
+        !confirm(
+          'Prüfungsmodus aktivieren?\n\nBereits gezeigte Lösungen werden ausgeblendet. Deine Antworten bleiben erhalten.'
+        )
+      ) {
+        return;
+      }
+      persist({
+        ...progress,
+        practiceMode: 'exam',
+        checked: [],
+        checkedAt: {},
+        completedAt: undefined,
+      });
+      setShowResult(false);
+      setShowAuswertung(false);
+      return;
+    }
+    // Zurück zu Lernmodus
+    persist({
+      ...progress,
+      practiceMode: 'learn',
+      completedAt: undefined,
+    });
+    setShowResult(false);
+  };
+
+  const handleSubmitExam = () => {
+    if (!progress || !exam || examSubmitted) return;
+    const open = exam.questions.length - answeredCount;
+    if (answeredCount === 0) {
+      alert('Bitte zuerst mindestens eine Frage beantworten.');
+      return;
+    }
+    if (
+      open > 0 &&
+      !confirm(
+        `${open} Frage${open === 1 ? '' : 'n'} noch offen.\n\nTrotzdem abgeben und Lösungen anzeigen?`
+      )
+    ) {
+      return;
+    }
+    if (
+      open === 0 &&
+      !confirm('Klausur abgeben und alle Lösungen anzeigen?')
+    ) {
+      return;
+    }
+
+    const nowIso = new Date().toISOString();
+    const checked: number[] = [];
+    const checkedAt: Record<number, string> = { ...(progress.checkedAt || {}) };
+    for (let i = 0; i < exam.questions.length; i++) {
+      const sel =
+        progress.selections[i] ?? progress.selections[String(i) as unknown as number] ?? '';
+      if (!sel.includes('1')) continue;
+      checked.push(i);
+      if (!checkedAt[i]) checkedAt[i] = nowIso;
+      const q = exam.questions[i];
+      void reportStats(q, normalizeBits(sel, q.options.length));
+      try {
+        recordLocalKreuzung({
+          examId,
+          correct: isCorrect(q, sel),
+        });
+      } catch {
+        // ignore
+      }
+    }
+    persist({
+      ...progress,
+      practiceMode: 'exam',
+      checked,
+      checkedAt,
+      completedAt: nowIso,
+    });
+    setShowOverview(false);
+    setShowAuswertung(false);
+    setShowResult(true);
+  };
+
   const handleResetQuestion = () => {
-    if (!progress || !isChecked) return;
+    if (!progress) return;
+    if (isExamMode && !examSubmitted) {
+      if (!isAnswered) return;
+      if (
+        !confirm(
+          `Antwort bei Frage ${index + 1} löschen?\n\nAndere Fragen bleiben unverändert.`
+        )
+      ) {
+        return;
+      }
+      const nextSelections: Record<number, string> = { ...progress.selections };
+      delete nextSelections[index];
+      delete nextSelections[String(index) as unknown as number];
+      persist({
+        ...progress,
+        selections: nextSelections,
+      });
+      return;
+    }
+    if (!isChecked) return;
     if (
       !confirm(
         `Nur Frage ${index + 1} zurücksetzen?\n\nAndere Fragen bleiben unverändert.`
@@ -413,6 +566,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
       examId: progress.examId,
       currentIndex: progress.currentIndex,
       startedAt: progress.startedAt,
+      practiceMode: progress.practiceMode,
       selections: nextSelections,
       checked: nextChecked,
       checkedAt: nextCheckedAt,
@@ -427,8 +581,9 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     ) {
       return;
     }
+    const mode = progress?.practiceMode || 'learn';
     clearProgress(examId);
-    persist(createEmptyProgress(examId));
+    persist(createEmptyProgress(examId, mode));
     setShowResult(false);
     setShowOverview(false);
     setShowAuswertung(false);
@@ -487,6 +642,47 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     </div>
   );
 
+  const ModeToggle = ({ className }: { className?: string }) => (
+    <div className={cn('rounded-lg border border-[#e2e8f0] bg-[#f8fafc] p-2', className)}>
+      <p className="mb-1.5 px-0.5 text-[10px] font-semibold uppercase tracking-wide text-zinc-500">
+        Modus
+      </p>
+      <div className="grid grid-cols-2 gap-1">
+        <button
+          type="button"
+          onClick={() => handleSetPracticeMode('learn')}
+          className={cn(
+            'rounded-md px-2 py-1.5 text-xs font-medium transition',
+            !isExamMode
+              ? 'bg-[#002F5D] text-white'
+              : 'bg-white text-zinc-600 hover:bg-zinc-50'
+          )}
+          title="Lösung erscheint direkt nach der Antwort"
+        >
+          Lernen
+        </button>
+        <button
+          type="button"
+          onClick={() => handleSetPracticeMode('exam')}
+          className={cn(
+            'rounded-md px-2 py-1.5 text-xs font-medium transition',
+            isExamMode
+              ? 'bg-[#002F5D] text-white'
+              : 'bg-white text-zinc-600 hover:bg-zinc-50'
+          )}
+          title="Lösungen erst nach Abgabe der Klausur"
+        >
+          Prüfung
+        </button>
+      </div>
+      {isExamMode && !examSubmitted && (
+        <p className="mt-1.5 px-0.5 text-[10px] leading-snug text-zinc-500">
+          Keine Lösungen bis zur Abgabe.
+        </p>
+      )}
+    </div>
+  );
+
   if (showResult) {
     const pct = scoreSummary.graded
       ? Math.round((scoreSummary.correct / scoreSummary.graded) * 100)
@@ -516,6 +712,9 @@ export function AltfragenPractice({ examId }: { examId: string }) {
               </span>
               <span className="inline-flex items-center gap-1">
                 <span className="h-3 w-3 rounded bg-red-500" /> falsch
+              </span>
+              <span className="inline-flex items-center gap-1">
+                <span className="h-3 w-3 rounded bg-amber-400" /> beantwortet
               </span>
               <span className="inline-flex items-center gap-1">
                 <span className="h-3 w-3 rounded bg-zinc-200" /> offen
@@ -552,6 +751,30 @@ export function AltfragenPractice({ examId }: { examId: string }) {
   }
 
   if (showAuswertung) {
+    if (isExamMode && !examSubmitted) {
+      return (
+        <AltfragenShell subtitle={exam.title}>
+          <div className="mx-auto max-w-lg space-y-4 text-center">
+            <p className="text-zinc-600">
+              Im Prüfungsmodus erscheint die Auswertung erst nach der Abgabe.
+            </p>
+            <div className="flex flex-wrap justify-center gap-2">
+              <Button type="button" onClick={handleSubmitExam}>
+                <ClipboardCheck className="mr-2 h-4 w-4" />
+                Klausur abgeben
+              </Button>
+              <Button
+                type="button"
+                variant="outline"
+                onClick={() => setShowAuswertung(false)}
+              >
+                Zurück zur Frage
+              </Button>
+            </div>
+          </div>
+        </AltfragenShell>
+      );
+    }
     const pct = scoreSummary.graded
       ? Math.round((scoreSummary.correct / scoreSummary.graded) * 100)
       : 0;
@@ -673,26 +896,35 @@ export function AltfragenPractice({ examId }: { examId: string }) {
             <div>
               <h2 className="text-xl font-bold text-zinc-900">Fragenübersicht</h2>
               <p className="text-sm text-zinc-500">
-                {scoreSummary.checked} / {questions.length} geprüft · {scoreSummary.correct} richtig ·{' '}
-                {scoreSummary.wrong} falsch · {formatDuration(scoreSummary.elapsedMs)}
+                {isExamMode && !examSubmitted
+                  ? `${answeredCount} / ${questions.length} beantwortet · ${formatDuration(scoreSummary.elapsedMs)}`
+                  : `${scoreSummary.checked} / ${questions.length} geprüft · ${scoreSummary.correct} richtig · ${scoreSummary.wrong} falsch · ${formatDuration(scoreSummary.elapsedMs)}`}
               </p>
             </div>
             <div className="flex flex-wrap gap-2">
-              <Button
-                type="button"
-                onClick={() => {
-                  setShowOverview(false);
-                  setShowAuswertung(true);
-                }}
-              >
-                <BarChart3 className="mr-1.5 h-4 w-4" />
-                Auswertung
-              </Button>
+              {isExamMode && !examSubmitted ? (
+                <Button type="button" onClick={handleSubmitExam}>
+                  <ClipboardCheck className="mr-1.5 h-4 w-4" />
+                  Abgeben
+                </Button>
+              ) : (
+                <Button
+                  type="button"
+                  onClick={() => {
+                    setShowOverview(false);
+                    setShowAuswertung(true);
+                  }}
+                >
+                  <BarChart3 className="mr-1.5 h-4 w-4" />
+                  Auswertung
+                </Button>
+              )}
               <Button type="button" variant="outline" onClick={() => setShowOverview(false)}>
                 Zurück zur Frage
               </Button>
             </div>
           </div>
+          <ModeToggle className="max-w-xs" />
           <QuestionNav />
           <ul className="divide-y divide-[#e2e8f0] rounded-xl border border-[#e2e8f0] bg-white shadow-sm">
             {questions.map((q, i) => {
@@ -763,8 +995,11 @@ export function AltfragenPractice({ examId }: { examId: string }) {
             </p>
             <QuestionNav compact />
             <p className="px-1 text-xs text-zinc-500">
-              {scoreSummary.checked}/{questions.length} · {scoreSummary.correct} richtig
+              {isExamMode && !examSubmitted
+                ? `${answeredCount}/${questions.length} beantwortet`
+                : `${scoreSummary.checked}/${questions.length} · ${scoreSummary.correct} richtig`}
             </p>
+            <ModeToggle />
             <Button
               type="button"
               variant="outline"
@@ -775,16 +1010,28 @@ export function AltfragenPractice({ examId }: { examId: string }) {
               <LayoutGrid className="mr-1.5 h-3.5 w-3.5" />
               Übersicht
             </Button>
-            <Button
-              type="button"
-              variant="secondary"
-              size="sm"
-              className="w-full"
-              onClick={() => setShowAuswertung(true)}
-            >
-              <BarChart3 className="mr-1.5 h-3.5 w-3.5" />
-              Auswertung
-            </Button>
+            {isExamMode && !examSubmitted ? (
+              <Button
+                type="button"
+                size="sm"
+                className="w-full"
+                onClick={handleSubmitExam}
+              >
+                <ClipboardCheck className="mr-1.5 h-3.5 w-3.5" />
+                Klausur abgeben
+              </Button>
+            ) : (
+              <Button
+                type="button"
+                variant="secondary"
+                size="sm"
+                className="w-full"
+                onClick={() => setShowAuswertung(true)}
+              >
+                <BarChart3 className="mr-1.5 h-3.5 w-3.5" />
+                Auswertung
+              </Button>
+            )}
           </div>
         </aside>
 
@@ -792,6 +1039,11 @@ export function AltfragenPractice({ examId }: { examId: string }) {
           <div className="flex flex-wrap items-center justify-between gap-2">
             <p className="text-sm text-zinc-500">
               Frage {index + 1} / {questions.length}
+              {isExamMode && !examSubmitted ? (
+                <span className="ml-2 rounded-md bg-amber-50 px-1.5 py-0.5 text-xs font-medium text-amber-800">
+                  Prüfungsmodus
+                </span>
+              ) : null}
             </p>
             <div className="flex items-center gap-2">
               <Badge variant="secondary">{question.type}</Badge>
@@ -811,7 +1063,9 @@ export function AltfragenPractice({ examId }: { examId: string }) {
           <div className="h-1.5 overflow-hidden rounded-full bg-[#e2e8f0]">
             <div
               className="h-full rounded-full bg-[#002F5D] transition-all"
-              style={{ width: `${(scoreSummary.checked / Math.max(questions.length, 1)) * 100}%` }}
+              style={{
+                width: `${((isExamMode && !examSubmitted ? answeredCount : scoreSummary.checked) / Math.max(questions.length, 1)) * 100}%`,
+              }}
             />
           </div>
 
@@ -827,7 +1081,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                 const isRight = correctBits[optIndex] === '1';
                 const optionLabel = formatOptionLabel(opt);
                 let stateClass = 'border-[#e2e8f0] hover:border-[#002F5D]/40 hover:bg-[#f8fafc]';
-                if (isChecked) {
+                if (showFeedback) {
                   if (isRight) stateClass = 'border-emerald-400 bg-emerald-50';
                   else if (selected && !isRight) stateClass = 'border-red-300 bg-red-50';
                   else stateClass = 'border-[#e2e8f0] opacity-70';
@@ -853,12 +1107,12 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                   <li key={optIndex} className="space-y-1.5">
                     <button
                       type="button"
-                      disabled={isChecked}
+                      disabled={answersLocked}
                       onClick={() => handleSelect(optIndex)}
                       className={cn(
                         'flex w-full items-start gap-3 rounded-lg border px-3 py-3 text-left text-sm transition',
                         stateClass,
-                        isChecked && 'cursor-default'
+                        answersLocked && 'cursor-default'
                       )}
                     >
                       <span
@@ -880,7 +1134,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                         {optionLabel.text}
                       </span>
                       <span className="mt-0.5 flex shrink-0 items-center gap-2">
-                        {isChecked && optPct !== null && currentStat && currentStat.attempts >= 1 && (
+                        {showFeedback && optPct !== null && currentStat && currentStat.attempts >= 1 && (
                           <span
                             className="tabular-nums text-xs font-medium text-zinc-500"
                             title={`${optStat} von ${currentStat.attempts} Nutzern`}
@@ -888,20 +1142,20 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                             {optPct}%
                           </span>
                         )}
-                        {isChecked && isRight && (
+                        {showFeedback && isRight && (
                           <CheckCircle className="h-4 w-4 text-emerald-600" />
                         )}
-                        {isChecked && selected && !isRight && (
+                        {showFeedback && selected && !isRight && (
                           <XCircle className="h-4 w-4 text-red-500" />
                         )}
                       </span>
                     </button>
-                    {isChecked && rationale?.text && isRight && (
+                    {showFeedback && rationale?.text && isRight && (
                       <p className="border-l-2 border-emerald-400 px-3 py-1.5 text-sm leading-relaxed text-emerald-950">
                         {rationale.text}
                       </p>
                     )}
-                    {isChecked && rationale?.text && !isRight && distractorKey && (
+                    {showFeedback && rationale?.text && !isRight && distractorKey && (
                       <div className="border-l-2 border-red-300">
                         <button
                           type="button"
@@ -934,14 +1188,19 @@ export function AltfragenPractice({ examId }: { examId: string }) {
               })}
             </ul>
 
-            {question.type !== 'SC' && !isChecked && (
+            {isExamMode && !examSubmitted ? (
+              <p className="text-xs text-zinc-500">
+                {question.type === 'SC'
+                  ? 'Antwort antippen — Lösung erst nach Abgabe.'
+                  : 'Mehrfachauswahl möglich — Lösung erst nach Abgabe.'}
+              </p>
+            ) : question.type !== 'SC' && !isChecked ? (
               <p className="text-xs text-zinc-500">Mehrfachauswahl möglich — danach „Antwort prüfen“.</p>
-            )}
-            {question.type === 'SC' && !isChecked && (
+            ) : question.type === 'SC' && !isChecked ? (
               <p className="text-xs text-zinc-500">Antwort antippen — Lösung erscheint sofort.</p>
-            )}
+            ) : null}
 
-            {isChecked && (
+            {showFeedback && (
               <div
                 className={cn(
                   'rounded-lg px-3 py-3 text-sm',
@@ -978,14 +1237,14 @@ export function AltfragenPractice({ examId }: { examId: string }) {
               </div>
             )}
 
-            {isChecked && explanationLoading && !currentExplanation && (
+            {showFeedback && explanationLoading && !currentExplanation && (
               <p className="flex items-center gap-2 text-xs text-zinc-500">
                 <Loader2 className="h-3.5 w-3.5 animate-spin" />
                 Erklärung wird geladen…
               </p>
             )}
 
-            {isChecked && currentExplanation?.explanation && (
+            {showFeedback && currentExplanation?.explanation && (
               <div className="space-y-3 rounded-lg border border-[#cfe0f0] bg-[#f7fbfe] p-4">
                 <h3 className="text-sm font-semibold text-[#002F5D]">Erklärung</h3>
                 <p className="text-sm leading-relaxed text-zinc-800">
@@ -1005,7 +1264,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
               </div>
             )}
 
-            {isChecked &&
+            {showFeedback &&
               !explanationLoading &&
               !currentExplanation?.explanation &&
               !(currentExplanation?.optionRationales?.length) && (
@@ -1033,7 +1292,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                 size="sm"
                 className="h-8 gap-1.5 px-2 text-zinc-500 hover:text-zinc-900"
                 onClick={handleResetQuestion}
-                disabled={!isChecked}
+                disabled={isExamMode && !examSubmitted ? !isAnswered : !isChecked}
                 title="Nur diese eine Frage zurücksetzen"
                 aria-label="Nur diese Frage zurücksetzen"
               >
@@ -1042,7 +1301,21 @@ export function AltfragenPractice({ examId }: { examId: string }) {
               </Button>
             </div>
             <div className="flex gap-2">
-              {!isChecked && question.type !== 'SC' ? (
+              {isExamMode && !examSubmitted ? (
+                <>
+                  {index >= questions.length - 1 ? (
+                    <Button type="button" onClick={handleSubmitExam} disabled={answeredCount === 0}>
+                      <ClipboardCheck className="mr-1 h-4 w-4" />
+                      Abgeben
+                    </Button>
+                  ) : (
+                    <Button type="button" onClick={() => goTo(index + 1)}>
+                      Weiter
+                      <ChevronRight className="ml-1 h-4 w-4" />
+                    </Button>
+                  )}
+                </>
+              ) : !isChecked && question.type !== 'SC' ? (
                 <Button type="button" onClick={handleCheck} disabled={!selection.includes('1')}>
                   Antwort prüfen
                 </Button>
@@ -1062,9 +1335,16 @@ export function AltfragenPractice({ examId }: { examId: string }) {
           </div>
 
           {/* Mobile mini-nav */}
-          <div className="rounded-xl border border-[#e2e8f0] bg-white p-3 lg:hidden">
-            <p className="mb-2 text-xs font-medium text-zinc-500">Schnellnavigation</p>
+          <div className="space-y-3 rounded-xl border border-[#e2e8f0] bg-white p-3 lg:hidden">
+            <ModeToggle />
+            <p className="text-xs font-medium text-zinc-500">Schnellnavigation</p>
             <QuestionNav compact />
+            {isExamMode && !examSubmitted && (
+              <Button type="button" className="w-full" size="sm" onClick={handleSubmitExam}>
+                <ClipboardCheck className="mr-1.5 h-3.5 w-3.5" />
+                Klausur abgeben
+              </Button>
+            )}
           </div>
         </div>
       </div>

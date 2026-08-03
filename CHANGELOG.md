@@ -29,6 +29,7 @@ Kurze Übersicht der wichtigsten Änderungen.
 - Live-URL: **https://adalbert.vercel.app**
 
 ### Altfragen / Kreuzen
+- **Prüfungsmodus:** Umschalter Lernen ↔ Prüfung — Lösungen, Erklärungen und Richtig/Falsch erst nach „Klausur abgeben“
 - **Öffentlich nur Kreuzen**; Admin-Panel für Upload & Freigabe
 - **M2 SS26** (~319) + **M2 2025-A** (320 Fragen, 3 PDFs als eine Klausur)
 - Amboss-Style UI, Auswertung (richtig/falsch/Zeit), Einzel-Reset

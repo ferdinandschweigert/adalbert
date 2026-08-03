@@ -22,7 +22,8 @@ Zwei Module auf einer Plattform: **Kreuzen** und **Anki**.
 |---------|--------|
 | Klausur-Liste (freigegeben) | ✅ |
 | Amboss-Style Übung (Nav, Übersicht, Sprung) | ✅ |
-| SC: Klick = Lösung | ✅ |
+| SC: Klick = Lösung | ✅ | Lernmodus |
+| Prüfungsmodus (Lösungen erst nach Abgabe) | ✅ | Umschalter Lernen ↔ Prüfung |
 | Auswertung (richtig/falsch/Zeit) | ✅ |
 | Einzelne Frage zurücksetzen | ✅ |
 | Community-% pro Option | ✅ (echte Kreuzungen) |
@@ -54,7 +55,7 @@ Zwei Module auf einer Plattform: **Kreuzen** und **Anki**.
 | Thema | Status | Notiz |
 |-------|--------|--------|
 | Fach-/Jahr-Filter für Klausuren | 🔲 | |
-| Prüfungssimulation mit Zeitlimit | 🔲 | Auswertung schon da |
+| Prüfungssimulation mit Zeitlimit | 🔲 | Prüfungsmodus (ohne Timer) schon da |
 | Fachspezifische Prompt-Templates | 🔲 | |
 | Spaced Repetition im Kreuzen | 🔲 | |
 | Echte medizinische Option-Erklärungen | 🔲 | Fake-Texte entfernt |

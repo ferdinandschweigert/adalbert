@@ -29,12 +29,16 @@ export function clearProgress(examId: string): void {
   localStorage.removeItem(PROGRESS_PREFIX + examId);
 }
 
-export function createEmptyProgress(examId: string): ExamProgress {
+export function createEmptyProgress(
+  examId: string,
+  practiceMode: ExamProgress['practiceMode'] = 'learn'
+): ExamProgress {
   return {
     examId,
     currentIndex: 0,
     selections: {},
     checked: [],
+    practiceMode: practiceMode || 'learn',
     startedAt: new Date().toISOString(),
     checkedAt: {},
   };
