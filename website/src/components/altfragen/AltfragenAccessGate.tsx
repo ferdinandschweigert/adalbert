@@ -84,11 +84,10 @@ export function AltfragenAccessGate({ children }: { children: React.ReactNode })
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Lock className="h-5 w-5 text-[#002F5D]" />
-              Fachschafts-Zugang
+              Zugang
             </CardTitle>
             <CardDescription>
-              Offizielle Staatsexamensfragen dürfen nicht öffentlich im Netz stehen. Der Zugang
-              läuft über den Code der Fachschaft / Altklausuren-Datenbank (Forum, Drive, Intranet).
+              Diese Klausuren sind passwortgeschützt. Bitte den geteilten Zugangscode eingeben.
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-3">
@@ -113,7 +112,7 @@ export function AltfragenAccessGate({ children }: { children: React.ReactNode })
             </Button>
             {error && <p className="text-sm text-red-700">{error}</p>}
             <p className="text-xs text-zinc-500">
-              Kein Account nötig — nur der geteilte Code. Danach kannst du ohne Login kreuzen.
+              Kein Account nötig — nur der geteilte Code.
             </p>
           </CardContent>
         </Card>

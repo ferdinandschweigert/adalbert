@@ -325,7 +325,7 @@ export function AdalbertMascot() {
       </button>
 
       <p className="mt-2 max-w-md text-sm text-zinc-600">
-        Altklausuren kreuzen (Fachschaft) oder Anki-Decks lokal anreichern.
+        Altklausuren kreuzen oder Anki-Decks lokal anreichern.
       </p>
       <span
         className={cn(

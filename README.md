@@ -8,7 +8,7 @@ Lernplattform für Medizinstudierende mit **zwei klaren Modulen**:
 
 | Modul | Was es tut | Wo |
 |-------|------------|-----|
-| **Kreuzen** | Freigegebene Staatsexamen-/Gedächtnisprotokoll-Fragen üben (Fachschafts-Code) | [`/altfragen`](https://adalbert.vercel.app/altfragen) |
+| **Kreuzen** | Freigegebene Staatsexamen-/Gedächtnisprotokoll-Fragen üben | [`/altfragen`](https://adalbert.vercel.app/altfragen) |
 | **Anki** | Decks **lokal** anreichern & nach Anki Desktop synchen | lokal `/anki` + MCP in Cursor |
 
 🌐 **Live:** [https://adalbert.vercel.app](https://adalbert.vercel.app)
@@ -19,11 +19,11 @@ Lernplattform für Medizinstudierende mit **zwei klaren Modulen**:
 
 ---
 
-## Teilen (Fachschaft)
+## Teilen / Zugang
 
-Das **Repo ist öffentlich** (Code + Fragenbank in Git). Der Zugangscode schützt nur die **Live-Site** (`/altfragen`), nicht den GitHub-Clone.
+Das **Repo ist öffentlich** (Code + Fragenbank in Git). Der optionale Zugangscode schützt nur die **Live-Site** (`/altfragen`), nicht den GitHub-Clone.
 
-- Mitstudierende: Live-URL + `ALTFRAGEN_ACCESS_CODE`
+- Üben: Live-URL (+ `ALTFRAGEN_ACCESS_CODE`, falls gesetzt)
 - Admin: `ALTFRAGEN_ADMIN_PASSWORD` (Pflicht, kein Default) — siehe [SETUP.md](SETUP.md)
 
 **Anki** auf dem Live-Host nur lokal nutzbar (AnkiConnect).
@@ -33,8 +33,8 @@ Das **Repo ist öffentlich** (Code + Fragenbank in Git). Der Zugangscode schütz
 ## Schnellüberblick
 
 ### Kreuzen (Website)
-- Klausur-Liste und Amboss-Style Übungsmodus hinter optionalem Fachschafts-Code
-- Sofort-Feedback bei SC, Übersicht, Auswertung (richtig/falsch/Zeit)
+- Klausur-Liste und Amboss-Style Übungsmodus (optionaler Zugangscode)
+- Lernmodus (sofort Feedback) oder Prüfungsmodus (Lösung nach Abgabe)
 - Admin (`/altfragen/admin`): Upload, Konvertierung, Freigabe
 - Community-Stats nur mit gültigem Zugang (wenn Code aktiv)
 
@@ -54,7 +54,7 @@ Aktuell u. a.:
 
 | Datei | Inhalt |
 |-------|--------|
-| [SETUP.md](SETUP.md) | Installation, Fachschafts-Teilen, Env |
+| [SETUP.md](SETUP.md) | Installation, Zugangscode, Env |
 | [FEATURES.md](FEATURES.md) | Status & Roadmap |
 | [CHANGELOG.md](CHANGELOG.md) | Änderungsverlauf |
 

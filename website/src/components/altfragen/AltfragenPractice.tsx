@@ -617,7 +617,12 @@ export function AltfragenPractice({ examId }: { examId: string }) {
   }
 
   const QuestionNav = ({ compact }: { compact?: boolean }) => (
-    <div className={cn('flex flex-wrap gap-1.5', compact && 'max-h-48 overflow-y-auto')}>
+    <div
+      className={cn(
+        'grid grid-cols-5 gap-1.5 sm:grid-cols-8 lg:grid-cols-5',
+        compact && 'max-h-56 overflow-y-auto overflow-x-hidden pr-0.5'
+      )}
+    >
       {questions.map((q, i) => {
         const status = navStatus(i);
         return (
@@ -627,8 +632,9 @@ export function AltfragenPractice({ examId }: { examId: string }) {
             onClick={() => goTo(i)}
             title={`Frage ${i + 1}`}
             className={cn(
-              'flex h-8 w-8 items-center justify-center rounded-md text-xs font-semibold transition',
-              status === 'current' && 'bg-[#002F5D] text-white ring-2 ring-[#2C94CC]',
+              'flex aspect-square w-full items-center justify-center rounded-md text-xs font-semibold transition',
+              status === 'current' &&
+                'bg-[#002F5D] text-white outline outline-2 outline-offset-1 outline-[#2C94CC]',
               status === 'unseen' && 'bg-zinc-100 text-zinc-600 hover:bg-[#eef5fb]',
               status === 'correct' && 'bg-emerald-500 text-white hover:bg-emerald-600',
               status === 'wrong' && 'bg-red-500 text-white hover:bg-red-600',
@@ -986,7 +992,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
 
   return (
     <AltfragenShell subtitle={exam.title}>
-      <div className="mx-auto grid max-w-6xl gap-6 lg:grid-cols-[220px_1fr]">
+      <div className="mx-auto grid max-w-6xl gap-6 lg:grid-cols-[240px_1fr]">
         {/* Amboss-style side navigator */}
         <aside className="hidden lg:block">
           <div className="sticky top-6 space-y-3 rounded-xl border border-[#e2e8f0] bg-white p-3 shadow-sm">

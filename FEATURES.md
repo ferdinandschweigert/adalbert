@@ -28,9 +28,10 @@ Zwei Module auf einer Plattform: **Kreuzen** und **Anki**.
 | Einzelne Frage zurücksetzen | ✅ |
 | Community-% pro Option | ✅ (echte Kreuzungen) |
 | Admin Upload / Publish | ✅ |
-| Optionaler Zugangscode | ✅ | empfohlen vor Fachschafts-Teilen |
+| Optionaler Zugangscode | ✅ | optional vor dem Teilen |
 | Admin ohne Default-Passwort | ✅ | `ALTFRAGEN_ADMIN_PASSWORD` Pflicht |
 | Stats hinter Zugangscode | ✅ | pro-Klausur Stats-API |
+| FAQ auf Klausur-Liste | ✅ | Lernen / Prüfung / Farben |
 | M2 SS26 Gedächtnisprotokoll | ✅ (~319) |
 | M2 2025-A Staatsexamen | ✅ (320) |
 

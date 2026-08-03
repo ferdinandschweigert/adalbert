@@ -9,11 +9,11 @@ Kurze Übersicht der wichtigsten Änderungen.
 ### Easter Egg
 - **Startseite:** Klick auf Adalbert spielt den Nick Song; Player erscheint ganz unten auf der Seite; Stop an der Figur / nochmal klicken
 
-### Share-Readiness (Fachschaft)
+### Share-Readiness
 - **Admin:** kein Default-Passwort mehr; Session-Token statt Klartext-Passwort in Cookie/Session
 - **Stats-API** pro Klausur hinter demselben Zugangscode wie die Fragen
 - **Anki** auf Startseite/`/anki` klar als lokal (AnkiConnect); Host-Banner verbessert
-- Doku: Checkliste „Teilen mit der Fachschaft“ in SETUP/README
+- Doku: Checkliste „Teilen / Zugangscode“ in SETUP/README
 
 ### Kreuzungsdaten / Persistenz
 - Legacy-Exam-IDs (UUID → Slug) werden aus `localStorage` migriert
@@ -30,11 +30,14 @@ Kurze Übersicht der wichtigsten Änderungen.
 
 ### Altfragen / Kreuzen
 - **Prüfungsmodus:** Umschalter Lernen ↔ Prüfung — Lösungen, Erklärungen und Richtig/Falsch erst nach „Klausur abgeben“
+- **FAQ** auf der Klausur-Liste (Kurz erklärt)
+- Fragen-Navigation als festes Raster (kein Lücken-Wrap)
+- Fachschafts-Wording entfernt (neutraler Zugangscode)
 - **Öffentlich nur Kreuzen**; Admin-Panel für Upload & Freigabe
 - **M2 SS26** (~319) + **M2 2025-A** (320 Fragen, 3 PDFs als eine Klausur)
 - Amboss-Style UI, Auswertung (richtig/falsch/Zeit), Einzel-Reset
 - Community-Stats ohne Seed-Daten; Fake-Erklärungen entfernt
-- Optionaler Fachschafts-Zugang; schlankere Exam-API (ohne Rationales-Blob)
+- Optionaler Zugangscode; schlankere Exam-API (ohne Rationales-Blob)
 - Favicon/Mark Adalbert; Header ohne Oval-Crop
 
 ### Anki

@@ -26,7 +26,7 @@
 
 ## Recommendations
 
-### Fachschaft sharing
+### Sharing / access code
 - Set `ALTFRAGEN_ACCESS_CODE` + strong `ALTFRAGEN_ADMIN_PASSWORD` on Vercel
 - Share live URL + code privately; Anki stays local-only
 

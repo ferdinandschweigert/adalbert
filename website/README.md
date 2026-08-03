@@ -25,10 +25,10 @@ Siehe Repo-Root: [SETUP.md](../SETUP.md), [README.md](../README.md).
 
 Vercel **Root Directory** = `website`.
 
-Vor Fachschafts-Teilen auf Vercel setzen:
+Vor dem Teilen auf Vercel setzen:
 - `ALTFRAGEN_ACCESS_CODE`
 - `ALTFRAGEN_ADMIN_PASSWORD` (Pflicht, kein Default)
 
 Anki auf dem Live-Host ist nur Info/Companion — Anreicherung läuft **lokal** (`npm run dev` + AnkiConnect).
 
-Siehe Repo-Root: [SETUP.md](../SETUP.md) (Checkliste Teilen), [README.md](../README.md).
+Siehe Repo-Root: [SETUP.md](../SETUP.md) (Checkliste Zugang), [README.md](../README.md).

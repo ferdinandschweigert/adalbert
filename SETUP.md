@@ -59,27 +59,27 @@ npm run dev
 
 http://localhost:3000
 
-- **Kreuzen:** `/altfragen` (Fachschafts-Code, wenn gesetzt)
+- **Kreuzen:** `/altfragen` (Zugangscode, wenn gesetzt)
 - **Anki-Dashboard:** `/anki` — **nur lokal** mit AnkiConnect + LLM-Key; auf dem Live-Host deaktiviert
 
 Beispiel `.env.local`:
 
 ```
 ALTFRAGEN_ADMIN_PASSWORD=dein-starkes-admin-passwort
-ALTFRAGEN_ACCESS_CODE=dein-fachschafts-code
+ALTFRAGEN_ACCESS_CODE=dein-zugangscode
 LLM_PROVIDER=gemini
 GEMINI_API_KEY=dein-api-key
 ```
 
 ---
 
-## 4. Altfragen / Kreuzen — Teilen mit der Fachschaft
+## 4. Altfragen / Kreuzen — Teilen & Zugang
 
-Ziel: Mitstudierende üben freigegebene Klausuren unter einem gemeinsamen Zugangscode. Anki bleibt Companion für den eigenen Rechner.
+Ziel: Freigegebene Klausuren unter einem gemeinsamen Zugangscode üben. Anki bleibt Companion für den eigenen Rechner.
 
 | Rolle | URL | Zugang |
 |-------|-----|--------|
-| Studierende | `/altfragen` | `ALTFRAGEN_ACCESS_CODE` |
+| Üben | `/altfragen` | `ALTFRAGEN_ACCESS_CODE` (optional) |
 | Admin | `/altfragen/admin` | `ALTFRAGEN_ADMIN_PASSWORD` (**Pflicht**, kein Default) |
 
 ### Checkliste vor dem Teilen
@@ -99,7 +99,7 @@ Das GitHub-Repo ist öffentlich — inkl. `website/data/altfragen-bank.json`. De
 | Variable | Zweck |
 |----------|--------|
 | `ALTFRAGEN_ADMIN_PASSWORD` | Admin-Login (**erforderlich**) |
-| `ALTFRAGEN_ACCESS_CODE` | Fachschafts-Code (**empfohlen vor Teilen**) |
+| `ALTFRAGEN_ACCESS_CODE` | Optionaler Zugangscode (**empfohlen vor Teilen**) |
 | `GEMINI_API_KEY` / LLM-Keys | PDF/Text-Konvertierung, Erklärungen |
 | `ALTFRAGEN_GITHUB_TOKEN` | Persistente Bank + Stats auf Vercel |
 | `ALTFRAGEN_GITHUB_REPO` | Default `ferdinandschweigert/adalbert` |

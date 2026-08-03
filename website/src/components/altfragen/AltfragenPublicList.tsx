@@ -5,7 +5,8 @@ import Link from 'next/link';
 import { AltfragenShell } from '@/components/altfragen/AltfragenShell';
 import { Button } from '@/components/ui/button';
 import type { ExamSummary } from '@/lib/altfragenTypes';
-import { AlertCircle, Loader2, Play } from 'lucide-react';
+import { AlertCircle, ChevronDown, Loader2, Play } from 'lucide-react';
+import { cn } from '@/lib/utils';
 
 function formatDate(iso: string): string {
   try {
@@ -17,6 +18,68 @@ function formatDate(iso: string): string {
   } catch {
     return iso;
   }
+}
+
+const FAQ_ITEMS: Array<{ q: string; a: string }> = [
+  {
+    q: 'Wie funktioniert Kreuzen?',
+    a: 'Wähle eine Klausur, tippe Antworten an und springe über die Nummernleiste zwischen Fragen. Dein Fortschritt bleibt lokal im Browser gespeichert.',
+  },
+  {
+    q: 'Was ist Lernen vs. Prüfung?',
+    a: 'Im Lernmodus siehst du die Lösung direkt nach der Antwort. Im Prüfungsmodus bleiben Lösungen verborgen, bis du die Klausur abgibst — dann kommt die Auswertung.',
+  },
+  {
+    q: 'Was bedeuten die Farben bei den Fragen?',
+    a: 'Grün = richtig, Rot = falsch, Amber = beantwortet (Prüfungsmodus), Grau = noch offen. Die aktuelle Frage ist dunkelblau markiert.',
+  },
+  {
+    q: 'Kann ich einzelne Fragen zurücksetzen?',
+    a: 'Ja — unter der Frage gibt es „Frage“ zum Zurücksetzen nur dieser Antwort. „Neu starten“ löscht den gesamten Fortschritt der Klausur.',
+  },
+  {
+    q: 'Woher kommen die Erklärungen?',
+    a: 'Soweit hinterlegt, erscheinen nach dem Prüfen bzw. nach der Abgabe kurze Erklärungen und Option-Hinweise. Community-% zeigt, wie oft andere dieselbe Option gewählt haben.',
+  },
+];
+
+function FaqSection() {
+  const [open, setOpen] = useState<number | null>(0);
+
+  return (
+    <section className="space-y-3">
+      <div>
+        <h3 className="text-lg font-semibold text-zinc-900">Kurz erklärt</h3>
+        <p className="text-sm text-zinc-500">FAQ zum Übungs- und Prüfungsmodus</p>
+      </div>
+      <ul className="divide-y divide-[#e2e8f0] overflow-hidden rounded-xl border border-[#e2e8f0] bg-white shadow-sm">
+        {FAQ_ITEMS.map((item, i) => {
+          const isOpen = open === i;
+          return (
+            <li key={item.q}>
+              <button
+                type="button"
+                onClick={() => setOpen(isOpen ? null : i)}
+                className="flex w-full items-center justify-between gap-3 px-4 py-3 text-left hover:bg-[#f8fafc]"
+                aria-expanded={isOpen}
+              >
+                <span className="text-sm font-medium text-zinc-800">{item.q}</span>
+                <ChevronDown
+                  className={cn(
+                    'h-4 w-4 shrink-0 text-zinc-400 transition-transform',
+                    isOpen && 'rotate-180'
+                  )}
+                />
+              </button>
+              {isOpen && (
+                <p className="px-4 pb-3 text-sm leading-relaxed text-zinc-600">{item.a}</p>
+              )}
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  );
 }
 
 export function AltfragenPublicList() {
@@ -55,7 +118,7 @@ export function AltfragenPublicList() {
           </h2>
           <p className="max-w-2xl text-zinc-600">
             Wähle eine freigegebene Klausur und übe im Multiple-Choice-Format — ohne Login.
-            Bei aktiviertem Fachschafts-Code reicht der geteilte Zugangscode (kein Account).
+            Umschaltbar zwischen Lernmodus (Lösung sofort) und Prüfungsmodus (Lösung erst nach Abgabe).
           </p>
         </section>
 
@@ -109,6 +172,8 @@ export function AltfragenPublicList() {
             ))}
           </ul>
         )}
+
+        <FaqSection />
       </div>
     </AltfragenShell>
   );

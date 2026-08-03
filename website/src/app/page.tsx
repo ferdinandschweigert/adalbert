@@ -34,7 +34,7 @@ export default function Home() {
                     Altklausuren
                     <ChevronRight className="h-4 w-4 opacity-60 transition group-hover:translate-x-0.5" />
                   </span>
-                  <span className="mt-0.5 block text-sm text-zinc-500">Kreuzen · Fachschafts-Code</span>
+                  <span className="mt-0.5 block text-sm text-zinc-500">Kreuzen · Lern- & Prüfungsmodus</span>
                 </span>
               </Link>
 

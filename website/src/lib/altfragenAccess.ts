@@ -38,7 +38,7 @@ export function hasAccessCookie(request: Request): boolean {
   }
 }
 
-/** 401 when Fachschaft access is enabled and the request has no valid access cookie. */
+/** 401 when access control is enabled and the request has no valid access cookie. */
 export function accessUnauthorizedIfNeeded(request: Request): Response | null {
   if (!isAccessControlEnabled() || hasAccessCookie(request)) return null;
   return Response.json(
