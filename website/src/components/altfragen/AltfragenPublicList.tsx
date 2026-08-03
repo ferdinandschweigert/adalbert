@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { AltfragenShell } from '@/components/altfragen/AltfragenShell';
 import { Button } from '@/components/ui/button';
 import type { ExamSummary } from '@/lib/altfragenTypes';
-import { AlertCircle, ChevronDown, Loader2, Play } from 'lucide-react';
+import { AlertCircle, ChevronDown, Info, Loader2, Play } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 function formatDate(iso: string): string {
@@ -41,7 +41,30 @@ const FAQ_ITEMS: Array<{ q: string; a: string }> = [
     q: 'Woher kommen die Erklärungen?',
     a: 'Soweit hinterlegt, erscheinen nach dem Prüfen bzw. nach der Abgabe kurze Erklärungen und Option-Hinweise. Community-% zeigt, wie oft andere dieselbe Option gewählt haben.',
   },
+  {
+    q: 'Sind Texte und Erklärungen geprüft?',
+    a: 'Nein — Übertragung der Fragen und die Erklärungen sind KI-generiert und können Fehler enthalten. Im Zweifel Originalquellen und Lehrbücher prüfen.',
+  },
 ];
+
+function AiDisclaimer() {
+  return (
+    <aside
+      className="flex gap-3 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-950"
+      role="note"
+    >
+      <Info className="mt-0.5 h-4 w-4 shrink-0 text-amber-700" aria-hidden />
+      <div className="space-y-1">
+        <p className="font-medium">Hinweis zur KI</p>
+        <p className="leading-relaxed text-amber-900/90">
+          Die Übertragung der Klausurfragen sowie alle Erklärungen und Option-Hinweise sind
+          KI-generiert. Sie können unvollständig oder falsch sein und ersetzen keine offiziellen
+          Prüfungsunterlagen oder Fachliteratur.
+        </p>
+      </div>
+    </aside>
+  );
+}
 
 function FaqSection() {
   const [open, setOpen] = useState<number | null>(0);
@@ -121,6 +144,8 @@ export function AltfragenPublicList() {
             Umschaltbar zwischen Lernmodus (Lösung sofort) und Prüfungsmodus (Lösung erst nach Abgabe).
           </p>
         </section>
+
+        <AiDisclaimer />
 
         {loading && (
           <div className="flex items-center gap-2 text-sm text-zinc-500">

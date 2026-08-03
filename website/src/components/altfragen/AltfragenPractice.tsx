@@ -1253,6 +1253,9 @@ export function AltfragenPractice({ examId }: { examId: string }) {
             {showFeedback && currentExplanation?.explanation && (
               <div className="space-y-3 rounded-lg border border-[#cfe0f0] bg-[#f7fbfe] p-4">
                 <h3 className="text-sm font-semibold text-[#002F5D]">Erklärung</h3>
+                <p className="text-xs text-zinc-500">
+                  KI-generiert — bitte kritisch prüfen.
+                </p>
                 <p className="text-sm leading-relaxed text-zinc-800">
                   {currentExplanation.explanation}
                 </p>
