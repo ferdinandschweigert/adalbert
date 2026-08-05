@@ -8,7 +8,7 @@ Kurze Übersicht der wichtigsten Änderungen.
 
 ### Kreuzen · UI
 - **Changelog** im Footer als Popup, nach Monat gruppiert
-- **KI-Hinweis** auf der Klausur-Liste kompakt (i KI) — Volltext per Klick
+- **KI-Hinweis** auf der Klausur-Liste kompakt (Info-Icon + KI) — Volltext per Klick
 - Site-Footer auch auf Kreuzen-Seiten
 
 ---

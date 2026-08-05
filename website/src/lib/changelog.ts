@@ -20,7 +20,7 @@ export const CHANGELOG_MONTHS: ChangelogMonth[] = [
         title: 'Kreuzen · UI',
         items: [
           '**Changelog** im Footer als Popup, nach Monat gruppiert',
-          '**KI-Hinweis** auf der Klausur-Liste kompakt (i KI) — Volltext per Klick',
+          '**KI-Hinweis** auf der Klausur-Liste kompakt (Info-Icon + KI) — Volltext per Klick',
           'Site-Footer auch auf Kreuzen-Seiten',
         ],
       },

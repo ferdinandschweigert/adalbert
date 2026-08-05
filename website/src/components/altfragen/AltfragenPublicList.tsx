@@ -91,14 +91,16 @@ function AiDisclaimer() {
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
         aria-controls={panelId}
+        aria-label="Hinweis zur KI"
+        title="Hinweis zur KI"
         className={cn(
-          'inline-flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium transition',
+          'inline-flex items-center gap-1.5 rounded-md border px-2 py-1 text-xs font-medium transition',
           open
             ? 'border-amber-300 bg-amber-50 text-amber-900'
             : 'border-amber-200 bg-white text-amber-800 hover:border-amber-300 hover:bg-amber-50'
         )}
       >
-        <Info className="h-3.5 w-3.5 shrink-0 text-amber-700" aria-hidden />
+        <Info className="h-4 w-4 shrink-0 text-amber-700" aria-hidden />
         <span>KI</span>
       </button>
       {open && (

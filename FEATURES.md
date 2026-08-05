@@ -32,7 +32,7 @@ Zwei Module auf einer Plattform: **Kreuzen** und **Anki**.
 | Admin ohne Default-Passwort | ✅ | `ALTFRAGEN_ADMIN_PASSWORD` Pflicht |
 | Stats hinter Zugangscode | ✅ | pro-Klausur Stats-API |
 | FAQ auf Klausur-Liste | ✅ | Lernen / Prüfung / Farben |
-| Kompakter KI-Hinweis (i KI) | ✅ | Volltext per Klick |
+| Kompakter KI-Hinweis (Info-Icon + KI) | ✅ | Volltext per Klick |
 | Changelog-Popup im Footer | ✅ | nach Monat; auch auf Kreuzen-Seiten |
 | M2 SS26 Gedächtnisprotokoll | ✅ (~319) |
 | M2 2025-A Staatsexamen | ✅ (320) |
