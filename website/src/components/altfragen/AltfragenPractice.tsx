@@ -117,8 +117,8 @@ export function AltfragenPractice({ examId }: { examId: string }) {
       setLoadError(null);
       try {
         const [examRes, statsRes] = await Promise.all([
-          fetch(`/api/altfragen/exams/${examId}`, { cache: 'no-store' }),
-          fetch(`/api/altfragen/exams/${examId}/stats`, { cache: 'no-store' }),
+          fetch(`/api/altfragen/exams/${examId}`, { credentials: 'same-origin' }),
+          fetch(`/api/altfragen/exams/${examId}/stats`, { credentials: 'same-origin' }),
         ]);
         const examData = await examRes.json();
         if (!examRes.ok) throw new Error(examData.error || 'Klausur nicht gefunden');
@@ -214,24 +214,16 @@ export function AltfragenPractice({ examId }: { examId: string }) {
   const currentExplanation =
     (question ? explanations[question.number] : undefined) ?? embeddedExplanation;
 
-  useEffect(() => {
-    if (!exam || !question || !showFeedback) return;
-    // Prefer explanations already embedded in the exam payload.
-    if (question.explanation || question.optionRationales?.length) return;
-
-    const qNum = question.number;
-    if (explanations[qNum] || explanationFetchRef.current.has(qNum)) return;
-
-    const controller = new AbortController();
-    explanationFetchRef.current.add(qNum);
-    setExplanationLoading(true);
-
-    (async () => {
+  const fetchExplanation = useCallback(
+    async (qNum: number, opts?: { signal?: AbortSignal; showLoading?: boolean }) => {
+      if (explanationFetchRef.current.has(qNum)) return;
+      explanationFetchRef.current.add(qNum);
+      if (opts?.showLoading) setExplanationLoading(true);
       try {
-        const res = await fetch(
-          `/api/altfragen/exams/${examId}/questions/${qNum}/explanation`,
-          { cache: 'no-store', signal: controller.signal, credentials: 'same-origin' }
-        );
+        const res = await fetch(`/api/altfragen/exams/${examId}/questions/${qNum}/explanation`, {
+          signal: opts?.signal,
+          credentials: 'same-origin',
+        });
         const data = await res.json();
         if (!res.ok) {
           explanationFetchRef.current.delete(qNum);
@@ -252,16 +244,41 @@ export function AltfragenPractice({ examId }: { examId: string }) {
         explanationFetchRef.current.delete(qNum);
         if (err instanceof DOMException && err.name === 'AbortError') return;
       } finally {
-        if (!controller.signal.aborted) setExplanationLoading(false);
+        if (opts?.showLoading && !opts.signal?.aborted) setExplanationLoading(false);
       }
-    })();
+    },
+    [examId]
+  );
+
+  useEffect(() => {
+    if (!exam || !question || !showFeedback) return;
+    // Prefer explanations already embedded in the exam payload.
+    if (question.explanation || question.optionRationales?.length) return;
+
+    const qNum = question.number;
+    const controller = new AbortController();
+
+    if (!explanations[qNum]) {
+      void fetchExplanation(qNum, { signal: controller.signal, showLoading: true });
+    }
+
+    // Prefetch next question explanation so “Weiter” stays snappy in Lernmodus.
+    const nextQ = questions[index + 1];
+    if (
+      nextQ &&
+      !explanations[nextQ.number] &&
+      !nextQ.explanation &&
+      !nextQ.optionRationales?.length
+    ) {
+      void fetchExplanation(nextQ.number);
+    }
 
     return () => {
       controller.abort();
       // Allow retry after unmount/remount (e.g. React Strict Mode).
       explanationFetchRef.current.delete(qNum);
     };
-  }, [exam, examId, question, showFeedback, explanations]);
+  }, [exam, question, showFeedback, explanations, fetchExplanation, questions, index]);
 
   const navStatus = useCallback(
     (i: number): NavStatus => {
@@ -592,9 +609,41 @@ export function AltfragenPractice({ examId }: { examId: string }) {
   if (loading) {
     return (
       <AltfragenShell subtitle="Laden…">
-        <div className="flex items-center gap-2 text-sm text-zinc-500">
-          <Loader2 className="h-4 w-4 animate-spin" />
-          Lade Klausur…
+        <div
+          className="mx-auto grid max-w-5xl gap-6 lg:grid-cols-[1fr_220px]"
+          aria-busy="true"
+          aria-label="Klausur wird geladen"
+        >
+          <div className="space-y-4">
+            <div className="flex flex-wrap gap-1.5">
+              {Array.from({ length: 12 }).map((_, i) => (
+                <div key={i} className="h-8 w-8 animate-pulse rounded bg-zinc-100" />
+              ))}
+            </div>
+            <div className="h-6 w-28 animate-pulse rounded bg-zinc-100" />
+            <div className="space-y-2">
+              <div className="h-4 w-full animate-pulse rounded bg-zinc-100" />
+              <div className="h-4 w-5/6 animate-pulse rounded bg-zinc-100" />
+              <div className="h-4 w-4/6 animate-pulse rounded bg-zinc-100" />
+            </div>
+            <div className="space-y-2 pt-2">
+              {Array.from({ length: 5 }).map((_, i) => (
+                <div key={i} className="h-12 w-full animate-pulse rounded-lg bg-zinc-100" />
+              ))}
+            </div>
+            <div className="flex gap-2 pt-2">
+              <div className="h-10 w-28 animate-pulse rounded-md bg-zinc-100" />
+              <div className="h-10 w-28 animate-pulse rounded-md bg-zinc-100" />
+            </div>
+          </div>
+          <div className="hidden space-y-2 lg:block">
+            <div className="h-5 w-24 animate-pulse rounded bg-zinc-100" />
+            <div className="grid grid-cols-5 gap-1.5">
+              {Array.from({ length: 20 }).map((_, i) => (
+                <div key={i} className="h-8 animate-pulse rounded bg-zinc-100" />
+              ))}
+            </div>
+          </div>
         </div>
       </AltfragenShell>
     );

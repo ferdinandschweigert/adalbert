@@ -7,10 +7,17 @@ import { Loader2, Lock } from 'lucide-react';
 
 const LOCAL_KEY = 'adalbert-altfragen-access-ok';
 
+function readOptimisticUnlock(): boolean {
+  try {
+    return typeof window !== 'undefined' && localStorage.getItem(LOCAL_KEY) === '1';
+  } catch {
+    return false;
+  }
+}
+
 export function AltfragenAccessGate({ children }: { children: React.ReactNode }) {
-  const [checking, setChecking] = useState(true);
   const [required, setRequired] = useState(false);
-  const [unlocked, setUnlocked] = useState(false);
+  const [unlocked, setUnlocked] = useState(readOptimisticUnlock);
   const [code, setCode] = useState('');
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
@@ -19,7 +26,7 @@ export function AltfragenAccessGate({ children }: { children: React.ReactNode })
     let cancelled = false;
     (async () => {
       try {
-        const res = await fetch('/api/altfragen/access', { cache: 'no-store' });
+        const res = await fetch('/api/altfragen/access', { credentials: 'same-origin' });
         const data = await res.json();
         if (cancelled) return;
         if (!data.required) {
@@ -31,16 +38,17 @@ export function AltfragenAccessGate({ children }: { children: React.ReactNode })
         if (data.unlocked) {
           setUnlocked(true);
           localStorage.setItem(LOCAL_KEY, '1');
-        } else if (localStorage.getItem(LOCAL_KEY) === '1') {
-          localStorage.removeItem(LOCAL_KEY);
+        } else {
+          setUnlocked(false);
+          if (localStorage.getItem(LOCAL_KEY) === '1') {
+            localStorage.removeItem(LOCAL_KEY);
+          }
         }
       } catch {
         if (!cancelled) {
           setRequired(false);
           setUnlocked(true);
         }
-      } finally {
-        if (!cancelled) setChecking(false);
       }
     })();
     return () => {
@@ -56,6 +64,7 @@ export function AltfragenAccessGate({ children }: { children: React.ReactNode })
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ code }),
+        credentials: 'same-origin',
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || 'Zugang fehlgeschlagen');
@@ -68,15 +77,8 @@ export function AltfragenAccessGate({ children }: { children: React.ReactNode })
     }
   };
 
-  if (checking) {
-    return (
-      <div className="flex items-center justify-center gap-2 py-20 text-sm text-zinc-500">
-        <Loader2 className="h-4 w-4 animate-spin" />
-        Lade…
-      </div>
-    );
-  }
-
+  // Mount children immediately so list/practice fetch in parallel with the access check.
+  // Only block when we know a code is required and the session is locked.
   if (required && !unlocked) {
     return (
       <div className="mx-auto max-w-md py-10">

@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { AltfragenShell } from '@/components/altfragen/AltfragenShell';
 import { Button } from '@/components/ui/button';
 import type { ExamSummary } from '@/lib/altfragenTypes';
-import { AlertCircle, ChevronDown, Info, Loader2, Play } from 'lucide-react';
+import { AlertCircle, ChevronDown, Info, Play } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 function formatDate(iso: string): string {
@@ -105,6 +105,31 @@ function FaqSection() {
   );
 }
 
+function ExamListSkeleton() {
+  return (
+    <ul className="space-y-3" aria-busy="true" aria-label="Klausuren werden geladen">
+      {[0, 1, 2].map((i) => (
+        <li
+          key={i}
+          className="flex flex-col gap-3 rounded-lg border border-[#e2e8f0] bg-white p-4 sm:flex-row sm:items-center sm:justify-between"
+        >
+          <div className="min-w-0 flex-1 space-y-2">
+            <div className="h-5 w-3/4 max-w-sm animate-pulse rounded bg-zinc-100" />
+            <div className="h-4 w-40 animate-pulse rounded bg-zinc-100" />
+          </div>
+          <div className="h-9 w-24 animate-pulse rounded-md bg-zinc-100" />
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+/** Warm the practice exam (+ stats) into the browser HTTP cache on hover/focus. */
+function prefetchExam(examId: string) {
+  void fetch(`/api/altfragen/exams/${examId}`, { credentials: 'same-origin' });
+  void fetch(`/api/altfragen/exams/${examId}/stats`, { credentials: 'same-origin' });
+}
+
 export function AltfragenPublicList() {
   const [exams, setExams] = useState<ExamSummary[]>([]);
   const [loading, setLoading] = useState(true);
@@ -114,7 +139,7 @@ export function AltfragenPublicList() {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch('/api/altfragen/exams', { cache: 'no-store' });
+      const res = await fetch('/api/altfragen/exams', { credentials: 'same-origin' });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || 'Laden fehlgeschlagen');
       setExams(data.exams || []);
@@ -147,12 +172,7 @@ export function AltfragenPublicList() {
 
         <AiDisclaimer />
 
-        {loading && (
-          <div className="flex items-center gap-2 text-sm text-zinc-500">
-            <Loader2 className="h-4 w-4 animate-spin" />
-            Lade Klausuren…
-          </div>
-        )}
+        {loading && <ExamListSkeleton />}
 
         {error && (
           <div className="flex items-start gap-2 rounded-md border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-800">
@@ -188,7 +208,11 @@ export function AltfragenPublicList() {
                   ) : null}
                 </div>
                 <Button type="button" size="sm" asChild>
-                  <Link href={`/altfragen/${exam.id}`}>
+                  <Link
+                    href={`/altfragen/${exam.id}`}
+                    onPointerEnter={() => prefetchExam(exam.id)}
+                    onFocus={() => prefetchExam(exam.id)}
+                  >
                     <Play className="mr-1.5 h-3.5 w-3.5" />
                     Kreuzen
                   </Link>
