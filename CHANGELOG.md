@@ -4,6 +4,15 @@ Kurze Übersicht der wichtigsten Änderungen.
 
 ---
 
+## 08/2026
+
+### Kreuzen · UI
+- **Changelog** im Footer als Popup, nach Monat gruppiert
+- **KI-Hinweis** auf der Klausur-Liste kompakt (i KI) — Volltext per Klick
+- Site-Footer auch auf Kreuzen-Seiten
+
+---
+
 ## 07/2026
 
 ### Easter Egg

@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useId, useRef, useState } from 'react';
 import Link from 'next/link';
 import { AltfragenShell } from '@/components/altfragen/AltfragenShell';
 import { Button } from '@/components/ui/button';
@@ -47,22 +47,71 @@ const FAQ_ITEMS: Array<{ q: string; a: string }> = [
   },
 ];
 
+const AI_DISCLAIMER_TEXT =
+  'Die Übertragung der Klausurfragen sowie alle Erklärungen und Option-Hinweise sind KI-generiert. Sie können unvollständig oder falsch sein und ersetzen keine offiziellen Prüfungsunterlagen oder Fachliteratur.';
+
 function AiDisclaimer() {
+  const [open, setOpen] = useState(false);
+  const panelId = useId();
+  const rootRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (!open) return;
+
+    const onPointerDown = (event: MouseEvent | TouchEvent) => {
+      const target = event.target;
+      if (!(target instanceof Node)) return;
+      if (!rootRef.current?.contains(target)) {
+        setOpen(false);
+      }
+    };
+
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        setOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', onPointerDown);
+    document.addEventListener('touchstart', onPointerDown);
+    window.addEventListener('keydown', onKeyDown);
+
+    return () => {
+      document.removeEventListener('mousedown', onPointerDown);
+      document.removeEventListener('touchstart', onPointerDown);
+      window.removeEventListener('keydown', onKeyDown);
+    };
+  }, [open]);
+
   return (
-    <aside
-      className="flex gap-3 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-950"
-      role="note"
-    >
-      <Info className="mt-0.5 h-4 w-4 shrink-0 text-amber-700" aria-hidden />
-      <div className="space-y-1">
-        <p className="font-medium">Hinweis zur KI</p>
-        <p className="leading-relaxed text-amber-900/90">
-          Die Übertragung der Klausurfragen sowie alle Erklärungen und Option-Hinweise sind
-          KI-generiert. Sie können unvollständig oder falsch sein und ersetzen keine offiziellen
-          Prüfungsunterlagen oder Fachliteratur.
-        </p>
-      </div>
-    </aside>
+    <div ref={rootRef} className="relative inline-flex">
+      <button
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        aria-expanded={open}
+        aria-controls={panelId}
+        className={cn(
+          'inline-flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium transition',
+          open
+            ? 'border-amber-300 bg-amber-50 text-amber-900'
+            : 'border-amber-200 bg-white text-amber-800 hover:border-amber-300 hover:bg-amber-50'
+        )}
+      >
+        <Info className="h-3.5 w-3.5 shrink-0 text-amber-700" aria-hidden />
+        <span>KI</span>
+      </button>
+      {open && (
+        <div
+          id={panelId}
+          role="note"
+          className="absolute left-0 top-full z-20 mt-2 w-[min(100vw-3rem,22rem)] rounded-xl border border-amber-200 bg-amber-50 px-3 py-2.5 text-sm text-amber-950 shadow-sm"
+        >
+          <p className="font-medium text-amber-900">Hinweis zur KI</p>
+          <p className="mt-1 leading-relaxed text-amber-900/90">{AI_DISCLAIMER_TEXT}</p>
+        </div>
+      )}
+    </div>
   );
 }
 
@@ -133,9 +182,12 @@ export function AltfragenPublicList() {
     <AltfragenShell>
       <div className="mx-auto max-w-3xl space-y-8">
         <section className="space-y-2">
-          <p className="text-sm font-medium uppercase tracking-wide text-[#2C94CC]">
-            Übungsmodus
-          </p>
+          <div className="flex flex-wrap items-center gap-2">
+            <p className="text-sm font-medium uppercase tracking-wide text-[#2C94CC]">
+              Übungsmodus
+            </p>
+            <AiDisclaimer />
+          </div>
           <h2 className="text-2xl font-bold text-zinc-900 md:text-3xl">
             Altfragen kreuzen
           </h2>
@@ -144,8 +196,6 @@ export function AltfragenPublicList() {
             Umschaltbar zwischen Lernmodus (Lösung sofort) und Prüfungsmodus (Lösung erst nach Abgabe).
           </p>
         </section>
-
-        <AiDisclaimer />
 
         {loading && (
           <div className="flex items-center gap-2 text-sm text-zinc-500">
