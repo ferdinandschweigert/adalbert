@@ -17,6 +17,12 @@ export const CHANGELOG_MONTHS: ChangelogMonth[] = [
     id: '08/2026',
     sections: [
       {
+        title: 'Performance',
+        items: [
+          '**Schnelleres Klausur-Laden:** schlankere Practice-Payloads (~80–90 % kleiner; Erklärungen lazy nach Prüfen), Disk-first Bank-Cache, HTTP-Caching, Skeletons + Prefetch beim Hover',
+        ],
+      },
+      {
         title: 'Kreuzen · UI',
         items: [
           '**Changelog** im Footer als Popup, nach Monat gruppiert',

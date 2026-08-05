@@ -6,6 +6,9 @@ Kurze Übersicht der wichtigsten Änderungen.
 
 ## 08/2026
 
+### Performance
+- **Schnelleres Klausur-Laden:** schlankere Practice-Payloads (~80–90 % kleiner; Erklärungen lazy nach Prüfen), Disk-first Bank-Cache, HTTP-Caching, Skeletons + Prefetch beim Hover
+
 ### Kreuzen · UI
 - **Changelog** im Footer als Popup, nach Monat gruppiert
 - **KI-Hinweis** auf der Klausur-Liste kompakt (Info-Icon + KI) — Volltext per Klick

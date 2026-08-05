@@ -22,6 +22,8 @@ Zwei Module auf einer Plattform: **Kreuzen** und **Anki**.
 |---------|--------|
 | Klausur-Liste (freigegeben) | ✅ |
 | Amboss-Style Übung (Nav, Übersicht, Sprung) | ✅ |
+| Schlanke Practice-Payloads + lazy Erklärungen | ✅ | ~80–90 % kleinerer Download |
+| Skeletons / Prefetch beim Klausur-Öffnen | ✅ |
 | SC: Klick = Lösung | ✅ | Lernmodus |
 | Prüfungsmodus (Lösungen erst nach Abgabe) | ✅ | Umschalter Lernen ↔ Prüfung |
 | Auswertung (richtig/falsch/Zeit) | ✅ |

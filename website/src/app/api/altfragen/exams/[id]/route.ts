@@ -7,9 +7,21 @@ import type { StoredExam } from '@/lib/altfragenTypes';
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
-/** Practice payload keeps Amboss explanations so they render after answering. */
+/**
+ * Practice payload strips Amboss-style explanations so the initial download stays lean.
+ * Explanations load on demand via /questions/[number]/explanation after the user checks an answer.
+ */
 function toPracticeExam(exam: StoredExam): StoredExam {
-  return exam;
+  return {
+    ...exam,
+    questions: exam.questions.map((q) => ({
+      number: q.number,
+      question: q.question,
+      options: q.options,
+      type: q.type,
+      correctAnswers: q.correctAnswers,
+    })),
+  };
 }
 
 export async function GET(

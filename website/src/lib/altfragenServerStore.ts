@@ -145,11 +145,25 @@ export type BankBackend = 'github' | 'filesystem' | 'memory';
 
 let memoryBank: AltfragenBankFile | null = null;
 let cachedBank: { bank: AltfragenBankFile; backend: BankBackend; loadedAt: number } | null = null;
-const BANK_CACHE_MS = 60_000;
+/** Warm instances keep the ~4MB bank parsed; GitHub is write-primary, not read-primary. */
+const BANK_CACHE_MS = 5 * 60_000;
 
 export async function loadBank(): Promise<{ bank: AltfragenBankFile; backend: BankBackend }> {
   if (cachedBank && Date.now() - cachedBank.loadedAt < BANK_CACHE_MS) {
     return { bank: cachedBank.bank, backend: cachedBank.backend };
+  }
+
+  // Prefer local disk: the bank is multi-MB and GitHub Contents API rejects files >1MB,
+  // so a GitHub-first read often wastes a failed network round-trip on every cache miss.
+  try {
+    const fromDisk = await readBankFromDisk();
+    if (fromDisk.exams.length > 0) {
+      memoryBank = fromDisk;
+      cachedBank = { bank: fromDisk, backend: 'filesystem', loadedAt: Date.now() };
+      return { bank: fromDisk, backend: 'filesystem' };
+    }
+  } catch {
+    // fall through to GitHub / memory
   }
 
   const fromGh = await readBankFromGithub();
@@ -159,16 +173,9 @@ export async function loadBank(): Promise<{ bank: AltfragenBankFile; backend: Ba
     return { bank: fromGh, backend: 'github' };
   }
 
-  try {
-    const fromDisk = await readBankFromDisk();
-    memoryBank = fromDisk;
-    cachedBank = { bank: fromDisk, backend: 'filesystem', loadedAt: Date.now() };
-    return { bank: fromDisk, backend: 'filesystem' };
-  } catch {
-    if (!memoryBank) memoryBank = emptyBank();
-    cachedBank = { bank: memoryBank, backend: 'memory', loadedAt: Date.now() };
-    return { bank: memoryBank, backend: 'memory' };
-  }
+  if (!memoryBank) memoryBank = emptyBank();
+  cachedBank = { bank: memoryBank, backend: 'memory', loadedAt: Date.now() };
+  return { bank: memoryBank, backend: 'memory' };
 }
 
 export async function saveBank(bank: AltfragenBankFile): Promise<{ backend: BankBackend }> {
