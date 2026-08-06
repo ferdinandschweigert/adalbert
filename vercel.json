@@ -1,6 +1,8 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": ".next",
-  "installCommand": "npm install",
-  "framework": "nextjs"
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "installCommand": "npm ci --prefix website --no-audit --no-fund",
+  "buildCommand": "NEXT_TELEMETRY_DISABLED=1 npm run build --prefix website",
+  "outputDirectory": "website/.next",
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- website ':!website/scripts' ':!website/*.md' ':!*.md' ':!src' ':!scripts' ':!tests' ':!assets'"
 }
