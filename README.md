@@ -41,6 +41,7 @@ Das **Repo ist öffentlich** (Code + Fragenbank in Git). Der optionale Zugangsco
 Aktuell u. a.:
 - **M2 SS26** Gedächtnisprotokoll (~319 Fragen)
 - **M2 2025-A** Staatsexamen (320 Fragen aus 3 PDF-Teilen)
+- **M2 H25** Gedächtnisprotokoll (~161 rekonstruierte Fragen)
 
 ### Anki (lokal + MCP)
 - MCP-Server in Cursor: Decks lesen, anreichern, zu Anki Desktop synchen

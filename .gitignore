@@ -14,6 +14,8 @@ list-models.js
 read-all-*.js
 *-cards.json
 *-cards-detailed.json
+__pycache__/
+*.pyc
 
 # IDE and editor files
 .cursor/

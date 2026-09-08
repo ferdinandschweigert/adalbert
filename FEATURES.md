@@ -2,7 +2,7 @@
 
 Zwei Module auf einer Plattform: **Kreuzen** und **Anki**.
 
-*Zuletzt aktualisiert: August 2026*
+*Zuletzt aktualisiert: September 2026*
 
 ---
 
@@ -14,7 +14,7 @@ Zwei Module auf einer Plattform: **Kreuzen** und **Anki**.
 
 ---
 
-## Live (August 2026)
+## Live (September 2026)
 
 ### Kreuzen — Website `/altfragen`
 
@@ -38,6 +38,7 @@ Zwei Module auf einer Plattform: **Kreuzen** und **Anki**.
 | Changelog-Popup im Footer | ✅ | nach Monat; auch auf Kreuzen-Seiten |
 | M2 SS26 Gedächtnisprotokoll | ✅ (~319) |
 | M2 2025-A Staatsexamen | ✅ (320) |
+| M2 H25 Gedächtnisprotokoll | ✅ (~161) |
 
 ### Anki — MCP + Website `/anki` (lokal)
 

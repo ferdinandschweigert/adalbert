@@ -4,6 +4,13 @@ Kurze Übersicht der wichtigsten Änderungen.
 
 ---
 
+## 09/2026
+
+### Kreuzen
+- **M2 H25 Gedächtnisprotokoll** als dritte Klausur (~161 rekonstruierte Fragen mit markierter Lösung)
+
+---
+
 ## 08/2026
 
 ### Performance

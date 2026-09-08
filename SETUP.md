@@ -116,6 +116,9 @@ node scripts/import-2025a-staatsexamen.mjs
 
 # M2 Gedächtnisprotokoll (grüne Markierungen)
 node scripts/import-m2-gedaechtnisprotokoll.mjs path/to/protocol.pdf
+
+# M2 H25 Fragensammlung (Google-Docs-PDF, studentisches Protokoll)
+python3 scripts/import-m2-h25-fragensammlung.py path/to/M2-H25-Fragensammlung.pdf
 ```
 
 ---

@@ -14,6 +14,17 @@ export type ChangelogMonth = {
 /** In-app changelog mirrored from CHANGELOG.md (newest first). */
 export const CHANGELOG_MONTHS: ChangelogMonth[] = [
   {
+    id: '09/2026',
+    sections: [
+      {
+        title: 'Kreuzen',
+        items: [
+          '**M2 H25 Gedächtnisprotokoll** als dritte Klausur (~161 rekonstruierte Fragen mit markierter Lösung)',
+        ],
+      },
+    ],
+  },
+  {
     id: '08/2026',
     sections: [
       {
