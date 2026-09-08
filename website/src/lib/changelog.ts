@@ -19,7 +19,7 @@ export const CHANGELOG_MONTHS: ChangelogMonth[] = [
       {
         title: 'Kreuzen',
         items: [
-          '**M2 H25 Gedächtnisprotokoll** als dritte Klausur (~161 rekonstruierte Fragen mit markierter Lösung)',
+          '**M2 H25 Gedächtnisprotokoll** als dritte Klausur (320 Originalfragen aus der Fragensammlung, nur überlieferte Optionen/Schlüssel)',
         ],
       },
     ],
