@@ -7,7 +7,9 @@ Kurze Übersicht der wichtigsten Änderungen.
 ## 09/2026
 
 ### Kreuzen
-- **M2 H25 Gedächtnisprotokoll** als dritte Klausur (320 Originalfragen aus der Fragensammlung; fehlende Optionen/Schlüssel nicht erfunden)
+- **M2 H25 Gedächtnisprotokoll** als dritte Klausur (320 Originalfragen aus der Fragensammlung; fehlende Optionen nicht erfunden)
+- **KI-Lösungen** für H25-Fragen ohne Protokoll-Schlüssel, klar als *KI-generiert* gekennzeichnet
+- **Fragenleiste** scrollt in der Klausur wieder durch — kein Zurückspringen mehr nach oben
 
 ---
 

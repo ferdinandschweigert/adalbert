@@ -20,6 +20,7 @@ function toPracticeExam(exam: StoredExam): StoredExam {
       options: q.options,
       type: q.type,
       correctAnswers: q.correctAnswers,
+      answerSource: q.answerSource,
     })),
   };
 }

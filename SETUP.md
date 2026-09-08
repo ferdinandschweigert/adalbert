@@ -118,7 +118,9 @@ node scripts/import-2025a-staatsexamen.mjs
 node scripts/import-m2-gedaechtnisprotokoll.mjs path/to/protocol.pdf
 
 # M2 H25 Fragensammlung (Google-Docs-PDF, studentisches Protokoll)
-# Nur Originaltitel/-optionen/-schlüssel; Lücken bleiben unausgefüllt.
+# Nur Originaltitel/-optionen; Lücken bleiben unausgefüllt.
+# Fehlende Protokoll-Schlüssel: python3 website/scripts/apply-h25-ai-keys.py
+# (schreibt KI-Lösungen, überschreibt keine Protokoll-Markierungen)
 python3 scripts/import-m2-h25-fragensammlung.py path/to/M2-H25-Fragensammlung.pdf
 ```
 

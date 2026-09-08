@@ -19,7 +19,9 @@ export const CHANGELOG_MONTHS: ChangelogMonth[] = [
       {
         title: 'Kreuzen',
         items: [
-          '**M2 H25 Gedächtnisprotokoll** als dritte Klausur (320 Originalfragen aus der Fragensammlung, nur überlieferte Optionen/Schlüssel)',
+          '**M2 H25 Gedächtnisprotokoll** als dritte Klausur (320 Originalfragen aus der Fragensammlung, fehlende Optionen nicht erfunden)',
+          '**KI-Lösungen** für H25-Fragen ohne Protokoll-Schlüssel, klar als *KI-generiert* gekennzeichnet',
+          '**Fragenleiste** scrollt in der Klausur wieder durch — kein Zurückspringen mehr nach oben',
         ],
       },
     ],

@@ -14,6 +14,8 @@ export interface ParsedQuestion {
   options: string[];
   type: QuestionType;
   correctAnswers?: string;
+  /** How the answer key was obtained. Protocol marks are original; `ai` is a labelled suggestion. */
+  answerSource?: 'protocol' | 'ai';
   explanation?: string;
   /** Amboss-style per-option rationale */
   optionRationales?: OptionRationale[];

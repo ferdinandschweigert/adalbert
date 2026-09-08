@@ -38,7 +38,7 @@ Zwei Module auf einer Plattform: **Kreuzen** und **Anki**.
 | Changelog-Popup im Footer | ✅ | nach Monat; auch auf Kreuzen-Seiten |
 | M2 SS26 Gedächtnisprotokoll | ✅ (~319) |
 | M2 2025-A Staatsexamen | ✅ (320) |
-| M2 H25 Gedächtnisprotokoll | ✅ (320 Originalfragen) |
+| M2 H25 Gedächtnisprotokoll | ✅ (320 Originalfragen; KI-Lösungen gekennzeichnet) |
 
 ### Anki — MCP + Website `/anki` (lokal)
 

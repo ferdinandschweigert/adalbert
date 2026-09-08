@@ -37,6 +37,7 @@ import {
   LayoutGrid,
   Loader2,
   RotateCcw,
+  Sparkles,
   XCircle,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -92,6 +93,118 @@ function formatDuration(ms: number): string {
 }
 
 type NavStatus = 'current' | 'unseen' | 'correct' | 'wrong' | 'done';
+
+function QuestionNav({
+  questions,
+  navStatus,
+  onGoTo,
+  currentIndex,
+  scrollCurrent = false,
+  className,
+}: {
+  questions: ParsedQuestion[];
+  navStatus: (i: number) => NavStatus;
+  onGoTo: (i: number) => void;
+  currentIndex?: number;
+  scrollCurrent?: boolean;
+  className?: string;
+}) {
+  const scrollerRef = useRef<HTMLDivElement>(null);
+  const currentBtnRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    if (!scrollCurrent) return;
+    const scroller = scrollerRef.current;
+    const btn = currentBtnRef.current;
+    if (!scroller || !btn) return;
+    const viewTop = scroller.scrollTop;
+    const viewHeight = scroller.clientHeight;
+    const btnTop = btn.offsetTop;
+    const btnHeight = btn.offsetHeight;
+    if (btnTop < viewTop || btnTop + btnHeight > viewTop + viewHeight) {
+      scroller.scrollTop = btnTop - viewHeight / 2 + btnHeight / 2;
+    }
+  }, [scrollCurrent, currentIndex]);
+
+  return (
+    <div ref={scrollerRef} className={className}>
+      <div className="grid grid-cols-5 gap-1.5 sm:grid-cols-8 lg:grid-cols-5">
+        {questions.map((q, i) => {
+          const status = navStatus(i);
+          return (
+            <button
+              key={q.number}
+              ref={i === currentIndex ? currentBtnRef : undefined}
+              type="button"
+              onClick={() => onGoTo(i)}
+              title={`Frage ${i + 1}`}
+              className={cn(
+                'flex aspect-square w-full items-center justify-center rounded-md text-xs font-semibold transition',
+                status === 'current' &&
+                  'bg-[#002F5D] text-white outline outline-2 outline-offset-1 outline-[#2C94CC]',
+                status === 'unseen' && 'bg-zinc-100 text-zinc-600 hover:bg-[#eef5fb]',
+                status === 'correct' && 'bg-emerald-500 text-white hover:bg-emerald-600',
+                status === 'wrong' && 'bg-red-500 text-white hover:bg-red-600',
+                status === 'done' && 'bg-amber-400 text-white hover:bg-amber-500'
+              )}
+            >
+              {i + 1}
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+function ModeToggle({
+  isExamMode,
+  examSubmitted,
+  onSetMode,
+  className,
+}: {
+  isExamMode: boolean;
+  examSubmitted: boolean;
+  onSetMode: (mode: PracticeMode) => void;
+  className?: string;
+}) {
+  return (
+    <div className={cn('rounded-lg border border-[#e2e8f0] bg-[#f8fafc] p-2', className)}>
+      <p className="mb-1.5 px-0.5 text-[10px] font-semibold uppercase tracking-wide text-zinc-500">
+        Modus
+      </p>
+      <div className="grid grid-cols-2 gap-1">
+        <button
+          type="button"
+          onClick={() => onSetMode('learn')}
+          className={cn(
+            'rounded-md px-2 py-1.5 text-xs font-medium transition',
+            !isExamMode ? 'bg-[#002F5D] text-white' : 'bg-white text-zinc-600 hover:bg-zinc-50'
+          )}
+          title="Lösung erscheint direkt nach der Antwort"
+        >
+          Lernen
+        </button>
+        <button
+          type="button"
+          onClick={() => onSetMode('exam')}
+          className={cn(
+            'rounded-md px-2 py-1.5 text-xs font-medium transition',
+            isExamMode ? 'bg-[#002F5D] text-white' : 'bg-white text-zinc-600 hover:bg-zinc-50'
+          )}
+          title="Lösungen erst nach Abgabe der Klausur"
+        >
+          Prüfung
+        </button>
+      </div>
+      {isExamMode && !examSubmitted && (
+        <p className="mt-1.5 px-0.5 text-[10px] leading-snug text-zinc-500">
+          Keine Lösungen bis zur Abgabe.
+        </p>
+      )}
+    </div>
+  );
+}
 
 export function AltfragenPractice({ examId }: { examId: string }) {
   const [exam, setExam] = useState<StoredExam | null>(null);
@@ -665,78 +778,18 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     );
   }
 
-  const QuestionNav = ({ compact }: { compact?: boolean }) => (
-    <div
-      className={cn(
-        'grid grid-cols-5 gap-1.5 sm:grid-cols-8 lg:grid-cols-5',
-        compact && 'max-h-56 overflow-y-auto overflow-x-hidden pr-0.5'
-      )}
-    >
-      {questions.map((q, i) => {
-        const status = navStatus(i);
-        return (
-          <button
-            key={q.number}
-            type="button"
-            onClick={() => goTo(i)}
-            title={`Frage ${i + 1}`}
-            className={cn(
-              'flex aspect-square w-full items-center justify-center rounded-md text-xs font-semibold transition',
-              status === 'current' &&
-                'bg-[#002F5D] text-white outline outline-2 outline-offset-1 outline-[#2C94CC]',
-              status === 'unseen' && 'bg-zinc-100 text-zinc-600 hover:bg-[#eef5fb]',
-              status === 'correct' && 'bg-emerald-500 text-white hover:bg-emerald-600',
-              status === 'wrong' && 'bg-red-500 text-white hover:bg-red-600',
-              status === 'done' && 'bg-amber-400 text-white hover:bg-amber-500'
-            )}
-          >
-            {i + 1}
-          </button>
-        );
-      })}
-    </div>
-  );
+  const questionNavProps = {
+    questions,
+    navStatus,
+    onGoTo: goTo,
+    currentIndex: index,
+  };
 
-  const ModeToggle = ({ className }: { className?: string }) => (
-    <div className={cn('rounded-lg border border-[#e2e8f0] bg-[#f8fafc] p-2', className)}>
-      <p className="mb-1.5 px-0.5 text-[10px] font-semibold uppercase tracking-wide text-zinc-500">
-        Modus
-      </p>
-      <div className="grid grid-cols-2 gap-1">
-        <button
-          type="button"
-          onClick={() => handleSetPracticeMode('learn')}
-          className={cn(
-            'rounded-md px-2 py-1.5 text-xs font-medium transition',
-            !isExamMode
-              ? 'bg-[#002F5D] text-white'
-              : 'bg-white text-zinc-600 hover:bg-zinc-50'
-          )}
-          title="Lösung erscheint direkt nach der Antwort"
-        >
-          Lernen
-        </button>
-        <button
-          type="button"
-          onClick={() => handleSetPracticeMode('exam')}
-          className={cn(
-            'rounded-md px-2 py-1.5 text-xs font-medium transition',
-            isExamMode
-              ? 'bg-[#002F5D] text-white'
-              : 'bg-white text-zinc-600 hover:bg-zinc-50'
-          )}
-          title="Lösungen erst nach Abgabe der Klausur"
-        >
-          Prüfung
-        </button>
-      </div>
-      {isExamMode && !examSubmitted && (
-        <p className="mt-1.5 px-0.5 text-[10px] leading-snug text-zinc-500">
-          Keine Lösungen bis zur Abgabe.
-        </p>
-      )}
-    </div>
-  );
+  const modeToggleProps = {
+    isExamMode,
+    examSubmitted,
+    onSetMode: handleSetPracticeMode,
+  };
 
   if (showResult) {
     const pct = scoreSummary.graded
@@ -760,7 +813,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
           </div>
           <div className="rounded-xl border border-[#e2e8f0] bg-white p-4 shadow-sm">
             <p className="mb-3 text-sm font-medium text-zinc-800">Fragenübersicht — springe zu einer Frage</p>
-            <QuestionNav />
+            <QuestionNav {...questionNavProps} />
             <div className="mt-3 flex flex-wrap gap-3 text-xs text-zinc-500">
               <span className="inline-flex items-center gap-1">
                 <span className="h-3 w-3 rounded bg-emerald-500" /> richtig
@@ -918,7 +971,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
 
           <div className="rounded-xl border border-[#e2e8f0] bg-white p-4 shadow-sm">
             <p className="mb-3 text-sm font-medium text-zinc-800">Fragen — springe zu einer</p>
-            <QuestionNav />
+            <QuestionNav {...questionNavProps} />
           </div>
 
           <div className="flex flex-wrap gap-2">
@@ -979,8 +1032,8 @@ export function AltfragenPractice({ examId }: { examId: string }) {
               </Button>
             </div>
           </div>
-          <ModeToggle className="max-w-xs" />
-          <QuestionNav />
+          <ModeToggle {...modeToggleProps} className="max-w-xs" />
+          <QuestionNav {...questionNavProps} />
           <ul className="divide-y divide-[#e2e8f0] rounded-xl border border-[#e2e8f0] bg-white shadow-sm">
             {questions.map((q, i) => {
               const status = navStatus(i);
@@ -1044,17 +1097,22 @@ export function AltfragenPractice({ examId }: { examId: string }) {
       <div className="mx-auto grid max-w-6xl gap-6 lg:grid-cols-[240px_1fr]">
         {/* Amboss-style side navigator */}
         <aside className="hidden lg:block">
-          <div className="sticky top-6 space-y-3 rounded-xl border border-[#e2e8f0] bg-white p-3 shadow-sm">
-            <p className="px-1 text-xs font-semibold uppercase tracking-wide text-zinc-500">
+          <div className="sticky top-6 flex max-h-[calc(100vh-3rem)] flex-col gap-3 rounded-xl border border-[#e2e8f0] bg-white p-3 shadow-sm">
+            <p className="shrink-0 px-1 text-xs font-semibold uppercase tracking-wide text-zinc-500">
               Fragen
             </p>
-            <QuestionNav compact />
-            <p className="px-1 text-xs text-zinc-500">
+            <QuestionNav
+              {...questionNavProps}
+              scrollCurrent
+              className="min-h-0 flex-1 overflow-y-auto overscroll-contain pr-0.5"
+            />
+            <p className="shrink-0 px-1 text-xs text-zinc-500">
               {isExamMode && !examSubmitted
                 ? `${answeredCount}/${questions.length} beantwortet`
                 : `${scoreSummary.checked}/${questions.length} · ${scoreSummary.correct} richtig`}
             </p>
-            <ModeToggle />
+            <ModeToggle {...modeToggleProps} className="shrink-0" />
+            <div className="shrink-0 space-y-2">
             <Button
               type="button"
               variant="outline"
@@ -1087,6 +1145,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                 Auswertung
               </Button>
             )}
+            </div>
           </div>
         </aside>
 
@@ -1102,6 +1161,16 @@ export function AltfragenPractice({ examId }: { examId: string }) {
             </p>
             <div className="flex items-center gap-2">
               <Badge variant="secondary">{question.type}</Badge>
+              {question.answerSource === 'ai' && (
+                <Badge
+                  variant="outline"
+                  className="border-amber-300 bg-amber-50 text-amber-900"
+                  title="Lösung nicht im Originalprotokoll markiert"
+                >
+                  <Sparkles className="mr-1 h-3 w-3" />
+                  KI-generiert
+                </Badge>
+              )}
               <Button
                 type="button"
                 variant="ghost"
@@ -1205,12 +1274,12 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                         )}
                       </span>
                     </button>
-                    {showFeedback && rationale?.text && isRight && (
+                    {showFeedback && hasKey && rationale?.text && isRight && (
                       <p className="border-l-2 border-emerald-400 px-3 py-1.5 text-sm leading-relaxed text-emerald-950">
                         {rationale.text}
                       </p>
                     )}
-                    {showFeedback && rationale?.text && !isRight && distractorKey && (
+                    {showFeedback && hasKey && rationale?.text && !isRight && distractorKey && (
                       <div className="border-l-2 border-red-300">
                         <button
                           type="button"
@@ -1265,20 +1334,28 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                 )}
               >
                 {hasKey ? (
-                  <p className="font-medium">
-                    {isCorrect(question, selection) ? 'Richtig' : 'Nicht ganz'}
-                    {!isCorrect(question, selection) && (
-                      <span className="font-normal">
-                        {' '}
-                        — Lösung:{' '}
-                        {correctBits
-                          .split('')
-                          .map((b, i) => (b === '1' ? letter(i) : null))
-                          .filter(Boolean)
-                          .join(', ')}
-                      </span>
+                  <>
+                    <p className="font-medium">
+                      {isCorrect(question, selection) ? 'Richtig' : 'Nicht ganz'}
+                      {!isCorrect(question, selection) && (
+                        <span className="font-normal">
+                          {' '}
+                          — Lösung:{' '}
+                          {correctBits
+                            .split('')
+                            .map((b, i) => (b === '1' ? letter(i) : null))
+                            .filter(Boolean)
+                            .join(', ')}
+                        </span>
+                      )}
+                    </p>
+                    {question.answerSource === 'ai' && (
+                      <p className="mt-1.5 text-xs leading-relaxed">
+                        KI-generierte Lösung — im Originalprotokoll nicht markiert. Bitte kritisch
+                        prüfen.
+                      </p>
                     )}
-                  </p>
+                  </>
                 ) : (
                   <p className="font-medium">Keine gesicherte Lösung hinterlegt.</p>
                 )}
@@ -1394,9 +1471,13 @@ export function AltfragenPractice({ examId }: { examId: string }) {
 
           {/* Mobile mini-nav */}
           <div className="space-y-3 rounded-xl border border-[#e2e8f0] bg-white p-3 lg:hidden">
-            <ModeToggle />
+            <ModeToggle {...modeToggleProps} />
             <p className="text-xs font-medium text-zinc-500">Schnellnavigation</p>
-            <QuestionNav compact />
+            <QuestionNav
+              {...questionNavProps}
+              scrollCurrent
+              className="max-h-56 overflow-y-auto overscroll-contain pr-0.5"
+            />
             {isExamMode && !examSubmitted && (
               <Button type="button" className="w-full" size="sm" onClick={handleSubmitExam}>
                 <ClipboardCheck className="mr-1.5 h-3.5 w-3.5" />
