@@ -14,8 +14,13 @@ export interface ParsedQuestion {
   options: string[];
   type: QuestionType;
   correctAnswers?: string;
-  /** How the answer key was obtained. Protocol marks are original; `ai` is a labelled suggestion. */
-  answerSource?: 'protocol' | 'ai';
+  /**
+   * How the answer key was obtained.
+   * - `protocol`: original mark from the student memory protocol.
+   * - `kreuzversion`: expert-reviewed key from the "Kreuzversion mit Lösungen" (not an official IMPP key).
+   * - `ai`: a labelled AI suggestion (lowest confidence).
+   */
+  answerSource?: 'protocol' | 'kreuzversion' | 'ai';
   explanation?: string;
   /** Amboss-style per-option rationale */
   optionRationales?: OptionRationale[];

@@ -1171,6 +1171,16 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                   KI-generiert
                 </Badge>
               )}
+              {question.answerSource === 'kreuzversion' && (
+                <Badge
+                  variant="outline"
+                  className="border-emerald-300 bg-emerald-50 text-emerald-900"
+                  title="Fachlich geprüfte Lösung aus der Kreuzversion — keine offizielle IMPP-Lösung"
+                >
+                  <ClipboardCheck className="mr-1 h-3 w-3" />
+                  Geprüfte Lösung
+                </Badge>
+              )}
               <Button
                 type="button"
                 variant="ghost"
@@ -1355,6 +1365,12 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                         prüfen.
                       </p>
                     )}
+                    {question.answerSource === 'kreuzversion' && (
+                      <p className="mt-1.5 text-xs leading-relaxed">
+                        Fachlich geprüfte Lösung aus der Kreuzversion — keine offizielle
+                        IMPP-Lösung.
+                      </p>
+                    )}
                   </>
                 ) : (
                   <p className="font-medium">Keine gesicherte Lösung hinterlegt.</p>
@@ -1380,7 +1396,11 @@ export function AltfragenPractice({ examId }: { examId: string }) {
               <div className="space-y-3 rounded-lg border border-[#cfe0f0] bg-[#f7fbfe] p-4">
                 <h3 className="text-sm font-semibold text-[#002F5D]">Erklärung</h3>
                 <p className="text-xs text-zinc-500">
-                  KI-generiert — bitte kritisch prüfen.
+                  {question.answerSource === 'kreuzversion'
+                    ? 'Aus der Kreuzversion — fachlich geprüfte Einschätzung, keine offizielle IMPP-Lösung.'
+                    : question.answerSource === 'protocol'
+                      ? 'Aus dem Gedächtnisprotokoll.'
+                      : 'KI-generiert — bitte kritisch prüfen.'}
                 </p>
                 <p className="text-sm leading-relaxed text-zinc-800">
                   {currentExplanation.explanation}
