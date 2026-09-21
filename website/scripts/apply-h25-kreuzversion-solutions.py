@@ -38,6 +38,7 @@ EXAM_ID = "m2-h25-gedaechtnisprotokoll"
 OPT_GATE = 0.62
 ISIM_GATE = 0.72
 MARGIN_GATE = 0.12
+PDF_PRIMARY_OPEN = {80}
 
 STOP = set(
     "der die das und oder mit bei einer eine einem einen ein ist am zu im in den dem des von "
@@ -153,6 +154,11 @@ def main() -> int:
     changed: list[tuple] = []
     skipped = 0
     for q in exam["questions"]:
+        # Preserve previously reviewed Kreuzversion mappings.  In particular, the
+        # explicit PDF-primary import also covers protocol questions whose PDF day/order
+        # differs, which this older day-constrained fuzzy matcher must not overwrite.
+        if q.get("answerSource") == "kreuzversion" or q.get("number") in PDF_PRIMARY_OPEN:
+            continue
         opts = q.get("options") or []
         if not any(not is_ph(o) for o in opts):
             skipped += 1  # no options in protocol -> cannot match from PDF safely
