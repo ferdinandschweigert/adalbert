@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
-"""Fill H25 protocol gaps from the reviewed Kreuzversion PDF extraction.
+"""Rebuild the complete H25 exam from the reviewed Kreuzversion PDF extraction.
 
-The memory protocol and the PDF are independent reconstructions, so question numbers do
-not line up reliably.  The mapping below was reviewed case by case using the full stem,
-case context and neighbouring questions.  Only entries with a complete option set and
-exactly one highlighted answer are promoted to ``answerSource=kreuzversion``.
-
-Questions for which the PDF is incomplete, image-dependent or absent intentionally stay
-open.  This avoids inventing answer keys while still making the import deterministic.
+The PDF is the primary source for every H25 question. It contains 315 questions,
+including an additional question 38b that the original extractor merged into question 38.
+Questions explicitly labelled as not assessable without an image remain without an answer
+key; no answer is invented.
 
 Usage:
     python3 website/scripts/apply-h25-pdf-primary-source.py [--dry-run]
@@ -15,9 +12,7 @@ Usage:
 from __future__ import annotations
 
 import json
-import re
 import sys
-from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote
@@ -26,82 +21,6 @@ ROOT = Path(__file__).resolve().parents[2]
 BANK = ROOT / "website" / "data" / "altfragen-bank.json"
 SOLUTIONS = ROOT / "website" / "scripts" / "h25-kreuzversion-solutions.json"
 EXAM_ID = "m2-h25-gedaechtnisprotokoll"
-
-# Bank question number -> sequence number in h25-kreuzversion-solutions.json.
-# These are the formerly option-less questions that can be identified unambiguously.
-REVIEWED_MAPPING = {
-    15: 34,
-    16: 107,
-    19: 26,
-    23: 65,
-    28: 42,
-    31: 27,
-    32: 28,
-    36: 77,
-    38: 11,
-    55: 40,
-    56: 82,
-    58: 48,
-    59: 49,
-    60: 96,
-    61: 97,
-    63: 66,
-    64: 191,
-    65: 67,
-    66: 101,
-    68: 68,
-    69: 78,
-    70: 91,
-    71: 72,
-    72: 104,
-    73: 95,
-    74: 79,
-    75: 92,
-    76: 88,
-    77: 18,
-    79: 46,
-    81: 47,
-    82: 87,
-    83: 100,
-    84: 51,
-    85: 50,
-    86: 73,
-    87: 52,
-    88: 59,
-    89: 81,
-    90: 61,
-    91: 62,
-    92: 63,
-    93: 89,
-    94: 53,
-    96: 94,
-    97: 74,
-    98: 55,
-    99: 83,
-    100: 98,
-    101: 69,
-    102: 70,
-    103: 71,
-    104: 56,
-    105: 57,
-    106: 58,
-    142: 114,
-    148: 122,
-    149: 123,
-    164: 135,
-    171: 165,
-    173: 166,
-    195: 201,
-    203: 170,
-    213: 194,
-    239: 235,
-    246: 242,
-    274: 270,
-    312: 306,
-}
-
-# The PDF has real options for this image question, but no highlighted answer.
-OPTIONS_ONLY_MAPPING = {80: 80}
 
 
 def links(term: str) -> list[dict]:
@@ -116,95 +35,94 @@ def links(term: str) -> list[dict]:
     ]
 
 
-def prefix(question: dict) -> str:
-    match = re.match(r"(\[H25-T\d-\d+\])", question.get("question", ""))
-    if not match:
-        raise ValueError(f"H25 tag missing from bank question {question.get('number')}")
-    return match.group(1)
+def split_question_38(question: dict) -> list[dict]:
+    first_rationale, second_block = question["begruendung"].split("38b.", 1)
+    second_stem = (
+        "Im Krankenhaus zeigt das Kardiotokogramm Dezelerationen, es wird die Indikation "
+        "zur Notsectio gestellt. Welches Anästhesieverfahren ist am ehesten zu wählen?"
+    )
+    return [
+        {
+            **question,
+            "numberLabel": "38",
+            "options": question["options"][:5],
+            "begruendung": first_rationale.strip(),
+        },
+        {
+            **question,
+            "numberLabel": "38b",
+            "question": second_stem,
+            "options": question["options"][5:],
+            "begruendung": second_block.replace(second_stem, "", 1).strip(),
+        },
+    ]
 
 
-def correct_index(pdf_question: dict) -> int:
-    indices = [index for index, option in enumerate(pdf_question["options"]) if option["correct"]]
-    if len(indices) != 1:
-        raise ValueError(
-            f"PDF sequence {pdf_question['seq']} has {len(indices)} highlighted answers; expected exactly one"
+def normalize_pdf_questions(raw_questions: list[dict]) -> list[dict]:
+    normalized = []
+    for question in raw_questions:
+        if question["seq"] == 38:
+            normalized.extend(split_question_38(question))
+        else:
+            normalized.append({**question, "numberLabel": str(question["number"])})
+    return normalized
+
+
+def to_bank_question(pdf: dict, number: int, now: str) -> dict:
+    options = [option["text"].strip() for option in pdf["options"]]
+    correct_indices = [
+        index for index, option in enumerate(pdf["options"]) if option["correct"]
+    ]
+    has_answer = len(correct_indices) == 1
+    answer_index = correct_indices[0] if has_answer else -1
+    answer_letter = chr(65 + answer_index) if has_answer else ""
+    answer_text = options[answer_index] if has_answer else ""
+    rationale = pdf["begruendung"].strip()
+
+    question = {
+        "number": number,
+        "question": f"[H25-T{pdf['day']}-{pdf['numberLabel']}] {pdf['question'].strip()}",
+        "options": options,
+        "type": "SC",
+        "correctAnswers": "".join(
+            "1" if index == answer_index else "0" for index in range(len(options))
+        ),
+        "explanation": (
+            f"Richtige Antwort: {answer_letter}) {answer_text}. {rationale} "
+            "Quelle: H25-Kreuzversion mit Lösungen; fachliche Einschätzung, keine offizielle IMPP-Lösung."
+            if has_answer
+            else f"{rationale} Die PDF enthält für diese Bildfrage keinen markierten Lösungsschlüssel."
+        ),
+        "topicLabel": pdf["question"].strip()[:140],
+        "explanationMeta": {
+            "source": "manual",
+            "generatedAt": now,
+            "reviewedAt": now,
+            "confidence": "high" if has_answer else "low",
+        },
+        "optionRationales": [],
+    }
+
+    if has_answer:
+        question["answerSource"] = "kreuzversion"
+
+    for index, option in enumerate(options):
+        letter = chr(65 + index)
+        if has_answer and index == answer_index:
+            text = f"Richtig ({letter}): {option}. {rationale}"
+        elif has_answer:
+            text = f"Falsch ({letter}): {option} — richtig ist {answer_letter}) {answer_text}."
+        else:
+            text = f"Offen ({letter}): {option}. Ohne Bildbeilage ist keine sichere Bewertung möglich."
+        question["optionRationales"].append(
+            {
+                "index": index,
+                "correct": has_answer and index == answer_index,
+                "text": text[:900],
+                "links": links(option),
+            }
         )
-    return indices[0]
-
-
-def apply_answer(question: dict, pdf_question: dict, now: str) -> None:
-    options = [option["text"].strip() for option in pdf_question["options"]]
-    if len(options) < 2 or any(not option for option in options):
-        raise ValueError(f"PDF sequence {pdf_question['seq']} does not contain a complete option set")
-
-    answer_index = correct_index(pdf_question)
-    answer_letter = chr(65 + answer_index)
-    answer_text = options[answer_index]
-    rationale = pdf_question["begruendung"].strip()
-
-    question["question"] = f"{prefix(question)} {pdf_question['question'].strip()}"
-    question["options"] = options
-    question["type"] = "SC"
-    question["correctAnswers"] = "".join(
-        "1" if index == answer_index else "0" for index in range(len(options))
-    )
-    question["answerSource"] = "kreuzversion"
-    question["explanation"] = (
-        f"Richtige Antwort: {answer_letter}) {answer_text}. {rationale} "
-        "Quelle: H25-Kreuzversion mit Lösungen; fachliche Einschätzung, keine offizielle IMPP-Lösung."
-    ).strip()
-    question["topicLabel"] = pdf_question["question"].strip()[:140]
-    question["explanationMeta"] = {
-        "source": "manual",
-        "generatedAt": now,
-        "reviewedAt": now,
-        "confidence": "high",
-    }
-    question["optionRationales"] = [
-        {
-            "index": index,
-            "correct": index == answer_index,
-            "text": (
-                f"Richtig ({chr(65 + index)}): {option}. {rationale}"
-                if index == answer_index
-                else f"Falsch ({chr(65 + index)}): {option} — richtig ist {answer_letter}) {answer_text}."
-            )[:900],
-            "links": links(option),
-        }
-        for index, option in enumerate(options)
-    ]
-
-
-def apply_options_only(question: dict, pdf_question: dict, now: str) -> None:
-    options = [option["text"].strip() for option in pdf_question["options"]]
-    if len(options) < 2 or any(not option for option in options):
-        raise ValueError(f"PDF sequence {pdf_question['seq']} does not contain a complete option set")
-
-    question["question"] = f"{prefix(question)} {pdf_question['question'].strip()}"
-    question["options"] = options
-    question["type"] = "SC"
-    question["correctAnswers"] = "0" * len(options)
-    question.pop("answerSource", None)
-    question["explanation"] = (
-        "Die Antwortoptionen stammen aus der H25-Kreuzversion. Eine richtige Antwort ist dort für diese "
-        "Bildfrage nicht markiert; ohne die zugehörige Abbildung bleibt der Lösungsschlüssel bewusst offen."
-    )
-    question["topicLabel"] = pdf_question["question"].strip()[:140]
-    question["explanationMeta"] = {
-        "source": "manual",
-        "generatedAt": now,
-        "reviewedAt": now,
-        "confidence": "low",
-    }
-    question["optionRationales"] = [
-        {
-            "index": index,
-            "correct": False,
-            "text": f"Offen ({chr(65 + index)}): {option}. Ohne Bildbeilage ist keine sichere Bewertung möglich.",
-            "links": links(option),
-        }
-        for index, option in enumerate(options)
-    ]
+    return question
 
 
 def main() -> int:
@@ -212,43 +130,28 @@ def main() -> int:
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     bank = json.loads(BANK.read_text())
     exam = next(exam for exam in bank["exams"] if exam["id"] == EXAM_ID)
-    questions = {question["number"]: question for question in exam["questions"]}
-    pdf_questions = {question["seq"]: question for question in json.loads(SOLUTIONS.read_text())}
-
-    if set(REVIEWED_MAPPING) & set(OPTIONS_ONLY_MAPPING):
-        raise ValueError("Answer and options-only mappings overlap")
-
-    for bank_number, pdf_sequence in REVIEWED_MAPPING.items():
-        question = questions[bank_number]
-        if question.get("answerSource") not in {None, "kreuzversion"}:
-            raise ValueError(
-                f"Bank question {bank_number} now has protected source {question.get('answerSource')}"
-            )
-        apply_answer(question, pdf_questions[pdf_sequence], now)
-
-    for bank_number, pdf_sequence in OPTIONS_ONLY_MAPPING.items():
-        question = questions[bank_number]
-        if question.get("answerSource") is not None:
-            raise ValueError(f"Bank question {bank_number} unexpectedly gained an answer source")
-        apply_options_only(question, pdf_questions[pdf_sequence], now)
-
-    sources = Counter(question.get("answerSource") for question in exam["questions"])
-    open_questions = [
-        question["number"] for question in exam["questions"] if question.get("answerSource") is None
-    ]
-    placeholder_questions = [
-        question["number"]
-        for question in exam["questions"]
-        if all(option.strip() in {"", "?", "??", "…", "..."} for option in question.get("options", []))
+    raw_pdf_questions = json.loads(SOLUTIONS.read_text())
+    pdf_questions = normalize_pdf_questions(raw_pdf_questions)
+    questions = [
+        to_bank_question(question, number, now)
+        for number, question in enumerate(pdf_questions, start=1)
     ]
 
+    solved = sum(question.get("answerSource") == "kreuzversion" for question in questions)
+    open_questions = [question["number"] for question in questions if not question.get("answerSource")]
+
+    if len(questions) != 315 or solved != 308 or len(open_questions) != 7:
+        raise ValueError(
+            f"Unexpected PDF totals: questions={len(questions)}, solved={solved}, open={open_questions}"
+        )
+
+    exam["sourceLabel"] = "H25 mit Lösungen.pdf"
+    exam["questions"] = questions
     exam["description"] = (
-        f"H25 (Herbst 2025), IMPP-Reihenfolge: {len(exam['questions'])} rekonstruierte Fragen. "
-        f"{sources.get('kreuzversion', 0)} mit Lösung aus der H25-Kreuzversion, "
-        f"{sources.get('protocol', 0)} mit Protokoll-Schlüssel, "
-        f"{sources.get('ai', 0)} mit gekennzeichneter KI-Lösung und "
-        f"{len(open_questions)} ohne belastbaren Lösungsschlüssel. "
-        "Kreuzversion-Lösungen sind fachlich geprüft, aber keine offiziellen IMPP-Schlüssel."
+        f"H25 (Herbst 2025) vollständig auf Grundlage der neuen Kreuzversion-PDF: "
+        f"{len(questions)} rekonstruierte Fragen, davon {solved} mit markierter Lösung und "
+        f"{len(open_questions)} bildabhängige Fragen ohne Lösungsschlüssel. Die Kreuzversion-Lösungen "
+        "sind fachliche Einschätzungen und keine offiziellen IMPP-Schlüssel."
     )
     exam["updatedAt"] = now
     bank["updatedAt"] = now
@@ -257,14 +160,9 @@ def main() -> int:
         BANK.write_text(json.dumps(bank, ensure_ascii=False, indent=2) + "\n")
 
     marker = "[dry-run] " if dry_run else ""
-    print(f"{marker}imported {len(REVIEWED_MAPPING)} complete PDF questions")
-    print(f"{marker}imported options only for {len(OPTIONS_ONLY_MAPPING)} image question")
-    print(
-        f"{marker}sources: kreuzversion={sources.get('kreuzversion', 0)} "
-        f"protocol={sources.get('protocol', 0)} ai={sources.get('ai', 0)} open={len(open_questions)}"
-    )
+    print(f"{marker}rebuilt H25 from all {len(questions)} PDF questions")
+    print(f"{marker}solved={solved} open={len(open_questions)}")
     print(f"{marker}open question numbers: {open_questions}")
-    print(f"{marker}questions still containing only placeholders: {placeholder_questions}")
     return 0
 
 
