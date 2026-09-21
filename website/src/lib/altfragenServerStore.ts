@@ -7,6 +7,7 @@ import type {
   ParsedQuestion,
   StoredExam,
 } from '@/lib/altfragenTypes';
+import { applyH25PdfPrimarySource } from '@/lib/h25PdfPrimarySource';
 
 const BANK_RELATIVE = path.join('data', 'altfragen-bank.json');
 
@@ -40,7 +41,8 @@ async function readBankFromDisk(): Promise<AltfragenBankFile> {
     if (!parsed || !Array.isArray(parsed.exams)) return emptyBank();
     const exams = parsed.exams
       .map((e) => normalizeExam(e))
-      .filter((e): e is StoredExam => Boolean(e));
+      .filter((e): e is StoredExam => Boolean(e))
+      .map(applyH25PdfPrimarySource);
     return { version: 1, updatedAt: parsed.updatedAt || new Date().toISOString(), exams };
   } catch {
     return emptyBank();
@@ -92,7 +94,10 @@ async function readBankFromGithub(): Promise<AltfragenBankFile | null> {
   return {
     version: 1,
     updatedAt: parsed.updatedAt || new Date().toISOString(),
-    exams: parsed.exams.map((e) => normalizeExam(e)).filter((e): e is StoredExam => Boolean(e)),
+    exams: parsed.exams
+      .map((e) => normalizeExam(e))
+      .filter((e): e is StoredExam => Boolean(e))
+      .map(applyH25PdfPrimarySource),
   };
 }
 
