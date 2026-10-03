@@ -21,6 +21,7 @@ import {
   saveProgress,
 } from '@/lib/altfragenStore';
 import { recordLocalKreuzung } from '@/lib/altfragenLocalActivity';
+import { switchPracticeMode, uncheckedAnswerCount } from '@/lib/altfragenModeSwitch';
 import {
   formatOptionLabel,
   mergeQuestionStatsMaps,
@@ -161,12 +162,16 @@ function QuestionNav({
 function ModeToggle({
   isExamMode,
   examSubmitted,
+  uncheckedCount,
   onSetMode,
+  onRevealAnswers,
   className,
 }: {
   isExamMode: boolean;
   examSubmitted: boolean;
+  uncheckedCount: number;
   onSetMode: (mode: PracticeMode) => void;
+  onRevealAnswers: () => void;
   className?: string;
 }) {
   return (
@@ -202,6 +207,15 @@ function ModeToggle({
         <p className="mt-1.5 px-0.5 text-[10px] leading-snug text-zinc-500">
           Keine Lösungen bis zur Abgabe.
         </p>
+      )}
+      {!isExamMode && uncheckedCount > 0 && (
+        <button
+          type="button"
+          onClick={onRevealAnswers}
+          className="mt-2 w-full rounded-md border border-[#cfe0f0] bg-white px-2 py-1.5 text-left text-xs font-medium text-[#002F5D] hover:bg-[#eef5fb]"
+        >
+          {uncheckedCount} gespeicherte {uncheckedCount === 1 ? 'Antwort' : 'Antworten'} anzeigen
+        </button>
       )}
     </div>
   );
@@ -426,6 +440,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
     }
     return n;
   }, [exam, progress]);
+  const uncheckedCount = progress ? uncheckedAnswerCount(progress, questions.length) : 0;
 
   const scoreSummary = useMemo(() => {
     if (!exam || !progress) {
@@ -582,24 +597,19 @@ export function AltfragenPractice({ examId }: { examId: string }) {
       ) {
         return;
       }
-      persist({
-        ...progress,
-        practiceMode: 'exam',
-        checked: [],
-        checkedAt: {},
-        completedAt: undefined,
-      });
+      persist(switchPracticeMode(progress, 'exam', questions.length, new Date().toISOString()));
       setShowResult(false);
       setShowAuswertung(false);
       return;
     }
     // Zurück zu Lernmodus
-    persist({
-      ...progress,
-      practiceMode: 'learn',
-      completedAt: undefined,
-    });
+    persist(switchPracticeMode(progress, 'learn', questions.length, new Date().toISOString()));
     setShowResult(false);
+  };
+
+  const handleRevealAnswers = () => {
+    if (!progress || isExamMode) return;
+    persist(switchPracticeMode(progress, 'learn', questions.length, new Date().toISOString()));
   };
 
   const handleSubmitExam = () => {
@@ -789,7 +799,9 @@ export function AltfragenPractice({ examId }: { examId: string }) {
   const modeToggleProps = {
     isExamMode,
     examSubmitted,
+    uncheckedCount,
     onSetMode: handleSetPracticeMode,
+    onRevealAnswers: handleRevealAnswers,
   };
 
   if (showResult) {
