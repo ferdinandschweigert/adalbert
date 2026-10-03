@@ -1,4 +1,5 @@
 import type { ExamProgress, QuestionStat } from '@/lib/altfragenTypes';
+import { mergeExamProgress } from './altfragenProgressMerge';
 
 /**
  * When an exam id is renamed, browser localStorage keys become orphans.
@@ -75,14 +76,6 @@ function readJson<T>(key: string): T | null {
   }
 }
 
-function preferRicherProgress(a: ExamProgress | null, b: ExamProgress | null): ExamProgress | null {
-  if (!a) return b;
-  if (!b) return a;
-  const score = (p: ExamProgress) =>
-    (p.checked?.length || 0) * 1000 + Object.keys(p.selections || {}).length;
-  return score(b) > score(a) ? b : a;
-}
-
 /**
  * Move progress + community-stat caches from legacy exam IDs / key prefixes
  * onto the current canonical exam id. Safe to call on every page load.
@@ -92,16 +85,18 @@ export function migrateExamLocalData(examId: string): void {
 
   // 1) Progress: aliases → canonical
   let best = readJson<ExamProgress>(PROGRESS_PREFIX + examId);
+  const migratedAliases: string[] = [];
   for (const alias of aliasesFor(examId)) {
     const fromAlias = readJson<ExamProgress>(PROGRESS_PREFIX + alias);
-    best = preferRicherProgress(best, fromAlias);
     if (fromAlias) {
-      localStorage.removeItem(PROGRESS_PREFIX + alias);
+      best = mergeExamProgress(best, { ...fromAlias, examId });
+      migratedAliases.push(alias);
     }
   }
   if (best) {
     const next = { ...best, examId };
     localStorage.setItem(PROGRESS_PREFIX + examId, JSON.stringify(next));
+    for (const alias of migratedAliases) localStorage.removeItem(PROGRESS_PREFIX + alias);
   }
 
   // 2) Stats v2: aliases → canonical (prefer richer attempts)
