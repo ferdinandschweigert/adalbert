@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { emptyAnnotation, readAnnotations, saveAnnotation, questionKey, type QuestionAnnotation } from '@/lib/altfragenReview';
+import { emptyAnnotation, highlightSegments, readAnnotations, saveAnnotation, questionKey, type QuestionAnnotation } from '@/lib/altfragenReview';
 
 function useAnnotation(examId: string, number: number): [QuestionAnnotation, (next: QuestionAnnotation) => void] {
   const [all, setAll] = useState<Record<string, QuestionAnnotation>>({});
@@ -31,16 +31,13 @@ export function QuestionAnnotations({ examId, number, text }: { examId: string; 
     const end = start + range.toString().length;
     if (end > start) setPending({ start, end });
   };
-  const boundaries = [...new Set([0, text.length, ...annotation.highlights.flatMap((h) => [h.start, h.end])])]
-    .filter((n) => n >= 0 && n <= text.length).sort((a, b) => a - b);
+  const segments = highlightSegments(text, annotation.highlights);
   return (
     <div className="space-y-3">
       <h2 className="text-base font-medium leading-relaxed text-zinc-900 md:text-lg">
         <span className="mr-2 text-[#002F5D]">#{number}</span>
         <span ref={textRef} onMouseUp={capture} onKeyUp={capture} onTouchEnd={capture}>
-          {boundaries.slice(0, -1).map((start, i) => {
-            const end = boundaries[i + 1];
-            const marked = annotation.highlights.some((h) => h.start < end && h.end > start);
+          {segments.map(({ start, end, marked }) => {
             return marked ? <mark key={start} className="bg-yellow-200">{text.slice(start, end)}</mark>
               : <span key={start}>{text.slice(start, end)}</span>;
           })}

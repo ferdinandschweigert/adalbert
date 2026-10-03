@@ -21,6 +21,7 @@ function toPracticeExam(exam: StoredExam): StoredExam {
       type: q.type,
       correctAnswers: q.correctAnswers,
       answerSource: q.answerSource,
+      topicLabel: q.topicLabel,
     })),
   };
 }
