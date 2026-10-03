@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 import { AltfragenShell } from '@/components/altfragen/AltfragenShell';
+import { CrossOutButton, CrossedOption, QuestionAnnotations, QuestionThoughts } from '@/components/altfragen/QuestionAnnotations';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import type {
@@ -1204,10 +1205,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
           </div>
 
           <article className="space-y-5 rounded-xl border border-[#e2e8f0] bg-white p-5 shadow-sm md:p-6">
-            <h2 className="text-base font-medium leading-relaxed text-zinc-900 md:text-lg">
-              <span className="mr-2 text-[#002F5D]">#{question.number}</span>
-              {question.question.replace(/^\[T\d+_\d+\]\s*/, '')}
-            </h2>
+            <QuestionAnnotations examId={examId} number={question.number} text={question.question.replace(/^\[T\d+_\d+\]\s*/, '')} />
 
             <ul className="space-y-2">
               {question.options.map((opt, optIndex) => {
@@ -1239,12 +1237,13 @@ export function AltfragenPractice({ examId }: { examId: string }) {
 
                 return (
                   <li key={optIndex} className="space-y-1.5">
+                    <div className="flex items-start gap-2">
                     <button
                       type="button"
                       disabled={answersLocked}
                       onClick={() => handleSelect(optIndex)}
                       className={cn(
-                        'flex w-full items-start gap-3 rounded-lg border px-3 py-3 text-left text-sm transition',
+                        'flex min-w-0 flex-1 items-start gap-3 rounded-lg border px-3 py-3 text-left text-sm transition',
                         stateClass,
                         answersLocked && 'cursor-default'
                       )}
@@ -1265,7 +1264,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                             : 'text-zinc-800'
                         )}
                       >
-                        {optionLabel.text}
+                        <CrossedOption examId={examId} number={question.number} optionIndex={optIndex}>{optionLabel.text}</CrossedOption>
                       </span>
                       <span className="mt-0.5 flex shrink-0 items-center gap-2">
                         {showFeedback && optPct !== null && currentStat && currentStat.attempts >= 1 && (
@@ -1284,6 +1283,8 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                         )}
                       </span>
                     </button>
+                    <CrossOutButton examId={examId} number={question.number} optionIndex={optIndex} />
+                    </div>
                     {showFeedback && hasKey && rationale?.text && isRight && (
                       <p className="border-l-2 border-emerald-400 px-3 py-1.5 text-sm leading-relaxed text-emerald-950">
                         {rationale.text}
@@ -1427,6 +1428,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                   Für diese Frage ist noch keine Erklärung hinterlegt.
                 </p>
               )}
+            <QuestionThoughts examId={examId} number={question.number} />
           </article>
 
           <div className="flex flex-wrap items-center justify-between gap-2">
