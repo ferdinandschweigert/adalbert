@@ -224,6 +224,11 @@ export function AltfragenPublicList() {
           </p>
         </section>
 
+        <Link href="/altfragen/runden" className="block rounded-xl border border-sky-200 bg-sky-50 p-4 text-sky-950 shadow-sm hover:bg-sky-100">
+          <strong>Eigene Fragerunden & High Yield</strong>
+          <span className="mt-1 block text-sm">Fragen nach Fehlern, Merkliste und Unsicherheit auswählen, mit einstellbarer Denkpause üben.</span>
+        </Link>
+
         {loading && <ExamListSkeleton />}
 
         {error && (

@@ -12,6 +12,7 @@ export type QuestionAnnotation = {
   uncertain: boolean;
 };
 export type ReviewAttempt = {
+  sessionId?: string;
   examId: string;
   questionNumber: number;
   selection: string;
@@ -28,6 +29,7 @@ export type ReviewSession = {
   checked: string[];
   activeMs: Record<string, number>;
   pauseSeconds: 0 | 30 | 60 | 90 | 120;
+  weights?: YieldWeights;
   createdAt: string;
 };
 export type ReviewStore = { attempts: ReviewAttempt[]; sessions: ReviewSession[] };
@@ -58,6 +60,15 @@ export function questionKey(examId: string, questionNumber: number): string {
 
 export function emptyAnnotation(): QuestionAnnotation {
   return { highlights: [], crossedOut: [], note: '', starred: false, uncertain: false };
+}
+
+export function highlightSegments(text: string, ranges: QuestionAnnotation['highlights']): Array<{ start: number; end: number; marked: boolean }> {
+  const valid = ranges.filter((range) => range.start >= 0 && range.end <= text.length && range.end > range.start);
+  const boundaries = [...new Set([0, text.length, ...valid.flatMap((range) => [range.start, range.end])])].sort((a, b) => a - b);
+  return boundaries.slice(0, -1).map((start, index) => {
+    const end = boundaries[index + 1];
+    return { start, end, marked: valid.some((range) => range.start < end && range.end > start) };
+  });
 }
 
 function readJson<T>(key: string, fallback: T): T {
