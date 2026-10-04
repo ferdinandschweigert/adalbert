@@ -2,18 +2,20 @@
 
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
-import { CheckCircle, XCircle } from 'lucide-react';
+import { CheckCircle, ChevronDown, XCircle } from 'lucide-react';
 import { AltfragenShell } from '@/components/altfragen/AltfragenShell';
 import { RoundQuestionExplanation } from '@/components/altfragen/RoundQuestionExplanation';
+import { useRoundQuestionExplanation } from '@/components/altfragen/useRoundQuestionExplanation';
 import { CrossOutButton, CrossedOption, QuestionAnnotations, QuestionThoughts } from '@/components/altfragen/QuestionAnnotations';
 import { Button } from '@/components/ui/button';
 import type { ExamProgress, ExamSummary, StoredExam } from '@/lib/altfragenTypes';
 import { getProgress } from '@/lib/altfragenStore';
 import { verifiedTop100Topic } from '@/lib/altfragenTop100';
 import { roundOptionStatus, roundQuestionStatus, type RoundQuestionStatus } from '@/lib/altfragenRoundFeedback';
+import { displayText } from '@/lib/altfragenText';
 import {
   buildCandidates, candidateGroups, DEFAULT_WEIGHTS, questionKey, readAnnotations, readReview,
-  readReviewSettings, saveReview, saveReviewSettings, selectCandidates, shouldPause, yieldReasons, type ReviewGroup, type ReviewSession,
+  initializeRoundAnnotations, readReviewSettings, saveReview, saveReviewSettings, selectCandidates, shouldPause, yieldReasons, type ReviewGroup, type ReviewSession,
   type YieldWeights,
 } from '@/lib/altfragenReview';
 
@@ -56,7 +58,7 @@ export function AltfragenRounds() {
   const [highYield, setHighYield] = useState(false);
   const [session, setSession] = useState<ReviewSession | null>(null);
   const [answerView, setAnswerView] = useState(false);
-  const [explanationRequest, setExplanationRequest] = useState<{ questionKey: string; optionIndex: number; sequence: number } | null>(null);
+  const [expandedRationales, setExpandedRationales] = useState<Record<string, boolean>>({});
   const [showResults, setShowResults] = useState(false);
   const [pending, setPending] = useState<{ kind: 'check' | 'go' | 'results'; target?: number } | null>(null);
   const [revision, setRevision] = useState(0);
@@ -127,6 +129,7 @@ export function AltfragenRounds() {
   const activeMs = session?.activeMs[key] || 0;
   const requiredMs = (session?.pauseSeconds || 0) * 1000;
   const currentStatus = roundQuestionStatus(current?.question, selectedBits, checked);
+  const { explanation, error: explanationError, retry: retryExplanation } = useRoundQuestionExplanation(current?.examId, exams.find((exam) => exam.id === current?.examId)?.updatedAt || '', current?.question.number, checked && answerView);
   const roundStatuses = session ? Object.fromEntries(session.questions.map((ref) => {
     const itemKey = questionKey(ref.examId, ref.questionNumber);
     return [itemKey, roundQuestionStatus(candidatesByKey.get(itemKey)?.question, session.selections[itemKey], session.checked.includes(itemKey))];
@@ -219,6 +222,7 @@ export function AltfragenRounds() {
     if (!selected.length) return;
     const next: ReviewSession = {
       id: crypto.randomUUID(), title: highYield ? 'High Yield' : 'Eigene Fragerunde',
+      annotationScope: 'round',
       questions: selected.map((c) => ({ examId: c.examId, questionNumber: c.question.number })),
       currentIndex: 0, selections: {}, checked: [], activeMs: {}, pauseSeconds, weights,
       createdAt: new Date().toISOString(),
@@ -230,7 +234,7 @@ export function AltfragenRounds() {
     setAnswerView(false);
   };
 
-  const resume = (saved: ReviewSession) => { setSession(saved); setShowResults(false); setAnswerView(saved.checked.includes(questionKey(saved.questions[saved.currentIndex].examId, saved.questions[saved.currentIndex].questionNumber))); };
+  const resume = (saved: ReviewSession) => { persistSession(initializeRoundAnnotations(saved)); setShowResults(false); setAnswerView(saved.checked.includes(questionKey(saved.questions[saved.currentIndex].examId, saved.questions[saved.currentIndex].questionNumber))); };
   const savedSessions = review.sessions;
 
   return <AltfragenShell><div className="mx-auto max-w-4xl space-y-6 p-4">
@@ -268,25 +272,42 @@ export function AltfragenRounds() {
         return <button key={`${itemKey}-${i}`} type="button" aria-label={`Frage ${i + 1}, ${QUESTION_STATUS[status].label}`} title={`Frage ${i + 1}: ${QUESTION_STATUS[status].label}`} aria-current={i === session.currentIndex ? 'step' : undefined} data-result={status} className={`min-w-9 rounded border p-2 text-sm ${QUESTION_STATUS[status].style} ${i === session.currentIndex ? 'ring-2 ring-sky-900 ring-offset-1' : ''}`} onClick={() => requestAction({ kind: 'go', target: i })}>{i + 1}</button>;
       })}</nav>
       <p className="text-xs text-zinc-500">Grün: richtig · Rot: falsch · Blau: noch nicht geprüft · Gelb: ohne Lösungsschlüssel. Der Rahmen zeigt die aktuelle Frage.</p>
-      <article className="space-y-4 rounded-xl border bg-white p-5"><QuestionAnnotations examId={current.examId} number={current.question.number} text={current.question.question.replace(/^\[T\d+_\d+\]\s*/, '')} />
+      <article className="space-y-4 rounded-xl border bg-white p-5"><QuestionAnnotations examId={current.examId} number={current.question.number} roundId={session.id} text={current.question.question.replace(/^\[T\d+_\d+\]\s*/, '')} />
         <ul className="space-y-2">{current.question.options.map((option, i) => {
           const bits = selectedBits.padEnd(current.question.options.length, '0');
           const status = roundOptionStatus(current.question, bits, i, checked && answerView);
-          return <li key={i} className="relative">
-            <button type="button" disabled={checked && !answerView} title={checked && answerView ? `Erklärung zu Antwort ${String.fromCharCode(65 + i)} öffnen` : undefined} aria-controls={checked && answerView ? `round-option-explanation-${i}` : undefined} data-option-result={status} className={`flex min-h-14 w-full min-w-0 items-start gap-2 rounded-lg border py-3 pl-3 pr-14 text-left text-sm ${OPTION_STYLE[status]}`} onClick={() => {
+          const rationale = explanation?.optionRationales.find((item) => item.index === i);
+          const rationaleKey = `${session.id}:${key}:${i}`;
+          const expanded = expandedRationales[rationaleKey] ?? (status === 'correct' || bits[i] === '1');
+          const feedback = checked && answerView;
+          const rationaleLabel = status === 'correct' ? bits[i] === '1' ? 'Richtig · deine Auswahl' : 'Richtige Antwort' : status === 'wrong' ? 'Deine Auswahl – warum sie nicht passt' : current.question.correctAnswers?.includes('1') ? 'Warum diese Alternative nicht passt' : 'Hinweise zu dieser Option';
+          return <li key={i} className="space-y-1.5">
+            <div className="relative">
+            <button type="button" disabled={checked && !answerView} title={feedback ? `Erklärung zu Antwort ${String.fromCharCode(65 + i)} öffnen` : undefined} aria-expanded={feedback && rationale?.text ? expanded : undefined} aria-controls={feedback && rationale?.text ? `round-option-explanation-${i}` : undefined} data-option-result={status} className={`flex min-h-14 w-full min-w-0 items-start gap-2 rounded-lg border py-3 pl-3 pr-14 text-left text-sm ${OPTION_STYLE[status]}`} onClick={() => {
               if (checked && answerView) {
-                setExplanationRequest((previous) => ({ questionKey: key, optionIndex: i, sequence: (previous?.sequence || 0) + 1 }));
+                setExpandedRationales((previous) => ({ ...previous, [rationaleKey]: true }));
                 return;
               }
               const nextBits = current.question.type === 'SC' ? bits.split('').map((_, n) => n === i ? '1' : '0').join('') : bits.split('').map((b, n) => n === i ? b === '1' ? '0' : '1' : b).join('');
               persistSession({ ...session, selections: { ...session.selections, [key]: nextBits } });
             }}>
               <strong className="shrink-0">{String.fromCharCode(65 + i)}.</strong>
-              <span className="min-w-0 flex-1"><CrossedOption examId={current.examId} number={current.question.number} optionIndex={i}>{option || 'Nicht im Protokoll überliefert'}</CrossedOption></span>
+              <span className="min-w-0 flex-1"><CrossedOption examId={current.examId} number={current.question.number} roundId={session.id} optionIndex={i}>{option || 'Nicht im Protokoll überliefert'}</CrossedOption></span>
               {status === 'correct' && <span className="shrink-0 text-emerald-600"><CheckCircle className="h-4 w-4" aria-hidden /><span className="sr-only">Richtige Antwort</span></span>}
               {status === 'wrong' && <span className="shrink-0 text-red-600"><XCircle className="h-4 w-4" aria-hidden /><span className="sr-only">Falsch gewählte Antwort</span></span>}
             </button>
-            <CrossOutButton examId={current.examId} number={current.question.number} optionIndex={i} integrated />
+            <CrossOutButton examId={current.examId} number={current.question.number} roundId={session.id} optionIndex={i} integrated />
+            </div>
+            {feedback && rationale?.text && <div className={`ml-3 border-l-2 ${status === 'correct' ? 'border-emerald-300' : status === 'wrong' ? 'border-red-300' : 'border-slate-200'}`}>
+              <button type="button" aria-expanded={expanded} aria-controls={`round-option-explanation-${i}`} className={`flex w-full items-start gap-1.5 px-3 py-1.5 text-left text-xs font-medium ${status === 'correct' ? 'text-emerald-800' : status === 'wrong' ? 'text-red-800' : 'text-zinc-600'}`} onClick={() => setExpandedRationales((previous) => ({ ...previous, [rationaleKey]: !expanded }))}>
+                <ChevronDown className={`mt-0.5 h-3.5 w-3.5 shrink-0 transition-transform ${expanded ? 'rotate-180' : ''}`} aria-hidden />
+                {rationaleLabel}<span className="sr-only"> – {expanded ? 'Erklärung ausblenden' : 'Erklärung öffnen'}</span>
+              </button>
+              <div id={`round-option-explanation-${i}`} role="region" aria-label={`Erklärung zu Antwort ${String.fromCharCode(65 + i)}`} hidden={!expanded} className="space-y-2 px-3 pb-3">
+                <p className="whitespace-pre-wrap text-sm leading-7 text-zinc-700">{displayText(rationale.text)}</p>
+                {!!rationale.links?.length && <div className="flex flex-wrap gap-x-4 gap-y-2">{rationale.links.filter((link) => /^https?:\/\//i.test(link.url)).map((link) => <a key={link.url} href={link.url} target="_blank" rel="noopener noreferrer" className="text-xs text-sky-800 underline underline-offset-2">{displayText(link.label)}</a>)}</div>}
+              </div>
+            </div>}
           </li>;
         })}</ul>
         {checked && answerView && <>
@@ -294,7 +315,7 @@ export function AltfragenRounds() {
             <strong>{currentStatus === 'correct' ? 'Richtig beantwortet' : currentStatus === 'wrong' ? 'Falsch beantwortet' : 'Keine gesicherte Lösung'}</strong>
             {current.question.correctAnswers?.includes('1') && <p className="mt-1">Lösung: {current.question.correctAnswers.split('').map((bit, i) => bit === '1' ? String.fromCharCode(65 + i) : '').filter(Boolean).join(', ')}</p>}
           </div>
-          <RoundQuestionExplanation key={`${key}:${exams.find((exam) => exam.id === current.examId)?.updatedAt}`} examId={current.examId} examVersion={exams.find((exam) => exam.id === current.examId)?.updatedAt || ''} question={current.question} selection={selectedBits} openOption={explanationRequest?.questionKey === key ? explanationRequest : undefined} />
+          <RoundQuestionExplanation question={current.question} explanation={explanation} error={explanationError} onRetry={retryExplanation} />
         </>}
         <div className="rounded bg-amber-50 p-3 text-xs">High Yield: {yieldReasons(current, session.weights || weights).map((r) => `${r.text} (+${r.points})`).join(' · ') || 'Keine persönlichen Prioritätssignale'}</div>
         <QuestionThoughts examId={current.examId} number={current.question.number} />

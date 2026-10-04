@@ -2,11 +2,11 @@
 
 import { Fragment, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { MessageSquare, X } from 'lucide-react';
-import { emptyAnnotation, highlightSegments, readAnnotations, saveAnnotation, questionKey, type InlineNote, type QuestionAnnotation } from '@/lib/altfragenReview';
+import { annotationForQuestion, highlightSegments, readAnnotations, saveAnnotation, questionKey, type InlineNote, type QuestionAnnotation } from '@/lib/altfragenReview';
 import { addHighlight, removeHighlight, updateInlineNote } from '@/lib/altfragenAnnotations';
 import { displayHighlightRanges, displayText, displayTextWithOffsets } from '@/lib/altfragenText';
 
-function useAnnotation(examId: string, number: number): [QuestionAnnotation, (next: QuestionAnnotation) => void] {
+function useAnnotation(examId: string, number: number, roundId?: string): [QuestionAnnotation, (next: QuestionAnnotation) => void] {
   const [all, setAll] = useState<Record<string, QuestionAnnotation>>({});
   useEffect(() => {
     const refresh = () => setAll(readAnnotations());
@@ -14,11 +14,11 @@ function useAnnotation(examId: string, number: number): [QuestionAnnotation, (ne
     window.addEventListener('adalbert-annotations-changed', refresh);
     return () => window.removeEventListener('adalbert-annotations-changed', refresh);
   }, []);
-  return [all[questionKey(examId, number)] || emptyAnnotation(), (next) => saveAnnotation(examId, number, next)];
+  return [annotationForQuestion(all, examId, number, roundId), (next) => saveAnnotation(examId, number, next, roundId)];
 }
 
-export function QuestionAnnotations({ examId, number, text }: { examId: string; number: number; text: string }) {
-  const [annotation, save] = useAnnotation(examId, number);
+export function QuestionAnnotations({ examId, number, text, roundId }: { examId: string; number: number; text: string; roundId?: string }) {
+  const [annotation, save] = useAnnotation(examId, number, roundId);
   const [editor, setEditor] = useState<{ questionKey: string; note: InlineNote; left: number; top: number } | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const editorRef = useRef<HTMLDivElement>(null);
@@ -27,7 +27,7 @@ export function QuestionAnnotations({ examId, number, text }: { examId: string; 
   const touchSelection = useRef(false);
   const pointerDown = useRef(false);
   const decoded = useMemo(() => displayTextWithOffsets(text), [text]);
-  const key = questionKey(examId, number);
+  const key = `${roundId || 'classic'}:${questionKey(examId, number)}`;
   const activeEditor = editor?.questionKey === key ? editor : null;
   const currentNote = activeEditor && (annotation.inlineNotes || []).find((note) => note.id === activeEditor.note.id);
   const capture = useCallback(() => {
@@ -45,11 +45,11 @@ export function QuestionAnnotations({ examId, number, text }: { examId: string; 
     const end = decoded.sourceOffsets[displayEnd];
     if (end > start) {
       selectionGesture.current = true;
-      const latest = readAnnotations()[questionKey(examId, number)] || emptyAnnotation();
-      saveAnnotation(examId, number, { ...latest, highlights: addHighlight(latest.highlights, { start, end }) });
+      const latest = annotationForQuestion(readAnnotations(), examId, number, roundId);
+      saveAnnotation(examId, number, { ...latest, highlights: addHighlight(latest.highlights, { start, end }) }, roundId);
       selection.removeAllRanges();
     }
-  }, [decoded, examId, number]);
+  }, [decoded, examId, number, roundId]);
 
   useEffect(() => {
     let timer: number | undefined;
@@ -94,8 +94,8 @@ export function QuestionAnnotations({ examId, number, text }: { examId: string; 
     setEditor({ questionKey: key, note: { ...note, id: note.id || crypto.randomUUID() }, left: Math.max(0, Math.min(anchor.left - container.left, container.width - 352)), top: anchor.bottom - container.top + 8 });
   };
   const remove = (start: number, end: number) => {
-    const latest = readAnnotations()[key] || emptyAnnotation();
-    saveAnnotation(examId, number, { ...latest, highlights: removeHighlight(latest.highlights, { start: decoded.sourceOffsets[start], end: decoded.sourceOffsets[end] }) });
+    const latest = annotationForQuestion(readAnnotations(), examId, number, roundId);
+    saveAnnotation(examId, number, { ...latest, highlights: removeHighlight(latest.highlights, { start: decoded.sourceOffsets[start], end: decoded.sourceOffsets[end] }) }, roundId);
   };
   return (
     <div ref={containerRef} className="relative space-y-3">
@@ -123,8 +123,8 @@ export function QuestionAnnotations({ examId, number, text }: { examId: string; 
       {activeEditor && <div ref={editorRef} role="dialog" aria-label="Anmerkung zur Textstelle" className="absolute z-30 !mt-0 w-full max-w-sm space-y-3 rounded-xl border border-sky-200 bg-white p-4 shadow-xl" style={{ left: activeEditor.left, top: activeEditor.top }}>
         <div className="flex items-start justify-between gap-3"><strong className="text-sm text-sky-950">Anmerkung zur Textstelle</strong><button type="button" aria-label="Anmerkung schließen" className="rounded p-1 text-zinc-500 hover:bg-zinc-100" onClick={() => setEditor(null)}><X className="h-4 w-4" aria-hidden /></button></div>
         <blockquote className="max-h-24 overflow-auto border-l-2 border-yellow-300 pl-2 text-xs leading-relaxed text-zinc-600">{displayHighlightRanges(decoded, [activeEditor.note]).map((range) => decoded.text.slice(range.start, range.end))}</blockquote>
-        <label className="block text-sm font-medium text-zinc-700">Deine Anmerkung<textarea autoFocus rows={3} className="mt-1 w-full rounded-md border border-slate-200 p-2 text-sm font-normal" placeholder="Was möchtest du dir zu dieser Stelle merken?" value={currentNote?.text || ''} onChange={(event) => { const latest = readAnnotations()[key] || emptyAnnotation(); saveAnnotation(examId, number, updateInlineNote(latest, { ...activeEditor.note, text: event.target.value })); }} /></label>
-        <div className="flex flex-wrap items-center justify-between gap-2 text-xs"><span className="text-zinc-500">Wird automatisch gespeichert.</span>{currentNote && <button type="button" className="text-red-700 underline underline-offset-2" onClick={() => { const latest = readAnnotations()[key] || emptyAnnotation(); saveAnnotation(examId, number, updateInlineNote(latest, { ...activeEditor.note, text: '' })); setEditor(null); }}>Anmerkung entfernen</button>}</div>
+        <label className="block text-sm font-medium text-zinc-700">Deine Anmerkung<textarea autoFocus rows={3} className="mt-1 w-full rounded-md border border-slate-200 p-2 text-sm font-normal" placeholder="Was möchtest du dir zu dieser Stelle merken?" value={currentNote?.text || ''} onChange={(event) => { const latest = annotationForQuestion(readAnnotations(), examId, number, roundId); saveAnnotation(examId, number, updateInlineNote(latest, { ...activeEditor.note, text: event.target.value }), roundId); }} /></label>
+        <div className="flex flex-wrap items-center justify-between gap-2 text-xs"><span className="text-zinc-500">Wird automatisch gespeichert.</span>{currentNote && <button type="button" className="text-red-700 underline underline-offset-2" onClick={() => { const latest = annotationForQuestion(readAnnotations(), examId, number, roundId); saveAnnotation(examId, number, updateInlineNote(latest, { ...activeEditor.note, text: '' }), roundId); setEditor(null); }}>Anmerkung entfernen</button>}</div>
       </div>}
     </div>
   );
@@ -137,13 +137,13 @@ export function QuestionThoughts({ examId, number }: { examId: string; number: n
   </label>;
 }
 
-export function CrossOutButton({ examId, number, optionIndex, integrated = false }: { examId: string; number: number; optionIndex: number; integrated?: boolean }) {
-  const [annotation, save] = useAnnotation(examId, number);
+export function CrossOutButton({ examId, number, optionIndex, integrated = false, roundId }: { examId: string; number: number; optionIndex: number; integrated?: boolean; roundId?: string }) {
+  const [annotation, save] = useAnnotation(examId, number, roundId);
   const crossed = annotation.crossedOut.includes(optionIndex);
   return <button type="button" aria-pressed={crossed} aria-label={`Antwort ${String.fromCharCode(65 + optionIndex)} ${crossed ? 'wiederherstellen' : 'durchstreichen'}`} title="Antwort unabhängig von der Auswahl durchstreichen" className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-md text-xl leading-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-700 ${integrated ? 'absolute right-2 top-1/2 -translate-y-1/2 border border-transparent' : 'border'} ${crossed ? `${integrated ? '' : 'border-sky-600'} bg-sky-50 text-sky-700` : `${integrated ? '' : 'border-zinc-300'} text-zinc-500 hover:bg-sky-50 hover:text-sky-700`}`} onClick={() => save({ ...annotation, crossedOut: crossed ? annotation.crossedOut.filter((n) => n !== optionIndex) : [...annotation.crossedOut, optionIndex] })}>×</button>;
 }
 
-export function CrossedOption({ examId, number, optionIndex, children }: { examId: string; number: number; optionIndex: number; children: React.ReactNode }) {
-  const [annotation] = useAnnotation(examId, number);
+export function CrossedOption({ examId, number, optionIndex, children, roundId }: { examId: string; number: number; optionIndex: number; children: React.ReactNode; roundId?: string }) {
+  const [annotation] = useAnnotation(examId, number, roundId);
   return <span className={annotation.crossedOut.includes(optionIndex) ? 'line-through opacity-55' : ''}>{typeof children === 'string' ? displayText(children) : children}</span>;
 }
