@@ -68,10 +68,10 @@ export function QuestionThoughts({ examId, number }: { examId: string; number: n
   </label>;
 }
 
-export function CrossOutButton({ examId, number, optionIndex }: { examId: string; number: number; optionIndex: number }) {
+export function CrossOutButton({ examId, number, optionIndex, integrated = false }: { examId: string; number: number; optionIndex: number; integrated?: boolean }) {
   const [annotation, save] = useAnnotation(examId, number);
   const crossed = annotation.crossedOut.includes(optionIndex);
-  return <button type="button" aria-pressed={crossed} aria-label={`Antwort ${String.fromCharCode(65 + optionIndex)} ${crossed ? 'wiederherstellen' : 'durchstreichen'}`} title="Antwort unabhängig von der Auswahl durchstreichen" className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-md border text-xl leading-none ${crossed ? 'border-sky-600 bg-sky-50 text-sky-700' : 'border-zinc-300 text-zinc-500 hover:border-sky-500 hover:text-sky-700'}`} onClick={() => save({ ...annotation, crossedOut: crossed ? annotation.crossedOut.filter((n) => n !== optionIndex) : [...annotation.crossedOut, optionIndex] })}>×</button>;
+  return <button type="button" aria-pressed={crossed} aria-label={`Antwort ${String.fromCharCode(65 + optionIndex)} ${crossed ? 'wiederherstellen' : 'durchstreichen'}`} title="Antwort unabhängig von der Auswahl durchstreichen" className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-md text-xl leading-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-700 ${integrated ? 'absolute right-2 top-1/2 -translate-y-1/2 border border-transparent' : 'border'} ${crossed ? `${integrated ? '' : 'border-sky-600'} bg-sky-50 text-sky-700` : `${integrated ? '' : 'border-zinc-300'} text-zinc-500 hover:bg-sky-50 hover:text-sky-700`}`} onClick={() => save({ ...annotation, crossedOut: crossed ? annotation.crossedOut.filter((n) => n !== optionIndex) : [...annotation.crossedOut, optionIndex] })}>×</button>;
 }
 
 export function CrossedOption({ examId, number, optionIndex, children }: { examId: string; number: number; optionIndex: number; children: React.ReactNode }) {
