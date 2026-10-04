@@ -229,6 +229,11 @@ export function AltfragenPublicList() {
           <span className="mt-1 block text-sm">Fragen nach Fehlern, Merkliste und Unsicherheit auswählen, mit einstellbarer Denkpause üben.</span>
         </Link>
 
+        <Link href="/altfragen/auswertung" className="block rounded-xl border border-slate-200 bg-white p-4 text-zinc-900 shadow-sm hover:bg-slate-50">
+          <strong>Meine Kreuz-Auswertung</strong>
+          <span className="mt-1 block text-sm text-zinc-600">Fehler, gewählte Antworten und Lösungen direkt hier ansehen – ohne Backup-Export.</span>
+        </Link>
+
         {loading && <ExamListSkeleton />}
 
         {error && (
