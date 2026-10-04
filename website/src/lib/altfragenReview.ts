@@ -4,8 +4,10 @@ export const REVIEW_KEY = 'adalbert-review-v1';
 export const ANNOTATION_KEY = 'adalbert-annotations-v1';
 export const REVIEW_SETTINGS_KEY = 'adalbert-review-settings-v1';
 
+export type InlineNote = { id: string; start: number; end: number; text: string };
 export type QuestionAnnotation = {
   highlights: Array<{ start: number; end: number }>;
+  inlineNotes?: InlineNote[];
   crossedOut: number[];
   note: string;
   starred: boolean;
