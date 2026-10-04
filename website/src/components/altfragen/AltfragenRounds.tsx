@@ -2,12 +2,15 @@
 
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
+import { CheckCircle, XCircle } from 'lucide-react';
 import { AltfragenShell } from '@/components/altfragen/AltfragenShell';
+import { RoundQuestionExplanation } from '@/components/altfragen/RoundQuestionExplanation';
 import { CrossOutButton, CrossedOption, QuestionAnnotations, QuestionThoughts } from '@/components/altfragen/QuestionAnnotations';
 import { Button } from '@/components/ui/button';
 import type { ExamProgress, ExamSummary, StoredExam } from '@/lib/altfragenTypes';
 import { getProgress } from '@/lib/altfragenStore';
 import { verifiedTop100Topic } from '@/lib/altfragenTop100';
+import { roundOptionStatus, roundQuestionStatus, type RoundQuestionStatus } from '@/lib/altfragenRoundFeedback';
 import {
   buildCandidates, candidateGroups, DEFAULT_WEIGHTS, questionKey, readAnnotations, readReview,
   readReviewSettings, saveReview, saveReviewSettings, selectCandidates, shouldPause, yieldReasons, type ReviewGroup, type ReviewSession,
@@ -23,6 +26,21 @@ const WEIGHTS: Array<[keyof YieldWeights, string]> = [
 ];
 
 function formatSeconds(ms: number): string { return `${Math.ceil(ms / 1000)} s`; }
+
+const QUESTION_STATUS: Record<RoundQuestionStatus, { label: string; style: string }> = {
+  unseen: { label: 'offen', style: 'border-slate-200 bg-white text-zinc-700' },
+  selected: { label: 'ausgewählt, noch nicht geprüft', style: 'border-sky-300 bg-sky-50 text-sky-900' },
+  correct: { label: 'richtig', style: 'border-emerald-400 bg-emerald-100 text-emerald-900' },
+  wrong: { label: 'falsch', style: 'border-red-400 bg-red-100 text-red-900' },
+  ungraded: { label: 'geprüft, ohne Lösungsschlüssel', style: 'border-amber-400 bg-amber-50 text-amber-900' },
+};
+
+const OPTION_STYLE = {
+  neutral: 'border-slate-200 bg-white',
+  selected: 'border-sky-800 bg-sky-50',
+  correct: 'border-emerald-400 bg-emerald-50',
+  wrong: 'border-red-400 bg-red-50',
+};
 
 export function AltfragenRounds() {
   const [exams, setExams] = useState<StoredExam[]>([]);
@@ -97,15 +115,25 @@ export function AltfragenRounds() {
     return topic ? [[questionKey(exam.id, question.number), topic]] : [];
   }))), [exams]);
   const candidates = useMemo(() => buildCandidates(exams, progress, readAnnotations(), review.attempts, topicMap), [exams, progress, review.attempts, topicMap, revision]);
+  const candidatesByKey = useMemo(() => new Map(candidates.map((candidate) => [questionKey(candidate.examId, candidate.question.number), candidate])), [candidates]);
   const available = useMemo(() => candidates.filter((c) => selectedExams?.includes(c.examId)), [candidates, selectedExams]);
   const selected = useMemo(() => selectCandidates(available, groups, count, order, weights), [available, groups, count, order, weights]);
   const currentRef = session?.questions[session.currentIndex];
-  const current = currentRef && candidates.find((c) => c.examId === currentRef.examId && c.question.number === currentRef.questionNumber);
+  const current = currentRef && candidatesByKey.get(questionKey(currentRef.examId, currentRef.questionNumber));
   const key = currentRef ? questionKey(currentRef.examId, currentRef.questionNumber) : '';
   const selectedBits = session?.selections[key] || '';
   const checked = session?.checked.includes(key) || false;
   const activeMs = session?.activeMs[key] || 0;
   const requiredMs = (session?.pauseSeconds || 0) * 1000;
+  const currentStatus = roundQuestionStatus(current?.question, selectedBits, checked);
+  const roundStatuses = session ? Object.fromEntries(session.questions.map((ref) => {
+    const itemKey = questionKey(ref.examId, ref.questionNumber);
+    return [itemKey, roundQuestionStatus(candidatesByKey.get(itemKey)?.question, session.selections[itemKey], session.checked.includes(itemKey))];
+  })) : {};
+  const results = Object.values(roundStatuses).reduce((total, status) => {
+    total[status] += 1;
+    return total;
+  }, { unseen: 0, selected: 0, correct: 0, wrong: 0, ungraded: 0 });
 
   const persistSession = useCallback((next: ReviewSession) => {
     const store = readReview();
@@ -143,8 +171,8 @@ export function AltfragenRounds() {
     if (!session || !current) return;
     if (action.kind === 'check') {
       if (!selectedBits.includes('1') || checked) return;
-      const correct = current.question.correctAnswers?.includes('1')
-        ? selectedBits === current.question.correctAnswers : null;
+      const status = roundQuestionStatus(current.question, selectedBits, true);
+      const correct = status === 'ungraded' ? null : status === 'correct';
       const next = { ...session, checked: [...session.checked, key] };
       const store = readReview();
       saveReview({ ...store,
@@ -198,6 +226,7 @@ export function AltfragenRounds() {
     saveReview({ ...store, sessions: [...store.sessions, next] });
     setSession(next);
     setShowResults(false);
+    setAnswerView(false);
   };
 
   const resume = (saved: ReviewSession) => { setSession(saved); setShowResults(false); setAnswerView(saved.checked.includes(questionKey(saved.questions[saved.currentIndex].examId, saved.questions[saved.currentIndex].questionNumber))); };
@@ -219,13 +248,49 @@ export function AltfragenRounds() {
       </section>
       {!!savedSessions.length && <section className="space-y-2"><h2 className="font-semibold">Gespeicherte Runden</h2>{savedSessions.slice().reverse().slice(0, 8).map((saved) => <button key={saved.id} className="block w-full rounded border bg-white p-3 text-left text-sm hover:bg-zinc-50" onClick={() => resume(saved)}>{saved.title} · {saved.checked.length}/{saved.questions.length} geprüft · {new Date(saved.createdAt).toLocaleDateString('de-DE')}</button>)}</section>}
     </>}
-    {session && showResults && <section className="space-y-3 rounded-xl border bg-white p-5"><h2 className="text-xl font-semibold">Rundenergebnis</h2><p>{session.checked.length} von {session.questions.length} Fragen geprüft.</p><p>{readReview().attempts.filter((a) => a.sessionId === session.id && a.correct === true).length} richtig beantwortet.</p><Button onClick={() => setShowResults(false)}>Zur Runde</Button><Button variant="outline" onClick={() => setSession(null)}>Neue Runde erstellen</Button></section>}
+    {session && showResults && <section className="space-y-3 rounded-xl border bg-white p-5">
+      <h2 className="text-xl font-semibold">Rundenergebnis</h2>
+      <p>{session.checked.length} von {session.questions.length} Fragen geprüft.</p>
+      <div className="flex flex-wrap gap-3 text-sm">
+        <span className="rounded-lg bg-emerald-50 px-3 py-2 text-emerald-900">{results.correct} richtig</span>
+        <span className="rounded-lg bg-red-50 px-3 py-2 text-red-900">{results.wrong} falsch</span>
+        {!!results.ungraded && <span className="rounded-lg bg-amber-50 px-3 py-2 text-amber-900">{results.ungraded} ohne Schlüssel</span>}
+        {!!(results.unseen + results.selected) && <span className="rounded-lg bg-slate-100 px-3 py-2 text-slate-700">{results.unseen + results.selected} noch nicht geprüft</span>}
+      </div>
+      <Button onClick={() => setShowResults(false)}>Zur Runde</Button><Button variant="outline" onClick={() => setSession(null)}>Neue Runde erstellen</Button>
+    </section>}
     {session && current && !showResults && <>
       <div className="flex flex-wrap items-center justify-between gap-3 text-sm"><span>Frage {session.currentIndex + 1} von {session.questions.length} · {exams.find((e) => e.id === current.examId)?.title}</span><span>Aktive Zeit: {formatSeconds(activeMs)} / {session.pauseSeconds ? `${session.pauseSeconds} s` : 'ohne Denkpause'}</span></div>
-      <div className="flex flex-wrap gap-1" aria-label="Fragennavigation">{session.questions.map((ref, i) => { const itemKey = questionKey(ref.examId, ref.questionNumber); return <button key={`${itemKey}-${i}`} type="button" aria-label={`Frage ${i + 1}`} aria-current={i === session.currentIndex ? 'step' : undefined} className={`min-w-9 rounded border p-2 text-sm ${i === session.currentIndex ? 'bg-sky-900 text-white' : session.checked.includes(itemKey) ? 'bg-emerald-100' : 'bg-white'}`} onClick={() => requestAction({ kind: 'go', target: i })}>{i + 1}</button>; })}</div>
+      <nav className="flex flex-wrap gap-2" aria-label="Fragennavigation">{session.questions.map((ref, i) => {
+        const itemKey = questionKey(ref.examId, ref.questionNumber);
+        const status = roundStatuses[itemKey];
+        return <button key={`${itemKey}-${i}`} type="button" aria-label={`Frage ${i + 1}, ${QUESTION_STATUS[status].label}`} title={`Frage ${i + 1}: ${QUESTION_STATUS[status].label}`} aria-current={i === session.currentIndex ? 'step' : undefined} data-result={status} className={`min-w-9 rounded border p-2 text-sm ${QUESTION_STATUS[status].style} ${i === session.currentIndex ? 'ring-2 ring-sky-900 ring-offset-1' : ''}`} onClick={() => requestAction({ kind: 'go', target: i })}>{i + 1}</button>;
+      })}</nav>
+      <p className="text-xs text-zinc-500">Grün: richtig · Rot: falsch · Blau: noch nicht geprüft · Gelb: ohne Lösungsschlüssel. Der Rahmen zeigt die aktuelle Frage.</p>
       <article className="space-y-4 rounded-xl border bg-white p-5"><QuestionAnnotations examId={current.examId} number={current.question.number} text={current.question.question.replace(/^\[T\d+_\d+\]\s*/, '')} />
-        <ul className="space-y-2">{current.question.options.map((option, i) => { const bits = selectedBits.padEnd(current.question.options.length, '0'); const selectedOption = bits[i] === '1'; const right = current.question.correctAnswers?.[i] === '1'; return <li key={i} className="flex items-start gap-2"><button type="button" disabled={checked} className={`flex-1 rounded-lg border p-3 text-left text-sm ${checked && answerView && right ? 'border-emerald-400 bg-emerald-50' : selectedOption ? 'border-sky-800 bg-sky-50' : ''}`} onClick={() => { const nextBits = current.question.type === 'SC' ? bits.split('').map((_, n) => n === i ? '1' : '0').join('') : bits.split('').map((b, n) => n === i ? b === '1' ? '0' : '1' : b).join(''); persistSession({ ...session, selections: { ...session.selections, [key]: nextBits } }); }}><strong className="mr-2">{String.fromCharCode(65 + i)}.</strong><CrossedOption examId={current.examId} number={current.question.number} optionIndex={i}>{option || 'Nicht im Protokoll überliefert'}</CrossedOption></button><CrossOutButton examId={current.examId} number={current.question.number} optionIndex={i} /></li>; })}</ul>
-        {checked && answerView && <div className="rounded bg-sky-50 p-3 text-sm"><strong>{current.question.correctAnswers?.includes('1') ? selectedBits === current.question.correctAnswers ? 'Richtig' : 'Nicht ganz' : 'Keine gesicherte Lösung'}</strong>{current.question.correctAnswers?.includes('1') && <p>Lösung: {current.question.correctAnswers.split('').map((bit, i) => bit === '1' ? String.fromCharCode(65 + i) : '').filter(Boolean).join(', ')}</p>}{current.question.explanation && <p className="mt-2">{current.question.explanation}</p>}</div>}
+        <ul className="space-y-2">{current.question.options.map((option, i) => {
+          const bits = selectedBits.padEnd(current.question.options.length, '0');
+          const status = roundOptionStatus(current.question, bits, i, checked && answerView);
+          return <li key={i} className="flex items-start gap-2">
+            <button type="button" disabled={checked} data-option-result={status} className={`flex min-w-0 flex-1 items-start gap-2 rounded-lg border p-3 text-left text-sm ${OPTION_STYLE[status]}`} onClick={() => {
+              const nextBits = current.question.type === 'SC' ? bits.split('').map((_, n) => n === i ? '1' : '0').join('') : bits.split('').map((b, n) => n === i ? b === '1' ? '0' : '1' : b).join('');
+              persistSession({ ...session, selections: { ...session.selections, [key]: nextBits } });
+            }}>
+              <strong className="shrink-0">{String.fromCharCode(65 + i)}.</strong>
+              <span className="min-w-0 flex-1"><CrossedOption examId={current.examId} number={current.question.number} optionIndex={i}>{option || 'Nicht im Protokoll überliefert'}</CrossedOption></span>
+              {status === 'correct' && <span className="shrink-0 text-emerald-600"><CheckCircle className="h-4 w-4" aria-hidden /><span className="sr-only">Richtige Antwort</span></span>}
+              {status === 'wrong' && <span className="shrink-0 text-red-600"><XCircle className="h-4 w-4" aria-hidden /><span className="sr-only">Falsch gewählte Antwort</span></span>}
+            </button>
+            <CrossOutButton examId={current.examId} number={current.question.number} optionIndex={i} />
+          </li>;
+        })}</ul>
+        {checked && answerView && <>
+          <div role="status" className={`rounded-lg p-3 text-sm ${currentStatus === 'correct' ? 'bg-emerald-50 text-emerald-900' : currentStatus === 'wrong' ? 'bg-red-50 text-red-900' : 'bg-amber-50 text-amber-900'}`}>
+            <strong>{currentStatus === 'correct' ? 'Richtig beantwortet' : currentStatus === 'wrong' ? 'Falsch beantwortet' : 'Keine gesicherte Lösung'}</strong>
+            {current.question.correctAnswers?.includes('1') && <p className="mt-1">Lösung: {current.question.correctAnswers.split('').map((bit, i) => bit === '1' ? String.fromCharCode(65 + i) : '').filter(Boolean).join(', ')}</p>}
+          </div>
+          <RoundQuestionExplanation key={`${key}:${exams.find((exam) => exam.id === current.examId)?.updatedAt}`} examId={current.examId} examVersion={exams.find((exam) => exam.id === current.examId)?.updatedAt || ''} question={current.question} selection={selectedBits} />
+        </>}
         <div className="rounded bg-amber-50 p-3 text-xs">High Yield: {yieldReasons(current, session.weights || weights).map((r) => `${r.text} (+${r.points})`).join(' · ') || 'Keine persönlichen Prioritätssignale'}</div>
         <QuestionThoughts examId={current.examId} number={current.question.number} />
       </article>

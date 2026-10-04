@@ -7,6 +7,7 @@ import { getProgress } from '@/lib/altfragenStore';
 import { readReview } from '@/lib/altfragenReview';
 import { buildKreuzInsights, type InsightRow, type InsightStatus } from '@/lib/altfragenInsights';
 import type { ExamSummary, StoredExam } from '@/lib/altfragenTypes';
+import { displayText } from '@/lib/altfragenText';
 
 type Insights = ReturnType<typeof buildKreuzInsights>;
 type StatusFilter = 'alle' | InsightStatus;
@@ -20,13 +21,13 @@ const STATUS_LABEL: Record<InsightStatus, string> = {
 };
 
 function analysisText(rows: InsightRow[]): string {
-  return rows.map((row) => [
+  return displayText(rows.map((row) => [
     `${row.examTitle} · Frage ${row.questionNumber} · ${STATUS_LABEL[row.status]}${row.topic ? ` · ${row.topic}` : ''}`,
     row.question,
     `Meine Antwort: ${row.selected}`,
     `Lösung: ${row.solution}`,
     row.repeats ? `Wiederholungen: ${row.repeats}; zuletzt ${row.lastRepeat}` : '',
-  ].filter(Boolean).join('\n')).join('\n\n');
+  ].filter(Boolean).join('\n')).join('\n\n'));
 }
 
 export function AltfragenInsights() {
@@ -67,7 +68,7 @@ export function AltfragenInsights() {
     return data.rows.filter((row) =>
       (examFilter === 'alle' || row.examId === examFilter) &&
       (statusFilter === 'alle' || row.status === statusFilter) &&
-      (!query || `${row.question} ${row.topic} ${row.selected} ${row.solution}`.toLocaleLowerCase('de-DE').includes(query))
+      (!query || displayText(`${row.question} ${row.topic} ${row.selected} ${row.solution}`).toLocaleLowerCase('de-DE').includes(query))
     );
   }, [data, examFilter, statusFilter, search]);
 
@@ -153,12 +154,12 @@ export function AltfragenInsights() {
                 <div className="flex flex-wrap items-center gap-2 text-xs text-zinc-500">
                   <span>{row.examTitle} · Frage {row.questionNumber}</span>
                   <span className={`rounded-full px-2 py-0.5 font-medium ${row.status === 'falsch' ? 'bg-red-100 text-red-800' : row.status === 'richtig' ? 'bg-green-100 text-green-800' : 'bg-slate-100 text-slate-700'}`}>{STATUS_LABEL[row.status]}</span>
-                  {row.topic && <span>· {row.topic}</span>}
+                  {row.topic && <span>· {displayText(row.topic)}</span>}
                 </div>
-                <p className="mt-3 whitespace-pre-wrap text-sm text-zinc-900">{row.question}</p>
+                <p className="mt-3 whitespace-pre-wrap text-sm text-zinc-900">{displayText(row.question)}</p>
                 {row.status !== 'offen' && <div className="mt-3 grid gap-2 text-sm sm:grid-cols-2">
-                  <p className="rounded-md bg-slate-50 p-3"><strong>Meine Antwort:</strong> {row.selected}</p>
-                  <p className="rounded-md bg-sky-50 p-3"><strong>Lösung:</strong> {row.solution}</p>
+                  <p className="rounded-md bg-slate-50 p-3"><strong>Meine Antwort:</strong> {displayText(row.selected)}</p>
+                  <p className="rounded-md bg-sky-50 p-3"><strong>Lösung:</strong> {displayText(row.solution)}</p>
                 </div>}
                 {row.repeats > 0 && <p className="mt-2 text-xs text-zinc-500">{row.repeats} Wiederholung{row.repeats === 1 ? '' : 'en'} · zuletzt {row.lastRepeat}</p>}
               </article>)}
