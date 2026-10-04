@@ -11,6 +11,7 @@ import { mergeDaily, readLocalActivity, type LocalActivityStore } from '@/lib/al
 import { getProgress, saveProgress } from '@/lib/altfragenStore';
 import { mergeExamProgress } from '@/lib/altfragenProgressMerge';
 import { readAnnotations, readReview, readReviewSettings, saveReview, saveReviewSettings, ANNOTATION_KEY, type QuestionAnnotation, type ReviewSettings, type ReviewStore } from '@/lib/altfragenReview';
+import { mergeInlineNotes } from '@/lib/altfragenAnnotations';
 
 export const BACKUP_VERSION = 2 as const;
 
@@ -143,6 +144,7 @@ export function importKreuzData(backup: KreuzDataBackup): {
         crossedOut: [...new Set([...(local.crossedOut || []), ...(imported.crossedOut || [])])],
         highlights: [...(local.highlights || []), ...(imported.highlights || [])]
           .filter((range, i, all) => all.findIndex((other) => other.start === range.start && other.end === range.end) === i),
+        inlineNotes: mergeInlineNotes(local.inlineNotes, imported.inlineNotes),
       };
     }
     localStorage.setItem(ANNOTATION_KEY, JSON.stringify(merged));
