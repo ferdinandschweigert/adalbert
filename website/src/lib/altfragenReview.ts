@@ -24,6 +24,7 @@ export type ReviewAttempt = {
 export type ReviewQuestion = { examId: string; questionNumber: number };
 export type ReviewSession = {
   id: string;
+  annotationScope?: 'round';
   title: string;
   questions: ReviewQuestion[];
   currentIndex: number;
@@ -91,6 +92,32 @@ export function readAnnotations(): Record<string, QuestionAnnotation> {
   return readJson(ANNOTATION_KEY, {});
 }
 
+function roundAnnotationKey(roundId: string, examId: string, number: number): string {
+  return `round:${roundId}:${questionKey(examId, number)}`;
+}
+
+/** Notes and priorities belong to the question; working marks belong to the round. */
+export function annotationForQuestion(all: Record<string, QuestionAnnotation>, examId: string, number: number, roundId?: string): QuestionAnnotation {
+  const personal = all[questionKey(examId, number)] || emptyAnnotation();
+  if (!roundId) return personal;
+  const marks = all[roundAnnotationKey(roundId, examId, number)] || emptyAnnotation();
+  return { ...personal, highlights: marks.highlights, crossedOut: marks.crossedOut };
+}
+
+/** Keep the marks visible in old saved rounds without carrying them into new rounds. */
+export function initializeRoundAnnotations(session: ReviewSession): ReviewSession {
+  if (session.annotationScope === 'round') return session;
+  const all = readAnnotations();
+  for (const ref of session.questions) {
+    const key = roundAnnotationKey(session.id, ref.examId, ref.questionNumber);
+    const old = all[questionKey(ref.examId, ref.questionNumber)];
+    if (!all[key] && old) all[key] = { ...emptyAnnotation(), highlights: old.highlights, crossedOut: old.crossedOut };
+  }
+  localStorage.setItem(ANNOTATION_KEY, JSON.stringify(all));
+  window.dispatchEvent(new Event('adalbert-annotations-changed'));
+  return { ...session, annotationScope: 'round' };
+}
+
 export function readReviewSettings(): ReviewSettings | null {
   return readJson<ReviewSettings | null>(REVIEW_SETTINGS_KEY, null);
 }
@@ -99,9 +126,14 @@ export function saveReviewSettings(value: ReviewSettings): void {
   localStorage.setItem(REVIEW_SETTINGS_KEY, JSON.stringify(value));
 }
 
-export function saveAnnotation(examId: string, number: number, value: QuestionAnnotation): void {
+export function saveAnnotation(examId: string, number: number, value: QuestionAnnotation, roundId?: string): void {
   const all = readAnnotations();
-  all[questionKey(examId, number)] = value;
+  const key = questionKey(examId, number);
+  if (roundId) {
+    const personal = all[key] || emptyAnnotation();
+    all[key] = { ...value, highlights: personal.highlights, crossedOut: personal.crossedOut };
+    all[roundAnnotationKey(roundId, examId, number)] = { ...emptyAnnotation(), highlights: value.highlights, crossedOut: value.crossedOut };
+  } else all[key] = value;
   localStorage.setItem(ANNOTATION_KEY, JSON.stringify(all));
   window.dispatchEvent(new Event('adalbert-annotations-changed'));
 }
