@@ -56,6 +56,7 @@ export function AltfragenRounds() {
   const [highYield, setHighYield] = useState(false);
   const [session, setSession] = useState<ReviewSession | null>(null);
   const [answerView, setAnswerView] = useState(false);
+  const [explanationRequest, setExplanationRequest] = useState<{ questionKey: string; optionIndex: number; sequence: number } | null>(null);
   const [showResults, setShowResults] = useState(false);
   const [pending, setPending] = useState<{ kind: 'check' | 'go' | 'results'; target?: number } | null>(null);
   const [revision, setRevision] = useState(0);
@@ -271,8 +272,12 @@ export function AltfragenRounds() {
         <ul className="space-y-2">{current.question.options.map((option, i) => {
           const bits = selectedBits.padEnd(current.question.options.length, '0');
           const status = roundOptionStatus(current.question, bits, i, checked && answerView);
-          return <li key={i} className="flex items-start gap-2">
-            <button type="button" disabled={checked} data-option-result={status} className={`flex min-w-0 flex-1 items-start gap-2 rounded-lg border p-3 text-left text-sm ${OPTION_STYLE[status]}`} onClick={() => {
+          return <li key={i} className="relative">
+            <button type="button" disabled={checked && !answerView} title={checked && answerView ? `Erklärung zu Antwort ${String.fromCharCode(65 + i)} öffnen` : undefined} aria-controls={checked && answerView ? `round-option-explanation-${i}` : undefined} data-option-result={status} className={`flex min-h-14 w-full min-w-0 items-start gap-2 rounded-lg border py-3 pl-3 pr-14 text-left text-sm ${OPTION_STYLE[status]}`} onClick={() => {
+              if (checked && answerView) {
+                setExplanationRequest((previous) => ({ questionKey: key, optionIndex: i, sequence: (previous?.sequence || 0) + 1 }));
+                return;
+              }
               const nextBits = current.question.type === 'SC' ? bits.split('').map((_, n) => n === i ? '1' : '0').join('') : bits.split('').map((b, n) => n === i ? b === '1' ? '0' : '1' : b).join('');
               persistSession({ ...session, selections: { ...session.selections, [key]: nextBits } });
             }}>
@@ -281,7 +286,7 @@ export function AltfragenRounds() {
               {status === 'correct' && <span className="shrink-0 text-emerald-600"><CheckCircle className="h-4 w-4" aria-hidden /><span className="sr-only">Richtige Antwort</span></span>}
               {status === 'wrong' && <span className="shrink-0 text-red-600"><XCircle className="h-4 w-4" aria-hidden /><span className="sr-only">Falsch gewählte Antwort</span></span>}
             </button>
-            <CrossOutButton examId={current.examId} number={current.question.number} optionIndex={i} />
+            <CrossOutButton examId={current.examId} number={current.question.number} optionIndex={i} integrated />
           </li>;
         })}</ul>
         {checked && answerView && <>
@@ -289,7 +294,7 @@ export function AltfragenRounds() {
             <strong>{currentStatus === 'correct' ? 'Richtig beantwortet' : currentStatus === 'wrong' ? 'Falsch beantwortet' : 'Keine gesicherte Lösung'}</strong>
             {current.question.correctAnswers?.includes('1') && <p className="mt-1">Lösung: {current.question.correctAnswers.split('').map((bit, i) => bit === '1' ? String.fromCharCode(65 + i) : '').filter(Boolean).join(', ')}</p>}
           </div>
-          <RoundQuestionExplanation key={`${key}:${exams.find((exam) => exam.id === current.examId)?.updatedAt}`} examId={current.examId} examVersion={exams.find((exam) => exam.id === current.examId)?.updatedAt || ''} question={current.question} selection={selectedBits} />
+          <RoundQuestionExplanation key={`${key}:${exams.find((exam) => exam.id === current.examId)?.updatedAt}`} examId={current.examId} examVersion={exams.find((exam) => exam.id === current.examId)?.updatedAt || ''} question={current.question} selection={selectedBits} openOption={explanationRequest?.questionKey === key ? explanationRequest : undefined} />
         </>}
         <div className="rounded bg-amber-50 p-3 text-xs">High Yield: {yieldReasons(current, session.weights || weights).map((r) => `${r.text} (+${r.points})`).join(' · ') || 'Keine persönlichen Prioritätssignale'}</div>
         <QuestionThoughts examId={current.examId} number={current.question.number} />

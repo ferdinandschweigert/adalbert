@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { BookOpen, ChevronDown, Loader2 } from 'lucide-react';
 import type { ExplanationMeta, OptionRationale, ParsedQuestion } from '@/lib/altfragenTypes';
 import { displayText } from '@/lib/altfragenText';
@@ -16,16 +16,18 @@ type Explanation = {
 // Contains public question explanations only, never answers, notes or progress.
 const cache = new Map<string, Explanation>();
 
-export function RoundQuestionExplanation({ examId, examVersion, question, selection }: {
+export function RoundQuestionExplanation({ examId, examVersion, question, selection, openOption }: {
   examId: string;
   examVersion: string;
   question: ParsedQuestion;
   selection: string;
+  openOption?: { optionIndex: number; sequence: number };
 }) {
   const cacheKey = `${examId}:${examVersion}:${question.number}`;
   const [explanation, setExplanation] = useState<Explanation | null>(() => cache.get(cacheKey) || null);
   const [error, setError] = useState('');
   const [retry, setRetry] = useState(0);
+  const optionDetails = useRef<Record<number, HTMLDetailsElement | null>>({});
 
   useEffect(() => {
     if (cache.has(cacheKey)) return;
@@ -54,6 +56,14 @@ export function RoundQuestionExplanation({ examId, examVersion, question, select
     void load();
     return () => controller.abort();
   }, [cacheKey, examId, question.number, retry]);
+
+  useEffect(() => {
+    if (!openOption) return;
+    const detail = optionDetails.current[openOption.optionIndex];
+    if (!detail) return;
+    detail.open = true;
+    detail.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }, [explanation, openOption]);
 
   const hasKey = Boolean(question.correctAnswers?.includes('1'));
   const source = explanation?.explanationMeta?.source === 'llm' || explanation?.explanationMeta?.source === 'cursor'
@@ -87,7 +97,7 @@ export function RoundQuestionExplanation({ examId, examVersion, question, select
           const correct = hasKey && question.correctAnswers?.[index] === '1';
           const selected = selection[index] === '1';
           const wrongSelection = hasKey && selected && !correct;
-          return <details key={index} open={correct || selected} className={`group rounded-lg border bg-white ${correct ? 'border-emerald-300' : wrongSelection ? 'border-red-300' : 'border-slate-200'}`}>
+          return <details key={index} id={`round-option-explanation-${index}`} ref={(node) => { optionDetails.current[index] = node; }} open={correct || selected} className={`group rounded-lg border bg-white ${correct ? 'border-emerald-300' : wrongSelection ? 'border-red-300' : 'border-slate-200'}`}>
             <summary className="flex cursor-pointer list-none items-start gap-2 px-3 py-3 text-sm font-medium text-zinc-800 [&::-webkit-details-marker]:hidden">
               <ChevronDown className="mt-0.5 h-4 w-4 shrink-0 text-zinc-400 transition group-open:rotate-180" aria-hidden />
               <span className="min-w-0"><span>{String.fromCharCode(65 + index)}. {displayText(option)}</span>

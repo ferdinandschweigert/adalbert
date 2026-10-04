@@ -1245,20 +1245,26 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                 const distractorKey =
                   question && `${question.number}:${optIndex}`;
                 const distractorOpen = distractorKey
-                  ? Boolean(expandedDistractors[distractorKey])
+                  ? expandedDistractors[distractorKey] ?? isRight
                   : false;
 
                 return (
                   <li key={optIndex} className="space-y-1.5">
-                    <div className="flex items-start gap-2">
+                    <div className="relative">
                     <button
                       type="button"
-                      disabled={answersLocked}
-                      onClick={() => handleSelect(optIndex)}
+                      disabled={answersLocked && !showFeedback}
+                      title={showFeedback ? `Erklärung zu Antwort ${letter(optIndex)} öffnen` : undefined}
+                      aria-expanded={showFeedback && hasKey && rationale?.text ? distractorOpen : undefined}
+                      aria-controls={showFeedback && hasKey && rationale?.text ? `option-explanation-${question.number}-${optIndex}` : undefined}
+                      onClick={() => {
+                        if (showFeedback && distractorKey) {
+                          setExpandedDistractors((prev) => ({ ...prev, [distractorKey]: true }));
+                        } else handleSelect(optIndex);
+                      }}
                       className={cn(
-                        'flex min-w-0 flex-1 items-start gap-3 rounded-lg border px-3 py-3 text-left text-sm transition',
-                        stateClass,
-                        answersLocked && 'cursor-default'
+                        'flex min-h-14 w-full min-w-0 items-start gap-3 rounded-lg border py-3 pl-3 pr-14 text-left text-sm transition',
+                        stateClass
                       )}
                     >
                       <span
@@ -1296,15 +1302,10 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                         )}
                       </span>
                     </button>
-                    <CrossOutButton examId={examId} number={question.number} optionIndex={optIndex} />
+                    <CrossOutButton examId={examId} number={question.number} optionIndex={optIndex} integrated />
                     </div>
-                    {showFeedback && hasKey && rationale?.text && isRight && (
-                      <p className="border-l-2 border-emerald-400 px-3 py-1.5 text-sm leading-relaxed text-emerald-950">
-                        {displayText(rationale.text)}
-                      </p>
-                    )}
-                    {showFeedback && hasKey && rationale?.text && !isRight && distractorKey && (
-                      <div className="border-l-2 border-red-300">
+                    {showFeedback && hasKey && rationale?.text && distractorKey && (
+                      <div id={`option-explanation-${question.number}-${optIndex}`} className={cn('border-l-2', isRight ? 'border-emerald-400' : 'border-red-300')}>
                         <button
                           type="button"
                           onClick={() =>
@@ -1322,10 +1323,10 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                               distractorOpen && 'rotate-180'
                             )}
                           />
-                          {distractorOpen ? 'Erklärung ausblenden' : 'Warum falsch?'}
+                          {distractorOpen ? 'Erklärung ausblenden' : isRight ? 'Warum richtig?' : 'Warum falsch?'}
                         </button>
                         {distractorOpen && (
-                          <p className="px-3 pb-1.5 text-sm leading-relaxed text-zinc-700">
+                          <p className={cn('px-3 pb-1.5 text-sm leading-relaxed', isRight ? 'text-emerald-950' : 'text-zinc-700')}>
                             {displayText(rationale.text)}
                           </p>
                         )}
