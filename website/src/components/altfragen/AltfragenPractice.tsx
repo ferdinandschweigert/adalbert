@@ -22,6 +22,7 @@ import {
 } from '@/lib/altfragenStore';
 import { recordLocalKreuzung } from '@/lib/altfragenLocalActivity';
 import { switchPracticeMode, uncheckedAnswerCount } from '@/lib/altfragenModeSwitch';
+import { displayText } from '@/lib/altfragenText';
 import {
   formatOptionLabel,
   mergeQuestionStatsMaps,
@@ -1299,7 +1300,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                     </div>
                     {showFeedback && hasKey && rationale?.text && isRight && (
                       <p className="border-l-2 border-emerald-400 px-3 py-1.5 text-sm leading-relaxed text-emerald-950">
-                        {rationale.text}
+                        {displayText(rationale.text)}
                       </p>
                     )}
                     {showFeedback && hasKey && rationale?.text && !isRight && distractorKey && (
@@ -1325,7 +1326,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                         </button>
                         {distractorOpen && (
                           <p className="px-3 pb-1.5 text-sm leading-relaxed text-zinc-700">
-                            {rationale.text}
+                            {displayText(rationale.text)}
                           </p>
                         )}
                       </div>
@@ -1416,7 +1417,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                       : 'KI-generiert — bitte kritisch prüfen.'}
                 </p>
                 <p className="text-sm leading-relaxed text-zinc-800">
-                  {currentExplanation.explanation}
+                  {displayText(currentExplanation.explanation)}
                 </p>
                 {currentExplanation.topicLabel && currentExplanation.topicUrl && (
                   <a
@@ -1426,7 +1427,7 @@ export function AltfragenPractice({ examId }: { examId: string }) {
                     className="inline-flex items-center gap-2 rounded-md border border-[#cfe0f0] bg-white px-3 py-2 text-sm font-medium text-[#002F5D] transition hover:bg-[#e8f1f9]"
                   >
                     <BookOpen className="h-4 w-4" />
-                    {currentExplanation.topicLabel}
+                    {displayText(currentExplanation.topicLabel)}
                   </a>
                 )}
               </div>

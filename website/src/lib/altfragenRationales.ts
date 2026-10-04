@@ -1,12 +1,13 @@
 import type { OptionRationale, ParsedQuestion } from '@/lib/altfragenTypes';
 import { buildLlmConfig, generateTextWithFallback } from '@/lib/llmClient';
+import { displayText } from '@/lib/altfragenText';
 
 function letter(i: number): string {
   return String.fromCharCode(65 + i);
 }
 
 export function ambossSearchUrl(query: string): string {
-  const q = query.replace(/\s+/g, ' ').trim().slice(0, 100);
+  const q = displayText(query).replace(/\s+/g, ' ').trim().slice(0, 100);
   // next.amboss.com is the real library search (www.amboss.com/de/search is 404)
   return `https://next.amboss.com/de/search?q=${encodeURIComponent(q)}`;
 }

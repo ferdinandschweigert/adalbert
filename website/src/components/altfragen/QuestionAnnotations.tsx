@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { emptyAnnotation, highlightSegments, readAnnotations, saveAnnotation, questionKey, type QuestionAnnotation } from '@/lib/altfragenReview';
+import { displayHighlightRanges, displayText, displayTextWithOffsets } from '@/lib/altfragenText';
 
 function useAnnotation(examId: string, number: number): [QuestionAnnotation, (next: QuestionAnnotation) => void] {
   const [all, setAll] = useState<Record<string, QuestionAnnotation>>({});
@@ -18,6 +19,7 @@ export function QuestionAnnotations({ examId, number, text }: { examId: string; 
   const [annotation, save] = useAnnotation(examId, number);
   const [pending, setPending] = useState<{ start: number; end: number } | null>(null);
   const textRef = useRef<HTMLSpanElement>(null);
+  const decoded = displayTextWithOffsets(text);
   const capture = () => {
     const root = textRef.current;
     const selection = window.getSelection();
@@ -27,19 +29,21 @@ export function QuestionAnnotations({ examId, number, text }: { examId: string; 
     const before = range.cloneRange();
     before.selectNodeContents(root);
     before.setEnd(range.startContainer, range.startOffset);
-    const start = before.toString().length;
-    const end = start + range.toString().length;
+    const displayStart = before.toString().length;
+    const displayEnd = displayStart + range.toString().length;
+    const start = decoded.sourceOffsets[displayStart];
+    const end = decoded.sourceOffsets[displayEnd];
     if (end > start) setPending({ start, end });
   };
-  const segments = highlightSegments(text, annotation.highlights);
+  const segments = highlightSegments(decoded.text, displayHighlightRanges(decoded, annotation.highlights));
   return (
     <div className="space-y-3">
       <h2 className="text-base font-medium leading-relaxed text-zinc-900 md:text-lg">
         <span className="mr-2 text-[#002F5D]">#{number}</span>
         <span ref={textRef} onMouseUp={capture} onKeyUp={capture} onTouchEnd={capture}>
           {segments.map(({ start, end, marked }) => {
-            return marked ? <mark key={start} className="bg-yellow-200">{text.slice(start, end)}</mark>
-              : <span key={start}>{text.slice(start, end)}</span>;
+            return marked ? <mark key={start} className="bg-yellow-200">{decoded.text.slice(start, end)}</mark>
+              : <span key={start}>{decoded.text.slice(start, end)}</span>;
           })}
         </span>
       </h2>
@@ -72,5 +76,5 @@ export function CrossOutButton({ examId, number, optionIndex }: { examId: string
 
 export function CrossedOption({ examId, number, optionIndex, children }: { examId: string; number: number; optionIndex: number; children: React.ReactNode }) {
   const [annotation] = useAnnotation(examId, number);
-  return <span className={annotation.crossedOut.includes(optionIndex) ? 'line-through opacity-55' : ''}>{children}</span>;
+  return <span className={annotation.crossedOut.includes(optionIndex) ? 'line-through opacity-55' : ''}>{typeof children === 'string' ? displayText(children) : children}</span>;
 }
