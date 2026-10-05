@@ -1,8 +1,19 @@
-# Note: Root package.json is needed for Vercel to detect the project structure
-# Only ignore build artifacts, not package.json
-/node_modules/
-/dist/
+# If Vercel Root Directory is the repo root, skip everything that is not the website app.
+# Prefer setting Root Directory to `website` in the Vercel project settings.
 /src/
+/scripts/
+/tests/
+/assets/
+/dist/
+/node_modules/
+/website/node_modules/
+/website/scripts/
+/website/.next/
 /*.apkg
 /.env
-/tests/
+/FEATURES.md
+/CHANGELOG.md
+/SETUP.md
+/README.md
+/VERCEL_ROOT_DIRECTORY_FIX.md
+/tsconfig.json

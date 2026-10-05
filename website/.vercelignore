@@ -1,0 +1,5 @@
+# Keep Vercel uploads/builds lean (Root Directory = website)
+scripts/
+*.md
+.env.example
+eslint.config.mjs

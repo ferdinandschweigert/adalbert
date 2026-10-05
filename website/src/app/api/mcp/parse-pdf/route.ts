@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { PDFParse } from 'pdf-parse';
 import { buildLlmConfig, generateTextWithFallback } from '@/lib/llmClient';
 
 export const runtime = 'nodejs';
@@ -155,7 +154,9 @@ function normalizeQuestions(questions: ParsedQuestion[]): ParsedQuestion[] {
 const MIN_EXTRACT_CHARS = 200;
 
 // Extrahiert Text aus PDF (pdf-parse 2.x: PDFParse + getText)
+// Dynamic import keeps heavy native PDF deps off the Vercel build critical path.
 async function extractTextFromPdf(buffer: Buffer): Promise<string> {
+  const { PDFParse } = await import('pdf-parse');
   const parser = new PDFParse({ data: buffer });
   try {
     const result = await parser.getText();
